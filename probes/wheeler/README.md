@@ -122,14 +122,60 @@ This is not a derivation of electric charge or charge energy. It demonstrates a 
 
 The strongest positive result is the exact quadratic dependence of the **mean** energy on `W`; the strongest caution is that the ground-state sector energy is not generically quadratic.
 
-## Next proposed probe
+## WHEELER-06 — Composite charge / additivity audit
 
-**WHEELER-06 — Composite charge / additivity audit**
+**Status: PROVED for the current signed-orientation invariant; computationally stress-tested**
 
-Question: if two independently defined oriented histories are combined into a composite admissible system, is the conserved signed invariant additive under composition and preserved under local pair creation/annihilation and binding transformations?
+Let an oriented subsystem `A` have invariant
 
-Target relation:
+`Q(A) = sum_i s_i`, with `s_i in {-1,+1}`,
+
+and similarly for subsystem `B`.
+
+For the composite obtained by disjoint union or concatenation without relabelling orientations,
 
 `Q(A ⊕ B) = Q(A) + Q(B)`.
 
-Only after additivity is established should fractional-local/integer-global constructions be tested.
+This is immediate from finite additivity of the signed sum. In the periodic-time formulation the corresponding topological statement is that winding/degree is additive under concatenation of loops:
+
+`deg(A * B) = deg(A) + deg(B)`.
+
+### Binding and pair annihilation
+
+Allow local binding/rearrangement moves that only permute orientation labels, and local creation/annihilation of balanced pairs
+
+`(+,-) <-> empty`
+
+or
+
+`(-,+) <-> empty`.
+
+Each such move changes the local particle count but contributes net zero to `Q`, so total `Q` is preserved.
+
+Therefore composites can neutralize internally while retaining the correct net invariant. Examples:
+
+- `Q=+1` combined with `Q=-1` gives a neutral composite `Q=0`;
+- `Q=+1` combined with `Q=+1` gives `Q=+2`;
+- any number of locally created `(+,-)` pairs leaves the composite total unchanged.
+
+### Stress test
+
+50,000 random pairs of finite orientation words were generated. For each pair, the concatenated composite satisfied
+
+`Q(A ⊕ B) = Q(A) + Q(B)`.
+
+Random adjacent opposite-orientation annihilations were then applied repeatedly. Violations of total-`Q` conservation: `0`.
+
+### Interpretation
+
+Additivity is not an emergent surprise here; it is built into the algebraic/topological definition of the invariant. The useful result is narrower: the current EHF Wheeler invariant has the minimum composition property required of a charge-like conserved quantity and remains conserved under pair-changing local moves.
+
+This does **not** identify `Q` with electric charge. A nontrivial next step is to determine whether fractional local contributions can arise from an observer/coarse-graining map while complete admissible composites remain integer-valued, without inserting Standard Model fractions by hand.
+
+## Next proposed probe
+
+**WHEELER-07 — Fractional local / integer global audit**
+
+Question: can a locally defined or observer-projected contribution take rational values while the global topological invariant remains integer and admissible complete composites obey an integrality constraint?
+
+Strict anti-tuning criterion: fractions such as `1/3` or `2/3` must not be assumed as input. They count only if forced by symmetry, orbit size, equivalence classes, or admissibility.
