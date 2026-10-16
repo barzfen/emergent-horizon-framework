@@ -70,10 +70,66 @@ implying diffusive relaxation scaling `tau ~ n^2`.
 
 This last result is currently more important for EHF than the particle analogy: a simple local admissible dynamics yields a recognizable long-wavelength transport law.
 
+## WHEELER-05 — Local imbalance energy / sector-energy audit
+
+**Status: PASS with important qualification**
+
+Choose a local energy that does not reference the global winding label:
+
+`E[s] = sum_i (s_{i-1} + s_i + s_{i+1})^2`, with `s_i in {-1,+1}` on a cycle.
+
+The local exchange dynamics remains `(+,-) <-> (-,+)`, so `W = sum_i s_i` is conserved without appearing explicitly in the energy.
+
+### Computational results
+
+Exact enumeration for `n = 6, 8, 10, 12` shows that different `W` sectors acquire different energy distributions even though the rule is purely local.
+
+The sector minimum energy is not a clean quadratic function of `W`; it contains plateaus and parity/local-packing effects. Therefore the strongest hoped-for result — a natural `E_min(W) proportional to W^2` law — **did not emerge**.
+
+However, the **sector-average energy** is exactly quadratic in `W`.
+
+Expanding the local rule gives
+
+`E = 3n + 4 sum_i s_i s_{i+1} + 2 sum_i s_i s_{i+2}`.
+
+For the uniform ensemble of configurations at fixed `W`, any distinct-site correlation satisfies
+
+`<s_i s_j>_W = (W^2 - n) / [n(n-1)]`.
+
+Hence
+
+`<E>_W = 3n + 6 (W^2 - n)/(n-1)`.
+
+So the local interaction generates an exact sector dependence proportional to `W^2` in the ensemble mean, without any explicit global `W` term being inserted.
+
+### Dynamical consequence
+
+Using continuous-time local exchange with Metropolis rates based only on the same local energy, the relaxation gap becomes sector-dependent. For example at `n=10`, inverse-temperature parameter `beta=0.1` gave approximately:
+
+- `W=0`: gap `0.749936`
+- `|W|=2`: gap `0.719395`
+- `|W|=4`: gap `0.649355`
+- `|W|=6`: gap `0.542341`
+- `|W|=8`: gap `0.381966`
+
+Thus the topological/conserved sector now has genuine dynamical consequences once the local energy is coupled to the admissible moves.
+
+### Interpretation
+
+This is not a derivation of electric charge or charge energy. It demonstrates a narrower structural result:
+
+`local rule + conserved global sector -> emergent sector-dependent thermodynamics/dynamics`.
+
+The strongest positive result is the exact quadratic dependence of the **mean** energy on `W`; the strongest caution is that the ground-state sector energy is not generically quadratic.
+
 ## Next proposed probe
 
-**WHEELER-05 — Local admissibility / sector-energy audit**
+**WHEELER-06 — Composite charge / additivity audit**
 
-Question: can purely local interaction rules, with no explicit dependence on the global winding label, generate sector-dependent minimum energies or other dynamical distinctions?
+Question: if two independently defined oriented histories are combined into a composite admissible system, is the conserved signed invariant additive under composition and preserved under local pair creation/annihilation and binding transformations?
 
-Failure criterion: if sector dependence appears only after inserting `W` explicitly into the energy/Hamiltonian, the mechanism has not emerged.
+Target relation:
+
+`Q(A ⊕ B) = Q(A) + Q(B)`.
+
+Only after additivity is established should fractional-local/integer-global constructions be tested.
