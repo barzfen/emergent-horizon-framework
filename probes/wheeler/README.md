@@ -217,10 +217,54 @@ The retained structural result is:
 
 The unresolved question is what, if anything, could force a threefold structure from deeper admissibility/dynamics rather than stipulating `Z_3`.
 
+## WHEELER-08 — Threefold selection / no-hand-tuning audit
+
+**Status: PARTIAL PASS — minimality selects 3, but EHF does not yet uniquely force the minimality principle**
+
+Start from the generic `Z_m` fractionalization of WHEELER-07 and add only orientation reversal / conjugation:
+
+`r -> -r mod m`.
+
+Ask for the smallest cyclic quotient that contains:
+
+1. one neutral self-conjugate class `0`;
+2. at least one nonzero class whose conjugate is distinct, so particle-like and antiparticle-like sectors are not the same state;
+3. no additional charge sectors beyond that single conjugate pair.
+
+The inversion orbits are:
+
+- `m=2`: `{0}`, `{1}`. The nonzero class is self-conjugate, so there is no distinct particle/antiparticle pair.
+- `m=3`: `{0}`, `{1,2}`. Exactly one neutral class plus exactly one distinct conjugate pair.
+- `m=4`: `{0}`, `{1,3}`, `{2}`. An extra nonzero self-conjugate class appears.
+- `m=5`: `{0}`, `{1,4}`, `{2,3}`. Two distinct nonzero conjugate pairs appear.
+- larger `m` similarly introduce additional conjugate pairs and/or, for even `m`, an extra self-conjugate element `m/2`.
+
+Thus `Z_3` is the **unique smallest cyclic symmetry** with the minimal nontrivial conjugation structure
+
+`neutral + one distinct ± pair`.
+
+Equivalently, `m=3` is the first cyclic quotient for which a nonzero orientation class is not its own inverse.
+
+### What this does and does not show
+
+This is a genuine structural selection of 3 under a minimality requirement; `3` was not inserted as the target denominator in the orbit calculation.
+
+However, the result does **not** prove that EHF itself forces Nature to choose the minimal nontrivial conjugation quotient. The extra principle
+
+`choose the smallest admissible nontrivial quotient`
+
+is currently an assumption/selection criterion, not a theorem derived from growth, Hamilton closure, or observer dynamics.
+
+Therefore WHEELER-08 does not derive quark thirds. Its retained result is narrower:
+
+`cyclic quotient + orientation reversal + minimal nontrivial distinct conjugation -> Z_3`.
+
+This is stronger than WHEELER-07's arbitrary-`m` accommodation but still falls short of a physical explanation.
+
 ## Next proposed probe
 
-**WHEELER-08 — Threefold selection / no-hand-tuning audit**
+**WHEELER-09 — Dynamical minimality / quotient-selection audit**
 
-Question: can the existing EHF ingredients (orientation, Hamilton-history closure, local reversals, growth, parity, observer equivalence, or admissibility) select a minimal nontrivial threefold quotient or orbit structure, while excluding equally natural `Z_2`, `Z_4`, etc. constructions?
+Question: can the local EHF dynamics or growth rule prefer `Z_3` dynamically, rather than by an externally imposed smallest-nontrivial-sector principle?
 
-Failure criterion: if `m=3` must simply be chosen as an input, then EHF has not explained thirds; it has only represented them.
+Candidate tests: compare admissible-state counts, connectivity, spectral gaps, defect/repair cost, and growth stability across generic `Z_m` quotients under the same local rule. A real selection result would require `m=3` to be distinguished by a property not defined in terms of wanting three sectors.
