@@ -1,0 +1,42 @@
+# Emergent Horizon Framework (EHF)
+
+EHF is an exploratory mathematical-physics research programme investigating whether effective geometry, time, observers, information, and physical-law-like behaviour can emerge from constrained combinatorial histories whose primitive structure is admissible comparison and transformation.
+
+## Research discipline
+
+EHF distinguishes sharply between:
+
+- **PROVED** — established analytically from stated assumptions.
+- **COMPUTATIONAL** — reproduced numerically/computationally but not yet proved.
+- **EMPIRICAL PATTERN** — suggestive regularity requiring stronger validation.
+- **CONJECTURE** — precise claim not yet established.
+- **SPECULATIVE** — conceptual possibility or analogy, not evidence.
+- **FALSIFIED / NEGATIVE** — tested and not supported under the stated model.
+
+The repository is intended to preserve both positive and negative results and to separate demonstrated mathematics from physical interpretation.
+
+## Current priorities
+
+1. Formalize the minimal substrate: configurations, admissibility, transformations, growth, and histories.
+2. Consolidate previous EHF probes and identify which results survive audit.
+3. Derive recognizable effective laws from microscopic rules rather than identifying analogies after the fact.
+4. Study spectral gaps, transport, internal time/records, topology, and observer-relative descriptions.
+5. Maintain explicit separation between mathematical result and proposed physical interpretation.
+
+## Repository map
+
+- `STATUS.md` — current assessment of the programme and strongest results.
+- `ROADMAP.md` — immediate research priorities and falsification targets.
+- `foundation/` — primitives and foundational definitions.
+- `formal/` — definitions, lemmas, conjectures, and proved results.
+- `research/` — topic-oriented research notes.
+- `probes/` — individual computational and analytic probes.
+- `code/` — reproducible probe code.
+- `data/` — retained datasets that cannot be cheaply regenerated.
+- `archive/` — superseded or speculative material retained for provenance.
+
+## Current status
+
+EHF is **not** an established physical theory. Its present value is as a constrained combinatorial research framework with several mathematically nontrivial results and testable emergence questions.
+
+The standard for progress is increasingly strict: a useful EHF result should either prove a structural property, survive reproducible computation, derive an effective law, or clearly falsify a proposed mechanism.
