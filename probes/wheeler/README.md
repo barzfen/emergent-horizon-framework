@@ -172,10 +172,55 @@ Additivity is not an emergent surprise here; it is built into the algebraic/topo
 
 This does **not** identify `Q` with electric charge. A nontrivial next step is to determine whether fractional local contributions can arise from an observer/coarse-graining map while complete admissible composites remain integer-valued, without inserting Standard Model fractions by hand.
 
+## WHEELER-07 — Fractional local / integer global audit
+
+**Status: PASS for generic fractionalization, NEGATIVE for unique thirds selection**
+
+To avoid inserting Standard Model fractions by hand, consider the generic cyclic symmetry class `Z_m`. A local sector is labelled by a residue `r in {0,1,...,m-1}` and is assigned the observer-projected rational contribution
+
+`q_local = r/m`.
+
+A complete admissible composite must satisfy the closure/integrality condition
+
+`sum_a r_a = 0 mod m`.
+
+Then automatically
+
+`Q_total = sum_a r_a/m`
+
+is an integer for every admissible complete composite.
+
+This produces locally fractional but globally integer charge-like values from symmetry/closure alone. Examples include:
+
+- `m=2`: half-units locally, integer totals globally;
+- `m=3`: thirds locally, including `1/3` and `2/3`, integer totals globally;
+- `m=4`: quarter-units locally;
+- and analogously for arbitrary `m`.
+
+### Exhaustive finite check
+
+For `m = 2,3,...,8`, all residue strings up to length 5 satisfying the closure condition `sum r = 0 mod m` were enumerated. Every admissible complete composite had integer `Q_total`; no violations were found.
+
+### Key negative result
+
+The current Wheeler/Hamilton-history structure does **not** select `m=3` over `m=2,4,5,...`.
+
+Therefore the appearance of `1/3` and `2/3` in the `m=3` case is not yet an explanation of quark-like fractional electric charge. Fractionalization is generic once a `Z_m` quotient/closure structure is supplied.
+
+This is an important anti-overfitting result: the framework can accommodate thirds, but does not derive why nature would choose threefold fractionalization.
+
+### Interpretation
+
+The retained structural result is:
+
+`finite cyclic symmetry + local residue labels + global closure -> rational local contributions + integer complete-composite invariant`.
+
+The unresolved question is what, if anything, could force a threefold structure from deeper admissibility/dynamics rather than stipulating `Z_3`.
+
 ## Next proposed probe
 
-**WHEELER-07 — Fractional local / integer global audit**
+**WHEELER-08 — Threefold selection / no-hand-tuning audit**
 
-Question: can a locally defined or observer-projected contribution take rational values while the global topological invariant remains integer and admissible complete composites obey an integrality constraint?
+Question: can the existing EHF ingredients (orientation, Hamilton-history closure, local reversals, growth, parity, observer equivalence, or admissibility) select a minimal nontrivial threefold quotient or orbit structure, while excluding equally natural `Z_2`, `Z_4`, etc. constructions?
 
-Strict anti-tuning criterion: fractions such as `1/3` or `2/3` must not be assumed as input. They count only if forced by symmetry, orbit size, equivalence classes, or admissibility.
+Failure criterion: if `m=3` must simply be chosen as an input, then EHF has not explained thirds; it has only represented them.
