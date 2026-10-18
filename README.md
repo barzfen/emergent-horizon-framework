@@ -43,6 +43,6 @@ The standard for progress is increasingly strict: a useful EHF result should eit
 
 ## Latest Wheeler work
 
-[WHEELER-58](probes/wheeler/WHEELER-58.md) establishes consistent history measures under fixed preparation and compatible observer maps. Both event-uniform and state-uniform alternatives pass; consistency alone does not select between them.
+[WHEELER-59](probes/wheeler/WHEELER-59.md) proves that event-uniform growth descends to rotation classes, while rooted state-uniform growth depends on the chosen root. Ordinary quotient majorization fails; entropy nondecrease survives with orbit-size reference weights. Ordinary class Shannon monotonicity remains open. [WHEELER-58](probes/wheeler/WHEELER-58.md) established the underlying consistent history measures.
 
 Read [ERRATA-01](probes/wheeler/ERRATA-01.md) before relying on earlier clock, observer-cost, erasure or measure-selection claims. The [review](research/wheeler/REVIEW-01.md) and [reproducible checks](code/wheeler/README.md) record what was and was not independently verified.

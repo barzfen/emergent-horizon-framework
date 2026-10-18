@@ -1,0 +1,206 @@
+{
+  "arithmetic": "Fraction; entropy diagnostics use float log2",
+  "quotient": "rotations only; no reflection or bit-complement quotient",
+  "layers": [
+    {
+      "n": 4,
+      "rooted_sources": 6,
+      "rotation_classes": 3,
+      "event_and_run_weighted_lumpability": true,
+      "state_uniform_members_disagreeing_with_canonical": 2,
+      "largest_quotient_column": "1",
+      "target": "11111",
+      "rooted_and_orbit_weighted_column_bounds": true
+    },
+    {
+      "n": 5,
+      "rooted_sources": 12,
+      "rotation_classes": 4,
+      "event_and_run_weighted_lumpability": true,
+      "state_uniform_members_disagreeing_with_canonical": 5,
+      "largest_quotient_column": "1",
+      "target": "111111",
+      "rooted_and_orbit_weighted_column_bounds": true
+    },
+    {
+      "n": 6,
+      "rooted_sources": 20,
+      "rotation_classes": 5,
+      "event_and_run_weighted_lumpability": true,
+      "state_uniform_members_disagreeing_with_canonical": 9,
+      "largest_quotient_column": "1",
+      "target": "1111111",
+      "rooted_and_orbit_weighted_column_bounds": true
+    },
+    {
+      "n": 7,
+      "rooted_sources": 30,
+      "rotation_classes": 6,
+      "event_and_run_weighted_lumpability": true,
+      "state_uniform_members_disagreeing_with_canonical": 14,
+      "largest_quotient_column": "1",
+      "target": "11111111",
+      "rooted_and_orbit_weighted_column_bounds": true
+    },
+    {
+      "n": 8,
+      "rooted_sources": 46,
+      "rotation_classes": 8,
+      "event_and_run_weighted_lumpability": true,
+      "state_uniform_members_disagreeing_with_canonical": 22,
+      "largest_quotient_column": "1",
+      "target": "111111111",
+      "rooted_and_orbit_weighted_column_bounds": true
+    },
+    {
+      "n": 9,
+      "rooted_sources": 74,
+      "rotation_classes": 10,
+      "event_and_run_weighted_lumpability": true,
+      "state_uniform_members_disagreeing_with_canonical": 40,
+      "largest_quotient_column": "1",
+      "target": "1111111111",
+      "rooted_and_orbit_weighted_column_bounds": true
+    },
+    {
+      "n": 10,
+      "rooted_sources": 122,
+      "rotation_classes": 15,
+      "event_and_run_weighted_lumpability": true,
+      "state_uniform_members_disagreeing_with_canonical": 69,
+      "largest_quotient_column": "1",
+      "target": "11111111111",
+      "rooted_and_orbit_weighted_column_bounds": true
+    },
+    {
+      "n": 11,
+      "rooted_sources": 200,
+      "rotation_classes": 20,
+      "event_and_run_weighted_lumpability": true,
+      "state_uniform_members_disagreeing_with_canonical": 124,
+      "largest_quotient_column": "1",
+      "target": "111111111111",
+      "rooted_and_orbit_weighted_column_bounds": true
+    },
+    {
+      "n": 12,
+      "rooted_sources": 324,
+      "rotation_classes": 31,
+      "event_and_run_weighted_lumpability": true,
+      "state_uniform_members_disagreeing_with_canonical": 205,
+      "largest_quotient_column": "17/16",
+      "target": "0001110001111",
+      "rooted_and_orbit_weighted_column_bounds": true
+    },
+    {
+      "n": 13,
+      "rooted_sources": 522,
+      "rotation_classes": 42,
+      "event_and_run_weighted_lumpability": true,
+      "state_uniform_members_disagreeing_with_canonical": 352,
+      "largest_quotient_column": "1",
+      "target": "11111111111111",
+      "rooted_and_orbit_weighted_column_bounds": true
+    },
+    {
+      "n": 14,
+      "rooted_sources": 842,
+      "rotation_classes": 64,
+      "event_and_run_weighted_lumpability": true,
+      "state_uniform_members_disagreeing_with_canonical": 581,
+      "largest_quotient_column": "10/9",
+      "target": "000111100011111",
+      "rooted_and_orbit_weighted_column_bounds": true
+    }
+  ],
+  "root_dependence_example": {
+    "00111": {
+      "event": {
+        "000111": "3/7",
+        "001111": "4/7"
+      },
+      "state": {
+        "000111": "1/3",
+        "001111": "2/3"
+      }
+    },
+    "11100": {
+      "event": {
+        "000111": "3/7",
+        "001111": "4/7"
+      },
+      "state": {
+        "000111": "2/3",
+        "001111": "1/3"
+      }
+    }
+  },
+  "majorization_counterexample": {
+    "prior": {
+      "000110001111": "1/4",
+      "000111000111": "1/4",
+      "000111001111": "1/4",
+      "000111100111": "1/4"
+    },
+    "target": "0001110001111",
+    "incoming_probabilities": {
+      "000110001111": "3/16",
+      "000111000111": "1/2",
+      "000111001111": "3/16",
+      "000111100111": "3/16"
+    },
+    "target_probability": "17/64",
+    "largest_source_probability": "1/4",
+    "output": {
+      "0000110001111": "1/16",
+      "0000111000111": "1/8",
+      "0000111001111": "1/16",
+      "0000111100011": "1/16",
+      "0000111100111": "1/16",
+      "0001100011111": "5/64",
+      "0001110001111": "17/64",
+      "0001110011111": "5/64",
+      "0001111001111": "1/8",
+      "0001111100111": "5/64"
+    },
+    "H_before_bits": 2.0,
+    "H_after_bits": 3.120065785553653,
+    "orbit_weighted_H_before_bits": 5.334962500721156,
+    "orbit_weighted_H_after_bits": 6.820505503694745
+  },
+  "history_checks": [
+    {
+      "root": "00111",
+      "horizon": 3,
+      "exact_path_law_equality": true
+    },
+    {
+      "root": "11100",
+      "horizon": 3,
+      "exact_path_law_equality": true
+    },
+    {
+      "root": "00110011",
+      "horizon": 3,
+      "exact_path_law_equality": true
+    }
+  ],
+  "alternative_kernels": {
+    "event": {
+      "000111": "3/7",
+      "001111": "4/7"
+    },
+    "uniform_distinct_quotient_targets": {
+      "000111": "1/2",
+      "001111": "1/2"
+    },
+    "uniform_reroot_then_state_uniform": {
+      "000111": "7/15",
+      "001111": "8/15"
+    },
+    "rotation_invariant_run_weighted_q_1_over_20": {
+      "000111": "15/16",
+      "001111": "1/16"
+    }
+  }
+}

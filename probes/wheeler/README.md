@@ -1,16 +1,20 @@
 # Wheeler / Hamilton-History Probe Series
 
-## Current continuation — 18 October 2026
+## Current continuation — 19 October 2026
 
+- [WHEELER-59: root/rotation quotient and entropy](WHEELER-59.md) is complete.
 - [WHEELER-58: projective measures and observer consistency](WHEELER-58.md) is complete.
 - [ERRATA-01: authoritative corrections](ERRATA-01.md) records qualifications and withdrawn claims.
 - [Independent review](../../research/wheeler/REVIEW-01.md) gives scope, evidence and limitations.
 - [Reproducible code](../../code/wheeler/README.md) and [W58 exact results](../../data/wheeler/wheeler-58-results.json) are retained.
-- Next proposed: **WHEELER-59 — Root/Rotation Quotient / Measure-and-Entropy Audit**.
+- [W59 exact results](../../data/wheeler/wheeler-59-results.json) reproduce the quotient tests and majorization counterexample.
+- Next proposed: **WHEELER-60 — Quotient Shannon Entropy / Symmetry Audit**.
 
-Both event-uniform and state-uniform growth are horizon-consistent under the specified rooted-word convention. Consistency does not choose a unique measure or imply a physical second law.
+Both event-uniform and state-uniform growth are horizon-consistent under the specified rooted-word convention. Consistency does not choose a unique measure or imply a physical second law. WHEELER-59 shows that event-uniform growth is root independent, while rooted state-uniform growth is not. Ordinary quotient majorization fails; orbit-weighted entropy monotonicity survives.
 
 ## Standalone reports
+
+- [WHEELER-59 — Root/Rotation Quotient / Measure-and-Entropy Audit](WHEELER-59.md)
 
 - [WHEELER-09 — Minimal admissible cyclic sector / dynamical-selection audit](WHEELER-09.md)
 - [EHF-WHEELER-10 — Robustness of Threefold Selection](WHEELER-10.md)

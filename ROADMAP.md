@@ -34,8 +34,8 @@ Every proposed physical interpretation should include a null model and an explic
 
 ## Immediate next work
 
-- Wheeler review corrections and WHEELER-58 are complete; retain the exact checks alongside subsequent probes.
-- Next Wheeler probe: WHEELER-59, root/rotation quotient, measure covariance, lumpability and entropy.
+- Wheeler review corrections and WHEELER-58–59 are complete; retain the exact checks alongside subsequent probes.
+- Next Wheeler probe: WHEELER-60, prove or disprove ordinary Shannon entropy monotonicity on rotation classes; distinguish it from the falsified majorization claim and the proved orbit-weighted entropy law.
 - Separately repair the growth/comparison clock connection with an explicit combined generator.
 - Replace infinite-history/one-event cost proxies with a finite-horizon inference experiment before claiming an optimal observer budget.
 - Revisit prior spectral-gap probes and extract exact definitions, code, and scaling data.
