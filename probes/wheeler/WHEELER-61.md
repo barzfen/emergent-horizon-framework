@@ -4,6 +4,8 @@
 
 **Outcome:** ordinary rotation-class Shannon entropy can decrease during unconditioned event-uniform growth from a single fixed cycle. No selection or reweighting of intermediate outcomes is necessary. The minimal seed `(2,2,2,2)` shows no decrease through 40 growth events; that narrower case is not settled for all times here.
 
+> **Subsequent resolution:** [WHEELER-62](WHEELER-62.md) proves strict all-time entropy increase for the minimal seed `(2,2,2,2)`. Statements below that this narrower question is open describe the WHEELER-61 stage; its other-seed counterexample remains valid.
+
 ## 1. The preparation question
 
 [WHEELER-60](WHEELER-60.md) falsified universal quotient-entropy monotonicity using a specified two-class mixture. The question here is whether a decrease can also occur in the actual endpoint distributions generated from one deterministic starting state.

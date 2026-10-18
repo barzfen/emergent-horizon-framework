@@ -34,8 +34,8 @@ Every proposed physical interpretation should include a null model and an explic
 
 ## Immediate next work
 
-- Wheeler review corrections and WHEELER-58–61 are complete; retain the exact checks alongside subsequent probes.
-- Next Wheeler probe: WHEELER-62, the minimal seed’s all-time quotient entropy via the exact ordered-run/symmetry identity. WHEELER-61 already falsifies the universal single-seed claim; rooted and orbit-weighted entropy laws remain valid.
+- Wheeler review corrections and WHEELER-58–62 are complete; retain the exact checks alongside subsequent probes.
+- Next Wheeler probe: WHEELER-63, minimal seeds in D=6,8,… sectors with the correct rotation-stabilizer entropy correction. WHEELER-62 proves all-time strict monotonicity and logarithmic entropy growth for the D=4 minimal seed; WHEELER-61’s other-seed counterexample remains valid.
 - Separately repair the growth/comparison clock connection with an explicit combined generator.
 - Replace infinite-history/one-event cost proxies with a finite-horizon inference experiment before claiming an optimal observer budget.
 - Revisit prior spectral-gap probes and extract exact definitions, code, and scaling data.

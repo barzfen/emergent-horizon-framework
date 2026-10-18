@@ -2,6 +2,7 @@
 
 ## Current continuation — 19 October 2026
 
+- [WHEELER-62: all-time minimal-seed entropy theorem](WHEELER-62.md) is complete.
 - [WHEELER-61: single-seed unconditioned entropy counterexample](WHEELER-61.md) is complete.
 - [WHEELER-60: quotient Shannon entropy counterexample](WHEELER-60.md) is complete.
 - [WHEELER-59: root/rotation quotient and entropy](WHEELER-59.md) is complete.
@@ -12,11 +13,14 @@
 - [W59 exact results](../../data/wheeler/wheeler-59-results.json) reproduce the quotient tests and majorization counterexample.
 - [W60 exact results](../../data/wheeler/wheeler-60-results.json) retain the two-source counterexample and integer entropy-sign certificate.
 - [W61 exact results](../../data/wheeler/wheeler-61-results.json) retain the single-seed endpoint laws, rational sign certificate and minimal-seed scan.
-- Next proposed: **WHEELER-62 — Minimal-Seed Entropy / Symmetry Bound Audit**.
+- [W62 exact results](../../data/wheeler/wheeler-62-results.json) retain the polynomial certificates and minimal-seed proof checks.
+- Next proposed: **WHEELER-63 — Many-Domain Minimal Seeds / Rotation-Symmetry Audit**.
 
-Both event-uniform and state-uniform growth are horizon-consistent under the specified rooted-word convention. Consistency does not choose a unique measure or imply a physical second law. WHEELER-59 shows that event-uniform growth is root independent, while rooted state-uniform growth is not. Ordinary quotient majorization fails; orbit-weighted entropy monotonicity survives. WHEELER-60 additionally falsifies universal ordinary class Shannon monotonicity, using an exact two-source preparation. WHEELER-61 shows that a decrease also occurs in unconditioned growth from a single seed.
+Both event-uniform and state-uniform growth are horizon-consistent under the specified rooted-word convention. Consistency does not choose a unique measure or imply a physical second law. WHEELER-59 shows that event-uniform growth is root independent, while rooted state-uniform growth is not. Ordinary quotient majorization fails; orbit-weighted entropy monotonicity survives. WHEELER-60 additionally falsifies universal ordinary class Shannon monotonicity, using an exact two-source preparation. WHEELER-61 shows that a decrease also occurs in unconditioned growth from a single seed. WHEELER-62 proves strict all-time increase for the specific minimal seed `(2,2,2,2)`, with entropy `3 log₂ t + O(1)`.
 
 ## Standalone reports
+
+- [WHEELER-62 — Minimal-Seed Entropy / Symmetry Bound Audit](WHEELER-62.md)
 
 - [WHEELER-61 — Reachable Preparations / Unconditioned Entropy Audit](WHEELER-61.md)
 

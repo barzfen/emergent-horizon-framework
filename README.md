@@ -43,6 +43,6 @@ The standard for progress is increasingly strict: a useful EHF result should eit
 
 ## Latest Wheeler work
 
-[WHEELER-61](probes/wheeler/WHEELER-61.md) proves that ordinary rotation-class entropy can decrease even during unconditioned growth from a single seed: `(2,100,2,100)` loses 0.0136737948 bits between its second and third events. An exact symmetry identity explains the decrease. The minimal seed increases through 40 tested events; its all-time behavior remains open. Rooted and orbit-weighted entropy theorems survive. [WHEELER-60](probes/wheeler/WHEELER-60.md) established the earlier arbitrary-preparation counterexample.
+[WHEELER-62](probes/wheeler/WHEELER-62.md) proves strict ordinary rotation-class entropy increase at every growth event from the minimal seed `(2,2,2,2)`, with leading growth `3 log₂ t + O(1)`. An exact periodicity bound controls the symmetry correction. This is preparation-specific: [WHEELER-61](probes/wheeler/WHEELER-61.md) retains its certified decrease from a different deterministic seed. Rooted and orbit-weighted entropy theorems remain valid.
 
 Read [ERRATA-01](probes/wheeler/ERRATA-01.md) before relying on earlier clock, observer-cost, erasure or measure-selection claims. The [review](research/wheeler/REVIEW-01.md) and [reproducible checks](code/wheeler/README.md) record what was and was not independently verified.

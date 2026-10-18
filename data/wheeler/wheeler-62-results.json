@@ -1,0 +1,366 @@
+{
+  "seed": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "D": 4,
+  "initial_size": 8,
+  "theorem": "Ordinary rotation-class Shannon entropy increases strictly at every integer growth step.",
+  "scope": "This seed only; other seeds have certified decreases in WHEELER-61.",
+  "periodic_probability_formula": "rho_(2m)=495*(m^4+12m^3+53m^2+102m+84)/(4*product_(j=0..5)(2m+2j+1)); rho_odd=0",
+  "closed_form_polynomial_identity_verified": true,
+  "G_shifted_coefficients_constant_first": [
+    543510,
+    1112940,
+    756542,
+    246615,
+    42260,
+    3675,
+    128
+  ],
+  "positive_coefficient_certificate": true,
+  "exceptional_steps": {
+    "t0_exact_gain_bits": "1",
+    "t2_rho": "3/13",
+    "t2_gain_strictly_above_bits": "1/52",
+    "integer_inequality": "14^4 > 2*11^4",
+    "verified": true
+  },
+  "sample_step_bounds": [
+    {
+      "t_to_t_plus_1": 0,
+      "positive_lower_bound_bits": "1",
+      "strict_except_t0": false
+    },
+    {
+      "t_to_t_plus_1": 1,
+      "positive_lower_bound_bits": "6/13",
+      "strict_except_t0": true
+    },
+    {
+      "t_to_t_plus_1": 2,
+      "positive_lower_bound_bits": "1/52",
+      "strict_except_t0": true
+    },
+    {
+      "t_to_t_plus_1": 3,
+      "positive_lower_bound_bits": "142/455",
+      "strict_except_t0": true
+    },
+    {
+      "t_to_t_plus_1": 4,
+      "positive_lower_bound_bits": "549/7280",
+      "strict_except_t0": true
+    },
+    {
+      "t_to_t_plus_1": 10,
+      "positive_lower_bound_bits": "65937/646646",
+      "strict_except_t0": true
+    },
+    {
+      "t_to_t_plus_1": 40,
+      "positive_lower_bound_bits": "193755195/3589207076",
+      "strict_except_t0": true
+    },
+    {
+      "t_to_t_plus_1": 100,
+      "positive_lower_bound_bits": "13120592883/502792303216",
+      "strict_except_t0": true
+    },
+    {
+      "t_to_t_plus_1": 1000,
+      "positive_lower_bound_bits": "6265674284271411/2119084028413003652",
+      "strict_except_t0": true
+    }
+  ],
+  "convolution_checks": [
+    {
+      "m": 0,
+      "convolution_matches": true
+    },
+    {
+      "m": 1,
+      "convolution_matches": true
+    },
+    {
+      "m": 2,
+      "convolution_matches": true
+    },
+    {
+      "m": 3,
+      "convolution_matches": true
+    },
+    {
+      "m": 4,
+      "convolution_matches": true
+    },
+    {
+      "m": 5,
+      "convolution_matches": true
+    },
+    {
+      "m": 6,
+      "convolution_matches": true
+    },
+    {
+      "m": 7,
+      "convolution_matches": true
+    },
+    {
+      "m": 8,
+      "convolution_matches": true
+    },
+    {
+      "m": 9,
+      "convolution_matches": true
+    },
+    {
+      "m": 10,
+      "convolution_matches": true
+    },
+    {
+      "m": 11,
+      "convolution_matches": true
+    },
+    {
+      "m": 12,
+      "convolution_matches": true
+    },
+    {
+      "m": 13,
+      "convolution_matches": true
+    },
+    {
+      "m": 14,
+      "convolution_matches": true
+    },
+    {
+      "m": 15,
+      "convolution_matches": true
+    },
+    {
+      "m": 16,
+      "convolution_matches": true
+    },
+    {
+      "m": 17,
+      "convolution_matches": true
+    },
+    {
+      "m": 18,
+      "convolution_matches": true
+    },
+    {
+      "m": 19,
+      "convolution_matches": true
+    },
+    {
+      "m": 20,
+      "convolution_matches": true
+    },
+    {
+      "m": 21,
+      "convolution_matches": true
+    },
+    {
+      "m": 22,
+      "convolution_matches": true
+    },
+    {
+      "m": 23,
+      "convolution_matches": true
+    },
+    {
+      "m": 24,
+      "convolution_matches": true
+    },
+    {
+      "m": 25,
+      "convolution_matches": true
+    },
+    {
+      "m": 26,
+      "convolution_matches": true
+    },
+    {
+      "m": 27,
+      "convolution_matches": true
+    },
+    {
+      "m": 28,
+      "convolution_matches": true
+    },
+    {
+      "m": 29,
+      "convolution_matches": true
+    },
+    {
+      "m": 30,
+      "convolution_matches": true
+    },
+    {
+      "m": 31,
+      "convolution_matches": true
+    },
+    {
+      "m": 32,
+      "convolution_matches": true
+    },
+    {
+      "m": 33,
+      "convolution_matches": true
+    },
+    {
+      "m": 34,
+      "convolution_matches": true
+    },
+    {
+      "m": 35,
+      "convolution_matches": true
+    },
+    {
+      "m": 36,
+      "convolution_matches": true
+    },
+    {
+      "m": 37,
+      "convolution_matches": true
+    },
+    {
+      "m": 38,
+      "convolution_matches": true
+    },
+    {
+      "m": 39,
+      "convolution_matches": true
+    },
+    {
+      "m": 40,
+      "convolution_matches": true
+    },
+    {
+      "m": 100,
+      "convolution_matches": true
+    },
+    {
+      "m": 1000,
+      "convolution_matches": true
+    }
+  ],
+  "endpoint_checks": [
+    {
+      "t": 0,
+      "classes": 1,
+      "periodic_mass": "1"
+    },
+    {
+      "t": 1,
+      "classes": 2,
+      "periodic_mass": "0"
+    },
+    {
+      "t": 2,
+      "classes": 6,
+      "periodic_mass": "3/13"
+    },
+    {
+      "t": 3,
+      "classes": 10,
+      "periodic_mass": "0"
+    },
+    {
+      "t": 4,
+      "classes": 19,
+      "periodic_mass": "51/455"
+    },
+    {
+      "t": 5,
+      "classes": 28,
+      "periodic_mass": "0"
+    },
+    {
+      "t": 6,
+      "classes": 44,
+      "periodic_mass": "106/1547"
+    },
+    {
+      "t": 7,
+      "classes": 60,
+      "periodic_mass": "0"
+    },
+    {
+      "t": 8,
+      "classes": 85,
+      "periodic_mass": "197/4199"
+    },
+    {
+      "t": 9,
+      "classes": 110,
+      "periodic_mass": "0"
+    },
+    {
+      "t": 10,
+      "classes": 146,
+      "periodic_mass": "1011/29393"
+    },
+    {
+      "t": 11,
+      "classes": 182,
+      "periodic_mass": "0"
+    },
+    {
+      "t": 12,
+      "classes": 231,
+      "periodic_mass": "17853/676039"
+    },
+    {
+      "t": 13,
+      "classes": 280,
+      "periodic_mass": "0"
+    },
+    {
+      "t": 14,
+      "classes": 344,
+      "periodic_mass": "3894/185725"
+    },
+    {
+      "t": 15,
+      "classes": 408,
+      "periodic_mass": "0"
+    },
+    {
+      "t": 16,
+      "classes": 489,
+      "periodic_mass": "1903/111435"
+    },
+    {
+      "t": 17,
+      "classes": 570,
+      "periodic_mass": "0"
+    },
+    {
+      "t": 18,
+      "classes": 670,
+      "periodic_mass": "18887/1330665"
+    },
+    {
+      "t": 19,
+      "classes": 770,
+      "periodic_mass": "0"
+    },
+    {
+      "t": 20,
+      "classes": 891,
+      "periodic_mass": "8679/723695"
+    }
+  ],
+  "entropy_bounds": {
+    "lower": "log2((t+9)*(t+10)*(t+11)/990)-1+rho_t",
+    "upper": "log2((binom(t+3,3)+I_even*(t/2+1))/2)"
+  },
+  "asymptotic_entropy_bits": "3*log2(t)+O(1)",
+  "even_time_periodic_asymptotic": "rho_t ~ 495/(64*t^2), t even",
+  "evidence": "All-time conclusions follow from the algebraic proof; finite checks verify implementation."
+}
