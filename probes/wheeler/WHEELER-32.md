@@ -1,5 +1,7 @@
 # WHEELER-32 — Record Composition / Markov-Naturality Audit
 
+> **Review correction — 18 October 2026:** The holding-time statement below requires a finite-rate, time-homogeneous **pure-jump** process with a fixed complete state between jumps. A general Markov semigroup need not have exponential holding times. See [ERRATA-01](ERRATA-01.md).
+
 ## Question
 Does EHF history/record composition force the semigroup law used in WHEELER-31, or can internal time retain memory?
 

@@ -1,5 +1,7 @@
 # WHEELER-11 — Derive the move rule from EHF primitives
 
+> **Review correction — 18 October 2026:** The unit boundary-transfer rule is a **conditional modelling assumption** here. The report does not yet supply a sufficiently explicit history/observer/reversal construction to derive its unit size and two-boundary support. Subsequent algebra using that rule is conditional on it. See [ERRATA-01](ERRATA-01.md).
+
 **Status: PARTIAL PASS**
 
 ## Question

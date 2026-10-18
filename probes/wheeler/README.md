@@ -1,5 +1,70 @@
 # Wheeler / Hamilton-History Probe Series
 
+## Current continuation — 18 October 2026
+
+- [WHEELER-58: projective measures and observer consistency](WHEELER-58.md) is complete.
+- [ERRATA-01: authoritative corrections](ERRATA-01.md) records qualifications and withdrawn claims.
+- [Independent review](../../research/wheeler/REVIEW-01.md) gives scope, evidence and limitations.
+- [Reproducible code](../../code/wheeler/README.md) and [W58 exact results](../../data/wheeler/wheeler-58-results.json) are retained.
+- Next proposed: **WHEELER-59 — Root/Rotation Quotient / Measure-and-Entropy Audit**.
+
+Both event-uniform and state-uniform growth are horizon-consistent under the specified rooted-word convention. Consistency does not choose a unique measure or imply a physical second law.
+
+## Standalone reports
+
+- [WHEELER-09 — Minimal admissible cyclic sector / dynamical-selection audit](WHEELER-09.md)
+- [EHF-WHEELER-10 — Robustness of Threefold Selection](WHEELER-10.md)
+- [WHEELER-11 — Derive the move rule from EHF primitives](WHEELER-11.md)
+- [WHEELER-12 — Quotient Uniqueness / Observer-Independence Audit](WHEELER-12.md)
+- [WHEELER-13 — Composite Spectrum / Proton–Electron Relation Audit](WHEELER-13.md)
+- [WHEELER-14 — Lift Splitting / Internal-Label Audit](WHEELER-14.md)
+- [WHEELER-15 — Lift Protection / Growth-Topology Audit](WHEELER-15.md)
+- [WHEELER-16 — Global-to-Local Defect Audit](WHEELER-16.md)
+- [WHEELER-17 — MICRO locking / soliton audit](WHEELER-17.md)
+- [WHEELER-18 — Vacuum Component / Emergent Label Audit](WHEELER-18.md)
+- [WHEELER-19 — Residual Invariant / Growth-Stability Audit](WHEELER-19.md)
+- [WHEELER-20 — Growth Quotient / Persistent-Sector Audit](WHEELER-20.md)
+- [WHEELER-21 — Boundary Current / Domain-Wall Unification Audit](WHEELER-21.md)
+- [WHEELER-22 — Boundary Energy / Mass-Gap Audit](WHEELER-22.md)
+- [WHEELER-23 — Dynamical Spectral Gap / Boundary-Hamiltonian Audit](WHEELER-23.md)
+- [WHEELER-24 — Confinement / Gap-Opening Audit](WHEELER-24.md)
+- [WHEELER-25 — Kinetic Geometry / Expander Audit](WHEELER-25.md)
+- [WHEELER-26 — Core-C Spectral Law / n=12 Validation Audit](WHEELER-26.md)
+- [WHEELER-27 — Core-C Representation / Exact Gap Proof Audit](WHEELER-27.md)
+- [WHEELER-28 — Rate Normalization / Continuum-Limit Audit](WHEELER-28.md)
+- [WHEELER-29 — Growth-Clock / Comparison-Rate Derivation Audit](WHEELER-29.md)
+- [WHEELER-30 — Clock-Naturality / Local-Rate Uniqueness Audit](WHEELER-30.md)
+- [WHEELER-31 — Internal-Time Generator / Additivity Audit](WHEELER-31.md)
+- [WHEELER-32 — Record Composition / Markov-Naturality Audit](WHEELER-32.md)
+- [WHEELER-33 — State-Sufficiency / Markov-Lift Audit](WHEELER-33.md)
+- [WHEELER-34 — Lumpability / Emergent-Memory Audit](WHEELER-34.md)
+- [WHEELER-35 — Observer Partition / Lumpability Audit](WHEELER-35.md)
+- [WHEELER-36 — Minimal Sufficient Observer State](WHEELER-36.md)
+- [WHEELER-37 — Observer-Memory Kernel / Hidden-D Reconstruction Audit](WHEELER-37.md)
+- [WHEELER-38 — Hidden-Sector Identifiability Audit](WHEELER-38.md)
+- [WHEELER-39 — Hidden-Sector Distinguishability / Many-Observer Audit](WHEELER-39.md)
+- [WHEELER-40 — Finite-Sample Discrimination / Sample-Complexity Audit](WHEELER-40.md)
+- [WHEELER-41 — Optimal Preparation / Observer Design Audit](WHEELER-41.md)
+- [WHEELER-42 — Information-per-Resource / Optimal Experimental Cost Audit](WHEELER-42.md)
+- [WHEELER-43 — Resource-Scaling / Cost-Exponent Audit](WHEELER-43.md)
+- [WHEELER-44 — Intrinsic Resource Law Audit](WHEELER-44.md)
+- [WHEELER-45 — Internal Observer Budget / Endogenous Cost Audit](WHEELER-45.md)
+- [WHEELER-46 — Observer Architecture / Selective Access Audit](WHEELER-46.md)
+- [WHEELER-47 — Filter Realizability / Internal Classification-Cost Audit](WHEELER-47.md)
+- [WHEELER-48 — Observer-Memory / Processing Tradeoff Audit](WHEELER-48.md)
+- [WHEELER-49 — Observer Thermodynamics / Record-Erasure Audit](WHEELER-49.md)
+- [WHEELER-50 — Internal Irreversibility / EHF Entropy Candidate Audit](WHEELER-50.md)
+- [WHEELER-51 — Dynamic Measure / Shannon-Entropy Audit](WHEELER-51.md)
+- [WHEELER-52 — Microstate-Channel / Majorization Audit](WHEELER-52.md)
+- [WHEELER-53 — Weighted Growth / Entropy-Robustness Audit](WHEELER-53.md)
+- [WHEELER-54 — Entropy-Monotone Measure Classification](WHEELER-54.md)
+- [WHEELER-55 — Natural-Measure Selection / Symmetry-and-Growth-Consistency Audit](WHEELER-55.md)
+- [WHEELER-56 — Maximum-Caliber / Least-Bias Measure Audit](WHEELER-56.md)
+- [WHEELER-57 — Primitive Event vs State Measure / Quotient-Consistency Audit](WHEELER-57.md)
+- [WHEELER-58 — Projective Measure / Multi-Step Consistency Audit](WHEELER-58.md)
+
+## Historical summaries of WHEELER-01–08
+
 Origin: re-examination of Wheeler's one-electron intuition through EHF Hamilton-history structure. The physical analogy is secondary; the retained results are the mathematical statements about projected multiplicity, signed crossings, topology, and dynamics.
 
 ## WHEELER-01 — Closed Hamilton history / real observer time
@@ -261,7 +326,7 @@ Therefore WHEELER-08 does not derive quark thirds. Its retained result is narrow
 
 This is stronger than WHEELER-07's arbitrary-`m` accommodation but still falls short of a physical explanation.
 
-## Next proposed probe
+## Historical next probe after WHEELER-08
 
 **WHEELER-09 — Dynamical minimality / quotient-selection audit**
 

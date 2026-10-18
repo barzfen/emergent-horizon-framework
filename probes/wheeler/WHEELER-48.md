@@ -1,5 +1,7 @@
 # WHEELER-48 — Observer-Memory / Processing Tradeoff Audit
 
+> **Review correction — 18 October 2026:** Constant-time counter operations assume a word-RAM model or amortized binary increment. Worst-case bit-operation cost and physical access to a global size statistic are separate questions. Exact metadata access is an architecture assumption. See [ERRATA-01](ERRATA-01.md).
+
 ## Question
 Can the observer architecture be derived by explicitly trading persistent memory against repeated processing work?
 

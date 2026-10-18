@@ -40,3 +40,9 @@ The repository is intended to preserve both positive and negative results and to
 EHF is **not** an established physical theory. Its present value is as a constrained combinatorial research framework with several mathematically nontrivial results and testable emergence questions.
 
 The standard for progress is increasingly strict: a useful EHF result should either prove a structural property, survive reproducible computation, derive an effective law, or clearly falsify a proposed mechanism.
+
+## Latest Wheeler work
+
+[WHEELER-58](probes/wheeler/WHEELER-58.md) establishes consistent history measures under fixed preparation and compatible observer maps. Both event-uniform and state-uniform alternatives pass; consistency alone does not select between them.
+
+Read [ERRATA-01](probes/wheeler/ERRATA-01.md) before relying on earlier clock, observer-cost, erasure or measure-selection claims. The [review](research/wheeler/REVIEW-01.md) and [reproducible checks](code/wheeler/README.md) record what was and was not independently verified.

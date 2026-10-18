@@ -1,0 +1,242 @@
+{
+  "convention": "Independent Wheeler checks. Python 3, numpy, scipy; run from repository root: python code/wheeler/review_audit.py.\nConvention: labelled words, insert BEFORE positions 0..n-1 (not n).\nMove graph: distinct non-self neighbours, cyclic length-3 reversal.\n",
+  "seed": 20261018,
+  "enumeration": [
+    {
+      "n": 4,
+      "states": 6,
+      "components": 3,
+      "rotation_components": 3,
+      "max_column": {
+        "0": "1",
+        "2": "1/2"
+      }
+    },
+    {
+      "n": 5,
+      "states": 12,
+      "components": 4,
+      "rotation_components": 4,
+      "max_column": {
+        "0": "1",
+        "2": "5/7"
+      }
+    },
+    {
+      "n": 6,
+      "states": 20,
+      "components": 10,
+      "rotation_components": 5,
+      "max_column": {
+        "0": "1",
+        "2": "3/4"
+      }
+    },
+    {
+      "n": 7,
+      "states": 30,
+      "components": 18,
+      "rotation_components": 6,
+      "max_column": {
+        "0": "1",
+        "2": "7/9"
+      }
+    },
+    {
+      "n": 8,
+      "states": 46,
+      "components": 32,
+      "rotation_components": 8,
+      "max_column": {
+        "0": "1",
+        "2": "4/5",
+        "4": "1/4"
+      }
+    },
+    {
+      "n": 9,
+      "states": 74,
+      "components": 42,
+      "rotation_components": 10,
+      "max_column": {
+        "0": "1",
+        "2": "9/11",
+        "4": "6/13"
+      }
+    },
+    {
+      "n": 10,
+      "states": 122,
+      "components": 58,
+      "rotation_components": 12,
+      "max_column": {
+        "0": "1",
+        "2": "5/6",
+        "4": "9/14"
+      }
+    },
+    {
+      "n": 11,
+      "states": 200,
+      "components": 74,
+      "rotation_components": 14,
+      "max_column": {
+        "0": "1",
+        "2": "11/13",
+        "4": "11/15"
+      }
+    },
+    {
+      "n": 12,
+      "states": 324,
+      "components": 112,
+      "rotation_components": 18,
+      "max_column": {
+        "0": "1",
+        "2": "6/7",
+        "4": "3/4",
+        "6": "1/6"
+      }
+    },
+    {
+      "n": 13,
+      "states": 522,
+      "components": 142,
+      "rotation_components": 22,
+      "max_column": {
+        "0": "1",
+        "2": "13/15",
+        "4": "13/17",
+        "6": "6/19"
+      }
+    },
+    {
+      "n": 14,
+      "states": 842,
+      "components": 216,
+      "rotation_components": 29,
+      "max_column": {
+        "0": "1",
+        "2": "7/8",
+        "4": "7/9",
+        "6": "9/20"
+      }
+    }
+  ],
+  "weighted": [
+    {
+      "n": 5,
+      "D": 2,
+      "q": 0.2,
+      "max_column": 1.3157894736842106
+    },
+    {
+      "n": 6,
+      "D": 2,
+      "q": 0.5,
+      "max_column": 1.0808823529411766
+    },
+    {
+      "n": 11,
+      "D": 4,
+      "q": 0.5,
+      "max_column": 1.2222222222222223
+    },
+    {
+      "n": 5,
+      "D": 2,
+      "q": 0.05,
+      "max_column": 1.5625,
+      "p_11000": 0.65549181781183,
+      "delta_entropy": -0.012675646381945294,
+      "delta_entropy_using_reported_p_11000_0345": 0.13388016640276368
+    },
+    {
+      "n": 5,
+      "D": 2,
+      "q": 0.01,
+      "max_column": 1.6447368421052633,
+      "p_11000": 0.664442769451452,
+      "delta_entropy": -0.20891796240412497
+    }
+  ],
+  "core_c": [
+    {
+      "n": 4,
+      "V": 3,
+      "degree": 2,
+      "gap": 3.0
+    },
+    {
+      "n": 5,
+      "V": 12,
+      "degree": 5,
+      "gap": 3.9999999999999964
+    },
+    {
+      "n": 6,
+      "V": 60,
+      "degree": 9,
+      "gap": 4.999999999999986
+    },
+    {
+      "n": 7,
+      "V": 360,
+      "degree": 14,
+      "gap": 5.999999999999993
+    },
+    {
+      "n": 8,
+      "V": 2520,
+      "degree": 20,
+      "gap": 6.999999999999994
+    }
+  ],
+  "mobile_D2": [
+    {
+      "n": 8,
+      "component_sizes": {
+        "8": 2,
+        "1": 24
+      },
+      "gap": 0.585786437626905
+    },
+    {
+      "n": 9,
+      "component_sizes": {
+        "9": 2,
+        "1": 36
+      },
+      "gap": 0.46791111376204386
+    }
+  ],
+  "growth_19": {
+    "balanced_sources": 6,
+    "unbalanced_sources": 48,
+    "balanced_descendants": 26,
+    "unbalanced_descendants": 156,
+    "intersection": 26
+  },
+  "cher": {
+    "values": {
+      "8": 0.002264807739630559,
+      "21": 0.010630772872554317,
+      "22": 0.011134320717204993,
+      "100": 0.02137714590614692,
+      "300": 0.02373399763481565
+    },
+    "best_per_n": 21,
+    "best_per_n_minus_1": 21
+  },
+  "event_example": {
+    "000111": 3,
+    "100111": 1,
+    "001111": 3
+  },
+  "symbol_bias_identity_residual": "sympy unavailable",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  }
+}

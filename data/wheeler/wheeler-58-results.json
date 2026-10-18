@@ -1,0 +1,209 @@
+{
+  "arithmetic": "fractions.Fraction",
+  "slot_convention": "insert before 0..n-1; no rotation quotient",
+  "layer_counts": [
+    {
+      "n": 4,
+      "valid_sources": 6,
+      "event_count_and_distinct_target_count_pass": true
+    },
+    {
+      "n": 5,
+      "valid_sources": 12,
+      "event_count_and_distinct_target_count_pass": true
+    },
+    {
+      "n": 6,
+      "valid_sources": 20,
+      "event_count_and_distinct_target_count_pass": true
+    },
+    {
+      "n": 7,
+      "valid_sources": 30,
+      "event_count_and_distinct_target_count_pass": true
+    },
+    {
+      "n": 8,
+      "valid_sources": 46,
+      "event_count_and_distinct_target_count_pass": true
+    },
+    {
+      "n": 9,
+      "valid_sources": 74,
+      "event_count_and_distinct_target_count_pass": true
+    },
+    {
+      "n": 10,
+      "valid_sources": 122,
+      "event_count_and_distinct_target_count_pass": true
+    },
+    {
+      "n": 11,
+      "valid_sources": 200,
+      "event_count_and_distinct_target_count_pass": true
+    },
+    {
+      "n": 12,
+      "valid_sources": 324,
+      "event_count_and_distinct_target_count_pass": true
+    },
+    {
+      "n": 13,
+      "valid_sources": 522,
+      "event_count_and_distinct_target_count_pass": true
+    },
+    {
+      "n": 14,
+      "valid_sources": 842,
+      "event_count_and_distinct_target_count_pass": true
+    }
+  ],
+  "exhaustive_horizon_checks": {
+    "initial_sizes": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "max_horizon": 3,
+    "root_and_measure_cases": 228,
+    "all_passed": true
+  },
+  "example_event": {
+    "horizon": 4,
+    "event_history_counts": [
+      1,
+      7,
+      56,
+      504,
+      5040
+    ],
+    "distinct_state_history_counts": [
+      1,
+      3,
+      9,
+      27,
+      81
+    ],
+    "observer_maps_checked": [
+      "full_word",
+      "n_N1_D",
+      "n_N1",
+      "first_bit",
+      "constant"
+    ],
+    "all_exact_checks_passed": true
+  },
+  "example_state": {
+    "horizon": 4,
+    "event_history_counts": [
+      1,
+      7,
+      56,
+      504,
+      5040
+    ],
+    "distinct_state_history_counts": [
+      1,
+      3,
+      9,
+      27,
+      81
+    ],
+    "observer_maps_checked": [
+      "full_word",
+      "n_N1_D",
+      "n_N1",
+      "first_bit",
+      "constant"
+    ],
+    "all_exact_checks_passed": true
+  },
+  "weighted_consistency": {
+    "horizon": 3,
+    "event_history_counts": [
+      1,
+      7,
+      56,
+      504
+    ],
+    "distinct_state_history_counts": [
+      1,
+      3,
+      9,
+      27
+    ],
+    "observer_maps_checked": [
+      "full_word",
+      "n_N1_D",
+      "n_N1",
+      "first_bit",
+      "constant"
+    ],
+    "all_exact_checks_passed": true
+  },
+  "example_first_step": {
+    "event": {
+      "000111": "3/7",
+      "100111": "1/7",
+      "001111": "3/7"
+    },
+    "state": {
+      "000111": "1/3",
+      "100111": "1/3",
+      "001111": "1/3"
+    }
+  },
+  "fixed_mixed_prior": {
+    "horizon": 3,
+    "event_history_counts": [
+      2,
+      22,
+      266,
+      3504
+    ],
+    "distinct_state_history_counts": [
+      2,
+      8,
+      34,
+      152
+    ],
+    "observer_maps_checked": [
+      "full_word",
+      "n_N1_D",
+      "n_N1",
+      "first_bit",
+      "constant"
+    ],
+    "all_exact_checks_passed": true
+  },
+  "unconstrained_uniform_history_prior": {
+    "0": {
+      "D2": "1/2",
+      "D4": "1/2"
+    },
+    "1": {
+      "D2": "5/11",
+      "D4": "6/11"
+    },
+    "2": {
+      "D2": "55/133",
+      "D4": "78/133"
+    }
+  },
+  "strong_lumpability_counterexample": {
+    "n": 9,
+    "N1": 4,
+    "D2_p_insert1": "5/11",
+    "D4_p_insert1": "6/13"
+  },
+  "fixed_preparation_order_check": {
+    "2": "5/22",
+    "4": "3/13"
+  },
+  "irregular_uniform_horizon_counterexample": {
+    "horizon1_Pa": "1/2",
+    "horizon2_Pa": "2/5"
+  }
+}

@@ -1,5 +1,7 @@
 # WHEELER-40 — Finite-Sample Discrimination / Sample-Complexity Audit
 
+> **Review correction — 18 October 2026:** The Beta-law Chernoff information concerns an **infinite-growth limiting observation**. Cost-normalized optima are conditional proxy calculations. In particular, dividing that information by work for one growth event does not define a finite-budget experiment. A common Core-C/MICRO state space and generator are also required before combining their event counts as one endogenous model. See [ERRATA-01](ERRATA-01.md).
+
 ## Goal
 Turn the WHEELER-39 asymptotic identifiability result into a finite-sample discrimination estimate for nearby hidden sectors.
 

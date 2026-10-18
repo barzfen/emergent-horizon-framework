@@ -1,5 +1,7 @@
 # WHEELER-41 — Optimal Preparation / Observer Design Audit
 
+> **Review correction — 18 October 2026:** The Beta-law Chernoff information concerns an **infinite-growth limiting observation**. Cost-normalized optima are conditional proxy calculations. In particular, dividing that information by work for one growth event does not define a finite-budget experiment. A common Core-C/MICRO state space and generator are also required before combining their event counts as one endogenous model. See [ERRATA-01](ERRATA-01.md).
+
 ## Question
 Given the hidden-sector discrimination problem from WHEELER-40, can an observer choose an initial preparation `(n0, N1,0)` that makes `D=2` and `D=4` substantially easier to distinguish?
 

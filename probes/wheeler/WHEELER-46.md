@@ -1,5 +1,7 @@
 # WHEELER-46 — Observer Architecture / Selective Access Audit
 
+> **Review correction — 18 October 2026:** The Beta-law Chernoff information concerns an **infinite-growth limiting observation**. Cost-normalized optima are conditional proxy calculations. In particular, dividing that information by work for one growth event does not define a finite-budget experiment. A common Core-C/MICRO state space and generator are also required before combining their event counts as one endogenous model. See [ERRATA-01](ERRATA-01.md).
+
 ## Question
 
 Does the linear observer-processing burden found in WHEELER-45 survive when the observer has a smarter architecture: filtering, selective attention, or preferential access to event classes?

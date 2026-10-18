@@ -1,5 +1,7 @@
 # WHEELER-47 — Filter Realizability / Internal Classification-Cost Audit
 
+> **Review correction — 18 October 2026:** Constant-time counter operations assume a word-RAM model or amortized binary increment. Worst-case bit-operation cost and physical access to a global size statistic are separate questions. Exact metadata access is an architecture assumption. See [ERRATA-01](ERRATA-01.md).
+
 ## Question
 
 Can an internal EHF observer distinguish a growth event from a fixed-size comparison event cheaply enough for the selective-filter architecture of WHEELER-46 to be realizable?

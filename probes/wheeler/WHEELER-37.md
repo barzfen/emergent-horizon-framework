@@ -72,9 +72,15 @@ Under the local-rate law from WHEELER-30/31, let each admissible insertion site 
 
 R(n,D)=r(n+D).
 
-If the observer also measures holding times tau_j, the likelihood acquires factors
+If the observer also measures complete holding times tau_j, each exponential density contributes
 
-exp[-r(n_j+D) tau_j].
+r(n_j+D) exp[-r(n_j+D) tau_j].
+
+Multiplying these densities by the embedded symbol likelihood cancels its denominator (n0+D)^(overline m). Therefore, for a observed 1-insertions and b observed 0-insertions, the D-dependent joint likelihood is proportional to
+
+[(k0+D/2)^(overline a) (n0-k0+D/2)^(overline b)] exp[-r D T].
+
+The omitted factor r^m exp[-r sum_j n_j tau_j] is common to all D. Do not multiply the embedded likelihood only by the survival exponent: that would omit the rate-density factors.
 
 The D-dependent waiting-time contribution depends on the elapsed time only through
 

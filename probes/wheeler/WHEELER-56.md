@@ -1,5 +1,7 @@
 # WHEELER-56 — Maximum-Caliber / Least-Bias Measure Audit
 
+> **Review correction — 18 October 2026:** Maximum entropy is an additional measure principle on a specified reference event set. Event primacy alone does not imply equal rates. Finite-horizon uniformity here is conditional on a fixed initial state (or conditional on each initial state with a fixed preparation law). See [ERRATA-01](ERRATA-01.md).
+
 ## Question
 Can the uniform admissible-event growth measure used in WHEELER-52 be derived from a least-bias principle rather than inserted by hand?
 

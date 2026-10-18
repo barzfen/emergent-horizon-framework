@@ -1,6 +1,6 @@
 # EHF Status
 
-Last consolidated: 2026-10-17
+Last consolidated: 2026-10-18
 
 ## Programme status
 
@@ -29,11 +29,17 @@ EHF permits state-space enlargement rather than assuming a permanently fixed num
 EHF investigates whether observers and clocks can be defined internally through persistent records and ordered histories, without assuming an external time coordinate.
 
 ### 5. Hamilton-history / Wheeler probes
-**Status: MIXED; MATHEMATICALLY USEFUL**
+**Status: REVIEWED IN PART; WHEELER-58 COMPLETE**
 
-Recent probes show that one global oriented history can project to multiple apparent objects. Closed real-time cycles force zero signed crossing number; open paths produce an endpoint invariant; periodic-time cycles produce a winding invariant; simple winding-preserving local dynamics conserve sectors but do not by themselves alter the leading spectral gap.
+The strongest current results concern the explicitly defined zero-cost MICRO growth process: exact insertion counts, observer macro kernels, conditional entropy monotonicity, and consistent probability measures on histories. An independent reconstruction reproduced state/component counts and growth checks through n=14; the review does not certify every earlier experiment.
 
-See `probes/wheeler/`.
+WHEELER-58 proves horizon consistency for a fixed preparation and compatible observer projections. In the rooted/labelled representation, nonhomogeneous states have exactly D+1 distinct successors. Both event-uniform and state-uniform maximum-entropy history constructions are consistent, so consistency alone does not select a probability measure.
+
+The Core-C graph gap is n−1 for the specified Hamilton-cycle/2-opt graph; its normalized gap tends to zero. A growth-site clock does not automatically set the comparison rate. The earlier universal counter-reset heat bound is withdrawn because memory capacity is not erased entropy. Finite-resource inference optima remain conditional proxy calculations where infinite-history information was paired with one-event cost.
+
+See [WHEELER-58](probes/wheeler/WHEELER-58.md), [ERRATA-01](probes/wheeler/ERRATA-01.md), [REVIEW-01](research/wheeler/REVIEW-01.md), and [reproducible checks](code/wheeler/README.md).
+
+Next: root/rotation quotienting and its consequences for measure, lumpability and entropy. Clock-coupling and finite-resource repairs are separate tasks.
 
 ## Evidence hierarchy
 

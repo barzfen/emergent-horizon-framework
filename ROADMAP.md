@@ -34,6 +34,9 @@ Every proposed physical interpretation should include a null model and an explic
 
 ## Immediate next work
 
-- Consolidate the Wheeler/Hamilton probe family.
+- Wheeler review corrections and WHEELER-58 are complete; retain the exact checks alongside subsequent probes.
+- Next Wheeler probe: WHEELER-59, root/rotation quotient, measure covariance, lumpability and entropy.
+- Separately repair the growth/comparison clock connection with an explicit combined generator.
+- Replace infinite-history/one-event cost proxies with a finite-horizon inference experiment before claiming an optimal observer budget.
 - Revisit prior spectral-gap probes and extract exact definitions, code, and scaling data.
 - Build a master index of FOUND, MICRO, RECUR, FILT, SD, COMP, SUB, and related probe families from the legacy archive.

@@ -1,5 +1,7 @@
 # WHEELER-25 — Kinetic Geometry / Expander Audit
 
+> **Review correction — 18 October 2026:** The expander interpretation and identification of the archived eigenvalues below were **withdrawn in WHEELER-26**. Use WHEELER-26–28 for the corrected gap and normalization. See [ERRATA-01](ERRATA-01.md).
+
 **Status: PROMISING / CONJECTURAL; existing Core-C/RAF data is compatible with strong expander-like scaling, but only two audited sizes are currently available**
 
 ## Question

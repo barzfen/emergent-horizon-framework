@@ -1,5 +1,7 @@
 # WHEELER-53 — Weighted Growth / Entropy-Robustness Audit
 
+> **Review correction — 18 October 2026:** The example probabilities have been corrected for the named words. Slots insert before indices 0,...,n−1. The previous reversed pairing gives an entropy increase; the corrected pairing reproduces the reported decrease. Reproducible checks are in code/wheeler/review_audit.py. See [ERRATA-01](ERRATA-01.md).
+
 ## Question
 
 Does the microscopic entropy-nondecrease result of WHEELER-52 survive when admissible growth events are not equally weighted?
@@ -109,7 +111,7 @@ there is already a two-state input distribution supported on
 
 for which one weighted microscopic growth step decreases Shannon entropy.
 
-A numerically optimized two-state mixture places approximately probability `0.345` on `11000` and `0.655` on `11100` (equivalent cyclic representatives may be used). The entropy change is approximately
+A numerically optimized two-state mixture places approximately probability `0.655492` on `11000` and `0.344508` on `11100` (equivalent cyclic representatives may be used). The entropy change is approximately
 
 \[
 \Delta H = H(pK)-H(p) \approx -0.0127\ \text{nats}.

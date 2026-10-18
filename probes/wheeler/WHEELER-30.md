@@ -1,5 +1,7 @@
 # WHEELER-30 — Clock-Naturality / Local-Rate Uniqueness Audit
 
+> **Review correction — 18 October 2026:** The linear rate derived from insertion sites is the **growth rate R_G**, not automatically the **comparison rate R_C**. Every substitution into the Core-C comparison gap below additionally assumes a scheduler with R_C=R_G. That connection has not been derived. The finite limit is a conditional frozen-layer relaxation result, not the gap of the full growing process. See [ERRATA-01](ERRATA-01.md).
+
 **Status: PARTIAL PASS; linear total rate is forced by symmetry/locality assumptions up to one overall clock constant**
 
 ## Question

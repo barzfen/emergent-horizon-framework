@@ -1,5 +1,7 @@
 # WHEELER-45 — Internal Observer Budget / Endogenous Cost Audit
 
+> **Review correction — 18 October 2026:** The Beta-law Chernoff information concerns an **infinite-growth limiting observation**. Cost-normalized optima are conditional proxy calculations. In particular, dividing that information by work for one growth event does not define a finite-budget experiment. A common Core-C/MICRO state space and generator are also required before combining their event counts as one endogenous model. See [ERRATA-01](ERRATA-01.md).
+
 ## Goal
 
 Make the observer explicit and derive an operational processing cost from native EHF event counts rather than choosing a resource law after the fact.
@@ -179,7 +181,7 @@ and
 
 per processed substrate event unit under this normalization.
 
-Thus the \(n_0=21\) optimum from WHEELER-42 is recovered without assuming an abstract linear cost law: it follows from explicit competition between \(O(n)\) growth opportunities and \(O(n^2)\) comparison opportunities, provided the observer samples the native event stream and pays equal cost per processed event.
+Thus the proxy objective also has optimum n0=21. This is not yet an optimal finite-budget discrimination experiment: the numerator uses the limiting statistic from an infinite trajectory, whereas the denominator prices one detected growth event. For L events, use the finite beta-binomial experiment and charge the complete observation cost.
 
 ## Interpretation
 
@@ -213,7 +215,7 @@ If the observer can selectively query growth events, ignores comparison events a
   B_n=\Theta(n).
   \]
 - **PASS:** the same linear scaling survives unequal but size-independent local rate constants.
-- **PASS:** using this endogenous cost recovers the finite discrimination optimum \(n_0=21\).
+- **COMPUTATIONAL / PROXY ONLY:** the stated mixed-unit objective has optimum n0=21; a finite-budget discrimination optimum has not been established.
 - **CONDITIONAL:** the derivation depends on the observer sampling the native event stream with finite per-event processing cost.
 - **OPEN:** derive the observer architecture itself from EHF primitives rather than positing a sampling rule.
 

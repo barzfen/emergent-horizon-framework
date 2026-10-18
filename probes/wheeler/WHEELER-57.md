@@ -1,5 +1,7 @@
 # WHEELER-57 — Primitive Event vs State Measure / Quotient-Consistency Audit
 
+> **Review correction — 18 October 2026:** The conditional symmetry theorem is retained. The claim that event primacy alone selects the more coherent measure is withdrawn. WHEELER-58 tests horizon consistency for both measures and keeps the initial preparation fixed. See [ERRATA-01](ERRATA-01.md).
+
 ## Question
 
 WHEELER-56 showed that maximum entropy / maximum caliber gives a uniform measure over admissible growth **events**. But several distinct insertion events can lead to the same resultant microstate. Should EHF regard admissible transformations/events as primitive, or should it instead assign equal probability directly to distinct resultant states?
@@ -121,9 +123,9 @@ Thus event-uniform maximum caliber is projectively consistent from fine historie
 
 ## EHF interpretation
 
-EHF's stated foundational choice is that **admissible comparison/transformation is primitive data**. Under that choice, the event-labelled measure is the internally consistent least-bias measure:
+EHF's stated foundational choice is that **admissible comparison/transformation is primitive data**. This choice alone does not imply event symmetry or equal rates. If one additionally adopts admissibility-only maximum entropy, equivalently full permutation symmetry of the admissible event alternatives, the event-labelled measure is:
 
-`admissible primitive events -> equal event weight -> push-forward to state probabilities`.
+`admissible primitive events + full event symmetry / admissibility-only maximum entropy -> equal event weight -> push-forward to state probabilities`.
 
 The multiplicity factor is not an arbitrary bias. It counts how many distinct admissible primitive transformations realize the same resulting state.
 
@@ -137,14 +139,14 @@ If instead resultant states were chosen as primitive, state-uniformity would be 
 - PROVED: primitive-event symmetry plus quotient push-forward uniquely gives multiplicity-weighted target probabilities.
 - PROVED: state-uniformity is compatible with primitive-event symmetry only when all target multiplicities are equal.
 - PROVED: event-history maximum caliber is projectively consistent under forgetting event labels.
-- FOUNDATIONAL/CONDITIONAL: because EHF chooses admissible transformations/comparisons as primitive data, the event-uniform measure is the more internally coherent reference measure.
+- FOUNDATIONAL/CONDITIONAL: the event-uniform measure follows after adding full event symmetry or admissibility-only maximum entropy. State-uniform dynamics is also coherent, but does not respect that stronger event symmetry when multiplicities differ.
 - NOT CLAIMED: probability theory itself does not force events rather than states to be primitive; that is a framework-level choice.
 
 ## Consequence for WHEELER-52–56
 
 The entropy theorem can now be stated more cleanly:
 
-`primitive admissible transformations`
+`primitive admissible transformations + admissibility-only reference-measure assumption`
 
 `-> least-bias / maximum caliber on events`
 
@@ -158,7 +160,7 @@ The entropy theorem can now be stated more cleanly:
 
 `-> Shannon entropy nondecrease`.
 
-This removes the apparent ambiguity between equal event weight and equal target-state weight once the primitive level of EHF is fixed.
+This resolves the probability assignment only after the reference event space and its full symmetry/maximum-entropy assumption are fixed. Primitive event ontology alone does not remove the measure choice. WHEELER-58 additionally shows that both event-uniform and state-uniform dynamics are horizon-consistent in the specified rooted-word model.
 
 ## Next probe
 
