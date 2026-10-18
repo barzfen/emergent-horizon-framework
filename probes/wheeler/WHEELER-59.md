@@ -4,6 +4,8 @@
 
 **Outcome:** forgetting the root preserves event-uniform Markov dynamics but not the rooted state-uniform rule. Rotation invariance narrows the admissible measures without selecting a unique one. Ordinary majorization fails on rotation classes. An entropy theorem survives with the inherited orbit-size reference measure; ordinary class Shannon monotonicity remains unresolved here.
 
+> **Subsequent resolution:** [WHEELER-60](WHEELER-60.md) supplies an exact counterexample to ordinary class Shannon monotonicity. References to this question as open below describe the WHEELER-59 stage; its rooted and orbit-weighted results remain valid.
+
 ## 1. What is being identified?
 
 Use the zero-cost binary words and insertion convention of [WHEELER-58](WHEELER-58.md): n≥4, cyclic 010 and 101 forbidden, D cyclic domain walls, and events `(i,b)` inserting b before i, for 0≤i<n. The target is `w[:i]+(b,)+w[i:]`. D is conserved and there are n+D admissible events.

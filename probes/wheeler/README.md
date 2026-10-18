@@ -2,17 +2,21 @@
 
 ## Current continuation — 19 October 2026
 
+- [WHEELER-60: quotient Shannon entropy counterexample](WHEELER-60.md) is complete.
 - [WHEELER-59: root/rotation quotient and entropy](WHEELER-59.md) is complete.
 - [WHEELER-58: projective measures and observer consistency](WHEELER-58.md) is complete.
 - [ERRATA-01: authoritative corrections](ERRATA-01.md) records qualifications and withdrawn claims.
 - [Independent review](../../research/wheeler/REVIEW-01.md) gives scope, evidence and limitations.
 - [Reproducible code](../../code/wheeler/README.md) and [W58 exact results](../../data/wheeler/wheeler-58-results.json) are retained.
 - [W59 exact results](../../data/wheeler/wheeler-59-results.json) reproduce the quotient tests and majorization counterexample.
-- Next proposed: **WHEELER-60 — Quotient Shannon Entropy / Symmetry Audit**.
+- [W60 exact results](../../data/wheeler/wheeler-60-results.json) retain the two-source counterexample and integer entropy-sign certificate.
+- Next proposed: **WHEELER-61 — Reachable Preparations / Unconditioned Entropy Audit**.
 
-Both event-uniform and state-uniform growth are horizon-consistent under the specified rooted-word convention. Consistency does not choose a unique measure or imply a physical second law. WHEELER-59 shows that event-uniform growth is root independent, while rooted state-uniform growth is not. Ordinary quotient majorization fails; orbit-weighted entropy monotonicity survives.
+Both event-uniform and state-uniform growth are horizon-consistent under the specified rooted-word convention. Consistency does not choose a unique measure or imply a physical second law. WHEELER-59 shows that event-uniform growth is root independent, while rooted state-uniform growth is not. Ordinary quotient majorization fails; orbit-weighted entropy monotonicity survives. WHEELER-60 additionally falsifies universal ordinary class Shannon monotonicity, using an exact two-source preparation.
 
 ## Standalone reports
+
+- [WHEELER-60 — Quotient Shannon Entropy / Symmetry Audit](WHEELER-60.md)
 
 - [WHEELER-59 — Root/Rotation Quotient / Measure-and-Entropy Audit](WHEELER-59.md)
 

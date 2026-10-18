@@ -34,8 +34,8 @@ Every proposed physical interpretation should include a null model and an explic
 
 ## Immediate next work
 
-- Wheeler review corrections and WHEELER-58–59 are complete; retain the exact checks alongside subsequent probes.
-- Next Wheeler probe: WHEELER-60, prove or disprove ordinary Shannon entropy monotonicity on rotation classes; distinguish it from the falsified majorization claim and the proved orbit-weighted entropy law.
+- Wheeler review corrections and WHEELER-58–60 are complete; retain the exact checks alongside subsequent probes.
+- Next Wheeler probe: WHEELER-61, ordinary quotient entropy along actual unconditioned growth laws from single seeds. WHEELER-60 falsifies the universal claim for arbitrary preparations; rooted and orbit-weighted entropy laws remain valid.
 - Separately repair the growth/comparison clock connection with an explicit combined generator.
 - Replace infinite-history/one-event cost proxies with a finite-horizon inference experiment before claiming an optimal observer budget.
 - Revisit prior spectral-gap probes and extract exact definitions, code, and scaling data.

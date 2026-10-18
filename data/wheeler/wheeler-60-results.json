@@ -1,0 +1,235 @@
+{
+  "model": "event-uniform MICRO growth; rotations only; ordinary class Shannon entropy",
+  "L": 100,
+  "n_source": 204,
+  "n_target": 205,
+  "D": 4,
+  "N1_source": 200,
+  "prior": [
+    {
+      "zero_one_alternating_run_lengths": [
+        2,
+        99,
+        2,
+        101
+      ],
+      "probability": "1/3"
+    },
+    {
+      "zero_one_alternating_run_lengths": [
+        2,
+        100,
+        2,
+        100
+      ],
+      "probability": "2/3"
+    }
+  ],
+  "output": [
+    {
+      "zero_one_alternating_run_lengths": [
+        2,
+        99,
+        2,
+        102
+      ],
+      "probability": "17/104"
+    },
+    {
+      "zero_one_alternating_run_lengths": [
+        2,
+        99,
+        3,
+        101
+      ],
+      "probability": "1/208"
+    },
+    {
+      "zero_one_alternating_run_lengths": [
+        2,
+        100,
+        2,
+        101
+      ],
+      "probability": "21/26"
+    },
+    {
+      "zero_one_alternating_run_lengths": [
+        2,
+        100,
+        3,
+        100
+      ],
+      "probability": "1/52"
+    },
+    {
+      "zero_one_alternating_run_lengths": [
+        2,
+        101,
+        3,
+        99
+      ],
+      "probability": "1/208"
+    }
+  ],
+  "rows": [
+    {
+      "source": [
+        2,
+        100,
+        2,
+        100
+      ],
+      "targets": [
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            100,
+            2,
+            101
+          ],
+          "probability": "101/104"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            100,
+            3,
+            100
+          ],
+          "probability": "3/104"
+        }
+      ]
+    },
+    {
+      "source": [
+        2,
+        99,
+        2,
+        101
+      ],
+      "targets": [
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            99,
+            2,
+            102
+          ],
+          "probability": "51/104"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            99,
+            3,
+            101
+          ],
+          "probability": "3/208"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            100,
+            2,
+            101
+          ],
+          "probability": "25/52"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            101,
+            3,
+            99
+          ],
+          "probability": "3/208"
+        }
+      ]
+    }
+  ],
+  "H_source_bits": "0.9182958340544895147870722772811498420931477410258143937890859878744314",
+  "H_target_bits": "0.8596557583846341391702874992291250347836076457604009598718473537473452",
+  "delta_H_bits": "-0.0586400756698553756167847780520248073095400952654134339172386",
+  "H_target_given_source_bits": "0.521882397783286223204861413672780794124568946550293564061094",
+  "H_source_given_target_bits": "0.580522473453141598821646191724805601434109041815706997978333",
+  "ambiguous_target_posterior": {
+    "periodic_source": "101/126",
+    "asymmetric_source": "25/126"
+  },
+  "source_orbit_sizes": {
+    "(2, 100, 2, 100)": 102,
+    "(2, 99, 2, 101)": 204
+  },
+  "target_orbit_sizes": {
+    "(2, 100, 3, 100)": 205,
+    "(2, 100, 2, 101)": 205,
+    "(2, 101, 3, 99)": 205,
+    "(2, 99, 3, 101)": 205,
+    "(2, 99, 2, 102)": 205
+  },
+  "orbit_weighted_entropy_delta_bits": "0.615081348530761742378367670868719873144544659918717095672075",
+  "integer_sign_certificate": {
+    "inequality": "2^1274 * 13^624 < 3^1128 * 7^504 * 17^102",
+    "verified": true,
+    "left_bit_length": 3584,
+    "right_bit_length": 3620,
+    "independent_rational_power_product_verified": true
+  },
+  "family_limit_delta_H_bits": "-0.268273412406135289891932857907825146554026160853817176712297",
+  "independent_binary_checks": [
+    {
+      "L": 10,
+      "n": 24,
+      "full_binary_event_enumeration_matches": true
+    },
+    {
+      "L": 38,
+      "n": 80,
+      "full_binary_event_enumeration_matches": true
+    },
+    {
+      "L": 80,
+      "n": 164,
+      "full_binary_event_enumeration_matches": true
+    },
+    {
+      "L": 100,
+      "n": 204,
+      "full_binary_event_enumeration_matches": true
+    }
+  ],
+  "family_samples": [
+    {
+      "L": 38,
+      "n": 80,
+      "delta_H_bits": "0.155057342648688562438301315252936133839828438964694163324416"
+    },
+    {
+      "L": 64,
+      "n": 132,
+      "delta_H_bits": "0.0247894642276503167949539918596957330236271761913389328923356"
+    },
+    {
+      "L": 80,
+      "n": 164,
+      "delta_H_bits": "-0.0199167606009792903168457667132579376223285867679226078638741"
+    },
+    {
+      "L": 100,
+      "n": 204,
+      "delta_H_bits": "-0.0586400756698553756167847780520248073095400952654134339172386"
+    },
+    {
+      "L": 128,
+      "n": 260,
+      "delta_H_bits": "-0.0951861965664117546334563191952156739686030572465780395672030"
+    },
+    {
+      "L": 200,
+      "n": 404,
+      "delta_H_bits": "-0.146951923302539072968444022045345391864754768039911362389418"
+    }
+  ],
+  "scope": "Explicit counterexample; no claim of smallest n or global entropy minimum."
+}
