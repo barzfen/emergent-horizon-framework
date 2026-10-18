@@ -1,0 +1,633 @@
+{
+  "model": "unconditioned event-uniform growth from one rotation class",
+  "seed_runs": [
+    2,
+    100,
+    2,
+    100
+  ],
+  "seed_size": 204,
+  "D": 4,
+  "laws": [
+    {
+      "t": 0,
+      "n": 204,
+      "law": [
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            100,
+            2,
+            100
+          ],
+          "probability": "1"
+        }
+      ],
+      "entropy_bits": "0"
+    },
+    {
+      "t": 1,
+      "n": 205,
+      "law": [
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            100,
+            2,
+            101
+          ],
+          "probability": "101/104"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            100,
+            3,
+            100
+          ],
+          "probability": "3/104"
+        }
+      ],
+      "entropy_bits": "0.1885719560247966123324012379647263778057493954560653803827153378488380"
+    },
+    {
+      "t": 2,
+      "n": 206,
+      "law": [
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            100,
+            2,
+            102
+          ],
+          "probability": "5151/10868"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            100,
+            3,
+            101
+          ],
+          "probability": "303/10868"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            100,
+            4,
+            100
+          ],
+          "probability": "3/5434"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            101,
+            2,
+            101
+          ],
+          "probability": "10201/21736"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            101,
+            3,
+            100
+          ],
+          "probability": "303/10868"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            3,
+            100,
+            3,
+            100
+          ],
+          "probability": "9/21736"
+        }
+      ],
+      "entropy_bits": "1.321337358577132051809182486860471478863974964247957807600438496514327"
+    },
+    {
+      "t": 3,
+      "n": 207,
+      "law": [
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            100,
+            2,
+            103
+          ],
+          "probability": "176851/760760"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            100,
+            3,
+            102
+          ],
+          "probability": "15453/760760"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            100,
+            4,
+            101
+          ],
+          "probability": "303/380380"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            100,
+            5,
+            100
+          ],
+          "probability": "1/76076"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            101,
+            2,
+            102
+          ],
+          "probability": "520251/760760"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            101,
+            3,
+            101
+          ],
+          "probability": "30603/760760"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            101,
+            4,
+            100
+          ],
+          "probability": "303/380380"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            2,
+            102,
+            3,
+            100
+          ],
+          "probability": "15453/760760"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            3,
+            100,
+            3,
+            101
+          ],
+          "probability": "909/760760"
+        },
+        {
+          "zero_one_alternating_run_lengths": [
+            3,
+            100,
+            4,
+            100
+          ],
+          "probability": "9/380380"
+        }
+      ],
+      "entropy_bits": "1.307663563815898054376989802860508074743736541059075066543061903506069"
+    }
+  ],
+  "H_t2_bits": "1.321337358577132051809182486860471478863974964247957807600438496514327",
+  "H_t3_bits": "1.307663563815898054376989802860508074743736541059075066543061903506069",
+  "delta_t2_to_t3_bits": "-0.0136737947612339974321926839999634041202384231888827410573766",
+  "sign_certificate": {
+    "delta_bits_lower": "-2734759/200000000",
+    "delta_bits_upper": "-6836897/500000000",
+    "series_terms": 32,
+    "exact_rational_negative_upper_bound": true
+  },
+  "independent_checks": [
+    {
+      "t": 0,
+      "quotient_states": 1,
+      "rooted_states": 1,
+      "urn_formula_and_binary_enumeration_match": true
+    },
+    {
+      "t": 1,
+      "quotient_states": 2,
+      "rooted_states": 5,
+      "urn_formula_and_binary_enumeration_match": true
+    },
+    {
+      "t": 2,
+      "quotient_states": 6,
+      "rooted_states": 15,
+      "urn_formula_and_binary_enumeration_match": true
+    },
+    {
+      "t": 3,
+      "quotient_states": 10,
+      "rooted_states": 35,
+      "urn_formula_and_binary_enumeration_match": true
+    }
+  ],
+  "periodic_class_mass_t2": "5105/10868",
+  "periodic_class_mass_t3": "0",
+  "orbit_weighted_entropy_delta_bits": "0.463040276335145215928288275408192733924958491745269675253201",
+  "large_L_limit_delta_bits": "-0.188721875540867136090304207960862381569860805769360795341814",
+  "symmetry_entropy_identity": [
+    {
+      "t": 0,
+      "ordered_run_entropy_bits": "0",
+      "periodic_probability": "1"
+    },
+    {
+      "t": 1,
+      "ordered_run_entropy_bits": "1.188571956024796612332401237964726377805749395456065380382715337848838",
+      "periodic_probability": "0"
+    },
+    {
+      "t": 2,
+      "ordered_run_entropy_bits": "1.851609717796859692589454846080199119644247323467685448380710855734056",
+      "periodic_probability": "5105/10868"
+    },
+    {
+      "t": 3,
+      "ordered_run_entropy_bits": "2.307663563815898054376989802860508074743736541059075066543061903506067",
+      "periodic_probability": "0"
+    }
+  ],
+  "ordered_run_entropy_delta_bits": "0.456053846019038361787534956780308955099489217591389618162351",
+  "minimal_seed_scan": {
+    "seed_runs": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "horizon": 40,
+    "exact_endpoint_probabilities": true,
+    "entropy_evaluation": "float; finite diagnostic only",
+    "dynamic_recursion_crosscheck_through": 12,
+    "minimum_step": {
+      "t": 39,
+      "n": 47,
+      "quotient_states": 5740,
+      "entropy_bits_float": 11.708062435027793,
+      "delta_bits_float": 0.0959195330209468
+    },
+    "all_steps_positive_in_scan": true,
+    "steps": [
+      {
+        "t": 0,
+        "n": 8,
+        "quotient_states": 1,
+        "entropy_bits_float": -0.0,
+        "delta_bits_float": null
+      },
+      {
+        "t": 1,
+        "n": 9,
+        "quotient_states": 2,
+        "entropy_bits_float": 1.0,
+        "delta_bits_float": 1.0
+      },
+      {
+        "t": 2,
+        "n": 10,
+        "quotient_states": 6,
+        "entropy_bits_float": 2.5262349099495225,
+        "delta_bits_float": 1.5262349099495225
+      },
+      {
+        "t": 3,
+        "n": 11,
+        "quotient_states": 10,
+        "entropy_bits_float": 3.2574958095924087,
+        "delta_bits_float": 0.7312608996428862
+      },
+      {
+        "t": 4,
+        "n": 12,
+        "quotient_states": 19,
+        "entropy_bits_float": 4.13461724891879,
+        "delta_bits_float": 0.8771214393263813
+      },
+      {
+        "t": 5,
+        "n": 13,
+        "quotient_states": 28,
+        "entropy_bits_float": 4.657483580233333,
+        "delta_bits_float": 0.5228663313145434
+      },
+      {
+        "t": 6,
+        "n": 14,
+        "quotient_states": 44,
+        "entropy_bits_float": 5.2688304349884945,
+        "delta_bits_float": 0.611346854755161
+      },
+      {
+        "t": 7,
+        "n": 15,
+        "quotient_states": 60,
+        "entropy_bits_float": 5.674592694276987,
+        "delta_bits_float": 0.4057622592884922
+      },
+      {
+        "t": 8,
+        "n": 16,
+        "quotient_states": 85,
+        "entropy_bits_float": 6.142868734697406,
+        "delta_bits_float": 0.46827604042041937
+      },
+      {
+        "t": 9,
+        "n": 17,
+        "quotient_states": 110,
+        "entropy_bits_float": 6.4752527834960665,
+        "delta_bits_float": 0.33238404879866046
+      },
+      {
+        "t": 10,
+        "n": 18,
+        "quotient_states": 146,
+        "entropy_bits_float": 6.854731585109731,
+        "delta_bits_float": 0.3794788016136641
+      },
+      {
+        "t": 11,
+        "n": 19,
+        "quotient_states": 182,
+        "entropy_bits_float": 7.137041430854419,
+        "delta_bits_float": 0.2823098457446882
+      },
+      {
+        "t": 12,
+        "n": 20,
+        "quotient_states": 231,
+        "entropy_bits_float": 7.456239474715576,
+        "delta_bits_float": 0.31919804386115747
+      },
+      {
+        "t": 13,
+        "n": 21,
+        "quotient_states": 280,
+        "entropy_bits_float": 7.702187116736678,
+        "delta_bits_float": 0.2459476420211022
+      },
+      {
+        "t": 14,
+        "n": 22,
+        "quotient_states": 344,
+        "entropy_bits_float": 7.977844221559055,
+        "delta_bits_float": 0.2756571048223764
+      },
+      {
+        "t": 15,
+        "n": 23,
+        "quotient_states": 408,
+        "entropy_bits_float": 8.196140134962388,
+        "delta_bits_float": 0.21829591340333288
+      },
+      {
+        "t": 16,
+        "n": 24,
+        "quotient_states": 489,
+        "entropy_bits_float": 8.438884581943514,
+        "delta_bits_float": 0.24274444698112596
+      },
+      {
+        "t": 17,
+        "n": 25,
+        "quotient_states": 570,
+        "entropy_bits_float": 8.635400189433403,
+        "delta_bits_float": 0.19651560748988928
+      },
+      {
+        "t": 18,
+        "n": 26,
+        "quotient_states": 670,
+        "entropy_bits_float": 8.852387932022463,
+        "delta_bits_float": 0.21698774258906006
+      },
+      {
+        "t": 19,
+        "n": 27,
+        "quotient_states": 770,
+        "entropy_bits_float": 9.031270270563613,
+        "delta_bits_float": 0.17888233854115043
+      },
+      {
+        "t": 20,
+        "n": 28,
+        "quotient_states": 891,
+        "entropy_bits_float": 9.22754437497361,
+        "delta_bits_float": 0.19627410440999604
+      },
+      {
+        "t": 21,
+        "n": 29,
+        "quotient_states": 1012,
+        "entropy_bits_float": 9.39183441118216,
+        "delta_bits_float": 0.1642900362085502
+      },
+      {
+        "t": 22,
+        "n": 30,
+        "quotient_states": 1156,
+        "entropy_bits_float": 9.571081012488682,
+        "delta_bits_float": 0.17924660130652192
+      },
+      {
+        "t": 23,
+        "n": 31,
+        "quotient_states": 1300,
+        "entropy_bits_float": 9.72307787535873,
+        "delta_bits_float": 0.15199686287004788
+      },
+      {
+        "t": 24,
+        "n": 32,
+        "quotient_states": 1469,
+        "entropy_bits_float": 9.888072825750447,
+        "delta_bits_float": 0.1649949503917174
+      },
+      {
+        "t": 25,
+        "n": 33,
+        "quotient_states": 1638,
+        "entropy_bits_float": 10.029559332534218,
+        "delta_bits_float": 0.14148650678377095
+      },
+      {
+        "t": 26,
+        "n": 34,
+        "quotient_states": 1834,
+        "entropy_bits_float": 10.1824454508765,
+        "delta_bits_float": 0.15288611834228227
+      },
+      {
+        "t": 27,
+        "n": 35,
+        "quotient_states": 2030,
+        "entropy_bits_float": 10.314833718832338,
+        "delta_bits_float": 0.1323882679558377
+      },
+      {
+        "t": 28,
+        "n": 36,
+        "quotient_states": 2255,
+        "entropy_bits_float": 10.457300095922763,
+        "delta_bits_float": 0.1424663770904253
+      },
+      {
+        "t": 29,
+        "n": 37,
+        "quotient_states": 2480,
+        "entropy_bits_float": 10.581728961460561,
+        "delta_bits_float": 0.12442886553779786
+      },
+      {
+        "t": 30,
+        "n": 38,
+        "quotient_states": 2736,
+        "entropy_bits_float": 10.715131011669547,
+        "delta_bits_float": 0.13340205020898566
+      },
+      {
+        "t": 31,
+        "n": 39,
+        "quotient_states": 2992,
+        "entropy_bits_float": 10.832533227457748,
+        "delta_bits_float": 0.11740221578820176
+      },
+      {
+        "t": 32,
+        "n": 40,
+        "quotient_states": 3281,
+        "entropy_bits_float": 10.95797548883391,
+        "delta_bits_float": 0.1254422613761612
+      },
+      {
+        "t": 33,
+        "n": 41,
+        "quotient_states": 3570,
+        "entropy_bits_float": 11.069125316322092,
+        "delta_bits_float": 0.11114982748818214
+      },
+      {
+        "t": 34,
+        "n": 42,
+        "quotient_states": 3894,
+        "entropy_bits_float": 11.187520044209633,
+        "delta_bits_float": 0.1183947278875408
+      },
+      {
+        "t": 35,
+        "n": 43,
+        "quotient_states": 4218,
+        "entropy_bits_float": 11.293067748165646,
+        "delta_bits_float": 0.1055477039560131
+      },
+      {
+        "t": 36,
+        "n": 44,
+        "quotient_states": 4579,
+        "entropy_bits_float": 11.405177320401522,
+        "delta_bits_float": 0.1121095722358767
+      },
+      {
+        "t": 37,
+        "n": 45,
+        "quotient_states": 4940,
+        "entropy_bits_float": 11.505674682732272,
+        "delta_bits_float": 0.10049736233074924
+      },
+      {
+        "t": 38,
+        "n": 46,
+        "quotient_states": 5340,
+        "entropy_bits_float": 11.612142902006847,
+        "delta_bits_float": 0.10646821927457495
+      },
+      {
+        "t": 39,
+        "n": 47,
+        "quotient_states": 5740,
+        "entropy_bits_float": 11.708062435027793,
+        "delta_bits_float": 0.0959195330209468
+      },
+      {
+        "t": 40,
+        "n": 48,
+        "quotient_states": 6181,
+        "entropy_bits_float": 11.809438044508607,
+        "delta_bits_float": 0.10137560948081337
+      }
+    ]
+  },
+  "family_samples": [
+    {
+      "L": 2,
+      "seed_size": 8,
+      "delta_t2_to_t3_bits": "0.73126089964288649928950446852503100795547795234528"
+    },
+    {
+      "L": 10,
+      "seed_size": 24,
+      "delta_t2_to_t3_bits": "0.48852807446712190694933940876380797255681671049896"
+    },
+    {
+      "L": 38,
+      "seed_size": 80,
+      "delta_t2_to_t3_bits": "0.15126827884836994983045983473971494490384434239258"
+    },
+    {
+      "L": 100,
+      "seed_size": 204,
+      "delta_t2_to_t3_bits": "-0.013673794761233997432192683999963404120238423188883",
+      "sign_certificate": {
+        "delta_bits_lower": "-2734759/200000000",
+        "delta_bits_upper": "-6836897/500000000",
+        "series_terms": 32,
+        "exact_rational_negative_upper_bound": true
+      }
+    },
+    {
+      "L": 200,
+      "seed_size": 404,
+      "delta_t2_to_t3_bits": "-0.085191794827902137412682278245412918014030520841264",
+      "sign_certificate": {
+        "delta_bits_lower": "-17038359/200000000",
+        "delta_bits_upper": "-42595897/500000000",
+        "series_terms": 32,
+        "exact_rational_negative_upper_bound": true
+      }
+    },
+    {
+      "L": 1000,
+      "seed_size": 2004,
+      "delta_t2_to_t3_bits": "-0.16081712221916223826130721674135471005557324713656",
+      "sign_certificate": {
+        "delta_bits_lower": "-160817123/1000000000",
+        "delta_bits_upper": "-80408561/500000000",
+        "series_terms": 32,
+        "exact_rational_negative_upper_bound": true
+      }
+    }
+  ]
+}

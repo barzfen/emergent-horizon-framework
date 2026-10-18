@@ -7,6 +7,7 @@ python code/wheeler/review_audit.py
 python code/wheeler/projective_audit.py
 python code/wheeler/rotation_audit.py
 python code/wheeler/quotient_entropy_audit.py
+python code/wheeler/unconditioned_entropy_audit.py
 ```
 
 `review_audit.py` requires NumPy and SciPy. SymPy is optional: its absence is recorded, not silently treated as a successful symbolic check. The review also checks the symbol-bias algebra separately by hand.
@@ -16,6 +17,8 @@ python code/wheeler/quotient_entropy_audit.py
 `rotation_audit.py` uses standard-library exact rational kernels to check WHEELER-59 rotation lumpability, root dependence, orbit-weighted column bounds and the majorization counterexample. Entropy diagnostics use floating-point logarithms.
 
 `quotient_entropy_audit.py` checks WHEELER-60 using exact rational laws, independent binary insertion enumeration and two integer/rational entropy-sign certificates. It uses only the standard library; Decimal logarithms supply display values.
+
+`unconditioned_entropy_audit.py` checks WHEELER-61 using recursive kernels, an independent urn endpoint formula, binary insertion enumeration and rational logarithm intervals. It also records the minimal-seed scan through 40 events. Standard library only.
 
 Outputs are written to `data/wheeler/`. These checks reconstruct the written models independently; they do not certify every experiment in the series.
 

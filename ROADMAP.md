@@ -34,8 +34,8 @@ Every proposed physical interpretation should include a null model and an explic
 
 ## Immediate next work
 
-- Wheeler review corrections and WHEELER-58–60 are complete; retain the exact checks alongside subsequent probes.
-- Next Wheeler probe: WHEELER-61, ordinary quotient entropy along actual unconditioned growth laws from single seeds. WHEELER-60 falsifies the universal claim for arbitrary preparations; rooted and orbit-weighted entropy laws remain valid.
+- Wheeler review corrections and WHEELER-58–61 are complete; retain the exact checks alongside subsequent probes.
+- Next Wheeler probe: WHEELER-62, the minimal seed’s all-time quotient entropy via the exact ordered-run/symmetry identity. WHEELER-61 already falsifies the universal single-seed claim; rooted and orbit-weighted entropy laws remain valid.
 - Separately repair the growth/comparison clock connection with an explicit combined generator.
 - Replace infinite-history/one-event cost proxies with a finite-horizon inference experiment before claiming an optimal observer budget.
 - Revisit prior spectral-gap probes and extract exact definitions, code, and scaling data.

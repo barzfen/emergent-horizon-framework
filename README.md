@@ -43,6 +43,6 @@ The standard for progress is increasingly strict: a useful EHF result should eit
 
 ## Latest Wheeler work
 
-[WHEELER-60](probes/wheeler/WHEELER-60.md) resolves the ordinary quotient-entropy question: an exact two-source preparation loses 0.05864 bits of class Shannon entropy in one event-uniform growth step. Rooted and orbit-weighted entropy theorems survive. [WHEELER-59](probes/wheeler/WHEELER-59.md) established the rotation quotient and its measure distinctions; [WHEELER-58](probes/wheeler/WHEELER-58.md) established consistent history measures.
+[WHEELER-61](probes/wheeler/WHEELER-61.md) proves that ordinary rotation-class entropy can decrease even during unconditioned growth from a single seed: `(2,100,2,100)` loses 0.0136737948 bits between its second and third events. An exact symmetry identity explains the decrease. The minimal seed increases through 40 tested events; its all-time behavior remains open. Rooted and orbit-weighted entropy theorems survive. [WHEELER-60](probes/wheeler/WHEELER-60.md) established the earlier arbitrary-preparation counterexample.
 
 Read [ERRATA-01](probes/wheeler/ERRATA-01.md) before relying on earlier clock, observer-cost, erasure or measure-selection claims. The [review](research/wheeler/REVIEW-01.md) and [reproducible checks](code/wheeler/README.md) record what was and was not independently verified.

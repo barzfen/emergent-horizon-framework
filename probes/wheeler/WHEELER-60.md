@@ -4,6 +4,8 @@
 
 **Outcome:** ordinary Shannon entropy of rotation classes can decrease under the unchanged event-uniform growth rule. This resolves the open question in [WHEELER-59](WHEELER-59.md). The rooted entropy theorem and inherited orbit-weighted entropy theorem remain intact.
 
+> **Subsequent result:** [WHEELER-61](WHEELER-61.md) supplies an unconditioned single-seed counterexample. The preparation distinction below describes the scope established at the WHEELER-60 stage.
+
 ## 1. The question and the answer
 
 WHEELER-59 showed that event-uniform MICRO growth descends to rotation classes. It also falsified universal ordinary majorization there, but its witness still increased Shannon entropy. Majorization failure alone was insufficient to settle Shannon monotonicity.
