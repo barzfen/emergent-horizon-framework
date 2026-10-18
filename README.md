@@ -43,6 +43,8 @@ The standard for progress is increasingly strict: a useful EHF result should eit
 
 ## Latest Wheeler work
 
+[Summary through WHEELER-62](research/wheeler/SUMMARY-01.md): strongest mathematical results, physics relevance, provisional novelty assessment and a plain-language account.
+
 [WHEELER-62](probes/wheeler/WHEELER-62.md) proves strict ordinary rotation-class entropy increase at every growth event from the minimal seed `(2,2,2,2)`, with leading growth `3 log₂ t + O(1)`. An exact periodicity bound controls the symmetry correction. This is preparation-specific: [WHEELER-61](probes/wheeler/WHEELER-61.md) retains its certified decrease from a different deterministic seed. Rooted and orbit-weighted entropy theorems remain valid.
 
 Read [ERRATA-01](probes/wheeler/ERRATA-01.md) before relying on earlier clock, observer-cost, erasure or measure-selection claims. The [review](research/wheeler/REVIEW-01.md) and [reproducible checks](code/wheeler/README.md) record what was and was not independently verified.

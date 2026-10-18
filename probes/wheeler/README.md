@@ -2,6 +2,8 @@
 
 ## Current continuation — 19 October 2026
 
+- [Cumulative summary through WHEELER-62](../../research/wheeler/SUMMARY-01.md): results, physics relevance, novelty and plain-language explanation.
+
 - [WHEELER-62: all-time minimal-seed entropy theorem](WHEELER-62.md) is complete.
 - [WHEELER-61: single-seed unconditioned entropy counterexample](WHEELER-61.md) is complete.
 - [WHEELER-60: quotient Shannon entropy counterexample](WHEELER-60.md) is complete.

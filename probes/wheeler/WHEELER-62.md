@@ -4,6 +4,8 @@
 
 **Outcome:** starting from `(2,2,2,2)`, ordinary rotation-class Shannon entropy increases **strictly at every growth event**, for all time. Its leading growth is `3 log₂ t + O(1)` bits. This preparation-specific theorem coexists with WHEELER-61's counterexample for a different deterministic seed.
 
+> **Literature context:** the leading logarithmic entropy scaling is already covered by established Dirichlet-multinomial asymptotics plus the bounded symmetry correction. The all-time quotient-monotonicity proof is the more specific candidate contribution. See the [cumulative summary and novelty assessment](../../research/wheeler/SUMMARY-01.md).
+
 ## 1. Scope and theorem
 
 Keep event-uniform zero-cost MICRO growth and identify rotations only. Use four-run notation
