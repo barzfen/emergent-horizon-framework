@@ -29,7 +29,7 @@ EHF permits state-space enlargement rather than assuming a permanently fixed num
 EHF investigates whether observers and clocks can be defined internally through persistent records and ordered histories, without assuming an external time coordinate.
 
 ### 5. Hamilton-history / Wheeler probes
-**Status: REVIEWED IN PART; WHEELER-62 COMPLETE**
+**Status: REVIEWED IN PART; WHEELER-63 BOUNDED EXTENSION COMPLETE**
 
 The strongest current results concern the explicitly defined zero-cost MICRO growth process: exact insertion counts, observer macro kernels, conditional entropy monotonicity, and consistent probability measures on histories. An independent reconstruction reproduced state/component counts and growth checks through n=14; the review does not certify every earlier experiment.
 
@@ -41,7 +41,7 @@ The Core-C graph gap is n−1 for the specified Hamilton-cycle/2-opt graph; its 
 
 See [WHEELER-62](probes/wheeler/WHEELER-62.md), [WHEELER-61](probes/wheeler/WHEELER-61.md), [WHEELER-60](probes/wheeler/WHEELER-60.md), [WHEELER-59](probes/wheeler/WHEELER-59.md), [WHEELER-58](probes/wheeler/WHEELER-58.md), [ERRATA-01](probes/wheeler/ERRATA-01.md), [REVIEW-01](research/wheeler/REVIEW-01.md), and [reproducible checks](code/wheeler/README.md).
 
-Next: WHEELER-63, minimal seeds with more domain walls and the full rotation-stabilizer entropy correction. Clock-coupling and finite-resource repairs are separate tasks.
+[WHEELER-63](probes/wheeler/WHEELER-63.md) records the full stabilizer correction and positive finite scans for minimal seeds with D=6,8,10. These are not all-time proofs. [Working paper v0.1](research/wheeler/paper-v0.1/README.md) is prepared for review. External proof review and comparison against Nakata’s full classification remain pending. Clock-coupling and finite-resource repairs are separate tasks.
 
 ## Evidence hierarchy
 

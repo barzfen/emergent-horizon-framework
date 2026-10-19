@@ -34,8 +34,8 @@ Every proposed physical interpretation should include a null model and an explic
 
 ## Immediate next work
 
-- Wheeler review corrections and WHEELER-58–62 are complete; retain the exact checks alongside subsequent probes.
-- Next Wheeler probe: WHEELER-63, minimal seeds in D=6,8,… sectors with the correct rotation-stabilizer entropy correction. WHEELER-62 proves all-time strict monotonicity and logarithmic entropy growth for the D=4 minimal seed; WHEELER-61’s other-seed counterexample remains valid.
+- Wheeler review corrections and WHEELER-58–63 are complete; retain the exact checks alongside subsequent probes.
+- Review [working paper v0.1](research/wheeler/paper-v0.1/README.md): complete the Nakata full-text comparison and obtain external proof review. WHEELER-63 supplies bounded D=6,8,10 scans; all-time larger-sector monotonicity remains open. Preserve the distinction between WHEELER-62’s minimal-seed theorem and WHEELER-61’s other-seed counterexample.
 - Separately repair the growth/comparison clock connection with an explicit combined generator.
 - Replace infinite-history/one-event cost proxies with a finite-horizon inference experiment before claiming an optimal observer budget.
 - Revisit prior spectral-gap probes and extract exact definitions, code, and scaling data.

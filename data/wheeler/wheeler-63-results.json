@@ -1,0 +1,615 @@
+{
+  "probabilities": "exact Fraction",
+  "entropy": "floating-point finite diagnostics",
+  "quotient_group": "C_(D/2), shifts by two run positions; no reflection or colour exchange",
+  "identity": "H(class)=H(ordered)-log2(D/2)+E[log2(stabilizer size)]",
+  "all_time_monotonicity_proved_here": false,
+  "recursion_crosscheck_through": 4,
+  "fixed_D_asymptotic": "(D-1)*log2(t)+O(1); general bounded-quotient corollary, not a novelty claim",
+  "scans": [
+    {
+      "D": 4,
+      "seed": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizon": 16,
+      "all_observed_increments_positive": true,
+      "minimum_increment": {
+        "t": 15,
+        "n": 23,
+        "classes": 408,
+        "H_class_bits": 8.196140134962388,
+        "H_ordered_bits": 9.196140134962388,
+        "expected_log2_stabilizer": 0.0,
+        "delta_class_bits": 0.21829591340333288
+      },
+      "steps": [
+        {
+          "t": 0,
+          "n": 8,
+          "classes": 1,
+          "H_class_bits": -0.0,
+          "H_ordered_bits": 0.0,
+          "expected_log2_stabilizer": 1.0,
+          "delta_class_bits": null
+        },
+        {
+          "t": 1,
+          "n": 9,
+          "classes": 2,
+          "H_class_bits": 1.0,
+          "H_ordered_bits": 2.0,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 1.0
+        },
+        {
+          "t": 2,
+          "n": 10,
+          "classes": 6,
+          "H_class_bits": 2.5262349099495225,
+          "H_ordered_bits": 3.295465679180292,
+          "expected_log2_stabilizer": 0.23076923076923078,
+          "delta_class_bits": 1.5262349099495225
+        },
+        {
+          "t": 3,
+          "n": 11,
+          "classes": 10,
+          "H_class_bits": 3.2574958095924087,
+          "H_ordered_bits": 4.257495809592409,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.7312608996428862
+        },
+        {
+          "t": 4,
+          "n": 12,
+          "classes": 19,
+          "H_class_bits": 4.13461724891879,
+          "H_ordered_bits": 5.022529336830878,
+          "expected_log2_stabilizer": 0.11208791208791208,
+          "delta_class_bits": 0.8771214393263813
+        },
+        {
+          "t": 5,
+          "n": 13,
+          "classes": 28,
+          "H_class_bits": 4.657483580233333,
+          "H_ordered_bits": 5.657483580233333,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.5228663313145434
+        },
+        {
+          "t": 6,
+          "n": 14,
+          "classes": 44,
+          "H_class_bits": 5.2688304349884945,
+          "H_ordered_bits": 6.200310719409956,
+          "expected_log2_stabilizer": 0.06851971557853911,
+          "delta_class_bits": 0.611346854755161
+        },
+        {
+          "t": 7,
+          "n": 15,
+          "classes": 60,
+          "H_class_bits": 5.674592694276987,
+          "H_ordered_bits": 6.674592694276987,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.4057622592884922
+        },
+        {
+          "t": 8,
+          "n": 16,
+          "classes": 85,
+          "H_class_bits": 6.142868734697406,
+          "H_ordered_bits": 7.095952802332557,
+          "expected_log2_stabilizer": 0.04691593236484877,
+          "delta_class_bits": 0.46827604042041937
+        },
+        {
+          "t": 9,
+          "n": 17,
+          "classes": 110,
+          "H_class_bits": 6.4752527834960665,
+          "H_ordered_bits": 7.4752527834960665,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.33238404879866046
+        },
+        {
+          "t": 10,
+          "n": 18,
+          "classes": 146,
+          "H_class_bits": 6.854731585109731,
+          "H_ordered_bits": 7.820335640497068,
+          "expected_log2_stabilizer": 0.034395944612662877,
+          "delta_class_bits": 0.3794788016136641
+        },
+        {
+          "t": 11,
+          "n": 19,
+          "classes": 182,
+          "H_class_bits": 7.137041430854419,
+          "H_ordered_bits": 8.137041430854419,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.2823098457446882
+        },
+        {
+          "t": 12,
+          "n": 20,
+          "classes": 231,
+          "H_class_bits": 7.456239474715576,
+          "H_ordered_bits": 8.42983123495426,
+          "expected_log2_stabilizer": 0.026408239761315545,
+          "delta_class_bits": 0.31919804386115747
+        },
+        {
+          "t": 13,
+          "n": 21,
+          "classes": 280,
+          "H_class_bits": 7.702187116736678,
+          "H_ordered_bits": 8.702187116736678,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.2459476420211022
+        },
+        {
+          "t": 14,
+          "n": 22,
+          "classes": 344,
+          "H_class_bits": 7.977844221559055,
+          "H_ordered_bits": 8.956877738856134,
+          "expected_log2_stabilizer": 0.020966482702920983,
+          "delta_class_bits": 0.2756571048223764
+        },
+        {
+          "t": 15,
+          "n": 23,
+          "classes": 408,
+          "H_class_bits": 8.196140134962388,
+          "H_ordered_bits": 9.196140134962388,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.21829591340333288
+        },
+        {
+          "t": 16,
+          "n": 24,
+          "classes": 489,
+          "H_class_bits": 8.438884581943514,
+          "H_ordered_bits": 9.421807362039534,
+          "expected_log2_stabilizer": 0.0170772199039799,
+          "delta_class_bits": 0.24274444698112596
+        }
+      ]
+    },
+    {
+      "D": 6,
+      "seed": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizon": 16,
+      "all_observed_increments_positive": true,
+      "minimum_increment": {
+        "t": 16,
+        "n": 28,
+        "classes": 6783,
+        "H_class_bits": 12.130729183491942,
+        "H_ordered_bits": 13.715691684213098,
+        "expected_log2_stabilizer": 0.0,
+        "delta_class_bits": 0.35643263256123703
+      },
+      "steps": [
+        {
+          "t": 0,
+          "n": 12,
+          "classes": 1,
+          "H_class_bits": -0.0,
+          "H_ordered_bits": 0.0,
+          "expected_log2_stabilizer": 1.584962500721156,
+          "delta_class_bits": null
+        },
+        {
+          "t": 1,
+          "n": 13,
+          "classes": 2,
+          "H_class_bits": 1.0,
+          "H_ordered_bits": 2.584962500721156,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 1.0
+        },
+        {
+          "t": 2,
+          "n": 14,
+          "classes": 7,
+          "H_class_bits": 2.7861150128742516,
+          "H_ordered_bits": 4.371077513595408,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 1.7861150128742516
+        },
+        {
+          "t": 3,
+          "n": 15,
+          "classes": 20,
+          "H_class_bits": 4.2425516937682985,
+          "H_ordered_bits": 5.752437023402663,
+          "expected_log2_stabilizer": 0.0750771710867916,
+          "delta_class_bits": 1.456436680894047
+        },
+        {
+          "t": 4,
+          "n": 16,
+          "classes": 42,
+          "H_class_bits": 5.2966200735582065,
+          "H_ordered_bits": 6.881582574279363,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 1.054068379789908
+        },
+        {
+          "t": 5,
+          "n": 17,
+          "classes": 84,
+          "H_class_bits": 6.252056248795019,
+          "H_ordered_bits": 7.837018749516175,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.9554361752368123
+        },
+        {
+          "t": 6,
+          "n": 18,
+          "classes": 156,
+          "H_class_bits": 7.098500493072851,
+          "H_ordered_bits": 8.665234205783097,
+          "expected_log2_stabilizer": 0.01822878801090931,
+          "delta_class_bits": 0.8464442442778317
+        },
+        {
+          "t": 7,
+          "n": 19,
+          "classes": 264,
+          "H_class_bits": 7.811268212226911,
+          "H_ordered_bits": 9.396230712948068,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.7127677191540602
+        },
+        {
+          "t": 8,
+          "n": 20,
+          "classes": 429,
+          "H_class_bits": 8.465585845582135,
+          "H_ordered_bits": 10.050548346303291,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.6543176333552241
+        },
+        {
+          "t": 9,
+          "n": 21,
+          "classes": 670,
+          "H_class_bits": 9.06484484530246,
+          "H_ordered_bits": 10.642876131093512,
+          "expected_log2_stabilizer": 0.006931214930103175,
+          "delta_class_bits": 0.599258999720325
+        },
+        {
+          "t": 10,
+          "n": 22,
+          "classes": 1001,
+          "H_class_bits": 9.59911752525667,
+          "H_ordered_bits": 11.184080025977826,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.5342726799542099
+        },
+        {
+          "t": 11,
+          "n": 23,
+          "classes": 1456,
+          "H_class_bits": 10.097456882710635,
+          "H_ordered_bits": 11.68241938343179,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.49833935745396474
+        },
+        {
+          "t": 12,
+          "n": 24,
+          "classes": 2066,
+          "H_class_bits": 10.562632535076036,
+          "H_ordered_bits": 12.14431473104206,
+          "expected_log2_stabilizer": 0.003280304755130753,
+          "delta_class_bits": 0.46517565236540115
+        },
+        {
+          "t": 13,
+          "n": 25,
+          "classes": 2856,
+          "H_class_bits": 10.989890014649548,
+          "H_ordered_bits": 12.574852515370704,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.42725747957351246
+        },
+        {
+          "t": 14,
+          "n": 26,
+          "classes": 3876,
+          "H_class_bits": 11.393165717019729,
+          "H_ordered_bits": 12.978128217740885,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.4032757023701805
+        },
+        {
+          "t": 15,
+          "n": 27,
+          "classes": 5172,
+          "H_class_bits": 11.774296550930705,
+          "H_ordered_bits": 13.357486239890816,
+          "expected_log2_stabilizer": 0.0017728117610449291,
+          "delta_class_bits": 0.38113083391097646
+        },
+        {
+          "t": 16,
+          "n": 28,
+          "classes": 6783,
+          "H_class_bits": 12.130729183491942,
+          "H_ordered_bits": 13.715691684213098,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.35643263256123703
+        }
+      ]
+    },
+    {
+      "D": 8,
+      "seed": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizon": 12,
+      "all_observed_increments_positive": true,
+      "minimum_increment": {
+        "t": 12,
+        "n": 28,
+        "classes": 12620,
+        "H_class_bits": 13.167359972161364,
+        "H_ordered_bits": 15.164313306074718,
+        "expected_log2_stabilizer": 0.0030466660866451485,
+        "delta_class_bits": 0.6195272301506058
+      },
+      "steps": [
+        {
+          "t": 0,
+          "n": 16,
+          "classes": 1,
+          "H_class_bits": -0.0,
+          "H_ordered_bits": 0.0,
+          "expected_log2_stabilizer": 2.0,
+          "delta_class_bits": null
+        },
+        {
+          "t": 1,
+          "n": 17,
+          "classes": 2,
+          "H_class_bits": 1.0,
+          "H_ordered_bits": 3.0,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 1.0
+        },
+        {
+          "t": 2,
+          "n": 18,
+          "classes": 10,
+          "H_class_bits": 3.2724876891689534,
+          "H_ordered_bits": 5.152487689168954,
+          "expected_log2_stabilizer": 0.12,
+          "delta_class_bits": 2.2724876891689534
+        },
+        {
+          "t": 3,
+          "n": 19,
+          "classes": 30,
+          "H_class_bits": 4.860284926255816,
+          "H_ordered_bits": 6.860284926255815,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 1.5877972370868627
+        },
+        {
+          "t": 4,
+          "n": 20,
+          "classes": 86,
+          "H_class_bits": 6.327845722926465,
+          "H_ordered_bits": 8.28271751779826,
+          "expected_log2_stabilizer": 0.04512820512820513,
+          "delta_class_bits": 1.4675607966706492
+        },
+        {
+          "t": 5,
+          "n": 21,
+          "classes": 198,
+          "H_class_bits": 7.503632684678354,
+          "H_ordered_bits": 9.503632684678353,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 1.1757869617518883
+        },
+        {
+          "t": 6,
+          "n": 22,
+          "classes": 434,
+          "H_class_bits": 8.588943074943806,
+          "H_ordered_bits": 10.573777397709165,
+          "expected_log2_stabilizer": 0.015165677234642752,
+          "delta_class_bits": 1.0853103902654526
+        },
+        {
+          "t": 7,
+          "n": 23,
+          "classes": 858,
+          "H_class_bits": 9.526584986992185,
+          "H_ordered_bits": 11.526584986992185,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.9376419120483792
+        },
+        {
+          "t": 8,
+          "n": 24,
+          "classes": 1619,
+          "H_class_bits": 10.394285338026918,
+          "H_ordered_bits": 12.385388843346218,
+          "expected_log2_stabilizer": 0.008896494680699352,
+          "delta_class_bits": 0.867700351034733
+        },
+        {
+          "t": 9,
+          "n": 25,
+          "classes": 2860,
+          "H_class_bits": 11.167172948741344,
+          "H_ordered_bits": 13.167172948741344,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.7728876107144256
+        },
+        {
+          "t": 10,
+          "n": 26,
+          "classes": 4876,
+          "H_class_bits": 11.889149708866848,
+          "H_ordered_bits": 13.884704987848155,
+          "expected_log2_stabilizer": 0.004444721018692098,
+          "delta_class_bits": 0.7219767601255036
+        },
+        {
+          "t": 11,
+          "n": 27,
+          "classes": 7956,
+          "H_class_bits": 12.547832742010758,
+          "H_ordered_bits": 14.547832742010758,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 0.6586830331439106
+        },
+        {
+          "t": 12,
+          "n": 28,
+          "classes": 12620,
+          "H_class_bits": 13.167359972161364,
+          "H_ordered_bits": 15.164313306074718,
+          "expected_log2_stabilizer": 0.0030466660866451485,
+          "delta_class_bits": 0.6195272301506058
+        }
+      ]
+    },
+    {
+      "D": 10,
+      "seed": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "horizon": 8,
+      "all_observed_increments_positive": true,
+      "minimum_increment": {
+        "t": 1,
+        "n": 21,
+        "classes": 2,
+        "H_class_bits": 1.0,
+        "H_ordered_bits": 3.3219280948873626,
+        "expected_log2_stabilizer": 0.0,
+        "delta_class_bits": 1.0
+      },
+      "steps": [
+        {
+          "t": 0,
+          "n": 20,
+          "classes": 1,
+          "H_class_bits": -0.0,
+          "H_ordered_bits": 0.0,
+          "expected_log2_stabilizer": 2.321928094887362,
+          "delta_class_bits": null
+        },
+        {
+          "t": 1,
+          "n": 21,
+          "classes": 2,
+          "H_class_bits": 1.0,
+          "H_ordered_bits": 3.3219280948873626,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 1.0
+        },
+        {
+          "t": 2,
+          "n": 22,
+          "classes": 11,
+          "H_class_bits": 3.444712842016836,
+          "H_ordered_bits": 5.766640936904198,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 2.444712842016836
+        },
+        {
+          "t": 3,
+          "n": 23,
+          "classes": 44,
+          "H_class_bits": 5.419255419492738,
+          "H_ordered_bits": 7.741183514380101,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 1.9745425774759022
+        },
+        {
+          "t": 4,
+          "n": 24,
+          "classes": 143,
+          "H_class_bits": 7.08642575987861,
+          "H_ordered_bits": 9.408353854765972,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 1.667170340385872
+        },
+        {
+          "t": 5,
+          "n": 25,
+          "classes": 402,
+          "H_class_bits": 8.537004046178925,
+          "H_ordered_bits": 10.85487667755745,
+          "expected_log2_stabilizer": 0.004055463508838114,
+          "delta_class_bits": 1.4505782863003152
+        },
+        {
+          "t": 6,
+          "n": 26,
+          "classes": 1001,
+          "H_class_bits": 9.811973092252677,
+          "H_ordered_bits": 12.133901187140038,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 1.2749690460737515
+        },
+        {
+          "t": 7,
+          "n": 27,
+          "classes": 2288,
+          "H_class_bits": 10.958951872054833,
+          "H_ordered_bits": 13.280879966942194,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 1.146978779802156
+        },
+        {
+          "t": 8,
+          "n": 28,
+          "classes": 4862,
+          "H_class_bits": 11.998926545531273,
+          "H_ordered_bits": 14.320854640418634,
+          "expected_log2_stabilizer": 0.0,
+          "delta_class_bits": 1.03997467347644
+        }
+      ]
+    }
+  ]
+}

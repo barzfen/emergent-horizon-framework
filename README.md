@@ -43,6 +43,8 @@ The standard for progress is increasingly strict: a useful EHF result should eit
 
 ## Latest Wheeler work
 
+[Entropy and Symmetry in Constrained Cyclic Growth — working paper v0.1](research/wheeler/paper-v0.1/README.md) consolidates the proofs, counterexamples and literature comparison. [WHEELER-63](probes/wheeler/WHEELER-63.md) adds bounded many-domain checks. External proof review and the full Nakata comparison remain pending.
+
 [Summary through WHEELER-62](research/wheeler/SUMMARY-01.md): strongest mathematical results, physics relevance, provisional novelty assessment and a plain-language account.
 
 [WHEELER-62](probes/wheeler/WHEELER-62.md) proves strict ordinary rotation-class entropy increase at every growth event from the minimal seed `(2,2,2,2)`, with leading growth `3 log₂ t + O(1)`. An exact periodicity bound controls the symmetry correction. This is preparation-specific: [WHEELER-61](probes/wheeler/WHEELER-61.md) retains its certified decrease from a different deterministic seed. Rooted and orbit-weighted entropy theorems remain valid.

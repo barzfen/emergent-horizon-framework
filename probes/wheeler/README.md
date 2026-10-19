@@ -2,6 +2,9 @@
 
 ## Current continuation — 19 October 2026
 
+- [Working paper v0.1](../../research/wheeler/paper-v0.1/README.md) is ready for review.
+- [WHEELER-63](WHEELER-63.md) completes the bounded many-domain extension; larger-sector all-time monotonicity remains open.
+
 - [Cumulative summary through WHEELER-62](../../research/wheeler/SUMMARY-01.md): results, physics relevance, novelty and plain-language explanation.
 
 - [WHEELER-62: all-time minimal-seed entropy theorem](WHEELER-62.md) is complete.
@@ -16,11 +19,13 @@
 - [W60 exact results](../../data/wheeler/wheeler-60-results.json) retain the two-source counterexample and integer entropy-sign certificate.
 - [W61 exact results](../../data/wheeler/wheeler-61-results.json) retain the single-seed endpoint laws, rational sign certificate and minimal-seed scan.
 - [W62 exact results](../../data/wheeler/wheeler-62-results.json) retain the polynomial certificates and minimal-seed proof checks.
-- Next proposed: **WHEELER-63 — Many-Domain Minimal Seeds / Rotation-Symmetry Audit**.
+- Next: external proof review and completion of the closest literature comparison.
 
 Both event-uniform and state-uniform growth are horizon-consistent under the specified rooted-word convention. Consistency does not choose a unique measure or imply a physical second law. WHEELER-59 shows that event-uniform growth is root independent, while rooted state-uniform growth is not. Ordinary quotient majorization fails; orbit-weighted entropy monotonicity survives. WHEELER-60 additionally falsifies universal ordinary class Shannon monotonicity, using an exact two-source preparation. WHEELER-61 shows that a decrease also occurs in unconditioned growth from a single seed. WHEELER-62 proves strict all-time increase for the specific minimal seed `(2,2,2,2)`, with entropy `3 log₂ t + O(1)`.
 
 ## Standalone reports
+
+- [WHEELER-63 — Many-Domain Minimal Seeds / Rotation-Symmetry Audit](WHEELER-63.md)
 
 - [WHEELER-62 — Minimal-Seed Entropy / Symmetry Bound Audit](WHEELER-62.md)
 
