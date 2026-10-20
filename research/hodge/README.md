@@ -60,6 +60,22 @@ complexes as an established construction.
 periods, run-rule checks and explicit missed-cycle witnesses.
 Next is HODGE-04, an analytic proof audit for the period relation.
 
+## Current literature and bridge assessment
+
+[LITERATURE-01](LITERATURE-01.md) pins the OpenAI source version and records
+the withdrawn K3-products/Kuga–Satake claims separately from the unwithdrawn
+CM abelian-variety manuscript. It is a proof-structure/status review, not
+an independent certification.
+
+The explicit MICRO circle components have b1=1, whereas smooth projective
+complex varieties have even b1. A direct homotopy identification is
+therefore ruled out for that family; a different relationship would
+require a new construction. [Source manifest](openai-hodge-sources-2026-10-20.json)
+makes the review traceable.
+
+C1/C2 remain local working conjectures. The planned HODGE-04 proof audit
+does not depend on importing any OpenAI Hodge result.
+
 ## Mathematical scope
 
 A graph does not specify which loops bound faces. Adding triangles or other cells

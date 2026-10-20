@@ -48,3 +48,15 @@ novelty remains unassessed.
 ```sh
 OPENBLAS_NUM_THREADS=1 python code/hodge/hodge_03_audit.py --output data/hodge/hodge-03-results.json
 ```
+
+## Current literature assessment
+
+[OpenAI Hodge literature audit](research/hodge/LITERATURE-01.md), checked
+20 October 2026, corrects the K3-products claim to withdrawn and separately
+assesses the unwithdrawn CM manuscript. No corresponding Lean formalization
+was identified in the inspected catalogue.
+
+A direct homotopy identification of the explicit MICRO circle components
+with smooth projective varieties is ruled out by first-Betti parity.
+A more general bridge remains unestablished. HODGE-04 remains the local
+period-identity proof target.

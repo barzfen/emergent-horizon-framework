@@ -1,0 +1,196 @@
+{
+  "review": "EHF-HODGE-LIT-01",
+  "checked_on": "2026-10-20",
+  "timezone": "Australia/Brisbane",
+  "ehf_base_commit": "eb2c72ada0227f3488044c904a33fc667c424982",
+  "openai_math_revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "review_type": "Version/status and proof-structure comparison; not full proof certification",
+  "sources": [
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "README.md",
+      "blob_sha": "50feb63d396138f30dc1ff1e0af121d0263bf5a3",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/README.md",
+      "review_scope": "Repository claim/verification caveat and navigation"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "history.md",
+      "blob_sha": "693874f398905b1bc59e01b898b223ae9956bfc2",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/history.md",
+      "review_scope": "Withdrawals and update dates"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "lean/formalization.yaml",
+      "blob_sha": "275eee8cfab7ce49d3a5e88f02cbb8f28fe6fee6",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/formalization.yaml",
+      "review_scope": "Catalogue absence check only; not a Lean build"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/01-introduction.tex",
+      "blob_sha": "59602fc8c2d93900eb6e2d8640d9eb8a976c2556",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/01-introduction.tex",
+      "review_scope": "Complete introduction and theorem scope"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/02-tensors.tex",
+      "blob_sha": "1eb2662faaf249de7d185aade83e609fb54570e5",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/02-tensors.tex",
+      "review_scope": "Four-factor reduction and composition proof; lines 299-485"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/03-surface.tex",
+      "blob_sha": "bd030ababfca7a735ef04f9113db901886a4e79a",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/03-surface.tex",
+      "review_scope": "Complete surface criterion and proof"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/04-theta.tex",
+      "blob_sha": "a21319f3c8d08880a4732d3e37a18516b8accb98",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/04-theta.tex",
+      "review_scope": "Selected nonvanishing and fixed-input continuity arguments: lines 700-774 and 832-1065; remaining source outline only"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/05a-moduli.tex",
+      "blob_sha": "b33d87f9f413d4583ecc00a2bf3318b82c23e376",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/05a-moduli.tex",
+      "review_scope": "CM extraction statement and dependency overview; lines 1-65"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/05b-frobenius.tex",
+      "blob_sha": "a2ebfa491613f0dd3b0f2ccb6070bba0c7c09a9c",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/05b-frobenius.tex",
+      "review_scope": "Frobenius-polynomial proposition and initial construction; lines 1-110"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/05b-satake-frobenius.tex",
+      "blob_sha": "85f5745559b01729697769dcfa7e59fb0c73b6f8",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/05b-satake-frobenius.tex",
+      "review_scope": "Active parameter proposition and initial proof; lines 218-295"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/05c-cm-types.tex",
+      "blob_sha": "149401449d2e11de2ae66a8bcc70e172c2cb32a2",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/05c-cm-types.tex",
+      "review_scope": "Hodge-type proposition and finite-family corollary; lines 184-270 and 395-465"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/06-assembly.tex",
+      "blob_sha": "9a6a3ace17738704e43dca1fdf967a3b8fddd726",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/sections/06-assembly.tex",
+      "review_scope": "Complete assembly proof"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/references.bib",
+      "blob_sha": "2b38256eb5a02faee7732cc59fcc9c8f3be7fdf4",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/references.bib",
+      "review_scope": "Check for direct citation of withdrawn papers; no such matching references found"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/The-rational-Hodge-conjecture-for-products-of-K3-surfaces-October-4-2026/README.md",
+      "blob_sha": "7d0be5e083c7dd0cb8fa330498cb40c9ce059e27",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/The-rational-Hodge-conjecture-for-products-of-K3-surfaces-October-4-2026/README.md",
+      "review_scope": "Complete withdrawal notice",
+      "status": "WITHDRAWN",
+      "notice_date": "2026-10-06",
+      "history_entry_date": "2026-10-07"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/Algebraicity-of-Kuga-Satake-Correspondences-for-K3-Surfaces-October-3-2026/README.md",
+      "blob_sha": "f5c9294c6447ba3dd0477007704c039c73aec71e",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Algebraicity-of-Kuga-Satake-Correspondences-for-K3-Surfaces-October-3-2026/README.md",
+      "review_scope": "Complete withdrawal notice",
+      "status": "WITHDRAWN",
+      "notice_date": "2026-10-06",
+      "history_entry_date": "2026-10-07"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/Algebraicity-of-Weil-classes-on-split-abelian-eightfolds-September-18-2026/README.md",
+      "blob_sha": "c7c9b6abcde71135b68582a318a23111b996494b",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Algebraicity-of-Weil-classes-on-split-abelian-eightfolds-September-18-2026/README.md",
+      "review_scope": "Complete withdrawal notice",
+      "status": "WITHDRAWN",
+      "notice_date": "2026-10-06",
+      "history_entry_date": "2026-10-07"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+      "path": "preprints/The-rational-Hodge-conjecture-for-products-of-K3-surfaces-October-4-2026/build/manuscript/introduction.tex",
+      "blob_sha": "71ee24162017eb569272f8dcd229361461ecff57",
+      "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-rational-Hodge-conjecture-for-products-of-K3-surfaces-October-4-2026/build/manuscript/introduction.tex",
+      "review_scope": "Archived introduction and proof/dependency outline only; not a certification of withdrawn proof"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/README.md",
+      "blob_sha": "64bae604ba32d35fa2ab08b1556659cbc42a1b5c",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/README.md",
+      "review_scope": "Complete version and citation notice"
+    },
+    {
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/main.tex",
+      "blob_sha": "05c9c3268d944913eae12c7f7c56d5794f2105a8",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/The-rational-Hodge-conjecture-for-CM-abelian-varieties-October-6-2026/build/main.tex",
+      "review_scope": "Abstract and complete source inclusion list"
+    }
+  ],
+  "external_sources": [
+    {
+      "title": "Pierre Deligne, The Hodge Conjecture",
+      "url": "https://www.claymath.org/wp-content/uploads/2022/06/hodge.pdf",
+      "review_scope": "Hodge decomposition and rational Hodge-class definition"
+    },
+    {
+      "title": "OpenAI release announcement",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "published": "2026-10-06",
+      "review_scope": "Release provenance only; paper notices take priority for status"
+    }
+  ],
+  "status_findings": {
+    "cm_abelian": "UNWITHDRAWN MANUSCRIPT CLAIM at the pinned revision; not independently certified by this review",
+    "k3_products": "WITHDRAWN: individual notice dated 2026-10-06; history entry dated 2026-10-07",
+    "kuga_satake": "WITHDRAWN: individual notice dated 2026-10-06; history entry dated 2026-10-07",
+    "split_abelian_eightfolds": "WITHDRAWN: sign error in stabilization-trace cancellation",
+    "formalization": "No Hodge/CM/K3 title found in lean/formalization.yaml and no family 032 document in lean/docs; no Lean code compiled"
+  },
+  "ehf_findings": {
+    "direct_homotopy_identification": "RULED OUT for explicit adjacent-pair C_n components by odd b1 versus even projective b1",
+    "general_bridge": "NOT ESTABLISHED; no variety, rational Hodge structure or algebraic cycle-class map constructed",
+    "local_conjectures": "C1/C2 retained with existing evidence tags; no external proof imported"
+  }
+}
