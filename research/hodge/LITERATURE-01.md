@@ -12,6 +12,12 @@ discussion is withdrawn. The individual notice dates the withdrawal to
 6 October; the repository history records it under 7 October.
 This corrects the earlier account that presented it as a current result.
 
+**Subsequent local-status update (HODGE-04):** C2 is now proved by the
+[explicit marker potential](../../formal/hodge/TRANSPORT-POTENTIAL.md).
+C1 remains conjectural. The literature assessment below records its
+original base-commit status; its manuscript-status findings and
+projective-parity obstruction are unchanged.
+
 ## 1. Version lock and review depth
 
 OpenAI repository: `openai/math`
@@ -210,3 +216,4 @@ In plain language: OpenAI did publish relevant work, but part of that
 work has been withdrawn. The remaining CM paper operates with structures
 we have not derived in EHF. Our branch has useful discrete mathematics
 to pursue; it currently supplies no shortcut to the algebraic Hodge problem.
+

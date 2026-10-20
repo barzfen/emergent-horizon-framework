@@ -1,0 +1,601 @@
+{
+  "audit": [
+    {
+      "checks": {
+        "canonical_cut_independence": "PASS",
+        "cyclic_color_word_invariance": "PASS",
+        "edge_identity": "PASS",
+        "no_marker_passing": "PASS",
+        "rotation_invariance": "PASS",
+        "single_marker_displacement": "PASS"
+      },
+      "example_nonzero_identity": null,
+      "marker_seam_crossing_edges": 8,
+      "mixed_periodic_signature_states": 0,
+      "n": 5,
+      "nonzero_potential_difference_edges": 0,
+      "orientation_counts": {
+        "-1": 5,
+        "1": 5
+      },
+      "potential_max": 0,
+      "potential_min": 0,
+      "states": 12,
+      "undirected_edges": 10
+    },
+    {
+      "checks": {
+        "canonical_cut_independence": "PASS",
+        "cyclic_color_word_invariance": "PASS",
+        "edge_identity": "PASS",
+        "no_marker_passing": "PASS",
+        "rotation_invariance": "PASS",
+        "single_marker_displacement": "PASS"
+      },
+      "example_nonzero_identity": null,
+      "marker_seam_crossing_edges": 8,
+      "mixed_periodic_signature_states": 0,
+      "n": 6,
+      "nonzero_potential_difference_edges": 0,
+      "orientation_counts": {
+        "-1": 6,
+        "1": 6
+      },
+      "potential_max": 3,
+      "potential_min": 0,
+      "states": 20,
+      "undirected_edges": 12
+    },
+    {
+      "checks": {
+        "canonical_cut_independence": "PASS",
+        "cyclic_color_word_invariance": "PASS",
+        "edge_identity": "PASS",
+        "no_marker_passing": "PASS",
+        "rotation_invariance": "PASS",
+        "single_marker_displacement": "PASS"
+      },
+      "example_nonzero_identity": null,
+      "marker_seam_crossing_edges": 8,
+      "mixed_periodic_signature_states": 0,
+      "n": 7,
+      "nonzero_potential_difference_edges": 0,
+      "orientation_counts": {
+        "-1": 7,
+        "1": 7
+      },
+      "potential_max": 7,
+      "potential_min": 0,
+      "states": 30,
+      "undirected_edges": 14
+    },
+    {
+      "checks": {
+        "canonical_cut_independence": "PASS",
+        "cyclic_color_word_invariance": "PASS",
+        "edge_identity": "PASS",
+        "no_marker_passing": "PASS",
+        "rotation_invariance": "PASS",
+        "single_marker_displacement": "PASS"
+      },
+      "example_nonzero_identity": null,
+      "marker_seam_crossing_edges": 8,
+      "mixed_periodic_signature_states": 0,
+      "n": 8,
+      "nonzero_potential_difference_edges": 0,
+      "orientation_counts": {
+        "-1": 8,
+        "1": 8
+      },
+      "potential_max": 16,
+      "potential_min": 0,
+      "states": 46,
+      "undirected_edges": 16
+    },
+    {
+      "checks": {
+        "canonical_cut_independence": "PASS",
+        "cyclic_color_word_invariance": "PASS",
+        "edge_identity": "PASS",
+        "no_marker_passing": "PASS",
+        "rotation_invariance": "PASS",
+        "single_marker_displacement": "PASS"
+      },
+      "example_nonzero_identity": null,
+      "marker_seam_crossing_edges": 16,
+      "mixed_periodic_signature_states": 0,
+      "n": 9,
+      "nonzero_potential_difference_edges": 0,
+      "orientation_counts": {
+        "-1": 18,
+        "1": 18
+      },
+      "potential_max": 27,
+      "potential_min": 0,
+      "states": 74,
+      "undirected_edges": 36
+    },
+    {
+      "checks": {
+        "canonical_cut_independence": "PASS",
+        "cyclic_color_word_invariance": "PASS",
+        "edge_identity": "PASS",
+        "no_marker_passing": "PASS",
+        "rotation_invariance": "PASS",
+        "single_marker_displacement": "PASS"
+      },
+      "example_nonzero_identity": {
+        "D": 4,
+        "E": 2,
+        "added_marker": [
+          6,
+          0
+        ],
+        "cyclic_marker_signature": [
+          0,
+          1
+        ],
+        "j": -2,
+        "kappa": -1,
+        "m": 5,
+        "move_label": 2,
+        "n": 10,
+        "q": -4,
+        "removed_marker": [
+          2,
+          0
+        ],
+        "source": "0001100111",
+        "source_potential": 7,
+        "target": "0011000111",
+        "target_potential": 3
+      },
+      "marker_seam_crossing_edges": 32,
+      "mixed_periodic_signature_states": 0,
+      "n": 10,
+      "nonzero_potential_difference_edges": 20,
+      "orientation_counts": {
+        "-1": 40,
+        "1": 40
+      },
+      "potential_max": 45,
+      "potential_min": 0,
+      "states": 122,
+      "undirected_edges": 80
+    },
+    {
+      "checks": {
+        "canonical_cut_independence": "PASS",
+        "cyclic_color_word_invariance": "PASS",
+        "edge_identity": "PASS",
+        "no_marker_passing": "PASS",
+        "rotation_invariance": "PASS",
+        "single_marker_displacement": "PASS"
+      },
+      "example_nonzero_identity": {
+        "D": 4,
+        "E": 3,
+        "added_marker": [
+          7,
+          0
+        ],
+        "cyclic_marker_signature": [
+          0,
+          0,
+          1
+        ],
+        "j": -2,
+        "kappa": -1,
+        "m": 5,
+        "move_label": 3,
+        "n": 11,
+        "q": -4,
+        "removed_marker": [
+          3,
+          0
+        ],
+        "source": "00001100111",
+        "source_potential": 15,
+        "target": "00011000111",
+        "target_potential": 11
+      },
+      "marker_seam_crossing_edges": 56,
+      "mixed_periodic_signature_states": 0,
+      "n": 11,
+      "nonzero_potential_difference_edges": 66,
+      "orientation_counts": {
+        "-1": 77,
+        "1": 77
+      },
+      "potential_max": 66,
+      "potential_min": 0,
+      "states": 200,
+      "undirected_edges": 154
+    },
+    {
+      "checks": {
+        "canonical_cut_independence": "PASS",
+        "cyclic_color_word_invariance": "PASS",
+        "edge_identity": "PASS",
+        "no_marker_passing": "PASS",
+        "rotation_invariance": "PASS",
+        "single_marker_displacement": "PASS"
+      },
+      "example_nonzero_identity": {
+        "D": 4,
+        "E": 4,
+        "added_marker": [
+          8,
+          0
+        ],
+        "cyclic_marker_signature": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "j": -2,
+        "kappa": -1,
+        "m": 5,
+        "move_label": 4,
+        "n": 12,
+        "q": -4,
+        "removed_marker": [
+          4,
+          0
+        ],
+        "source": "000001100111",
+        "source_potential": 24,
+        "target": "000011000111",
+        "target_potential": 20
+      },
+      "marker_seam_crossing_edges": 88,
+      "mixed_periodic_signature_states": 6,
+      "n": 12,
+      "nonzero_potential_difference_edges": 144,
+      "orientation_counts": {
+        "-1": 132,
+        "1": 132
+      },
+      "potential_max": 96,
+      "potential_min": 0,
+      "states": 324,
+      "undirected_edges": 264
+    },
+    {
+      "checks": {
+        "canonical_cut_independence": "PASS",
+        "cyclic_color_word_invariance": "PASS",
+        "edge_identity": "PASS",
+        "no_marker_passing": "PASS",
+        "rotation_invariance": "PASS",
+        "single_marker_displacement": "PASS"
+      },
+      "example_nonzero_identity": {
+        "D": 4,
+        "E": 5,
+        "added_marker": [
+          9,
+          0
+        ],
+        "cyclic_marker_signature": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "j": -2,
+        "kappa": -1,
+        "m": 5,
+        "move_label": 5,
+        "n": 13,
+        "q": -4,
+        "removed_marker": [
+          5,
+          0
+        ],
+        "source": "0000001100111",
+        "source_potential": 34,
+        "target": "0000011000111",
+        "target_potential": 30
+      },
+      "marker_seam_crossing_edges": 136,
+      "mixed_periodic_signature_states": 0,
+      "n": 13,
+      "nonzero_potential_difference_edges": 260,
+      "orientation_counts": {
+        "-1": 221,
+        "1": 221
+      },
+      "potential_max": 130,
+      "potential_min": 0,
+      "states": 522,
+      "undirected_edges": 442
+    },
+    {
+      "checks": {
+        "canonical_cut_independence": "PASS",
+        "cyclic_color_word_invariance": "PASS",
+        "edge_identity": "PASS",
+        "no_marker_passing": "PASS",
+        "rotation_invariance": "PASS",
+        "single_marker_displacement": "PASS"
+      },
+      "example_nonzero_identity": {
+        "D": 4,
+        "E": 6,
+        "added_marker": [
+          10,
+          0
+        ],
+        "cyclic_marker_signature": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "j": -2,
+        "kappa": -1,
+        "m": 5,
+        "move_label": 6,
+        "n": 14,
+        "q": -4,
+        "removed_marker": [
+          6,
+          0
+        ],
+        "source": "00000001100111",
+        "source_potential": 45,
+        "target": "00000011000111",
+        "target_potential": 41
+      },
+      "marker_seam_crossing_edges": 216,
+      "mixed_periodic_signature_states": 14,
+      "n": 14,
+      "nonzero_potential_difference_edges": 476,
+      "orientation_counts": {
+        "-1": 378,
+        "1": 378
+      },
+      "potential_max": 175,
+      "potential_min": 0,
+      "states": 842,
+      "undirected_edges": 756
+    },
+    {
+      "checks": {
+        "canonical_cut_independence": "PASS",
+        "cyclic_color_word_invariance": "PASS",
+        "edge_identity": "PASS",
+        "no_marker_passing": "PASS",
+        "rotation_invariance": "PASS",
+        "single_marker_displacement": "PASS"
+      },
+      "example_nonzero_identity": {
+        "D": 4,
+        "E": 7,
+        "added_marker": [
+          11,
+          0
+        ],
+        "cyclic_marker_signature": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "j": -2,
+        "kappa": -1,
+        "m": 5,
+        "move_label": 7,
+        "n": 15,
+        "q": -4,
+        "removed_marker": [
+          7,
+          0
+        ],
+        "source": "000000001100111",
+        "source_potential": 57,
+        "target": "000000011000111",
+        "target_potential": 53
+      },
+      "marker_seam_crossing_edges": 352,
+      "mixed_periodic_signature_states": 0,
+      "n": 15,
+      "nonzero_potential_difference_edges": 900,
+      "orientation_counts": {
+        "-1": 660,
+        "1": 660
+      },
+      "potential_max": 225,
+      "potential_min": 0,
+      "states": 1362,
+      "undirected_edges": 1320
+    },
+    {
+      "checks": {
+        "canonical_cut_independence": "PASS",
+        "cyclic_color_word_invariance": "PASS",
+        "edge_identity": "PASS",
+        "no_marker_passing": "PASS",
+        "rotation_invariance": "PASS",
+        "single_marker_displacement": "PASS"
+      },
+      "example_nonzero_identity": {
+        "D": 4,
+        "E": 8,
+        "added_marker": [
+          12,
+          0
+        ],
+        "cyclic_marker_signature": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "j": -2,
+        "kappa": -1,
+        "m": 5,
+        "move_label": 8,
+        "n": 16,
+        "q": -4,
+        "removed_marker": [
+          8,
+          0
+        ],
+        "source": "0000000001100111",
+        "source_potential": 70,
+        "target": "0000000011000111",
+        "target_potential": 66
+      },
+      "marker_seam_crossing_edges": 576,
+      "mixed_periodic_signature_states": 56,
+      "n": 16,
+      "nonzero_potential_difference_edges": 1696,
+      "orientation_counts": {
+        "-1": 1152,
+        "1": 1152
+      },
+      "potential_max": 288,
+      "potential_min": 0,
+      "states": 2206,
+      "undirected_edges": 2304
+    },
+    {
+      "checks": {
+        "canonical_cut_independence": "PASS",
+        "cyclic_color_word_invariance": "PASS",
+        "edge_identity": "PASS",
+        "no_marker_passing": "PASS",
+        "rotation_invariance": "PASS",
+        "single_marker_displacement": "PASS"
+      },
+      "example_nonzero_identity": {
+        "D": 4,
+        "E": 9,
+        "added_marker": [
+          13,
+          0
+        ],
+        "cyclic_marker_signature": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "j": -2,
+        "kappa": -1,
+        "m": 5,
+        "move_label": 9,
+        "n": 17,
+        "q": -4,
+        "removed_marker": [
+          9,
+          0
+        ],
+        "source": "00000000001100111",
+        "source_potential": 84,
+        "target": "00000000011000111",
+        "target_potential": 80
+      },
+      "marker_seam_crossing_edges": 936,
+      "mixed_periodic_signature_states": 0,
+      "n": 17,
+      "nonzero_potential_difference_edges": 3094,
+      "orientation_counts": {
+        "-1": 1989,
+        "1": 1989
+      },
+      "potential_max": 357,
+      "potential_min": 0,
+      "states": 3572,
+      "undirected_edges": 3978
+    },
+    {
+      "checks": {
+        "canonical_cut_independence": "PASS",
+        "cyclic_color_word_invariance": "PASS",
+        "edge_identity": "PASS",
+        "no_marker_passing": "PASS",
+        "rotation_invariance": "PASS",
+        "single_marker_displacement": "PASS"
+      },
+      "example_nonzero_identity": {
+        "D": 4,
+        "E": 10,
+        "added_marker": [
+          14,
+          0
+        ],
+        "cyclic_marker_signature": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "j": -2,
+        "kappa": -1,
+        "m": 5,
+        "move_label": 10,
+        "n": 18,
+        "q": -4,
+        "removed_marker": [
+          10,
+          0
+        ],
+        "source": "000000000001100111",
+        "source_potential": 99,
+        "target": "000000000011000111",
+        "target_potential": 95
+      },
+      "marker_seam_crossing_edges": 1512,
+      "mixed_periodic_signature_states": 150,
+      "n": 18,
+      "nonzero_potential_difference_edges": 5508,
+      "orientation_counts": {
+        "-1": 3402,
+        "1": 3402
+      },
+      "potential_max": 441,
+      "potential_min": 0,
+      "states": 5780,
+      "undirected_edges": 6804
+    }
+  ],
+  "environment": {
+    "python": "3.12.14"
+  },
+  "identity": "F(v)-F(w)=(n-2D)j(w,v)-2(n-2m)kappa(w,v)",
+  "integer_arithmetic_only": true,
+  "probe": "EHF-HODGE-04",
+  "range": [
+    5,
+    18
+  ],
+  "status": "Exact bounded verification of an explicit formula; all-size proof supplied separately",
+  "total_marker_seam_crossing_edges": 3952,
+  "total_states": 15112,
+  "total_undirected_edges": 16190
+}

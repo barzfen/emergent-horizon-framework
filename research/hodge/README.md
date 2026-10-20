@@ -49,16 +49,16 @@ and a closed boundary-displacement cochain. It detects all 30 components
 missed by signed binary transport among 200 moving components scanned
 through n=18.
 
-[Working conjectures C1 and C2](../../formal/hodge/CONJECTURES.md) state
-the one-dimensional rational H1 classification and the observed
-binary/boundary period relation. All-size proofs and novelty remain open.
+[C1 and C2](../../formal/hodge/CONJECTURES.md) were introduced here as
+the rational H1 classification and the binary/boundary period relation.
+C2 is subsequently proved in HODGE-04; C1 and novelty remain open.
 The preliminary literature comparison identifies commuting-move state
 complexes as an established construction.
 
 [Code](../../code/hodge/hodge_03_audit.py) and
 [results](../../data/hodge/hodge-03-results.json) retain exact ranks,
 periods, run-rule checks and explicit missed-cycle witnesses.
-Next is HODGE-04, an analytic proof audit for the period relation.
+The analytic proof audit is completed in HODGE-04 below.
 
 ## Current literature and bridge assessment
 
@@ -73,8 +73,24 @@ therefore ruled out for that family; a different relationship would
 require a new construction. [Source manifest](openai-hodge-sources-2026-10-20.json)
 makes the review traceable.
 
-C1/C2 remain local working conjectures. The planned HODGE-04 proof audit
-does not depend on importing any OpenAI Hodge result.
+C1 remains a local working conjecture; C2 is proved in HODGE-04.
+That proof does not depend on importing any OpenAI Hodge result.
+
+## HODGE-04 update — explicit potential theorem
+
+[HODGE-04](../../probes/hodge/HODGE-04.md) proves C2 for every n>=5 by
+constructing an integer potential with
+dF=(n-2D)j-2(n-2m)kappa. It uses cyclic order of excess markers and
+handles non-unique canonical cuts without assuming C1.
+
+The [complete proof](../../formal/hodge/TRANSPORT-POTENTIAL.md) and
+[standard-library code](../../code/hodge/hodge_04_audit.py) are accompanied
+by [exact edge checks](../../data/hodge/hodge-04-results.json) through n=18.
+
+Balanced binary-transport exactness and a boundary-winding divisibility
+constraint are corollaries. C1 remains open; HODGE-05 should investigate
+component classification from the invariant cyclic marker word and
+root-phase data. Broader novelty and independent proof review remain open.
 
 ## Mathematical scope
 
@@ -104,7 +120,8 @@ without proving that the reduction preserves the relevant invariant.
 | Growth maps inducing cochain maps and stable cohomology | Not established |
 | Smooth projective complex variety attached meaningfully to EHF | Not established |
 | Rational Hodge classes and algebraic cycle map | Not established |
-| EHF working conjectures | C1 and C2 are precisely stated with exact finite support; all-size proofs and novelty remain open |\n| Progress on the Clay conjecture | Not claimed |
+| EHF local results | C2 has an explicit all-size proof; C1 remains conjectural; novelty and independent proof review remain open |
+| Progress on the Clay conjecture | Not claimed |
 
 ## What the Clay problem would actually require
 

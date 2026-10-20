@@ -1,9 +1,11 @@
-# EHF MICRO square-complex working conjectures
+# EHF MICRO component conjecture and transport theorem
 
-Date: 2026-10-20 (Australia/Brisbane)
+Updated: 2026-10-20 (Australia/Brisbane), HODGE-04
 
-**Status: CONJECTURE. Exact finite support for n=5,...,18; no all-size proof
-and no claim of novelty in the mathematical literature.**
+**C1 remains CONJECTURE. C2 is now PROVED within the specified model.**
+No novelty claim is made. C2 has an explicit analytic proof and exact
+implementation checks; it has not been independently reviewed or
+formally verified in a proof assistant.
 
 ## Definition lock
 
@@ -23,19 +25,21 @@ This is the precise complex of [HODGE-02](../../probes/hodge/HODGE-02.md).
 HODGE-03 proves its endpoint-square rule equals the window-disjoint rule
 for all n>=5.
 
-On a directed edge w -> tau_i(w), define the closed cochains
+On a directed edge w -> tau_i(w), define the closed integer cochains
 
 `j = 2(w_i-w_(i+2)),`
 `kappa = +1 if w_i=w_(i+1), and -1 otherwise.`
 
 The latter counts signed displacement of a 01 run boundary.
 Both reverse sign on edge reversal and have integral loop periods
-divisible by n. They represent classes in H^1(C;Q).
+divisible by n. They represent classes in H^1(C;Z), and over Q.
 
 The component has fixed number m of 1 values and fixed number D of runs
 (domain walls). For a moving component, E=n-2D>0.
 
 ## EHF-HODGE-C1 — Single rational homology direction
+
+**Status: CONJECTURE.**
 
 For every n>=5 and every moving component C of X_n,
 
@@ -55,47 +59,64 @@ to a circle.
 A finite counterexample is any moving component with rational beta1
 different from 1 or with zero kappa period on every loop.
 
-## EHF-HODGE-C2 — Binary/boundary period relation
+[HODGE-03](../../probes/hodge/HODGE-03.md) exhaustively checks 200 moving
+components across n=5,...,18, all satisfying C1. This finite evidence
+is not an all-size classification.
+
+## EHF-HODGE-C2 — Binary/boundary period theorem
+
+**Status: PROVED in HODGE-04.** The C2 identifier is retained for
+continuity with the original conjecture.
 
 For every n>=5 and every moving component C of X_n,
 
-`(n-2D)[j] = 2(n-2m)[kappa] in H^1(C;Q).`
+`(n-2D)[j] = 2(n-2m)[kappa] in H^1(C;Z).`
 
+In particular the originally conjectured equality over Q holds.
 Equivalently, for every closed graph path gamma in C,
 
 `(n-2D) sum_gamma j = 2(n-2m) sum_gamma kappa.`
 
-The equivalence uses the graph period criterion for exact cochains.
-This is a separate claim from C1.
+The [explicit marker-potential theorem](TRANSPORT-POTENTIAL.md) proves
+the stronger edge identity
 
-If true, C2 explains why balanced components (m=n/2) have zero binary
-period even when boundary winding is nonzero. It also gives the ratio
+`F(v)-F(w)=(n-2D)j(w,v)-2(n-2m)kappa(w,v)`
 
-`sum j / sum kappa = 2(n-2m)/(n-2D)`
+for an integer-valued state function F. Its construction uses the
+invariant cyclic order of excess-bit markers and does not assume C1.
 
-whenever the denominator period is nonzero.
+### Corollaries
 
-A finite counterexample is a fundamental graph cycle violating the
-integer equality. Fundamental cycles suffice because they span the
-graph cycle space.
+On balanced moving components (m=n/2), j=d(F/E) is exact over Q.
+Thus binary transport misses their topology for a proved structural
+reason, not because the graph has no cycles.
 
-## Evidence
+Whenever the boundary period is nonzero,
 
-[HODGE-03](../../probes/hodge/HODGE-03.md) exhaustively audits 200 moving
-components across n=5,...,18. Every one satisfies C1 and C2.
-All ranks, face checks and periods are exact. Earlier sizes are retained
-as consistency controls. This is evidence, not proof by induction.
+`sum j / sum kappa = 2(n-2m)/(n-2D).`
 
-The boundary-winding image need not equal Z integrally. For example,
-some n=11 components have image 3Z. This does not contradict C1 over Q.
+The boundary winding K=(sum kappa)/n must be divisible by
 
-## What must happen before stronger claims
+`(n-2D)/gcd(n-2D,2(n-2m)).`
 
-- Derive an all-size classification from the run-coordinate dynamics,
-  or find a counterexample.
-- For C2, construct a state potential for
-  (n-2D)j-2(n-2m)kappa, or supply another all-size argument.
-- Compare the exact model with existing reconfiguration/state-complex
-  and constrained transport literature before claiming originality.
-- Keep the Clay Hodge conjecture separate: no smooth projective variety,
-  rational (p,p) identification, or algebraic cycle map has been derived.
+This is necessary; it is not an assertion that every permitted multiple
+occurs. For example, some n=11 components have image 3Z, consistent
+with this constraint.
+
+The exact edge identity also determines weighted transport on open paths
+from the endpoint values of F.
+
+## Evidence and remaining work
+
+- HODGE-03 supplies exact finite H1 and period checks for C1 and the
+  then-conjectural C2.
+- [HODGE-04](../../probes/hodge/HODGE-04.md) supplies the all-size C2
+  proof and independent exact verification on 15,112 states and
+  16,190 edges through n=18.
+- C1 remains open. HODGE-05 should audit whether the conserved cyclic
+  marker word, together with root-phase data, classifies components.
+- Compare with existing constrained-dynamics/state-complex literature
+  before claiming originality.
+- No smooth projective variety, rational (p,p) identification or
+  algebraic cycle map has been derived. The Clay bridge and its parity
+  restriction remain as assessed in LITERATURE-01.
