@@ -1,0 +1,315 @@
+{
+  "conclusion": "Discrete Hodge fit supported; no bridge to Clay Hodge conjecture established.",
+  "numpy_version": "2.3.5",
+  "probe": "EHF-HODGE-01",
+  "recur_enumeration": [
+    {
+      "angle_radians": 0.5512855984325308,
+      "cosine_exact": "23/27",
+      "loop_minus_identity_frobenius": 2.9313124351717597,
+      "microstates": 12,
+      "n": 5,
+      "observer_dimension": 6,
+      "rotation_eigenvalue_residual": 3.510833468576701e-16,
+      "single_transport_rank": 6,
+      "unit_modulus_eigenvalues": [
+        [
+          -0.9999999999999998,
+          3.9252311467094383e-16
+        ],
+        [
+          -0.9999999999999998,
+          -3.9252311467094383e-16
+        ],
+        [
+          0.8518518518518517,
+          -0.5237828008789244
+        ],
+        [
+          0.8518518518518517,
+          0.5237828008789244
+        ],
+        [
+          1.0000000000000002,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "angle_radians": 0.8127555613686607,
+      "cosine_exact": "11/16",
+      "loop_minus_identity_frobenius": 4.107919181288746,
+      "microstates": 60,
+      "n": 6,
+      "observer_dimension": 10,
+      "rotation_eigenvalue_residual": 1.0990647210786425e-15,
+      "single_transport_rank": 8,
+      "unit_modulus_eigenvalues": [
+        [
+          -0.9999999999999989,
+          0.0
+        ],
+        [
+          -1.0000000000000004,
+          0.0
+        ],
+        [
+          -0.9999999999999993,
+          0.0
+        ],
+        [
+          0.6874999999999992,
+          -0.7261843774138899
+        ],
+        [
+          0.6874999999999992,
+          0.7261843774138899
+        ],
+        [
+          0.9999999999999993,
+          0.0
+        ]
+      ]
+    },
+    {
+      "angle_radians": 0.9667225644239043,
+      "cosine_exact": "71/125",
+      "loop_minus_identity_frobenius": 5.053989989583954,
+      "microstates": 360,
+      "n": 7,
+      "observer_dimension": 15,
+      "rotation_eigenvalue_residual": 4.710277376051326e-16,
+      "single_transport_rank": 10,
+      "unit_modulus_eigenvalues": [
+        [
+          -0.9999999999999987,
+          0.0
+        ],
+        [
+          -1.0000000000000009,
+          0.0
+        ],
+        [
+          -0.999999999999999,
+          0.0
+        ],
+        [
+          -0.9999999999999992,
+          0.0
+        ],
+        [
+          0.5680000000000003,
+          -0.8230285535751481
+        ],
+        [
+          0.5680000000000003,
+          0.8230285535751481
+        ],
+        [
+          1.0000000000000007,
+          0.0
+        ]
+      ]
+    },
+    {
+      "angle_radians": 1.0684520891358287,
+      "cosine_exact": "13/27",
+      "loop_minus_identity_frobenius": 5.913095557664706,
+      "microstates": 2520,
+      "n": 8,
+      "observer_dimension": 21,
+      "rotation_eigenvalue_residual": 1.2412670766236366e-16,
+      "single_transport_rank": 12,
+      "unit_modulus_eigenvalues": [
+        [
+          -0.9999999999999993,
+          0.0
+        ],
+        [
+          -1.000000000000001,
+          0.0
+        ],
+        [
+          -0.9999999999999997,
+          0.0
+        ],
+        [
+          -0.9999999999999996,
+          0.0
+        ],
+        [
+          -1.0000000000000002,
+          0.0
+        ],
+        [
+          0.4814814814814814,
+          -0.876456264162906
+        ],
+        [
+          0.4814814814814814,
+          0.876456264162906
+        ],
+        [
+          0.9999999999999998,
+          0.0
+        ]
+      ]
+    }
+  ],
+  "status": "COMPUTATIONAL",
+  "tolerance": 1e-09,
+  "topology_controls": [
+    {
+      "beta1": 3,
+      "edges": 6,
+      "exact_gradient_energies": {
+        "curl": 0.0,
+        "gradient": 20.000000000000004,
+        "harmonic": 4.930380657631324e-31
+      },
+      "faces": 0,
+      "n": 4,
+      "rank_d0": 3,
+      "rank_d1": 0
+    },
+    {
+      "beta1": 0,
+      "edges": 6,
+      "exact_gradient_energies": {
+        "curl": 1.0992642271721917e-30,
+        "gradient": 20.000000000000004,
+        "harmonic": 1.310635959917521e-30
+      },
+      "faces": 4,
+      "n": 4,
+      "rank_d0": 3,
+      "rank_d1": 3
+    },
+    {
+      "beta1": 6,
+      "edges": 10,
+      "exact_gradient_energies": {
+        "curl": 0.0,
+        "gradient": 50.00000000000001,
+        "harmonic": 1.5284180038657104e-30
+      },
+      "faces": 0,
+      "n": 5,
+      "rank_d0": 4,
+      "rank_d1": 0
+    },
+    {
+      "beta1": 0,
+      "edges": 10,
+      "exact_gradient_energies": {
+        "curl": 5.875620693718313e-30,
+        "gradient": 50.00000000000001,
+        "harmonic": 6.559524418987208e-30
+      },
+      "faces": 10,
+      "n": 5,
+      "rank_d0": 4,
+      "rank_d1": 6
+    },
+    {
+      "beta1": 10,
+      "edges": 15,
+      "exact_gradient_energies": {
+        "curl": 0.0,
+        "gradient": 105.0,
+        "harmonic": 2.033782021272921e-30
+      },
+      "faces": 0,
+      "n": 6,
+      "rank_d0": 5,
+      "rank_d1": 0
+    },
+    {
+      "beta1": 0,
+      "edges": 15,
+      "exact_gradient_energies": {
+        "curl": 1.5907266199576753e-29,
+        "gradient": 105.0,
+        "harmonic": 1.7865051417734476e-29
+      },
+      "faces": 20,
+      "n": 6,
+      "rank_d0": 5,
+      "rank_d1": 10
+    },
+    {
+      "beta1": 15,
+      "edges": 21,
+      "exact_gradient_energies": {
+        "curl": 0.0,
+        "gradient": 196.00000000000006,
+        "harmonic": 3.825975390321907e-29
+      },
+      "faces": 0,
+      "n": 7,
+      "rank_d0": 6,
+      "rank_d1": 0
+    },
+    {
+      "beta1": 0,
+      "edges": 21,
+      "exact_gradient_energies": {
+        "curl": 4.910771875913393e-29,
+        "gradient": 196.00000000000006,
+        "harmonic": 8.489090803057274e-29
+      },
+      "faces": 35,
+      "n": 7,
+      "rank_d0": 6,
+      "rank_d1": 15
+    },
+    {
+      "beta1": 21,
+      "edges": 28,
+      "exact_gradient_energies": {
+        "curl": 0.0,
+        "gradient": 336.00000000000006,
+        "harmonic": 1.1252361255879089e-28
+      },
+      "faces": 0,
+      "n": 8,
+      "rank_d0": 7,
+      "rank_d1": 0
+    },
+    {
+      "beta1": 0,
+      "edges": 28,
+      "exact_gradient_energies": {
+        "curl": 6.297141420127583e-29,
+        "gradient": 336.00000000000006,
+        "harmonic": 1.7821135584936456e-28
+      },
+      "faces": 56,
+      "n": 8,
+      "rank_d0": 7,
+      "rank_d1": 21
+    }
+  ],
+  "triangle_face_controls": [
+    {
+      "energies": {
+        "curl": 0.0,
+        "gradient": 1.228489927950779e-31,
+        "harmonic": 3.0
+      },
+      "faces": 0
+    },
+    {
+      "energies": {
+        "curl": 3.0,
+        "gradient": 1.228489927950779e-31,
+        "harmonic": 9.860761315262648e-32
+      },
+      "faces": 1
+    }
+  ]
+}
