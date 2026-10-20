@@ -171,9 +171,10 @@ homomorphism as g Z; g=0 means that all periods vanish on that component.
 - At n=10, some have g=0 despite beta1=1.
 - At n=12, g can be 0, 1 or 2 depending on component.
 
-For example, at n=10 there are moving components with 15 vertices and
-20 edges. Square relations leave beta1=1, but this j has zero period
-on every loop of such a component.
+For example, at n=10 the two balanced zero-j moving components have
+10 vertices and 10 edges each. They have beta1=1, but this j has zero
+period on every loop of either component. (Corrected in HODGE-05 on
+2026-10-21; the earlier text incorrectly gave 15 vertices and 20 edges.)
 Thus j is exact there and its harmonic projection vanishes, although
 the complex still has a nonzero harmonic space for other observables.
 

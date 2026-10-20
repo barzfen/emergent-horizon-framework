@@ -1,11 +1,11 @@
 # EHF MICRO component conjecture and transport theorem
 
-Updated: 2026-10-20 (Australia/Brisbane), HODGE-04
+Updated: 2026-10-21 (Australia/Brisbane), HODGE-05
 
-**C1 remains CONJECTURE. C2 is now PROVED within the specified model.**
-No novelty claim is made. C2 has an explicit analytic proof and exact
-implementation checks; it has not been independently reviewed or
-formally verified in a proof assistant.
+**C1 and C2 are PROVED within the specified model.**
+No novelty claim is made. Both have written analytic proofs and exact
+bounded checks. Independent review and proof-assistant verification
+remain open. The C1/C2 identifiers are retained for continuity.
 
 ## Definition lock
 
@@ -37,9 +37,9 @@ divisible by n. They represent classes in H^1(C;Z), and over Q.
 The component has fixed number m of 1 values and fixed number D of runs
 (domain walls). For a moving component, E=n-2D>0.
 
-## EHF-HODGE-C1 — Single rational homology direction
+## EHF-HODGE-C1 — Component and winding theorem
 
-**Status: CONJECTURE.**
+**Status: PROVED in HODGE-05.**
 
 For every n>=5 and every moving component C of X_n,
 
@@ -52,16 +52,16 @@ and the boundary-winding period map
 is nonzero. Equivalently, it is an isomorphism of one-dimensional rational
 vector spaces H_1(C;Q) -> Q.
 
-**This does not assert:** H_1(C;Z)=Z; absence of torsion; a primitive
-integral winding generator; fundamental group Z; or homotopy equivalence
-to a circle.
-
-A finite counterexample is any moving component with rational beta1
-different from 1 or with zero kappa period on every loop.
+[The marker-gap proof](COMPONENT-CLASSIFICATION.md) strengthens this to
+pi_1(C)~=Z and H_1(C;Z)~=Z. If l is the primitive period of the conserved
+marker-colour word and d=gcd(4,l), the winding image is exactly (l/d)Z.
+It need not be primitive in Z. Circle homotopy type and higher-homology
+vanishing are not asserted.
 
 [HODGE-03](../../probes/hodge/HODGE-03.md) exhaustively checks 200 moving
-components across n=5,...,18, all satisfying C1. This finite evidence
-is not an all-size classification.
+components across n=5,...,18, all satisfying the then-conjectural C1.
+HODGE-05 supplies the separate all-size argument and independently
+checks the component classifier, size and winding formulas.
 
 ## EHF-HODGE-C2 — Binary/boundary period theorem
 
@@ -113,8 +113,10 @@ from the endpoint values of F.
 - [HODGE-04](../../probes/hodge/HODGE-04.md) supplies the all-size C2
   proof and independent exact verification on 15,112 states and
   16,190 edges through n=18.
-- C1 remains open. HODGE-05 should audit whether the conserved cyclic
-  marker word, together with root-phase data, classifies components.
+- [HODGE-05](../../probes/hodge/HODGE-05.md) proves the classifier
+  (D,chi,rho), with rho modulo gcd(4,l), and the stronger C1 statements.
+  The cyclic colour word alone is insufficient.
+- Higher-cell completion and growth maps remain separate tasks.
 - Compare with existing constrained-dynamics/state-complex literature
   before claiming originality.
 - No smooth projective variety, rational (p,p) identification or

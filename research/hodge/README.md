@@ -51,7 +51,8 @@ through n=18.
 
 [C1 and C2](../../formal/hodge/CONJECTURES.md) were introduced here as
 the rational H1 classification and the binary/boundary period relation.
-C2 is subsequently proved in HODGE-04; C1 and novelty remain open.
+C2 is subsequently proved in HODGE-04 and C1 in HODGE-05.
+Novelty and independent proof review remain open.
 The preliminary literature comparison identifies commuting-move state
 complexes as an established construction.
 
@@ -73,8 +74,8 @@ therefore ruled out for that family; a different relationship would
 require a new construction. [Source manifest](openai-hodge-sources-2026-10-20.json)
 makes the review traceable.
 
-C1 remains a local working conjecture; C2 is proved in HODGE-04.
-That proof does not depend on importing any OpenAI Hodge result.
+C1 and C2 are proved within the MICRO model in HODGE-05 and HODGE-04.
+Neither proof imports an OpenAI Hodge result.
 
 ## HODGE-04 update — explicit potential theorem
 
@@ -88,9 +89,29 @@ The [complete proof](../../formal/hodge/TRANSPORT-POTENTIAL.md) and
 by [exact edge checks](../../data/hodge/hodge-04-results.json) through n=18.
 
 Balanced binary-transport exactness and a boundary-winding divisibility
-constraint are corollaries. C1 remains open; HODGE-05 should investigate
-component classification from the invariant cyclic marker word and
-root-phase data. Broader novelty and independent proof review remain open.
+constraint are corollaries. The component-classification target is
+subsequently resolved in HODGE-05. Broader novelty and independent
+proof review remain open.
+
+## HODGE-05 update — component classification and C1
+
+[HODGE-05](../../probes/hodge/HODGE-05.md) gives the component label
+(D,chi,rho), where rho is a canonical marker position modulo gcd(4,l).
+The cyclic colour word alone misses disconnected phase sectors.
+
+[The full proof](../../formal/hodge/COMPONENT-CLASSIFICATION.md) derives
+pi_1(C)~=Z and H_1(C;Z)~=Z for every moving component, and boundary
+winding image (l/gcd(4,l))Z. C1 is now proved within the specified model.
+
+[JavaScript source](../../code/hodge/hodge_05_audit.mjs) and
+[exact results](../../data/hodge/hodge-05-results.json) check all 200
+moving components through n=18. No terminal/Node run is claimed:
+the pure functions were executed in the available JavaScript runtime.
+
+HODGE-02's size-10 zero-current example was corrected from 15 vertices,
+20 edges to 10 vertices, 10 edges; retained datasets were unchanged.
+HODGE-06 should investigate higher-cell completion.
+Independent review and novelty remain open.
 
 ## Mathematical scope
 
@@ -120,7 +141,7 @@ without proving that the reduction preserves the relevant invariant.
 | Growth maps inducing cochain maps and stable cohomology | Not established |
 | Smooth projective complex variety attached meaningfully to EHF | Not established |
 | Rational Hodge classes and algebraic cycle map | Not established |
-| EHF local results | C2 has an explicit all-size proof; C1 remains conjectural; novelty and independent proof review remain open |
+| EHF local results | C2 has an explicit potential proof; C1 and component classification have a marker-gap proof; novelty and independent review remain open |
 | Progress on the Clay conjecture | Not claimed |
 
 ## What the Clay problem would actually require

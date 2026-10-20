@@ -43,7 +43,7 @@ cycles missed by signed binary transport. Exact scans through n=18 cover
 on each one.
 
 [C1 and C2](formal/hodge/CONJECTURES.md) were introduced as working
-conjectures here. C2 is subsequently proved in HODGE-04; C1 remains open.
+conjectures here. C2 is subsequently proved in HODGE-04 and C1 in HODGE-05.
 Novelty remains unassessed.
 
 ```sh
@@ -62,7 +62,7 @@ with smooth projective varieties is ruled out by first-Betti parity.
 A more general bridge remains unestablished. The local period-identity
 proof target is completed in HODGE-04 below.
 
-## Latest: HODGE-04 — C2 proved
+## HODGE-04 — C2 proved
 
 [HODGE-04](probes/hodge/HODGE-04.md) gives an explicit integer potential
 with dF=(n-2D)j-2(n-2m)kappa for every n>=5.
@@ -70,9 +70,24 @@ The [complete proof](formal/hodge/TRANSPORT-POTENTIAL.md) handles repeated
 cyclic marker patterns and ring seams without assuming C1.
 
 The standard-library implementation verifies all 16,190 edges through n=18.
-C1 remains conjectural. Next is HODGE-05, a component-classification
-audit using the conserved cyclic marker word.
+The component-classification target is subsequently resolved in HODGE-05.
 
 ```sh
 python code/hodge/hodge_04_audit.py --output data/hodge/hodge-04-results.json
+```
+
+## Latest: HODGE-05 — C1 and component classification
+
+[HODGE-05](probes/hodge/HODGE-05.md) derives the full moving-component
+label (D,chi,rho), with rho modulo gcd(4,l), and proves pi_1=Z and H_1=Z.
+Boundary winding has image (l/gcd(4,l))Z.
+[The full proof](formal/hodge/COMPONENT-CLASSIFICATION.md) uses ordered
+marker-gap coordinates and commuting diamonds.
+
+Exact JavaScript checks through n=18 reproduce all 200 moving components.
+Independent proof review and broader novelty assessment remain open.
+Next is HODGE-06, a higher-cell completion audit.
+
+```sh
+node code/hodge/hodge_05_audit.mjs > data/hodge/hodge-05-results.json
 ```
