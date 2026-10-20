@@ -1,0 +1,1053 @@
+{
+  "audit": [
+    {
+      "component_size_histogram": {
+        "1": 2,
+        "5": 2
+      },
+      "components": 4,
+      "edges": 10,
+      "graph_cycle_rank": 2,
+      "n": 5,
+      "rules": {
+        "endpoint_disjoint": {
+          "beta1_Q": 2,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "mobile_components": [
+            {
+              "beta1_Q": 1,
+              "edges": 5,
+              "ones": 2,
+              "vertices": 5,
+              "walls": 2,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 5,
+              "ones": 3,
+              "vertices": 5,
+              "walls": 2,
+              "winding_image_gcd": 2
+            }
+          ],
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "endpoint_squares_plus_triangles": {
+          "beta1_Q": 2,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "graph_only": {
+          "beta1_Q": 2,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "window_disjoint": {
+          "beta1_Q": 2,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        }
+      },
+      "symmetries": {
+        "complement": "PASS",
+        "reflection": "PASS",
+        "rotation": "PASS"
+      },
+      "transport": {
+        "euclidean_hodge": {
+          "divergence_max": 0.0,
+          "face_curl_max": 0.0,
+          "gradient_energy": 0.0,
+          "harmonic_energy": 40.0
+        },
+        "nonzero_fundamental_periods": 2,
+        "translating_pair_period": 10,
+        "winding_image_gcd": 2,
+        "witness": {
+          "ones": 2,
+          "period": -10,
+          "walls": 2,
+          "winding": -2,
+          "words": [
+            "01100",
+            "11000",
+            "10001",
+            "00011",
+            "00110",
+            "01100"
+          ]
+        }
+      },
+      "vertices": 12
+    },
+    {
+      "component_size_histogram": {
+        "1": 8,
+        "6": 2
+      },
+      "components": 10,
+      "edges": 12,
+      "graph_cycle_rank": 2,
+      "n": 6,
+      "rules": {
+        "endpoint_disjoint": {
+          "beta1_Q": 2,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "mobile_components": [
+            {
+              "beta1_Q": 1,
+              "edges": 6,
+              "ones": 2,
+              "vertices": 6,
+              "walls": 2,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 6,
+              "ones": 4,
+              "vertices": 6,
+              "walls": 2,
+              "winding_image_gcd": 2
+            }
+          ],
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "endpoint_squares_plus_triangles": {
+          "beta1_Q": 2,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "graph_only": {
+          "beta1_Q": 2,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "window_disjoint": {
+          "beta1_Q": 2,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        }
+      },
+      "symmetries": {
+        "complement": "PASS",
+        "reflection": "PASS",
+        "rotation": "PASS"
+      },
+      "transport": {
+        "euclidean_hodge": {
+          "divergence_max": 0.0,
+          "face_curl_max": 0.0,
+          "gradient_energy": 0.0,
+          "harmonic_energy": 48.0
+        },
+        "nonzero_fundamental_periods": 2,
+        "translating_pair_period": 12,
+        "winding_image_gcd": 2,
+        "witness": {
+          "ones": 2,
+          "period": -12,
+          "walls": 2,
+          "winding": -2,
+          "words": [
+            "011000",
+            "110000",
+            "100001",
+            "000011",
+            "000110",
+            "001100",
+            "011000"
+          ]
+        }
+      },
+      "vertices": 20
+    },
+    {
+      "component_size_histogram": {
+        "1": 16,
+        "7": 2
+      },
+      "components": 18,
+      "edges": 14,
+      "graph_cycle_rank": 2,
+      "n": 7,
+      "rules": {
+        "endpoint_disjoint": {
+          "beta1_Q": 2,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "mobile_components": [
+            {
+              "beta1_Q": 1,
+              "edges": 7,
+              "ones": 2,
+              "vertices": 7,
+              "walls": 2,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 7,
+              "ones": 5,
+              "vertices": 7,
+              "walls": 2,
+              "winding_image_gcd": 2
+            }
+          ],
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "endpoint_squares_plus_triangles": {
+          "beta1_Q": 2,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "graph_only": {
+          "beta1_Q": 2,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "window_disjoint": {
+          "beta1_Q": 2,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        }
+      },
+      "symmetries": {
+        "complement": "PASS",
+        "reflection": "PASS",
+        "rotation": "PASS"
+      },
+      "transport": {
+        "euclidean_hodge": {
+          "divergence_max": 0.0,
+          "face_curl_max": 0.0,
+          "gradient_energy": 0.0,
+          "harmonic_energy": 56.0
+        },
+        "nonzero_fundamental_periods": 2,
+        "translating_pair_period": 14,
+        "winding_image_gcd": 2,
+        "witness": {
+          "ones": 2,
+          "period": -14,
+          "walls": 2,
+          "winding": -2,
+          "words": [
+            "0011000",
+            "0110000",
+            "1100000",
+            "1000001",
+            "0000011",
+            "0000110",
+            "0001100",
+            "0011000"
+          ]
+        }
+      },
+      "vertices": 30
+    },
+    {
+      "component_size_histogram": {
+        "1": 30,
+        "8": 2
+      },
+      "components": 32,
+      "edges": 16,
+      "graph_cycle_rank": 2,
+      "n": 8,
+      "rules": {
+        "endpoint_disjoint": {
+          "beta1_Q": 2,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "mobile_components": [
+            {
+              "beta1_Q": 1,
+              "edges": 8,
+              "ones": 2,
+              "vertices": 8,
+              "walls": 2,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 8,
+              "ones": 6,
+              "vertices": 8,
+              "walls": 2,
+              "winding_image_gcd": 2
+            }
+          ],
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "endpoint_squares_plus_triangles": {
+          "beta1_Q": 2,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "graph_only": {
+          "beta1_Q": 2,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "window_disjoint": {
+          "beta1_Q": 2,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        }
+      },
+      "symmetries": {
+        "complement": "PASS",
+        "reflection": "PASS",
+        "rotation": "PASS"
+      },
+      "transport": {
+        "euclidean_hodge": {
+          "divergence_max": 0.0,
+          "face_curl_max": 0.0,
+          "gradient_energy": 0.0,
+          "harmonic_energy": 64.0
+        },
+        "nonzero_fundamental_periods": 2,
+        "translating_pair_period": 16,
+        "winding_image_gcd": 2,
+        "witness": {
+          "ones": 2,
+          "period": -16,
+          "walls": 2,
+          "winding": -2,
+          "words": [
+            "00110000",
+            "01100000",
+            "11000000",
+            "10000001",
+            "00000011",
+            "00000110",
+            "00001100",
+            "00011000",
+            "00110000"
+          ]
+        }
+      },
+      "vertices": 46
+    },
+    {
+      "component_size_histogram": {
+        "1": 38,
+        "9": 4
+      },
+      "components": 42,
+      "edges": 36,
+      "graph_cycle_rank": 4,
+      "n": 9,
+      "rules": {
+        "endpoint_disjoint": {
+          "beta1_Q": 4,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "mobile_components": [
+            {
+              "beta1_Q": 1,
+              "edges": 9,
+              "ones": 2,
+              "vertices": 9,
+              "walls": 2,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 9,
+              "ones": 4,
+              "vertices": 9,
+              "walls": 4,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 9,
+              "ones": 5,
+              "vertices": 9,
+              "walls": 4,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 9,
+              "ones": 7,
+              "vertices": 9,
+              "walls": 2,
+              "winding_image_gcd": 2
+            }
+          ],
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "endpoint_squares_plus_triangles": {
+          "beta1_Q": 4,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "graph_only": {
+          "beta1_Q": 4,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "window_disjoint": {
+          "beta1_Q": 4,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        }
+      },
+      "symmetries": {
+        "complement": "PASS",
+        "reflection": "PASS",
+        "rotation": "PASS"
+      },
+      "transport": {
+        "euclidean_hodge": {
+          "divergence_max": 0.0,
+          "face_curl_max": 0.0,
+          "gradient_energy": 0.0,
+          "harmonic_energy": 144.0
+        },
+        "nonzero_fundamental_periods": 4,
+        "translating_pair_period": 18,
+        "winding_image_gcd": 2,
+        "witness": {
+          "ones": 2,
+          "period": -18,
+          "walls": 2,
+          "winding": -2,
+          "words": [
+            "000110000",
+            "001100000",
+            "011000000",
+            "110000000",
+            "100000001",
+            "000000011",
+            "000000110",
+            "000001100",
+            "000011000",
+            "000110000"
+          ]
+        }
+      },
+      "vertices": 74
+    },
+    {
+      "component_size_histogram": {
+        "1": 52,
+        "10": 4,
+        "15": 2
+      },
+      "components": 58,
+      "edges": 80,
+      "graph_cycle_rank": 16,
+      "n": 10,
+      "rules": {
+        "endpoint_disjoint": {
+          "beta1_Q": 6,
+          "faces": 10,
+          "max_abs_face_period": 0,
+          "mobile_components": [
+            {
+              "beta1_Q": 1,
+              "edges": 10,
+              "ones": 2,
+              "vertices": 10,
+              "walls": 2,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 20,
+              "ones": 4,
+              "vertices": 15,
+              "walls": 4,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 10,
+              "ones": 5,
+              "vertices": 10,
+              "walls": 4,
+              "winding_image_gcd": 0
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 10,
+              "ones": 5,
+              "vertices": 10,
+              "walls": 4,
+              "winding_image_gcd": 0
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 20,
+              "ones": 6,
+              "vertices": 15,
+              "walls": 4,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 10,
+              "ones": 8,
+              "vertices": 10,
+              "walls": 2,
+              "winding_image_gcd": 2
+            }
+          ],
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 10
+        },
+        "endpoint_squares_plus_triangles": {
+          "beta1_Q": 6,
+          "faces": 10,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 10
+        },
+        "graph_only": {
+          "beta1_Q": 16,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "window_disjoint": {
+          "beta1_Q": 6,
+          "faces": 10,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 10
+        }
+      },
+      "symmetries": {
+        "complement": "PASS",
+        "reflection": "PASS",
+        "rotation": "PASS"
+      },
+      "transport": {
+        "euclidean_hodge": {
+          "divergence_max": 0.0,
+          "face_curl_max": 0.0,
+          "gradient_energy": 80.0,
+          "harmonic_energy": 240.0
+        },
+        "nonzero_fundamental_periods": 6,
+        "translating_pair_period": 20,
+        "winding_image_gcd": 2,
+        "witness": {
+          "ones": 2,
+          "period": -20,
+          "walls": 2,
+          "winding": -2,
+          "words": [
+            "0001100000",
+            "0011000000",
+            "0110000000",
+            "1100000000",
+            "1000000001",
+            "0000000011",
+            "0000000110",
+            "0000001100",
+            "0000011000",
+            "0000110000",
+            "0001100000"
+          ]
+        }
+      },
+      "vertices": 122
+    },
+    {
+      "component_size_histogram": {
+        "1": 68,
+        "11": 2,
+        "22": 2,
+        "33": 2
+      },
+      "components": 74,
+      "edges": 154,
+      "graph_cycle_rank": 28,
+      "n": 11,
+      "rules": {
+        "endpoint_disjoint": {
+          "beta1_Q": 6,
+          "faces": 22,
+          "max_abs_face_period": 0,
+          "mobile_components": [
+            {
+              "beta1_Q": 1,
+              "edges": 11,
+              "ones": 2,
+              "vertices": 11,
+              "walls": 2,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 33,
+              "ones": 4,
+              "vertices": 22,
+              "walls": 4,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 33,
+              "ones": 5,
+              "vertices": 33,
+              "walls": 4,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 33,
+              "ones": 6,
+              "vertices": 33,
+              "walls": 4,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 33,
+              "ones": 7,
+              "vertices": 22,
+              "walls": 4,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 11,
+              "ones": 9,
+              "vertices": 11,
+              "walls": 2,
+              "winding_image_gcd": 2
+            }
+          ],
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 22
+        },
+        "endpoint_squares_plus_triangles": {
+          "beta1_Q": 6,
+          "faces": 22,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 22
+        },
+        "graph_only": {
+          "beta1_Q": 28,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "window_disjoint": {
+          "beta1_Q": 6,
+          "faces": 22,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 22
+        }
+      },
+      "symmetries": {
+        "complement": "PASS",
+        "reflection": "PASS",
+        "rotation": "PASS"
+      },
+      "transport": {
+        "euclidean_hodge": {
+          "divergence_max": 6.661338147750939e-16,
+          "face_curl_max": 0.0,
+          "gradient_energy": 234.66666666666666,
+          "harmonic_energy": 381.33333333333337
+        },
+        "nonzero_fundamental_periods": 10,
+        "translating_pair_period": 22,
+        "winding_image_gcd": 2,
+        "witness": {
+          "ones": 2,
+          "period": -22,
+          "walls": 2,
+          "winding": -2,
+          "words": [
+            "00001100000",
+            "00011000000",
+            "00110000000",
+            "01100000000",
+            "11000000000",
+            "10000000001",
+            "00000000011",
+            "00000000110",
+            "00000001100",
+            "00000011000",
+            "00000110000",
+            "00001100000"
+          ]
+        }
+      },
+      "vertices": 200
+    },
+    {
+      "component_size_histogram": {
+        "1": 96,
+        "12": 14,
+        "30": 2
+      },
+      "components": 112,
+      "edges": 264,
+      "graph_cycle_rank": 52,
+      "n": 12,
+      "rules": {
+        "endpoint_disjoint": {
+          "beta1_Q": 16,
+          "faces": 36,
+          "max_abs_face_period": 0,
+          "mobile_components": [
+            {
+              "beta1_Q": 1,
+              "edges": 12,
+              "ones": 2,
+              "vertices": 12,
+              "walls": 2,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 48,
+              "ones": 4,
+              "vertices": 30,
+              "walls": 4,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 12,
+              "ones": 5,
+              "vertices": 12,
+              "walls": 4,
+              "winding_image_gcd": 1
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 12,
+              "ones": 5,
+              "vertices": 12,
+              "walls": 4,
+              "winding_image_gcd": 1
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 12,
+              "ones": 6,
+              "vertices": 12,
+              "walls": 4,
+              "winding_image_gcd": 0
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 12,
+              "ones": 5,
+              "vertices": 12,
+              "walls": 4,
+              "winding_image_gcd": 1
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 12,
+              "ones": 6,
+              "vertices": 12,
+              "walls": 4,
+              "winding_image_gcd": 0
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 12,
+              "ones": 7,
+              "vertices": 12,
+              "walls": 4,
+              "winding_image_gcd": 1
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 12,
+              "ones": 5,
+              "vertices": 12,
+              "walls": 4,
+              "winding_image_gcd": 1
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 12,
+              "ones": 6,
+              "vertices": 12,
+              "walls": 4,
+              "winding_image_gcd": 0
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 12,
+              "ones": 7,
+              "vertices": 12,
+              "walls": 4,
+              "winding_image_gcd": 1
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 48,
+              "ones": 8,
+              "vertices": 30,
+              "walls": 4,
+              "winding_image_gcd": 2
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 12,
+              "ones": 6,
+              "vertices": 12,
+              "walls": 4,
+              "winding_image_gcd": 0
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 12,
+              "ones": 7,
+              "vertices": 12,
+              "walls": 4,
+              "winding_image_gcd": 1
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 12,
+              "ones": 7,
+              "vertices": 12,
+              "walls": 4,
+              "winding_image_gcd": 1
+            },
+            {
+              "beta1_Q": 1,
+              "edges": 12,
+              "ones": 10,
+              "vertices": 12,
+              "walls": 2,
+              "winding_image_gcd": 2
+            }
+          ],
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 36
+        },
+        "endpoint_squares_plus_triangles": {
+          "beta1_Q": 16,
+          "faces": 36,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 36
+        },
+        "graph_only": {
+          "beta1_Q": 52,
+          "faces": 0,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 0
+        },
+        "window_disjoint": {
+          "beta1_Q": 16,
+          "faces": 36,
+          "max_abs_face_period": 0,
+          "nonzero_current_face_periods": 0,
+          "rank_d1_Q": 36
+        }
+      },
+      "symmetries": {
+        "complement": "PASS",
+        "reflection": "PASS",
+        "rotation": "PASS"
+      },
+      "transport": {
+        "euclidean_hodge": {
+          "divergence_max": 1.3322676295501878e-15,
+          "face_curl_max": 0.0,
+          "gradient_energy": 480.0,
+          "harmonic_energy": 576.0
+        },
+        "nonzero_fundamental_periods": 18,
+        "translating_pair_period": 24,
+        "winding_image_gcd": 1,
+        "witness": {
+          "ones": 5,
+          "period": -12,
+          "walls": 4,
+          "winding": -1,
+          "words": [
+            "011100001100",
+            "011100011000",
+            "011100110000",
+            "011001110000",
+            "110001110000",
+            "100001110001",
+            "000001110011",
+            "000001100111",
+            "000011000111",
+            "000110000111",
+            "001100000111",
+            "011100000110",
+            "011100001100"
+          ]
+        }
+      },
+      "vertices": 324
+    }
+  ],
+  "environment": {
+    "numpy": "2.3.5",
+    "python": "3.12.14"
+  },
+  "fixed_insertion_growth": [
+    {
+      "n": 5,
+      "nonadjacent_image_edges": 6,
+      "source_edges": 10,
+      "witness": {
+        "images": [
+          "000011",
+          "110001"
+        ],
+        "source": [
+          "00011",
+          "10001"
+        ]
+      }
+    },
+    {
+      "n": 6,
+      "nonadjacent_image_edges": 6,
+      "source_edges": 12,
+      "witness": {
+        "images": [
+          "0000011",
+          "1100001"
+        ],
+        "source": [
+          "000011",
+          "100001"
+        ]
+      }
+    },
+    {
+      "n": 7,
+      "nonadjacent_image_edges": 6,
+      "source_edges": 14,
+      "witness": {
+        "images": [
+          "00000011",
+          "11000001"
+        ],
+        "source": [
+          "0000011",
+          "1000001"
+        ]
+      }
+    },
+    {
+      "n": 8,
+      "nonadjacent_image_edges": 6,
+      "source_edges": 16,
+      "witness": {
+        "images": [
+          "000000011",
+          "110000001"
+        ],
+        "source": [
+          "00000011",
+          "10000001"
+        ]
+      }
+    },
+    {
+      "n": 9,
+      "nonadjacent_image_edges": 12,
+      "source_edges": 36,
+      "witness": {
+        "images": [
+          "0000000011",
+          "1100000001"
+        ],
+        "source": [
+          "000000011",
+          "100000001"
+        ]
+      }
+    },
+    {
+      "n": 10,
+      "nonadjacent_image_edges": 24,
+      "source_edges": 80,
+      "witness": {
+        "images": [
+          "00000000011",
+          "11000000001"
+        ],
+        "source": [
+          "0000000011",
+          "1000000001"
+        ]
+      }
+    },
+    {
+      "n": 11,
+      "nonadjacent_image_edges": 42,
+      "source_edges": 154,
+      "witness": {
+        "images": [
+          "000000000011",
+          "110000000001"
+        ],
+        "source": [
+          "00000000011",
+          "10000000001"
+        ]
+      }
+    }
+  ],
+  "probe": "EHF-HODGE-02",
+  "status": "Finite exact topology/period checks with numerical Hodge projection"
+}

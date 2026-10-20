@@ -20,3 +20,16 @@ python code/hodge/hodge_01_audit.py --output data/hodge/hodge-01-results.json
 
 The retained result distinguishes exact rational incidence ranks from floating-point
 transport/decomposition checks. No novel theorem or conjecture is claimed.
+
+## Latest: HODGE-02
+
+[Commuting faces and transport cohomology](probes/hodge/HODGE-02.md)
+adds rule-based MICRO square complexes, a closed signed-transport cochain,
+and an explicit all-size nonzero winding loop. Exact scans cover n=5,...,12.
+
+The same audit finds cycles missed by net transport and a failed fixed-root
+growth map. A bridge to the Clay conjecture remains unestablished.
+
+```sh
+OPENBLAS_NUM_THREADS=1 python code/hodge/hodge_02_audit.py --output data/hodge/hodge-02-results.json
+```

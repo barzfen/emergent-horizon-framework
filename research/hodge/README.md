@@ -26,6 +26,22 @@ if the second never becomes viable.
    Its all-size asymptotic certificates remain pending as stated there; this
    branch does not promote those claims to proved status.
 
+## HODGE-02 update
+
+[HODGE-02](../../probes/hodge/HODGE-02.md) moves explicitly to the MICRO
+microstate complex. Admissible independent reversals justify square relations.
+A signed transport cochain is closed on those squares and has an explicit
+nonzero 2n loop period for all n>=5.
+
+Exact scans through n=12 give beta1=1 per moving component, a finite pattern.
+Some of those cycles have zero net signed transport: this observable is
+incomplete. A fixed-root insertion also fails the graph-map compatibility gate.
+
+[Code](../../code/hodge/hodge_02_audit.py) and
+[results](../../data/hodge/hodge-02-results.json) retain both positive and
+negative checks. Proposed HODGE-03 investigates the missed cycles in run
+coordinates. No Hodge-conjecture reduction is established.
+
 ## Mathematical scope
 
 A graph does not specify which loops bound faces. Adding triangles or other cells
@@ -50,7 +66,7 @@ without proving that the reduction preserves the relevant invariant.
 | Finite scalar cochain complex and Hodge decomposition | Established mathematical tool; reference controls reproduced |
 | RECUR observer transport | Reconstructed independently for n=5,6,7,8 |
 | Distinguish scalar exactness from matrix path dependence | Demonstrated in the stated controls |
-| Intrinsically selected EHF faces and scalar comparison observable | Not established |
+| Rule-based EHF faces and scalar comparison observable | HODGE-02 defines commuting MICRO squares and a signed transport cochain; uniqueness and completeness are not established |
 | Growth maps inducing cochain maps and stable cohomology | Not established |
 | Smooth projective complex variety attached meaningfully to EHF | Not established |
 | Rational Hodge classes and algebraic cycle map | Not established |
