@@ -33,3 +33,18 @@ growth map. A bridge to the Clay conjecture remains unestablished.
 ```sh
 OPENBLAS_NUM_THREADS=1 python code/hodge/hodge_02_audit.py --output data/hodge/hodge-02-results.json
 ```
+
+## Latest: HODGE-03
+
+[Run coordinates and boundary winding](probes/hodge/HODGE-03.md) explains the
+cycles missed by signed binary transport. Exact scans through n=18 cover
+200 moving components; boundary winding detects the rational H1 direction
+on each one.
+
+[Working conjectures C1 and C2](formal/hodge/CONJECTURES.md) state the
+all-size classification and period relation. Neither is proved in general;
+novelty remains unassessed.
+
+```sh
+OPENBLAS_NUM_THREADS=1 python code/hodge/hodge_03_audit.py --output data/hodge/hodge-03-results.json
+```

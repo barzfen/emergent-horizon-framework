@@ -42,6 +42,24 @@ incomplete. A fixed-root insertion also fails the graph-map compatibility gate.
 negative checks. Proposed HODGE-03 investigates the missed cycles in run
 coordinates. No Hodge-conjecture reduction is established.
 
+## HODGE-03 update
+
+[HODGE-03](../../probes/hodge/HODGE-03.md) derives the run-coordinate rule
+and a closed boundary-displacement cochain. It detects all 30 components
+missed by signed binary transport among 200 moving components scanned
+through n=18.
+
+[Working conjectures C1 and C2](../../formal/hodge/CONJECTURES.md) state
+the one-dimensional rational H1 classification and the observed
+binary/boundary period relation. All-size proofs and novelty remain open.
+The preliminary literature comparison identifies commuting-move state
+complexes as an established construction.
+
+[Code](../../code/hodge/hodge_03_audit.py) and
+[results](../../data/hodge/hodge-03-results.json) retain exact ranks,
+periods, run-rule checks and explicit missed-cycle witnesses.
+Next is HODGE-04, an analytic proof audit for the period relation.
+
 ## Mathematical scope
 
 A graph does not specify which loops bound faces. Adding triangles or other cells
@@ -70,7 +88,7 @@ without proving that the reduction preserves the relevant invariant.
 | Growth maps inducing cochain maps and stable cohomology | Not established |
 | Smooth projective complex variety attached meaningfully to EHF | Not established |
 | Rational Hodge classes and algebraic cycle map | Not established |
-| Progress on the Clay conjecture or a new conjecture | Not claimed |
+| EHF working conjectures | C1 and C2 are precisely stated with exact finite support; all-size proofs and novelty remain open |\n| Progress on the Clay conjecture | Not claimed |
 
 ## What the Clay problem would actually require
 
