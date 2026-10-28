@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "seconds": 8.884480580000002,
+  "checks": {
+    "active_source_states": 5040,
+    "source_states": 12600,
+    "direct_residue_equalities": 25200,
+    "certified_image_generators": 363,
+    "MHV_residue_relation_checks": 726
+  },
+  "rank_multiplicities": {
+    "0": 4,
+    "2": 3,
+    "9": 6,
+    "8": 3,
+    "14": 6,
+    "15": 13
+  },
+  "target_relation_dimension": 15,
+  "six_space_collapse": true,
+  "lattice_verified": true,
+  "character_multiplicities": {
+    "0": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "2": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "8": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      2,
+      2
+    ],
+    "9": [
+      0,
+      1,
+      1,
+      3,
+      0,
+      1,
+      1,
+      2
+    ],
+    "14": [
+      0,
+      1,
+      1,
+      3,
+      1,
+      2,
+      3,
+      3
+    ],
+    "15": [
+      0,
+      1,
+      1,
+      3,
+      1,
+      3,
+      3,
+      3
+    ]
+  },
+  "scope": "Reference (1,9) chart. No full 72-chart, minimum-support, or 21-template recertification.",
+  "deletion_convention": "+1 before anchor, -1 after anchor; n=8 reflection unsigned. Only before-anchor branch occurs in canonical source fibres."
+}

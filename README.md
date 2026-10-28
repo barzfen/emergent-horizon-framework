@@ -50,3 +50,11 @@ The standard for progress is increasingly strict: a useful EHF result should eit
 [WHEELER-62](probes/wheeler/WHEELER-62.md) proves strict ordinary rotation-class entropy increase at every growth event from the minimal seed `(2,2,2,2)`, with leading growth `3 log₂ t + O(1)`. An exact periodicity bound controls the symmetry correction. This is preparation-specific: [WHEELER-61](probes/wheeler/WHEELER-61.md) retains its certified decrease from a different deterministic seed. Rooted and orbit-weighted entropy theorems remain valid.
 
 Read [ERRATA-01](probes/wheeler/ERRATA-01.md) before relying on earlier clock, observer-cost, erasure or measure-selection claims. The [review](research/wheeler/REVIEW-01.md) and [reproducible checks](code/wheeler/README.md) record what was and was not independently verified.
+
+## Tail theorem and MICRO observer audit
+
+- [Nine-point odd-to-even tail theorem, draft v1.5](research/amplitudes/nine-point-tail/README.md): original note and an independent exact reconstruction, with its verification scope stated explicitly.
+- [MICRO observer compatibility audit 01](probes/micro/observer-compatibility-01/README.md): exact observer tests, analytic growth formula and a visual counterexample showing why block count can matter.
+
+These are separate mathematical investigations; a connection between them or to physical dynamics remains unproved.
+

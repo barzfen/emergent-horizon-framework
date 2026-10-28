@@ -1,0 +1,693 @@
+{
+  "scope": "n=4..14; rooted labelled positions; binary states, no-isolation; exact one-step tests",
+  "kernels": {
+    "LR3": "Uniform over admissible nontrivial reversal events, retaining duplicate events; frozen states self-loop.",
+    "growth": "Uniform over admissible (cyclic edge, inserted bit) events, retaining duplicate events."
+  },
+  "observers": {
+    "necklace": "Forget root by cyclic rotation; retain colours and orientation; no reflection or colour exchange quotient.",
+    "counts_and_blocks": "Retain n, number of ones and number of monochromatic cyclic runs; homogeneous state has one run.",
+    "counts_only": "Retain n and number of ones only."
+  },
+  "rows": [
+    {
+      "n": 4,
+      "states": 6,
+      "kernel": "LR3",
+      "observer": "necklace",
+      "observation_groups": 3,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 4,
+      "states": 6,
+      "kernel": "LR3",
+      "observer": "counts_and_blocks",
+      "observation_groups": 3,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 4,
+      "states": 6,
+      "kernel": "LR3",
+      "observer": "counts_only",
+      "observation_groups": 3,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 4,
+      "states": 6,
+      "kernel": "growth",
+      "observer": "necklace",
+      "observation_groups": 3,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 4,
+      "states": 6,
+      "kernel": "growth",
+      "observer": "counts_and_blocks",
+      "observation_groups": 3,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 4,
+      "states": 6,
+      "kernel": "growth",
+      "observer": "counts_only",
+      "observation_groups": 3,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 5,
+      "states": 12,
+      "kernel": "LR3",
+      "observer": "necklace",
+      "observation_groups": 4,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 5,
+      "states": 12,
+      "kernel": "LR3",
+      "observer": "counts_and_blocks",
+      "observation_groups": 4,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 5,
+      "states": 12,
+      "kernel": "LR3",
+      "observer": "counts_only",
+      "observation_groups": 4,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 5,
+      "states": 12,
+      "kernel": "growth",
+      "observer": "necklace",
+      "observation_groups": 4,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 5,
+      "states": 12,
+      "kernel": "growth",
+      "observer": "counts_and_blocks",
+      "observation_groups": 4,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 5,
+      "states": 12,
+      "kernel": "growth",
+      "observer": "counts_only",
+      "observation_groups": 4,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 6,
+      "states": 20,
+      "kernel": "LR3",
+      "observer": "necklace",
+      "observation_groups": 5,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 6,
+      "states": 20,
+      "kernel": "LR3",
+      "observer": "counts_and_blocks",
+      "observation_groups": 5,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 6,
+      "states": 20,
+      "kernel": "LR3",
+      "observer": "counts_only",
+      "observation_groups": 5,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 6,
+      "states": 20,
+      "kernel": "growth",
+      "observer": "necklace",
+      "observation_groups": 5,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 6,
+      "states": 20,
+      "kernel": "growth",
+      "observer": "counts_and_blocks",
+      "observation_groups": 5,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 6,
+      "states": 20,
+      "kernel": "growth",
+      "observer": "counts_only",
+      "observation_groups": 5,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 7,
+      "states": 30,
+      "kernel": "LR3",
+      "observer": "necklace",
+      "observation_groups": 6,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 7,
+      "states": 30,
+      "kernel": "LR3",
+      "observer": "counts_and_blocks",
+      "observation_groups": 6,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 7,
+      "states": 30,
+      "kernel": "LR3",
+      "observer": "counts_only",
+      "observation_groups": 6,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 7,
+      "states": 30,
+      "kernel": "growth",
+      "observer": "necklace",
+      "observation_groups": 6,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 7,
+      "states": 30,
+      "kernel": "growth",
+      "observer": "counts_and_blocks",
+      "observation_groups": 6,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 7,
+      "states": 30,
+      "kernel": "growth",
+      "observer": "counts_only",
+      "observation_groups": 6,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 8,
+      "states": 46,
+      "kernel": "LR3",
+      "observer": "necklace",
+      "observation_groups": 8,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 8,
+      "states": 46,
+      "kernel": "LR3",
+      "observer": "counts_and_blocks",
+      "observation_groups": 8,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 8,
+      "states": 46,
+      "kernel": "LR3",
+      "observer": "counts_only",
+      "observation_groups": 7,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 8,
+      "states": 46,
+      "kernel": "growth",
+      "observer": "necklace",
+      "observation_groups": 8,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 8,
+      "states": 46,
+      "kernel": "growth",
+      "observer": "counts_and_blocks",
+      "observation_groups": 8,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 8,
+      "states": 46,
+      "kernel": "growth",
+      "observer": "counts_only",
+      "observation_groups": 7,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 9,
+      "states": 74,
+      "kernel": "LR3",
+      "observer": "necklace",
+      "observation_groups": 10,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 9,
+      "states": 74,
+      "kernel": "LR3",
+      "observer": "counts_and_blocks",
+      "observation_groups": 10,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 9,
+      "states": 74,
+      "kernel": "LR3",
+      "observer": "counts_only",
+      "observation_groups": 8,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 9,
+      "states": 74,
+      "kernel": "growth",
+      "observer": "necklace",
+      "observation_groups": 10,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 9,
+      "states": 74,
+      "kernel": "growth",
+      "observer": "counts_and_blocks",
+      "observation_groups": 10,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 9,
+      "states": 74,
+      "kernel": "growth",
+      "observer": "counts_only",
+      "observation_groups": 8,
+      "groups_with_different_probabilities": 2,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 10,
+      "states": 122,
+      "kernel": "LR3",
+      "observer": "necklace",
+      "observation_groups": 15,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 10,
+      "states": 122,
+      "kernel": "LR3",
+      "observer": "counts_and_blocks",
+      "observation_groups": 12,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 10,
+      "states": 122,
+      "kernel": "LR3",
+      "observer": "counts_only",
+      "observation_groups": 9,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 10,
+      "states": 122,
+      "kernel": "growth",
+      "observer": "necklace",
+      "observation_groups": 15,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 10,
+      "states": 122,
+      "kernel": "growth",
+      "observer": "counts_and_blocks",
+      "observation_groups": 12,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 10,
+      "states": 122,
+      "kernel": "growth",
+      "observer": "counts_only",
+      "observation_groups": 9,
+      "groups_with_different_probabilities": 2,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 11,
+      "states": 200,
+      "kernel": "LR3",
+      "observer": "necklace",
+      "observation_groups": 20,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 11,
+      "states": 200,
+      "kernel": "LR3",
+      "observer": "counts_and_blocks",
+      "observation_groups": 14,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 11,
+      "states": 200,
+      "kernel": "LR3",
+      "observer": "counts_only",
+      "observation_groups": 10,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 11,
+      "states": 200,
+      "kernel": "growth",
+      "observer": "necklace",
+      "observation_groups": 20,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 11,
+      "states": 200,
+      "kernel": "growth",
+      "observer": "counts_and_blocks",
+      "observation_groups": 14,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 11,
+      "states": 200,
+      "kernel": "growth",
+      "observer": "counts_only",
+      "observation_groups": 10,
+      "groups_with_different_probabilities": 4,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 12,
+      "states": 324,
+      "kernel": "LR3",
+      "observer": "necklace",
+      "observation_groups": 31,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 12,
+      "states": 324,
+      "kernel": "LR3",
+      "observer": "counts_and_blocks",
+      "observation_groups": 17,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 12,
+      "states": 324,
+      "kernel": "LR3",
+      "observer": "counts_only",
+      "observation_groups": 11,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 12,
+      "states": 324,
+      "kernel": "growth",
+      "observer": "necklace",
+      "observation_groups": 31,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 12,
+      "states": 324,
+      "kernel": "growth",
+      "observer": "counts_and_blocks",
+      "observation_groups": 17,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 12,
+      "states": 324,
+      "kernel": "growth",
+      "observer": "counts_only",
+      "observation_groups": 11,
+      "groups_with_different_probabilities": 4,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 13,
+      "states": 522,
+      "kernel": "LR3",
+      "observer": "necklace",
+      "observation_groups": 42,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 13,
+      "states": 522,
+      "kernel": "LR3",
+      "observer": "counts_and_blocks",
+      "observation_groups": 20,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 13,
+      "states": 522,
+      "kernel": "LR3",
+      "observer": "counts_only",
+      "observation_groups": 12,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 13,
+      "states": 522,
+      "kernel": "growth",
+      "observer": "necklace",
+      "observation_groups": 42,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 13,
+      "states": 522,
+      "kernel": "growth",
+      "observer": "counts_and_blocks",
+      "observation_groups": 20,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 13,
+      "states": 522,
+      "kernel": "growth",
+      "observer": "counts_only",
+      "observation_groups": 12,
+      "groups_with_different_probabilities": 6,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 14,
+      "states": 842,
+      "kernel": "LR3",
+      "observer": "necklace",
+      "observation_groups": 64,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 14,
+      "states": 842,
+      "kernel": "LR3",
+      "observer": "counts_and_blocks",
+      "observation_groups": 23,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 14,
+      "states": 842,
+      "kernel": "LR3",
+      "observer": "counts_only",
+      "observation_groups": 13,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 14,
+      "states": 842,
+      "kernel": "growth",
+      "observer": "necklace",
+      "observation_groups": 64,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 14,
+      "states": 842,
+      "kernel": "growth",
+      "observer": "counts_and_blocks",
+      "observation_groups": 23,
+      "groups_with_different_probabilities": 0,
+      "groups_with_different_supports": 0
+    },
+    {
+      "n": 14,
+      "states": 842,
+      "kernel": "growth",
+      "observer": "counts_only",
+      "observation_groups": 13,
+      "groups_with_different_probabilities": 6,
+      "groups_with_different_supports": 0
+    }
+  ],
+  "first_probability_counterexamples": [
+    {
+      "n": 9,
+      "kind": "growth",
+      "observer": "counts_only",
+      "initial_observation": [
+        9,
+        4
+      ],
+      "state_a": "000001111",
+      "state_b": "000110011",
+      "runs_a": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "runs_b": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "events_a": 11,
+      "events_b": 13,
+      "distribution_a": [
+        {
+          "observation": [
+            10,
+            4
+          ],
+          "probability": "6/11"
+        },
+        {
+          "observation": [
+            10,
+            5
+          ],
+          "probability": "5/11"
+        }
+      ],
+      "distribution_b": [
+        {
+          "observation": [
+            10,
+            4
+          ],
+          "probability": "7/13"
+        },
+        {
+          "observation": [
+            10,
+            5
+          ],
+          "probability": "6/13"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "state_sizes": 11,
+    "total_admissible_states_across_sizes": 2198,
+    "all_necklace_tests_pass": true,
+    "all_counts_and_blocks_tests_pass": true,
+    "LR3_counts_only_tests_pass": true,
+    "growth_counts_only_first_failure_n": 9,
+    "all_reachable_observation_support_tests_pass": true,
+    "block_invariance_and_growth_probability_formula_checked": true
+  }
+}
