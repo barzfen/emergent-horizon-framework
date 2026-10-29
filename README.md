@@ -58,3 +58,7 @@ Read [ERRATA-01](probes/wheeler/ERRATA-01.md) before relying on earlier clock, o
 
 These are separate mathematical investigations; a connection between them or to physical dynamics remains unproved.
 
+
+## AI-assisted literature follow-up
+
+[Related work and reproducible follow-up probes](research/related-work/README.md) records external papers, their precise relationship to EHF, and positive or negative probe results. The first entry audits Hamiltonian reconfiguration and distinguishes inaccessible sectors from memory-like persistence.

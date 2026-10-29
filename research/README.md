@@ -14,3 +14,5 @@ Topic-oriented working notes belong here. Current/high-value themes include:
 - Yang–Mills exploratory programme.
 
 Working notes may be speculative, but each document should label its evidence status explicitly.
+
+[AI-assisted literature follow-up](related-work/README.md) connects external work to explicit EHF definitions, executable probes, retained results and limitations.
