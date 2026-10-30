@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: >-
+  If this work informs your research, please cite the specific note or probe
+  and its actual authors, together with the commit or release used.
+  Use this repository-level citation when a more specific citation is unavailable.
+title: "Emergent Horizon Framework (EHF)"
+type: software
+authors:
+  - family-names: Fensom
+    given-names: Barry
+repository-code: "https://github.com/barzfen/emergent-horizon-framework"
+url: "https://github.com/barzfen/emergent-horizon-framework"
+license:
+  - MIT
+  - CC-BY-4.0
+abstract: >-
+  Exploratory mathematical research notes and reproducible computational
+  probes for EHF. Source code uses MIT and original research documentation
+  and figures use CC BY 4.0, subject to file-specific and third-party terms.
+  See LICENSE.md for the scope of each licence.

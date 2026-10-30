@@ -62,3 +62,7 @@ These are separate mathematical investigations; a connection between them or to 
 ## AI-assisted literature follow-up
 
 [Related work and reproducible follow-up probes](research/related-work/README.md) records external papers, their precise relationship to EHF, and positive or negative probe results. The first entry audits Hamiltonian reconfiguration and distinguishes inaccessible sectors from memory-like persistence.
+
+## Licensing, citation and contributions
+
+Original code is available under MIT; original research notes, documentation and figures use CC BY 4.0. File-specific and third-party terms take precedence. See [licensing scope](LICENSE.md), [citation metadata](CITATION.cff) and [contribution and attribution guidance](CONTRIBUTING.md). We credit the researchers whose results, methods and materials inform this work and welcome reproducible findings that we can contribute back.

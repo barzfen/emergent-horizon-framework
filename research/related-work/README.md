@@ -19,5 +19,6 @@ Each dated entry should include:
 5. Executable probes, parameters, controls, retained output and reproduction instructions.
 6. Results labelled PROVED, COMPUTATIONAL, CONJECTURE or NEGATIVE as appropriate; no novelty or physics inference from resemblance alone.
 7. Limitations and a concrete next test.
+8. A **Potential contribution back** assessment: what could help the source researchers, what checks remain, or why nothing is ready to share. Follow the repository's [attribution guidance](../../CONTRIBUTING.md).
 
 Daily reading discovery and repository writes are separate activities. Creating this section does not configure unattended repository updates or authorize future automatic commits. The current entry was explicitly requested and reviewed in the conversation. Future automation should preserve the same evidence and reproduction requirements.
