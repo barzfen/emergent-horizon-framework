@@ -1,0 +1,994 @@
+{
+  "probe": "EHF-RW-005",
+  "date": "2026-10-30",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "source_sha256": "0848fcfa46ecbb71ca9607beb3348a1f6ebc7660916a55b43cdcff9f8c3efd0e",
+  "dependency_sha256": "0606612388850f36105bf441a605eeb3d44483b7bb309d36a19049650bdfe5a7",
+  "input_results_sha256": "79944c2b0d8af953eaa643fba8fc5282582abea37173f888b29efa62d70f5103",
+  "triad_a": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      2,
+      4,
+      1,
+      3
+    ]
+  ],
+  "triad_c": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      4,
+      3
+    ],
+    [
+      0,
+      2,
+      3,
+      1,
+      4
+    ]
+  ],
+  "observed_edge": [
+    2,
+    0
+  ],
+  "edge_cycle_memberships": [
+    [
+      2
+    ],
+    [
+      2
+    ]
+  ],
+  "measurement_delay": 1.7378008287493762,
+  "prospective_trial_count": 100000,
+  "stationary_herald_flux": "1/30",
+  "event_posterior": "point mass at (position 0, cycle 2)",
+  "event_rows": [
+    {
+      "kappa": "1/10",
+      "hypothesis": "A",
+      "event_flux": "1/30",
+      "post_event_state_probabilities": [
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "p_position2_at_delay": 0.21529914997390948,
+      "mean_raw_herald_interval": "30",
+      "mean_wait_after_measurement": 32.35856108964378,
+      "mean_accepted_trial_interval": 34.09636191839316,
+      "mean_initial_wait_from_stationarity": 43.13363590519415,
+      "mean_duration_N_trials_from_first_herald": 3409603.8332782257,
+      "mean_duration_N_trials_from_stationary_start": 3409646.966914131
+    },
+    {
+      "kappa": "1/10",
+      "hypothesis": "C",
+      "event_flux": "1/30",
+      "post_event_state_probabilities": [
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "p_position2_at_delay": 0.21409708315725728,
+      "mean_raw_herald_interval": "30",
+      "mean_wait_after_measurement": 32.358185925999216,
+      "mean_accepted_trial_interval": 34.095986754748594,
+      "mean_initial_wait_from_stationarity": 43.12729980249419,
+      "mean_duration_N_trials_from_first_herald": 3409566.3172889333,
+      "mean_duration_N_trials_from_stationary_start": 3409609.4445887357
+    },
+    {
+      "kappa": "1",
+      "hypothesis": "A",
+      "event_flux": "1/30",
+      "post_event_state_probabilities": [
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "p_position2_at_delay": 0.1805749006988837,
+      "mean_raw_herald_interval": "30",
+      "mean_wait_after_measurement": 30.47044737568056,
+      "mean_accepted_trial_interval": 32.208248204429935,
+      "mean_initial_wait_from_stationarity": 30.559139784946236,
+      "mean_duration_N_trials_from_first_herald": 3220794.3499956178,
+      "mean_duration_N_trials_from_stationary_start": 3220824.9091354026
+    },
+    {
+      "kappa": "1",
+      "hypothesis": "C",
+      "event_flux": "1/30",
+      "post_event_state_probabilities": [
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "p_position2_at_delay": 0.17620579779608767,
+      "mean_raw_herald_interval": "30",
+      "mean_wait_after_measurement": 30.456362284327504,
+      "mean_accepted_trial_interval": 32.19416311307688,
+      "mean_initial_wait_from_stationarity": 30.492398961809418,
+      "mean_duration_N_trials_from_first_herald": 3219385.854945404,
+      "mean_duration_N_trials_from_stationary_start": 3219416.347344366
+    },
+    {
+      "kappa": "10",
+      "hypothesis": "A",
+      "event_flux": "1/30",
+      "post_event_state_probabilities": [
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "p_position2_at_delay": 0.1610676204498828,
+      "mean_raw_herald_interval": "30",
+      "mean_wait_after_measurement": 29.268010369854327,
+      "mean_accepted_trial_interval": 31.005811198603702,
+      "mean_initial_wait_from_stationarity": 29.081540504648075,
+      "mean_duration_N_trials_from_first_herald": 3100551.85185,
+      "mean_duration_N_trials_from_stationary_start": 3100580.933390505
+    },
+    {
+      "kappa": "10",
+      "hypothesis": "C",
+      "event_flux": "1/30",
+      "post_event_state_probabilities": [
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "p_position2_at_delay": 0.16000806296035147,
+      "mean_raw_herald_interval": "30",
+      "mean_wait_after_measurement": 29.251799215067617,
+      "mean_accepted_trial_interval": 30.989600043816992,
+      "mean_initial_wait_from_stationarity": 29.052538031129824,
+      "mean_duration_N_trials_from_first_herald": 3098930.752582484,
+      "mean_duration_N_trials_from_stationary_start": 3098959.805120515
+    }
+  ],
+  "snapshot_rows": [
+    {
+      "kappa": "1/10",
+      "past_lag": 0.001,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 3.33166738859282e-05,
+          "posterior_cycles_at_position0": [
+            0.0002748987637498749,
+            0.00027489876374987485,
+            0.9994502024725003
+          ],
+          "future_position2_probability": 0.21524301939978233,
+          "three_time_joint_probability": 7.171181483565064e-06
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 3.33166738859282e-05,
+          "posterior_cycles_at_position0": [
+            0.0002748987637498748,
+            0.00027490292698021003,
+            0.99945019830927
+          ],
+          "future_position2_probability": 0.21404194350814723,
+          "three_time_joint_probability": 7.1311656297712076e-06
+        }
+      ],
+      "conditional_future_gap": 0.001201075891635095,
+      "unconditional_three_time_joint_gap": 4.0015853793856485e-08
+    },
+    {
+      "kappa": "1/10",
+      "past_lag": 0.01,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.0003316738593812652,
+          "posterior_cycles_at_position0": [
+            0.002739888795323934,
+            0.002739888795323935,
+            0.9945202224093521
+          ],
+          "future_position2_probability": 0.21473970209197565,
+          "three_time_joint_probability": 7.122354575522872e-05
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.00033167385938126515,
+          "posterior_cycles_at_position0": [
+            0.002739888795323934,
+            0.002740302036167102,
+            0.9945198091685089
+          ],
+          "future_position2_probability": 0.2135474746679473,
+          "three_time_joint_probability": 7.082811508424103e-05
+        }
+      ],
+      "conditional_future_gap": 0.0011922274240283581,
+      "unconditional_three_time_joint_gap": 3.9543067098769477e-07
+    },
+    {
+      "kappa": "1/10",
+      "past_lag": 0.1,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.003173603433597037,
+          "posterior_cycles_at_position0": [
+            0.02650172072777475,
+            0.026501720727774746,
+            0.9469965585444505
+          ],
+          "future_position2_probability": 0.20988786045221125,
+          "three_time_joint_probability": 0.0006661008346014733
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.0031736034335970373,
+          "posterior_cycles_at_position0": [
+            0.026501720727774743,
+            0.0265400657488736,
+            0.9469582135233516
+          ],
+          "future_position2_probability": 0.20877754157445172,
+          "three_time_joint_probability": 0.0006625771227986282
+        }
+      ],
+      "conditional_future_gap": 0.0011103188777595308,
+      "unconditional_three_time_joint_gap": 3.5237118028451407e-06
+    },
+    {
+      "kappa": "1/10",
+      "past_lag": 0.3,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.008673457259837081,
+          "posterior_cycles_at_position0": [
+            0.0737922212740455,
+            0.07379222127404553,
+            0.852415557451909
+          ],
+          "future_position2_probability": 0.20023178593876634,
+          "three_time_joint_probability": 0.0017367018374007373
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.00867345725983708,
+          "posterior_cycles_at_position0": [
+            0.07379222127404554,
+            0.07408359467484417,
+            0.8521241840511103
+          ],
+          "future_position2_probability": 0.19926678192923356,
+          "three_time_joint_probability": 0.0017283319163684829
+        }
+      ],
+      "conditional_future_gap": 0.0009650040095327828,
+      "unconditional_three_time_joint_gap": 8.369921032254412e-06
+    },
+    {
+      "kappa": "1/10",
+      "past_lag": 1.0,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.02175368890063457,
+          "posterior_cycles_at_position0": [
+            0.1899628747704187,
+            0.1899628747704188,
+            0.6200742504591625
+          ],
+          "future_position2_probability": 0.17651132467321043,
+          "three_time_joint_probability": 0.0038397724443799226
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.021753688900634584,
+          "posterior_cycles_at_position0": [
+            0.1899628747704187,
+            0.19171452983673015,
+            0.6183225953928512
+          ],
+          "future_position2_probability": 0.17581968125004951,
+          "three_time_joint_probability": 0.0038247266485223128
+        }
+      ],
+      "conditional_future_gap": 0.0006916434231609148,
+      "unconditional_three_time_joint_gap": 1.5045795857609838e-05
+    },
+    {
+      "kappa": "1/10",
+      "past_lag": 3.0,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.03579840663064328,
+          "posterior_cycles_at_position0": [
+            0.3057805639992349,
+            0.30578056399923487,
+            0.3884388720015301
+          ],
+          "future_position2_probability": 0.1528629338917632,
+          "three_time_joint_probability": 0.00547224946621048
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.03579840663064328,
+          "posterior_cycles_at_position0": [
+            0.3057805639992349,
+            0.30837191070090325,
+            0.3858475252998617
+          ],
+          "future_position2_probability": 0.1525052442190624,
+          "three_time_joint_probability": 0.005459444745859556
+        }
+      ],
+      "conditional_future_gap": 0.0003576896727008061,
+      "unconditional_three_time_joint_gap": 1.2804720350923816e-05
+    },
+    {
+      "kappa": "1/10",
+      "past_lag": 10.0,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.03997425062290327,
+          "posterior_cycles_at_position0": [
+            0.33319792789762637,
+            0.3331979278976261,
+            0.33360414420474765
+          ],
+          "future_position2_probability": 0.1472646825366932,
+          "three_time_joint_probability": 0.005886795327624061
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.03997425062290324,
+          "posterior_cycles_at_position0": [
+            0.33319792789762614,
+            0.33326499520352304,
+            0.3335370768988508
+          ],
+          "future_position2_probability": 0.14725750836224755,
+          "three_time_joint_probability": 0.0058865085453767545
+        }
+      ],
+      "conditional_future_gap": 7.174174445651049e-06,
+      "unconditional_three_time_joint_gap": 2.867822473063761e-07
+    },
+    {
+      "kappa": "1/10",
+      "past_lag": 30.0,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.039999999988779816,
+          "posterior_cycles_at_position0": [
+            0.33333333328622455,
+            0.33333333328622466,
+            0.3333333334275507
+          ],
+          "future_position2_probability": 0.14723703460514828,
+          "three_time_joint_probability": 0.005889481382553904
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.039999999988779865,
+          "posterior_cycles_at_position0": [
+            0.33333333328622516,
+            0.33333333334636595,
+            0.33333333336740895
+          ],
+          "future_position2_probability": 0.14723703459898274,
+          "three_time_joint_probability": 0.00588948138230729
+        }
+      ],
+      "conditional_future_gap": 6.16554030052896e-12,
+      "unconditional_three_time_joint_gap": 2.4661349351529083e-13
+    },
+    {
+      "kappa": "1",
+      "past_lag": 0.001,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 3.331667638177568e-05,
+          "posterior_cycles_at_position0": [
+            0.0004996251510452592,
+            0.0004996251510452592,
+            0.9990007496979094
+          ],
+          "future_position2_probability": 0.18053216181065204,
+          "three_time_joint_probability": 6.014731611547855e-06
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 3.3316676381775666e-05,
+          "posterior_cycles_at_position0": [
+            0.0004996251510452592,
+            0.0004996667552554884,
+            0.9990007080936991
+          ],
+          "future_position2_probability": 0.17616960623304362,
+          "three_time_joint_probability": 5.869385759171162e-06
+        }
+      ],
+      "conditional_future_gap": 0.0043625555776084235,
+      "unconditional_three_time_joint_gap": 1.453458523766925e-07
+    },
+    {
+      "kappa": "1",
+      "past_lag": 0.01,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.0003316763181882523,
+          "posterior_cycles_at_position0": [
+            0.00496265107284829,
+            0.00496265107284829,
+            0.9900746978543034
+          ],
+          "future_position2_probability": 0.18015038606207753,
+          "three_time_joint_probability": 5.975161676926213e-05
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.00033167631818825226,
+          "posterior_cycles_at_position0": [
+            0.00496265107284829,
+            0.004966755673881826,
+            0.9900705932532698
+          ],
+          "future_position2_probability": 0.17584619046805386,
+          "three_time_joint_probability": 5.832401702187426e-05
+        }
+      ],
+      "conditional_future_gap": 0.004304195594023674,
+      "unconditional_three_time_joint_gap": 1.427599747387873e-06
+    },
+    {
+      "kappa": "1",
+      "past_lag": 0.1,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.003175722739317932,
+          "posterior_cycles_at_position0": [
+            0.046400913443897136,
+            0.04640091344389716,
+            0.9071981731122056
+          ],
+          "future_position2_probability": 0.176605678073928,
+          "three_time_joint_probability": 0.0005608506677520355
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.003175722739317932,
+          "posterior_cycles_at_position0": [
+            0.046400913443897136,
+            0.04675929528205493,
+            0.9068397912740479
+          ],
+          "future_position2_probability": 0.17283256954930665,
+          "three_time_joint_probability": 0.0005488683212124812
+        }
+      ],
+      "conditional_future_gap": 0.0037731085246213436,
+      "unconditional_three_time_joint_gap": 1.198234653955433e-05
+    },
+    {
+      "kappa": "1",
+      "past_lag": 0.3,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.008714832685773416,
+          "posterior_cycles_at_position0": [
+            0.12025474882383765,
+            0.12025474882383767,
+            0.7594905023523247
+          ],
+          "future_position2_probability": 0.17028808015240757,
+          "three_time_joint_probability": 0.0014840321269098046
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.008714832685773418,
+          "posterior_cycles_at_position0": [
+            0.12025474882383763,
+            0.12263494131860678,
+            0.7571103098575556
+          ],
+          "future_position2_probability": 0.16741418887539447,
+          "three_time_joint_probability": 0.001458986645273532
+        }
+      ],
+      "conditional_future_gap": 0.0028738912770130964,
+      "unconditional_three_time_joint_gap": 2.5045481636272546e-05
+    },
+    {
+      "kappa": "1",
+      "past_lag": 1.0,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.02227680837961798,
+          "posterior_cycles_at_position0": [
+            0.2539675805773204,
+            0.2539675805773204,
+            0.49206483884535923
+          ],
+          "future_position2_probability": 0.15885002952686267,
+          "three_time_joint_probability": 0.003538671668866578
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.022276808379617957,
+          "posterior_cycles_at_position0": [
+            0.2539675805773205,
+            0.2631678840096418,
+            0.48286453541303775
+          ],
+          "future_position2_probability": 0.15749664649895162,
+          "three_time_joint_probability": 0.003508522614489572
+        }
+      ],
+      "conditional_future_gap": 0.0013533830279110481,
+      "unconditional_three_time_joint_gap": 3.0149054377006084e-05
+    },
+    {
+      "kappa": "1",
+      "past_lag": 3.0,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.03676717998442244,
+          "posterior_cycles_at_position0": [
+            0.3256635933272731,
+            0.3256635933272731,
+            0.34867281334545375
+          ],
+          "future_position2_probability": 0.1527170158681918,
+          "three_time_joint_probability": 0.005614974009109707
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.03676717998442247,
+          "posterior_cycles_at_position0": [
+            0.32566359332727324,
+            0.3308611017553752,
+            0.3434753049173516
+          ],
+          "future_position2_probability": 0.15243960072511045,
+          "three_time_joint_probability": 0.005604774236613633
+        }
+      ],
+      "conditional_future_gap": 0.0002774151430813554,
+      "unconditional_three_time_joint_gap": 1.0199772496073851e-05
+    },
+    {
+      "kappa": "1",
+      "past_lag": 10.0,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.03999430855851298,
+          "posterior_cycles_at_position0": [
+            0.3333241585833142,
+            0.33332415858331427,
+            0.33335168283337163
+          ],
+          "future_position2_probability": 0.15206171650709213,
+          "three_time_joint_probability": 0.006081603209921769
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.03999430855851302,
+          "posterior_cycles_at_position0": [
+            0.3333241585833142,
+            0.3333396245951962,
+            0.33333621682148956
+          ],
+          "future_position2_probability": 0.15206106989993065,
+          "three_time_joint_probability": 0.006081577349315444
+        }
+      ],
+      "conditional_future_gap": 6.466071614807944e-07,
+      "unconditional_three_time_joint_gap": 2.586060632477072e-08
+    },
+    {
+      "kappa": "1",
+      "past_lag": 30.0,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.039999999999946925,
+          "posterior_cycles_at_position0": [
+            0.3333333333332516,
+            0.3333333333332517,
+            0.3333333333334968
+          ],
+          "future_position2_probability": 0.15206093168148577,
+          "three_time_joint_probability": 0.0060824372672513595
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.039999999999946745,
+          "posterior_cycles_at_position0": [
+            0.33333333333325155,
+            0.3333333333334032,
+            0.3333333333333453
+          ],
+          "future_position2_probability": 0.1520609316814795,
+          "three_time_joint_probability": 0.006082437267251083
+        }
+      ],
+      "conditional_future_gap": 6.2727600891321345e-15,
+      "unconditional_three_time_joint_gap": 2.7668839441830073e-16
+    },
+    {
+      "kappa": "10",
+      "past_lag": 0.001,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 3.3316701247869333e-05,
+          "posterior_cycles_at_position0": [
+            0.002735803761557912,
+            0.002735803761557912,
+            0.9945283924768841
+          ],
+          "future_position2_probability": 0.1610423515596392,
+          "three_time_joint_probability": 5.365399915166844e-06
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 3.3316701247869333e-05,
+          "posterior_cycles_at_position0": [
+            0.0027358037615579115,
+            0.002736217006825507,
+            0.9945279792316166
+          ],
+          "future_position2_probability": 0.1599914892614758,
+          "three_time_joint_probability": 5.330388649926284e-06
+        }
+      ],
+      "conditional_future_gap": 0.0010508622981633964,
+      "unconditional_three_time_joint_gap": 3.501126524055924e-08
+    },
+    {
+      "kappa": "10",
+      "past_lag": 0.01,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.00033170002015065104,
+          "posterior_cycles_at_position0": [
+            0.026127395338106197,
+            0.026127395338106197,
+            0.9477452093237876
+          ],
+          "future_position2_probability": 0.1608262982123649,
+          "three_time_joint_probability": 5.334608635779606e-05
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.000331700020150651,
+          "posterior_cycles_at_position0": [
+            0.0261273953381062,
+            0.02616578080845438,
+            0.9477068238534394
+          ],
+          "future_position2_probability": 0.15984969522713166,
+          "three_time_joint_probability": 5.302214712791499e-05
+        }
+      ],
+      "conditional_future_gap": 0.0009766029852332492,
+      "unconditional_three_time_joint_gap": 3.239392298810679e-07
+    },
+    {
+      "kappa": "10",
+      "past_lag": 0.1,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.0031909262054890825,
+          "posterior_cycles_at_position0": [
+            0.17378096714753802,
+            0.173780967147538,
+            0.652438065704924
+          ],
+          "future_position2_probability": 0.1594625154906103,
+          "three_time_joint_probability": 0.0005088331194721972
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.0031909262054890834,
+          "posterior_cycles_at_position0": [
+            0.173780967147538,
+            0.17570013524168399,
+            0.650518897610778
+          ],
+          "future_position2_probability": 0.1589505546434127,
+          "three_time_joint_probability": 0.00050719949018869
+        }
+      ],
+      "conditional_future_gap": 0.0005119608471975956,
+      "unconditional_three_time_joint_gap": 1.6336292835071554e-06
+    },
+    {
+      "kappa": "10",
+      "past_lag": 0.3,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.008897726833836451,
+          "posterior_cycles_at_position0": [
+            0.2757070522399448,
+            0.2757070522399449,
+            0.44858589552011024
+          ],
+          "future_position2_probability": 0.15852108866265305,
+          "three_time_joint_probability": 0.001410477344322655
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.00889772683383645,
+          "posterior_cycles_at_position0": [
+            0.27570705223994485,
+            0.28062535046263115,
+            0.44366759729742405
+          ],
+          "future_position2_probability": 0.158325622422817,
+          "three_time_joint_probability": 0.0014087381391153567
+        }
+      ],
+      "conditional_future_gap": 0.00019546623983604516,
+      "unconditional_three_time_joint_gap": 1.73920520729837e-06
+    },
+    {
+      "kappa": "10",
+      "past_lag": 1.0,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.02326208005364609,
+          "posterior_cycles_at_position0": [
+            0.323267790219028,
+            0.3232677902190278,
+            0.3534644195619442
+          ],
+          "future_position2_probability": 0.15808180018561244,
+          "three_time_joint_probability": 0.0036773114909422018
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.023262080053646102,
+          "posterior_cycles_at_position0": [
+            0.32326779021902796,
+            0.3272952428438281,
+            0.3494369669371439
+          ],
+          "future_position2_probability": 0.15803974023880066,
+          "three_time_joint_probability": 0.003676333089092416
+        }
+      ],
+      "conditional_future_gap": 4.2059946811778826e-05,
+      "unconditional_three_time_joint_gap": 9.784018497856553e-07
+    },
+    {
+      "kappa": "10",
+      "past_lag": 3.0,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.03754452732338332,
+          "posterior_cycles_at_position0": [
+            0.33265050149330844,
+            0.33265050149330844,
+            0.334698997013383
+          ],
+          "future_position2_probability": 0.15799513801169907,
+          "three_time_joint_probability": 0.005931852776041955
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.037544527323383294,
+          "posterior_cycles_at_position0": [
+            0.33265050149330844,
+            0.3333839639379084,
+            0.33396553456878314
+          ],
+          "future_position2_probability": 0.15799113453966573,
+          "three_time_joint_probability": 0.005931702467576806
+        }
+      ],
+      "conditional_future_gap": 4.003472033331512e-06,
+      "unconditional_three_time_joint_gap": 1.503084651492334e-07
+    },
+    {
+      "kappa": "10",
+      "past_lag": 10.0,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.03999815730807709,
+          "posterior_cycles_at_position0": [
+            0.33333295434342275,
+            0.3333329543434228,
+            0.33333409131315445
+          ],
+          "future_position2_probability": 0.15798883462605123,
+          "three_time_joint_probability": 0.006319262260292574
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.039998157308076966,
+          "posterior_cycles_at_position0": [
+            0.33333295434342275,
+            0.3333336324829657,
+            0.3333334131736116
+          ],
+          "future_position2_probability": 0.15798883172664954,
+          "three_time_joint_probability": 0.0063192621443218305
+        }
+      ],
+      "conditional_future_gap": 2.899401690958925e-09,
+      "unconditional_three_time_joint_gap": 1.1597074342506453e-10
+    },
+    {
+      "kappa": "10",
+      "past_lag": 30.0,
+      "future_lag": 1.7378008287493762,
+      "records": [
+        {
+          "hypothesis": "A",
+          "two_snapshot_record_probability": 0.03999999999999823,
+          "posterior_cycles_at_position0": [
+            0.333333333333333,
+            0.333333333333333,
+            0.333333333333334
+          ],
+          "future_position2_probability": 0.15798883112556097,
+          "three_time_joint_probability": 0.006319553245022158
+        },
+        {
+          "hypothesis": "C",
+          "two_snapshot_record_probability": 0.03999999999999719,
+          "posterior_cycles_at_position0": [
+            0.333333333333333,
+            0.33333333333333365,
+            0.3333333333333333
+          ],
+          "future_position2_probability": 0.15798883112556159,
+          "three_time_joint_probability": 0.006319553245022019
+        }
+      ],
+      "conditional_future_gap": 6.106226635438361e-16,
+      "unconditional_three_time_joint_gap": 1.3964523981613297e-16
+    }
+  ]
+}
