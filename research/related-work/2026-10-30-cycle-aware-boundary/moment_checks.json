@@ -1,0 +1,659 @@
+{
+  "probe": "EHF-RW-003 independent moment check",
+  "triad_a": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      2,
+      4,
+      1,
+      3
+    ]
+  ],
+  "triad_b": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      4,
+      3
+    ],
+    [
+      0,
+      2,
+      3,
+      1,
+      4
+    ]
+  ],
+  "boundary_vertices": [
+    0,
+    1,
+    2
+  ],
+  "same_weighted_graph": true,
+  "inequivalent_mod_hidden_and_cycle_relabellings": true,
+  "rows": [
+    {
+      "kappa": "0",
+      "moments_compared": 30,
+      "same_local_boundary_generator_mod_cycle_names": true,
+      "position_transfer_equal_for_all_z_positive": true,
+      "resolved_transfer_equal_for_all_z_positive_mod_cycle_names": true,
+      "alignment_checks": [
+        {
+          "cycle_permutation": [
+            0,
+            1,
+            2
+          ],
+          "first_difference": null
+        },
+        {
+          "cycle_permutation": [
+            0,
+            2,
+            1
+          ],
+          "first_difference": {
+            "order": 1,
+            "entry": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "a": "-1/2",
+            "b_aligned": "0"
+          }
+        },
+        {
+          "cycle_permutation": [
+            1,
+            0,
+            2
+          ],
+          "first_difference": null
+        },
+        {
+          "cycle_permutation": [
+            1,
+            2,
+            0
+          ],
+          "first_difference": {
+            "order": 1,
+            "entry": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "a": "-1/2",
+            "b_aligned": "0"
+          }
+        },
+        {
+          "cycle_permutation": [
+            2,
+            0,
+            1
+          ],
+          "first_difference": {
+            "order": 1,
+            "entry": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "a": "-1/2",
+            "b_aligned": "0"
+          }
+        },
+        {
+          "cycle_permutation": [
+            2,
+            1,
+            0
+          ],
+          "first_difference": {
+            "order": 1,
+            "entry": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "a": "-1/2",
+            "b_aligned": "0"
+          }
+        }
+      ]
+    },
+    {
+      "kappa": "1/10",
+      "moments_compared": 30,
+      "same_local_boundary_generator_mod_cycle_names": true,
+      "position_transfer_equal_for_all_z_positive": true,
+      "resolved_transfer_equal_for_all_z_positive_mod_cycle_names": false,
+      "alignment_checks": [
+        {
+          "cycle_permutation": [
+            0,
+            1,
+            2
+          ],
+          "first_difference": {
+            "order": 3,
+            "entry": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "a": "-1989/8000",
+            "b_aligned": "-1889/8000"
+          }
+        },
+        {
+          "cycle_permutation": [
+            0,
+            2,
+            1
+          ],
+          "first_difference": {
+            "order": 1,
+            "entry": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "a": "-1/2",
+            "b_aligned": "0"
+          }
+        },
+        {
+          "cycle_permutation": [
+            1,
+            0,
+            2
+          ],
+          "first_difference": {
+            "order": 3,
+            "entry": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "a": "-1989/8000",
+            "b_aligned": "-1889/8000"
+          }
+        },
+        {
+          "cycle_permutation": [
+            1,
+            2,
+            0
+          ],
+          "first_difference": {
+            "order": 1,
+            "entry": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "a": "-1/2",
+            "b_aligned": "0"
+          }
+        },
+        {
+          "cycle_permutation": [
+            2,
+            0,
+            1
+          ],
+          "first_difference": {
+            "order": 1,
+            "entry": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "a": "-1/2",
+            "b_aligned": "0"
+          }
+        },
+        {
+          "cycle_permutation": [
+            2,
+            1,
+            0
+          ],
+          "first_difference": {
+            "order": 1,
+            "entry": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "a": "-1/2",
+            "b_aligned": "0"
+          }
+        }
+      ]
+    },
+    {
+      "kappa": "1",
+      "moments_compared": 30,
+      "same_local_boundary_generator_mod_cycle_names": true,
+      "position_transfer_equal_for_all_z_positive": true,
+      "resolved_transfer_equal_for_all_z_positive_mod_cycle_names": false,
+      "alignment_checks": [
+        {
+          "cycle_permutation": [
+            0,
+            1,
+            2
+          ],
+          "first_difference": {
+            "order": 3,
+            "entry": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "a": "-45/8",
+            "b_aligned": "-11/2"
+          }
+        },
+        {
+          "cycle_permutation": [
+            0,
+            2,
+            1
+          ],
+          "first_difference": {
+            "order": 1,
+            "entry": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "a": "-1/2",
+            "b_aligned": "0"
+          }
+        },
+        {
+          "cycle_permutation": [
+            1,
+            0,
+            2
+          ],
+          "first_difference": {
+            "order": 3,
+            "entry": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "a": "-45/8",
+            "b_aligned": "-11/2"
+          }
+        },
+        {
+          "cycle_permutation": [
+            1,
+            2,
+            0
+          ],
+          "first_difference": {
+            "order": 1,
+            "entry": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "a": "-1/2",
+            "b_aligned": "0"
+          }
+        },
+        {
+          "cycle_permutation": [
+            2,
+            0,
+            1
+          ],
+          "first_difference": {
+            "order": 1,
+            "entry": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "a": "-1/2",
+            "b_aligned": "0"
+          }
+        },
+        {
+          "cycle_permutation": [
+            2,
+            1,
+            0
+          ],
+          "first_difference": {
+            "order": 1,
+            "entry": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "a": "-1/2",
+            "b_aligned": "0"
+          }
+        }
+      ]
+    },
+    {
+      "kappa": "10",
+      "moments_compared": 30,
+      "same_local_boundary_generator_mod_cycle_names": true,
+      "position_transfer_equal_for_all_z_positive": true,
+      "resolved_transfer_equal_for_all_z_positive_mod_cycle_names": false,
+      "alignment_checks": [
+        {
+          "cycle_permutation": [
+            0,
+            1,
+            2
+          ],
+          "first_difference": {
+            "order": 3,
+            "entry": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "a": "-2745/2",
+            "b_aligned": "-5485/4"
+          }
+        },
+        {
+          "cycle_permutation": [
+            0,
+            2,
+            1
+          ],
+          "first_difference": {
+            "order": 1,
+            "entry": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "a": "-1/2",
+            "b_aligned": "0"
+          }
+        },
+        {
+          "cycle_permutation": [
+            1,
+            0,
+            2
+          ],
+          "first_difference": {
+            "order": 3,
+            "entry": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1
+              ]
+            ],
+            "a": "-2745/2",
+            "b_aligned": "-5485/4"
+          }
+        },
+        {
+          "cycle_permutation": [
+            1,
+            2,
+            0
+          ],
+          "first_difference": {
+            "order": 1,
+            "entry": [
+              [
+                0,
+                1
+              ],
+              [
+                1,
+                1
+              ]
+            ],
+            "a": "-1/2",
+            "b_aligned": "0"
+          }
+        },
+        {
+          "cycle_permutation": [
+            2,
+            0,
+            1
+          ],
+          "first_difference": {
+            "order": 1,
+            "entry": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "a": "-1/2",
+            "b_aligned": "0"
+          }
+        },
+        {
+          "cycle_permutation": [
+            2,
+            1,
+            0
+          ],
+          "first_difference": {
+            "order": 1,
+            "entry": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "a": "-1/2",
+            "b_aligned": "0"
+          }
+        }
+      ]
+    }
+  ],
+  "source_sha256": "0a49544d5c40ca1a2db6cbb0c8ac3e528c0453978b45ef16de3325baa65e4987",
+  "third_moment_polynomial_certificate": [
+    {
+      "cycle_permutation": [
+        0,
+        1,
+        2
+      ],
+      "kappas": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "entry": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "differences": [
+        "0",
+        "-1/8",
+        "-1/4",
+        "-3/8"
+      ],
+      "polynomial": "-kappa/8"
+    },
+    {
+      "cycle_permutation": [
+        1,
+        0,
+        2
+      ],
+      "kappas": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "entry": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "differences": [
+        "0",
+        "-1/8",
+        "-1/4",
+        "-3/8"
+      ],
+      "polynomial": "-kappa/8"
+    }
+  ],
+  "resolved_distinction_for_every_kappa_positive": true,
+  "probe_sha256": "bb56265ca8393ef4fe415544b1489f39b4c0240282a45fb6f631ce2012d31e70"
+}

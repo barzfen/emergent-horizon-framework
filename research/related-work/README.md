@@ -8,6 +8,7 @@ Admissible comparison is the chosen primitive data of the framework. EHF studies
 | --- | --- | --- | --- |
 | [EHF-RW-001](2026-10-30-kazazi-reconfiguration/README.md) | Albi Kazazi, Hamiltonian-path backbite reconfiguration | Reachability audit for single cycles and constrained Hamiltonian triads; LR3 fragmentation survives cycle-label quotient at N=6 | Full paper read; bounded exhaustive probes completed |
 | [EHF-RW-002](2026-10-30-boundary-reconstruction/README.md) | Pasterski, Pate & Raclariu; Dörfler & Bullo | Exact boundary reconstruction on triad unions; richer transport separates more graphs but invisible interior modes prevent general uniqueness | Relevant review sections and Kron-reduction abstract consulted; exhaustive probes and explicit analytic ambiguity completed |
+| [EHF-RW-003](2026-10-30-cycle-aware-boundary/README.md) | Follow-up to RW-002; classical layered transport and boundary observability | Same-weight, same-local-boundary triads become distinguishable through cycle-resolved access with switching; selected pair has exact third-moment certificate | Exhaustive N=5 witness decompositions; exact resolvent and independent moment checks |
 
 ## Entry requirements
 
