@@ -1,0 +1,2900 @@
+{
+  "probe": "EHF-RW-004",
+  "date": "2026-10-30",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "source_sha256": "0606612388850f36105bf441a605eeb3d44483b7bb309d36a19049650bdfe5a7",
+  "dependency_sha256": "bb56265ca8393ef4fe415544b1489f39b4c0240282a45fb6f631ce2012d31e70",
+  "matched_input_sha256": "f816443b179229725965386f0df03cb78d4bdd93486f169b028b0129c9a48462",
+  "triad_a": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      2,
+      4,
+      1,
+      3
+    ]
+  ],
+  "triad_c": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      4,
+      3
+    ],
+    [
+      0,
+      2,
+      3,
+      1,
+      4
+    ]
+  ],
+  "rate_grid": [
+    "0",
+    "1/100",
+    "3/100",
+    "1/10",
+    "3/10",
+    "1",
+    "3",
+    "10",
+    "30",
+    "100"
+  ],
+  "time_grid": {
+    "kind": "geometric",
+    "min": 0.001,
+    "max": 1000,
+    "count": 601
+  },
+  "max_error_target_per_hypothesis": 0.05,
+  "trial_count_grid": [
+    1,
+    2,
+    5,
+    10,
+    20,
+    50,
+    100,
+    200,
+    500,
+    1000,
+    2000,
+    5000,
+    10000,
+    20000,
+    50000,
+    100000,
+    200000,
+    500000,
+    1000000,
+    2000000,
+    5000000,
+    10000000,
+    20000000,
+    50000000,
+    100000000,
+    200000000,
+    500000000,
+    1000000000,
+    2000000000,
+    5000000000
+  ],
+  "access_rows": [
+    {
+      "kappa": "0",
+      "protocol": "prepare0_read1",
+      "time_at_max_gap_on_grid": 0.001,
+      "max_probability_gap_on_grid": 0.0,
+      "p_a": 0.0,
+      "p_c": 0.0,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "0",
+      "protocol": "prepare0_read_position",
+      "time_at_max_gap_on_grid": 0.001584893192461114,
+      "max_probability_gap_on_grid": 3.3306690738754696e-16,
+      "p_a": 0.9984169890647324,
+      "p_c": 0.9984169890647321,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "0",
+      "protocol": "uniform_prepare_read1",
+      "time_at_max_gap_on_grid": 0.011220184543019636,
+      "max_probability_gap_on_grid": 2.220446049250313e-16,
+      "p_a": 0.32962454972771454,
+      "p_c": 0.3296245497277143,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "0",
+      "protocol": "uniform_prepare_read_position",
+      "time_at_max_gap_on_grid": 0.0026915348039269166,
+      "max_probability_gap_on_grid": 4.440892098500626e-16,
+      "p_a": 0.9973138903509786,
+      "p_c": 0.9973138903509782,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "0",
+      "protocol": "prepare0_read_same_label",
+      "time_at_max_gap_on_grid": 0.0015135612484362087,
+      "max_probability_gap_on_grid": 4.440892098500626e-16,
+      "p_a": 0.9984881554585232,
+      "p_c": 0.9984881554585228,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "0",
+      "protocol": "prepare0_read_other_labels",
+      "time_at_max_gap_on_grid": 3.019951720402016,
+      "max_probability_gap_on_grid": 1.6886660594698545e-17,
+      "p_a": 1.6886660594698545e-17,
+      "p_c": 0.0,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "0",
+      "protocol": "prepare2_read_position",
+      "time_at_max_gap_on_grid": 0.034673685045253165,
+      "max_probability_gap_on_grid": 3.3306690738754696e-16,
+      "p_a": 0.9662109039853924,
+      "p_c": 0.9662109039853928,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "0",
+      "protocol": "prepare2_read_position1",
+      "time_at_max_gap_on_grid": 0.002454708915685031,
+      "max_probability_gap_on_grid": 2.3592239273284576e-16,
+      "p_a": 7.516606341378962e-07,
+      "p_c": 7.516606339019738e-07,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "0",
+      "protocol": "prepare2_read_position2",
+      "time_at_max_gap_on_grid": 0.013182567385564075,
+      "max_probability_gap_on_grid": 2.5153490401663703e-16,
+      "p_a": 0.006505105242686495,
+      "p_c": 0.006505105242686243,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "0",
+      "protocol": "uniform_prepare_read2",
+      "time_at_max_gap_on_grid": 0.01148153621496883,
+      "max_probability_gap_on_grid": 1.6653345369377348e-16,
+      "p_a": 0.3295389018482744,
+      "p_c": 0.32953890184827456,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "0",
+      "protocol": "uniform_prepare_position1_read2",
+      "time_at_max_gap_on_grid": 0.047863009232263824,
+      "max_probability_gap_on_grid": 1.9016906105395748e-16,
+      "p_a": 9.173510359241212e-05,
+      "p_c": 9.173510359260229e-05,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "0",
+      "protocol": "uniform_prepare_position2_read2",
+      "time_at_max_gap_on_grid": 5.1286138399136485,
+      "max_probability_gap_on_grid": 1.1102230246251565e-16,
+      "p_a": 0.06784748166086106,
+      "p_c": 0.06784748166086117,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "0",
+      "protocol": "uniform_prepare_read_position1",
+      "time_at_max_gap_on_grid": 0.002137962089502232,
+      "max_probability_gap_on_grid": 3.478120569333498e-16,
+      "p_a": 0.0007113225509091095,
+      "p_c": 0.0007113225509094573,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "0",
+      "protocol": "uniform_prepare_read_position2",
+      "time_at_max_gap_on_grid": 2.0417379446695296,
+      "max_probability_gap_on_grid": 2.220446049250313e-16,
+      "p_a": 0.156788995566443,
+      "p_c": 0.1567889955664432,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1/100",
+      "protocol": "prepare0_read1",
+      "time_at_max_gap_on_grid": 2.7542287033381663,
+      "max_probability_gap_on_grid": 0.0001703435727590536,
+      "p_a": 0.003537335736988431,
+      "p_c": 0.0033669921642293776,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 2000000,
+        "declare_high_if_count_at_least": 6870,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04939766201881402,
+        "error_under_high": 0.007072669994671634,
+        "midpoint_hoeffding_sufficient_trials": 206481664
+      }
+    },
+    {
+      "kappa": "1/100",
+      "protocol": "prepare0_read_position",
+      "time_at_max_gap_on_grid": 457.08818961487515,
+      "max_probability_gap_on_grid": 1.3655743202889425e-14,
+      "p_a": 0.19999999999999896,
+      "p_c": 0.2000000000000126,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1/100",
+      "protocol": "uniform_prepare_read1",
+      "time_at_max_gap_on_grid": 2.7542287033381663,
+      "max_probability_gap_on_grid": 5.717316878194045e-05,
+      "p_a": 0.08734529599658959,
+      "p_c": 0.08728812282780765,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000000,
+        "declare_high_if_count_at_least": 43654444,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049992920946970214,
+        "error_under_high": 0.0019653872880080274,
+        "midpoint_hoeffding_sufficient_trials": 1832940922
+      }
+    },
+    {
+      "kappa": "1/100",
+      "protocol": "uniform_prepare_read_position",
+      "time_at_max_gap_on_grid": 0.0010964781961431851,
+      "max_probability_gap_on_grid": 7.771561172376096e-16,
+      "p_a": 0.9989044229524403,
+      "p_c": 0.9989044229524411,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1/100",
+      "protocol": "prepare0_read_same_label",
+      "time_at_max_gap_on_grid": 616.5950018614822,
+      "max_probability_gap_on_grid": 8.978928711655954e-15,
+      "p_a": 0.06667949533666008,
+      "p_c": 0.06667949533666906,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1/100",
+      "protocol": "prepare0_read_other_labels",
+      "time_at_max_gap_on_grid": 123.02687708123811,
+      "max_probability_gap_on_grid": 5.4539706084710815e-15,
+      "p_a": 0.11227178335474222,
+      "p_c": 0.11227178335474768,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1/100",
+      "protocol": "prepare2_read_position",
+      "time_at_max_gap_on_grid": 2.7542287033381663,
+      "max_probability_gap_on_grid": 0.00017151950634575197,
+      "p_a": 0.2616928489770776,
+      "p_c": 0.26186436848342337,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 100000000,
+        "declare_high_if_count_at_least": 26176516,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.04999038556923612,
+        "error_under_high": 0.012012633198652813,
+        "midpoint_hoeffding_sufficient_trials": 203660103
+      }
+    },
+    {
+      "kappa": "1/100",
+      "protocol": "prepare2_read_position1",
+      "time_at_max_gap_on_grid": 407.380277804113,
+      "max_probability_gap_on_grid": 5.218048215738236e-15,
+      "p_a": 0.2000000000000022,
+      "p_c": 0.19999999999999699,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1/100",
+      "protocol": "prepare2_read_position2",
+      "time_at_max_gap_on_grid": 2.7542287033381663,
+      "max_probability_gap_on_grid": 0.00017151950634505808,
+      "p_a": 0.21551956607898518,
+      "p_c": 0.21534804657264012,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 100000000,
+        "declare_high_if_count_at_least": 21541567,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04999280645460797,
+        "error_under_high": 0.0057519078522270594,
+        "midpoint_hoeffding_sufficient_trials": 203660103
+      }
+    },
+    {
+      "kappa": "1/100",
+      "protocol": "uniform_prepare_read2",
+      "time_at_max_gap_on_grid": 2.7542287033381663,
+      "max_probability_gap_on_grid": 5.717316878188494e-05,
+      "p_a": 0.08723094965902588,
+      "p_c": 0.08728812282780776,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000000,
+        "declare_high_if_count_at_least": 43625854,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.04999847962965673,
+        "error_under_high": 0.001956697686625387,
+        "midpoint_hoeffding_sufficient_trials": 1832940922
+      }
+    },
+    {
+      "kappa": "1/100",
+      "protocol": "uniform_prepare_position1_read2",
+      "time_at_max_gap_on_grid": 371.53522909717276,
+      "max_probability_gap_on_grid": 1.887379141862766e-15,
+      "p_a": 0.06666666666666747,
+      "p_c": 0.06666666666666558,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1/100",
+      "protocol": "uniform_prepare_position2_read2",
+      "time_at_max_gap_on_grid": 2.7542287033381663,
+      "max_probability_gap_on_grid": 5.717316878184331e-05,
+      "p_a": 0.0718398553596618,
+      "p_c": 0.07178268219087995,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000000,
+        "declare_high_if_count_at_least": 35900836,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049996225184001895,
+        "error_under_high": 0.0004718327755219932,
+        "midpoint_hoeffding_sufficient_trials": 1832940922
+      }
+    },
+    {
+      "kappa": "1/100",
+      "protocol": "uniform_prepare_read_position1",
+      "time_at_max_gap_on_grid": 8.317637711026709,
+      "max_probability_gap_on_grid": 6.38378239159465e-16,
+      "p_a": 0.1999319602642466,
+      "p_c": 0.19993196026424723,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1/100",
+      "protocol": "uniform_prepare_read_position2",
+      "time_at_max_gap_on_grid": 0.004786300923226385,
+      "max_probability_gap_on_grid": 9.332812300755222e-16,
+      "p_a": 0.0007958115796914411,
+      "p_c": 0.0007958115796923744,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3/100",
+      "protocol": "prepare0_read1",
+      "time_at_max_gap_on_grid": 2.6915348039269165,
+      "max_probability_gap_on_grid": 0.00048436677985614664,
+      "p_a": 0.010069723866397136,
+      "p_c": 0.009585357086540989,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000,
+        "declare_high_if_count_at_least": 4907,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04967497401681944,
+        "error_under_high": 0.03410628158810962,
+        "midpoint_hoeffding_sufficient_trials": 25537848
+      }
+    },
+    {
+      "kappa": "3/100",
+      "protocol": "prepare0_read_position",
+      "time_at_max_gap_on_grid": 117.48975549395303,
+      "max_probability_gap_on_grid": 1.915134717478395e-15,
+      "p_a": 0.19999999999999762,
+      "p_c": 0.19999999999999954,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3/100",
+      "protocol": "uniform_prepare_read1",
+      "time_at_max_gap_on_grid": 2.6915348039269165,
+      "max_probability_gap_on_grid": 0.00016473930448344942,
+      "p_a": 0.08810822697711011,
+      "p_c": 0.08794348767262666,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 50000000,
+        "declare_high_if_count_at_least": 4400470,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049955134248924955,
+        "error_under_high": 0.006832344545484005,
+        "midpoint_hoeffding_sufficient_trials": 220769228
+      }
+    },
+    {
+      "kappa": "3/100",
+      "protocol": "uniform_prepare_read_position",
+      "time_at_max_gap_on_grid": 0.42657951880159256,
+      "max_probability_gap_on_grid": 6.661338147750939e-16,
+      "p_a": 0.6827009535458303,
+      "p_c": 0.6827009535458296,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3/100",
+      "protocol": "prepare0_read_same_label",
+      "time_at_max_gap_on_grid": 154.88166189124829,
+      "max_probability_gap_on_grid": 1.3739009929736312e-15,
+      "p_a": 0.06679199447261873,
+      "p_c": 0.0667919944726201,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3/100",
+      "protocol": "prepare0_read_other_labels",
+      "time_at_max_gap_on_grid": 79.43282347242821,
+      "max_probability_gap_on_grid": 5.828670879282072e-16,
+      "p_a": 0.1295959893203815,
+      "p_c": 0.12959598932038208,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3/100",
+      "protocol": "prepare2_read_position",
+      "time_at_max_gap_on_grid": 2.6915348039269165,
+      "max_probability_gap_on_grid": 0.0004942179134493352,
+      "p_a": 0.26333624510443054,
+      "p_c": 0.2638304630178799,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 10000000,
+        "declare_high_if_count_at_least": 2635655,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.049929267408423426,
+        "error_under_high": 0.028603022498158902,
+        "midpoint_hoeffding_sufficient_trials": 24529915
+      }
+    },
+    {
+      "kappa": "3/100",
+      "protocol": "prepare2_read_position1",
+      "time_at_max_gap_on_grid": 0.0022908676527677724,
+      "max_probability_gap_on_grid": 3.962170252536177e-16,
+      "p_a": 6.94012562666704e-07,
+      "p_c": 6.940125622704869e-07,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3/100",
+      "protocol": "prepare2_read_position2",
+      "time_at_max_gap_on_grid": 2.6915348039269165,
+      "max_probability_gap_on_grid": 0.0004942179134496683,
+      "p_a": 0.21469687305131244,
+      "p_c": 0.21420265513786277,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 10000000,
+        "declare_high_if_count_at_least": 2144162,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04993775983351023,
+        "error_under_high": 0.015300465079947092,
+        "midpoint_hoeffding_sufficient_trials": 24529915
+      }
+    },
+    {
+      "kappa": "3/100",
+      "protocol": "uniform_prepare_read2",
+      "time_at_max_gap_on_grid": 2.6915348039269165,
+      "max_probability_gap_on_grid": 0.0001647393044830886,
+      "p_a": 0.08777874836814352,
+      "p_c": 0.08794348767262661,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 50000000,
+        "declare_high_if_count_at_least": 4392230,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.04996773364628666,
+        "error_under_high": 0.006763935397195206,
+        "midpoint_hoeffding_sufficient_trials": 220769228
+      }
+    },
+    {
+      "kappa": "3/100",
+      "protocol": "uniform_prepare_position1_read2",
+      "time_at_max_gap_on_grid": 0.01148153621496883,
+      "max_probability_gap_on_grid": 1.496198998029996e-16,
+      "p_a": 5.765607760315188e-06,
+      "p_c": 5.765607760464808e-06,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3/100",
+      "protocol": "uniform_prepare_position2_read2",
+      "time_at_max_gap_on_grid": 2.6915348039269165,
+      "max_probability_gap_on_grid": 0.000164739304483269,
+      "p_a": 0.07156562435043748,
+      "p_c": 0.07140088504595421,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 50000000,
+        "declare_high_if_count_at_least": 3573040,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04999249044974308,
+        "error_under_high": 0.002011300813707611,
+        "midpoint_hoeffding_sufficient_trials": 220769228
+      }
+    },
+    {
+      "kappa": "3/100",
+      "protocol": "uniform_prepare_read_position1",
+      "time_at_max_gap_on_grid": 0.025703957827688632,
+      "max_probability_gap_on_grid": 3.469446951953614e-16,
+      "p_a": 0.008378205088308714,
+      "p_c": 0.008378205088308367,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3/100",
+      "protocol": "uniform_prepare_read_position2",
+      "time_at_max_gap_on_grid": 0.005754399373371567,
+      "max_probability_gap_on_grid": 2.226951262285226e-16,
+      "p_a": 0.000956313816969464,
+      "p_c": 0.0009563138169696866,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "prepare0_read1",
+      "time_at_max_gap_on_grid": 2.5118864315095797,
+      "max_probability_gap_on_grid": 0.0013524046645163705,
+      "p_a": 0.0285696390092974,
+      "p_c": 0.02721723434478103,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 200000,
+        "declare_high_if_count_at_least": 5564,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049870939529882745,
+        "error_under_high": 0.021399703513914178,
+        "midpoint_hoeffding_sufficient_trials": 3275818
+      }
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "prepare0_read_position",
+      "time_at_max_gap_on_grid": 0.0023442288153199225,
+      "max_probability_gap_on_grid": 1.5543122344752192e-15,
+      "p_a": 0.9976598873255115,
+      "p_c": 0.9976598873255099,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "uniform_prepare_read1",
+      "time_at_max_gap_on_grid": 2.570395782768865,
+      "max_probability_gap_on_grid": 0.0004800029256513544,
+      "p_a": 0.08942631354892139,
+      "p_c": 0.08894631062327003,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 5000000,
+        "declare_high_if_count_at_least": 445780,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04988520507225164,
+        "error_under_high": 0.01701516975499318,
+        "midpoint_hoeffding_sufficient_trials": 26004304
+      }
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "uniform_prepare_read_position",
+      "time_at_max_gap_on_grid": 11.748975549395302,
+      "max_probability_gap_on_grid": 6.938893903907228e-16,
+      "p_a": 0.20006572466540729,
+      "p_c": 0.2000657246654066,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "prepare0_read_same_label",
+      "time_at_max_gap_on_grid": 0.0010964781961431851,
+      "max_probability_gap_on_grid": 1.7763568394002505e-15,
+      "p_a": 0.9987949042678037,
+      "p_c": 0.9987949042678019,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "prepare0_read_other_labels",
+      "time_at_max_gap_on_grid": 0.0038018939632056127,
+      "max_probability_gap_on_grid": 5.551115123125783e-16,
+      "p_a": 0.00037863986509520386,
+      "p_c": 0.000378639865095759,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "prepare2_read_position",
+      "time_at_max_gap_on_grid": 2.570395782768865,
+      "max_probability_gap_on_grid": 0.001440008776952828,
+      "p_a": 0.26539892309285773,
+      "p_c": 0.26683893186981056,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 2000000,
+        "declare_high_if_count_at_least": 531826,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.04993251150081834,
+        "error_under_high": 0.001526758237710889,
+        "midpoint_hoeffding_sufficient_trials": 2889368
+      }
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "prepare2_read_position1",
+      "time_at_max_gap_on_grid": 0.9772372209558111,
+      "max_probability_gap_on_grid": 3.191891195797325e-16,
+      "p_a": 0.06398245363762711,
+      "p_c": 0.0639824536376268,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "prepare2_read_position2",
+      "time_at_max_gap_on_grid": 2.570395782768865,
+      "max_probability_gap_on_grid": 0.0014400087769532444,
+      "p_a": 0.2112627839924117,
+      "p_c": 0.20982277521545845,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 1000000,
+        "declare_high_if_count_at_least": 210494,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04979653623522855,
+        "error_under_high": 0.02970420385255189,
+        "midpoint_hoeffding_sufficient_trials": 2889368
+      }
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "uniform_prepare_read2",
+      "time_at_max_gap_on_grid": 2.570395782768865,
+      "max_probability_gap_on_grid": 0.00048000292565095193,
+      "p_a": 0.08846630769761925,
+      "p_c": 0.0889463106232702,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 5000000,
+        "declare_high_if_count_at_least": 443377,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.0499549125077232,
+        "error_under_high": 0.016603819402781918,
+        "midpoint_hoeffding_sufficient_trials": 26004304
+      }
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "uniform_prepare_position1_read2",
+      "time_at_max_gap_on_grid": 15.848931924611142,
+      "max_probability_gap_on_grid": 1.8041124150158794e-16,
+      "p_a": 0.06666624333266576,
+      "p_c": 0.06666624333266558,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "uniform_prepare_position2_read2",
+      "time_at_max_gap_on_grid": 2.570395782768865,
+      "max_probability_gap_on_grid": 0.00048000292565107683,
+      "p_a": 0.07042092799747056,
+      "p_c": 0.06994092507181948,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 5000000,
+        "declare_high_if_count_at_least": 350644,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.0498980437411859,
+        "error_under_high": 0.005304247626144375,
+        "midpoint_hoeffding_sufficient_trials": 26004304
+      }
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "uniform_prepare_read_position1",
+      "time_at_max_gap_on_grid": 5.1286138399136485,
+      "max_probability_gap_on_grid": 3.885780586188048e-16,
+      "p_a": 0.19975332883520167,
+      "p_c": 0.19975332883520128,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "uniform_prepare_read_position2",
+      "time_at_max_gap_on_grid": 0.0016982436524617442,
+      "max_probability_gap_on_grid": 1.0096090630185017e-15,
+      "p_a": 0.0002828004495272207,
+      "p_c": 0.0002828004495262111,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3/10",
+      "protocol": "prepare0_read1",
+      "time_at_max_gap_on_grid": 2.1379620895022327,
+      "max_probability_gap_on_grid": 0.002624013962938092,
+      "p_a": 0.060704670308804415,
+      "p_c": 0.05808065634586632,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 100000,
+        "declare_high_if_count_at_least": 5931,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049278475794320264,
+        "error_under_high": 0.03155820070341874,
+        "midpoint_hoeffding_sufficient_trials": 870164
+      }
+    },
+    {
+      "kappa": "3/10",
+      "protocol": "prepare0_read_position",
+      "time_at_max_gap_on_grid": 0.0033884415613920273,
+      "max_probability_gap_on_grid": 1.3322676295501878e-15,
+      "p_a": 0.9966201529204293,
+      "p_c": 0.9966201529204279,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3/10",
+      "protocol": "uniform_prepare_read1",
+      "time_at_max_gap_on_grid": 2.2908676527677723,
+      "max_probability_gap_on_grid": 0.0010279851164927412,
+      "p_a": 0.09332569584690074,
+      "p_c": 0.092297710730408,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 1000000,
+        "declare_high_if_count_at_least": 92775,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04983588262188702,
+        "error_under_high": 0.028974601404782665,
+        "midpoint_hoeffding_sufficient_trials": 5669691
+      }
+    },
+    {
+      "kappa": "3/10",
+      "protocol": "uniform_prepare_read_position",
+      "time_at_max_gap_on_grid": 0.0028840315031266055,
+      "max_probability_gap_on_grid": 7.771561172376096e-16,
+      "p_a": 0.9971221963443808,
+      "p_c": 0.99712219634438,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3/10",
+      "protocol": "prepare0_read_same_label",
+      "time_at_max_gap_on_grid": 0.0162181009735893,
+      "max_probability_gap_on_grid": 6.661338147750939e-16,
+      "p_a": 0.9792073581343677,
+      "p_c": 0.979207358134367,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3/10",
+      "protocol": "prepare0_read_other_labels",
+      "time_at_max_gap_on_grid": 0.054954087385762455,
+      "max_probability_gap_on_grid": 6.661338147750939e-16,
+      "p_a": 0.015423036597046275,
+      "p_c": 0.015423036597045608,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3/10",
+      "protocol": "prepare2_read_position",
+      "time_at_max_gap_on_grid": 2.2908676527677723,
+      "max_probability_gap_on_grid": 0.0030839553494776406,
+      "p_a": 0.27380917684174616,
+      "p_c": 0.2768931321912238,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000,
+        "declare_high_if_count_at_least": 137424,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.04995150805428938,
+        "error_under_high": 0.0006068384462431126,
+        "midpoint_hoeffding_sufficient_trials": 629966
+      }
+    },
+    {
+      "kappa": "3/10",
+      "protocol": "prepare2_read_position1",
+      "time_at_max_gap_on_grid": 0.0017378008287493763,
+      "max_probability_gap_on_grid": 4.014132547476676e-16,
+      "p_a": 6.029265264273498e-07,
+      "p_c": 6.029265260259365e-07,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3/10",
+      "protocol": "prepare2_read_position2",
+      "time_at_max_gap_on_grid": 2.2908676527677723,
+      "max_probability_gap_on_grid": 0.00308395534947839,
+      "p_a": 0.20269896762938597,
+      "p_c": 0.19961501227990758,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 200000,
+        "declare_high_if_count_at_least": 40218,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04982778533592317,
+        "error_under_high": 0.03641513794477,
+        "midpoint_hoeffding_sufficient_trials": 629966
+      }
+    },
+    {
+      "kappa": "3/10",
+      "protocol": "uniform_prepare_read2",
+      "time_at_max_gap_on_grid": 2.2908676527677723,
+      "max_probability_gap_on_grid": 0.0010279851164925607,
+      "p_a": 0.09126972561391537,
+      "p_c": 0.09229771073040793,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 1000000,
+        "declare_high_if_count_at_least": 91745,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.04970137622768275,
+        "error_under_high": 0.027904410737420917,
+        "midpoint_hoeffding_sufficient_trials": 5669691
+      }
+    },
+    {
+      "kappa": "3/10",
+      "protocol": "uniform_prepare_position1_read2",
+      "time_at_max_gap_on_grid": 1.6218100973589298,
+      "max_probability_gap_on_grid": 2.220446049250313e-16,
+      "p_a": 0.04256383807109153,
+      "p_c": 0.04256383807109175,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3/10",
+      "protocol": "uniform_prepare_position2_read2",
+      "time_at_max_gap_on_grid": 2.2908676527677723,
+      "max_probability_gap_on_grid": 0.0010279851164926163,
+      "p_a": 0.06756632254312865,
+      "p_c": 0.06653833742663604,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 1000000,
+        "declare_high_if_count_at_least": 66950,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04959452838569774,
+        "error_under_high": 0.0069397990758987395,
+        "midpoint_hoeffding_sufficient_trials": 5669691
+      }
+    },
+    {
+      "kappa": "3/10",
+      "protocol": "uniform_prepare_read_position1",
+      "time_at_max_gap_on_grid": 0.009332543007969905,
+      "max_probability_gap_on_grid": 5.412337245047638e-16,
+      "p_a": 0.0030855884343871653,
+      "p_c": 0.003085588434386624,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3/10",
+      "protocol": "uniform_prepare_read_position2",
+      "time_at_max_gap_on_grid": 0.006309573444801929,
+      "max_probability_gap_on_grid": 9.506284648352903e-16,
+      "p_a": 0.001048287753275562,
+      "p_c": 0.0010482877532765125,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1",
+      "protocol": "prepare0_read1",
+      "time_at_max_gap_on_grid": 1.5488166189124812,
+      "max_probability_gap_on_grid": 0.0030020104657833002,
+      "p_a": 0.10510355177248626,
+      "p_c": 0.10210154130670296,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 200000,
+        "declare_high_if_count_at_least": 20644,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04981833602047666,
+        "error_under_high": 0.00292018408617583,
+        "midpoint_hoeffding_sufficient_trials": 664827
+      }
+    },
+    {
+      "kappa": "1",
+      "protocol": "prepare0_read_position",
+      "time_at_max_gap_on_grid": 0.0016218100973589297,
+      "max_probability_gap_on_grid": 4.440892098500626e-16,
+      "p_a": 0.9983801606501711,
+      "p_c": 0.9983801606501707,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1",
+      "protocol": "uniform_prepare_read1",
+      "time_at_max_gap_on_grid": 1.7378008287493762,
+      "max_probability_gap_on_grid": 0.0014563676342653625,
+      "p_a": 0.10644994971175539,
+      "p_c": 0.10499358207749003,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000,
+        "declare_high_if_count_at_least": 52855,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04955235595857006,
+        "error_under_high": 0.04457147094862879,
+        "midpoint_hoeffding_sufficient_trials": 2824822
+      }
+    },
+    {
+      "kappa": "1",
+      "protocol": "uniform_prepare_read_position",
+      "time_at_max_gap_on_grid": 0.004265795188015925,
+      "max_probability_gap_on_grid": 7.771561172376096e-16,
+      "p_a": 0.9957478160023651,
+      "p_c": 0.9957478160023643,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1",
+      "protocol": "prepare0_read_same_label",
+      "time_at_max_gap_on_grid": 0.004265795188015925,
+      "max_probability_gap_on_grid": 7.771561172376096e-16,
+      "p_a": 0.991513724805939,
+      "p_c": 0.9915137248059398,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1",
+      "protocol": "prepare0_read_other_labels",
+      "time_at_max_gap_on_grid": 0.001202264434617413,
+      "max_probability_gap_on_grid": 8.055622141567298e-16,
+      "p_a": 0.0011997380980187308,
+      "p_c": 0.0011997380980179253,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1",
+      "protocol": "prepare2_read_position",
+      "time_at_max_gap_on_grid": 1.7378008287493762,
+      "max_probability_gap_on_grid": 0.004369102902795352,
+      "p_a": 0.31061164332967484,
+      "p_c": 0.3149807462324702,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 200000,
+        "declare_high_if_count_at_least": 62464,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.04966778562019879,
+        "error_under_high": 0.005147613260126225,
+        "midpoint_hoeffding_sufficient_trials": 313870
+      }
+    },
+    {
+      "kappa": "1",
+      "protocol": "prepare2_read_position1",
+      "time_at_max_gap_on_grid": 1.3803842646028852,
+      "max_probability_gap_on_grid": 6.38378239159465e-16,
+      "p_a": 0.14341693629725202,
+      "p_c": 0.14341693629725139,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1",
+      "protocol": "prepare2_read_position2",
+      "time_at_max_gap_on_grid": 1.7378008287493762,
+      "max_probability_gap_on_grid": 0.004369102902795963,
+      "p_a": 0.1805749006988835,
+      "p_c": 0.17620579779608753,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 100000,
+        "declare_high_if_count_at_least": 17820,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04952149876004115,
+        "error_under_high": 0.02505795895281154,
+        "midpoint_hoeffding_sufficient_trials": 313870
+      }
+    },
+    {
+      "kappa": "1",
+      "protocol": "uniform_prepare_read2",
+      "time_at_max_gap_on_grid": 1.7378008287493762,
+      "max_probability_gap_on_grid": 0.0014563676342651405,
+      "p_a": 0.10353721444322492,
+      "p_c": 0.10499358207749006,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000,
+        "declare_high_if_count_at_least": 52124,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.0498460858338824,
+        "error_under_high": 0.04241376595168814,
+        "midpoint_hoeffding_sufficient_trials": 2824822
+      }
+    },
+    {
+      "kappa": "1",
+      "protocol": "uniform_prepare_position1_read2",
+      "time_at_max_gap_on_grid": 13.182567385564074,
+      "max_probability_gap_on_grid": 2.3592239273284576e-16,
+      "p_a": 0.06666677513076792,
+      "p_c": 0.06666677513076769,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1",
+      "protocol": "uniform_prepare_position2_read2",
+      "time_at_max_gap_on_grid": 1.7378008287493762,
+      "max_probability_gap_on_grid": 0.0014563676342652168,
+      "p_a": 0.06019163356629451,
+      "p_c": 0.058735265932029296,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000,
+        "declare_high_if_count_at_least": 29642,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049912382507988226,
+        "error_under_high": 0.003395628673111579,
+        "midpoint_hoeffding_sufficient_trials": 2824822
+      }
+    },
+    {
+      "kappa": "1",
+      "protocol": "uniform_prepare_read_position1",
+      "time_at_max_gap_on_grid": 0.006456542290346556,
+      "max_probability_gap_on_grid": 6.002143226879753e-16,
+      "p_a": 0.0021400723649160833,
+      "p_c": 0.002140072364915483,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "1",
+      "protocol": "uniform_prepare_read_position2",
+      "time_at_max_gap_on_grid": 7.585775750291836,
+      "max_probability_gap_on_grid": 3.0531133177191805e-16,
+      "p_a": 0.19973916298468944,
+      "p_c": 0.19973916298468974,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3",
+      "protocol": "prepare0_read1",
+      "time_at_max_gap_on_grid": 1.0232929922807548,
+      "max_probability_gap_on_grid": 0.0017100838606995128,
+      "p_a": 0.14631229779252705,
+      "p_c": 0.14460221393182754,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000,
+        "declare_high_if_count_at_least": 72711,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04994439226879052,
+        "error_under_high": 0.03718704433430339,
+        "midpoint_hoeffding_sufficient_trials": 2048794
+      }
+    },
+    {
+      "kappa": "3",
+      "protocol": "prepare0_read_position",
+      "time_at_max_gap_on_grid": 0.008128305161640995,
+      "max_probability_gap_on_grid": 2.1094237467877974e-15,
+      "p_a": 0.991920957830244,
+      "p_c": 0.9919209578302461,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3",
+      "protocol": "uniform_prepare_read1",
+      "time_at_max_gap_on_grid": 1.2589254117941675,
+      "max_probability_gap_on_grid": 0.0010952279595235759,
+      "p_a": 0.12788028352847755,
+      "p_c": 0.12678505556895397,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 2000000,
+        "declare_high_if_count_at_least": 254345,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04995968364037551,
+        "error_under_high": 0.0013479901532825252,
+        "midpoint_hoeffding_sufficient_trials": 4994868
+      }
+    },
+    {
+      "kappa": "3",
+      "protocol": "uniform_prepare_read_position",
+      "time_at_max_gap_on_grid": 0.25703957827688645,
+      "max_probability_gap_on_grid": 2.6645352591003757e-15,
+      "p_a": 0.7845874065770158,
+      "p_c": 0.7845874065770184,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3",
+      "protocol": "prepare0_read_same_label",
+      "time_at_max_gap_on_grid": 0.002137962089502232,
+      "max_probability_gap_on_grid": 9.992007221626409e-16,
+      "p_a": 0.9914959555152807,
+      "p_c": 0.9914959555152797,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3",
+      "protocol": "prepare0_read_other_labels",
+      "time_at_max_gap_on_grid": 0.005754399373371567,
+      "max_probability_gap_on_grid": 2.525757381022231e-15,
+      "p_a": 0.016943935716914688,
+      "p_c": 0.016943935716917213,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3",
+      "protocol": "prepare2_read_position",
+      "time_at_max_gap_on_grid": 1.2589254117941675,
+      "max_probability_gap_on_grid": 0.003285683878575474,
+      "p_a": 0.3770694828282868,
+      "p_c": 0.38035516670686226,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000,
+        "declare_high_if_count_at_least": 189100,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.049701168199269154,
+        "error_under_high": 0.0008402715631023049,
+        "midpoint_hoeffding_sufficient_trials": 554986
+      }
+    },
+    {
+      "kappa": "3",
+      "protocol": "prepare2_read_position1",
+      "time_at_max_gap_on_grid": 17.378008287493763,
+      "max_probability_gap_on_grid": 1.27675647831893e-15,
+      "p_a": 0.2000000025746085,
+      "p_c": 0.2000000025746098,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3",
+      "protocol": "prepare2_read_position2",
+      "time_at_max_gap_on_grid": 1.2589254117941675,
+      "max_probability_gap_on_grid": 0.003285683878572976,
+      "p_a": 0.1490863359944199,
+      "p_c": 0.14580065211584692,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 200000,
+        "declare_high_if_count_at_least": 29421,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049629153356604776,
+        "error_under_high": 0.006302060869243878,
+        "midpoint_hoeffding_sufficient_trials": 554986
+      }
+    },
+    {
+      "kappa": "3",
+      "protocol": "uniform_prepare_read2",
+      "time_at_max_gap_on_grid": 1.2589254117941675,
+      "max_probability_gap_on_grid": 0.0010952279595251024,
+      "p_a": 0.12568982760942893,
+      "p_c": 0.12678505556895403,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 1000000,
+        "declare_high_if_count_at_least": 126236,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.04994044421726582,
+        "error_under_high": 0.0492373405149198,
+        "midpoint_hoeffding_sufficient_trials": 4994868
+      }
+    },
+    {
+      "kappa": "3",
+      "protocol": "uniform_prepare_position1_read2",
+      "time_at_max_gap_on_grid": 4.365158322401661,
+      "max_probability_gap_on_grid": 4.85722573273506e-16,
+      "p_a": 0.06677638052624338,
+      "p_c": 0.06677638052624386,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3",
+      "protocol": "uniform_prepare_position2_read2",
+      "time_at_max_gap_on_grid": 1.2589254117941675,
+      "max_probability_gap_on_grid": 0.0010952279595242975,
+      "p_a": 0.0496954453314732,
+      "p_c": 0.0486002173719489,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000,
+        "declare_high_if_count_at_least": 24551,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049975803334574534,
+        "error_under_high": 0.026377555383886492,
+        "midpoint_hoeffding_sufficient_trials": 4994868
+      }
+    },
+    {
+      "kappa": "3",
+      "protocol": "uniform_prepare_read_position1",
+      "time_at_max_gap_on_grid": 4.265795188015925,
+      "max_probability_gap_on_grid": 1.2212453270876722e-15,
+      "p_a": 0.20074079431141648,
+      "p_c": 0.2007407943114177,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "3",
+      "protocol": "uniform_prepare_read_position2",
+      "time_at_max_gap_on_grid": 4.677351412871981,
+      "max_probability_gap_on_grid": 3.885780586188048e-16,
+      "p_a": 0.19732380231265234,
+      "p_c": 0.19732380231265273,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "10",
+      "protocol": "prepare0_read1",
+      "time_at_max_gap_on_grid": 0.8128305161640995,
+      "max_probability_gap_on_grid": 0.0005526444577927669,
+      "p_a": 0.16634517025629347,
+      "p_c": 0.1657925257985007,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 5000000,
+        "declare_high_if_count_at_least": 830332,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04989444071583353,
+        "error_under_high": 0.04699106903785609,
+        "midpoint_hoeffding_sufficient_trials": 19617396
+      }
+    },
+    {
+      "kappa": "10",
+      "protocol": "prepare0_read_position",
+      "time_at_max_gap_on_grid": 0.6760829753919819,
+      "max_probability_gap_on_grid": 1.4432899320127035e-15,
+      "p_a": 0.5511305238097215,
+      "p_c": 0.5511305238097229,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "10",
+      "protocol": "uniform_prepare_read1",
+      "time_at_max_gap_on_grid": 0.9549925860214359,
+      "max_probability_gap_on_grid": 0.00046922227815002215,
+      "p_a": 0.15044087047443774,
+      "p_c": 0.14997164819628772,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 10000000,
+        "declare_high_if_count_at_least": 1501575,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049939539297676715,
+        "error_under_high": 0.006078933198791269,
+        "midpoint_hoeffding_sufficient_trials": 27212958
+      }
+    },
+    {
+      "kappa": "10",
+      "protocol": "uniform_prepare_read_position",
+      "time_at_max_gap_on_grid": 0.6606934480075958,
+      "max_probability_gap_on_grid": 1.2212453270876722e-15,
+      "p_a": 0.5568334536359308,
+      "p_c": 0.5568334536359321,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "10",
+      "protocol": "prepare0_read_same_label",
+      "time_at_max_gap_on_grid": 0.0015488166189124811,
+      "max_probability_gap_on_grid": 6.661338147750939e-16,
+      "p_a": 0.983167026333133,
+      "p_c": 0.9831670263331337,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "10",
+      "protocol": "prepare0_read_other_labels",
+      "time_at_max_gap_on_grid": 0.8709635899560805,
+      "max_probability_gap_on_grid": 8.881784197001252e-16,
+      "p_a": 0.3182233031884219,
+      "p_c": 0.3182233031884228,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "10",
+      "protocol": "prepare2_read_position",
+      "time_at_max_gap_on_grid": 0.9549925860214359,
+      "max_probability_gap_on_grid": 0.0014076668344522036,
+      "p_a": 0.44850727775441085,
+      "p_c": 0.44991494458886305,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 2000000,
+        "declare_high_if_count_at_least": 898172,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.04999817594634915,
+        "error_under_high": 0.009204658696152553,
+        "midpoint_hoeffding_sufficient_trials": 3023662
+      }
+    },
+    {
+      "kappa": "10",
+      "protocol": "prepare2_read_position1",
+      "time_at_max_gap_on_grid": 11.748975549395302,
+      "max_probability_gap_on_grid": 4.163336342344337e-16,
+      "p_a": 0.2000005230009599,
+      "p_c": 0.2000005230009595,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "10",
+      "protocol": "prepare2_read_position2",
+      "time_at_max_gap_on_grid": 0.9549925860214359,
+      "max_probability_gap_on_grid": 0.0014076668344508991,
+      "p_a": 0.12019666797428862,
+      "p_c": 0.11878900113983772,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 1000000,
+        "declare_high_if_count_at_least": 119322,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04996615025430406,
+        "error_under_high": 0.003533413321916629,
+        "midpoint_hoeffding_sufficient_trials": 3023662
+      }
+    },
+    {
+      "kappa": "10",
+      "protocol": "uniform_prepare_read2",
+      "time_at_max_gap_on_grid": 0.9549925860214359,
+      "max_probability_gap_on_grid": 0.00046922227815077155,
+      "p_a": 0.14950242591813695,
+      "p_c": 0.14997164819628772,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 10000000,
+        "declare_high_if_count_at_least": 1496880,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.049974331410151174,
+        "error_under_high": 0.005981758488941159,
+        "midpoint_hoeffding_sufficient_trials": 27212958
+      }
+    },
+    {
+      "kappa": "10",
+      "protocol": "uniform_prepare_position1_read2",
+      "time_at_max_gap_on_grid": 4.570881896148752,
+      "max_probability_gap_on_grid": 1.5265566588595902e-16,
+      "p_a": 0.06682178785253563,
+      "p_c": 0.06682178785253548,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "10",
+      "protocol": "uniform_prepare_position2_read2",
+      "time_at_max_gap_on_grid": 0.9549925860214359,
+      "max_probability_gap_on_grid": 0.0004692222781503483,
+      "p_a": 0.040065555991429545,
+      "p_c": 0.0395963337132792,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 2000000,
+        "declare_high_if_count_at_least": 79648,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.0496476620369655,
+        "error_under_high": 0.04050572081098122,
+        "midpoint_hoeffding_sufficient_trials": 27212958
+      }
+    },
+    {
+      "kappa": "10",
+      "protocol": "uniform_prepare_read_position1",
+      "time_at_max_gap_on_grid": 19.498445997580454,
+      "max_probability_gap_on_grid": 4.163336342344337e-16,
+      "p_a": 0.20000000017234726,
+      "p_c": 0.20000000017234684,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "10",
+      "protocol": "uniform_prepare_read_position2",
+      "time_at_max_gap_on_grid": 14.125375446227554,
+      "max_probability_gap_on_grid": 9.159339953157541e-16,
+      "p_a": 0.19999987576270797,
+      "p_c": 0.1999998757627089,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "30",
+      "protocol": "prepare0_read1",
+      "time_at_max_gap_on_grid": 0.8128305161640995,
+      "max_probability_gap_on_grid": 0.0001831502648413641,
+      "p_a": 0.16503111364827247,
+      "p_c": 0.1648479633834311,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 50000000,
+        "declare_high_if_count_at_least": 8246715,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04997706442873679,
+        "error_under_high": 0.03255707382542116,
+        "midpoint_hoeffding_sufficient_trials": 178614986
+      }
+    },
+    {
+      "kappa": "30",
+      "protocol": "prepare0_read_position",
+      "time_at_max_gap_on_grid": 0.5011872336272725,
+      "max_probability_gap_on_grid": 1.887379141862766e-15,
+      "p_a": 0.6310131603629399,
+      "p_c": 0.6310131603629417,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "30",
+      "protocol": "uniform_prepare_read1",
+      "time_at_max_gap_on_grid": 0.8511380382023768,
+      "max_probability_gap_on_grid": 0.00017331477795809458,
+      "p_a": 0.16044598105002916,
+      "p_c": 0.16027266627207107,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 50000000,
+        "declare_high_if_count_at_least": 8017901,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049995772340143595,
+        "error_under_high": 0.045042425227125676,
+        "midpoint_hoeffding_sufficient_trials": 199462751
+      }
+    },
+    {
+      "kappa": "30",
+      "protocol": "uniform_prepare_read_position",
+      "time_at_max_gap_on_grid": 0.5754399373371573,
+      "max_probability_gap_on_grid": 1.887379141862766e-15,
+      "p_a": 0.5932562474807537,
+      "p_c": 0.5932562474807556,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "30",
+      "protocol": "prepare0_read_same_label",
+      "time_at_max_gap_on_grid": 0.5754399373371573,
+      "max_probability_gap_on_grid": 6.106226635438361e-16,
+      "p_a": 0.19797493318583514,
+      "p_c": 0.19797493318583576,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "30",
+      "protocol": "prepare0_read_other_labels",
+      "time_at_max_gap_on_grid": 0.48977881936844614,
+      "max_probability_gap_on_grid": 1.2212453270876722e-15,
+      "p_a": 0.4246101400447407,
+      "p_c": 0.4246101400447419,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "30",
+      "protocol": "prepare2_read_position",
+      "time_at_max_gap_on_grid": 0.8511380382023768,
+      "max_probability_gap_on_grid": 0.0005199443338774201,
+      "p_a": 0.48029805448233587,
+      "p_c": 0.4808179988162133,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 10000000,
+        "declare_high_if_count_at_least": 4805580,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.04998551634393486,
+        "error_under_high": 0.049890966950481,
+        "midpoint_hoeffding_sufficient_trials": 22162528
+      }
+    },
+    {
+      "kappa": "30",
+      "protocol": "prepare2_read_position1",
+      "time_at_max_gap_on_grid": 8.317637711026709,
+      "max_probability_gap_on_grid": 4.0245584642661925e-15,
+      "p_a": 0.20001614771146106,
+      "p_c": 0.2000161477114651,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "30",
+      "protocol": "prepare2_read_position2",
+      "time_at_max_gap_on_grid": 0.8511380382023768,
+      "max_probability_gap_on_grid": 0.0005199443338779197,
+      "p_a": 0.10782406315806588,
+      "p_c": 0.10730411882418796,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 5000000,
+        "declare_high_if_count_at_least": 537660,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049949060438026556,
+        "error_under_high": 0.017559517387080052,
+        "midpoint_hoeffding_sufficient_trials": 22162528
+      }
+    },
+    {
+      "kappa": "30",
+      "protocol": "uniform_prepare_read2",
+      "time_at_max_gap_on_grid": 0.8511380382023768,
+      "max_probability_gap_on_grid": 0.0001733147779591493,
+      "p_a": 0.16009935149411192,
+      "p_c": 0.16027266627207107,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 50000000,
+        "declare_high_if_count_at_least": 8009234,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.049971660169993236,
+        "error_under_high": 0.044926103258827066,
+        "midpoint_hoeffding_sufficient_trials": 199462751
+      }
+    },
+    {
+      "kappa": "30",
+      "protocol": "uniform_prepare_position1_read2",
+      "time_at_max_gap_on_grid": 6.918309709189362,
+      "max_probability_gap_on_grid": 1.3461454173580023e-15,
+      "p_a": 0.06668805950524653,
+      "p_c": 0.06668805950524788,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "30",
+      "protocol": "uniform_prepare_position2_read2",
+      "time_at_max_gap_on_grid": 0.8511380382023768,
+      "max_probability_gap_on_grid": 0.0001733147779593297,
+      "p_a": 0.03594135438602196,
+      "p_c": 0.03576803960806263,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 20000000,
+        "declare_high_if_count_at_least": 716728,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049956573987885264,
+        "error_under_high": 0.0058155589804205704,
+        "midpoint_hoeffding_sufficient_trials": 199462751
+      }
+    },
+    {
+      "kappa": "30",
+      "protocol": "uniform_prepare_read_position1",
+      "time_at_max_gap_on_grid": 11.748975549395302,
+      "max_probability_gap_on_grid": 4.08006961549745e-15,
+      "p_a": 0.20000048012335675,
+      "p_c": 0.20000048012336083,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "30",
+      "protocol": "uniform_prepare_read_position2",
+      "time_at_max_gap_on_grid": 8.128305161640995,
+      "max_probability_gap_on_grid": 4.85722573273506e-15,
+      "p_a": 0.19994129722051715,
+      "p_c": 0.1999412972205123,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "100",
+      "protocol": "prepare0_read1",
+      "time_at_max_gap_on_grid": 0.8128305161640995,
+      "max_probability_gap_on_grid": 5.478170924350101e-05,
+      "p_a": 0.16453478629090157,
+      "p_c": 0.16448000458165807,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000000,
+        "declare_high_if_count_at_least": 82253638,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049996683142033566,
+        "error_under_high": 0.048533758571160455,
+        "midpoint_hoeffding_sufficient_trials": 1996465625
+      }
+    },
+    {
+      "kappa": "100",
+      "protocol": "prepare0_read_position",
+      "time_at_max_gap_on_grid": 1.0471285480508996,
+      "max_probability_gap_on_grid": 3.319566843629218e-14,
+      "p_a": 0.42074668450515684,
+      "p_c": 0.42074668450512365,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "100",
+      "protocol": "uniform_prepare_read1",
+      "time_at_max_gap_on_grid": 0.8128305161640995,
+      "max_probability_gap_on_grid": 5.387687557739662e-05,
+      "p_a": 0.16449826515141308,
+      "p_c": 0.16444438827583568,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 1000000000,
+        "declare_high_if_count_at_least": 164463670,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04999771840750095,
+        "error_under_high": 0.00158342847535332,
+        "midpoint_hoeffding_sufficient_trials": 2064087907
+      }
+    },
+    {
+      "kappa": "100",
+      "protocol": "uniform_prepare_read_position",
+      "time_at_max_gap_on_grid": 0.9549925860214359,
+      "max_probability_gap_on_grid": 3.319566843629218e-14,
+      "p_a": 0.4467503345785274,
+      "p_c": 0.4467503345784942,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "100",
+      "protocol": "prepare0_read_same_label",
+      "time_at_max_gap_on_grid": 0.9549925860214359,
+      "max_probability_gap_on_grid": 1.1074474670635936e-14,
+      "p_a": 0.14898823964633223,
+      "p_c": 0.14898823964632116,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "100",
+      "protocol": "prepare0_read_other_labels",
+      "time_at_max_gap_on_grid": 0.9549925860214359,
+      "max_probability_gap_on_grid": 2.2093438190040615e-14,
+      "p_a": 0.2978685262083891,
+      "p_c": 0.297868526208367,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "100",
+      "protocol": "prepare2_read_position",
+      "time_at_max_gap_on_grid": 0.8128305161640995,
+      "max_probability_gap_on_grid": 0.0001616306266671308,
+      "p_a": 0.49317153420083965,
+      "p_c": 0.4933331648275068,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 200000000,
+        "declare_high_if_count_at_least": 98645938,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.04998732350104662,
+        "error_under_high": 0.001711005660492519,
+        "midpoint_hoeffding_sufficient_trials": 229343101
+      }
+    },
+    {
+      "kappa": "100",
+      "protocol": "prepare2_read_position1",
+      "time_at_max_gap_on_grid": 7.943282347242813,
+      "max_probability_gap_on_grid": 1.1546319456101628e-14,
+      "p_a": 0.2000230638109636,
+      "p_c": 0.20002306381095206,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "100",
+      "protocol": "prepare2_read_position2",
+      "time_at_max_gap_on_grid": 0.8128305161640995,
+      "max_probability_gap_on_grid": 0.00016163062669588557,
+      "p_a": 0.10286955547678872,
+      "p_c": 0.10270792485009284,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 50000000,
+        "declare_high_if_count_at_least": 5138928,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04999200969744938,
+        "error_under_high": 0.017067010331078002,
+        "midpoint_hoeffding_sufficient_trials": 229343101
+      }
+    },
+    {
+      "kappa": "100",
+      "protocol": "uniform_prepare_read2",
+      "time_at_max_gap_on_grid": 0.8128305161640995,
+      "max_probability_gap_on_grid": 5.387687555569176e-05,
+      "p_a": 0.16439051140027988,
+      "p_c": 0.16444438827583557,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 1000000000,
+        "declare_high_if_count_at_least": 164409791,
+        "high_probability_hypothesis": "C",
+        "error_under_low": 0.04999408630137732,
+        "error_under_high": 0.0015805112968353026,
+        "midpoint_hoeffding_sufficient_trials": 2064087909
+      }
+    },
+    {
+      "kappa": "100",
+      "protocol": "uniform_prepare_position1_read2",
+      "time_at_max_gap_on_grid": 11.220184543019629,
+      "max_probability_gap_on_grid": 3.788636071533347e-15,
+      "p_a": 0.06666693016386331,
+      "p_c": 0.06666693016385952,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "100",
+      "protocol": "uniform_prepare_position2_read2",
+      "time_at_max_gap_on_grid": 0.8128305161640995,
+      "max_probability_gap_on_grid": 5.3876875565274374e-05,
+      "p_a": 0.034289851825596226,
+      "p_c": 0.03423597495003095,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 200000000,
+        "declare_high_if_count_at_least": 6851426,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04998186930529495,
+        "error_under_high": 0.005487025283475739,
+        "midpoint_hoeffding_sufficient_trials": 2064087908
+      }
+    },
+    {
+      "kappa": "100",
+      "protocol": "uniform_prepare_read_position1",
+      "time_at_max_gap_on_grid": 17.378008287493763,
+      "max_probability_gap_on_grid": 1.1435297153639112e-14,
+      "p_a": 0.20000000119287348,
+      "p_c": 0.20000000119286204,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "kappa": "100",
+      "protocol": "uniform_prepare_read_position2",
+      "time_at_max_gap_on_grid": 0.7244359600749899,
+      "max_probability_gap_on_grid": 4.08006961549745e-15,
+      "p_a": 0.0937743893904934,
+      "p_c": 0.09377438939049748,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    }
+  ],
+  "noise_rows": [
+    {
+      "preparation_replacement_probability": 0.0,
+      "readout_replacement_probability": 0.0,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.10510355177248629,
+      "p_c": 0.10210154130670294,
+      "gap": 0.003002010465783342,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 200000,
+        "declare_high_if_count_at_least": 20644,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04981833602047382,
+        "error_under_high": 0.0029201840861756336,
+        "midpoint_hoeffding_sufficient_trials": 664827
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.0,
+      "readout_replacement_probability": 0.1,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.10608365330440471,
+      "p_c": 0.10338184388519969,
+      "gap": 0.0027018094192050174,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 200000,
+        "declare_high_if_count_at_least": 20902,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04928858818748954,
+        "error_under_high": 0.010922704937291835,
+        "midpoint_hoeffding_sufficient_trials": 820774
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.0,
+      "readout_replacement_probability": 0.3,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.10804385636824151,
+      "p_c": 0.10594244904219317,
+      "gap": 0.0021014073260483407,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000,
+        "declare_high_if_count_at_least": 53330,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04995481450787141,
+        "error_under_high": 0.0007894757785947026,
+        "midpoint_hoeffding_sufficient_trials": 1356790
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.0,
+      "readout_replacement_probability": 0.5,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.11000405943207836,
+      "p_c": 0.10850305419918668,
+      "gap": 0.0015010052328916779,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000,
+        "declare_high_if_count_at_least": 54614,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04999366630491095,
+        "error_under_high": 0.03943375398225284,
+        "midpoint_hoeffding_sufficient_trials": 2659308
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.0,
+      "readout_replacement_probability": 1.0,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.11490456709167043,
+      "p_c": 0.1149045670916704,
+      "gap": 2.7755575615628914e-17,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.1,
+      "readout_replacement_probability": 0.0,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.1060836533044047,
+      "p_c": 0.10323890598945895,
+      "gap": 0.0028447473149457447,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 200000,
+        "declare_high_if_count_at_least": 20873,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04949424929862861,
+        "error_under_high": 0.0061296226391179395,
+        "midpoint_hoeffding_sufficient_trials": 740365
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.1,
+      "readout_replacement_probability": 0.1,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.10695621549008189,
+      "p_c": 0.10439594290663072,
+      "gap": 0.0025602725834511647,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 200000,
+        "declare_high_if_count_at_least": 21105,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04987989460167057,
+        "error_under_high": 0.018865124166214556,
+        "midpoint_hoeffding_sufficient_trials": 914031
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.1,
+      "readout_replacement_probability": 0.3,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.10870133986143625,
+      "p_c": 0.10671001674097425,
+      "gap": 0.0019913231204620047,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000,
+        "declare_high_if_count_at_least": 53715,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04991894892749718,
+        "error_under_high": 0.0018970634514611014,
+        "midpoint_hoeffding_sufficient_trials": 1510949
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.1,
+      "readout_replacement_probability": 0.5,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.11044646423279066,
+      "p_c": 0.10902409057531777,
+      "gap": 0.0014223736574728862,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 1000000,
+        "declare_high_if_count_at_least": 109538,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04982285101182102,
+        "error_under_high": 0.0018480716208401924,
+        "midpoint_hoeffding_sufficient_trials": 2961459
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.1,
+      "readout_replacement_probability": 1.0,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.1148092751611766,
+      "p_c": 0.11480927516117657,
+      "gap": 2.7755575615628914e-17,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.3,
+      "readout_replacement_probability": 0.0,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.10804385636824151,
+      "p_c": 0.10551363535497096,
+      "gap": 0.0025302210132705505,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 200000,
+        "declare_high_if_count_at_least": 21330,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049580606902271986,
+        "error_under_high": 0.021979791433105578,
+        "midpoint_hoeffding_sufficient_trials": 935872
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.3,
+      "readout_replacement_probability": 0.1,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.10870133986143626,
+      "p_c": 0.10642414094949276,
+      "gap": 0.002277198911943501,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000,
+        "declare_high_if_count_at_least": 53572,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04974857545923477,
+        "error_under_high": 0.000194822157149945,
+        "midpoint_hoeffding_sufficient_trials": 1155397
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.3,
+      "readout_replacement_probability": 0.3,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.11001630684782573,
+      "p_c": 0.10824515213853635,
+      "gap": 0.0017711547092893881,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000,
+        "declare_high_if_count_at_least": 54485,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04983981180417359,
+        "error_under_high": 0.008908607954961425,
+        "midpoint_hoeffding_sufficient_trials": 1909942
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.3,
+      "readout_replacement_probability": 0.5,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.11133127383421523,
+      "p_c": 0.11006616332757994,
+      "gap": 0.0012651105066352891,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 1000000,
+        "declare_high_if_count_at_least": 110582,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.0498941893746612,
+        "error_under_high": 0.008524818464420426,
+        "midpoint_hoeffding_sufficient_trials": 3743485
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.3,
+      "readout_replacement_probability": 1.0,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.11461869130018897,
+      "p_c": 0.11461869130018892,
+      "gap": 4.163336342344337e-17,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.5,
+      "readout_replacement_probability": 0.0,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.11000405943207835,
+      "p_c": 0.10778836472048298,
+      "gap": 0.00221569471159537,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000,
+        "declare_high_if_count_at_least": 54256,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049809383958406415,
+        "error_under_high": 0.0003620537948662929,
+        "midpoint_hoeffding_sufficient_trials": 1220431
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.5,
+      "readout_replacement_probability": 0.1,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.11044646423279066,
+      "p_c": 0.1084523389923548,
+      "gap": 0.001994125240435851,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000,
+        "declare_high_if_count_at_least": 54589,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04979184619613462,
+        "error_under_high": 0.0020650689305816523,
+        "midpoint_hoeffding_sufficient_trials": 1506705
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.5,
+      "readout_replacement_probability": 0.3,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.11133127383421523,
+      "p_c": 0.10978028753609846,
+      "gap": 0.0015509862981167716,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000,
+        "declare_high_if_count_at_least": 55255,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049751140778627856,
+        "error_under_high": 0.03216194837242344,
+        "midpoint_hoeffding_sufficient_trials": 2490676
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.5,
+      "readout_replacement_probability": 0.5,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.11221608343563985,
+      "p_c": 0.11110823607984213,
+      "gap": 0.0011078473557977198,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 1000000,
+        "declare_high_if_count_at_least": 111626,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049960245980396535,
+        "error_under_high": 0.03059359538144196,
+        "midpoint_hoeffding_sufficient_trials": 4881724
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.5,
+      "readout_replacement_probability": 1.0,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.11442810743920134,
+      "p_c": 0.11442810743920127,
+      "gap": 6.938893903907228e-17,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    },
+    {
+      "preparation_replacement_probability": 1.0,
+      "readout_replacement_probability": 0.0,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.1149045670916704,
+      "p_c": 0.11347518813426302,
+      "gap": 0.0014293789574073845,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 1000000,
+        "declare_high_if_count_at_least": 113998,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.0498736075638279,
+        "error_under_high": 0.0022055142008300613,
+        "midpoint_hoeffding_sufficient_trials": 2932502
+      }
+    },
+    {
+      "preparation_replacement_probability": 1.0,
+      "readout_replacement_probability": 0.1,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.11480927516117659,
+      "p_c": 0.11352283409950994,
+      "gap": 0.0012864410616666433,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 1000000,
+        "declare_high_if_count_at_least": 114046,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04978990402845855,
+        "error_under_high": 0.008247841225525592,
+        "midpoint_hoeffding_sufficient_trials": 3620373
+      }
+    },
+    {
+      "preparation_replacement_probability": 1.0,
+      "readout_replacement_probability": 0.3,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.11461869130018895,
+      "p_c": 0.11361812603000376,
+      "gap": 0.0010005652701851886,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 2000000,
+        "declare_high_if_count_at_least": 227976,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04981103719154565,
+        "error_under_high": 0.0025319248798090026,
+        "midpoint_hoeffding_sufficient_trials": 5984697
+      }
+    },
+    {
+      "preparation_replacement_probability": 1.0,
+      "readout_replacement_probability": 0.5,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.11442810743920133,
+      "p_c": 0.1137134179604976,
+      "gap": 0.0007146894787037339,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 5000000,
+        "declare_high_if_count_at_least": 569736,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049918620227674605,
+        "error_under_high": 0.00036156829278058736,
+        "midpoint_hoeffding_sufficient_trials": 11730006
+      }
+    },
+    {
+      "preparation_replacement_probability": 1.0,
+      "readout_replacement_probability": 1.0,
+      "kappa": "1",
+      "time": 1.5488166189124812,
+      "p_a": 0.11395164778673225,
+      "p_c": 0.11395164778673218,
+      "gap": 6.938893903907228e-17,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    }
+  ],
+  "exact_resolvent_access_checks": [
+    {
+      "kappa": "0",
+      "protocol": "prepare0_read1",
+      "a": "0",
+      "c": "0",
+      "difference": "0"
+    },
+    {
+      "kappa": "0",
+      "protocol": "prepare0_read_position",
+      "a": "11/19",
+      "c": "11/19",
+      "difference": "0"
+    },
+    {
+      "kappa": "0",
+      "protocol": "uniform_prepare_read1",
+      "a": "11/57",
+      "c": "11/57",
+      "difference": "0"
+    },
+    {
+      "kappa": "0",
+      "protocol": "uniform_prepare_read_position",
+      "a": "11/19",
+      "c": "11/19",
+      "difference": "0"
+    },
+    {
+      "kappa": "0",
+      "protocol": "prepare0_read_same_label",
+      "a": "11/19",
+      "c": "11/19",
+      "difference": "0"
+    },
+    {
+      "kappa": "0",
+      "protocol": "prepare0_read_other_labels",
+      "a": "0",
+      "c": "0",
+      "difference": "0"
+    },
+    {
+      "kappa": "0",
+      "protocol": "prepare2_read_position",
+      "a": "11/19",
+      "c": "11/19",
+      "difference": "0"
+    },
+    {
+      "kappa": "0",
+      "protocol": "prepare2_read_position1",
+      "a": "1/19",
+      "c": "1/19",
+      "difference": "0"
+    },
+    {
+      "kappa": "0",
+      "protocol": "prepare2_read_position2",
+      "a": "3/19",
+      "c": "3/19",
+      "difference": "0"
+    },
+    {
+      "kappa": "0",
+      "protocol": "uniform_prepare_read2",
+      "a": "11/57",
+      "c": "11/57",
+      "difference": "0"
+    },
+    {
+      "kappa": "0",
+      "protocol": "uniform_prepare_position1_read2",
+      "a": "1/57",
+      "c": "1/57",
+      "difference": "0"
+    },
+    {
+      "kappa": "0",
+      "protocol": "uniform_prepare_position2_read2",
+      "a": "1/19",
+      "c": "1/19",
+      "difference": "0"
+    },
+    {
+      "kappa": "0",
+      "protocol": "uniform_prepare_read_position1",
+      "a": "7/57",
+      "c": "7/57",
+      "difference": "0"
+    },
+    {
+      "kappa": "0",
+      "protocol": "uniform_prepare_read_position2",
+      "a": "5/57",
+      "c": "5/57",
+      "difference": "0"
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "prepare0_read1",
+      "a": "36281369/2075395087",
+      "c": "35323189/2075395087",
+      "difference": "41660/90234569"
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "prepare0_read_position",
+      "a": "23931/41411",
+      "c": "23931/41411",
+      "difference": "0"
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "uniform_prepare_read1",
+      "a": "7977/41411",
+      "c": "23911/124233",
+      "difference": "20/124233"
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "uniform_prepare_read_position",
+      "a": "71753/124233",
+      "c": "71753/124233",
+      "difference": "0"
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "prepare0_read_same_label",
+      "a": "1128703549/2075395087",
+      "c": "1128703549/2075395087",
+      "difference": "0"
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "prepare0_read_other_labels",
+      "a": "70646378/2075395087",
+      "c": "70646378/2075395087",
+      "difference": "0"
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "prepare2_read_position",
+      "a": "23891/41411",
+      "c": "23911/41411",
+      "difference": "-20/41411"
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "prepare2_read_position1",
+      "a": "2393/41411",
+      "c": "2393/41411",
+      "difference": "0"
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "prepare2_read_position2",
+      "a": "6367/41411",
+      "c": "6347/41411",
+      "difference": "20/41411"
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "uniform_prepare_read2",
+      "a": "23891/124233",
+      "c": "23911/124233",
+      "difference": "-20/124233"
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "uniform_prepare_position1_read2",
+      "a": "2393/124233",
+      "c": "2393/124233",
+      "difference": "0"
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "uniform_prepare_position2_read2",
+      "a": "6367/124233",
+      "c": "6347/124233",
+      "difference": "20/124233"
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "uniform_prepare_read_position1",
+      "a": "15299/124233",
+      "c": "15299/124233",
+      "difference": "0"
+    },
+    {
+      "kappa": "1/10",
+      "protocol": "uniform_prepare_read_position2",
+      "a": "3647/41411",
+      "c": "3647/41411",
+      "difference": "0"
+    },
+    {
+      "kappa": "1",
+      "protocol": "prepare0_read1",
+      "a": "5341/58025",
+      "c": "5261/58025",
+      "difference": "16/11605"
+    },
+    {
+      "kappa": "1",
+      "protocol": "prepare0_read_position",
+      "a": "603/1055",
+      "c": "603/1055",
+      "difference": "0"
+    },
+    {
+      "kappa": "1",
+      "protocol": "uniform_prepare_read1",
+      "a": "201/1055",
+      "c": "601/3165",
+      "difference": "2/3165"
+    },
+    {
+      "kappa": "1",
+      "protocol": "uniform_prepare_read_position",
+      "a": "361/633",
+      "c": "361/633",
+      "difference": "0"
+    },
+    {
+      "kappa": "1",
+      "protocol": "prepare0_read_same_label",
+      "a": "22643/58025",
+      "c": "22643/58025",
+      "difference": "0"
+    },
+    {
+      "kappa": "1",
+      "protocol": "prepare0_read_other_labels",
+      "a": "10522/58025",
+      "c": "10522/58025",
+      "difference": "0"
+    },
+    {
+      "kappa": "1",
+      "protocol": "prepare2_read_position",
+      "a": "599/1055",
+      "c": "601/1055",
+      "difference": "-2/1055"
+    },
+    {
+      "kappa": "1",
+      "protocol": "prepare2_read_position1",
+      "a": "89/1055",
+      "c": "89/1055",
+      "difference": "0"
+    },
+    {
+      "kappa": "1",
+      "protocol": "prepare2_read_position2",
+      "a": "139/1055",
+      "c": "137/1055",
+      "difference": "2/1055"
+    },
+    {
+      "kappa": "1",
+      "protocol": "uniform_prepare_read2",
+      "a": "599/3165",
+      "c": "601/3165",
+      "difference": "-2/3165"
+    },
+    {
+      "kappa": "1",
+      "protocol": "uniform_prepare_position1_read2",
+      "a": "89/3165",
+      "c": "89/3165",
+      "difference": "0"
+    },
+    {
+      "kappa": "1",
+      "protocol": "uniform_prepare_position2_read2",
+      "a": "139/3165",
+      "c": "137/3165",
+      "difference": "2/3165"
+    },
+    {
+      "kappa": "1",
+      "protocol": "uniform_prepare_read_position1",
+      "a": "79/633",
+      "c": "79/633",
+      "difference": "0"
+    },
+    {
+      "kappa": "1",
+      "protocol": "uniform_prepare_read_position2",
+      "a": "19/211",
+      "c": "19/211",
+      "difference": "0"
+    },
+    {
+      "kappa": "10",
+      "protocol": "prepare0_read1",
+      "a": "75244195/448795184",
+      "c": "75084515/448795184",
+      "difference": "9980/28049699"
+    },
+    {
+      "kappa": "10",
+      "protocol": "prepare0_read_position",
+      "a": "13239/23591",
+      "c": "13239/23591",
+      "difference": "0"
+    },
+    {
+      "kappa": "10",
+      "protocol": "uniform_prepare_read1",
+      "a": "4413/23591",
+      "c": "13219/70773",
+      "difference": "20/70773"
+    },
+    {
+      "kappa": "10",
+      "protocol": "uniform_prepare_read_position",
+      "a": "39677/70773",
+      "c": "39677/70773",
+      "difference": "0"
+    },
+    {
+      "kappa": "10",
+      "protocol": "prepare0_read_same_label",
+      "a": "50844853/224397592",
+      "c": "50844853/224397592",
+      "difference": "0"
+    },
+    {
+      "kappa": "10",
+      "protocol": "prepare0_read_other_labels",
+      "a": "75084515/224397592",
+      "c": "75084515/224397592",
+      "difference": "0"
+    },
+    {
+      "kappa": "10",
+      "protocol": "prepare2_read_position",
+      "a": "13199/23591",
+      "c": "13219/23591",
+      "difference": "-20/23591"
+    },
+    {
+      "kappa": "10",
+      "protocol": "prepare2_read_position1",
+      "a": "2789/23591",
+      "c": "2789/23591",
+      "difference": "0"
+    },
+    {
+      "kappa": "10",
+      "protocol": "prepare2_read_position2",
+      "a": "2407/23591",
+      "c": "77/761",
+      "difference": "20/23591"
+    },
+    {
+      "kappa": "10",
+      "protocol": "uniform_prepare_read2",
+      "a": "13199/70773",
+      "c": "13219/70773",
+      "difference": "-20/70773"
+    },
+    {
+      "kappa": "10",
+      "protocol": "uniform_prepare_position1_read2",
+      "a": "2789/70773",
+      "c": "2789/70773",
+      "difference": "0"
+    },
+    {
+      "kappa": "10",
+      "protocol": "uniform_prepare_position2_read2",
+      "a": "2407/70773",
+      "c": "77/2283",
+      "difference": "20/70773"
+    },
+    {
+      "kappa": "10",
+      "protocol": "uniform_prepare_read_position1",
+      "a": "8963/70773",
+      "c": "8963/70773",
+      "difference": "0"
+    },
+    {
+      "kappa": "10",
+      "protocol": "uniform_prepare_read_position2",
+      "a": "2195/23591",
+      "c": "2195/23591",
+      "difference": "0"
+    }
+  ],
+  "selected_operating_point": {
+    "kappa": "1",
+    "protocol": "prepare0_read1",
+    "time_at_max_gap_on_grid": 1.5488166189124812,
+    "max_probability_gap_on_grid": 0.0030020104657833002,
+    "p_a": 0.10510355177248626,
+    "p_c": 0.10210154130670296,
+    "sampling": {
+      "detectable_at_numeric_resolution": true,
+      "independent_trials": 200000,
+      "declare_high_if_count_at_least": 20644,
+      "high_probability_hypothesis": "A",
+      "error_under_low": 0.04981833602047666,
+      "error_under_high": 0.00292018408617583,
+      "midpoint_hoeffding_sufficient_trials": 664827
+    }
+  },
+  "selected_simplified_operating_point": {
+    "kappa": "1",
+    "protocol": "prepare2_read_position2",
+    "time_at_max_gap_on_grid": 1.7378008287493762,
+    "max_probability_gap_on_grid": 0.004369102902795963,
+    "p_a": 0.1805749006988835,
+    "p_c": 0.17620579779608753,
+    "sampling": {
+      "detectable_at_numeric_resolution": true,
+      "independent_trials": 100000,
+      "declare_high_if_count_at_least": 17820,
+      "high_probability_hypothesis": "A",
+      "error_under_low": 0.04952149876004115,
+      "error_under_high": 0.02505795895281154,
+      "midpoint_hoeffding_sufficient_trials": 313870
+    }
+  },
+  "simplified_preparation_noise": [
+    {
+      "preparation_replacement_probability": 0.0,
+      "p_a": 0.1805749006988835,
+      "p_c": 0.17620579779608753,
+      "gap": 0.004369102902795963,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 100000,
+        "declare_high_if_count_at_least": 17820,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04952149876004115,
+        "error_under_high": 0.02505795895281154,
+        "midpoint_hoeffding_sufficient_trials": 313870
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.1,
+      "p_a": 0.17772350379714297,
+      "p_c": 0.17379131118462662,
+      "gap": 0.003932192612516344,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 200000,
+        "declare_high_if_count_at_least": 35038,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04981105685772838,
+        "error_under_high": 0.0014807582504847675,
+        "midpoint_hoeffding_sufficient_trials": 387493
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.3,
+      "p_a": 0.17202070999366198,
+      "p_c": 0.16896233796170487,
+      "gap": 0.0030583720319571073,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 200000,
+        "declare_high_if_count_at_least": 34069,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.04987649610755135,
+        "error_under_high": 0.023263160927144713,
+        "midpoint_hoeffding_sufficient_trials": 640550
+      }
+    },
+    {
+      "preparation_replacement_probability": 0.5,
+      "p_a": 0.16631791619018096,
+      "p_c": 0.16413336473878307,
+      "gap": 0.002184551451397898,
+      "sampling": {
+        "detectable_at_numeric_resolution": true,
+        "independent_trials": 500000,
+        "declare_high_if_count_at_least": 82499,
+        "high_probability_hypothesis": "A",
+        "error_under_low": 0.049677000307907164,
+        "error_under_high": 0.006026171674328946,
+        "midpoint_hoeffding_sufficient_trials": 1255477
+      }
+    },
+    {
+      "preparation_replacement_probability": 1.0,
+      "p_a": 0.15206093168147855,
+      "p_c": 0.1520609316814787,
+      "gap": 1.3877787807814457e-16,
+      "sampling": {
+        "detectable_at_numeric_resolution": false
+      }
+    }
+  ],
+  "validation": {
+    "max_expm_spectral_difference": 1.3461454173580023e-14,
+    "matrix_exponential_checks": 60,
+    "exact_resolvent_check_all_rates": true,
+    "no_monte_carlo_used": true
+  }
+}
