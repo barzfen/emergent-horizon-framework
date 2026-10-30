@@ -1,0 +1,4964 @@
+{
+  "probe": "EHF-RW-002",
+  "date": "2026-10-30",
+  "python": "3.12.14",
+  "source_sha256": "aee0abd3140c683a474b9eeb56b71a47b78372e1a1f533c5c4f32c79b5fbe6ac",
+  "arithmetic": "integer and Fraction; no floating point or random sampling",
+  "scope": "all triad unions N=4..6; fixed boundary B=0..b-1; b=1..min(4,N-1)",
+  "ensembles": [
+    {
+      "n": 4,
+      "labelled_triads": 6,
+      "unordered_triads": 1,
+      "distinct_labelled_union_graphs": 1,
+      "rows": [
+        {
+          "n": 4,
+          "boundary_size": 1,
+          "observer": "boundary_edges",
+          "graph_classes_mod_interior_relabelling": 1,
+          "distinct_observations": 1,
+          "ambiguous_observations": 0,
+          "largest_number_of_graph_classes_per_observation": 1,
+          "injective_mod_interior_relabelling": true
+        },
+        {
+          "n": 4,
+          "boundary_size": 1,
+          "observer": "static_response",
+          "graph_classes_mod_interior_relabelling": 1,
+          "distinct_observations": 1,
+          "ambiguous_observations": 0,
+          "largest_number_of_graph_classes_per_observation": 1,
+          "injective_mod_interior_relabelling": true
+        },
+        {
+          "n": 4,
+          "boundary_size": 1,
+          "observer": "static_plus_z1",
+          "graph_classes_mod_interior_relabelling": 1,
+          "distinct_observations": 1,
+          "ambiguous_observations": 0,
+          "largest_number_of_graph_classes_per_observation": 1,
+          "injective_mod_interior_relabelling": true
+        },
+        {
+          "n": 4,
+          "boundary_size": 1,
+          "observer": "full_transfer",
+          "graph_classes_mod_interior_relabelling": 1,
+          "distinct_observations": 1,
+          "ambiguous_observations": 0,
+          "largest_number_of_graph_classes_per_observation": 1,
+          "injective_mod_interior_relabelling": true
+        },
+        {
+          "n": 4,
+          "boundary_size": 2,
+          "observer": "boundary_edges",
+          "graph_classes_mod_interior_relabelling": 1,
+          "distinct_observations": 1,
+          "ambiguous_observations": 0,
+          "largest_number_of_graph_classes_per_observation": 1,
+          "injective_mod_interior_relabelling": true
+        },
+        {
+          "n": 4,
+          "boundary_size": 2,
+          "observer": "static_response",
+          "graph_classes_mod_interior_relabelling": 1,
+          "distinct_observations": 1,
+          "ambiguous_observations": 0,
+          "largest_number_of_graph_classes_per_observation": 1,
+          "injective_mod_interior_relabelling": true
+        },
+        {
+          "n": 4,
+          "boundary_size": 2,
+          "observer": "static_plus_z1",
+          "graph_classes_mod_interior_relabelling": 1,
+          "distinct_observations": 1,
+          "ambiguous_observations": 0,
+          "largest_number_of_graph_classes_per_observation": 1,
+          "injective_mod_interior_relabelling": true
+        },
+        {
+          "n": 4,
+          "boundary_size": 2,
+          "observer": "full_transfer",
+          "graph_classes_mod_interior_relabelling": 1,
+          "distinct_observations": 1,
+          "ambiguous_observations": 0,
+          "largest_number_of_graph_classes_per_observation": 1,
+          "injective_mod_interior_relabelling": true
+        },
+        {
+          "n": 4,
+          "boundary_size": 3,
+          "observer": "boundary_edges",
+          "graph_classes_mod_interior_relabelling": 1,
+          "distinct_observations": 1,
+          "ambiguous_observations": 0,
+          "largest_number_of_graph_classes_per_observation": 1,
+          "injective_mod_interior_relabelling": true
+        },
+        {
+          "n": 4,
+          "boundary_size": 3,
+          "observer": "static_response",
+          "graph_classes_mod_interior_relabelling": 1,
+          "distinct_observations": 1,
+          "ambiguous_observations": 0,
+          "largest_number_of_graph_classes_per_observation": 1,
+          "injective_mod_interior_relabelling": true
+        },
+        {
+          "n": 4,
+          "boundary_size": 3,
+          "observer": "static_plus_z1",
+          "graph_classes_mod_interior_relabelling": 1,
+          "distinct_observations": 1,
+          "ambiguous_observations": 0,
+          "largest_number_of_graph_classes_per_observation": 1,
+          "injective_mod_interior_relabelling": true
+        },
+        {
+          "n": 4,
+          "boundary_size": 3,
+          "observer": "full_transfer",
+          "graph_classes_mod_interior_relabelling": 1,
+          "distinct_observations": 1,
+          "ambiguous_observations": 0,
+          "largest_number_of_graph_classes_per_observation": 1,
+          "injective_mod_interior_relabelling": true
+        }
+      ],
+      "witnesses": []
+    },
+    {
+      "n": 5,
+      "labelled_triads": 516,
+      "unordered_triads": 92,
+      "distinct_labelled_union_graphs": 11,
+      "rows": [
+        {
+          "n": 5,
+          "boundary_size": 1,
+          "observer": "boundary_edges",
+          "graph_classes_mod_interior_relabelling": 3,
+          "distinct_observations": 1,
+          "ambiguous_observations": 1,
+          "largest_number_of_graph_classes_per_observation": 3,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 5,
+          "boundary_size": 1,
+          "observer": "static_response",
+          "graph_classes_mod_interior_relabelling": 3,
+          "distinct_observations": 1,
+          "ambiguous_observations": 1,
+          "largest_number_of_graph_classes_per_observation": 3,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 5,
+          "boundary_size": 1,
+          "observer": "static_plus_z1",
+          "graph_classes_mod_interior_relabelling": 3,
+          "distinct_observations": 2,
+          "ambiguous_observations": 1,
+          "largest_number_of_graph_classes_per_observation": 2,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 5,
+          "boundary_size": 1,
+          "observer": "full_transfer",
+          "graph_classes_mod_interior_relabelling": 3,
+          "distinct_observations": 2,
+          "ambiguous_observations": 1,
+          "largest_number_of_graph_classes_per_observation": 2,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 5,
+          "boundary_size": 2,
+          "observer": "boundary_edges",
+          "graph_classes_mod_interior_relabelling": 5,
+          "distinct_observations": 2,
+          "ambiguous_observations": 1,
+          "largest_number_of_graph_classes_per_observation": 4,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 5,
+          "boundary_size": 2,
+          "observer": "static_response",
+          "graph_classes_mod_interior_relabelling": 5,
+          "distinct_observations": 3,
+          "ambiguous_observations": 2,
+          "largest_number_of_graph_classes_per_observation": 2,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 5,
+          "boundary_size": 2,
+          "observer": "static_plus_z1",
+          "graph_classes_mod_interior_relabelling": 5,
+          "distinct_observations": 4,
+          "ambiguous_observations": 1,
+          "largest_number_of_graph_classes_per_observation": 2,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 5,
+          "boundary_size": 2,
+          "observer": "full_transfer",
+          "graph_classes_mod_interior_relabelling": 5,
+          "distinct_observations": 4,
+          "ambiguous_observations": 1,
+          "largest_number_of_graph_classes_per_observation": 2,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 5,
+          "boundary_size": 3,
+          "observer": "boundary_edges",
+          "graph_classes_mod_interior_relabelling": 8,
+          "distinct_observations": 4,
+          "ambiguous_observations": 1,
+          "largest_number_of_graph_classes_per_observation": 5,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 5,
+          "boundary_size": 3,
+          "observer": "static_response",
+          "graph_classes_mod_interior_relabelling": 8,
+          "distinct_observations": 7,
+          "ambiguous_observations": 1,
+          "largest_number_of_graph_classes_per_observation": 2,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 5,
+          "boundary_size": 3,
+          "observer": "static_plus_z1",
+          "graph_classes_mod_interior_relabelling": 8,
+          "distinct_observations": 7,
+          "ambiguous_observations": 1,
+          "largest_number_of_graph_classes_per_observation": 2,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 5,
+          "boundary_size": 3,
+          "observer": "full_transfer",
+          "graph_classes_mod_interior_relabelling": 8,
+          "distinct_observations": 7,
+          "ambiguous_observations": 1,
+          "largest_number_of_graph_classes_per_observation": 2,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 5,
+          "boundary_size": 4,
+          "observer": "boundary_edges",
+          "graph_classes_mod_interior_relabelling": 11,
+          "distinct_observations": 7,
+          "ambiguous_observations": 1,
+          "largest_number_of_graph_classes_per_observation": 5,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 5,
+          "boundary_size": 4,
+          "observer": "static_response",
+          "graph_classes_mod_interior_relabelling": 11,
+          "distinct_observations": 11,
+          "ambiguous_observations": 0,
+          "largest_number_of_graph_classes_per_observation": 1,
+          "injective_mod_interior_relabelling": true
+        },
+        {
+          "n": 5,
+          "boundary_size": 4,
+          "observer": "static_plus_z1",
+          "graph_classes_mod_interior_relabelling": 11,
+          "distinct_observations": 11,
+          "ambiguous_observations": 0,
+          "largest_number_of_graph_classes_per_observation": 1,
+          "injective_mod_interior_relabelling": true
+        },
+        {
+          "n": 5,
+          "boundary_size": 4,
+          "observer": "full_transfer",
+          "graph_classes_mod_interior_relabelling": 11,
+          "distinct_observations": 11,
+          "ambiguous_observations": 0,
+          "largest_number_of_graph_classes_per_observation": 1,
+          "injective_mod_interior_relabelling": true
+        }
+      ],
+      "witnesses": [
+        {
+          "boundary_size": 1,
+          "observer": "boundary_edges",
+          "graph_a": {
+            "edge_mask": 511,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                2,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ],
+              [
+                0,
+                3,
+                2,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 1015,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                2,
+                4,
+                3
+              ],
+              [
+                0,
+                1,
+                4,
+                3,
+                2
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          }
+        },
+        {
+          "boundary_size": 1,
+          "observer": "static_response",
+          "graph_a": {
+            "edge_mask": 511,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                2,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ],
+              [
+                0,
+                3,
+                2,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 1015,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                2,
+                4,
+                3
+              ],
+              [
+                0,
+                1,
+                4,
+                3,
+                2
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          }
+        },
+        {
+          "boundary_size": 1,
+          "observer": "static_plus_z1",
+          "graph_a": {
+            "edge_mask": 511,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                2,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ],
+              [
+                0,
+                3,
+                2,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 1023,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ]
+            ],
+            "unordered_triad_decompositions": 72
+          }
+        },
+        {
+          "boundary_size": 1,
+          "observer": "full_transfer",
+          "graph_a": {
+            "edge_mask": 511,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                2,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ],
+              [
+                0,
+                3,
+                2,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 1023,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ]
+            ],
+            "unordered_triad_decompositions": 72
+          }
+        },
+        {
+          "boundary_size": 2,
+          "observer": "boundary_edges",
+          "graph_a": {
+            "edge_mask": 511,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                2,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ],
+              [
+                0,
+                3,
+                2,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 959,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                1,
+                3,
+                4,
+                2
+              ],
+              [
+                0,
+                3,
+                1,
+                2,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          }
+        },
+        {
+          "boundary_size": 2,
+          "observer": "static_response",
+          "graph_a": {
+            "edge_mask": 511,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                2,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ],
+              [
+                0,
+                3,
+                2,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 1023,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ]
+            ],
+            "unordered_triad_decompositions": 72
+          }
+        },
+        {
+          "boundary_size": 2,
+          "observer": "static_plus_z1",
+          "graph_a": {
+            "edge_mask": 511,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                2,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ],
+              [
+                0,
+                3,
+                2,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 1023,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ]
+            ],
+            "unordered_triad_decompositions": 72
+          }
+        },
+        {
+          "boundary_size": 2,
+          "observer": "full_transfer",
+          "graph_a": {
+            "edge_mask": 511,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                2,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ],
+              [
+                0,
+                3,
+                2,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 1023,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ]
+            ],
+            "unordered_triad_decompositions": 72
+          }
+        },
+        {
+          "boundary_size": 3,
+          "observer": "boundary_edges",
+          "graph_a": {
+            "edge_mask": 511,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                2,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ],
+              [
+                0,
+                3,
+                2,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 767,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                2,
+                1,
+                4,
+                3
+              ],
+              [
+                0,
+                2,
+                3,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          }
+        },
+        {
+          "boundary_size": 3,
+          "observer": "static_response",
+          "graph_a": {
+            "edge_mask": 511,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                2,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ],
+              [
+                0,
+                3,
+                2,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 1023,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ]
+            ],
+            "unordered_triad_decompositions": 72
+          }
+        },
+        {
+          "boundary_size": 3,
+          "observer": "static_plus_z1",
+          "graph_a": {
+            "edge_mask": 511,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                2,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ],
+              [
+                0,
+                3,
+                2,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 1023,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ]
+            ],
+            "unordered_triad_decompositions": 72
+          }
+        },
+        {
+          "boundary_size": 3,
+          "observer": "full_transfer",
+          "graph_a": {
+            "edge_mask": 511,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                2,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ],
+              [
+                0,
+                3,
+                2,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 1023,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ]
+            ],
+            "unordered_triad_decompositions": 72
+          }
+        },
+        {
+          "boundary_size": 4,
+          "observer": "boundary_edges",
+          "graph_a": {
+            "edge_mask": 511,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                2,
+                4
+              ],
+              [
+                0,
+                2,
+                4,
+                1,
+                3
+              ],
+              [
+                0,
+                3,
+                2,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 767,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                2,
+                1,
+                4,
+                3
+              ],
+              [
+                0,
+                2,
+                3,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          }
+        }
+      ],
+      "lost_cycle_decomposition_witness": {
+        "edge_mask": 511,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "one_generating_triad": [
+          [
+            0,
+            1,
+            3,
+            2,
+            4
+          ],
+          [
+            0,
+            2,
+            4,
+            1,
+            3
+          ],
+          [
+            0,
+            3,
+            2,
+            1,
+            4
+          ]
+        ],
+        "unordered_triad_decompositions": 2,
+        "two_distinct_unordered_triads": [
+          [
+            [
+              0,
+              1,
+              3,
+              2,
+              4
+            ],
+            [
+              0,
+              2,
+              4,
+              1,
+              3
+            ],
+            [
+              0,
+              3,
+              2,
+              1,
+              4
+            ]
+          ],
+          [
+            [
+              0,
+              1,
+              4,
+              2,
+              3
+            ],
+            [
+              0,
+              2,
+              3,
+              1,
+              4
+            ],
+            [
+              0,
+              3,
+              1,
+              2,
+              4
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "n": 6,
+      "labelled_triads": 80940,
+      "unordered_triads": 13580,
+      "distinct_labelled_union_graphs": 596,
+      "rows": [
+        {
+          "n": 6,
+          "boundary_size": 1,
+          "observer": "boundary_edges",
+          "graph_classes_mod_interior_relabelling": 17,
+          "distinct_observations": 1,
+          "ambiguous_observations": 1,
+          "largest_number_of_graph_classes_per_observation": 17,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 6,
+          "boundary_size": 1,
+          "observer": "static_response",
+          "graph_classes_mod_interior_relabelling": 17,
+          "distinct_observations": 1,
+          "ambiguous_observations": 1,
+          "largest_number_of_graph_classes_per_observation": 17,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 6,
+          "boundary_size": 1,
+          "observer": "static_plus_z1",
+          "graph_classes_mod_interior_relabelling": 17,
+          "distinct_observations": 7,
+          "ambiguous_observations": 4,
+          "largest_number_of_graph_classes_per_observation": 5,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 6,
+          "boundary_size": 1,
+          "observer": "full_transfer",
+          "graph_classes_mod_interior_relabelling": 17,
+          "distinct_observations": 7,
+          "ambiguous_observations": 4,
+          "largest_number_of_graph_classes_per_observation": 5,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 6,
+          "boundary_size": 2,
+          "observer": "boundary_edges",
+          "graph_classes_mod_interior_relabelling": 49,
+          "distinct_observations": 2,
+          "ambiguous_observations": 2,
+          "largest_number_of_graph_classes_per_observation": 35,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 6,
+          "boundary_size": 2,
+          "observer": "static_response",
+          "graph_classes_mod_interior_relabelling": 49,
+          "distinct_observations": 22,
+          "ambiguous_observations": 16,
+          "largest_number_of_graph_classes_per_observation": 6,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 6,
+          "boundary_size": 2,
+          "observer": "static_plus_z1",
+          "graph_classes_mod_interior_relabelling": 49,
+          "distinct_observations": 34,
+          "ambiguous_observations": 9,
+          "largest_number_of_graph_classes_per_observation": 5,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 6,
+          "boundary_size": 2,
+          "observer": "full_transfer",
+          "graph_classes_mod_interior_relabelling": 49,
+          "distinct_observations": 34,
+          "ambiguous_observations": 9,
+          "largest_number_of_graph_classes_per_observation": 5,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 6,
+          "boundary_size": 3,
+          "observer": "boundary_edges",
+          "graph_classes_mod_interior_relabelling": 137,
+          "distinct_observations": 8,
+          "ambiguous_observations": 7,
+          "largest_number_of_graph_classes_per_observation": 46,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 6,
+          "boundary_size": 3,
+          "observer": "static_response",
+          "graph_classes_mod_interior_relabelling": 137,
+          "distinct_observations": 121,
+          "ambiguous_observations": 13,
+          "largest_number_of_graph_classes_per_observation": 3,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 6,
+          "boundary_size": 3,
+          "observer": "static_plus_z1",
+          "graph_classes_mod_interior_relabelling": 137,
+          "distinct_observations": 121,
+          "ambiguous_observations": 13,
+          "largest_number_of_graph_classes_per_observation": 3,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 6,
+          "boundary_size": 3,
+          "observer": "full_transfer",
+          "graph_classes_mod_interior_relabelling": 137,
+          "distinct_observations": 121,
+          "ambiguous_observations": 13,
+          "largest_number_of_graph_classes_per_observation": 3,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 6,
+          "boundary_size": 4,
+          "observer": "boundary_edges",
+          "graph_classes_mod_interior_relabelling": 334,
+          "distinct_observations": 38,
+          "ambiguous_observations": 34,
+          "largest_number_of_graph_classes_per_observation": 27,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 6,
+          "boundary_size": 4,
+          "observer": "static_response",
+          "graph_classes_mod_interior_relabelling": 334,
+          "distinct_observations": 324,
+          "ambiguous_observations": 10,
+          "largest_number_of_graph_classes_per_observation": 2,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 6,
+          "boundary_size": 4,
+          "observer": "static_plus_z1",
+          "graph_classes_mod_interior_relabelling": 334,
+          "distinct_observations": 324,
+          "ambiguous_observations": 10,
+          "largest_number_of_graph_classes_per_observation": 2,
+          "injective_mod_interior_relabelling": false
+        },
+        {
+          "n": 6,
+          "boundary_size": 4,
+          "observer": "full_transfer",
+          "graph_classes_mod_interior_relabelling": 334,
+          "distinct_observations": 324,
+          "ambiguous_observations": 10,
+          "largest_number_of_graph_classes_per_observation": 2,
+          "injective_mod_interior_relabelling": false
+        }
+      ],
+      "witnesses": [
+        {
+          "boundary_size": 1,
+          "observer": "boundary_edges",
+          "graph_a": {
+            "edge_mask": 4060,
+            "edges": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                3,
+                1,
+                4,
+                2,
+                5
+              ],
+              [
+                0,
+                3,
+                2,
+                5,
+                1,
+                4
+              ],
+              [
+                0,
+                4,
+                2,
+                3,
+                1,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 7100,
+            "edges": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                3,
+                2,
+                5,
+                1,
+                4
+              ],
+              [
+                0,
+                3,
+                4,
+                1,
+                2,
+                5
+              ],
+              [
+                0,
+                4,
+                3,
+                2,
+                1,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 1
+          }
+        },
+        {
+          "boundary_size": 1,
+          "observer": "static_response",
+          "graph_a": {
+            "edge_mask": 4060,
+            "edges": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                3,
+                1,
+                4,
+                2,
+                5
+              ],
+              [
+                0,
+                3,
+                2,
+                5,
+                1,
+                4
+              ],
+              [
+                0,
+                4,
+                2,
+                3,
+                1,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 7100,
+            "edges": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                3,
+                2,
+                5,
+                1,
+                4
+              ],
+              [
+                0,
+                3,
+                4,
+                1,
+                2,
+                5
+              ],
+              [
+                0,
+                4,
+                3,
+                2,
+                1,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 1
+          }
+        },
+        {
+          "boundary_size": 1,
+          "observer": "static_plus_z1",
+          "graph_a": {
+            "edge_mask": 4060,
+            "edges": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                3,
+                1,
+                4,
+                2,
+                5
+              ],
+              [
+                0,
+                3,
+                2,
+                5,
+                1,
+                4
+              ],
+              [
+                0,
+                4,
+                2,
+                3,
+                1,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 8188,
+            "edges": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                3,
+                1,
+                4,
+                2,
+                5
+              ],
+              [
+                0,
+                3,
+                1,
+                5,
+                2,
+                4
+              ],
+              [
+                0,
+                4,
+                3,
+                2,
+                1,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 10
+          }
+        },
+        {
+          "boundary_size": 1,
+          "observer": "full_transfer",
+          "graph_a": {
+            "edge_mask": 4060,
+            "edges": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                3,
+                1,
+                4,
+                2,
+                5
+              ],
+              [
+                0,
+                3,
+                2,
+                5,
+                1,
+                4
+              ],
+              [
+                0,
+                4,
+                2,
+                3,
+                1,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 8188,
+            "edges": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                3,
+                1,
+                4,
+                2,
+                5
+              ],
+              [
+                0,
+                3,
+                1,
+                5,
+                2,
+                4
+              ],
+              [
+                0,
+                4,
+                3,
+                2,
+                1,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 10
+          }
+        },
+        {
+          "boundary_size": 2,
+          "observer": "boundary_edges",
+          "graph_a": {
+            "edge_mask": 4060,
+            "edges": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                3,
+                1,
+                4,
+                2,
+                5
+              ],
+              [
+                0,
+                3,
+                2,
+                5,
+                1,
+                4
+              ],
+              [
+                0,
+                4,
+                2,
+                3,
+                1,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 7100,
+            "edges": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                3,
+                2,
+                5,
+                1,
+                4
+              ],
+              [
+                0,
+                3,
+                4,
+                1,
+                2,
+                5
+              ],
+              [
+                0,
+                4,
+                3,
+                2,
+                1,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 1
+          }
+        },
+        {
+          "boundary_size": 2,
+          "observer": "static_response",
+          "graph_a": {
+            "edge_mask": 7166,
+            "edges": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                2,
+                3,
+                4,
+                1,
+                5
+              ],
+              [
+                0,
+                3,
+                2,
+                5,
+                1,
+                4
+              ],
+              [
+                0,
+                4,
+                3,
+                1,
+                2,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 8190,
+            "edges": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                2,
+                3,
+                4,
+                1,
+                5
+              ],
+              [
+                0,
+                3,
+                1,
+                5,
+                2,
+                4
+              ],
+              [
+                0,
+                3,
+                4,
+                1,
+                2,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 14
+          }
+        },
+        {
+          "boundary_size": 2,
+          "observer": "static_plus_z1",
+          "graph_a": {
+            "edge_mask": 7166,
+            "edges": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                2,
+                3,
+                4,
+                1,
+                5
+              ],
+              [
+                0,
+                3,
+                2,
+                5,
+                1,
+                4
+              ],
+              [
+                0,
+                4,
+                3,
+                1,
+                2,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 8190,
+            "edges": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                2,
+                3,
+                4,
+                1,
+                5
+              ],
+              [
+                0,
+                3,
+                1,
+                5,
+                2,
+                4
+              ],
+              [
+                0,
+                3,
+                4,
+                1,
+                2,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 14
+          }
+        },
+        {
+          "boundary_size": 2,
+          "observer": "full_transfer",
+          "graph_a": {
+            "edge_mask": 7166,
+            "edges": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                2,
+                3,
+                4,
+                1,
+                5
+              ],
+              [
+                0,
+                3,
+                2,
+                5,
+                1,
+                4
+              ],
+              [
+                0,
+                4,
+                3,
+                1,
+                2,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          },
+          "graph_b": {
+            "edge_mask": 8190,
+            "edges": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                2,
+                3,
+                4,
+                1,
+                5
+              ],
+              [
+                0,
+                3,
+                1,
+                5,
+                2,
+                4
+              ],
+              [
+                0,
+                3,
+                4,
+                1,
+                2,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 14
+          }
+        },
+        {
+          "boundary_size": 3,
+          "observer": "boundary_edges",
+          "graph_a": {
+            "edge_mask": 7100,
+            "edges": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                3,
+                2,
+                5,
+                1,
+                4
+              ],
+              [
+                0,
+                3,
+                4,
+                1,
+                2,
+                5
+              ],
+              [
+                0,
+                4,
+                3,
+                2,
+                1,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 1
+          },
+          "graph_b": {
+            "edge_mask": 8188,
+            "edges": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                3,
+                1,
+                4,
+                2,
+                5
+              ],
+              [
+                0,
+                3,
+                1,
+                5,
+                2,
+                4
+              ],
+              [
+                0,
+                4,
+                3,
+                2,
+                1,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 10
+          }
+        },
+        {
+          "boundary_size": 3,
+          "observer": "static_response",
+          "graph_a": {
+            "edge_mask": 8157,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                4,
+                2,
+                5
+              ],
+              [
+                0,
+                1,
+                5,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                3,
+                2,
+                4,
+                1,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 10
+          },
+          "graph_b": {
+            "edge_mask": 16349,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                4,
+                2,
+                5
+              ],
+              [
+                0,
+                1,
+                4,
+                2,
+                3,
+                5
+              ],
+              [
+                0,
+                3,
+                2,
+                5,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 14
+          }
+        },
+        {
+          "boundary_size": 3,
+          "observer": "static_plus_z1",
+          "graph_a": {
+            "edge_mask": 8157,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                4,
+                2,
+                5
+              ],
+              [
+                0,
+                1,
+                5,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                3,
+                2,
+                4,
+                1,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 10
+          },
+          "graph_b": {
+            "edge_mask": 16349,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                4,
+                2,
+                5
+              ],
+              [
+                0,
+                1,
+                4,
+                2,
+                3,
+                5
+              ],
+              [
+                0,
+                3,
+                2,
+                5,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 14
+          }
+        },
+        {
+          "boundary_size": 3,
+          "observer": "full_transfer",
+          "graph_a": {
+            "edge_mask": 8157,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                4,
+                2,
+                5
+              ],
+              [
+                0,
+                1,
+                5,
+                2,
+                3,
+                4
+              ],
+              [
+                0,
+                3,
+                2,
+                4,
+                1,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 10
+          },
+          "graph_b": {
+            "edge_mask": 16349,
+            "edges": [
+              [
+                0,
+                1
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                1,
+                3,
+                4,
+                2,
+                5
+              ],
+              [
+                0,
+                1,
+                4,
+                2,
+                3,
+                5
+              ],
+              [
+                0,
+                3,
+                2,
+                5,
+                1,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 14
+          }
+        },
+        {
+          "boundary_size": 4,
+          "observer": "boundary_edges",
+          "graph_a": {
+            "edge_mask": 7100,
+            "edges": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                3,
+                2,
+                5,
+                1,
+                4
+              ],
+              [
+                0,
+                3,
+                4,
+                1,
+                2,
+                5
+              ],
+              [
+                0,
+                4,
+                3,
+                2,
+                1,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 1
+          },
+          "graph_b": {
+            "edge_mask": 16316,
+            "edges": [
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                3
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                3,
+                2,
+                4,
+                1,
+                5
+              ],
+              [
+                0,
+                3,
+                5,
+                2,
+                1,
+                4
+              ],
+              [
+                0,
+                4,
+                3,
+                2,
+                1,
+                5
+              ]
+            ],
+            "unordered_triad_decompositions": 2
+          }
+        },
+        {
+          "boundary_size": 4,
+          "observer": "static_response",
+          "graph_a": {
+            "edge_mask": 15870,
+            "edges": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                2,
+                1,
+                4,
+                3,
+                5
+              ],
+              [
+                0,
+                2,
+                1,
+                4,
+                3,
+                5
+              ],
+              [
+                0,
+                3,
+                1,
+                5,
+                2,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 124
+          },
+          "graph_b": {
+            "edge_mask": 32254,
+            "edges": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                2,
+                1,
+                3,
+                4,
+                5
+              ],
+              [
+                0,
+                2,
+                1,
+                4,
+                3,
+                5
+              ],
+              [
+                0,
+                3,
+                1,
+                5,
+                2,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 112
+          }
+        },
+        {
+          "boundary_size": 4,
+          "observer": "static_plus_z1",
+          "graph_a": {
+            "edge_mask": 15870,
+            "edges": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                2,
+                1,
+                4,
+                3,
+                5
+              ],
+              [
+                0,
+                2,
+                1,
+                4,
+                3,
+                5
+              ],
+              [
+                0,
+                3,
+                1,
+                5,
+                2,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 124
+          },
+          "graph_b": {
+            "edge_mask": 32254,
+            "edges": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                2,
+                1,
+                3,
+                4,
+                5
+              ],
+              [
+                0,
+                2,
+                1,
+                4,
+                3,
+                5
+              ],
+              [
+                0,
+                3,
+                1,
+                5,
+                2,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 112
+          }
+        },
+        {
+          "boundary_size": 4,
+          "observer": "full_transfer",
+          "graph_a": {
+            "edge_mask": 15870,
+            "edges": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                2,
+                1,
+                4,
+                3,
+                5
+              ],
+              [
+                0,
+                2,
+                1,
+                4,
+                3,
+                5
+              ],
+              [
+                0,
+                3,
+                1,
+                5,
+                2,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 124
+          },
+          "graph_b": {
+            "edge_mask": 32254,
+            "edges": [
+              [
+                0,
+                2
+              ],
+              [
+                0,
+                3
+              ],
+              [
+                0,
+                4
+              ],
+              [
+                0,
+                5
+              ],
+              [
+                1,
+                2
+              ],
+              [
+                1,
+                3
+              ],
+              [
+                1,
+                4
+              ],
+              [
+                1,
+                5
+              ],
+              [
+                2,
+                4
+              ],
+              [
+                2,
+                5
+              ],
+              [
+                3,
+                4
+              ],
+              [
+                3,
+                5
+              ],
+              [
+                4,
+                5
+              ]
+            ],
+            "one_generating_triad": [
+              [
+                0,
+                2,
+                1,
+                3,
+                4,
+                5
+              ],
+              [
+                0,
+                2,
+                1,
+                4,
+                3,
+                5
+              ],
+              [
+                0,
+                3,
+                1,
+                5,
+                2,
+                4
+              ]
+            ],
+            "unordered_triad_decompositions": 112
+          }
+        }
+      ],
+      "lost_cycle_decomposition_witness": {
+        "edge_mask": 4060,
+        "edges": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "one_generating_triad": [
+          [
+            0,
+            3,
+            1,
+            4,
+            2,
+            5
+          ],
+          [
+            0,
+            3,
+            2,
+            5,
+            1,
+            4
+          ],
+          [
+            0,
+            4,
+            2,
+            3,
+            1,
+            5
+          ]
+        ],
+        "unordered_triad_decompositions": 2,
+        "two_distinct_unordered_triads": [
+          [
+            [
+              0,
+              3,
+              1,
+              4,
+              2,
+              5
+            ],
+            [
+              0,
+              3,
+              2,
+              5,
+              1,
+              4
+            ],
+            [
+              0,
+              4,
+              2,
+              3,
+              1,
+              5
+            ]
+          ],
+          [
+            [
+              0,
+              3,
+              1,
+              5,
+              2,
+              4
+            ],
+            [
+              0,
+              3,
+              2,
+              4,
+              1,
+              5
+            ],
+            [
+              0,
+              4,
+              1,
+              3,
+              2,
+              5
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
