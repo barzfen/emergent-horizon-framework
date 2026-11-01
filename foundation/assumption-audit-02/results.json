@@ -1,0 +1,314 @@
+{
+  "scope": "classical finite states; imposed dynamics and readouts",
+  "deterministic_audit": [
+    {
+      "states": 1,
+      "maps": 1,
+      "encoded_pair_checks": 0,
+      "reversible_maps": 1,
+      "invariant_binary_readouts_including_constants": 2
+    },
+    {
+      "states": 2,
+      "maps": 4,
+      "encoded_pair_checks": 4,
+      "reversible_maps": 2,
+      "invariant_binary_readouts_including_constants": 10
+    },
+    {
+      "states": 3,
+      "maps": 27,
+      "encoded_pair_checks": 81,
+      "reversible_maps": 6,
+      "invariant_binary_readouts_including_constants": 78
+    },
+    {
+      "states": 4,
+      "maps": 256,
+      "encoded_pair_checks": 1536,
+      "reversible_maps": 24,
+      "invariant_binary_readouts_including_constants": 824
+    }
+  ],
+  "data_processing_audit": {
+    "kernels": 225,
+    "distribution_pair_checks": 3267,
+    "binary_observation_checks": 26028,
+    "scope": "all stochastic rows with denominator 2 on 2 and 3 states"
+  },
+  "controls": {
+    "swap": [
+      {
+        "step": 0,
+        "full_tv": 1,
+        "first_bit_tv": 1,
+        "states": [
+          0,
+          2
+        ]
+      },
+      {
+        "step": 1,
+        "full_tv": 1,
+        "first_bit_tv": 0,
+        "states": [
+          0,
+          1
+        ]
+      },
+      {
+        "step": 2,
+        "full_tv": 1,
+        "first_bit_tv": 1,
+        "states": [
+          0,
+          2
+        ]
+      },
+      {
+        "step": 3,
+        "full_tv": 1,
+        "first_bit_tv": 0,
+        "states": [
+          0,
+          1
+        ]
+      }
+    ],
+    "reset_first": [
+      {
+        "step": 0,
+        "full_tv": 1,
+        "first_bit_tv": 1,
+        "states": [
+          0,
+          2
+        ]
+      },
+      {
+        "step": 1,
+        "full_tv": 0,
+        "first_bit_tv": 0,
+        "states": [
+          0,
+          0
+        ]
+      },
+      {
+        "step": 2,
+        "full_tv": 0,
+        "first_bit_tv": 0,
+        "states": [
+          0,
+          0
+        ]
+      },
+      {
+        "step": 3,
+        "full_tv": 0,
+        "first_bit_tv": 0,
+        "states": [
+          0,
+          0
+        ]
+      }
+    ],
+    "transfer_then_erase": [
+      {
+        "step": 0,
+        "full_tv": 1,
+        "first_bit_tv": 1,
+        "states": [
+          0,
+          2
+        ]
+      },
+      {
+        "step": 1,
+        "full_tv": 1,
+        "first_bit_tv": 0,
+        "states": [
+          0,
+          1
+        ]
+      },
+      {
+        "step": 2,
+        "full_tv": 0,
+        "first_bit_tv": 0,
+        "states": [
+          0,
+          0
+        ]
+      },
+      {
+        "step": 3,
+        "full_tv": 0,
+        "first_bit_tv": 0,
+        "states": [
+          0,
+          0
+        ]
+      }
+    ],
+    "four_cycle": {
+      "reversible": true,
+      "invariant_binary_readouts": 2,
+      "nonconstant_invariant_binary_readouts": 0
+    },
+    "irreversible_but_retains_encoded_bit": [
+      0,
+      0,
+      2,
+      2
+    ]
+  },
+  "noise_audit": {
+    "physical_flip_probability": "1/10",
+    "logical_flip_probability_with_perfect_correction": "7/250",
+    "last_step_success_at_least_75_percent": {
+      "one_bit": 3,
+      "three_bits_final_majority": 4,
+      "three_bits_correct_every_step": 12
+    },
+    "table": [
+      {
+        "step": 0,
+        "one_bit": {
+          "tv_exact": "1",
+          "success": 1.0
+        },
+        "three_bits_final_majority": {
+          "tv_exact": "1",
+          "success": 1.0
+        },
+        "three_bits_correct_every_step": {
+          "tv_exact": "1",
+          "success": 1.0
+        }
+      },
+      {
+        "step": 1,
+        "one_bit": {
+          "tv_exact": "4/5",
+          "success": 0.9
+        },
+        "three_bits_final_majority": {
+          "tv_exact": "118/125",
+          "success": 0.972
+        },
+        "three_bits_correct_every_step": {
+          "tv_exact": "118/125",
+          "success": 0.972
+        }
+      },
+      {
+        "step": 3,
+        "one_bit": {
+          "tv_exact": "64/125",
+          "success": 0.756
+        },
+        "three_bits_final_majority": {
+          "tv_exact": "1368928/1953125",
+          "success": 0.850445568
+        },
+        "three_bits_correct_every_step": {
+          "tv_exact": "1643032/1953125",
+          "success": 0.920616192
+        }
+      },
+      {
+        "step": 5,
+        "one_bit": {
+          "tv_exact": "1024/3125",
+          "success": 0.66384
+        },
+        "three_bits_final_majority": {
+          "tv_exact": "14463129088/30517578125",
+          "success": 0.736963906977792
+        },
+        "three_bits_correct_every_step": {
+          "tv_exact": "22877577568/30517578125",
+          "success": 0.874826230874112
+        }
+      },
+      {
+        "step": 10,
+        "one_bit": {
+          "tv_exact": "1048576/9765625",
+          "success": 0.5536870912
+        },
+        "three_bits_final_majority": {
+          "tv_exact": "149423539247696576512/931322574615478515625",
+          "success": 0.5802211517901786
+        },
+        "three_bits_correct_every_step": {
+          "tv_exact": "523383555379856794624/931322574615478515625",
+          "success": 0.7809894067025862
+        }
+      },
+      {
+        "step": 12,
+        "one_bit": {
+          "tv_exact": "16777216/244140625",
+          "success": 0.534359738368
+        },
+        "three_bits_final_majority": {
+          "tv_exact": "1497638816758565177393152/14551915228366851806640625",
+          "success": 0.5514584779135854
+        },
+        "three_bits_correct_every_step": {
+          "tv_exact": "7287592625109126008344576/14551915228366851806640625",
+          "success": 0.7503997759313159
+        }
+      },
+      {
+        "step": 13,
+        "one_bit": {
+          "tv_exact": "67108864/1220703125",
+          "success": 0.5274877906944
+        },
+        "three_bits_final_majority": {
+          "tv_exact": "149848884272548171353161728/1818989403545856475830078125",
+          "success": 0.5411901476667317
+        },
+        "three_bits_correct_every_step": {
+          "tv_exact": "859935929762876868984659968/1818989403545856475830078125",
+          "success": 0.7363773884791622
+        }
+      },
+      {
+        "step": 20,
+        "one_bit": {
+          "tv_exact": "1099511627776/95367431640625",
+          "success": 0.5057646075230342
+        },
+        "three_bits_final_majority": {
+          "tv_exact": "14999335386002107542063548096469859827712/867361737988403547205962240695953369140625",
+          "success": 0.5086465281606661
+        },
+        "three_bits_correct_every_step": {
+          "tv_exact": "273930346042059624266719201062019715301376/867361737988403547205962240695953369140625",
+          "success": 0.6579100933581428
+        }
+      },
+      {
+        "step": 30,
+        "one_bit": {
+          "tv_exact": "1152921504606846976/931322574615478515625",
+          "success": 0.5006189700196427
+        },
+        "three_bits_final_majority": {
+          "tv_exact": "1499999233752229567055570820826486424845408190630438908198912/807793566946316088741610050849573099185363389551639556884765625",
+          "success": 0.5009284545551796
+        },
+        "three_bits_correct_every_step": {
+          "tv_exact": "143370638437927648868459657599645416230615052953553733496602624/807793566946316088741610050849573099185363389551639556884765625",
+          "success": 0.5887421268901091
+        }
+      }
+    ],
+    "exact_evolution_steps_checked": 31
+  },
+  "all_assertions_passed": true
+}
