@@ -1,0 +1,552 @@
+{
+  "audit": "EHF assumption audit 03",
+  "date": "2026-11-01",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "triads": {
+    "A": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        4,
+        1,
+        3
+      ]
+    ],
+    "C": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        1,
+        4
+      ]
+    ]
+  },
+  "source_sha256": "f84578927b71664aff28c28c2a648d1e7260c022cc6c7c46020e38747ad3a1e2",
+  "rw005_input_sha256_if_present": "bdd16bd54d7546518585f071b061d875ca33782702948fe4862a3bb5b9c4f1a6",
+  "rows": [
+    {
+      "triad": "A",
+      "kappa": "1",
+      "epsilon": "0",
+      "time": 0,
+      "probability_event_has_occurred": 0.0,
+      "probability_register_is_1": 0.0,
+      "false_positive_given_no_event": 0.0,
+      "false_negative_given_event": null
+    },
+    {
+      "triad": "A",
+      "kappa": "1",
+      "epsilon": "0",
+      "time": 1,
+      "probability_event_has_occurred": 0.03273404330479201,
+      "probability_register_is_1": 0.03273404330479201,
+      "false_positive_given_no_event": 0.0,
+      "false_negative_given_event": 0.0
+    },
+    {
+      "triad": "A",
+      "kappa": "1",
+      "epsilon": "0",
+      "time": 3,
+      "probability_event_has_occurred": 0.09413333580690088,
+      "probability_register_is_1": 0.09413333580690088,
+      "false_positive_given_no_event": 0.0,
+      "false_negative_given_event": 0.0
+    },
+    {
+      "triad": "A",
+      "kappa": "1",
+      "epsilon": "0",
+      "time": 10,
+      "probability_event_has_occurred": 0.2794510717692287,
+      "probability_register_is_1": 0.2794510717692287,
+      "false_positive_given_no_event": 0.0,
+      "false_negative_given_event": 0.0
+    },
+    {
+      "triad": "A",
+      "kappa": "1",
+      "epsilon": "0",
+      "time": 30,
+      "probability_event_has_occurred": 0.6253379830265585,
+      "probability_register_is_1": 0.6253379830265585,
+      "false_positive_given_no_event": 0.0,
+      "false_negative_given_event": 0.0
+    },
+    {
+      "triad": "A",
+      "kappa": "1",
+      "epsilon": "0",
+      "time": 100,
+      "probability_event_has_occurred": 0.9620198924176271,
+      "probability_register_is_1": 0.9620198924176271,
+      "false_positive_given_no_event": 0.0,
+      "false_negative_given_event": 0.0
+    },
+    {
+      "triad": "A",
+      "kappa": "1",
+      "epsilon": "1/100",
+      "time": 0,
+      "probability_event_has_occurred": 0.0,
+      "probability_register_is_1": 0.0,
+      "false_positive_given_no_event": 0.0,
+      "false_negative_given_event": null
+    },
+    {
+      "triad": "A",
+      "kappa": "1",
+      "epsilon": "1/100",
+      "time": 1,
+      "probability_event_has_occurred": 0.03273404330479202,
+      "probability_register_is_1": 0.042149264569979486,
+      "false_positive_given_no_event": 0.009900663346622351,
+      "false_negative_given_event": 0.004929221153586015
+    },
+    {
+      "triad": "A",
+      "kappa": "1",
+      "epsilon": "1/100",
+      "time": 3,
+      "probability_event_has_occurred": 0.09413333580690092,
+      "probability_register_is_1": 0.11915434004835708,
+      "false_positive_given_no_event": 0.029117733207875644,
+      "false_negative_given_event": 0.014402757501422739
+    },
+    {
+      "triad": "A",
+      "kappa": "1",
+      "epsilon": "1/100",
+      "time": 10,
+      "probability_event_has_occurred": 0.27945107176922906,
+      "probability_register_is_1": 0.3323899693785939,
+      "false_positive_given_no_event": 0.09063462346100915,
+      "false_negative_given_event": 0.04425741904571485
+    },
+    {
+      "triad": "A",
+      "kappa": "1",
+      "epsilon": "1/100",
+      "time": 30,
+      "probability_event_has_occurred": 0.625337983026559,
+      "probability_register_is_1": 0.6437805278228064,
+      "false_positive_given_no_event": 0.22559418195298703,
+      "false_negative_given_event": 0.10566929920347641
+    },
+    {
+      "triad": "A",
+      "kappa": "1",
+      "epsilon": "1/100",
+      "time": 100,
+      "probability_event_has_occurred": 0.9620198924176263,
+      "probability_register_is_1": 0.8062174367868593,
+      "false_positive_given_no_event": 0.4323323583816963,
+      "false_negative_given_event": 0.17902175045533725
+    },
+    {
+      "triad": "C",
+      "kappa": "1",
+      "epsilon": "0",
+      "time": 0,
+      "probability_event_has_occurred": 0.0,
+      "probability_register_is_1": 0.0,
+      "false_positive_given_no_event": 0.0,
+      "false_negative_given_event": null
+    },
+    {
+      "triad": "C",
+      "kappa": "1",
+      "epsilon": "0",
+      "time": 1,
+      "probability_event_has_occurred": 0.032734704221955194,
+      "probability_register_is_1": 0.032734704221955194,
+      "false_positive_given_no_event": 0.0,
+      "false_negative_given_event": 0.0
+    },
+    {
+      "triad": "C",
+      "kappa": "1",
+      "epsilon": "0",
+      "time": 3,
+      "probability_event_has_occurred": 0.09417604055889783,
+      "probability_register_is_1": 0.09417604055889783,
+      "false_positive_given_no_event": 0.0,
+      "false_negative_given_event": 0.0
+    },
+    {
+      "triad": "C",
+      "kappa": "1",
+      "epsilon": "0",
+      "time": 10,
+      "probability_event_has_occurred": 0.27984999376414144,
+      "probability_register_is_1": 0.27984999376414144,
+      "false_positive_given_no_event": 0.0,
+      "false_negative_given_event": 0.0
+    },
+    {
+      "triad": "C",
+      "kappa": "1",
+      "epsilon": "0",
+      "time": 30,
+      "probability_event_has_occurred": 0.6261350727405823,
+      "probability_register_is_1": 0.6261350727405823,
+      "false_positive_given_no_event": 0.0,
+      "false_negative_given_event": 0.0
+    },
+    {
+      "triad": "C",
+      "kappa": "1",
+      "epsilon": "0",
+      "time": 100,
+      "probability_event_has_occurred": 0.9623091874954732,
+      "probability_register_is_1": 0.9623091874954732,
+      "false_positive_given_no_event": 0.0,
+      "false_negative_given_event": 0.0
+    },
+    {
+      "triad": "C",
+      "kappa": "1",
+      "epsilon": "1/100",
+      "time": 0,
+      "probability_event_has_occurred": 0.0,
+      "probability_register_is_1": 0.0,
+      "false_positive_given_no_event": 0.0,
+      "false_negative_given_event": null
+    },
+    {
+      "triad": "C",
+      "kappa": "1",
+      "epsilon": "1/100",
+      "time": 1,
+      "probability_event_has_occurred": 0.03273470422195518,
+      "probability_register_is_1": 0.042149913520973935,
+      "false_positive_given_no_event": 0.009900663346622351,
+      "false_negative_given_event": 0.004929287286565351
+    },
+    {
+      "triad": "C",
+      "kappa": "1",
+      "epsilon": "1/100",
+      "time": 3,
+      "probability_event_has_occurred": 0.09417604055889787,
+      "probability_register_is_1": 0.11919484574431345,
+      "false_positive_given_no_event": 0.029117733207875657,
+      "false_negative_given_event": 0.014406373328506014
+    },
+    {
+      "triad": "C",
+      "kappa": "1",
+      "epsilon": "1/100",
+      "time": 10,
+      "probability_event_has_occurred": 0.27984999376414155,
+      "probability_register_is_1": 0.3327303604912446,
+      "false_positive_given_no_event": 0.09063462346100913,
+      "false_negative_given_event": 0.04427428336471567
+    },
+    {
+      "triad": "C",
+      "kappa": "1",
+      "epsilon": "1/100",
+      "time": 30,
+      "probability_event_has_occurred": 0.6261350727405887,
+      "probability_register_is_1": 0.6443196335997028,
+      "false_positive_given_no_event": 0.22559418195298706,
+      "false_negative_given_event": 0.10565961634654487
+    },
+    {
+      "triad": "C",
+      "kappa": "1",
+      "epsilon": "1/100",
+      "time": 100,
+      "probability_event_has_occurred": 0.9623091874954932,
+      "probability_register_is_1": 0.8064905113754285,
+      "false_positive_given_no_event": 0.4323323583816945,
+      "false_negative_given_event": 0.17885481736635564
+    }
+  ],
+  "retention": [
+    {
+      "triad": "A",
+      "epsilon": "0",
+      "time_after_written_event": 0,
+      "full_tv": 1.0,
+      "memory_only_tv": 1.0,
+      "no_new_herald_probability": 1.0,
+      "balanced_success": 1.0
+    },
+    {
+      "triad": "A",
+      "epsilon": "0",
+      "time_after_written_event": 1,
+      "full_tv": 0.9586089395140465,
+      "memory_only_tv": 0.9586089395140462,
+      "no_new_herald_probability": 0.9586089395140469,
+      "balanced_success": 0.9793044697570231
+    },
+    {
+      "triad": "A",
+      "epsilon": "0",
+      "time_after_written_event": 3,
+      "full_tv": 0.8885893131608924,
+      "memory_only_tv": 0.8885893131608917,
+      "no_new_herald_probability": 0.8885893131608924,
+      "balanced_success": 0.9442946565804459
+    },
+    {
+      "triad": "A",
+      "epsilon": "0",
+      "time_after_written_event": 10,
+      "full_tv": 0.7068449538139061,
+      "memory_only_tv": 0.7068449538139042,
+      "no_new_herald_probability": 0.7068449538139079,
+      "balanced_success": 0.853422476906952
+    },
+    {
+      "triad": "A",
+      "epsilon": "0",
+      "time_after_written_event": 30,
+      "full_tv": 0.36753730385612154,
+      "memory_only_tv": 0.36753730385611993,
+      "no_new_herald_probability": 0.3675373038561231,
+      "balanced_success": 0.6837686519280599
+    },
+    {
+      "triad": "A",
+      "epsilon": "0",
+      "time_after_written_event": 100,
+      "full_tv": 0.037257863644061875,
+      "memory_only_tv": 0.03725786364406866,
+      "no_new_herald_probability": 0.0372578636440551,
+      "balanced_success": 0.5186289318220343
+    },
+    {
+      "triad": "A",
+      "epsilon": "1/100",
+      "time_after_written_event": 0,
+      "full_tv": 1.0,
+      "memory_only_tv": 1.0,
+      "no_new_herald_probability": 1.0,
+      "balanced_success": 1.0
+    },
+    {
+      "triad": "A",
+      "epsilon": "1/100",
+      "time_after_written_event": 1,
+      "full_tv": 0.9396272107316641,
+      "memory_only_tv": 0.939627210731664,
+      "no_new_herald_probability": 0.9586089395140469,
+      "balanced_success": 0.9698136053658319
+    },
+    {
+      "triad": "A",
+      "epsilon": "1/100",
+      "time_after_written_event": 3,
+      "full_tv": 0.8368419000569163,
+      "memory_only_tv": 0.8368419000569163,
+      "no_new_herald_probability": 0.8885893131608924,
+      "balanced_success": 0.9184209500284581
+    },
+    {
+      "triad": "A",
+      "epsilon": "1/100",
+      "time_after_written_event": 10,
+      "full_tv": 0.5787157013454316,
+      "memory_only_tv": 0.5787157013454318,
+      "no_new_herald_probability": 0.7068449538139079,
+      "balanced_success": 0.7893578506727159
+    },
+    {
+      "triad": "A",
+      "epsilon": "1/100",
+      "time_after_written_event": 30,
+      "full_tv": 0.20170874905486577,
+      "memory_only_tv": 0.20170874905486344,
+      "no_new_herald_probability": 0.3675373038561231,
+      "balanced_success": 0.6008543745274317
+    },
+    {
+      "triad": "A",
+      "epsilon": "1/100",
+      "time_after_written_event": 100,
+      "full_tv": 0.005042303529058946,
+      "memory_only_tv": 0.005042303529058115,
+      "no_new_herald_probability": 0.0372578636440551,
+      "balanced_success": 0.502521151764529
+    },
+    {
+      "triad": "C",
+      "epsilon": "0",
+      "time_after_written_event": 0,
+      "full_tv": 1.0,
+      "memory_only_tv": 1.0,
+      "no_new_herald_probability": 1.0,
+      "balanced_success": 1.0
+    },
+    {
+      "triad": "C",
+      "epsilon": "0",
+      "time_after_written_event": 1,
+      "full_tv": 0.9587004807622819,
+      "memory_only_tv": 0.958700480762282,
+      "no_new_herald_probability": 0.9587004807622821,
+      "balanced_success": 0.9793502403811409
+    },
+    {
+      "triad": "C",
+      "epsilon": "0",
+      "time_after_written_event": 3,
+      "full_tv": 0.8898015116351212,
+      "memory_only_tv": 0.8898015116351212,
+      "no_new_herald_probability": 0.8898015116351211,
+      "balanced_success": 0.9449007558175606
+    },
+    {
+      "triad": "C",
+      "epsilon": "0",
+      "time_after_written_event": 10,
+      "full_tv": 0.7081534166345633,
+      "memory_only_tv": 0.7081534166345621,
+      "no_new_herald_probability": 0.7081534166345645,
+      "balanced_success": 0.8540767083172811
+    },
+    {
+      "triad": "C",
+      "epsilon": "0",
+      "time_after_written_event": 30,
+      "full_tv": 0.36763925540192205,
+      "memory_only_tv": 0.3676392554019209,
+      "no_new_herald_probability": 0.367639255401923,
+      "balanced_success": 0.6838196277009605
+    },
+    {
+      "triad": "C",
+      "epsilon": "0",
+      "time_after_written_event": 100,
+      "full_tv": 0.03706317772634808,
+      "memory_only_tv": 0.03706317772634808,
+      "no_new_herald_probability": 0.037063177726348116,
+      "balanced_success": 0.5185315888631741
+    },
+    {
+      "triad": "C",
+      "epsilon": "1/100",
+      "time_after_written_event": 0,
+      "full_tv": 1.0,
+      "memory_only_tv": 1.0,
+      "no_new_herald_probability": 1.0,
+      "balanced_success": 1.0
+    },
+    {
+      "triad": "C",
+      "epsilon": "1/100",
+      "time_after_written_event": 1,
+      "full_tv": 0.9397169393417376,
+      "memory_only_tv": 0.9397169393417377,
+      "no_new_herald_probability": 0.9587004807622821,
+      "balanced_success": 0.9698584696708689
+    },
+    {
+      "triad": "C",
+      "epsilon": "1/100",
+      "time_after_written_event": 3,
+      "full_tv": 0.8379835055876098,
+      "memory_only_tv": 0.8379835055876105,
+      "no_new_herald_probability": 0.8898015116351211,
+      "balanced_success": 0.9189917527938052
+    },
+    {
+      "triad": "C",
+      "epsilon": "1/100",
+      "time_after_written_event": 10,
+      "full_tv": 0.5797869800959627,
+      "memory_only_tv": 0.5797869800959623,
+      "no_new_herald_probability": 0.7081534166345645,
+      "balanced_success": 0.7898934900479812
+    },
+    {
+      "triad": "C",
+      "epsilon": "1/100",
+      "time_after_written_event": 30,
+      "full_tv": 0.2017647012495211,
+      "memory_only_tv": 0.20176470124951998,
+      "no_new_herald_probability": 0.367639255401923,
+      "balanced_success": 0.60088235062476
+    },
+    {
+      "triad": "C",
+      "epsilon": "1/100",
+      "time_after_written_event": 100,
+      "full_tv": 0.005015955655245962,
+      "memory_only_tv": 0.005015955655248636,
+      "no_new_herald_probability": 0.037063177726348116,
+      "balanced_success": 0.5025079778276244
+    }
+  ],
+  "controls": {
+    "A": {
+      "uncoupled_writer_never_writes": true,
+      "toggle_joint_generator_symmetric": true,
+      "toggle_two_crossing_record": [
+        0,
+        1,
+        0
+      ],
+      "latch_two_crossing_record": [
+        0,
+        1,
+        1
+      ],
+      "mean_next_directed_herald_after_herald": 30.0,
+      "stationary_herald_flux": "1/30"
+    },
+    "C": {
+      "uncoupled_writer_never_writes": true,
+      "toggle_joint_generator_symmetric": true,
+      "toggle_two_crossing_record": [
+        0,
+        1,
+        0
+      ],
+      "latch_two_crossing_record": [
+        0,
+        1,
+        1
+      ],
+      "mean_next_directed_herald_after_herald": 29.99999999999997,
+      "stationary_herald_flux": "1/30"
+    }
+  },
+  "all_assertions_passed": true
+}

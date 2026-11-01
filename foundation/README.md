@@ -16,3 +16,4 @@ Completed audits:
 
 - [Assumption audit 01: when are different relational roles forced?](assumption-audit-01/README.md) — a precise graph model, an all-size forcing criterion, assumption-removal counterexamples and exhaustive checks through six vertices. Static structure is distinguished from persistent records.
 - [Assumption audit 02: minimum requirements for a record](assumption-audit-02/README.md) — exact preservation, inaccessible information, invariant readouts, and a rational-arithmetic noise benchmark; separates retained information from a derived recording mechanism.
+- [Assumption audit 03: can a boundary crossing write a record?](assumption-audit-03/README.md) — an explicit event-coupled register, acquisition from blank, noisy retention, saturation and reversible-toggle controls; accounts for the added observer assumptions.
