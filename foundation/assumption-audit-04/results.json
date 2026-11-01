@@ -1,0 +1,151 @@
+{
+  "audit": "EHF assumption audit 04",
+  "date": "2026-11-01",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "source_sha256": "86956e935b5ac01910d27f760208f6288dd69b81b5e5f547a988535af9f06ef0",
+  "blank_triad_A": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      2,
+      4,
+      1,
+      3
+    ]
+  ],
+  "written_triad_B": [
+    [
+      0,
+      1,
+      3,
+      2,
+      4
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      0,
+      2,
+      4,
+      1,
+      3
+    ]
+  ],
+  "states": 516,
+  "undirected_move_edges": 1980,
+  "component_sizes": [
+    516
+  ],
+  "degree_min": 6,
+  "degree_max": 10,
+  "writer_nontrivial_states": 16,
+  "writer_nontrivial_pairs": 8,
+  "coupled_probe_network_states": 7740,
+  "coupled_spatial_transitions_checked": 15480,
+  "event_transitions_that_reconfigure": 16,
+  "writer_involution_checked_on_all_states": true,
+  "noise_each_move_rate_at_eta_1": 0.1,
+  "noise_spectral_gap_at_eta_1": 0.1417391886965203,
+  "same_move_class_sector_write_impossible": true,
+  "retention_protocol": "one event write, writer disabled during storage, symmetric LR2 perturbations, frozen network during one-hop readout",
+  "rows": [
+    {
+      "scaled_noise_time": 0,
+      "full_tv": 1.0,
+      "single_link_multiplicity_tv": 1.0,
+      "all_boundary_multiplicities_tv": 1.0,
+      "one_hop_click_probability_blank": 0.3333333333333333,
+      "one_hop_click_probability_written": 0.16666666666666666,
+      "one_hop_tv": 0.16666666666666666,
+      "one_hop_balanced_success": 0.5833333333333334,
+      "ideal_link_balanced_success": 1.0
+    },
+    {
+      "scaled_noise_time": 0.1,
+      "full_tv": 0.9796486928299543,
+      "single_link_multiplicity_tv": 0.9328073195326088,
+      "all_boundary_multiplicities_tv": 0.9420382033342347,
+      "one_hop_click_probability_blank": 0.32692605521833923,
+      "one_hop_click_probability_written": 0.16993436690041155,
+      "one_hop_tv": 0.15699168831792767,
+      "one_hop_balanced_success": 0.5784958441589638,
+      "ideal_link_balanced_success": 0.9664036597663044
+    },
+    {
+      "scaled_noise_time": 1,
+      "full_tv": 0.793275907715101,
+      "single_link_multiplicity_tv": 0.5162782844967931,
+      "all_boundary_multiplicities_tv": 0.5611815402930407,
+      "one_hop_click_probability_blank": 0.2872959858936764,
+      "one_hop_click_probability_written": 0.19421435071429374,
+      "one_hop_tv": 0.09308163517938264,
+      "one_hop_balanced_success": 0.5465408175896913,
+      "ideal_link_balanced_success": 0.7581391422483965
+    },
+    {
+      "scaled_noise_time": 3,
+      "full_tv": 0.5073644792245826,
+      "single_link_multiplicity_tv": 0.16061013756450276,
+      "all_boundary_multiplicities_tv": 0.1885358722376262,
+      "one_hop_click_probability_blank": 0.2567099171103819,
+      "one_hop_click_probability_written": 0.22534212877679596,
+      "one_hop_tv": 0.031367788333585916,
+      "one_hop_balanced_success": 0.5156838941667929,
+      "ideal_link_balanced_success": 0.5803050687822514
+    },
+    {
+      "scaled_noise_time": 10,
+      "full_tv": 0.17309305283499177,
+      "single_link_multiplicity_tv": 0.005348834563374318,
+      "all_boundary_multiplicities_tv": 0.008471178007956548,
+      "one_hop_click_probability_blank": 0.24978277418525774,
+      "one_hop_click_probability_written": 0.24865214680549622,
+      "one_hop_tv": 0.001130627379761523,
+      "one_hop_balanced_success": 0.5005653136898808,
+      "ideal_link_balanced_success": 0.5026744172816872
+    },
+    {
+      "scaled_noise_time": 30,
+      "full_tv": 0.01025702682609005,
+      "single_link_multiplicity_tv": 1.2212011636598746e-06,
+      "all_boundary_multiplicities_tv": 0.0001424377864052103,
+      "one_hop_click_probability_blank": 0.24999991987588666,
+      "one_hop_click_probability_written": 0.24999966327467318,
+      "one_hop_tv": 2.5660121347192977e-07,
+      "one_hop_balanced_success": 0.5000001283006067,
+      "ideal_link_balanced_success": 0.5000006106005819
+    },
+    {
+      "scaled_noise_time": 100,
+      "full_tv": 5.015624074021984e-07,
+      "single_link_multiplicity_tv": 4.700016417724662e-16,
+      "all_boundary_multiplicities_tv": 3.58393158791763e-10,
+      "one_hop_click_probability_blank": 0.2499999999999999,
+      "one_hop_click_probability_written": 0.24999999999999967,
+      "one_hop_tv": 2.220446049250313e-16,
+      "one_hop_balanced_success": 0.5000000000000001,
+      "ideal_link_balanced_success": 0.5000000000000002
+    }
+  ],
+  "all_assertions_passed": true
+}
