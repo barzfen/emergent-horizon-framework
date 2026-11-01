@@ -1,0 +1,317 @@
+{
+  "scope": "finite simple undirected graphs; structural roles only",
+  "summary": [
+    {
+      "n": 3,
+      "all_labelled_graphs": 8,
+      "connected_graphs": 4,
+      "vertex_transitive_connected_graphs": 1
+    },
+    {
+      "n": 4,
+      "all_labelled_graphs": 64,
+      "connected_graphs": 38,
+      "vertex_transitive_connected_graphs": 4
+    },
+    {
+      "n": 5,
+      "all_labelled_graphs": 1024,
+      "connected_graphs": 728,
+      "vertex_transitive_connected_graphs": 13
+    },
+    {
+      "n": 6,
+      "all_labelled_graphs": 32768,
+      "connected_graphs": 26704,
+      "vertex_transitive_connected_graphs": 146
+    }
+  ],
+  "buckets": [
+    {
+      "n": 3,
+      "m": 2,
+      "connected": 3,
+      "vertex_transitive": 0,
+      "all_have_multiple_roles": true
+    },
+    {
+      "n": 3,
+      "m": 3,
+      "connected": 1,
+      "vertex_transitive": 1,
+      "all_have_multiple_roles": false
+    },
+    {
+      "n": 4,
+      "m": 3,
+      "connected": 16,
+      "vertex_transitive": 0,
+      "all_have_multiple_roles": true
+    },
+    {
+      "n": 4,
+      "m": 4,
+      "connected": 15,
+      "vertex_transitive": 3,
+      "all_have_multiple_roles": false
+    },
+    {
+      "n": 4,
+      "m": 5,
+      "connected": 6,
+      "vertex_transitive": 0,
+      "all_have_multiple_roles": true
+    },
+    {
+      "n": 4,
+      "m": 6,
+      "connected": 1,
+      "vertex_transitive": 1,
+      "all_have_multiple_roles": false
+    },
+    {
+      "n": 5,
+      "m": 4,
+      "connected": 125,
+      "vertex_transitive": 0,
+      "all_have_multiple_roles": true
+    },
+    {
+      "n": 5,
+      "m": 5,
+      "connected": 222,
+      "vertex_transitive": 12,
+      "all_have_multiple_roles": false
+    },
+    {
+      "n": 5,
+      "m": 6,
+      "connected": 205,
+      "vertex_transitive": 0,
+      "all_have_multiple_roles": true
+    },
+    {
+      "n": 5,
+      "m": 7,
+      "connected": 120,
+      "vertex_transitive": 0,
+      "all_have_multiple_roles": true
+    },
+    {
+      "n": 5,
+      "m": 8,
+      "connected": 45,
+      "vertex_transitive": 0,
+      "all_have_multiple_roles": true
+    },
+    {
+      "n": 5,
+      "m": 9,
+      "connected": 10,
+      "vertex_transitive": 0,
+      "all_have_multiple_roles": true
+    },
+    {
+      "n": 5,
+      "m": 10,
+      "connected": 1,
+      "vertex_transitive": 1,
+      "all_have_multiple_roles": false
+    },
+    {
+      "n": 6,
+      "m": 5,
+      "connected": 1296,
+      "vertex_transitive": 0,
+      "all_have_multiple_roles": true
+    },
+    {
+      "n": 6,
+      "m": 6,
+      "connected": 3660,
+      "vertex_transitive": 60,
+      "all_have_multiple_roles": false
+    },
+    {
+      "n": 6,
+      "m": 7,
+      "connected": 5700,
+      "vertex_transitive": 0,
+      "all_have_multiple_roles": true
+    },
+    {
+      "n": 6,
+      "m": 8,
+      "connected": 6165,
+      "vertex_transitive": 0,
+      "all_have_multiple_roles": true
+    },
+    {
+      "n": 6,
+      "m": 9,
+      "connected": 4945,
+      "vertex_transitive": 70,
+      "all_have_multiple_roles": false
+    },
+    {
+      "n": 6,
+      "m": 10,
+      "connected": 2997,
+      "vertex_transitive": 0,
+      "all_have_multiple_roles": true
+    },
+    {
+      "n": 6,
+      "m": 11,
+      "connected": 1365,
+      "vertex_transitive": 0,
+      "all_have_multiple_roles": true
+    },
+    {
+      "n": 6,
+      "m": 12,
+      "connected": 455,
+      "vertex_transitive": 15,
+      "all_have_multiple_roles": false
+    },
+    {
+      "n": 6,
+      "m": 13,
+      "connected": 105,
+      "vertex_transitive": 0,
+      "all_have_multiple_roles": true
+    },
+    {
+      "n": 6,
+      "m": 14,
+      "connected": 15,
+      "vertex_transitive": 0,
+      "all_have_multiple_roles": true
+    },
+    {
+      "n": 6,
+      "m": 15,
+      "connected": 1,
+      "vertex_transitive": 1,
+      "all_have_multiple_roles": false
+    }
+  ],
+  "circulant_checks_n_3_to_40": 570,
+  "witnesses": {
+    "P3": {
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "connected": true,
+      "degrees": [
+        1,
+        2,
+        1
+      ],
+      "vertex_transitive": false
+    },
+    "C4": {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "connected": true,
+      "degrees": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "vertex_transitive": true
+    },
+    "two_disjoint_edges": {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "connected": false,
+      "degrees": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "vertex_transitive": true
+    },
+    "K2": {
+      "n": 2,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "connected": true,
+      "degrees": [
+        1,
+        1
+      ],
+      "vertex_transitive": true
+    },
+    "triangle_with_leaf": {
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          3
+        ]
+      ],
+      "connected": true,
+      "degrees": [
+        3,
+        2,
+        2,
+        1
+      ],
+      "vertex_transitive": false
+    }
+  },
+  "assertions_passed": true
+}
