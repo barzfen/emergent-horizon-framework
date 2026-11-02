@@ -1,0 +1,12 @@
+support_l,onset_N,parity,lower_source,generic_inflow_coefficient,generic_upper_outflow_coefficient,ancestry_exponent,lineage_exponent,mean_generation_fraction,mean_age_fraction,generic_class_density,even_sector_image,role
+2,4,changing,identity/diagonal,base exception,3,2,3,2/3,1/3,2/(N-3),δ=1; A_1 ∪ A_(m-1),base channel
+3,6,preserving,LR2,3,4,3,4,3/4,1/4,2/(N-3),δ=0,first two-sided nontrivial interior channel
+4,8,changing,LR3,4,5,4,5,4/5,1/5,2/(N-3),δ=2; A_2 ∪ A_(m-2),interior channel
+5,10,preserving,LR4,5,6,5,6,5/6,1/6,2/(N-3),δ=0,interior channel
+6,12,changing,LR5,6,7,6,7,6/7,1/7,2/(N-3),δ=3; A_3 ∪ A_(m-3),interior channel
+7,14,preserving,LR6,7,8,7,8,7/8,1/8,2/(N-3),δ=0,interior channel
+8,16,changing,LR7,8,9,8,9,8/9,1/9,2/(N-3),δ=4; A_4 ∪ A_(m-4),interior channel
+9,18,preserving,LR8,9,10,9,10,9/10,1/10,2/(N-3),δ=0,interior channel
+10,20,changing,LR9,10,11,10,11,10/11,1/11,2/(N-3),δ=5; A_5 ∪ A_(m-5),interior channel
+11,22,preserving,LR10,11,12,11,12,11/12,1/12,2/(N-3),δ=0,interior channel
+12,24,changing,LR11,12,13,12,13,12/13,1/13,2/(N-3),δ=6; A_6 ∪ A_(m-6),interior channel

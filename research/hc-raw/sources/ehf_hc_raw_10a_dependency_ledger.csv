@@ -1,0 +1,12 @@
+object,status,requires,meaning
+Intrinsic even sector space,derived,HC_2k,unordered equal bipartitions
+Johnson vertex set Omega_k,derived relative to growth,incoming growth map + newest-site anchor + complement chart,k-subsets of the 2k-1 parent labels
+Johnson A1 adjacency,derived relative to growth,horizontal/parent-changing target LR2 relation,single-swap adjacency
+Uniform A1 random walk,chosen transport convention,equal weight on k(k-1) A1 neighbours,neutral Markov rule on derived graph
+Ordered labels 1..2k-1,growth-history chart,birth-rank ordering,not intrinsic to isolated HC_2k
+h(S)=sum i,exact chart observable,birth-rank labels,shell coordinate
+q(S)=sum i^2,exact chart observable,birth-rank labels,second moment
+A(h) drift,exact derived transport law,A1 + uniform walk + h,closes exactly on h
+B(S) diffusion,exact derived transport law,"A1 + uniform walk + h,q",state second increment moment
+Averaged shell kernel,exact conditional coarse kernel,uniform averaging within shell,reversible but shell partition not strongly lumpable for k>=3
+Fokker-Planck description,effective interpretation,shell drift/diffusion,"continuum-style coarse language, not fundamental dynamics"

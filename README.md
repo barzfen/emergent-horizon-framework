@@ -63,6 +63,18 @@ These are separate mathematical investigations; a connection between them or to 
 
 [Related work and reproducible follow-up probes](research/related-work/README.md) records external papers, their precise relationship to EHF, and positive or negative probe results. The first entry audits Hamiltonian reconfiguration and distinguishes inaccessible sectors from memory-like persistence.
 
+## Hamilton-cycle source consolidation
+
+[Recovered source map and verification limits](research/consolidation-2026-11-02/README.md), added 2 November 2026:
+
+- [HC-RAW](research/hc-raw/README.md): raw state space, comparisons and assumptions, with available RAW-01–14 material.
+- [HC-GROW](research/hc-grow/README.md): support propagation, branching, renewal and channel geometry through GROW-08, plus later corrections.
+- [OPW3 and OPW23](research/opw/README.md): both source documents, recovered audits, model comparison and convention notes.
+- [Original AMP foundation sources](research/amplitudes/foundation/README.md) and [OPW–AMP/XBR bridge](research/opw-amp-bridge/README.md).
+- [MICRO–OPW 01–03](probes/micro-opw/README.md): fragmentation, local access and the negative reversible-gate benchmark, with code and independent checks.
+
+Source recovery is not a new proof audit. Historical claims, executable checks, missing certificates and print-only PASS scripts are distinguished in the consolidation report.
+
 ## Licensing, citation and contributions
 
 Original code is available under MIT; original research notes, documentation and figures use CC BY 4.0. File-specific and third-party terms take precedence. See [licensing scope](LICENSE.md), [citation metadata](CITATION.cff) and [contribution and attribution guidance](CONTRIBUTING.md). We credit the researchers whose results, methods and materials inform this work and welcome reproducible findings that we can contribute back.

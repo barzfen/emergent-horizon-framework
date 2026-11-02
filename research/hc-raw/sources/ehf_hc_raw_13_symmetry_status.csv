@@ -1,0 +1,6 @@
+structure,self_symmetry,meaning,compatible_with_RAW12
+Static fixed layer HC_n,full S_n relabelling covariance,relabel atoms and all HC/comparison data together,YES
+Chosen V1-seeded graded tower through N,trivial atom automorphism,each atom fixed by unique first-appearance stage,YES
+Isomorphism between two singleton towers,unique stage-preserving atom bijection,maps stage-j atom to stage-j atom,YES
+HC constructions as functorial/covariant operations,commute with arbitrary relabelling of source atom set,fixed-layer covariance survives after tower enrichment,YES
+Birth-rank chart beta,"tower-covariant, not static-layer invariant",beta'(phi(v))=beta(v) for tower isomorphism phi,YES

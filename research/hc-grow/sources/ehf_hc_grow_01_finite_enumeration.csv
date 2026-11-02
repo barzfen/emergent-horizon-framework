@@ -1,0 +1,9 @@
+target_N,support_l,target_edges,mapped_counts,expected_counts,count_formula_pass,parent_fibre_summary
+5,2,30,"{1: 12, 2: 18}","{2: 18, 1: 12}",True,"{1: {'min': 4, 'max': 4, 'unique_values': [4], 'parent_objects_hit': 3}, 2: {'min': 6, 'max': 6, 'unique_values': [6], 'parent_objects_hit': 3}}"
+6,2,180,"{1: 60, 2: 120}","{2: 120, 1: 60}",True,"{1: {'min': 5, 'max': 5, 'unique_values': [5], 'parent_objects_hit': 12}, 2: {'min': 4, 'max': 4, 'unique_values': [4], 'parent_objects_hit': 30}}"
+6,3,90,{2: 90},{2: 90},True,"{2: {'min': 3, 'max': 3, 'unique_values': [3], 'parent_objects_hit': 30}}"
+7,2,1260,"{1: 360, 2: 900}","{2: 900, 1: 360}",True,"{1: {'min': 6, 'max': 6, 'unique_values': [6], 'parent_objects_hit': 60}, 2: {'min': 5, 'max': 5, 'unique_values': [5], 'parent_objects_hit': 180}}"
+7,3,1260,"{2: 540, 3: 720}","{3: 720, 2: 540}",True,"{2: {'min': 3, 'max': 3, 'unique_values': [3], 'parent_objects_hit': 180}, 3: {'min': 8, 'max': 8, 'unique_values': [8], 'parent_objects_hit': 90}}"
+8,2,10080,"{1: 2520, 2: 7560}","{2: 7560, 1: 2520}",True,"{1: {'min': 7, 'max': 7, 'unique_values': [7], 'parent_objects_hit': 360}, 2: {'min': 6, 'max': 6, 'unique_values': [6], 'parent_objects_hit': 1260}}"
+8,3,10080,"{2: 3780, 3: 6300}","{3: 6300, 2: 3780}",True,"{2: {'min': 3, 'max': 3, 'unique_values': [3], 'parent_objects_hit': 1260}, 3: {'min': 5, 'max': 5, 'unique_values': [5], 'parent_objects_hit': 1260}}"
+8,4,5040,{3: 5040},{3: 5040},True,"{3: {'min': 4, 'max': 4, 'unique_values': [4], 'parent_objects_hit': 1260}}"

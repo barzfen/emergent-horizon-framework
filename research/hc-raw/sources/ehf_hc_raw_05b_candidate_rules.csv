@@ -1,0 +1,8 @@
+rule,definition,nearest_shell,relabeling_covariant,presentation_independent,uniform_nontrivial_from_n6,preserves_even_intrinsic_bipartition,odd_connected,strict_locality_after_preservation,verdict
+LR2,{2},True,True,True,True,False,True,False,"control: more local, but destroys even bipartition"
+LR3,{3},True,True,True,True,True,True,True,unique strict-locality minimizer under preservation criterion
+LR2 ∪ LR3,"{2,3}",True,True,True,True,False,True,False,fails preservation because LR2 crosses bipartition fibres
+full 2-opt,"{2,...,floor(n/2)}",True,True,True,True,False,True,False,"canonical nearest shell, but too permissive for sector preservation"
+all odd-support reversals,{odd l: 3<=l<=floor(n/2)},True,True,True,True,True,True,False,passes preservation/mixing but is a strict enrichment of LR3
+LR5 only,{5},True,True,True,False,True,not required for verdict,False,"preserving but absent on foundational layers n=6,8 and less local"
+LR3 ∪ LR5,"{3,5}",True,True,True,True,True,True,False,passes structural criteria but strictly less local than LR3

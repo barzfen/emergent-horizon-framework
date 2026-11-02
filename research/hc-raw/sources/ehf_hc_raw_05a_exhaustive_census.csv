@@ -1,0 +1,6 @@
+n,states,lr3_degree_min,lr3_degree_max,components_found,components_predicted,component_size_min,component_size_max,component_size_predicted,position_graph_components,lr3_equals_distance2_position_swap,intrinsic_bipartitions,components_equal_intrinsic_bipartitions
+5,12,5,5,1,1,12,12,12,1,True,,
+6,60,3,3,10,10,6,6,6,2,True,10,True
+7,360,7,7,1,1,360,360,360,1,True,,
+8,2520,8,8,35,35,72,72,72,2,True,35,True
+9,20160,9,9,1,1,20160,20160,20160,1,True,,

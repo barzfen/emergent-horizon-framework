@@ -1,0 +1,6 @@
+n,states,overlap_relation_count,overlap_association_scheme_pass,intersection_profile_classes,orbital_classes,profile_orbital_bijection,self_transpose_orbitals,transpose_orbital_pairs,symmetrized_orbital_classes,symmetrized_association_scheme_pass,symmetrized_fail_classes
+4,3,2,True,2,2,True,2,0,2,True,0
+5,12,4,True,4,4,True,4,0,4,True,0
+6,60,6,False,12,12,True,8,2,10,False,2
+7,360,7,False,39,39,True,17,11,28,False,11
+8,2520,8,False,202,202,True,52,75,,,

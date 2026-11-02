@@ -1,0 +1,302 @@
+{
+  "n": 7,
+  "bit1_vertices": [
+    1,
+    2,
+    3
+  ],
+  "A_component": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      6,
+      5,
+      4
+    ],
+    [
+      0,
+      3,
+      2,
+      1,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      3,
+      2,
+      1,
+      6,
+      5,
+      4
+    ]
+  ],
+  "B_component": [
+    [
+      0,
+      5,
+      4,
+      1,
+      2,
+      3,
+      6
+    ],
+    [
+      0,
+      5,
+      4,
+      3,
+      2,
+      1,
+      6
+    ]
+  ],
+  "readers": {
+    "unanchored_binary_necklace": {
+      "A_values": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "B_values": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      ],
+      "uniform_within_component_TV": "0",
+      "equal_prior_success": "1/2",
+      "supports_disjoint": false
+    },
+    "unanchored_neighbour_bit_count_histogram": {
+      "A_values": [
+        [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          2
+        ]
+      ],
+      "B_values": [
+        [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          2
+        ]
+      ],
+      "uniform_within_component_TV": "0",
+      "equal_prior_success": "1/2",
+      "supports_disjoint": false
+    },
+    "number_of_bit1_neighbours_at_vertex0": {
+      "A_values": [
+        1
+      ],
+      "B_values": [
+        0
+      ],
+      "uniform_within_component_TV": "1",
+      "equal_prior_success": "1",
+      "supports_disjoint": true
+    },
+    "edge_0_1_present": {
+      "A_values": [
+        0,
+        1
+      ],
+      "B_values": [
+        0
+      ],
+      "uniform_within_component_TV": "1/2",
+      "equal_prior_success": "3/4",
+      "supports_disjoint": false
+    },
+    "neighbour_label_set_at_vertex0": {
+      "A_values": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "B_values": [
+        [
+          5,
+          6
+        ]
+      ],
+      "uniform_within_component_TV": "1",
+      "equal_prior_success": "1",
+      "supports_disjoint": true
+    }
+  },
+  "local_bit_counts_by_anchor": {
+    "0": {
+      "A_values": [
+        1
+      ],
+      "B_values": [
+        0
+      ],
+      "disjoint": true
+    },
+    "1": {
+      "A_values": [
+        1
+      ],
+      "B_values": [
+        1
+      ],
+      "disjoint": false
+    },
+    "2": {
+      "A_values": [
+        2
+      ],
+      "B_values": [
+        2
+      ],
+      "disjoint": false
+    },
+    "3": {
+      "A_values": [
+        1
+      ],
+      "B_values": [
+        1
+      ],
+      "disjoint": false
+    },
+    "4": {
+      "A_values": [
+        0,
+        1
+      ],
+      "B_values": [
+        1
+      ],
+      "disjoint": false
+    },
+    "5": {
+      "A_values": [
+        0
+      ],
+      "B_values": [
+        0
+      ],
+      "disjoint": false
+    },
+    "6": {
+      "A_values": [
+        0,
+        1
+      ],
+      "B_values": [
+        1
+      ],
+      "disjoint": false
+    }
+  },
+  "ongoing_rearrangement_first_hop": [
+    {
+      "eta_per_LR3_edge": "0",
+      "A_first_hop_bit1_probability": "1/2",
+      "B_first_hop_bit1_probability": "0"
+    },
+    {
+      "eta_per_LR3_edge": "1/10",
+      "A_first_hop_bit1_probability": "1/2",
+      "B_first_hop_bit1_probability": "0"
+    },
+    {
+      "eta_per_LR3_edge": "1",
+      "A_first_hop_bit1_probability": "1/2",
+      "B_first_hop_bit1_probability": "0"
+    },
+    {
+      "eta_per_LR3_edge": "10",
+      "A_first_hop_bit1_probability": "1/2",
+      "B_first_hop_bit1_probability": "0"
+    }
+  ],
+  "repeated_first_hop_design": [
+    {
+      "trials": 1,
+      "error_given_A": "1/2",
+      "error_given_B": "0",
+      "equal_prior_success": "3/4"
+    },
+    {
+      "trials": 2,
+      "error_given_A": "1/4",
+      "error_given_B": "0",
+      "equal_prior_success": "7/8"
+    },
+    {
+      "trials": 3,
+      "error_given_A": "1/8",
+      "error_given_B": "0",
+      "equal_prior_success": "15/16"
+    },
+    {
+      "trials": 5,
+      "error_given_A": "1/32",
+      "error_given_B": "0",
+      "equal_prior_success": "63/64"
+    },
+    {
+      "trials": 10,
+      "error_given_A": "1/1024",
+      "error_given_B": "0",
+      "equal_prior_success": "2047/2048"
+    }
+  ],
+  "secondary_all_component_pair_scan": {
+    "pairs": 351,
+    "pairs_with_some_perfect_local_bit_count": 333
+  },
+  "source_sha256": "3607cd25c4f2b48638950c1cb5147be80b1cfa020fd1388301836c1a3cd1ba78",
+  "input_probe_sha256": "5bbfefcdc91e48e43fbb6266fa476336cee10d7e37d5c31f2bbdd66660b0d83c",
+  "checks": "PASS"
+}

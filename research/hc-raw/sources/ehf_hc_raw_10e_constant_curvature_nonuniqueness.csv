@@ -1,0 +1,3 @@
+k,weight_search_domain,tested_weight_sets,constant_curvature_sets,non_arithmetic_constant_sets,sample_non_arithmetic_constant_sets,conclusion
+3,0=w1 < ... < wN <= 8,70,15,13,"(((0, 1, 2, 3, 5), Fraction(1, 2)), ((0, 1, 2, 3, 7), Fraction(1, 2)), ((0, 1, 2, 4, 5), Fraction(1, 2)), ((0, 1, 2, 4, 6), Fraction(1, 2)), ((0, 1, 2, 4, 8), Fraction(1, 2)), ((0, 1, 3, 4, 5), Fraction(1, 2)), ((0, 1, 3, 5, 6), Fraction(1, 2)), ((0, 1, 5, 6, 8), Fraction(1, 2)))",constant shell curvature does not uniquely select arithmetic progression
+4,0=w1 < ... < wN <= 10,210,2,1,"(((0, 2, 3, 4, 5, 6, 8), Fraction(5, 12)),)",constant shell curvature does not uniquely select arithmetic progression

@@ -1,0 +1,8 @@
+claim,status,needs_birth_order,needs_extra_weights,comment
+Exact linear restoring drift,universal Johnson additive identity,False,True,does not single out linear birth rank
+Exact diffusion closure using F and G=sum w_i^2,universal Johnson additive identity,False,True,same algebra for any fixed label weights
+Nonconstant scalar observable intrinsic to isolated Johnson layer,impossible under full S_(2k-1) symmetry,False,False,transitivity forces every automorphism-invariant state scalar to be constant
+Linear birth-rank h,full-growth-history coordinate,True,False,single incoming growth map distinguishes the newest omitted site but does not order all older parent labels
+Affine class of h,same shell geometry up to scale/origin,True,False,natural gauge freedom once equal birth spacing is assumed
+Reflection h -> 2k^2-h,requires centrally antisymmetric weights,True,False,linear ranks satisfy w_i+w_(N+1-i)=constant
+Homogeneous birth displacement,selects affine weights,True,False,"if w_(i+d)-w_i depends only on d, then w_i=ai+b"

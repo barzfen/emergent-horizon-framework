@@ -1,0 +1,8 @@
+n,HC_n_states,expected,HC_instantiated,growth_defined,children,target_states,coverage,duplicates,inverse
+1,0,0,False,False,,,,,
+2,0,0,False,False,,,,,
+3,1,1,True,True,3,3,True,0,True
+4,3,3,True,True,12,12,True,0,True
+5,12,12,True,True,60,60,True,0,True
+6,60,60,True,True,360,360,True,0,True
+7,360,360,True,True,2520,2520,True,0,True

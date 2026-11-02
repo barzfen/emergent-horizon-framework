@@ -1,0 +1,30 @@
+node,status,definition,layer
+A_ATOMS,primitive/ansatz,finite atom sets V_n,static
+A_HC,primitive/ansatz,"HC_n = undirected cyclic orderings modulo D_n, n>=3",static
+G_HC3,primitive growth enrichment,HC3-seeded persistent singleton atom tower V_3⊂V_4⊂...,graded
+G_V1,optional rank refinement,extend singleton tower to V_1⊂V_2⊂V_3,graded
+M_LR3,optional modelling choice,select structural LR3 as admissible same-layer move,move
+M_RULES,optional explanatory principles,within audited nearest-shell reversal-orbital candidate class: even-bipartition preservation + strict locality/inclusion minimality,move
+T_A1,optional transport convention,uniform choice among A1 neighbours,transport
+T_SHELL,optional coarse convention,uniform averaging within h shell,transport
+T_METRIC,optional metric convention,line metric |h-h'|,transport
+D_EDGE,derived,cycle edge set E(C),static
+D_OVERLAP,derived,raw overlap and d_E,static
+D_2OPT,derived,nearest nontrivial raw shell,static
+D_LR,derived,reversal-support classes LR_l,static
+D_LR3,derived,structural LR3 class,static
+D_BIP,derived,intrinsic even bipartition,static
+D_DELETE,derived,delete newest atom,graded
+D_GROWTH,derived,all-slot insertion/deletion bijection,graded
+D_FILTRATION,derived,support-lowering deletion filtration,graded
+D_SECTOR,derived,unordered equal-bipartition sector space,static
+D_JVERTEX,derived,newest-site Johnson vertex chart,graded
+D_HLR2,derived,horizontal/parent-changing target LR2,graded
+D_A1,derived,Johnson A1 sector relation,graded
+D_BETA,derived,unique first-appearance rank beta,graded
+D_H,derived,historical h=sum beta,transport
+D_LR3_SELECTED,derived/selected,LR3 as preferred admissible move,move
+D_JWALK,derived,uniform Johnson walk,transport
+D_DRIFT,derived,exact h drift,transport
+D_SKERNEL,derived,shell-averaged conditional kernel,transport
+D_SCURV,derived,shell Ollivier curvature,transport

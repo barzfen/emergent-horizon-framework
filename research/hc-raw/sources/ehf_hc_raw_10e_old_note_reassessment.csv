@@ -1,0 +1,9 @@
+old_note_claim,reaudit_status,new_status
+Johnson A1 geometry arises after parity-sector reduction,REVISED / STRENGTHENED,A1 is growth-relative: intrinsic bipartitions -> newest-site chart -> horizontal LR2 -> A1
+"K(h,h') is the exact shell transition kernel induced by the microscopic walk",QUALIFY,"K is an exact uniformly shell-averaged conditional kernel; h is not strongly lumpable, so it is not the autonomous projection of arbitrary microscopic trajectories"
+kappa_0=(2k-3)/(k(k-1)) constant across adjacent h shells,CONFIRMED EXACTLY IN RATIONAL ARITHMETIC,exact through k=11; all-k proof reduces to a CDF one-defect lemma certified through k=11
+positive shell curvature emerges after the correct quotient,REVISE,"same curvature already exists microscopically on J(2k-1,k); shell averaging preserves/reproduces it rather than creating it"
+drift and curvature may be two faces of same shell contraction,PARTLY CLARIFIED,lambda_A=(2k-1)/d is the universal additive first-eigenspace contraction; kappa_0=(2k-3)/d is microscopic Johnson Ollivier curvature; difference 2/d comes from the two exchanged endpoint masses
+idleness-alpha law open,SOLVED CONDITIONAL ON CDF ONE-DEFECT LEMMA,piecewise: low alpha kappa=(1-alpha)(2k-3)/d+2alpha for alpha<=1/(d+1); high alpha kappa=(1-alpha)(2k-1)/d
+curvature supports a special role for h,NOT UNIVERSAL,"affine/arithmetic-progression weights preserve the constant law, but quadratic/cubic/parity controls generally do not; constant shell curvature is not universal across additive observables"
+even shell Ollivier curvature is a counterpart of odd square-loop curvature species,QUARANTINE,different curvature constructions; comparison should wait for rebuilt odd branch

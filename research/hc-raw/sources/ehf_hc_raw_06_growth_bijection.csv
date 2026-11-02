@@ -1,0 +1,5 @@
+source_n,source_states,attempts,target_states,unique_children,coverage,duplicates,deletion_inverse
+5,12,60,60,60,1.0,0,True
+6,60,360,360,360,1.0,0,True
+7,360,2520,2520,2520,1.0,0,True
+8,2520,20160,20160,20160,1.0,0,True
