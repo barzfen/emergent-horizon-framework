@@ -1,0 +1,8 @@
+observable,order_r,definition,one_step_drift_requires,drift_formula,second_increment_with_p_s_requires,cross_second_formula
+p_r,1,p_r(S)=sum_{i in S} i^r,p_r only,[k T_r-(2k-1)p_r]/[k(k-1)],"p_r,p_s,p_(r+s)",[k T_(r+s)-p_(r+s)-T_r p_s-T_s p_r+2 p_r p_s]/[k(k-1)]
+p_r,2,p_r(S)=sum_{i in S} i^r,p_r only,[k T_r-(2k-1)p_r]/[k(k-1)],"p_r,p_s,p_(r+s)",[k T_(r+s)-p_(r+s)-T_r p_s-T_s p_r+2 p_r p_s]/[k(k-1)]
+p_r,3,p_r(S)=sum_{i in S} i^r,p_r only,[k T_r-(2k-1)p_r]/[k(k-1)],"p_r,p_s,p_(r+s)",[k T_(r+s)-p_(r+s)-T_r p_s-T_s p_r+2 p_r p_s]/[k(k-1)]
+p_r,4,p_r(S)=sum_{i in S} i^r,p_r only,[k T_r-(2k-1)p_r]/[k(k-1)],"p_r,p_s,p_(r+s)",[k T_(r+s)-p_(r+s)-T_r p_s-T_s p_r+2 p_r p_s]/[k(k-1)]
+(p1),1,h=p1,p1,exact,p2,B_h requires p2=q
+"(p1,p2)",2,"(h,q)","p1,p2",both additive drifts close,up to p4,"covariance matrix requires p2,p3,p4"
+"(p1,...,pr)",r,first r power sums,same r moments,componentwise exact,moments through p_(2r),second-order closure doubles required moment order

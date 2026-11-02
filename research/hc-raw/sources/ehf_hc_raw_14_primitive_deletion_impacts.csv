@@ -1,0 +1,10 @@
+removed,lost_important_outputs,redundant_in_full_package,interpretation
+A_ATOMS,(),True,Can be folded into the tower object in a unified graded formulation; conceptually still the atom substrate.
+A_HC,"('D_OVERLAP', 'D_LR3_SELECTED', 'D_GROWTH', 'D_FILTRATION', 'D_A1', 'D_H', 'D_DRIFT', 'D_SCURV')",False,Essential state-space ansatz; removing it destroys HC-derived structure.
+G_HC3,"('D_GROWTH', 'D_FILTRATION', 'D_A1', 'D_BETA', 'D_H', 'D_DRIFT', 'D_SCURV')",False,Needed for graded deletion/growth/A1; not needed for static HC mathematics.
+G_V1,"('D_BETA', 'D_H', 'D_DRIFT', 'D_SCURV')",False,"Needed only for unique beta/h chronology; not needed for growth, support filtration, or A1."
+M_LR3,(),True,Redundant if the explanatory LR3 principles are retained.
+M_RULES,(),True,Redundant if LR3 is chosen directly.
+T_A1,"('D_DRIFT', 'D_SCURV')",False,"Needed only for stochastic transport, not structural Johnson adjacency."
+T_METRIC,"('D_SCURV',)",False,Needed only for shell Ollivier curvature.
+T_SHELL,"('D_SCURV',)",False,Needed only for the historical uniformly averaged shell kernel.

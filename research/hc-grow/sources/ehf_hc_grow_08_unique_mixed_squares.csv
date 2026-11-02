@@ -1,0 +1,20 @@
+n,small_l,large_k,large_half_cycle,unique_alternating_squares_through_reference,expected,formula,pass
+7,2,3,False,35,35,"n(n-2l+2), halved when the large channel is half-cycle",True
+8,2,3,False,48,48,"n(n-2l+2), halved when the large channel is half-cycle",True
+8,2,4,True,24,24,"n(n-2l+2), halved when the large channel is half-cycle",True
+8,3,4,True,16,16,"n(n-2l+2), halved when the large channel is half-cycle",True
+9,2,3,False,63,63,"n(n-2l+2), halved when the large channel is half-cycle",True
+9,2,4,False,63,63,"n(n-2l+2), halved when the large channel is half-cycle",True
+9,3,4,False,45,45,"n(n-2l+2), halved when the large channel is half-cycle",True
+10,2,3,False,80,80,"n(n-2l+2), halved when the large channel is half-cycle",True
+10,2,4,False,80,80,"n(n-2l+2), halved when the large channel is half-cycle",True
+10,2,5,True,40,40,"n(n-2l+2), halved when the large channel is half-cycle",True
+10,3,4,False,60,60,"n(n-2l+2), halved when the large channel is half-cycle",True
+10,3,5,True,30,30,"n(n-2l+2), halved when the large channel is half-cycle",True
+10,4,5,True,20,20,"n(n-2l+2), halved when the large channel is half-cycle",True
+11,2,3,False,99,99,"n(n-2l+2), halved when the large channel is half-cycle",True
+11,2,4,False,99,99,"n(n-2l+2), halved when the large channel is half-cycle",True
+11,2,5,False,99,99,"n(n-2l+2), halved when the large channel is half-cycle",True
+11,3,4,False,77,77,"n(n-2l+2), halved when the large channel is half-cycle",True
+11,3,5,False,77,77,"n(n-2l+2), halved when the large channel is half-cycle",True
+11,4,5,False,55,55,"n(n-2l+2), halved when the large channel is half-cycle",True

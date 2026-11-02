@@ -1,0 +1,6 @@
+option,data,unique_birth_rank,status,reason
+A_static_Vn_only,finite V_n at each n; no inclusions,NO,INSUFFICIENT,no cross-layer atom identity
+B_HC3_seeded_filtration,V_3 subset V_4 subset ...; singleton increments,NO,PARTIAL,seed labels remain S_3-symmetric
+C_V1_singleton_filtration,V_1 subset V_2 subset ...; singleton increments,YES,PREFERRED CONDITIONAL EXTENSION,"first appearance is unique, but filtration is equivalent to total order"
+D_explicit_total_order,terminal V_N plus total order,YES,SUFFICIENT,"same information as maximal singleton filtration, without growth interpretation"
+E_literal_numeric_labels,"declare labels 1,...,n and read numerals as rank",YES BY NOTATION,REJECT AS FOUNDATION,confuses coordinate names with structural data

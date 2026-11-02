@@ -1,0 +1,6 @@
+transformation,status,observable_effect,drift_effect,diffusion_effect,shell_partition_effect
+"w_i -> a w_i + b, a != 0",exact affine gauge of additive transport,F -> aF + kb,center and drift transform affinely,B -> a^2 B,unchanged
+birth-rank reversal i -> 2k-i,special affine/reflection gauge for linear ranks,h -> 2k^2-h,sign reverses around same center,reflected,reflected
+arbitrary permutation of weight assignments,Johnson-graph automorphism if labels are relabelled with weights,isomorphic additive observable,same universal law,same universal law,same global shell multiplicities for permuted weight multiset
+w_i -> f(i) nonlinear but additive over selected labels,"not a gauge of h, but universal drift/diffusion closure survives",new additive observable F_f,"same restoring coefficient, new center",same two-moment form using f(i)^2,generally changes
+post-compose scalar h -> phi(h),not generally closed,non-additive state observable,need not be a function of phi(h) alone,no universal two-moment identity,depends on phi

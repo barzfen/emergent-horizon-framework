@@ -1,0 +1,27 @@
+{
+  "states": 72,
+  "components": 27,
+  "witness_component_sizes": [
+    4,
+    2
+  ],
+  "vertex0_type1_neighbour_counts": {
+    "A": [
+      1
+    ],
+    "B": [
+      0
+    ]
+  },
+  "unanchored_neighbour_count_histogram": [
+    0,
+    0,
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "perfect_local_component_pairs": 333,
+  "checks": "PASS"
+}

@@ -1,0 +1,14 @@
+historical_item,recovery_status,new_dependency,qualification
+Johnson state space Omega_k = k-subsets of [2k-1],RECOVERED,growth-selected newest-site anchor + complement chart,not primitive raw HC data
+single-swap Johnson adjacency A1,RECOVERED,horizontal/parent-changing target LR2 sector relation,"growth-relative, not isolated-layer invariant"
+degree k(k-1),RECOVERED,A1 graph,exact
+h(S)=sum i and center k^2,RECOVERED,birth-rank ordering of parent labels,growth-history chart observable
+Var(h)=k^2(k-1)/6,RECOVERED,uniform state ensemble in birth-rank chart,exact
+drift A(h)=(2k-1)(k^2-h)/(k(k-1)),RECOVERED,uniform A1 neighbour walk,exact state drift closes on h
+"state diffusion B(S) formula in h,q",RECOVERED,uniform A1 neighbour walk,exact
+shell diffusion via E[q|h],RECOVERED,uniform conditional averaging within shell,exact conditional coarse moment; not strong lumpability
+"G_k(x,y)=product(1+y x^j) shell counts",RECOVERED,birth-rank label chart,exact coefficient counting
+label-refined generating function,RECOVERED,birth-rank label chart,exact coefficient counting
+"reflection N_{h,j}=N_{2k^2-h,2k-j}",RECOVERED,birth-rank reversal j -> 2k-j,exact chart symmetry
+shell transition as autonomous Markov projection,NOT SUPPORTED IN STRONG FORM,would require strong lumpability,fails from k=3; averaged shell kernel remains exact under conditional uniform averaging
+Fokker-Planck interpretation,EFFECTIVE ONLY,coarse drift/diffusion,"continuum-style language, not fundamental finite dynamics"

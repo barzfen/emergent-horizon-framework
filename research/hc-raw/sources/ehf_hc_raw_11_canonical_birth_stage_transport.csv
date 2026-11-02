@@ -1,0 +1,7 @@
+k,N_parent_labels,seed_r,canonical_stage_weights,linear_birth_rank_weights,stage_shells,linear_shells,stage_mean,stage_variance,stage_variance_formula,universal_additive_drift_pass,stage_nonlumpable_shells,stage_constant_adjacent_shell_curvature,stage_unique_curvatures,stage_curvature_min,stage_curvature_max
+3,5,3,"(3, 3, 3, 4, 5)","(1, 2, 3, 4, 5)",4,7,54/5,24/25,24/25,True,0,False,2,1/2,5/6
+4,7,3,"(3, 3, 3, 4, 5, 6, 7)","(1, 2, 3, 4, 5, 6, 7)",10,13,124/7,220/49,220/49,True,5,False,2,5/12,7/12
+5,9,3,"(3, 3, 3, 4, 5, 6, 7, 8, 9)","(1, 2, 3, 4, 5, 6, 7, 8, 9)",18,21,80/3,35/3,35/3,True,14,False,2,7/20,9/20
+6,11,3,"(3, 3, 3, 4, 5, 6, 7, 8, 9, 10, 11)","(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11)",28,31,414/11,2844/121,2844/121,True,24,False,4,3/10,11/30
+7,13,3,"(3, 3, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13)","(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13)",40,43,658/13,6930/169,6930/169,True,36,False,9,491/1890,13/42
+8,15,3,"(3, 3, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)","(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15)",54,57,328/5,4888/75,4888/75,True,50,False,16,83/360,15/56

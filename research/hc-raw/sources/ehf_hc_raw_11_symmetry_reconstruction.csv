@@ -1,0 +1,55 @@
+N,information_level,distinguished_birth_classes,class_sizes,atom_automorphism_group_size,unique_total_birth_rank_reconstructible,canonical_scalar_weights
+4,final HC_N layer only,1,"(4,)",24,False,constant only under full relabelling invariance
+4,one incoming map V_(N-1) subset V_N,2,"(3, 1)",6,False,newest vs old
+4,full one-site filtration from seed r=1,4,"(1, 1, 1, 1)",1,True,unique birth rank
+4,full one-site filtration from seed r=2,3,"(2, 1, 1)",2,False,first-appearance stage; seed tied
+4,full one-site filtration from seed r=3,2,"(3, 1)",6,False,first-appearance stage; seed tied
+4,full one-site filtration from seed r=4,1,"(4,)",24,False,first-appearance stage; seed tied
+5,final HC_N layer only,1,"(5,)",120,False,constant only under full relabelling invariance
+5,one incoming map V_(N-1) subset V_N,2,"(4, 1)",24,False,newest vs old
+5,full one-site filtration from seed r=1,5,"(1, 1, 1, 1, 1)",1,True,unique birth rank
+5,full one-site filtration from seed r=2,4,"(2, 1, 1, 1)",2,False,first-appearance stage; seed tied
+5,full one-site filtration from seed r=3,3,"(3, 1, 1)",6,False,first-appearance stage; seed tied
+5,full one-site filtration from seed r=4,2,"(4, 1)",24,False,first-appearance stage; seed tied
+6,final HC_N layer only,1,"(6,)",720,False,constant only under full relabelling invariance
+6,one incoming map V_(N-1) subset V_N,2,"(5, 1)",120,False,newest vs old
+6,full one-site filtration from seed r=1,6,"(1, 1, 1, 1, 1, 1)",1,True,unique birth rank
+6,full one-site filtration from seed r=2,5,"(2, 1, 1, 1, 1)",2,False,first-appearance stage; seed tied
+6,full one-site filtration from seed r=3,4,"(3, 1, 1, 1)",6,False,first-appearance stage; seed tied
+6,full one-site filtration from seed r=4,3,"(4, 1, 1)",24,False,first-appearance stage; seed tied
+7,final HC_N layer only,1,"(7,)",5040,False,constant only under full relabelling invariance
+7,one incoming map V_(N-1) subset V_N,2,"(6, 1)",720,False,newest vs old
+7,full one-site filtration from seed r=1,7,"(1, 1, 1, 1, 1, 1, 1)",1,True,unique birth rank
+7,full one-site filtration from seed r=2,6,"(2, 1, 1, 1, 1, 1)",2,False,first-appearance stage; seed tied
+7,full one-site filtration from seed r=3,5,"(3, 1, 1, 1, 1)",6,False,first-appearance stage; seed tied
+7,full one-site filtration from seed r=4,4,"(4, 1, 1, 1)",24,False,first-appearance stage; seed tied
+8,final HC_N layer only,1,"(8,)",40320,False,constant only under full relabelling invariance
+8,one incoming map V_(N-1) subset V_N,2,"(7, 1)",5040,False,newest vs old
+8,full one-site filtration from seed r=1,8,"(1, 1, 1, 1, 1, 1, 1, 1)",1,True,unique birth rank
+8,full one-site filtration from seed r=2,7,"(2, 1, 1, 1, 1, 1, 1)",2,False,first-appearance stage; seed tied
+8,full one-site filtration from seed r=3,6,"(3, 1, 1, 1, 1, 1)",6,False,first-appearance stage; seed tied
+8,full one-site filtration from seed r=4,5,"(4, 1, 1, 1, 1)",24,False,first-appearance stage; seed tied
+9,final HC_N layer only,1,"(9,)",362880,False,constant only under full relabelling invariance
+9,one incoming map V_(N-1) subset V_N,2,"(8, 1)",40320,False,newest vs old
+9,full one-site filtration from seed r=1,9,"(1, 1, 1, 1, 1, 1, 1, 1, 1)",1,True,unique birth rank
+9,full one-site filtration from seed r=2,8,"(2, 1, 1, 1, 1, 1, 1, 1)",2,False,first-appearance stage; seed tied
+9,full one-site filtration from seed r=3,7,"(3, 1, 1, 1, 1, 1, 1)",6,False,first-appearance stage; seed tied
+9,full one-site filtration from seed r=4,6,"(4, 1, 1, 1, 1, 1)",24,False,first-appearance stage; seed tied
+10,final HC_N layer only,1,"(10,)",3628800,False,constant only under full relabelling invariance
+10,one incoming map V_(N-1) subset V_N,2,"(9, 1)",362880,False,newest vs old
+10,full one-site filtration from seed r=1,10,"(1, 1, 1, 1, 1, 1, 1, 1, 1, 1)",1,True,unique birth rank
+10,full one-site filtration from seed r=2,9,"(2, 1, 1, 1, 1, 1, 1, 1, 1)",2,False,first-appearance stage; seed tied
+10,full one-site filtration from seed r=3,8,"(3, 1, 1, 1, 1, 1, 1, 1)",6,False,first-appearance stage; seed tied
+10,full one-site filtration from seed r=4,7,"(4, 1, 1, 1, 1, 1, 1)",24,False,first-appearance stage; seed tied
+11,final HC_N layer only,1,"(11,)",39916800,False,constant only under full relabelling invariance
+11,one incoming map V_(N-1) subset V_N,2,"(10, 1)",3628800,False,newest vs old
+11,full one-site filtration from seed r=1,11,"(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)",1,True,unique birth rank
+11,full one-site filtration from seed r=2,10,"(2, 1, 1, 1, 1, 1, 1, 1, 1, 1)",2,False,first-appearance stage; seed tied
+11,full one-site filtration from seed r=3,9,"(3, 1, 1, 1, 1, 1, 1, 1, 1)",6,False,first-appearance stage; seed tied
+11,full one-site filtration from seed r=4,8,"(4, 1, 1, 1, 1, 1, 1, 1)",24,False,first-appearance stage; seed tied
+12,final HC_N layer only,1,"(12,)",479001600,False,constant only under full relabelling invariance
+12,one incoming map V_(N-1) subset V_N,2,"(11, 1)",39916800,False,newest vs old
+12,full one-site filtration from seed r=1,12,"(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)",1,True,unique birth rank
+12,full one-site filtration from seed r=2,11,"(2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)",2,False,first-appearance stage; seed tied
+12,full one-site filtration from seed r=3,10,"(3, 1, 1, 1, 1, 1, 1, 1, 1, 1)",6,False,first-appearance stage; seed tied
+12,full one-site filtration from seed r=4,9,"(4, 1, 1, 1, 1, 1, 1, 1, 1)",24,False,first-appearance stage; seed tied

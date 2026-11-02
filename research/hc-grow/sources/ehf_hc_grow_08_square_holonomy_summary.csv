@@ -1,0 +1,31 @@
+n,small_l,large_k,simple_alt4_generator_words,identity_lift_words,expected_identity_lift_words,nontrivial_rotation_lift_words,reflection_lift_words,expected_reflection_if_half_cycle,large_channel_half_cycle,interpretation,pass
+6,2,3,48,24,24,0,24,24,True,generic squares lift to identity; half-cycle generator double-cover adds reflection-closing representatives,True
+7,2,3,35,35,35,0,0,0,False,all audited simple alternating squares lift to identity,True
+8,2,3,48,48,48,0,0,0,False,all audited simple alternating squares lift to identity,True
+8,2,4,96,48,48,0,48,48,True,generic squares lift to identity; half-cycle generator double-cover adds reflection-closing representatives,True
+8,3,4,64,32,32,0,32,32,True,generic squares lift to identity; half-cycle generator double-cover adds reflection-closing representatives,True
+9,2,3,63,63,63,0,0,0,False,all audited simple alternating squares lift to identity,True
+9,2,4,63,63,63,0,0,0,False,all audited simple alternating squares lift to identity,True
+9,3,4,45,45,45,0,0,0,False,all audited simple alternating squares lift to identity,True
+10,2,3,80,80,80,0,0,0,False,all audited simple alternating squares lift to identity,True
+10,2,4,80,80,80,0,0,0,False,all audited simple alternating squares lift to identity,True
+10,2,5,160,80,80,0,80,80,True,generic squares lift to identity; half-cycle generator double-cover adds reflection-closing representatives,True
+10,3,4,60,60,60,0,0,0,False,all audited simple alternating squares lift to identity,True
+10,3,5,120,60,60,0,60,60,True,generic squares lift to identity; half-cycle generator double-cover adds reflection-closing representatives,True
+10,4,5,80,40,40,0,40,40,True,generic squares lift to identity; half-cycle generator double-cover adds reflection-closing representatives,True
+11,2,3,99,99,99,0,0,0,False,all audited simple alternating squares lift to identity,True
+11,2,4,99,99,99,0,0,0,False,all audited simple alternating squares lift to identity,True
+11,2,5,99,99,99,0,0,0,False,all audited simple alternating squares lift to identity,True
+11,3,4,77,77,77,0,0,0,False,all audited simple alternating squares lift to identity,True
+11,3,5,77,77,77,0,0,0,False,all audited simple alternating squares lift to identity,True
+11,4,5,55,55,55,0,0,0,False,all audited simple alternating squares lift to identity,True
+12,2,3,120,120,120,0,0,0,False,all audited simple alternating squares lift to identity,True
+12,2,4,120,120,120,0,0,0,False,all audited simple alternating squares lift to identity,True
+12,2,5,120,120,120,0,0,0,False,all audited simple alternating squares lift to identity,True
+12,2,6,240,120,120,0,120,120,True,generic squares lift to identity; half-cycle generator double-cover adds reflection-closing representatives,True
+12,3,4,96,96,96,0,0,0,False,all audited simple alternating squares lift to identity,True
+12,3,5,96,96,96,0,0,0,False,all audited simple alternating squares lift to identity,True
+12,3,6,192,96,96,0,96,96,True,generic squares lift to identity; half-cycle generator double-cover adds reflection-closing representatives,True
+12,4,5,72,72,72,0,0,0,False,all audited simple alternating squares lift to identity,True
+12,4,6,144,72,72,0,72,72,True,generic squares lift to identity; half-cycle generator double-cover adds reflection-closing representatives,True
+12,5,6,96,48,48,0,48,48,True,generic squares lift to identity; half-cycle generator double-cover adds reflection-closing representatives,True

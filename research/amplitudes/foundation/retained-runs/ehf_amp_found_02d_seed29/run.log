@@ -1,0 +1,83 @@
+
+===== RUN START 2026-07-13 19:49:12 =====
+====================================================================================================================
+EHF-AMP-FOUND-02D: EXACT RESIDUE SPECTRUM AND TWO-FIBRE GLUING LAW
+====================================================================================================================
+base script:                  /Users/barryfensom/Desktop/EHF/AMP/scripts/ehf_amp_found_01_reproduce_amp18_20.py
+reflection-aware helper:      /Users/barryfensom/Desktop/EHF/AMP/scripts/ehf_amp_found_02a_growth_factorisation_compatibility_v0_3.py
+section helper:               /Users/barryfensom/Desktop/EHF/AMP/scripts/ehf_amp_found_02b_minimal_nontrivial_growth_sections.py
+shared cache:                 /Users/barryfensom/Desktop/EHF/AMP/runs/ehf_amp_found_01_amp18_20/cache
+output directory:             /Users/barryfensom/Desktop/EHF/AMP/runs/ehf_amp_found_02d_seed29
+seed:                         29
+rank tolerance:               1e-09
+exact-value tolerance:        1e-10
+
+Building/loading n=7 local relation bases: 19 fibres
+  [10/19] size=  12 r=   0 validation=0.00e+00 cache
+  [19/19] size=  36 r=  11 validation=9.18e-14 cache
+Completed n=7 bases in 0.00 minutes.
+
+Building/loading n=8 local relation bases: 35 fibres
+  [10/35] size=  72 r=  15 validation=6.44e-14 cache
+  [20/35] size=  72 r=  15 validation=1.45e-14 cache
+  [30/35] size=  72 r=  15 validation=1.18e-13 cache
+  [35/35] size=  72 r=  15 validation=3.79e-13 cache
+Completed n=8 bases in 0.00 minutes.
+
+Building/loading n=9 local relation bases: 69 fibres
+  [10/69] size= 180 r=   2 validation=2.90e-14 cache
+  [20/69] size= 216 r=   2 validation=2.25e-13 cache
+  [30/69] size= 360 r=  37 validation=1.23e-12 cache
+  [40/69] size= 252 r=   2 validation=9.10e-15 cache
+  [50/69] size= 396 r=  37 validation=2.40e-11 cache
+  [60/69] size= 432 r=  57 validation=1.40e-13 cache
+  [69/69] size= 576 r= 177 validation=4.05e-13 cache
+Completed n=9 bases in 0.01 minutes.
+
+Exact residue-spectrum audit
+  source local relation dimension:     525
+  residue image rank:                  110
+  source kernel dimension:             415
+  squared spectrum multiplicities:     [20, 40, 40, 10]
+  candidate multiplicities:            [20, 40, 40, 10]
+  max candidate eigenvalue error:      3.997e-15
+  minimal-polynomial relative error:   1.467e-17
+  max exact trace-moment error:        1.705e-12
+  local projector commutator error:    9.884e-02
+
+Complementary flip-pair channel audit
+  active fibres (8 outside anchor set): 20
+  inactive fibres:                     15
+  complementary pairs:                 10
+  equal-image rank-11 pairs:           10/10
+  pair-channel sum rank:               110
+  max inter-pair principal cosine:     1.791e-16
+  max pair-image equality residual:    2.212e-15
+  identical pair spectra:              10/10
+  identical single-fibre spectra:      10/10
+  local dimension pattern:             [11, 7, 4, 4, 4, 4, 1, 1, 1, 1]
+  nonlocal dimension pattern:          [0, 4, 7, 7, 7, 7, 10, 10, 10, 10]
+  parent-dimension matches:            10/10
+  equal two-fibre MP splits:           10/10
+  max equal-split error:               4.441e-16
+
+Exceptional AMP-18 direction
+  star fibre:                         E=1,4,5,6|O=2,3,7,8
+  flip partner:                       E=1,2,3,7|O=4,5,6,8
+  pair-only reconstruction residual:  1.311e-15
+  global vs pair-only MP error:       1.954e-15
+  global MP support count:            2
+  generic two-fibre instance:         True
+
+====================================================================================================================
+FINAL SUMMARY
+====================================================================================================================
+Exact rational spectrum supported:    True
+Ten flip-pair channels:               True
+Parent-dimension locality law:         True
+Equal two-fibre MP law:               True
+Exceptional is generic pair instance: True
+elapsed:                              0.01 minutes
+summary:                              /Users/barryfensom/Desktop/EHF/AMP/runs/ehf_amp_found_02d_seed29/summary.json
+====================================================================================================================
+===== RUN END 2026-07-13 19:49:12 =====

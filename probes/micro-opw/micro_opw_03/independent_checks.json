@@ -1,0 +1,32 @@
+[
+  {
+    "eta": "1/10",
+    "epsilon": "0",
+    "checks": "PASS"
+  },
+  {
+    "eta": "1/10",
+    "epsilon": "1/100",
+    "checks": "PASS"
+  },
+  {
+    "eta": "1",
+    "epsilon": "0",
+    "checks": "PASS"
+  },
+  {
+    "eta": "1",
+    "epsilon": "1/100",
+    "checks": "PASS"
+  },
+  {
+    "eta": "10",
+    "epsilon": "0",
+    "checks": "PASS"
+  },
+  {
+    "eta": "10",
+    "epsilon": "1/100",
+    "checks": "PASS"
+  }
+]

@@ -1,0 +1,8 @@
+k,states,degree,h_shells,coarsest_equitable_refinement_classes,coarsest_equitable_max_class_size,equitable_refinement_is_full_state,first_refinement_already_full_state,refinement_history,minimal_power_moment_order_strongly_lumpable,first_power_moment_order_equals_equitable_refinement,first_power_moment_order_singleton
+3,10,6,7,10,1,True,True,"(7, 10, 10)",2,2,2
+4,35,12,13,35,1,True,True,"(13, 35, 35)",3,3,3
+5,126,20,21,126,1,True,True,"(21, 126, 126)",3,3,3
+6,462,30,31,462,1,True,True,"(31, 462, 462)",3,3,3
+7,1716,42,43,1716,1,True,True,"(43, 1716, 1716)",4,4,4
+8,6435,56,57,6435,1,True,True,"(57, 6435, 6435)",4,4,4
+9,24310,72,73,24310,1,True,True,"(73, 24310, 24310)",5,5,5
