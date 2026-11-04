@@ -61,7 +61,7 @@ These are separate mathematical investigations; a connection between them or to 
 
 ## QM bridge revisits
 
-[QM bridge revisits 01–02](probes/qm-bridge/README.md) retain a six-state coherent-control benchmark and a finite orientation-transport audit. Some MICRO–OPW components have negative closed-walk signs, and the n=9 model admits equal-length histories with opposite transported orientations. An independent implementation reproduces the finite results. All tested transport statistics also have an exact classical explanation on oriented tours; coherent dynamics, a physical phase and the Born rule have not been derived.
+[QM bridge revisits 01–03](probes/qm-bridge/README.md) retain a six-state coherent-control benchmark and a finite orientation-transport audit. Some MICRO–OPW components have negative closed-walk signs, and the n=9 model admits equal-length histories with opposite transported orientations. An independent implementation reproduces the finite results. Revisit 03 adds an explicit directional marker and port reader, with live-readout and marker-position backreaction controls; its outcomes remain exactly classical. All tested transport statistics also have an exact classical explanation on oriented tours; coherent dynamics, a physical phase and the Born rule have not been derived.
 
 ## AI-assisted literature follow-up
 

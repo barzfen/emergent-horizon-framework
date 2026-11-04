@@ -1,0 +1,26 @@
+{
+  "censuses": [
+    {
+      "n": 7,
+      "carrier_states": 72,
+      "marker_events_checked": 2352,
+      "responsive_ports": 36,
+      "backreactive_carrier_states": 72,
+      "both_unordered_kernel_checks": "PASS"
+    },
+    {
+      "n": 9,
+      "carrier_states": 2160,
+      "marker_events_checked": 146880,
+      "responsive_ports": 720,
+      "backreactive_carrier_states": 2160,
+      "both_unordered_kernel_checks": "PASS"
+    }
+  ],
+  "retained_histories_verified": 2,
+  "live_detector_models_verified": 2,
+  "live_detector_horizons_per_model": 13,
+  "matched_unordered_TV": "0",
+  "directed_port_output_TV": "1",
+  "status": "PASS"
+}

@@ -66,3 +66,11 @@ The next major milestone is to derive at least one recognizable effective law fr
 
 The signed evolution is exactly the orientation difference of a nonnegative classical lifted process. Its squared norm is not conserved. This supplies reproducible transport structure and controls; physical phase access, coherent recombination, a derived Born rule and physical QM remain unestablished. No general-size classification or external novelty review is claimed.
 
+
+## QM bridge operational-access update — 2026-11-04
+
+**Status: COMPUTATIONAL + ANALYTIC ARGUMENTS / CLASSICAL CONTROL.**
+
+[Revisit 03](probes/qm-bridge/revisit-03/README.md) represents a directional reference by ordered adjacent markers and transports them with actual carrier endpoint swaps. The matched unordered preparations are identical; a role-sensitive port reader distinguishes them. A live first-port reader retains timeouts and reaches exact finite classification success 0.6830468891 at 12 ticks, or 0.7028698275 for the specified marker-position-gated control. All 1,008 n=7 and 38,880 n=9 ordered-marker states receive role-forgetting kernel checks; an independent slot-based implementation reproduces the finite counts and live-reader laws.
+
+This is a conditional classical access result: markers, their co-transport, the named port and detector are supplied. The unmarked carrier has not generated an intrinsic readable phase, and no quantum probability rule or unitary dynamics is derived. Rate sweeps alone would not close that gap.

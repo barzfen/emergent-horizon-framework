@@ -1,0 +1,1039 @@
+{
+  "censuses": [
+    {
+      "n": 7,
+      "carrier_states": 72,
+      "ordered_marker_states": 1008,
+      "marker_event_checks": 2352,
+      "port0_orientation_distinguishable_states": 36,
+      "port0_orientation_indistinguishable_states": 36,
+      "unordered_marker_strong_lumpability": "PASS",
+      "gated_unordered_strong_lumpability": "PASS",
+      "states_with_marker_dependent_carrier_kernel": 72
+    },
+    {
+      "n": 9,
+      "carrier_states": 2160,
+      "ordered_marker_states": 38880,
+      "marker_event_checks": 146880,
+      "port0_orientation_distinguishable_states": 720,
+      "port0_orientation_indistinguishable_states": 1440,
+      "unordered_marker_strong_lumpability": "PASS",
+      "gated_unordered_strong_lumpability": "PASS",
+      "states_with_marker_dependent_carrier_kernel": 2160
+    }
+  ],
+  "retained_histories": [
+    {
+      "path": "oriented_path_1",
+      "final_carrier": [
+        0,
+        3,
+        2,
+        1,
+        8,
+        6,
+        7,
+        4,
+        5
+      ],
+      "final_markers": [
+        0,
+        3
+      ],
+      "direction_bit": 0,
+      "port0_next_type": 1,
+      "circulation_steps_to_port": 0,
+      "schedule": [
+        {
+          "oriented_source": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4,
+            7,
+            6,
+            8
+          ],
+          "start": 1,
+          "length": 3,
+          "swapped_labels": [
+            1,
+            3
+          ],
+          "oriented_target": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            7,
+            6,
+            8
+          ],
+          "marker_after": [
+            0,
+            3
+          ]
+        },
+        {
+          "oriented_source": [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            7,
+            6,
+            8
+          ],
+          "start": 4,
+          "length": 3,
+          "swapped_labels": [
+            5,
+            7
+          ],
+          "oriented_target": [
+            0,
+            3,
+            2,
+            1,
+            7,
+            4,
+            5,
+            6,
+            8
+          ],
+          "marker_after": [
+            0,
+            3
+          ]
+        },
+        {
+          "oriented_source": [
+            0,
+            3,
+            2,
+            1,
+            7,
+            4,
+            5,
+            6,
+            8
+          ],
+          "start": 5,
+          "length": 3,
+          "swapped_labels": [
+            4,
+            6
+          ],
+          "oriented_target": [
+            0,
+            3,
+            2,
+            1,
+            7,
+            6,
+            5,
+            4,
+            8
+          ],
+          "marker_after": [
+            0,
+            3
+          ]
+        },
+        {
+          "oriented_source": [
+            0,
+            3,
+            2,
+            1,
+            7,
+            6,
+            5,
+            4,
+            8
+          ],
+          "start": 6,
+          "length": 3,
+          "swapped_labels": [
+            5,
+            8
+          ],
+          "oriented_target": [
+            0,
+            3,
+            2,
+            1,
+            7,
+            6,
+            8,
+            4,
+            5
+          ],
+          "marker_after": [
+            0,
+            3
+          ]
+        },
+        {
+          "oriented_source": [
+            0,
+            3,
+            2,
+            1,
+            7,
+            6,
+            8,
+            4,
+            5
+          ],
+          "start": 4,
+          "length": 3,
+          "swapped_labels": [
+            7,
+            8
+          ],
+          "oriented_target": [
+            0,
+            3,
+            2,
+            1,
+            8,
+            6,
+            7,
+            4,
+            5
+          ],
+          "marker_after": [
+            0,
+            3
+          ]
+        }
+      ],
+      "uniformized_directed_pairs": [
+        [
+          0,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          8,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "uniformized_unordered_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "readout_success_equal_priors": "1"
+    },
+    {
+      "path": "oriented_path_2",
+      "final_carrier": [
+        0,
+        3,
+        2,
+        1,
+        8,
+        6,
+        7,
+        4,
+        5
+      ],
+      "final_markers": [
+        8,
+        1
+      ],
+      "direction_bit": 1,
+      "port0_next_type": 0,
+      "circulation_steps_to_port": 4,
+      "schedule": [
+        {
+          "oriented_source": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4,
+            7,
+            6,
+            8
+          ],
+          "start": 8,
+          "length": 2,
+          "swapped_labels": [
+            8,
+            0
+          ],
+          "oriented_target": [
+            0,
+            8,
+            1,
+            2,
+            3,
+            5,
+            4,
+            7,
+            6
+          ],
+          "marker_after": [
+            8,
+            1
+          ]
+        },
+        {
+          "oriented_source": [
+            0,
+            8,
+            1,
+            2,
+            3,
+            5,
+            4,
+            7,
+            6
+          ],
+          "start": 8,
+          "length": 2,
+          "swapped_labels": [
+            6,
+            0
+          ],
+          "oriented_target": [
+            0,
+            6,
+            8,
+            1,
+            2,
+            3,
+            5,
+            4,
+            7
+          ],
+          "marker_after": [
+            8,
+            1
+          ]
+        },
+        {
+          "oriented_source": [
+            0,
+            6,
+            8,
+            1,
+            2,
+            3,
+            5,
+            4,
+            7
+          ],
+          "start": 8,
+          "length": 2,
+          "swapped_labels": [
+            7,
+            0
+          ],
+          "oriented_target": [
+            0,
+            7,
+            6,
+            8,
+            1,
+            2,
+            3,
+            5,
+            4
+          ],
+          "marker_after": [
+            8,
+            1
+          ]
+        },
+        {
+          "oriented_source": [
+            0,
+            7,
+            6,
+            8,
+            1,
+            2,
+            3,
+            5,
+            4
+          ],
+          "start": 8,
+          "length": 2,
+          "swapped_labels": [
+            4,
+            0
+          ],
+          "oriented_target": [
+            0,
+            4,
+            7,
+            6,
+            8,
+            1,
+            2,
+            3,
+            5
+          ],
+          "marker_after": [
+            8,
+            1
+          ]
+        },
+        {
+          "oriented_source": [
+            0,
+            4,
+            7,
+            6,
+            8,
+            1,
+            2,
+            3,
+            5
+          ],
+          "start": 8,
+          "length": 2,
+          "swapped_labels": [
+            5,
+            0
+          ],
+          "oriented_target": [
+            0,
+            5,
+            4,
+            7,
+            6,
+            8,
+            1,
+            2,
+            3
+          ],
+          "marker_after": [
+            8,
+            1
+          ]
+        }
+      ],
+      "uniformized_directed_pairs": [
+        [
+          8,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "uniformized_unordered_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "readout_success_equal_priors": "1"
+    }
+  ],
+  "live_first_port_reader": [
+    {
+      "marker_gate": false,
+      "records": [
+        {
+          "step": 0,
+          "plus": {
+            "step": 0,
+            "output0": "0",
+            "output1": "1/9",
+            "timeout": "8/9"
+          },
+          "minus": {
+            "step": 0,
+            "output0": "1/9",
+            "output1": "0",
+            "timeout": "8/9"
+          },
+          "TV": "1/9",
+          "equal_prior_success": "5/9"
+        },
+        {
+          "step": 1,
+          "plus": {
+            "step": 1,
+            "output0": "1/90",
+            "output1": "1/6",
+            "timeout": "37/45"
+          },
+          "minus": {
+            "step": 1,
+            "output0": "8/45",
+            "output1": "0",
+            "timeout": "37/45"
+          },
+          "TV": "1/6",
+          "equal_prior_success": "7/12"
+        },
+        {
+          "step": 2,
+          "plus": {
+            "step": 2,
+            "output0": "77/3600",
+            "output1": "73/360",
+            "timeout": "931/1200"
+          },
+          "minus": {
+            "step": 2,
+            "output0": "269/1200",
+            "output1": "0",
+            "timeout": "931/1200"
+          },
+          "TV": "73/360",
+          "equal_prior_success": "433/720"
+        },
+        {
+          "step": 3,
+          "plus": {
+            "step": 3,
+            "output0": "519/16000",
+            "output1": "1663/7200",
+            "timeout": "106069/144000"
+          },
+          "minus": {
+            "step": 3,
+            "output0": "37931/144000",
+            "output1": "0",
+            "timeout": "106069/144000"
+          },
+          "TV": "1663/7200",
+          "equal_prior_success": "8863/14400"
+        },
+        {
+          "step": 4,
+          "plus": {
+            "step": 4,
+            "output0": "18743/432000",
+            "output1": "24397/96000",
+            "timeout": "606941/864000"
+          },
+          "minus": {
+            "step": 4,
+            "output0": "257059/864000",
+            "output1": "0",
+            "timeout": "606941/864000"
+          },
+          "TV": "24397/96000",
+          "equal_prior_success": "120397/192000"
+        },
+        {
+          "step": 5,
+          "plus": {
+            "step": 5,
+            "output0": "112665229/2073600000",
+            "output1": "105211/384000",
+            "timeout": "1392795371/2073600000"
+          },
+          "minus": {
+            "step": 5,
+            "output0": "680798629/2073600000",
+            "output1": "1/345600",
+            "timeout": "1392795371/2073600000"
+          },
+          "TV": "946889/3456000",
+          "equal_prior_success": "4402889/6912000"
+        },
+        {
+          "step": 6,
+          "plus": {
+            "step": 6,
+            "output0": "2026470919/31104000000",
+            "output1": "80561357/276480000",
+            "timeout": "40028752837/62208000000"
+          },
+          "minus": {
+            "step": 6,
+            "output0": "22178402663/62208000000",
+            "output1": "563/41472000",
+            "timeout": "40028752837/62208000000"
+          },
+          "TV": "241672811/829440000",
+          "equal_prior_success": "1071112811/1658880000"
+        },
+        {
+          "step": 7,
+          "plus": {
+            "step": 7,
+            "output0": "2265055126849/29859840000000",
+            "output1": "50911950739/165888000000",
+            "timeout": "18430633740131/29859840000000"
+          },
+          "minus": {
+            "step": 7,
+            "output0": "11428084763869/29859840000000",
+            "output1": "46729/1244160000",
+            "timeout": "18430633740131/29859840000000"
+          },
+          "TV": "152717160617/497664000000",
+          "equal_prior_success": "650381160617/995328000000"
+        },
+        {
+          "step": 8,
+          "plus": {
+            "step": 8,
+            "output0": "38710821556033/447897600000000",
+            "output1": "177462135277/552960000000",
+            "timeout": "265442448869597/447897600000000"
+          },
+          "minus": {
+            "step": 8,
+            "output0": "182419301653903/447897600000000",
+            "output1": "23899651/298598400000",
+            "timeout": "265442448869597/447897600000000"
+          },
+          "TV": "4790282669929/14929920000000",
+          "equal_prior_success": "19720202669929/29859840000000"
+        },
+        {
+          "step": 9,
+          "plus": {
+            "step": 9,
+            "output0": "41646086088005461/429981696000000000",
+            "output1": "398610061542277/1194393600000000",
+            "timeout": "244835987756774819/429981696000000000"
+          },
+          "minus": {
+            "step": 9,
+            "output0": "185083801038591181/429981696000000000",
+            "output1": "10317867439/71663616000000",
+            "timeout": "244835987756774819/429981696000000000"
+          },
+          "TV": "1195314291254881/3583180800000000",
+          "equal_prior_success": "4778495091254881/7166361600000000"
+        },
+        {
+          "step": 10,
+          "plus": {
+            "step": 10,
+            "output0": "690929733961111591/6449725440000000000",
+            "output1": "99042850714100291/286654464000000000",
+            "timeout": "7060663129943263723/12899450880000000000"
+          },
+          "minus": {
+            "step": 10,
+            "output0": "5835803593233668777/12899450880000000000",
+            "output1": "397887576409/1719926784000000",
+            "timeout": "7060663129943263723/12899450880000000000"
+          },
+          "TV": "296929608354096373/859963392000000000",
+          "equal_prior_success": "1156893000354096373/1719926784000000000"
+        },
+        {
+          "step": 11,
+          "plus": {
+            "step": 11,
+            "output0": "725813858799597726601/6191736422400000000000",
+            "output1": "4086773081190373427/11466178560000000000",
+            "timeout": "3259065099757600622819/6191736422400000000000"
+          },
+          "minus": {
+            "step": 11,
+            "output0": "2930549685955109037181/6191736422400000000000",
+            "output1": "35360611454839/103195607040000000",
+            "timeout": "3259065099757600622819/6191736422400000000000"
+          },
+          "TV": "36745597119258521843/103195607040000000000",
+          "equal_prior_success": "139941204159258521843/206391214080000000000"
+        },
+        {
+          "step": 12,
+          "plus": {
+            "step": 12,
+            "output0": "11807781246081029285617/92876046336000000000000",
+            "output1": "756571291172727437627/2063912140800000000000",
+            "timeout": "2938909811696639751323/5804752896000000000000"
+          },
+          "minus": {
+            "step": 12,
+            "output0": "2863070246649674895427/5804752896000000000000",
+            "output1": "3697116871580471/7739670528000000000",
+            "timeout": "2938909811696639751323/5804752896000000000000"
+          },
+          "TV": "2266756180020917936081/6191736422400000000000",
+          "equal_prior_success": "8458492602420917936081/12383472844800000000000"
+        }
+      ]
+    },
+    {
+      "marker_gate": true,
+      "records": [
+        {
+          "step": 0,
+          "plus": {
+            "step": 0,
+            "output0": "0",
+            "output1": "1/9",
+            "timeout": "8/9"
+          },
+          "minus": {
+            "step": 0,
+            "output0": "1/9",
+            "output1": "0",
+            "timeout": "8/9"
+          },
+          "TV": "1/9",
+          "equal_prior_success": "5/9"
+        },
+        {
+          "step": 1,
+          "plus": {
+            "step": 1,
+            "output0": "1/90",
+            "output1": "1/6",
+            "timeout": "37/45"
+          },
+          "minus": {
+            "step": 1,
+            "output0": "8/45",
+            "output1": "0",
+            "timeout": "37/45"
+          },
+          "TV": "1/6",
+          "equal_prior_success": "7/12"
+        },
+        {
+          "step": 2,
+          "plus": {
+            "step": 2,
+            "output0": "9/400",
+            "output1": "37/180",
+            "timeout": "2779/3600"
+          },
+          "minus": {
+            "step": 2,
+            "output0": "11/50",
+            "output1": "0",
+            "timeout": "39/50"
+          },
+          "TV": "37/180",
+          "equal_prior_success": "217/360"
+        },
+        {
+          "step": 3,
+          "plus": {
+            "step": 3,
+            "output0": "767/24000",
+            "output1": "851/3600",
+            "timeout": "52679/72000"
+          },
+          "minus": {
+            "step": 3,
+            "output0": "917/3600",
+            "output1": "0",
+            "timeout": "2683/3600"
+          },
+          "TV": "851/3600",
+          "equal_prior_success": "4451/7200"
+        },
+        {
+          "step": 4,
+          "plus": {
+            "step": 4,
+            "output0": "2569/64000",
+            "output1": "75617/288000",
+            "timeout": "80329/115200"
+          },
+          "minus": {
+            "step": 4,
+            "output0": "410129/1440000",
+            "output1": "0",
+            "timeout": "1029871/1440000"
+          },
+          "TV": "75617/288000",
+          "equal_prior_success": "363617/576000"
+        },
+        {
+          "step": 5,
+          "plus": {
+            "step": 5,
+            "output0": "5452379/115200000",
+            "output1": "1645331/5760000",
+            "timeout": "8537889/12800000"
+          },
+          "minus": {
+            "step": 5,
+            "output0": "35927603/115200000",
+            "output1": "0",
+            "timeout": "79272397/115200000"
+          },
+          "TV": "1645331/5760000",
+          "equal_prior_success": "7405331/11520000"
+        },
+        {
+          "step": 6,
+          "plus": {
+            "step": 6,
+            "output0": "371689657/6912000000",
+            "output1": "35312413/115200000",
+            "timeout": "4421565563/6912000000"
+          },
+          "minus": {
+            "step": 6,
+            "output0": "775712021/2304000000",
+            "output1": "0",
+            "timeout": "1528287979/2304000000"
+          },
+          "TV": "35312413/115200000",
+          "equal_prior_success": "150512413/230400000"
+        },
+        {
+          "step": 7,
+          "plus": {
+            "step": 7,
+            "output0": "791557859/13271040000",
+            "output1": "750504779/2304000000",
+            "timeout": "203914365349/331776000000"
+          },
+          "minus": {
+            "step": 7,
+            "output0": "99462369479/276480000000",
+            "output1": "0",
+            "timeout": "177017630521/276480000000"
+          },
+          "TV": "750504779/2304000000",
+          "equal_prior_success": "3054504779/4608000000"
+        },
+        {
+          "step": 8,
+          "plus": {
+            "step": 8,
+            "output0": "12952803221243/199065600000000",
+            "output1": "63336145943/184320000000",
+            "timeout": "117709759160317/199065600000000"
+          },
+          "minus": {
+            "step": 8,
+            "output0": "937320516719/2457600000000",
+            "output1": "0",
+            "timeout": "1520279483281/2457600000000"
+          },
+          "TV": "63336145943/184320000000",
+          "equal_prior_success": "247656145943/368640000000"
+        },
+        {
+          "step": 9,
+          "plus": {
+            "step": 9,
+            "output0": "837650299930157/11943936000000000",
+            "output1": "3985866759887/11059200000000",
+            "timeout": "6801549599391883/11943936000000000"
+          },
+          "minus": {
+            "step": 9,
+            "output0": "63999472290581/159252480000000",
+            "output1": "0",
+            "timeout": "95253007709419/159252480000000"
+          },
+          "TV": "3985866759887/11059200000000",
+          "equal_prior_success": "15045066759887/22118400000000"
+        },
+        {
+          "step": 10,
+          "plus": {
+            "step": 10,
+            "output0": "214712711280113267/2866544640000000000",
+            "output1": "499368154746601/1327104000000000",
+            "timeout": "1573196714467228573/2866544640000000000"
+          },
+          "minus": {
+            "step": 10,
+            "output0": "67101458061895481/159252480000000000",
+            "output1": "0",
+            "timeout": "92151021938104519/159252480000000000"
+          },
+          "TV": "499368154746601/1327104000000000",
+          "equal_prior_success": "1826472154746601/2654208000000000"
+        },
+        {
+          "step": 11,
+          "plus": {
+            "step": 11,
+            "output0": "27322694592214158559/343985356800000000000",
+            "output1": "124650803121889171/318504960000000000",
+            "timeout": "182039794836145536761/343985356800000000000"
+          },
+          "minus": {
+            "step": 11,
+            "output0": "50447035774313185753/114661785600000000000",
+            "output1": "1/1415577600",
+            "timeout": "64214749744686814247/114661785600000000000"
+          },
+          "TV": "124650802896889171/318504960000000000",
+          "equal_prior_success": "443155762896889171/637009920000000000"
+        },
+        {
+          "step": 12,
+          "plus": {
+            "step": 12,
+            "output0": "1728494380997373629149/20639121408000000000000",
+            "output1": "7753805621113511119/19110297600000000000",
+            "timeout": "10536516956200034362331/20639121408000000000000"
+          },
+          "minus": {
+            "step": 12,
+            "output0": "1049861630256177335431/2293235712000000000000",
+            "output1": "197/56623104000",
+            "timeout": "1243374073765322664569/2293235712000000000000"
+          },
+          "TV": "7753805554626011119/19110297600000000000",
+          "equal_prior_success": "26864103154626011119/38220595200000000000"
+        }
+      ]
+    }
+  ],
+  "matched_unordered_preparation_TV": "0",
+  "directed_port_output_TV": "1",
+  "equal_prior_success_unordered": "1/2",
+  "equal_prior_success_directed_port": "1",
+  "carrier_backreaction": "primary passive co-transport plus secondary marker-gated structural attempts; carrier frozen during readout",
+  "assumptions": [
+    "distinguishable ordered markers",
+    "endpoint-permutation co-transport during carrier moves",
+    "named detectable port 0",
+    "readout stage freezes carrier",
+    "direction-preserving circulation and type-sensitive detector",
+    "uniform position mixing for matched preparation comparison"
+  ],
+  "source_probe_sha256": "47dcb706319304f25d6856a821dc855ecbb527b9b1510e23fbb44f60bf6a48e3",
+  "input_witness_sha256": "c17433a11811848a8f7a3eeeb12e4228d30808e020849abaaf5f89ae818cda24",
+  "implementation_sha256": "f912107497e69c9e7ea1b72cd56e2577c43cb7a627fa1533e02af3a39f99a07b",
+  "checks": "PASS"
+}
