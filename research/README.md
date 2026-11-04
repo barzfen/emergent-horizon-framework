@@ -16,3 +16,6 @@ Topic-oriented working notes belong here. Current/high-value themes include:
 Working notes may be speculative, but each document should label its evidence status explicitly.
 
 [AI-assisted literature follow-up](related-work/README.md) connects external work to explicit EHF definitions, executable probes, retained results and limitations.
+
+[QM bridge revisits 01–02](../probes/qm-bridge/README.md) audit supplied quantum structure, orientation transport from actual moves, and its exact classical control. These are bounded working probes, not a derivation of physical QM.
+

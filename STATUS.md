@@ -57,3 +57,12 @@ EHF claims must carry one of these tags:
 ## Near-term criterion for meaningful progress
 
 The next major milestone is to derive at least one recognizable effective law from microscopic EHF rules without putting that law in by hand. Candidate targets include diffusion, conservation laws, internal-clock dynamics, effective metric structure, or controlled unitary/quantum-walk-like evolution.
+
+## QM bridge update — 2026-11-04
+
+**Status: COMPUTATIONAL + ANALYTIC ARGUMENTS / NEGATIVE CONTROL.**
+
+[Revisit 01](probes/qm-bridge/revisit-01/README.md) rebuilds a locally readable six-state carrier and distinguishes stochastic evolution from an explicitly supplied coherent control. [Revisit 02](probes/qm-bridge/revisit-02/README.md) constructs orientation transport from actual LR2/LR3 histories: 3 of 15 representative n=7 components and 9 of 111 representative n=9 components contain negative closed walks. The original six-state component is flat. A parity argument excludes equal-length opposite-sign paths at n=7; the n=9 seed exhibits them after five moves. A separate oriented-tour verifier reproduces the finite counts and exact rational probabilities.
+
+The signed evolution is exactly the orientation difference of a nonnegative classical lifted process. Its squared norm is not conserved. This supplies reproducible transport structure and controls; physical phase access, coherent recombination, a derived Born rule and physical QM remain unestablished. No general-size classification or external novelty review is claimed.
+

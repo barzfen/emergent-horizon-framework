@@ -1,0 +1,297 @@
+{
+  "scope": "retained n=7 six-state MICRO-OPW23 carrier; benchmark only",
+  "states": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      6,
+      5,
+      4
+    ],
+    [
+      0,
+      3,
+      2,
+      1,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      3,
+      2,
+      1,
+      6,
+      5,
+      4
+    ],
+    [
+      0,
+      5,
+      4,
+      1,
+      2,
+      3,
+      6
+    ],
+    [
+      0,
+      5,
+      4,
+      3,
+      2,
+      1,
+      6
+    ]
+  ],
+  "A_component": [
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      6,
+      5,
+      4
+    ],
+    [
+      0,
+      3,
+      2,
+      1,
+      4,
+      5,
+      6
+    ],
+    [
+      0,
+      3,
+      2,
+      1,
+      6,
+      5,
+      4
+    ]
+  ],
+  "B_component": [
+    [
+      0,
+      5,
+      4,
+      1,
+      2,
+      3,
+      6
+    ],
+    [
+      0,
+      5,
+      4,
+      3,
+      2,
+      1,
+      6
+    ]
+  ],
+  "adjacency": [
+    [
+      0,
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ]
+  ],
+  "L": [
+    [
+      3,
+      -1,
+      -1,
+      0,
+      0,
+      -1
+    ],
+    [
+      -1,
+      2,
+      0,
+      -1,
+      0,
+      0
+    ],
+    [
+      -1,
+      0,
+      3,
+      -1,
+      -1,
+      0
+    ],
+    [
+      0,
+      -1,
+      -1,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      -1,
+      0,
+      2,
+      -1
+    ],
+    [
+      -1,
+      0,
+      0,
+      0,
+      -1,
+      2
+    ]
+  ],
+  "edges": 7,
+  "rates": "1 per distinct LR2/LR3 edge; H=L supplied separately",
+  "static_projectors": 64,
+  "projector_pairs_checked": 4096,
+  "max_static_commutator": 0,
+  "same_initial_probabilities": [
+    0.5,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.5
+  ],
+  "initial_coherent_B_slopes": [
+    0.9999999999999998,
+    -0.9999999999999998
+  ],
+  "time_checks": [
+    {
+      "t": 0,
+      "markov_B": 0.5,
+      "coherent_plus_B": 0.4999999999999999,
+      "coherent_minus_B": 0.4999999999999999,
+      "incoherent_unitary_B": 0.5,
+      "phase_contrast": 0.0
+    },
+    {
+      "t": 0.05,
+      "markov_B": 0.4994150247564237,
+      "coherent_plus_B": 0.5498743392410672,
+      "coherent_minus_B": 0.4501240997773652,
+      "incoherent_unitary_B": 0.4999992195092165,
+      "phase_contrast": 0.09975023946370198
+    },
+    {
+      "t": 0.1,
+      "markov_B": 0.4978078361188467,
+      "coherent_plus_B": 0.598991374210001,
+      "coherent_minus_B": 0.40098372284225803,
+      "incoherent_unitary_B": 0.4999875485261297,
+      "phase_contrast": 0.198007651367743
+    },
+    {
+      "t": 0.25,
+      "markov_B": 0.4886696497061,
+      "coherent_plus_B": 0.7342681673744361,
+      "coherent_minus_B": 0.2647787480804163,
+      "incoherent_unitary_B": 0.4995234577274262,
+      "phase_contrast": 0.4694894192940198
+    },
+    {
+      "t": 0.5,
+      "markov_B": 0.4663718182491225,
+      "coherent_plus_B": 0.8793132484918936,
+      "coherent_minus_B": 0.10651607848650908,
+      "incoherent_unitary_B": 0.4929146634892013,
+      "phase_contrast": 0.7727971700053845
+    },
+    {
+      "t": 1,
+      "markov_B": 0.4211542712622051,
+      "coherent_plus_B": 0.7312413565813602,
+      "coherent_minus_B": 0.10061188335021191,
+      "incoherent_unitary_B": 0.4159266199657863,
+      "phase_contrast": 0.6306294732311484
+    },
+    {
+      "t": 2,
+      "markov_B": 0.3669605914610974,
+      "coherent_plus_B": 0.10723122624273745,
+      "coherent_minus_B": 0.14953808180312805,
+      "incoherent_unitary_B": 0.12838465402293275,
+      "phase_contrast": 0.0423068555603906
+    }
+  ],
+  "max_sampled_phase_contrast": 0.7727971700053845,
+  "checks": "PASS",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "source_sha256": "08b5a6ab86fff2c048b6464f002795cf28b387115494e75682529d18f80a1107"
+}

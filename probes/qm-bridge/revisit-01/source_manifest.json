@@ -1,0 +1,47 @@
+[
+  {
+    "source_path": "Emergent Horizon Framework (EHF)/ehf_qm_bridge_program_v5_qm09c_qm12_documented.md",
+    "included_as": "sources/00_Emergent Horizon Framework (EHF)_ehf_qm_bridge_program_v5_qm09c_qm12_documented.md",
+    "sha256": "2a177f6f5ad6ccb24bd3fedbd62e01d1f2419d4e17ec27c20fccfaf86d74337d"
+  },
+  {
+    "source_path": "unpacked/EHF_Observer_Compatibility_Audit_07_Common_Description/observer_audit_07/REPORT.md",
+    "included_as": "sources/01_observer_audit_07_REPORT.md",
+    "sha256": "c0b39db1139c948b662d6d29568c41319736dbaaee15b7c178803d93d081fc30"
+  },
+  {
+    "source_path": "unpacked/EHF_Observer_Compatibility_Audit_08_Separation_Rule/observer_audit_08/REPORT.md",
+    "included_as": "sources/02_observer_audit_08_REPORT.md",
+    "sha256": "57cea81bc4ecb33f9c80f8f206c02713a55a5e4256150b0dc5fd82cfa940254e"
+  },
+  {
+    "source_path": "unpacked/EHF_Observer_Compatibility_Audit_09_Exchange_Symmetry/observer_audit_09/REPORT.md",
+    "included_as": "sources/03_observer_audit_09_REPORT.md",
+    "sha256": "f7a6f37017845e3b502df1d05d136b36dddcd926dc69b3228b177b98af9d5c7a"
+  },
+  {
+    "source_path": "unpacked/EHF_Observer_Compatibility_Audit_10_Ring_Experiments/observer_audit_10/REPORT.md",
+    "included_as": "sources/04_observer_audit_10_REPORT.md",
+    "sha256": "63a3d03f8a7a143377cd70b8b2b96991ab36e2d078b27402f69d4cb8bacc1392"
+  },
+  {
+    "source_path": "unpacked/EHF_Probe_Dependent_Geometry_01/probe_access_01/REPORT.md",
+    "included_as": "sources/05_probe_access_01_REPORT.md",
+    "sha256": "822c0fe99028ba1180ae1a356a50daeb5ea2a81a85b9eedbe3c2c24710bc23ab"
+  },
+  {
+    "source_path": "unpacked/EHF_MICRO_OPW_03/EHF_MICRO_OPW_03/micro_opw_02/README.md",
+    "included_as": "sources/06_micro_opw_02_README.md",
+    "sha256": "a77358cf00dc039965918318488a839e87fad7c99bd01320eff701b73db352be"
+  },
+  {
+    "source_path": "unpacked/EHF_MICRO_OPW_03/EHF_MICRO_OPW_03/micro_opw_01/README.md",
+    "included_as": "sources/07_micro_opw_01_README.md",
+    "sha256": "13e1b1085fc093bdb49d3758393df8677c72c4c345cca892febfbd05ee6591c5"
+  },
+  {
+    "source_path": "unpacked/EHF_MICRO_OPW_03/EHF_MICRO_OPW_03/micro_opw_03/README.md",
+    "included_as": "sources/08_micro_opw_03_README.md",
+    "sha256": "dff68af85904ca8533138d739c9945cb3049c6a2d4fa400a03196b3ecc5a7c90"
+  }
+]
