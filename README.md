@@ -74,3 +74,7 @@ Original code is available under MIT; original research notes, documentation and
 ## Recovered foundations and working documents
 
 [Source-document index](research/source-documents/README.md) preserves the original OPW23, OPW3, RAW, GROW, Johnson transport/curvature, historical AMP and QM documents, and PHYS-ALG v0.65 including the Lam connection. A checksum manifest identifies each supplied snapshot. Source-reported claims are distinguished from independently reproduced repository results; the existing nine-point theorem is linked without duplication.
+
+## Foundations map and reversal admissibility
+
+[Connections map 01](research/foundations/CONNECTIONS-01.md) separates cycle objects, growth, move selection, dynamics, observables and the reported AMP/Lam bridges. [All-length reversal audit 01](probes/reversals/all-length-01/README.md) gives an exact finite census, an independent checker, a local admissibility lemma and a constructive proof: MICRO-only all-length reversal graphs are connected whenever nonempty. Pi preservation is a separate restriction; even with Pi retained, an admitted LR4 can change the binary domain count at nine vertices. The earlier restricted-move results retain their stated scope.
