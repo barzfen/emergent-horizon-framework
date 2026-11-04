@@ -71,3 +71,6 @@ These are separate mathematical investigations; a connection between them or to 
 
 Original code is available under MIT; original research notes, documentation and figures use CC BY 4.0. File-specific and third-party terms take precedence. See [licensing scope](LICENSE.md), [citation metadata](CITATION.cff) and [contribution and attribution guidance](CONTRIBUTING.md). We credit the researchers whose results, methods and materials inform this work and welcome reproducible findings that we can contribute back.
 
+## Recovered foundations and working documents
+
+[Source-document index](research/source-documents/README.md) preserves the original OPW23, OPW3, RAW, GROW, Johnson transport/curvature, historical AMP and QM documents, and PHYS-ALG v0.65 including the Lam connection. A checksum manifest identifies each supplied snapshot. Source-reported claims are distinguished from independently reproduced repository results; the existing nine-point theorem is linked without duplication.
