@@ -2,7 +2,7 @@
 
 Imagine nine numbered beads connected in a ring. Every bead is black or white, and each must touch at least one bead of its own colour. We asked what rearrangements are possible under that rule, whether small edits can build a bigger rearrangement, and how a controller might choose those edits without being given a destination.
 
-This guide follows seven experiments in the order we ran them. You can read the whole story on this page and open any experiment for its definitions, code and checks.
+This guide follows eight experiments in the order we ran them. You can read the whole story on this page and open any experiment for its definitions, code and checks.
 
 ## The starting setup
 
@@ -49,8 +49,12 @@ On the same starting ring and six-slide window, the rule raised blocked LR4 retu
 
 The first controller test started from one ring. We then tried all 96 starting rings and checked both directions of all 76 blocked LR4 transitions. The original triangle slides can reach all 76 without closing another ring along the way. The local seam rule leaves 48 of those pairs reachable within six slides. The exact chances vary widely across the reachable pairs. This separates routes the rule allows but rarely chooses from routes it blocks within the test window. [REV-07 · Does the rule work across the test set?](carrier-audit-07/README.md)
 
+### 8. Follow the open graphs until the search runs out
+
+We removed the six-slide cutoff and searched every reachable graph. The 28 missing pairs all had longer routes, taking 10 to 30 slides at minimum. One connected region of open graphs touches all 96 completed rings. It lets any one of those rings reach any other without completing a different ring in between. The search establishes that a route exists. Its probability depends on the controller's choices along the way. [REV-08 · Where do longer paths lead?](exhaustive-returns-08/README.md)
+
 ## Where the series stands
 
-The experiments give explicit paths from short graph edits to longer rearrangements, and one controller that preserves a supplied position constraint when a ring closes. The controller starts with an anchor and parity tags, and the experiments serialize its moves. The first two controller comparisons use one starting ring. The seventh experiment covers the 96-ring set. All three measure first returns within six slides, leaving longer runs and other sets of rings open.
+The experiments give explicit paths from short graph edits to longer rearrangements, and one controller that preserves a supplied position constraint when a ring closes. The controller starts with an anchor and parity tags, and the experiments serialize its moves. The first two controller comparisons use one starting ring. The seventh experiment covers the 96-ring set. All three measure probabilities within six slides. The eighth experiment settles reachability on this set without a cutoff. Longer-run probabilities and other sets of rings remain open.
 
 For the wider Emergent Horizon Framework and how this series connects to its other work, see the [foundations map](../../research/foundations/CONNECTIONS-01.md).
