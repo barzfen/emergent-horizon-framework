@@ -1,0 +1,737 @@
+{
+  "summary": {
+    "seeds": 96,
+    "directed_blocked_targets": 152,
+    "raw_first_return_targets": 152,
+    "endpoint_first_return_targets": 112,
+    "seam_first_return_targets": 96,
+    "mean_blocked_return_per_million_uniform_seed": 276.984930739271,
+    "asymmetric_positive_pairs": 48,
+    "open_percent_range": [
+      12.834362139917696,
+      43.03542957361516
+    ],
+    "minimum_positive_per_million": 24.112654320987655,
+    "maximum_positive_per_million": 881.8342151675485,
+    "seeds_with_blocked_targets": 84,
+    "seeds_with_reachable_targets": 68,
+    "seeds_with_outside_carrier_returns": 0
+  },
+  "directions": [
+    {
+      "source": 0,
+      "target": 9,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/5292"
+    },
+    {
+      "source": 9,
+      "target": 0,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3969"
+    },
+    {
+      "source": 0,
+      "target": 60,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3584"
+    },
+    {
+      "source": 60,
+      "target": 0,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/4480"
+    },
+    {
+      "source": 1,
+      "target": 11,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/1512"
+    },
+    {
+      "source": 11,
+      "target": 1,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/1134"
+    },
+    {
+      "source": 1,
+      "target": 61,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3072"
+    },
+    {
+      "source": 61,
+      "target": 1,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3840"
+    },
+    {
+      "source": 2,
+      "target": 5,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/5292"
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3969"
+    },
+    {
+      "source": 3,
+      "target": 7,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/5292"
+    },
+    {
+      "source": 7,
+      "target": 3,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3969"
+    },
+    {
+      "source": 4,
+      "target": 7,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3528"
+    },
+    {
+      "source": 7,
+      "target": 4,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/2646"
+    },
+    {
+      "source": 5,
+      "target": 6,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/2646"
+    },
+    {
+      "source": 6,
+      "target": 5,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3528"
+    },
+    {
+      "source": 5,
+      "target": 21,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 21,
+      "target": 5,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 5,
+      "target": 92,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 92,
+      "target": 5,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 7,
+      "target": 23,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 23,
+      "target": 7,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 8,
+      "target": 11,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 11,
+      "target": 8,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 9,
+      "target": 10,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 10,
+      "target": 9,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 9,
+      "target": 17,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 17,
+      "target": 9,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 9,
+      "target": 68,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 68,
+      "target": 9,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 11,
+      "target": 19,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 19,
+      "target": 11,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 11,
+      "target": 76,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 76,
+      "target": 11,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 12,
+      "target": 21,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/5292"
+    },
+    {
+      "source": 21,
+      "target": 12,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3969"
+    },
+    {
+      "source": 12,
+      "target": 52,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3584"
+    },
+    {
+      "source": 52,
+      "target": 12,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/4480"
+    },
+    {
+      "source": 13,
+      "target": 23,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/1512"
+    },
+    {
+      "source": 23,
+      "target": 13,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/1134"
+    },
+    {
+      "source": 13,
+      "target": 53,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3072"
+    },
+    {
+      "source": 53,
+      "target": 13,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3840"
+    },
+    {
+      "source": 14,
+      "target": 17,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/5292"
+    },
+    {
+      "source": 17,
+      "target": 14,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3969"
+    },
+    {
+      "source": 15,
+      "target": 19,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/5292"
+    },
+    {
+      "source": 19,
+      "target": 15,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3969"
+    },
+    {
+      "source": 16,
+      "target": 19,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3528"
+    },
+    {
+      "source": 19,
+      "target": 16,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/2646"
+    },
+    {
+      "source": 17,
+      "target": 18,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/2646"
+    },
+    {
+      "source": 18,
+      "target": 17,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3528"
+    },
+    {
+      "source": 17,
+      "target": 94,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 94,
+      "target": 17,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 20,
+      "target": 23,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 23,
+      "target": 20,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 21,
+      "target": 22,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 22,
+      "target": 21,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 21,
+      "target": 70,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 70,
+      "target": 21,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 23,
+      "target": 78,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 78,
+      "target": 23,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 24,
+      "target": 33,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/5292"
+    },
+    {
+      "source": 33,
+      "target": 24,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3969"
+    },
+    {
+      "source": 24,
+      "target": 56,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3584"
+    },
+    {
+      "source": 56,
+      "target": 24,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/4480"
+    },
+    {
+      "source": 25,
+      "target": 35,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/1512"
+    },
+    {
+      "source": 35,
+      "target": 25,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/1134"
+    },
+    {
+      "source": 25,
+      "target": 57,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3072"
+    },
+    {
+      "source": 57,
+      "target": 25,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3840"
+    },
+    {
+      "source": 26,
+      "target": 29,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/5292"
+    },
+    {
+      "source": 29,
+      "target": 26,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3969"
+    },
+    {
+      "source": 27,
+      "target": 31,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/5292"
+    },
+    {
+      "source": 31,
+      "target": 27,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3969"
+    },
+    {
+      "source": 28,
+      "target": 31,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3528"
+    },
+    {
+      "source": 31,
+      "target": 28,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/2646"
+    },
+    {
+      "source": 29,
+      "target": 30,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/2646"
+    },
+    {
+      "source": 30,
+      "target": 29,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": true,
+      "probability": "1/3528"
+    },
+    {
+      "source": 29,
+      "target": 45,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 45,
+      "target": 29,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 29,
+      "target": 93,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 93,
+      "target": 29,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 31,
+      "target": 47,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 47,
+      "target": 31,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 32,
+      "target": 35,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 35,
+      "target": 32,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 33,
+      "target": 34,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 34,
+      "target": 33,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": true,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 33,
+      "target": 41,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 41,
+      "target": 33,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 33,
+      "target": 69,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
+      "seam_first_return_within_six": false,
+      "probability": "0"
+    },
+    {
+      "source": 69,
+      "target": 33,
+      "raw_first_return_within_six": true,
+      "endpoint_first_return_within_six": false,
