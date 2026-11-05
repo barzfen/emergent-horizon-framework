@@ -7,5 +7,6 @@ These probes distinguish the cycle representation, state constraints, edge selec
 
 - [REV-03: interrupted assembly gate](assembly-gate-03/README.md) adds explicit progress/abort states. It derives a smooth completion hierarchy under the added gate rules, proves a short-move implementation obstruction, and distinguishes exact idle-time rates from the real-time cycle projection. The final reversal commit remains an added atomic operation.
 - [REV-04 — Local reconnection by triangle slides](local-reconnect-04/README.md) realizes all 76 blocked LR4 transitions with reversible two-hop edits in an expanded graph state space. It compares direct schedules and checks every intermediate edit for connectivity, degree and same-bit adjacency.
+- [REV-05 — A tagged connection as local memory](tagged-controller-05/README.md) compares first-cycle returns under equal weights, branch repair and forward continuation of a marked edge. An exact history sum checks the rare blocked LR4 completions.
 
 See the [foundations map](../../research/foundations/CONNECTIONS-01.md) for the connections and verification boundaries of the wider EHF programme.

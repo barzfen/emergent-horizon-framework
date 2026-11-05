@@ -1,0 +1,18 @@
+{
+  "successful_first_return_histories": 12,
+  "histories_to_particular_witness": 4,
+  "exact_probabilities": {
+    "equal": {
+      "blocked_lr4": "1327/319410000",
+      "particular_witness": "1/455000"
+    },
+    "branch_repair": {
+      "blocked_lr4": "1013/136458000",
+      "particular_witness": "1/266000"
+    },
+    "tagged_connection": {
+      "blocked_lr4": "21407/1211392000",
+      "particular_witness": "173/18928000"
+    }
+  }
+}
