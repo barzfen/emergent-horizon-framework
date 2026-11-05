@@ -1,0 +1,23 @@
+{
+  "target": [
+    1,
+    2,
+    4,
+    6,
+    8,
+    7,
+    5,
+    3
+  ],
+  "available_amplitudes_excluding_target": 28,
+  "two_lift_inputs": 23,
+  "direct_kk_inputs": 23,
+  "kk_relation_space_dimension_in_pool": 1,
+  "fundamental_bcj_inputs": 5,
+  "direct_mhv_formula_inputs": 0,
+  "target_values_at_three_rational_kinematic_points": [
+    "3/6406400",
+    "14641/420563707200",
+    "256/35024075125"
+  ]
+}

@@ -21,3 +21,7 @@ python3 research/amplitudes/nine-point-tail/reconstruct.py
 The script asserts its exact checks and writes `results.json` and `certificates.json` beside itself. The latter contains the generated source lifts and reference images and is omitted from version control because it is reproducible. `results.json` includes an elapsed-time field that varies between runs.
 
 No third-party Python packages are required. The retained results document the computational check; the theorem's full statement and conventions are in the original draft.
+
+## Follow-up studies
+
+See the [follow-up index](followups/README.md) for the exact audits, explicit lifts, boundary analysis and gluon amplitude benchmark.
