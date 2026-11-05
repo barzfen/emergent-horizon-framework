@@ -13,3 +13,5 @@ Run the commands from this directory. The scripts use Python’s standard librar
 | [Amplitude benchmark](benchmark.md) | The two lifts reproduce the target but offer no input savings in the tested collinear calculation. | `PYTHONPATH=.. python3 benchmark.py` |
 
 The chamber pairing explains the local cancellation mechanism. A geometric prediction of the restricted shuffle ranks remains open.
+
+See [Colour channels in the first finite collinear coefficient](../../collinear-colour/README.md) for the full-colour Yang–Mills study that followed this work.
