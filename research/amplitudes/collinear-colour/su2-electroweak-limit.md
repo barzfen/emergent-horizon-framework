@@ -54,3 +54,5 @@ for the Standard Model Higgs-exchange amplitudes.
 The example tests the pure rotation, while the finite-mass correction
 to the original five-boson reconstruction remains open. A quantitative
 test would vary the hard scale and the pair invariant mass independently.
+
+The [pole-free rate test](su2-rate.md) specifies a candidate combination in the massless theory.

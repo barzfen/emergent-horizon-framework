@@ -1,0 +1,116 @@
+[
+  {
+    "gluons": 5,
+    "sample": 1,
+    "points": [
+      {
+        "opening": "1/128",
+        "same_sign_to_neutral": 0.5000142905313244,
+        "candidate": 0.11111322820669327,
+        "naive": 0.00015746906808897031,
+        "candidate_error_over_t_squared": 0.034686494018062716,
+        "naive_over_t_squared": 2.5799732115696896
+      },
+      {
+        "opening": "1/256",
+        "same_sign_to_neutral": 0.5000035725761622,
+        "candidate": 0.11111164038039309,
+        "naive": 3.9405708213738244e-05,
+        "candidate_error_over_t_squared": 0.03468619166384784,
+        "naive_over_t_squared": 2.5824924934955495
+      },
+      {
+        "opening": "1/512",
+        "same_sign_to_neutral": 0.5000008931404988,
+        "candidate": 0.11111124342814326,
+        "naive": 9.853832522299404e-06,
+        "candidate_error_over_t_squared": 0.03468611607420326,
+        "naive_over_t_squared": 2.583123072725655
+      },
+      {
+        "opening": "1/1024",
+        "same_sign_to_neutral": 0.5000002232849033,
+        "candidate": 0.11111114419035112,
+        "naive": 2.463608517661043e-06,
+        "candidate_error_over_t_squared": 0.03468609717672393,
+        "naive_over_t_squared": 2.583280765014946
+      }
+    ]
+  },
+  {
+    "gluons": 6,
+    "sample": 1,
+    "points": [
+      {
+        "opening": "1/128",
+        "same_sign_to_neutral": 0.5000110828941167,
+        "candidate": 0.1111127530092193,
+        "naive": 0.00015686793753351495,
+        "candidate_error_over_t_squared": 0.026900858604620246,
+        "naive_over_t_squared": 2.570124288549109
+      },
+      {
+        "opening": "1/256",
+        "same_sign_to_neutral": 0.5000027706885107,
+        "candidate": 0.11111152158272489,
+        "naive": 3.925530326239953e-05,
+        "candidate_error_over_t_squared": 0.02690066768033305,
+        "naive_over_t_squared": 2.5726355546046156
+      },
+      {
+        "opening": "1/512",
+        "same_sign_to_neutral": 0.5000006926699391,
+        "candidate": 0.11111121372883247,
+        "naive": 9.81622364063868e-06,
+        "candidate_error_over_t_squared": 0.02690061994847196,
+        "naive_over_t_squared": 2.573264130051586
+      },
+      {
+        "opening": "1/1024",
+        "same_sign_to_neutral": 0.500000173167348,
+        "candidate": 0.11111113676553007,
+        "naive": 2.4542058195179426e-06,
+        "candidate_error_over_t_squared": 0.026900608015457357,
+        "naive_over_t_squared": 2.573421321406846
+      }
+    ]
+  },
+  {
+    "gluons": 7,
+    "sample": 1,
+    "points": [
+      {
+        "opening": "1/128",
+        "same_sign_to_neutral": 0.5000797462486025,
+        "candidate": 0.1111229247421015,
+        "naive": 0.00024543770557125066,
+        "candidate_error_over_t_squared": 0.19355453014654395,
+        "naive_over_t_squared": 4.021251368079371
+      },
+      {
+        "opening": "1/256",
+        "same_sign_to_neutral": 0.5000199359263013,
+        "candidate": 0.11111406454242134,
+        "naive": 6.145861050570974e-05,
+        "candidate_error_over_t_squared": 0.19355607434730013,
+        "naive_over_t_squared": 4.027751498102194
+      },
+      {
+        "opening": "1/512",
+        "same_sign_to_neutral": 0.5000049839418289,
+        "candidate": 0.11111184947041025,
+        "naive": 1.537086373304566e-05,
+        "candidate_error_over_t_squared": 0.1935564601144947,
+        "naive_over_t_squared": 4.029379702435522
+      },
+      {
+        "opening": "1/1024",
+        "same_sign_to_neutral": 0.500001245982973,
+        "candidate": 0.11111129570102786,
+        "naive": 3.843104316866769e-06,
+        "candidate_error_over_t_squared": 0.19355655653860598,
+        "naive_over_t_squared": 4.0297869521628895
+      }
+    ]
+  }
+]
