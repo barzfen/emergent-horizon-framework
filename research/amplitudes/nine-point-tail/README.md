@@ -43,3 +43,5 @@ The [tail shuffle trace](followups/tail-shuffle-trace.md) identifies the distant
 The [support test](followups/support-sector-test.md) shows why generic row matching misses both exceptions and what changes when the signs or magnitudes are simplified.
 
 The [doubled-shuffle study](followups/shuffle-doubles.md) traces the factor of two and tests a selective restoration on 16 new cuts.
+
+The [common-cut test](followups/common-cut-holdout.md) finds two failures of the 28-entry rule and a cut that preserves the cancellation count while losing the original exterior class.

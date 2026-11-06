@@ -58,3 +58,5 @@ PYTHONPATH=.. python3 shuffle_doubles_holdout.py --verify > shuffle-doubles-veri
 ```
 
 See the [group scan](shuffle-doubles-results.json), [frozen predictions](shuffle-doubles-predictions.json), and [exact verification](shuffle-doubles-verification.json).
+
+The [common-cut holdout](common-cut-holdout.md) tests the frozen rule when the shared orderings themselves change.

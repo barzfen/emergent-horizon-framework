@@ -21,6 +21,7 @@ Run the commands from this directory. The scripts use Python’s standard librar
 | [Tail shuffle trace](tail-shuffle-trace.md) | Disjoint shuffle supports and exact identities explain the matched tail swaps. | `PYTHONPATH=.. python3 tail_shuffle_trace.py` |
 | [Can support predict the sectors?](support-sector-test.md) | Generic matching misses both exceptions. Sign-only columns give extra directions. | `PYTHONPATH=.. python3 support_sector_test.py` |
 | [Doubled shuffle entries](shuffle-doubles.md) | Restoring 28 shared doubles recovered the exception counts on the reference cut and 16 new cuts. | `PYTHONPATH=.. python3 shuffle_doubles.py` |
+| [Common-cut holdout](common-cut-holdout.md) | The 28-entry rule matches 61 of 63 cuts. One cut preserves the count while replacing the original cancellation. | `PYTHONPATH=.. python3 common_cut_holdout.py` |
 
 The chamber pairing explains the local cancellation mechanism. A geometric prediction of the restricted shuffle ranks remains open.
 
