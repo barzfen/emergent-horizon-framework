@@ -29,3 +29,5 @@ See the [follow-up index](followups/README.md) for the exact audits, explicit li
 The [support-reduction study](followups/support-reduction.md) uses simple relations among shuffle coefficients to shrink the exact rank calculation. Removing any one of the 36 branch-specific symmetry orbits preserved the transmitted subspaces and both exceptional cancellation dimensions in the reference chart.
 
 The [sector-selection study](followups/sector-selection.md) identifies where the two exceptions arise and shows that removing different position families can switch them off separately while preserving the transmitted union subspace.
+
+The [orbit thresholds](followups/sector-threshold.md) and [mixed-family deletions](followups/mixed-orbits.md) measure how robust those exceptions are when the allowed orderings are changed.

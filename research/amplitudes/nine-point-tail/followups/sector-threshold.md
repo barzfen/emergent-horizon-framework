@@ -23,3 +23,5 @@ from ordering geometry.
 From this directory, run `PYTHONPATH=.. python3 sector_threshold.py`.
 The [saved results](sector-threshold-results.json) record orbit
 members and all subsets that remove each exception.
+
+The [mixed-family scan](mixed-orbits.md) tests whether smaller deletions work across families.
