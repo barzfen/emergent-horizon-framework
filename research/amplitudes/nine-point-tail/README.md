@@ -47,3 +47,5 @@ The [doubled-shuffle study](followups/shuffle-doubles.md) traces the factor of t
 The [common-cut test](followups/common-cut-holdout.md) finds two failures of the 28-entry rule and a cut that preserves the cancellation count while losing the original exterior class.
 
 The [replacement trace](followups/replacement-trace.md) shows that the position-7 replacement already lay in the original branch sum and identifies the minimum addbacks that restore its separate decomposition.
+
+The [position-family trace](followups/position-family-trace.md) shows that both additional position-3 cancellations already split across the original branches.
