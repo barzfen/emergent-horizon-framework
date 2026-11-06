@@ -1,16 +1,28 @@
 # Colour channels in the first finite collinear coefficient
 
-In tree-level SU(3) MHV Yang–Mills, for an exchange-symmetric equal-split collinear path and hard angle spinors admitting a common real chart, the squared colour norms of the first finite coefficient in the singlet, symmetric octet and 27 obey **1:2:3 at arbitrary multiplicity**. This includes coplanar real Lorentzian hard configurations. An exact noncoplanar real Lorentzian example disproves the corresponding unrestricted claim.
+This series follows what the first finite correction to the leading two-gluon collinear limit retains about the pair's colour. It studies the full-colour tree MHV amplitude along an exchange-symmetric equal-split path. All shares below are squared norms of projections of that amplitude coefficient.
 
-The original ratio concerns an amplitude coefficient in full SU(3) colour. The [SU(N) extension](su-n-casimir-law.md) gives the corresponding weights for other colour groups. Coplanarity here is a kinematic restriction. The theorem is separate from a leading-colour approximation and from a statement about a measured rate.
+## Main results
 
-| Result | Reproduce from this directory |
-| --- | --- |
-| [SU(2) control](su2-control.md) | `python3 color_probe.py` |
-| [SU(3) projection and five-gluon derivation](su3-channels.md) | `python3 su3_probe.py` |
-| [Colour channels by order at five through seven gluons](channel-orders.md) | `python3 orders.py` |
-| [Matched real Lorentzian counterexample](lorentzian-counterexample.md) | `python3 lorentzian.py` |
-| [SU(3) all-multiplicity proof](planar-theorem.md) and exact checks | `python3 verify.py` |
-| [SU(N) Casimir law](su-n-casimir-law.md) and exact SU(4) checks | `python3 verify_su4.py` |
+1. **On the real-spinor locus**, the SU(3) singlet, symmetric octet and 27-dimensional channel have weights **1:2:3** at arbitrary multiplicity. This includes coplanar real Lorentzian hard momenta. The [proof](planar-theorem.md) starts from four-gluon colour Casimirs and uses induction on spectator collisions. The [SU(N) extension](su-n-casimir-law.md) gives weights proportional to the channel dimension times the squared colour-interaction eigenvalue.
+2. **Away from the real locus**, the same fractions can change. A [matched six-gluon example](lorentzian-counterexample.md) varies the beam direction while keeping the outgoing configuration fixed.
+3. **Near the real locus**, the first possible change is quadratic, given by an exact formula involving the imaginary first derivative of the finite tensor. At six gluons, the [sign proof](near-planar-sign.md) shows that every nontrivial imaginary projective tangent increases the 27 share at quadratic order from its planar value of one half.
 
-Each study has a corresponding results JSON. The proof uses colour Casimirs at four points and induction on spectator-collision poles. See the [literature search](literature.md) for prior results and the scope of the novelty check. This study followed the [nine-point ordering work](../nine-point-tail/followups/README.md). A correspondence between its ordering cuts and these colour channels remains open.
+## Calculations and reproduction
+
+Run the commands in this directory. Each script prints JSON that can be compared with the linked output. The six-gluon sign certificate uses NumPy. The other scripts use the Python standard library.
+
+| Study | Command | Saved output |
+| --- | --- | --- |
+| [SU(2) colour control](su2-control.md) | `python3 color_probe.py` | [Results](su2-control-results.json) |
+| [SU(3) projection and five-gluon derivation](su3-channels.md) | `python3 su3_probe.py` | [Results](su3-channels-results.json) |
+| [Colour channels by order at five through seven gluons](channel-orders.md) | `python3 orders.py` | [Results](channel-orders-results.json) |
+| [Matched real Lorentzian counterexample](lorentzian-counterexample.md) | `python3 lorentzian.py` | [Results](lorentzian-counterexample-results.json) |
+| [SU(3) all-multiplicity proof and algebra checks](planar-theorem.md) | `python3 verify.py` | [Results](planar-theorem-results.json) |
+| [SU(N) Casimir law and exact SU(4) checks](su-n-casimir-law.md) | `python3 verify_su4.py` | [Results](su4-results.json) |
+| [Near-planar curvature and nine beam-tilt tests](near-planar-sign.md#six-gluon-calculation) | `python3 tilt.py` | [Results](tilt-results.json) |
+| [Six-gluon sign certificate](near-planar-sign.md#six-gluon-sign-theorem) | `python3 verify_sign.py` | [Polynomial coefficients](sign-results.json) |
+
+## Scope and open questions
+
+Coplanarity is a restriction on the kinematics. These results concern the first finite amplitude coefficient at fixed colour group. The sign at higher multiplicity and the behaviour at finite tilt remain open. The [literature search](literature.md) describes related results and the limits of the novelty check for the planar ratio. The [nine-point ordering studies](../nine-point-tail/followups/README.md) motivated this work. A correspondence between their ordering cuts and the colour channels remains open.
