@@ -31,6 +31,7 @@ Run the commands in this directory. Each script prints JSON that can be compared
 | [Matrix-element-weighted orientation average](weighted-angles.md) | `python3 weighted_angles.py` | [Results](weighted-angles-results.json) |
 | [Outgoing-shape and beam average](shape-average.md) | `python3 shape_average.py` | [Results](shape-average-results.json) · [Centre control](shape-average-centre.json) |
 | [Opening-plane orientation scan](plane-scan.md) | `python3 plane_scan.py` | [Results](plane-scan-results.json) |
+| [Leading parent-pole control](pole-control.md) | `python3 pole_control.py` | [Results](pole-control-results.json) |
 
 ## Scope and open questions
 
