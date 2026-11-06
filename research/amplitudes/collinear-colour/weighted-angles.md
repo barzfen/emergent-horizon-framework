@@ -1,0 +1,11 @@
+# Matrix-element-weighted six-gluon angular contrast
+
+This follows the [fixed-geometry six-gluon calculation](six-soft.md). Keep the same outgoing momentum triangle and exchange-symmetric opening and recoil path. Integrate the orientation of the incoming axis in its rest frame over a specified solid-angle patch. The angle from the parent is 65–115 degrees, and the azimuth measured from the opening plane is 45–90 degrees on one side. The patch keeps the tested soft annulus (20–40 degrees) away from hard collinear directions at the openings used.
+
+At each nonzero opening t, weight each orientation by the colour- and helicity-summed hard tree matrix element squared. The common flux and any common phase-space factors at fixed shape and opening cancel in the normalized orientation average. The same uniform solid-angle measure is used in the numerator and denominator. The angular contrast is the ratio of the integrated radiation moment with weight cos(2 phi) to the integrated radiation intensity. The integration and normalization are done before extracting the t² coefficient. Thus changes in hard-event weights as the pair opens are included.
+
+The finest grid gives a mean coefficient of 3496.75, an unnormalized angular coefficient of 822.06, and a normalized contrast coefficient of +12.5855. The two finer hard grids agree on the normalized coefficient to about 0.00002.
+
+The saved data give the quadratic coefficients in the mean radiation intensity, the unnormalized angular moment, and the normalized contrast. Positive normalized contrast means that the soft radiation distribution gains relative weight in the pair's opening plane. This is a restricted matrix-element-weighted partonic average at fixed outgoing shape, with no integration over the remaining hard phase space or parton densities. It uses leading-soft emission and keeps the two soft polarizations and all hard helicities.
+
+Run `OPENBLAS_NUM_THREADS=2 python3 weighted_angles.py` with NumPy. The script prints progress for each quadrature grid, then the JSON summary. It checks convergence with two opening extrapolations and three angular grids. The soft angular grid is fixed at the finer resolution for the last two hard-grid comparisons.

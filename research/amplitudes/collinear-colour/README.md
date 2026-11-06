@@ -12,7 +12,7 @@ This series follows what the first finite correction to the leading two-gluon co
 
 ## Calculations and reproduction
 
-Run the commands in this directory. Each script prints JSON that can be compared with the linked output. The six-gluon sign certificate uses NumPy. The other scripts use the Python standard library.
+Run the commands in this directory. Each script prints JSON that can be compared with the linked output. The six-gluon sign certificate and the angular calculations use NumPy. The other scripts use the Python standard library.
 
 | Study | Command | Saved output |
 | --- | --- | --- |
@@ -26,6 +26,9 @@ Run the commands in this directory. Each script prints JSON that can be compared
 | [Six-gluon sign certificate](near-planar-sign.md#six-gluon-sign-theorem) | `python3 verify_sign.py` | [Polynomial coefficients](sign-results.json) |
 | [Soft emission and pair-colour interference](soft-emission.md) | `python3 soft_probe.py` | [Results](soft-probe-results.json) |
 | [Colour-summed radiation weight](soft-emission.md#colour-summed-radiation-weight) | `python3 colour_sum.py` | [Results](colour-sum-results.json) |
+| [Five-gluon angular and helicity checks](angular-ensemble.md) | `python3 angular_ensemble.py` | [Results](angular-ensemble-results.json) |
+| [Six-gluon full helicity sum](six-soft.md) | `python3 six_soft.py` | [Results](six-soft-results.json) |
+| [Matrix-element-weighted orientation average](weighted-angles.md) | `python3 weighted_angles.py` | [Results](weighted-angles-results.json) |
 
 ## Scope and open questions
 
