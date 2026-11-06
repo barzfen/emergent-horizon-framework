@@ -121,9 +121,9 @@ def mhv_check(p,words,values):
         assert error < 1e-6*max(1,abs(values[0,h]))
 
 
-def moments(beam,t,grams,directions,moment,return_weights=False):
+def moments(beam,t,grams,directions,moment,return_weights=False,hard_momenta=None):
     words,hard,soft=grams
-    p=event(beam,t)
+    p=event(beam,t) if hard_momenta is None else hard_momenta
     vals=amplitudes(p,words)
     mhv_check(p,words,vals)
     denominator=p[:,0,None]-p[:,1:]@directions.T

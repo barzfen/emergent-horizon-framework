@@ -29,6 +29,8 @@ Run the commands in this directory. Each script prints JSON that can be compared
 | [Five-gluon angular and helicity checks](angular-ensemble.md) | `python3 angular_ensemble.py` | [Results](angular-ensemble-results.json) |
 | [Six-gluon full helicity sum](six-soft.md) | `python3 six_soft.py` | [Results](six-soft-results.json) |
 | [Matrix-element-weighted orientation average](weighted-angles.md) | `python3 weighted_angles.py` | [Results](weighted-angles-results.json) |
+| [Outgoing-shape and beam average](shape-average.md) | `python3 shape_average.py` | [Results](shape-average-results.json) · [Centre control](shape-average-centre.json) |
+| [Opening-plane orientation scan](plane-scan.md) | `python3 plane_scan.py` | [Results](plane-scan-results.json) |
 
 ## Scope and open questions
 
