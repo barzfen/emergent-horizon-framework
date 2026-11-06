@@ -32,6 +32,7 @@ Run the commands in this directory. Each script prints JSON that can be compared
 | [Outgoing-shape and beam average](shape-average.md) | `python3 shape_average.py` | [Results](shape-average-results.json) · [Centre control](shape-average-centre.json) |
 | [Opening-plane orientation scan](plane-scan.md) | `python3 plane_scan.py` | [Results](plane-scan-results.json) |
 | [Leading parent-pole control](pole-control.md) | `python3 pole_control.py` | [Results](pole-control-results.json) |
+| [Six-gluon hard-pair colour correlation](pair-dipole.md) | `python3 pair_dipole.py` | [Results](pair-dipole-results.json) |
 
 ## Scope and open questions
 
