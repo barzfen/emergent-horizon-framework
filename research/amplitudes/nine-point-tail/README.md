@@ -31,3 +31,5 @@ The [support-reduction study](followups/support-reduction.md) uses simple relati
 The [sector-selection study](followups/sector-selection.md) identifies where the two exceptions arise and shows that removing different position families can switch them off separately while preserving the transmitted union subspace.
 
 The [orbit thresholds](followups/sector-threshold.md) and [mixed-family deletions](followups/mixed-orbits.md) measure how robust those exceptions are when the allowed orderings are changed.
+
+The [shared-residue deletion rule](followups/shared-residue-rule.md) explains which combinations of deletions remove the `+−` exception in the reference chart.

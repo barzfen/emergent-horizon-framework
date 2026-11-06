@@ -30,3 +30,5 @@ from removing the rank-9 position-3 family.
 Run `PYTHONPATH=.. python3 mixed_orbits.py` from this directory.
 The [saved results](mixed-orbits-results.json) give the members of
 each orbit and the exact list of extinguishing pairs.
+
+The [shared-residue deletion rule](shared-residue-rule.md) explains why these ten pairs conflict.
