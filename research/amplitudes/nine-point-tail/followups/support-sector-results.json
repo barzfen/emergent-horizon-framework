@@ -1,0 +1,346 @@
+{
+  "++": {
+    "exact": {
+      "exterior": [
+        49,
+        49,
+        63
+      ],
+      "active": [
+        4,
+        5,
+        8
+      ],
+      "transmitted": [
+        1,
+        1,
+        1
+      ],
+      "joined_active": 8,
+      "joined_transmitted": 1,
+      "extra_shared": 0,
+      "extra_union_cancel": 0
+    },
+    "support_matching": {
+      "exterior": [
+        54,
+        54,
+        72
+      ],
+      "active": [
+        0,
+        0,
+        0
+      ],
+      "transmitted": [
+        0,
+        0,
+        0
+      ],
+      "joined_active": 0,
+      "joined_transmitted": 0,
+      "extra_shared": 0,
+      "extra_union_cancel": 0
+    },
+    "magnitude_only": {
+      "exterior": [
+        49,
+        49,
+        63
+      ],
+      "active": [
+        4,
+        5,
+        8
+      ],
+      "transmitted": [
+        1,
+        1,
+        1
+      ],
+      "joined_active": 8,
+      "joined_transmitted": 1,
+      "extra_shared": 0,
+      "extra_union_cancel": 0
+    },
+    "sign_only": {
+      "exterior": [
+        49,
+        49,
+        63
+      ],
+      "active": [
+        4,
+        5,
+        8
+      ],
+      "transmitted": [
+        1,
+        1,
+        1
+      ],
+      "joined_active": 8,
+      "joined_transmitted": 1,
+      "extra_shared": 0,
+      "extra_union_cancel": 0
+    }
+  },
+  "+-": {
+    "exact": {
+      "exterior": [
+        50,
+        44,
+        58
+      ],
+      "active": [
+        3,
+        10,
+        13
+      ],
+      "transmitted": [
+        1,
+        4,
+        4
+      ],
+      "joined_active": 13,
+      "joined_transmitted": 4,
+      "extra_shared": 1,
+      "extra_union_cancel": 0
+    },
+    "support_matching": {
+      "exterior": [
+        54,
+        54,
+        72
+      ],
+      "active": [
+        0,
+        0,
+        0
+      ],
+      "transmitted": [
+        0,
+        0,
+        0
+      ],
+      "joined_active": 0,
+      "joined_transmitted": 0,
+      "extra_shared": 0,
+      "extra_union_cancel": 0
+    },
+    "magnitude_only": {
+      "exterior": [
+        49,
+        45,
+        59
+      ],
+      "active": [
+        4,
+        9,
+        12
+      ],
+      "transmitted": [
+        1,
+        5,
+        5
+      ],
+      "joined_active": 12,
+      "joined_transmitted": 5,
+      "extra_shared": 0,
+      "extra_union_cancel": 0
+    },
+    "sign_only": {
+      "exterior": [
+        50,
+        44,
+        58
+      ],
+      "active": [
+        3,
+        10,
+        13
+      ],
+      "transmitted": [
+        1,
+        4,
+        4
+      ],
+      "joined_active": 13,
+      "joined_transmitted": 4,
+      "extra_shared": 1,
+      "extra_union_cancel": 0
+    }
+  },
+  "-+": {
+    "exact": {
+      "exterior": [
+        44,
+        50,
+        58
+      ],
+      "active": [
+        6,
+        4,
+        10
+      ],
+      "transmitted": [
+        3,
+        1,
+        4
+      ],
+      "joined_active": 10,
+      "joined_transmitted": 4,
+      "extra_shared": 0,
+      "extra_union_cancel": 0
+    },
+    "support_matching": {
+      "exterior": [
+        54,
+        54,
+        72
+      ],
+      "active": [
+        0,
+        0,
+        0
+      ],
+      "transmitted": [
+        0,
+        0,
+        0
+      ],
+      "joined_active": 0,
+      "joined_transmitted": 0,
+      "extra_shared": 0,
+      "extra_union_cancel": 0
+    },
+    "magnitude_only": {
+      "exterior": [
+        46,
+        49,
+        59
+      ],
+      "active": [
+        7,
+        5,
+        12
+      ],
+      "transmitted": [
+        4,
+        1,
+        5
+      ],
+      "joined_active": 11,
+      "joined_transmitted": 4,
+      "extra_shared": 0,
+      "extra_union_cancel": 0
+    },
+    "sign_only": {
+      "exterior": [
+        44,
+        50,
+        58
+      ],
+      "active": [
+        6,
+        4,
+        10
+      ],
+      "transmitted": [
+        3,
+        1,
+        4
+      ],
+      "joined_active": 10,
+      "joined_transmitted": 4,
+      "extra_shared": 0,
+      "extra_union_cancel": 0
+    }
+  },
+  "--": {
+    "exact": {
+      "exterior": [
+        44,
+        44,
+        52
+      ],
+      "active": [
+        6,
+        10,
+        16
+      ],
+      "transmitted": [
+        3,
+        3,
+        5
+      ],
+      "joined_active": 15,
+      "joined_transmitted": 5,
+      "extra_shared": 0,
+      "extra_union_cancel": 1
+    },
+    "support_matching": {
+      "exterior": [
+        54,
+        54,
+        72
+      ],
+      "active": [
+        0,
+        0,
+        0
+      ],
+      "transmitted": [
+        0,
+        0,
+        0
+      ],
+      "joined_active": 0,
+      "joined_transmitted": 0,
+      "extra_shared": 0,
+      "extra_union_cancel": 0
+    },
+    "magnitude_only": {
+      "exterior": [
+        45,
+        45,
+        53
+      ],
+      "active": [
+        8,
+        9,
+        18
+      ],
+      "transmitted": [
+        5,
+        5,
+        11
+      ],
+      "joined_active": 16,
+      "joined_transmitted": 9,
+      "extra_shared": 0,
+      "extra_union_cancel": 0
+    },
+    "sign_only": {
+      "exterior": [
+        45,
+        45,
+        53
+      ],
+      "active": [
+        7,
+        9,
+        17
+      ],
+      "transmitted": [
+        4,
+        4,
+        6
+      ],
+      "joined_active": 15,
+      "joined_transmitted": 6,
+      "extra_shared": 1,
+      "extra_union_cancel": 2
+    }
+  }
+}

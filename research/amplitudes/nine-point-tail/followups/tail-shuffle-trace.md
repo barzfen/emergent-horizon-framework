@@ -39,3 +39,5 @@ examples. A geometry-only rule for which shuffle supports can
 combine to give either exception remains open.
 
 See the [exact trace](tail-shuffle-results.json).
+
+The [support test](support-sector-test.md) checks whether occupied shuffle rows alone recover the exceptional sectors.

@@ -39,3 +39,5 @@ The [union-cancellation deletion rule](followups/union-cancellation-rule.md) set
 The [ordering geometry test](followups/ordering-geometry.md) shows that a local window around label 9 cannot determine whether the two exceptions survive a cut.
 
 The [tail shuffle trace](followups/tail-shuffle-trace.md) identifies the distant ordering change behind the matched counterexamples.
+
+The [support test](followups/support-sector-test.md) shows why generic row matching misses both exceptions and what changes when the signs or magnitudes are simplified.
