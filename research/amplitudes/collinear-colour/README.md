@@ -2,6 +2,14 @@
 
 This series follows what the first finite correction to the leading two-gluon collinear limit retains about the pair's colour. It studies the full-colour tree MHV amplitude along an exchange-symmetric equal-split path. All shares below are squared norms of projections of that amplitude coefficient.
 
+## What we found and why it matters
+
+**The 1:2:3 law is an exact constraint within QCD.** When two gluons are nearly parallel, the leading term describes their splitting from a parent gluon. The first finite term gives us a way to ask what colour structure appears beyond that leading description. On the planar, equal-split MHV path studied here, the singlet, symmetric octet and 27-dimensional channel carry one sixth, one third and one half of that finite term's squared norm. Those shares hold as more gluons are added. [Planar proof](planar-theorem.md)
+
+**For physics, the law fixes how the pair's colour correlation first changes as the gluons separate.** On the planar path, the coefficient of that change follows from the squared norm of the finite term relative to the squared norm of the leading pole. In one six-gluon test, tilting the beam out of the outgoing plane made the singlet lose share and the 27 channel gain share. Both changes strengthened the correction. In a separate radiation test, most of the angular contrast was already present when the hard amplitude was frozen at its leading form and the soft radiation could still resolve the two daughter directions. How much of the hard colour shift survives in the full radiation pattern remains open. [Hard colour test](pair-dipole.md) · [Radiation control](pole-control.md)
+
+**For calculations, the immediate use is a benchmark with a narrow shortcut.** If the total squared norm of the planar finite term is known, the law gives the three channel norms directly. The planar pair-correlation correction also follows from one norm ratio. A general soft-radiation calculation still needs colour correlations involving the other hard gluons, and an overall speedup has yet to be demonstrated.
+
 ## Main results
 
 1. **On the real-spinor locus**, the SU(3) singlet, symmetric octet and 27-dimensional channel have weights **1:2:3** at arbitrary multiplicity. This includes coplanar real Lorentzian hard momenta. The [proof](planar-theorem.md) starts from four-gluon colour Casimirs and uses induction on spectator collisions. The [SU(N) extension](su-n-casimir-law.md) gives weights proportional to the channel dimension times the squared colour-interaction eigenvalue.
