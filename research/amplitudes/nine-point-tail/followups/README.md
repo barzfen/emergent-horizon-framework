@@ -17,6 +17,7 @@ Run the commands from this directory. The scripts use Python’s standard librar
 | [Mixed-family orbit deletions](mixed-orbits.md) | Ten of 630 pairs remove the shared residue. Every pair preserves the union cancellation. | `PYTHONPATH=.. python3 mixed_orbits.py` |
 | [Shared-residue deletion rule](shared-residue-rule.md) | Affine lift constraints explain all ten conflicting pairs and predict 22 minimal rank-8 triples. | `PYTHONPATH=.. python3 shared_residue_rule.py` |
 | [Union-cancellation deletion rule](union-cancellation-rule.md) | All triples preserve `−−`. Exactly four quadruples remove it. | `PYTHONPATH=.. python3 union_cancellation_rule.py 4` |
+| [Local ordering geometry](ordering-geometry.md) | Holdout cuts and matched counterexamples rule out the tested local features. | `PYTHONPATH=.. python3 ordering_collisions.py` |
 
 The chamber pairing explains the local cancellation mechanism. A geometric prediction of the restricted shuffle ranks remains open.
 
