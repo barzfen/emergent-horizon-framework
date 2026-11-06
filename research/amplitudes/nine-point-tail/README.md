@@ -41,3 +41,5 @@ The [ordering geometry test](followups/ordering-geometry.md) shows that a local 
 The [tail shuffle trace](followups/tail-shuffle-trace.md) identifies the distant ordering change behind the matched counterexamples.
 
 The [support test](followups/support-sector-test.md) shows why generic row matching misses both exceptions and what changes when the signs or magnitudes are simplified.
+
+The [doubled-shuffle study](followups/shuffle-doubles.md) traces the factor of two and tests a selective restoration on 16 new cuts.

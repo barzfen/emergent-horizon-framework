@@ -33,3 +33,5 @@ signed shuffle counts from the orderings.
 
 Run `PYTHONPATH=.. python3 support_sector_test.py` from this directory.
 See the [saved ranks](support-sector-results.json).
+
+The [doubled-shuffle follow-up](shuffle-doubles.md) tests which coefficient magnitudes need to be restored.
