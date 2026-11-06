@@ -13,6 +13,7 @@ Run the commands from this directory. The scripts use Python’s standard librar
 | [Amplitude benchmark](benchmark.md) | The two lifts reproduce the target but offer no input savings in the tested collinear calculation. | `PYTHONPATH=.. python3 benchmark.py` |
 | [Support reduction and modified cuts](support-reduction.md) | Two-term exterior equations reduce the exact rank problem. Both exceptions survive all 36 single-orbit deletions. | `PYTHONPATH=.. python3 support_reduction.py` |
 | [Sector selection and position-family deletions](sector-selection.md) | The two exceptional directions arise at different steps and can be removed separately. | `PYTHONPATH=.. python3 sector_ablation.py` |
+| [Orbit deletion thresholds](sector-threshold.md) | Within the three sensitive families, removing the corresponding exception takes at least three, four, or six orbits. | `PYTHONPATH=.. python3 sector_threshold.py` |
 
 The chamber pairing explains the local cancellation mechanism. A geometric prediction of the restricted shuffle ranks remains open.
 

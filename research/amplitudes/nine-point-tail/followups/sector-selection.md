@@ -60,3 +60,5 @@ rank-free rule deriving the selected signs directly from the ordering
 geometry remains open.
 
 See the [saved exact results](sector-ablation-results.json).
+
+The [orbit-subset follow-up](sector-threshold.md) gives the minimum deletions within each sensitive family.
