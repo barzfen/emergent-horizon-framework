@@ -37,3 +37,5 @@ The [shared-residue deletion rule](followups/shared-residue-rule.md) explains wh
 The [union-cancellation deletion rule](followups/union-cancellation-rule.md) settles the reference-chart minima among branch-exclusive orbits at two deletions for `+−` and four for `−−`.
 
 The [ordering geometry test](followups/ordering-geometry.md) shows that a local window around label 9 cannot determine whether the two exceptions survive a cut.
+
+The [tail shuffle trace](followups/tail-shuffle-trace.md) identifies the distant ordering change behind the matched counterexamples.

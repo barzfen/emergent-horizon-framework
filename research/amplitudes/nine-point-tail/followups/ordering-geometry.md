@@ -54,3 +54,5 @@ PYTHONPATH=.. python3 ordering_collisions.py > ordering-collision-results.json
 ```
 
 See the [frozen predictions](ordering-predictions.json), [exact holdout verification](ordering-verification.json), and [matched counterexamples](ordering-collision-results.json).
+
+The [tail shuffle trace](tail-shuffle-trace.md) explains the two matched counterexamples.
