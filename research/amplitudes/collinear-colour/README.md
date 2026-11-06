@@ -8,6 +8,8 @@ This series follows what the first finite correction to the leading two-gluon co
 2. **Away from the real locus**, the same fractions can change. A [matched six-gluon example](lorentzian-counterexample.md) varies the beam direction while keeping the outgoing configuration fixed.
 3. **Near the real locus**, the first possible change is quadratic, given by an exact formula involving the imaginary first derivative of the finite tensor. At six gluons, the [sign proof](near-planar-sign.md) shows that every nontrivial imaginary projective tangent increases the 27 share at quadratic order from its planar value of one half.
 
+4. **With an extra soft gluon**, the first angular correction to the eikonal current reproduces the Casimir weights in isolation. Radiation from the finite hard amplitude interferes with it. The [soft-emission calculation](soft-emission.md) includes both the pair-projected result and the colour-summed radiation weight.
+
 ## Calculations and reproduction
 
 Run the commands in this directory. Each script prints JSON that can be compared with the linked output. The six-gluon sign certificate uses NumPy. The other scripts use the Python standard library.
@@ -22,6 +24,8 @@ Run the commands in this directory. Each script prints JSON that can be compared
 | [SU(N) Casimir law and exact SU(4) checks](su-n-casimir-law.md) | `python3 verify_su4.py` | [Results](su4-results.json) |
 | [Near-planar curvature and nine beam-tilt tests](near-planar-sign.md#six-gluon-calculation) | `python3 tilt.py` | [Results](tilt-results.json) |
 | [Six-gluon sign certificate](near-planar-sign.md#six-gluon-sign-theorem) | `python3 verify_sign.py` | [Polynomial coefficients](sign-results.json) |
+| [Soft emission and pair-colour interference](soft-emission.md) | `python3 soft_probe.py` | [Results](soft-probe-results.json) |
+| [Colour-summed radiation weight](soft-emission.md#colour-summed-radiation-weight) | `python3 colour_sum.py` | [Results](colour-sum-results.json) |
 
 ## Scope and open questions
 
