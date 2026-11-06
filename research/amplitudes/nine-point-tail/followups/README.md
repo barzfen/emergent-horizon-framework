@@ -11,6 +11,7 @@ Run the commands from this directory. The scripts use Python’s standard librar
 | [Boundary cancellations](boundary.md) | The two extra cancellation directions have distinct symmetry types. | `PYTHONPATH=.. python3 boundary.py` |
 | [Shuffle sectors](shuffle-sectors.md) | Exact shuffle ranks identify which sectors contain the extra directions. | `PYTHONPATH=.. python3 shuffle_sectors.py` |
 | [Amplitude benchmark](benchmark.md) | The two lifts reproduce the target but offer no input savings in the tested collinear calculation. | `PYTHONPATH=.. python3 benchmark.py` |
+| [Support reduction and modified cuts](support-reduction.md) | Two-term exterior equations reduce the exact rank problem. Both exceptions survive all 36 single-orbit deletions. | `PYTHONPATH=.. python3 support_reduction.py` |
 
 The chamber pairing explains the local cancellation mechanism. A geometric prediction of the restricted shuffle ranks remains open.
 
