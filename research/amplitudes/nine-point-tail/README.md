@@ -33,3 +33,5 @@ The [sector-selection study](followups/sector-selection.md) identifies where the
 The [orbit thresholds](followups/sector-threshold.md) and [mixed-family deletions](followups/mixed-orbits.md) measure how robust those exceptions are when the allowed orderings are changed.
 
 The [shared-residue deletion rule](followups/shared-residue-rule.md) explains which combinations of deletions remove the `+−` exception in the reference chart.
+
+The [union-cancellation deletion rule](followups/union-cancellation-rule.md) settles the reference-chart minima among branch-exclusive orbits at two deletions for `+−` and four for `−−`.

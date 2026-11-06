@@ -23,8 +23,7 @@ The rule also predicts 22 rank-8 triples that conflict even though
 every pair within them is feasible. Fresh shuffle calculations confirm
 all 22 and six surviving controls. This rule is derived from the
 shuffle equations in the reference chart. A rule reading the symmetry
-signs directly from ordering geometry remains open, as does an analogous
-deletion rule for the −− exception.
+signs directly from ordering geometry remains open. The [union-cancellation study](union-cancellation-rule.md) gives the corresponding algebraic test for `−−`.
 
 Run this command from the followups directory with standard-library Python.
 

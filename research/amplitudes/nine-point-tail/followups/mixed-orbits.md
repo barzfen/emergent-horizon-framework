@@ -32,3 +32,5 @@ The [saved results](mixed-orbits-results.json) give the members of
 each orbit and the exact list of extinguishing pairs.
 
 The [shared-residue deletion rule](shared-residue-rule.md) explains why these ten pairs conflict.
+
+The [union-cancellation study](union-cancellation-rule.md) closes the remaining minimum at four.
