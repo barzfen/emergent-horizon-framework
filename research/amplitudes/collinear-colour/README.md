@@ -25,6 +25,7 @@ Run the commands in this directory. Each script prints JSON that can be compared
 | Study | Command | Saved output |
 | --- | --- | --- |
 | [SU(2) colour control](su2-control.md) | `python3 color_probe.py` | [Results](su2-control-results.json) |
+| [SU(2) finite colour ratio](su2-ratio.md) | `python3 su2_ratio.py` | [Results](su2-ratio-results.json) |
 | [SU(3) projection and five-gluon derivation](su3-channels.md) | `python3 su3_probe.py` | [Results](su3-channels-results.json) |
 | [Colour channels by order at five through seven gluons](channel-orders.md) | `python3 orders.py` | [Results](channel-orders-results.json) |
 | [Matched real Lorentzian counterexample](lorentzian-counterexample.md) | `python3 lorentzian.py` | [Results](lorentzian-counterexample-results.json) |

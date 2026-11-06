@@ -32,3 +32,7 @@ In particular the symmetric adjoint has one third of the total squared finite co
 ## Exact SU(4) check
 
 Run `python3 verify_su4.py > su4-results.json`. The script constructs SU(4) structure constants from matrices and obtains the four symmetric-pair projectors by polynomial interpolation of the colour operator. It verifies the eigenvalue polynomial and projector dimensions on the full symmetric pair space. It then assembles the finite five-gluon tensor and projects it at two distinct sets of real spectator coordinates. The fractions are exact. The formulas concern the first finite coefficient of the amplitude on the stated path. Literature novelty of the all-multiplicity law remains unverified.
+
+## SU(2) comparison
+
+For SU(2), the symmetric pair of adjoints has only the singlet and the five-dimensional channel. Their dimension-times-squared-eigenvalue weights are **4:5**. The [exact SU(2) check](su2-ratio.md) verifies the normalized shares at five, six, and seven gluons on the equal-split path.
