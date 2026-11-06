@@ -49,3 +49,5 @@ satisfy the new zero-coefficient constraints. Run
 from followups after the exact checks.
 
 See the [frozen predictions](common-cut-predictions.json), [exact verification](common-cut-verification.json), and [original-class checks](common-cut-class-results.json).
+
+The [replacement trace](replacement-trace.md) identifies the position-7 vector and tests how it changes under addbacks.
