@@ -43,3 +43,5 @@ python3 su2_basis.py > su2-basis-results.json
 ```
 
 See the [exact results](su2-basis-results.json).
+
+The [electroweak follow-up](su2-electroweak-limit.md) distinguishes the ordered high-energy limit from a finite-mass Higgs-exchange contribution.

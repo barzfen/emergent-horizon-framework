@@ -27,6 +27,7 @@ Run the commands in this directory. Each script prints JSON that can be compared
 | [SU(2) colour control](su2-control.md) | `python3 color_probe.py` | [Results](su2-control-results.json) |
 | [SU(2) finite colour ratio](su2-ratio.md) | `python3 su2_ratio.py` | [Results](su2-ratio-results.json) |
 | [SU(2) charged and neutral basis](su2-basis.md) | `python3 su2_basis.py` | [Results](su2-basis-results.json) |
+| [Electroweak limit and finite-mass check](su2-electroweak-limit.md) | Analytic derivation | In the note |
 | [SU(3) projection and five-gluon derivation](su3-channels.md) | `python3 su3_probe.py` | [Results](su3-channels-results.json) |
 | [Colour channels by order at five through seven gluons](channel-orders.md) | `python3 orders.py` | [Results](channel-orders-results.json) |
 | [Matched real Lorentzian counterexample](lorentzian-counterexample.md) | `python3 lorentzian.py` | [Results](lorentzian-counterexample-results.json) |
