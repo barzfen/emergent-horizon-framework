@@ -27,3 +27,5 @@ electroweak test would need its own treatment of masses, mixing and
 external polarization states.
 
 See the [exact results](su2-ratio-results.json) and the [SU(N) Casimir law](su-n-casimir-law.md).
+
+The [charged and neutral basis check](su2-basis.md) recovers the same shares from the same-sign diagonal and the total.

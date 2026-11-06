@@ -20,7 +20,7 @@ def chains(first, remaining):
             yield (emitted,*tail), epsilon(first,emitted,last)*sign
 
 
-def audit(n,sample):
+def tensors(n,sample):
     base, slopes = kinematics(n,sample)
     chain_rows = [((a,*tail), sign) for a in range(3) for tail,sign in chains(a,n-2)]
     assert all(len(colors)==n for colors, _ in chain_rows)
@@ -36,6 +36,11 @@ def audit(n,sample):
                 key[index] = color
             pole[tuple(key)] += sign*leading
             finite[tuple(key)] += sign*regular
+    return pole, finite
+
+
+def audit(n,sample):
+    pole, finite = tensors(n,sample)
     traces = defaultdict(Fraction)
     for (a,*spectators,b),value in finite.items():
         assert value==finite.get((b,*spectators,a),0)
