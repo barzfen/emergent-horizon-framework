@@ -36,3 +36,5 @@ Use `python3 electroweak_photon_initial.py 0 .48` with NumPy.
 Repeat with tilt 20 and with pair mass .06 for the other points.
 The [saved summary](electroweak-photon-initial-results.json)
 includes separate equal and opposite daughter helicity sums.
+
+The [incoming colour average](su2-incoming-average.md) separates the effect of selecting a fixed direction from aligning the incoming states.
