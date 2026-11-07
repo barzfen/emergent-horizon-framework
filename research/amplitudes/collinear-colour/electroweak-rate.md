@@ -44,3 +44,5 @@ selections or collider event rates.
 
 Run `python3 electroweak_rate.py > electroweak-rate-results.json` with NumPy.
 See the [full scan](electroweak-rate-results.json).
+
+The [transverse helicity follow-up](electroweak-helicities.md) tests how the matched shifts change when the helicity selection is broadened.

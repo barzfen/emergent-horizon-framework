@@ -38,12 +38,12 @@ def momenta(pair, masses, beam):
     return p
 
 
-def transverse(p):
+def transverse(p, helicities=HELICITIES):
     n = p[...,1:]/p[...,:1]
     n /= np.linalg.norm(n,axis=-1,keepdims=True)
     normal = np.array([0.,1.,0.])-n*n[...,1:2]
     normal /= np.linalg.norm(normal,axis=-1,keepdims=True)
-    pol = (normal+1j*HELICITIES[None,:,None]*np.cross(n,normal))/np.sqrt(2)
+    pol = (normal+1j*helicities[None,:,None]*np.cross(n,normal))/np.sqrt(2)
     eps = np.concatenate((np.zeros_like(p[...,:1]),pol),axis=-1)
     np.testing.assert_allclose(dot(eps,p),0,atol=1e-12)
     return eps
@@ -114,7 +114,7 @@ def amplitude(p, eps, external, mw, sine2):
         current[mask] = (v/(q2[:,None,None]-masses[None,:,None]**2),-h/(q2-mh**2))
 
 
-def evaluate(pair,mw,beam,sine2,ward=False):
+def evaluate(pair,mw,beam,sine2,ward=False,helicities=HELICITIES,return_rates=False):
     # W1,W2 are degenerate, so the complete spectator sum can use
     # these Cartesian states in place of W+,W-.
     states = np.eye(4,dtype=complex)
@@ -130,7 +130,7 @@ def evaluate(pair,mw,beam,sine2,ward=False):
         external[:,1:5] = states[middle]
         assignment = masses[np.argmax(np.abs(external),axis=-1)]
         p = momenta(pair,assignment,beam)
-        eps = transverse(p)
+        eps = transverse(p,helicities)
         values = amplitude(p,eps,external,mw,sine2)
         if ward and name in ("ZA","AZ","AA"):
             leg = 0 if name=="AZ" else 5
@@ -138,6 +138,8 @@ def evaluate(pair,mw,beam,sine2,ward=False):
             check = amplitude(p,eps,external,mw,sine2)
             assert np.max(np.abs(check))<2e-7*max(1,np.max(np.abs(values)))
         rates[name] = float(np.vdot(values,values).real)
+    if return_rates:
+        return rates
     total = sum(rates.values())
     return dict(fraction=rates["++"]/(3*total),
                 channel_fractions={name:r/total for name,r in rates.items()})
