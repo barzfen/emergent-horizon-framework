@@ -48,3 +48,7 @@ Use orders 2 and 3 for the coarser checks, and
 `python3 electroweak_photon_patch.py 5 --massless` for the
 finest massless check. The script emits the node data.
 See the [saved integrated results](electroweak-photon-patch-results.json).
+
+The [longitudinal follow-up](electroweak-photon-longitudinal.md) sums
+all physical final polarizations on the same patch. The diagnostic
+falls from 0.2063 to 0.1958 on the finest matched grid.
