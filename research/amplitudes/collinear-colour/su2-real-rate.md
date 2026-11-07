@@ -29,3 +29,5 @@ The calculation is restricted to one real hard event family and
 contains no broken-electroweak mass corrections.
 
 Run `python3 su2_real_rate.py > su2-real-rate-results.json` with NumPy.
+
+The [matched massive control](su2-mass-control.md) turns on a common vector mass and Higgs interactions.
