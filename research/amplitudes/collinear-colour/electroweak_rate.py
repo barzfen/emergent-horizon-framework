@@ -12,9 +12,9 @@ CHANNELS = ("++","ZZ","ZA","AZ","AA")
 HELICITIES = np.array([1,-1,-1,1,1,1])
 
 
-def momenta(pair, masses, beam):
+def momenta(pair, masses, beam, opening_azimuth=0., recoil_energy=4.):
     m1,mi,mj,ma,mb,m2 = masses.T
-    e1,ea,eb = 1.5,4.,5.
+    e1,ea,eb = 1.5,recoil_energy,9.-recoil_energy
     parent = np.sqrt(9-pair*pair)
     # Equal daughter energies, with longitudinal components fixed by
     # P dot p1 = (M²+m1²-m2²)/2.
@@ -26,12 +26,13 @@ def momenta(pair, masses, beam):
     ei = 6+(mi*mi-mj*mj)/24
     incoming = np.sqrt(ei*ei-mi*mi)[:,None]*beam
     z = np.zeros_like(ei)
-    p = np.stack((np.column_stack((z+e1,px,z,pz)),
+    y,z_pair = -pz*np.sin(opening_azimuth),pz*np.cos(opening_azimuth)
+    p = np.stack((np.column_stack((z+e1,px,y,z_pair)),
                   np.column_stack((-ei,-incoming)),
                   np.column_stack((ei-12,incoming)),
                   np.column_stack((z+ea,ax,z,az)),
                   np.column_stack((z+eb,-parent-ax,z,-az)),
-                  np.column_stack((z+e1,parent-px,z,-pz))),axis=1)
+                  np.column_stack((z+e1,parent-px,-y,-z_pair))),axis=1)
     np.testing.assert_allclose(p.sum(axis=1),0,atol=1e-12)
     np.testing.assert_allclose(dot(p,p),masses**2,atol=1e-12)
     np.testing.assert_allclose(dot(p[:,0]+p[:,5],p[:,0]+p[:,5]),pair**2,atol=1e-12)
@@ -43,7 +44,7 @@ def transverse(p, helicities=HELICITIES):
     n /= np.linalg.norm(n,axis=-1,keepdims=True)
     normal = np.array([0.,1.,0.])-n*n[...,1:2]
     normal /= np.linalg.norm(normal,axis=-1,keepdims=True)
-    pol = (normal+1j*helicities[None,:,None]*np.cross(n,normal))/np.sqrt(2)
+    pol = (normal+1j*helicities[...,None]*np.cross(n,normal))/np.sqrt(2)
     eps = np.concatenate((np.zeros_like(p[...,:1]),pol),axis=-1)
     np.testing.assert_allclose(dot(eps,p),0,atol=1e-12)
     return eps
@@ -115,7 +116,7 @@ def amplitude(p, eps, external, mw, sine2):
 
 
 def evaluate(pair,mw,beam,sine2,ward=False,helicities=HELICITIES,return_rates=False,
-             incoming=None):
+             incoming=None,opening_azimuth=0.,recoil_energy=4.):
     # W1,W2 are degenerate, so the complete spectator sum can use
     # these Cartesian states in place of W+,W-.
     states = np.eye(4,dtype=complex)
@@ -134,8 +135,14 @@ def evaluate(pair,mw,beam,sine2,ward=False,helicities=HELICITIES,return_rates=Fa
         external[:,0],external[:,5] = a,b
         external[:,1:5] = states[middle]
         assignment = masses[np.argmax(np.abs(external),axis=-1)]
-        p = momenta(pair,assignment,beam)
-        eps = transverse(p,helicities)
+        p = momenta(pair,assignment,beam,opening_azimuth,recoil_energy)
+        polarizations = np.asarray(helicities)
+        if polarizations.ndim==2:
+            count = len(polarizations)
+            polarizations = np.tile(polarizations,(len(p),1))
+            p = np.repeat(p,count,axis=0)
+            external = np.repeat(external,count,axis=0)
+        eps = transverse(p,polarizations)
         values = amplitude(p,eps,external,mw,sine2)
         if ward:
             photon_legs = [leg for leg in range(6) if np.all(external[:,leg,3]==1)]

@@ -41,3 +41,5 @@ a collider event selection.
 Run `python3 su2_incoming_rotation.py > su2-incoming-rotation-results.json`
 with NumPy. The [saved output](su2-incoming-rotation-results.json)
 includes the angular coefficients and each interference term.
+
+The [angular patch study](electroweak-photon-patch.md) tests whether the interference survives variation of the physical momenta.

@@ -37,6 +37,7 @@ Run the commands in this directory. Each script prints JSON that can be compared
 | [Electroweak rates with incoming photons](electroweak-photon-initial.md) | `python3 electroweak_photon_initial.py 0 .48` | [Results](electroweak-photon-initial-results.json) |
 | [Incoming colour direction and alignment](su2-incoming-average.md) | `python3 su2_incoming_average.py` | [Results](su2-incoming-average-results.json) |
 | [Incoming colour rotation and interference](su2-incoming-rotation.md) | `python3 su2_incoming_rotation.py` | [Results](su2-incoming-rotation-results.json) |
+| [Photon initial-state angular patch](electroweak-photon-patch.md) | `python3 electroweak_photon_patch.py 4` | [Results](electroweak-photon-patch-results.json) |
 | [Electroweak limit and finite-mass check](su2-electroweak-limit.md) | Analytic derivation | In the note |
 | [SU(3) projection and five-gluon derivation](su3-channels.md) | `python3 su3_probe.py` | [Results](su3-channels-results.json) |
 | [Colour channels by order at five through seven gluons](channel-orders.md) | `python3 orders.py` | [Results](channel-orders-results.json) |
