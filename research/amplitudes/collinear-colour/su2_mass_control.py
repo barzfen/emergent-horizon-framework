@@ -123,6 +123,14 @@ def check_neutral_higgs():
     return float(amplitude.real)
 
 
+def transverse_polarizations(p):
+    directions = p.copy()
+    directions[:,0] = np.copysign(np.linalg.norm(p[:,1:],axis=1),p[:,0])
+    eps = polarizations(directions)
+    np.testing.assert_allclose(dot(eps,p[:,None,:]),0,atol=1e-12)
+    return eps
+
+
 def main():
     helicity = np.flatnonzero(np.all(HEL==(1,-1,-1,1,1,1),axis=1))[0]
     words,basis = colour_basis()
@@ -138,7 +146,7 @@ def main():
         ref_share = measurements(ref,[True])[0]
         for ratio in (.15,.30,.45):
             pm = event(pair,ratio*pair,beam)
-            massive = tensor(pm,ratio*pair,polarizations(pm)[:,helicity]).reshape(3,81,3,1)
+            massive = tensor(pm,ratio*pair,transverse_polarizations(pm)[:,helicity]).reshape(3,81,3,1)
             share = measurements(massive,[True])[0]
             report.append(dict(tilt=tilt,pair_over_Q=pair/12,m_over_pair=ratio,
                                massless=ref_share,massive=share,shift=share-ref_share))

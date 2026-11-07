@@ -56,3 +56,5 @@ to the original five-boson reconstruction remains open. A quantitative
 test would vary the hard scale and the pair invariant mass independently.
 
 The [pole-free rate test](su2-rate.md) specifies a candidate combination in the massless theory.
+
+The [matched electroweak scan](electroweak-rate.md) evaluates a six-vector version of the rate combination with physical neutral labels.

@@ -26,9 +26,9 @@ checks the custodial projection identity for both masses.
 | Tilt | Pair mass / Q | Massless fraction | Massive fraction at m / pair mass = 0.30 | Shift |
 | ---: | ---: | ---: | ---: | ---: |
 | 0° | 0.02 | 0.111169 | 0.111209 | +0.000040 |
-| 0° | 0.08 | 0.112024 | 0.112772 | +0.000748 |
-| 20° | 0.02 | 0.130042 | 0.129978 | −0.000064 |
-| 20° | 0.08 | 0.132020 | 0.130865 | −0.001155 |
+| 0° | 0.08 | 0.112024 | 0.112761 | +0.000737 |
+| 20° | 0.02 | 0.130042 | 0.129988 | −0.000054 |
+| 20° | 0.08 | 0.132020 | 0.131022 | −0.000998 |
 
 The sign differs between the two geometries throughout this scan.
 The model retains custodial symmetry. Physical Z–photon mixing and
@@ -36,3 +36,5 @@ unequal vector masses are outside this control.
 
 Run `python3 su2_mass_control.py > su2-mass-results.json` with NumPy.
 The [saved scan](su2-mass-results.json) contains all 18 comparisons.
+
+The massive polarization vectors are built from unit spatial directions and checked for transversality. This corrects an earlier use of the massless direction formula. The [hypercharge scan](electroweak-rate.md) uses the corrected control.
