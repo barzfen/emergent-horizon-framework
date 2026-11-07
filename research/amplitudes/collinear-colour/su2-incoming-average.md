@@ -39,3 +39,5 @@ average against the direct trace. Run
 `python3 su2_incoming_average.py > su2-incoming-average-results.json`
 with NumPy. The [saved output](su2-incoming-average-results.json)
 also includes fixed MHV helicities and the equal-daughter sum.
+
+The [incoming rotation test](su2-incoming-rotation.md) resolves the angular sweep and its isospin interference.
