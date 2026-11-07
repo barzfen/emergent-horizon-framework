@@ -78,3 +78,7 @@ massive polarization bases at a representative nonplanar point.
 It reproduces the earlier transverse weights at that point. The
 saved transverse weights also agree channel by channel with the
 previous calculation on all three grids.
+
+The [leptonic decay follow-up](electroweak-photon-decays.md)
+keeps the production patch and applies charged-lepton and photon
+acceptance cuts with spin correlations.
