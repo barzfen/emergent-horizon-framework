@@ -1,5 +1,4 @@
 """Matched six-vector electroweak scan summed over transverse helicities."""
-from itertools import product
 import json
 import sys
 
@@ -21,10 +20,10 @@ def fraction(channels):
     return float(channels[0]/(3*sum(channels)))
 
 
-def main(tilt):
+def main(tilt, pair=.48):
     theta = np.radians(tilt)
     beam = (5/13*np.cos(theta),np.sin(theta),12/13*np.cos(theta))
-    pair,mw = .48,.144
+    mw = .30*pair
     words,basis = colour_basis()
     p0 = event(pair,0,beam)
     pm = event(pair,mw,beam)
@@ -71,4 +70,4 @@ def main(tilt):
 
 
 if __name__=='__main__':
-    main(float(sys.argv[1]))
+    main(*map(float,sys.argv[1:]))

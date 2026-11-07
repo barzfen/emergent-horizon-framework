@@ -39,3 +39,5 @@ Run `python3 electroweak_helicities.py 0` or
 `python3 electroweak_helicities.py 20` with NumPy.
 See the [planar](ew-helicity-planar.json) and [tilted](ew-helicity-tilted.json)
 results for the per-helicity weights and additional groupings.
+
+The [fixed-pair-mass energy scan](electroweak-scale.md) separates within-group changes from changes in helicity weights.
