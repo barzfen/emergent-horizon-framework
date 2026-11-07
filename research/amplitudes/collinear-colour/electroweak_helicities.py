@@ -20,10 +20,10 @@ def fraction(channels):
     return float(channels[0]/(3*sum(channels)))
 
 
-def main(tilt, pair=.48):
+def main(tilt, pair=.48, mass_ratio=.30):
     theta = np.radians(tilt)
     beam = (5/13*np.cos(theta),np.sin(theta),12/13*np.cos(theta))
-    mw = .30*pair
+    mw = mass_ratio*pair
     words,basis = colour_basis()
     p0 = event(pair,0,beam)
     pm = event(pair,mw,beam)

@@ -47,3 +47,5 @@ for tilt in 0 20; do
 done
 python3 electroweak_scale.py scale-*.json > electroweak-scale-results.json
 ```
+
+The [pair-mass scan](electroweak-pair-scale.md) changes the pair mass relative to the weak masses on two matched paths.
