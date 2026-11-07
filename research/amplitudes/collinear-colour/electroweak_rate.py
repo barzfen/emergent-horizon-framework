@@ -114,14 +114,19 @@ def amplitude(p, eps, external, mw, sine2):
         current[mask] = (v/(q2[:,None,None]-masses[None,:,None]**2),-h/(q2-mh**2))
 
 
-def evaluate(pair,mw,beam,sine2,ward=False,helicities=HELICITIES,return_rates=False):
+def evaluate(pair,mw,beam,sine2,ward=False,helicities=HELICITIES,return_rates=False,
+             incoming=None):
     # W1,W2 are degenerate, so the complete spectator sum can use
     # these Cartesian states in place of W+,W-.
     states = np.eye(4,dtype=complex)
     plus = np.array([1,1j,0,0])/np.sqrt(2)
     ends = [(plus,plus),(states[2],states[2]),(states[2],states[3]),
             (states[3],states[2]),(states[3],states[3])]
-    middle = np.array(list(product(range(4),repeat=4)))
+    species = range(4)
+    if incoming is None:
+        middle = np.array(list(product(species,repeat=4)))
+    else:
+        middle = np.array([(*incoming,*recoil) for recoil in product(species,repeat=2)])
     masses = np.array([mw,mw,mw/np.sqrt(1-sine2),0])
     rates = {}
     for name,(a,b) in zip(CHANNELS,ends):
@@ -132,11 +137,13 @@ def evaluate(pair,mw,beam,sine2,ward=False,helicities=HELICITIES,return_rates=Fa
         p = momenta(pair,assignment,beam)
         eps = transverse(p,helicities)
         values = amplitude(p,eps,external,mw,sine2)
-        if ward and name in ("ZA","AZ","AA"):
-            leg = 0 if name=="AZ" else 5
-            eps[:,leg] = p[:,leg]
-            check = amplitude(p,eps,external,mw,sine2)
-            assert np.max(np.abs(check))<2e-7*max(1,np.max(np.abs(values)))
+        if ward:
+            photon_legs = [leg for leg in range(6) if np.all(external[:,leg,3]==1)]
+            for leg in photon_legs:
+                replaced = eps.copy()
+                replaced[:,leg] = p[:,leg]
+                check = amplitude(p,replaced,external,mw,sine2)
+                assert np.max(np.abs(check))<2e-7*max(1,np.max(np.abs(values)))
         rates[name] = float(np.vdot(values,values).real)
     if return_rates:
         return rates

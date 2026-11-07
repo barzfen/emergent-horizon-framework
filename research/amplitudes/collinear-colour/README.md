@@ -34,6 +34,7 @@ Run the commands in this directory. Each script prints JSON that can be compared
 | [Matched electroweak transverse helicity sum](electroweak-helicities.md) | `python3 electroweak_helicities.py 0` | [Planar](ew-helicity-planar.json), [tilted](ew-helicity-tilted.json) |
 | [Electroweak energy scan at fixed pair mass](electroweak-scale.md) | Commands in the note | [Results](electroweak-scale-results.json) |
 | [Electroweak pair-mass scan](electroweak-pair-scale.md) | Commands in the note | [Results](electroweak-pair-scale-results.json) |
+| [Electroweak rates with incoming photons](electroweak-photon-initial.md) | `python3 electroweak_photon_initial.py 0 .48` | [Results](electroweak-photon-initial-results.json) |
 | [Electroweak limit and finite-mass check](su2-electroweak-limit.md) | Analytic derivation | In the note |
 | [SU(3) projection and five-gluon derivation](su3-channels.md) | `python3 su3_probe.py` | [Results](su3-channels-results.json) |
 | [Colour channels by order at five through seven gluons](channel-orders.md) | `python3 orders.py` | [Results](channel-orders-results.json) |

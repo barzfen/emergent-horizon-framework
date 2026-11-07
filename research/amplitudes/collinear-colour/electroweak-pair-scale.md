@@ -41,3 +41,5 @@ Pass the resulting JSON files for each path separately to
 
 The [saved results](electroweak-pair-scale-results.json) include
 the helicity-group breakdowns for both paths.
+
+The [fixed photon initial-state test](electroweak-photon-initial.md) checks the dependence on the incoming species sum.
