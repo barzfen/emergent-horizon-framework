@@ -37,3 +37,5 @@ physical production and decay, or an observable event selection.
 Run `python3 su2_rate.py > su2-rate-results.json` with standard-library Python.
 
 See the [saved results](su2-rate-results.json).
+
+The [real-momentum check](su2-real-rate.md) compares the planar benchmark with beam tilt and helicity sums.
