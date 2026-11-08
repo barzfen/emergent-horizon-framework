@@ -100,3 +100,7 @@ are truth channels and columns are the visible classifications.
 The code checks daughter mass shells and momentum conservation,
 the decay kernel normalization, the resolution ordering, and
 closure of the migration rows.
+
+The [ATLAS lost-lepton audit](atlas-lost-lepton-audit.md) traces
+how an experiment constrains a related background using a
+three-lepton control sample and simulated events.
