@@ -40,6 +40,7 @@ Run the commands in this directory. Each script prints JSON that can be compared
 | [Photon initial-state angular patch](electroweak-photon-patch.md) | `python3 electroweak_photon_patch.py 4` | [Results](electroweak-photon-patch-results.json) |
 | [Photon patch with all final polarizations](electroweak-photon-longitudinal.md) | `python3 electroweak_photon_longitudinal.py 2 3 4` | [Results](electroweak-photon-longitudinal-results.json) |
 | [Photon patch with leptonic decay cuts](electroweak-photon-decays.md) | `python3 electroweak_photon_decays.py 3 4` | [Results](electroweak-photon-decays-results.json) |
+| [Photon patch with visible-particle tagging](electroweak-photon-reconstruction.md) | `python3 electroweak_photon_reconstruction.py 3 4` | [Results](electroweak-photon-reconstruction-results.json) |
 | [Electroweak limit and finite-mass check](su2-electroweak-limit.md) | Analytic derivation | In the note |
 | [SU(3) projection and five-gluon derivation](su3-channels.md) | `python3 su3_probe.py` | [Results](su3-channels-results.json) |
 | [Colour channels by order at five through seven gluons](channel-orders.md) | `python3 orders.py` | [Results](channel-orders-results.json) |

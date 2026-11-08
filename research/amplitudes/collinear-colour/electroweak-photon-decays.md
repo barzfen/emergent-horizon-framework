@@ -91,3 +91,7 @@ limiting cases, and the spin contraction against a direct
 amplitude product. The uncut output divided by two agrees
 channel by channel with the earlier half-helicity production
 sums on both production grids.
+
+The [visible-particle tagging test](electroweak-photon-reconstruction.md)
+adds a separation requirement and classifies events without parent
+labels, separating channel losses from wrong assignments.
