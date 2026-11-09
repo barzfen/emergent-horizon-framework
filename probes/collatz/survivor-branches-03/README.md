@@ -47,6 +47,8 @@ A positive integer on an infinite coefficient-surviving branch would therefore h
 
 The distinction persists arbitrarily far down the tree. Every finite coefficient-surviving prefix can be followed by all ones, giving a negative rational lift. It can also be followed by any concatenation of the equal-length blocks $1111$ and $1110$, since all partial multipliers in both blocks are at least one. This gives uncountably many surviving extensions, of which only countably many are eventually periodic. Finite-prefix survival alone does not force eventual repetition.
 
+[COLLATZ-05](../multiplier-band-05/README.md) excludes rational lifts for a separate family of aperiodic branches whose multipliers stay bounded above and away from zero.
+
 ## The exact tree retains an offset case
 
 Consider a branch in the exact survivor tree with a contracting prefix. At that prefix, exact survival requires

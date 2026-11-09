@@ -88,6 +88,8 @@ since $n\ge3$. The inequality needs only those four parities, so it applies even
 
 [COLLATZ-04 · Bounding offset exceptions](../../probes/collatz/offset-bound-04/README.md) uses Terras's minimax bound and an exact residue sieve to rule out offset exceptions through 200,000 shortcut steps.
 
+[COLLATZ-05 · A multiplier band excludes rational lifts](../../probes/collatz/multiplier-band-05/README.md) rules out bounded-multiplier rational lifts and gives a polynomial lower bound on the multiplier range of a hypothetical positive coefficient survivor.
+
 Can we organise parity prefixes so that each contributes a certified family of starts, then describe exactly which starts remain after each stage? A certificate needs both the residue class that realises the prefix and its affine endpoint map $n\mapsto(an+b)/2^r$. The first gives the domain and the second lets us compare the endpoint with the starting value. Eventual coverage of **every** start greater than $1$ would prove the conjecture by strong induction. An increasing family of starts or arbitrarily long rising prefixes across different starts leaves open whether a single orbit can escape to infinity.
 
 The graph isomorphism and 2-adic setting come from the cited literature. For COLLATZ-01 we inspected the published de Bruijn paper's sections on the graph isomorphism and cycles, and the introduction of the Bernstein–Lagarias paper. The exact residue conditions and descent example above are worked calculations for this note, with no priority claim. Barz (`barzfen`) posed the Hamiltonian and proof-by-parts questions. AI assistance was used to consult the references, derive and check the example, and draft the note.
