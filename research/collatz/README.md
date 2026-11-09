@@ -112,6 +112,8 @@ since $n\ge3$. The inequality needs only those four parities, so it applies even
 
 [COLLATZ-16 · A sharp count of multiplier survivors](../../probes/collatz/survival-count-16/README.md) bounds the fraction of surviving residue classes and isolates the least positive representative as the remaining universal question.
 
+[COLLATZ-17 · Smaller starts and the limits of short merges](../../probes/collatz/smaller-merge-17/README.md) excludes a progression from being the least survivor and proves a divisibility bound that defeats any fixed two-depth merge search.
+
 Can we organise parity prefixes so that each contributes a certified family of starts, then describe exactly which starts remain after each stage? A certificate needs both the residue class that realises the prefix and its affine endpoint map $n\mapsto(an+b)/2^r$. The first gives the domain and the second lets us compare the endpoint with the starting value. Eventual coverage of **every** start greater than $1$ would prove the conjecture by strong induction. An increasing family of starts or arbitrarily long rising prefixes across different starts leaves open whether a single orbit can escape to infinity.
 
 The graph isomorphism and 2-adic setting come from the cited literature. For COLLATZ-01 we inspected the published de Bruijn paper's sections on the graph isomorphism and cycles, and the introduction of the Bernstein–Lagarias paper. The exact residue conditions and descent example above are worked calculations for this note, with no priority claim. Barz (`barzfen`) posed the Hamiltonian and proof-by-parts questions. AI assistance was used to consult the references, derive and check the example, and draft the note.
