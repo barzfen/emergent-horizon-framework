@@ -62,7 +62,7 @@ $$
 \qquad \chi<\eta<\gamma .
 $$
 
-Indeed, for any $\delta>0$ the difference is at most a fixed constant times $2^{(\eta-\chi+\delta)N'}$ at large scales. Comparing with $2^{N+D-1}$ gives the inequality after letting $\delta$ tend to zero. If infinitely many full-fit scales have successive ratios eventually bounded strictly below this threshold, the seed stabilises and realises the entire word. For $q=1$, a stabilised seed greater than one on a coefficient-surviving branch would be an actual Collatz counterexample. This leaves the existence of such a branch open.
+Indeed, for any $\delta>0$ the difference is at most a fixed constant times $2^{(\eta-\chi+\delta)N'}$ at large scales. Comparing with $2^{N+D-1}$ gives the inequality after letting $\delta$ tend to zero. If infinitely many full-fit scales have successive ratios eventually bounded strictly below this threshold, the seed stabilises and realises the entire word. For $q=1$, a stabilised seed greater than one on a coefficient-surviving branch would be an actual Collatz counterexample. This leaves the existence of such a branch open. [COLLATZ-14](../backward-terminal-14/README.md) uses the past prefix to test terminal heights without lookahead.
 
 ## Finite illustration and scope
 
