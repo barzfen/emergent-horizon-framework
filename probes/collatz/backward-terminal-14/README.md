@@ -53,4 +53,4 @@ For the biased symbolic family of COLLATZ-12 with odd frequency $\theta>\log_3 2
 
 Run `python3 verify.py` in this directory. The verifier checks 1,530 finite words and 768 past/future junctions across odd denominators $1,3,5$, and reconstructs the genuine start $27$. In the 1,600-bit symbolic example from COLLATZ-13, the smallest positive start has 1,595 bits. Its least terminal state has 1,894 bits, exceeding $2^{312}$, using the prefix alone.
 
-The fixed-budget test is exact. An exclusion for every positive budget, or an actual positive lift that survives indefinitely, would go beyond the results here. AI assistance was used for derivation, checks and drafting. No priority claim is made.
+The fixed-budget test is exact. [COLLATZ-15](../escape-tail-15/README.md) shows that the fixed-budget case captures every divergent positive orbit after a suitable shift. An exclusion for every positive budget, or an actual positive lift that survives indefinitely, would go beyond the results here. AI assistance was used for derivation, checks and drafting. No priority claim is made.
