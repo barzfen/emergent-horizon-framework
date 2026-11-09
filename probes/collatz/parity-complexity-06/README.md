@@ -62,4 +62,6 @@ The final word has $p_w(d)=2^d$ for every $d$, since every word was placed somew
 
 This construction clears the previous multiplier lower bound and has the largest possible whole-word factor count. The obstruction comes from when the factors occur. The proof leaves open whether a coefficient survivor with enough distinct early windows can have a positive integer lift. The polynomial-growth argument also leaves branches with faster multiplier growth open.
 
+[COLLATZ-07](../residue-size-07/README.md) constructs branches that pass the early-window count but fail a residue-size test.
+
 The congruence argument and mechanical word use the cited literature. We read Dubickas's proof of Theorem 5 and the relevant parts of López and Stoll. The finite-window criterion and the construction are worked out here without a priority claim. AI assistance was used for derivation, arithmetic checks and drafting.
