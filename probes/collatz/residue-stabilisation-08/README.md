@@ -39,7 +39,9 @@ In either case the constant numerator $p$ realises arbitrarily long prefixes and
 
 Suppose the word is a coefficient survivor with $1\le P_i=O((i+1)^\beta)$. Set $s=\beta+1$ and choose $D>s$. For any genuine fixed-denominator orbit, COLLATZ-05 bounds all its first $N_m$ numerator values by $K N_m^s$ for some fixed $K$. At sufficiently large scales these actual numerators are the signed representatives. Thus a genuine positive integer lift greater than one passes the positive starting-window test and the full size bound eventually. Conversely, eventual positive fits, or positive fits at lower density greater than $s/D$, give that genuine lift.
 
-With $\beta=4\log_2 3$ and $D=30$, as in COLLATZ-07, $s/D=0.2446616667\ldots$ and $D/s=4.08727\ldots$. The multiplier is at least one at every step, and the nonnegative affine offset ensures that an orbit starting at $n>1$ never falls below $n$. So a positive lift here would be a counterexample to Collatz. The reconstruction criterion does not produce such a lift or prove that none exists. It characterises the persistent-fit case within this polynomially bounded coefficient-survivor class. [Lagarias (1985), first descent and coefficient stopping times](https://www.cecm.sfu.ca/organics/papers/lagarias/paper/html/node5.html)
+With $\beta=4\log_2 3$ and $D=30$, as in COLLATZ-07, $s/D=0.2446616667\ldots$ and $D/s=4.08727\ldots$. The multiplier is at least one at every step, and the nonnegative affine offset ensures that an orbit starting at $n>1$ never falls below $n$. So a positive lift here would be a counterexample to Collatz. The reconstruction criterion does not produce such a lift or prove that none exists. It characterises the persistent-fit case within this polynomially bounded coefficient-survivor class.
+
+[COLLATZ-09](../regular-growth-09/README.md) improves the height envelope for two-sided polynomial multiplier growth and excludes slow exponents in that class. [Lagarias (1985), first descent and coefficient stopping times](https://www.cecm.sfu.ca/organics/papers/lagarias/paper/html/node5.html)
 
 ## Sharpness for the single-window test
 
