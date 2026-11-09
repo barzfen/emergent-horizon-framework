@@ -1,0 +1,12 @@
+{
+  "certificate_depth": 200000,
+  "record_depth": 125743,
+  "largest_possible_exception": 5205340379,
+  "sieve_depth": 20,
+  "sieve_cutoff": 24,
+  "sieve_surviving_residue_classes": 27328,
+  "starts_directly_checked": 135661634,
+  "max_first_contraction": 447,
+  "least_start_at_max_first_contraction": 2788008987,
+  "offset_exceptions": 0
+}

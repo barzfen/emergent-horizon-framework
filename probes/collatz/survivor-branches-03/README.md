@@ -64,6 +64,8 @@ This gives the two separate obligations for a first-descent proof of Collatz.
 
 The depth-30 census found no offset exceptions at the first contraction within that horizon. The two obligations distinguish that bounded check from a global statement. Every counterexample to Collatz has a smallest value $n>1$ in its forward orbit, and starting at that value gives an infinite exact survivor. [Lagarias (1985), coefficient stopping time discussion](https://www.cecm.sfu.ca/organics/papers/lagarias/paper/html/node5.html)
 
+[COLLATZ-04](../offset-bound-04/README.md) certifies the absence of offset exceptions when the first coefficient contraction occurs within 200,000 shortcut steps.
+
 ## No finite graph reads all survivor prefixes exactly
 
 For $k\ge1$, let $b_k$ be the largest integer $j\ge0$ such that $3^k\ge2^{k+j}$. The word $1^k0^j$ is a coefficient survivor exactly for $j\le b_k$. It follows $k$ odd steps by $j$ halvings, so its multiplier first rises and then decreases.
