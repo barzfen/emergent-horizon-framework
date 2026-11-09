@@ -68,4 +68,6 @@ This also yields uncountably many irrational coefficient survivors with $1\le P_
 
 For a positive integer coefficient survivor, the proof requires polynomial growth of the running multiplier maximum. It leaves open whether a branch with such growth has a positive integer lift. The offset case is separate and retains the finite horizon of COLLATZ-04.
 
+[COLLATZ-06](../parity-complexity-06/README.md) tests polynomial-growth branches by how many distinct parity windows appear early.
+
 The proof uses the cited parity coding and boundary construction. We inspected the relevant parts of Terras and López and Stoll. The multiplier-range argument and its applications are given here as a self-contained derivation, with no priority or sharpness claim. AI assistance was used for derivation, arithmetic checks and drafting.
