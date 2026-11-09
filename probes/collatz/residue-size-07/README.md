@@ -67,4 +67,6 @@ Run `python3 verify.py` from this directory. With the fixed seed in the script, 
 
 The early-window count alone cannot distinguish this family from the necessary condition for rational lifts. The size check rejects the family using the actual residue values. Its proof concerns a specified distribution of symbolic words. It does not address all coefficient-surviving words, and supplies no distributional assumption about an actual Collatz orbit. The open case includes branches whose early residues do fit the height bound.
 
+[COLLATZ-08](../residue-stabilisation-08/README.md) shows when fitting residues at larger scales force a single rational lift.
+
 We used the cited parity coding and mechanical-word construction. The separation of the two tests is proved above without a priority claim. AI assistance was used for derivation, verification and drafting.
