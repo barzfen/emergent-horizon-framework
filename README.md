@@ -30,6 +30,7 @@ The repository is intended to preserve both positive and negative results and to
 - `foundation/` — primitives and foundational definitions.
 - `formal/` — definitions, lemmas, conjectures, and proved results.
 - `research/` — topic-oriented research notes.
+  - [Collatz working note and Hamiltonian example](research/collatz/README.md)
 - `probes/` — individual computational and analytic probes.
 - `code/` — reproducible probe code.
 - `data/` — retained datasets that cannot be cheaply regenerated.
