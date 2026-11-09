@@ -69,4 +69,6 @@ The script uses Python's standard library and exact integer arithmetic. It compa
 
 At every finite depth $d$, the all-odd word is still present, in the class $n\equiv-1\bmod 2^d$. Its members include $2^d-1$, which increases for the first $d$ shortcut steps. Yet a single integer in all these nested classes would have to equal $-1$. That is an exact example of an indefinitely surviving branch with no positive integer on it. The unresolved question is whether every indefinitely surviving branch excludes integer starts greater than $1$.
 
+[COLLATZ-03](../survivor-branches-03/README.md) addresses repeating tails and distinguishes coefficient survival from exact survival beyond the census.
+
 This is a reproducible baseline for EHF's question about what a compressed description preserves. We consulted the relevant statements in Terras and Lagarias and the abstract for Everett. AI assistance was used for source review, the implementation and the write-up. The census makes no priority claim.
