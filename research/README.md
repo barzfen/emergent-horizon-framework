@@ -19,3 +19,5 @@ Working notes may be speculative, but each document should label its evidence st
 
 [QM bridge revisits 01–03](../probes/qm-bridge/README.md) audit supplied quantum structure, orientation transport from actual moves, and its exact classical control. These are bounded working probes, not a derivation of physical QM.
 
+
+[Wieferich modular cycle lifting, EHF-WIEF-02](wieferich/EHF-WIEF-02/README.md) records exact cycle splitting versus elongation under prime-power refinement, with reproducible Python verification; this is established number theory used as an EHF comparison probe.
