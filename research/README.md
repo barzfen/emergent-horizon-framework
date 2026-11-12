@@ -21,3 +21,5 @@ Working notes may be speculative, but each document should label its evidence st
 
 
 [Wieferich modular cycle lifting, EHF-WIEF-02](wieferich/EHF-WIEF-02/README.md) records exact cycle splitting versus elongation under prime-power refinement, with reproducible Python verification; this is established number theory used as an EHF comparison probe.
+
+[Hamiltonian growth-lift audit, EHF-GROW-LIFT-01](../probes/reversals/growth-lift-09/README.md) checks RAW, MICRO and OPW3/OPW23 reversal graphs across insertions and shows why component splitting is not automatically a compatible cycle lift. It links the Wieferich comparison to an explicit deletion/transition obstruction.
