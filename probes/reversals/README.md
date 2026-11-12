@@ -58,3 +58,7 @@ We removed the six-slide cutoff and searched every reachable graph. The 28 missi
 The experiments give explicit paths from short graph edits to longer rearrangements, and one controller that preserves a supplied position constraint when a ring closes. The controller starts with an anchor and parity tags, and the experiments serialize its moves. The first two controller comparisons use one starting ring. The seventh experiment covers the 96-ring set. All three measure probabilities within six slides. The eighth experiment settles reachability on this set without a cutoff. Longer-run probabilities and other sets of rings remain open.
 
 For the wider Emergent Horizon Framework and how this series connects to its other work, see the [foundations map](../../research/foundations/CONNECTIONS-01.md).
+
+### 9. Does adding a vertex really lift the existing dynamics?
+
+[EHF-GROW-LIFT-01 — Hamiltonian growth and reversal compatibility](growth-lift-09/README.md) compares RAW LR3 components over sizes 5–9, MICRO deletion closure, and odd-size OPW3/OPW23 projections. The RAW even/odd component pattern is exact, but child LR3 moves can project to LR2 at the smaller size; in the OPW 7→9 test many legal child moves project to forbidden parent transitions. This is **not yet** a Wieferich-style cycle lift. Reproducible scripts and independent checks are included.
