@@ -1,6 +1,6 @@
 # Signed-graph reconstruction and reversal sectors
 
-**Status:** [SIGN-01](SIGN-01.md) completed: orientation signs do not distinguish the unmarked unrestricted LR3 parity sectors. [SIGN-02](SIGN-02.md) proves that orientation does not improve prediction of the original marked insertion readout once the unsigned gap class is known. Switching-deck reconstruction remains open for this research thread.  
+**Status:** [SIGN-01](SIGN-01.md) completed: orientation signs do not distinguish the unmarked unrestricted LR3 parity sectors. [SIGN-02](SIGN-02.md) proves that orientation does not improve prediction of the original marked insertion readout once the unsigned gap class is known. [SIGN-03](SIGN-03.md) shows that a directional insertion controller can distinguish mirror starts and that randomizing the direction removes the difference. Switching-deck reconstruction remains open for this research thread.  
 **Scope:** Combinatorial reconstruction, not a physical model.
 
 Admissible comparison is the chosen primitive data of the framework. EHF studies what can be reconstructed from an admissible-comparison relation. Here the question is whether a sector distinction is recoverable from admissible reversal events and their induced orientation transport, without supplying the sector labels.
