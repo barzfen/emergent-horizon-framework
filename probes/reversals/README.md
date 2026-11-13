@@ -62,3 +62,7 @@ For the wider Emergent Horizon Framework and how this series connects to its oth
 ### 9. Does adding a vertex really lift the existing dynamics?
 
 [EHF-GROW-LIFT-01 — Hamiltonian growth and reversal compatibility](growth-lift-09/README.md) compares RAW LR3 components over sizes 5–9, MICRO deletion closure, and odd-size OPW3/OPW23 projections. The RAW even/odd component pattern is exact, but child LR3 moves can project to LR2 at the smaller size; in the OPW 7→9 test many legal child moves project to forbidden parent transitions. This is **not yet** a Wieferich-style cycle lift. Reproducible scripts and independent checks are included.
+
+### 10. Can a growth-compatible local orbit split or elongate?
+
+[EHF-GROW-LIFT-02 — local Hamiltonian orbit lifting](growth-lift-10/README.md) gives an all-size MICRO-compatible LR3 marked-triple involution, three OPW23-selected length-4 lifts at n=7, and an exact n=9 obstruction to extending that specific twisted controller. The distinction between local admissible moves, globally selected deterministic controllers and commuting growth projections is explicit. Standard-library code, independent verification and witness results are retained.
