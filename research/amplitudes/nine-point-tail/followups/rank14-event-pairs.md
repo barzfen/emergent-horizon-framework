@@ -117,3 +117,7 @@ Derive a **minimal-support** or intrinsic event relation predicting the correct 
 - [Order-dependent symmetry-sector cancellations](shuffle-sectors.md)
 - [Local ordering features that already failed](ordering-geometry.md)
 - [Orientation-event groupoid comparison](../../../../probes/reversals/event-groupoid-14/README.md)
+
+## Later result: exact minimum when two words do not suffice
+
+[EHF-AMP-HOL-BRIDGE-04](rank14-minimal-triples.md) finds and certifies **three-word repairs** for both exceptional fibres (2,5,7) and (3,5,7), proving the minimum support is three there. The complete minimum-support profile for all six rank-14 fibres is 3,2,3,2,2,2. This supersedes the earlier statement that their exact minimum remained open, but leaves the problem of deriving the minimum from purely local ordering geometry open.
