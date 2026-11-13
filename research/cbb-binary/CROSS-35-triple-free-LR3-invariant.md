@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-35 — Triple-free LR3 invariant and reduction to two LR4 triggers
 
+**Correction (2026-11-13).** The global triple-freeness claim below is false. [CROSS-39](CROSS-39-equal-pair-ancestry.md) gives a two-move counterexample and proves that for this family the first triple occurs at depth `t+1`, one move after first LR4 activation. The original text follows for provenance.
+
 Date: 2026-11-11. Status: proved invariant for arbitrary proper cyclic three-colour words under LR3; finite BFS observations for the frozen family; general escape-depth lower bound remains open.
 
 ## Exact setting
