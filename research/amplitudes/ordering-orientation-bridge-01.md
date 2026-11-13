@@ -47,3 +47,7 @@ The [signed orientation audit](nine-point-tail/followups/signed-orientation-brid
 ## Follow-up: two-word event selectors checked (EHF-AMP-HOL-BRIDGE-03)
 
 The [six-fibre two-word audit](nine-point-tail/followups/rank14-event-pairs.md) computes all rank-restoring excluded-word pairs in the six rank-14 cuts, with counts 0,4,0,11,18,20. A combinatorial template learned from the maximal cut captures all 53 successes, but gives 67 false positives on six cuts; two fibres require at least three added words. This is a candidate selector, not a derived Hamiltonian event law or a prediction of the amplitude ranks without KK algebra.
+
+## Follow-up: support complexity classified (EHF-AMP-HOL-BRIDGE-04)
+
+The [minimal-triple repair audit](nine-point-tail/followups/rank14-minimal-triples.md) closes the two remaining rank-14 cases: both (2,5,7) and (3,5,7) have **minimum repair support 3**, with exact three-word witnesses and no smaller repairs. Across the six rank-14 cuts, minimum support is 3,2,3,2,2,2, despite identical one-dimensional target defects. This is a concrete finite reconstruction-distance effect, **not** a derivation of SU(3)'s planar 1:2:3 law.
