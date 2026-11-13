@@ -54,9 +54,11 @@ All four cycles have Pi={0,2,5,6}. Their two-step-deletion images alternate betw
 
 The 7->9 projection has 30 admissible children over *each* X7 state. For each of the six selected LR2 arcs of the twisted F7, the X9 OPW23 graph has only **20** cross-fiber edges, touching just **20 of 30** source children. The other **10 have no admissible LR2/LR3 successor projecting to that prescribed parent target**.
 
-Thus there is **no everywhere-defined OPW23 local-move permutation F9** satisfying `pi F9=F7_twist pi` for this chosen F7. The marked-triple flip F7_split **does** lift to size 9 and beyond.
+I also tested **both orientations of all six extra LR2 cross-fiber connections** (twelve directed arcs). Every such directed alternative has exactly 20 reachable source children and 10 with no admissible successor projecting to the target.
 
-This is a precise **finite obstruction to extending one chosen controller**, not a no-go theorem for all possible nontrivial OPW23 monodromies, and not a proof that LR2 cannot matter at larger sizes.
+Thus there is **no everywhere-defined OPW23 local-move permutation F9** satisfying `pi F9=F7_twist pi` for the chosen twist. More strongly, **given this fixed X5 marked-flip base permutation, any single-step OPW23 controller F7 that commutes with X5 and extends as an everywhere-defined single-step OPW23 controller to X9 must equal the marked-triple flip at X7**. To see this, every cross-fiber move at X7 is either the unique LR3 matching or one of the six alternative LR2 edges; all alternative LR2 directions have the demonstrated X9 obstruction. The marked-triple flip does extend to size 9 and beyond.
+
+This is a **bounded, conditional uniqueness/obstruction result** for fixed colour assignments, Pi constraints, two-vertex growth projections, and one permitted reversal per step. It does not rule out other base dynamics, changed constraints, longer microstep protocols, auxiliary controller memory, or nontrivial monodromy in other EHF systems.
 
 ## A cocycle/holonomy description
 
