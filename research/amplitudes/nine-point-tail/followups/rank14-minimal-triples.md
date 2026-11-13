@@ -147,3 +147,7 @@ The second script tests the witnesses by **direct rational KK rank computations*
 - [Signed reflection and tail support](signed-orientation-bridge.md)
 - [Original nine-point theorem and reference-chart reconstruction](../README.md)
 - [HOL-06 event-labelled Hamiltonian transport](../../../../probes/reversals/event-groupoid-14/README.md)
+
+## Follow-up: canonical LR3 threshold
+
+[EHF-AMP-HOL-BRIDGE-05](rank14-lr3-threshold.md) shows that a **single prescribed LR3 pair** centred on deleted label 9 repairs all four two-word cases and neither three-word case. The finite rule is κ₁=2 or κ₃=4, derived through two seed certificates, support inclusion and one negative seed obstruction. This does not yet derive the seed identities from local reversal geometry alone.
