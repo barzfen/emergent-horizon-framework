@@ -10,3 +10,5 @@ The ordering studies ask which identities lift through prescribed cyclic support
 [Orientation and ordering bridge](ordering-orientation-bridge-01.md) compares event-labelled Hamiltonian orientation, nine-point tail support-cut ranks, and collinear exchange parity. It proposes an exact signed-residue equivariance test; it does **not** derive the 1:2:3 norm law from holonomy.
 
 [Signed orientation and tail support audit](nine-point-tail/followups/signed-orientation-bridge.md) gives an exact 40,320-word reflection/residue commutation check and shows why reflection closure does not repair the six tail-rank classes. The rank-14 two-word support repair is independently reproduced.
+
+[Rank-14 repair-pair audit](nine-point-tail/followups/rank14-event-pairs.md) exhaustively classifies two-word support repairs in all six rank-14 tail fibres; a fitted label-swap template filters candidates but cannot replace the KK quotient cancellation criterion. Includes exact code, held-out fibre checks and preserved pair data.
