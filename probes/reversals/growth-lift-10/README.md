@@ -90,3 +90,7 @@ Seek a **purely local rule for selecting** among OPW23 moves that yields nontriv
 - [CBB BIN-02](../../../research/cbb-binary/BIN-02-history-audit.md): unique insertion history.
 - Standard reference for adding-machine actions on rooted trees: https://pi.math.cornell.edu/~justin/Limited2Cornell/auto_dyn_grp.pdf
 - Gross and Tucker (1977), permutation-voltage graph coverings: https://doi.org/10.1016/0012-365X(77)90131-5
+
+## Follow-up
+
+[GROW-LIFT-03](../growth-lift-11/README.md) tests whether multi-step paths remove this obstruction. They do not if Pi is preserved along the path; only 23/30 descendants can be matched under unbounded OPW23 paths. Dropping Pi, while retaining MICRO, admits a globally selected compatible macrostep permutation with two local reversals per macrostep and 90 four-step orbits at nine vertices.
