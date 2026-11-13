@@ -1,5 +1,10 @@
 {
   "setup": "MICRO marked labels {1,2,3}, canonical undirected cycles, Pi-preserving OPW3/OPW23",
+  "five_vertex_OPW23_control": {
+    "simple_edges": 3,
+    "ambiguous_directed_edges": 6,
+    "inverse_consistent_event_sets": true
+  },
   "systems": [
     {
       "vertices": 7,
