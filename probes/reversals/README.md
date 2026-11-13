@@ -74,3 +74,7 @@ For the wider Emergent Horizon Framework and how this series connects to its oth
 ### 12. Does one bit of memory produce Hamiltonian holonomy?
 
 [EHF-GROW-LIFT-04 — one-bit memory versus reciprocal graph voltage](growth-lift-12/README.md) tests a growth-compatible, time-directed one-bit skew product on MICRO/OPW3 carriers at n=5,7,9. It yields four-step **augmented** orbits but the underlying Hamiltonian geometry remains two-periodic. A naive canonical-orientation bit fails deletion compatibility; a persistent labelled frame repairs it. The n=7 move graph comprises 18 edges and nine commuting squares, giving rank 9 on its bare 1-skeleton but zero first cohomology if those squares are filled. This does not resolve the earlier OPW23 four-step **geometric** lift.
+
+### 13. Does orientation holonomy emerge from EHF reversals?
+
+[EHF-HOL-05 — natural orientation cocycle and growth obstruction](orientation-holonomy-13/README.md) independently audits oriented lifts of admissible LR2/LR3 moves at n=7 and 9. OPW23 (but not OPW3) has an intrinsically defined reciprocal Z2 orientation voltage with nontrivial five-step and ten-step closed-path witnesses. The class survives all four- and six-step loop fillings tested, but becomes exact when restricted to edges respecting the existing 7→9 deletion projection. Includes reproducible computation and independent checks.
