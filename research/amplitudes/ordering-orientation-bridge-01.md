@@ -39,3 +39,7 @@ However, the Hamiltonian orientation cover alone supplies neither the SU(3) repr
 - [Event-labelled Hamiltonian orientation](../../probes/reversals/event-groupoid-14/README.md)
 
 **Recommendation:** run the signed-residue equivariance and support-closure test before proposing any correspondence of amplitude rank classes with Hamiltonian cocycle classes. This note records research motivation and a falsifiable comparison, not a new theorem.
+
+## Follow-up: signed test completed (EHF-AMP-HOL-BRIDGE-02)
+
+The [signed orientation audit](nine-point-tail/followups/signed-orientation-bridge.md) has now been run. It finds `D_9 R_9 = - R_8 D_9`, or `D_9 J_9 = J_8 D_9` with signed Parke–Taylor reflections, on all 40,320 anchored source words. Yet appending reflected copies of each allowed word **never enlarges any of the 35 restricted residue images**, whereas restoring the full original 576-word parity fibre gives rank 15 everywhere. Thus the rank law is not explained by simply restoring an orientation sheet. The real restriction concerns the available same-parity source words and their KK cancellation relations.
