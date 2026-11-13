@@ -78,3 +78,7 @@ For the wider Emergent Horizon Framework and how this series connects to its oth
 ### 13. Does orientation holonomy emerge from EHF reversals?
 
 [EHF-HOL-05 — natural orientation cocycle and growth obstruction](orientation-holonomy-13/README.md) independently audits oriented lifts of admissible LR2/LR3 moves at n=7 and 9. OPW23 (but not OPW3) has an intrinsically defined reciprocal Z2 orientation voltage with nontrivial five-step and ten-step closed-path witnesses. The class survives all four- and six-step loop fillings tested, but becomes exact when restricted to edges respecting the existing 7→9 deletion projection. Includes reproducible computation and independent checks.
+
+### 14. Track actual reversal events under growth
+
+[EHF-HOL-06 — event-labelled orientation and growth](event-groupoid-14/README.md) retains which LR2/LR3 segment was reversed, resolves parallel orientation-carrying events, and shows exact MICRO-only oriented deletion compatibility. The stricter OPW23 Pi restriction still blocks some projected events. The [amplitude-oriented bridge proposal](../../research/amplitudes/ordering-orientation-bridge-01.md) separates established tail/collinear selection rules from unproved cross-programme analogies.
