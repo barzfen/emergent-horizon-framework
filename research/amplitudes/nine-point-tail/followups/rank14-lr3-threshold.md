@@ -69,7 +69,7 @@ Together these establish the entire table **using two positive seed KK certifica
 
 - [rank14_lr3_threshold_probe.py](rank14_lr3_threshold_probe.py) checks the rank before/after the canonical LR3 pair for every fibre, verifies all support-poset inclusions, constructs the two rational seed relations, transports and checks them, invokes the prior exhaustive negative-case oracle, and confirms the two minimal triples. Standard library only; imports existing [rank14_event_pairs.py](rank14_event_pairs.py) and [signed_orientation_bridge.py](signed_orientation_bridge.py).
 - [verify_rank14_lr3_threshold.py](verify_rank14_lr3_threshold.py) independently implements the KK shuffle, collision deletion, and rational elimination. It checks all six ranks and both seed certificates without importing the main probe.
-- [rank14-lr3-threshold-results.json](rank14-lr3-threshold-results.json) retains the six-rank table, both exact seed coefficient certificates and the transported-support checks.
+- [rank14-lr3-threshold-results.json](rank14-lr3-threshold-results.json) retains the six-rank table, seed-certificate metadata and support-inclusion checks. The committed snapshot omits the full coefficient lists for compactness; running the primary probe regenerates those exact seed coefficient certificates in the same JSON filename.
 
 Execute from this directory:
 
