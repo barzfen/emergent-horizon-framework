@@ -70,3 +70,7 @@ For the wider Emergent Horizon Framework and how this series connects to its oth
 ### 11. Can longer Hamiltonian orbits survive growth if Pi is relaxed?
 
 [EHF-GROW-LIFT-03 — Pi conservation barrier and MICRO-only macrostep rescue](growth-lift-11/README.md) exhaustively audits the 12 directed exceptional seven-vertex LR2 transitions at nine vertices. Pi-preserving paths match at most 23 of 30 descendants, whereas two MICRO-only microsteps admit a compatible 2,160-state permutation retaining 90 four-step orbits. The selected controller requires global fiber matching; it is not a local autonomous OPW23 rule. Exact code, independent direct-swap verification, and witness data are included.
+
+### 12. Does one bit of memory produce Hamiltonian holonomy?
+
+[EHF-GROW-LIFT-04 — one-bit memory versus reciprocal graph voltage](growth-lift-12/README.md) tests a growth-compatible, time-directed one-bit skew product on MICRO/OPW3 carriers at n=5,7,9. It yields four-step **augmented** orbits but the underlying Hamiltonian geometry remains two-periodic. A naive canonical-orientation bit fails deletion compatibility; a persistent labelled frame repairs it. The n=7 move graph comprises 18 edges and nine commuting squares, giving rank 9 on its bare 1-skeleton but zero first cohomology if those squares are filled. This does not resolve the earlier OPW23 four-step **geometric** lift.
