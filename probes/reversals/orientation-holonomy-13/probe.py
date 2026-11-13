@@ -234,6 +234,8 @@ def growth_check(lower,upper):
 
 
 def main():
+    control5=build(states(5),(2,3))
+    assert len(control5[0])==3 and control5[3]==6 and control5[4]
     results=[];systems={}
     for n in (7,9):
         for lengths in ((3,),(2,3)):
@@ -247,6 +249,9 @@ def main():
             for k in ((3,),(2,3))}
     print('GROWTH',growth,flush=True)
     results_data={'setup':'MICRO marked labels {1,2,3}, canonical undirected cycles, Pi-preserving OPW3/OPW23',
+                  'five_vertex_OPW23_control':{'simple_edges':len(control5[0]),
+                       'ambiguous_directed_edges':control5[3],
+                       'inverse_consistent_event_sets':control5[4]},
                   'systems':results,'growth':growth}
     Path(__file__).with_name('results.json').write_text(json.dumps(results_data,indent=2)+'\n')
     assert [x['nontrivial_orientation_components'] for x in results]==[0,3,0,9]
