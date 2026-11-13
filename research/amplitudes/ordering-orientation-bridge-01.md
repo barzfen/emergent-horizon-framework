@@ -51,3 +51,7 @@ The [six-fibre two-word audit](nine-point-tail/followups/rank14-event-pairs.md) 
 ## Follow-up: support complexity classified (EHF-AMP-HOL-BRIDGE-04)
 
 The [minimal-triple repair audit](nine-point-tail/followups/rank14-minimal-triples.md) closes the two remaining rank-14 cases: both (2,5,7) and (3,5,7) have **minimum repair support 3**, with exact three-word witnesses and no smaller repairs. Across the six rank-14 cuts, minimum support is 3,2,3,2,2,2, despite identical one-dimensional target defects. This is a concrete finite reconstruction-distance effect, **not** a derivation of SU(3)'s planar 1:2:3 law.
+
+## Follow-up: the LR3 event threshold (EHF-AMP-HOL-BRIDGE-05)
+
+The [canonical LR3 threshold audit](nine-point-tail/followups/rank14-lr3-threshold.md) identifies one explicit three-position reversal on **two excluded zero-residue words** that repairs precisely the four rank-14 fibres having minimum extra-word support two. The other two require three. A support-cut lattice proves the complete finite rule from two positive seed KK certificates and one negative seed obstruction. The seed algebra has not yet been derived solely from EHF local admissibility, and the three labels 1:2:3 in the separate collinear colour-ratio law remain unrelated.
