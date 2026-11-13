@@ -94,6 +94,22 @@ def run():
         obstruction.append({'source_parent':list(X[7][v]),'target_parent':list(X[7][u]),
             'child_fiber':30,'edges_to_target':20,'unreachable_children':10,
             'witness':list(X[9][min(A-hits)])})
+    # Exhaustive obstruction for both orientations of every extra cross-fiber
+    # LR2 edge, not merely for the six arcs used by the selected controller.
+    all_extra=[]
+    for i,j in sorted(G[7]['OPW23']-G[7]['OPW3']):
+        if tuple(sorted((p7[i],p7[j]))) not in G[5]['OPW3']:
+            continue
+        for src,dst in ((i,j),(j,i)):
+            A=set(fibers9[src]);B=set(fibers9[dst])
+            e={(a,b) for a,b in G[9]['OPW23'] if
+               (a in A and b in B) or (a in B and b in A)}
+            hits={a for a,b in e if a in A}|{b for a,b in e if b in A}
+            assert len(e)==20 and len(hits)==20
+            all_extra.append({'source_parent':list(X[7][src]),
+                              'target_parent':list(X[7][dst]),
+                              'unreachable_children':30-len(hits)})
+    assert len(all_extra)==12
     result={'states':{str(n):len(X[n]) for n in X},
             'move_edges':{str(n):{m:len(e) for m,e in G[n].items()} for n in X},
             'marked_flip_orbits':{str(n):orbit_hist(F[n]) for n in X},
@@ -101,7 +117,8 @@ def run():
             'opw23_twist_n7_orbits':orbit_hist(twist),
             'four_state_square_examples':squares,
             'twisted_LR2_arcs':len(changed),
-            'twist_7to9_obstructions':obstruction}
+            'twist_7to9_obstructions':obstruction,
+            'all_directed_extra_LR2_obstructions':all_extra}
     return result
 if __name__=='__main__':
     r=run()
