@@ -28,3 +28,5 @@ Run the commands from this directory. The scripts use Python’s standard librar
 The chamber pairing explains the local cancellation mechanism. A geometric prediction of the restricted shuffle ranks remains open.
 
 See [Colour channels in the first finite collinear coefficient](../../collinear-colour/README.md) for the full-colour Yang–Mills study that followed this work.
+
+| [Signed orientation bridge](signed-orientation-bridge.md) | Exact all-40,320-word test: signed reflection commutes with collision residue. Adding reflected duplicates leaves all 35 support-cut ranks unchanged; adding two excluded zero-residue words restores the rank-14 missing direction. | `python3 signed_orientation_bridge.py` |
