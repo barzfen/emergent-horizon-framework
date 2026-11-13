@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-37 — Failure of naive pair-gap transport potential
 
+**Update (2026-11-13).** [CROSS-39](CROSS-39-equal-pair-ancestry.md) proves the sharp bound using ancestry of equal-sign pairs and corrects the global triple-freeness claim quoted below.
+
 Date: 2026-11-11. Status: explicit finite counterexamples to candidate progress measures; general lower-bound theorem remains open.
 
 ## Setup
