@@ -32,3 +32,5 @@ See [Colour channels in the first finite collinear coefficient](../../collinear-
 | [Signed orientation bridge](signed-orientation-bridge.md) | Exact all-40,320-word test: signed reflection commutes with collision residue. Adding reflected duplicates leaves all 35 support-cut ranks unchanged; adding two excluded zero-residue words restores the rank-14 missing direction. | `python3 signed_orientation_bridge.py` |
 
 | [Rank-14 event-pair predictor](rank14-event-pairs.md) | Exact census across the six rank-14 fibres: 0,4,0,11,18,20 two-word repairs. A reference-fitted ordering template catches all 53 repairs across those fibres but has 67 false positives; a single missing relation dimension does not guarantee a two-word repair. | `python3 rank14_event_pairs.py` |
+
+| [Minimal rank-14 triple repairs](rank14-minimal-triples.md) | Completes minimum repair sizes for all six rank-14 parity fibres: four require two excluded words, but (2,5,7) and (3,5,7) require exactly three. Explicit exact KK certificates, 66 and 322 successful triples, and a relative cancellation-distance formulation. | `python3 rank14_minimal_triples.py` |
