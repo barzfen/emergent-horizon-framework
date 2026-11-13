@@ -95,3 +95,7 @@ Next: seek a genuinely local, growth-compatible **geometric** controller that us
 - Graph voltage assignments require opposite edge orientations to carry inverse group elements; see [Voltage Graph, MathWorld](https://mathworld.wolfram.com/VoltageGraph.html).
 - General graph covering/monodromy notions: [Graph Cover, MathWorld](https://mathworld.wolfram.com/GraphCover.html).
 - Prior exact EHF probes: [GROW-LIFT-02](../growth-lift-10/README.md), [GROW-LIFT-03](../growth-lift-11/README.md), [CBB CROSS-03](../../../research/cbb-binary/CROSS-03-raw-cycle-parity-theorem.md).
+
+## Follow-up: naturally induced orientation transport
+
+[EHF-HOL-05](../orientation-holonomy-13/README.md) replaces an arbitrary phase update by the uniquely determined orientation lift of actual LR2/LR3 edges (n=7,9). OPW23 exhibits nonzero reciprocal orientation holonomy on finite closed paths, but it becomes exact on the 7→9 projection-compatible subgraph. The event-labelled orientation interpretation should not be conflated with the earlier time-directed skew product.
