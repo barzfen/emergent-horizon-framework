@@ -30,3 +30,5 @@ The chamber pairing explains the local cancellation mechanism. A geometric predi
 See [Colour channels in the first finite collinear coefficient](../../collinear-colour/README.md) for the full-colour Yang–Mills study that followed this work.
 
 | [Signed orientation bridge](signed-orientation-bridge.md) | Exact all-40,320-word test: signed reflection commutes with collision residue. Adding reflected duplicates leaves all 35 support-cut ranks unchanged; adding two excluded zero-residue words restores the rank-14 missing direction. | `python3 signed_orientation_bridge.py` |
+
+| [Rank-14 event-pair predictor](rank14-event-pairs.md) | Exact census across the six rank-14 fibres: 0,4,0,11,18,20 two-word repairs. A reference-fitted ordering template catches all 53 repairs across those fibres but has 67 false positives; a single missing relation dimension does not guarantee a two-word repair. | `python3 rank14_event_pairs.py` |
