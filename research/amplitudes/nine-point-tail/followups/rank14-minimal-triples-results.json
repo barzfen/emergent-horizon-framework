@@ -1,0 +1,218 @@
+{
+  "status": "PASS",
+  "date": "2026-11-13",
+  "precision": "exact rational KK quotient and rank certificates; mod 1000003 used only as necessary-condition candidate filter",
+  "warning": "This committed snapshot retains witness/count summaries. Running rank14_minimal_triples.py generates full rational source-relation certificates in this file.",
+  "all_six_rank14_minima": [
+    {
+      "A": [
+        2,
+        5,
+        7
+      ],
+      "minimum": 3
+    },
+    {
+      "A": [
+        2,
+        5,
+        8
+      ],
+      "minimum": 2
+    },
+    {
+      "A": [
+        3,
+        5,
+        7
+      ],
+      "minimum": 3
+    },
+    {
+      "A": [
+        3,
+        5,
+        8
+      ],
+      "minimum": 2
+    },
+    {
+      "A": [
+        4,
+        5,
+        7
+      ],
+      "minimum": 2
+    },
+    {
+      "A": [
+        4,
+        5,
+        8
+      ],
+      "minimum": 2
+    }
+  ],
+  "fibres": [
+    {
+      "A": [
+        2,
+        5,
+        7
+      ],
+      "original_cut_size": 324,
+      "excluded_words": 252,
+      "original_KK_rank": 306,
+      "original_source_relation_dimension": 18,
+      "original_residue_rank": 14,
+      "minimum_repair_size": 3,
+      "three_word_KK_rank": 308,
+      "three_word_source_relation_dimension": 19,
+      "three_word_residue_rank": 15,
+      "zero_quotient_words": 8,
+      "projective_quotient_classes": 214,
+      "projection_prime": 1000003,
+      "projection_seed": 971,
+      "screened_projective_triples": 67,
+      "exact_dependent_projective_triples": 65,
+      "repairing_projective_triple_classes": 3,
+      "total_repairing_actual_triples": 66,
+      "repair_classes": [
+        {
+          "words": [
+            "162374985",
+            "162894735",
+            "169473285"
+          ],
+          "coefficients": [
+            "1",
+            "-1",
+            "-1"
+          ],
+          "dual_value": "1",
+          "multiplicity": 1
+        },
+        {
+          "words": [
+            "162473985",
+            "162893745",
+            "169374285"
+          ],
+          "coefficients": [
+            "1",
+            "-1",
+            "-1"
+          ],
+          "dual_value": "1",
+          "multiplicity": 1
+        },
+        {
+          "words": [
+            "169823745",
+            "189324567",
+            "189623745"
+          ],
+          "coefficients": [
+            "1",
+            "1",
+            "-1"
+          ],
+          "dual_value": "-1",
+          "multiplicity": 64
+        }
+      ],
+      "exhibited_certificate": {
+        "source_relation_terms": 135,
+        "nonzero_target_residue_coordinates": 54,
+        "dual_evaluation": "1"
+      }
+    },
+    {
+      "A": [
+        3,
+        5,
+        7
+      ],
+      "original_cut_size": 360,
+      "excluded_words": 216,
+      "original_KK_rank": 342,
+      "original_source_relation_dimension": 18,
+      "original_residue_rank": 14,
+      "minimum_repair_size": 3,
+      "three_word_KK_rank": 344,
+      "three_word_source_relation_dimension": 19,
+      "three_word_residue_rank": 15,
+      "zero_quotient_words": 10,
+      "projective_quotient_classes": 153,
+      "projection_prime": 1000003,
+      "projection_seed": 971,
+      "screened_projective_triples": 55,
+      "exact_dependent_projective_triples": 55,
+      "repairing_projective_triple_classes": 4,
+      "total_repairing_actual_triples": 322,
+      "repair_classes": [
+        {
+          "words": [
+            "145678923",
+            "163894725",
+            "165894723"
+          ],
+          "coefficients": [
+            "-1",
+            "1",
+            "-1"
+          ],
+          "dual_value": "-1",
+          "multiplicity": 32
+        },
+        {
+          "words": [
+            "145678923",
+            "169832745",
+            "169854723"
+          ],
+          "coefficients": [
+            "-1",
+            "1",
+            "-1"
+          ],
+          "dual_value": "-1",
+          "multiplicity": 288
+        },
+        {
+          "words": [
+            "163274985",
+            "163894725",
+            "169472385"
+          ],
+          "coefficients": [
+            "1",
+            "-1",
+            "-1"
+          ],
+          "dual_value": "1",
+          "multiplicity": 1
+        },
+        {
+          "words": [
+            "163472985",
+            "163892745",
+            "169274385"
+          ],
+          "coefficients": [
+            "1",
+            "-1",
+            "-1"
+          ],
+          "dual_value": "1",
+          "multiplicity": 1
+        }
+      ],
+      "exhibited_certificate": {
+        "source_relation_terms": 123,
+        "nonzero_target_residue_coordinates": 46,
+        "dual_evaluation": "-1"
+      }
+    }
+  ]
+}
