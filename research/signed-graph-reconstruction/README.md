@@ -1,6 +1,6 @@
 # Signed-graph reconstruction and reversal sectors
 
-**Status:** Proposed research. No new computation or sector-separation result yet.  
+**Status:** [SIGN-01](SIGN-01.md) completed: orientation signs do not distinguish the unmarked unrestricted LR3 parity sectors. Switching-deck reconstruction remains open for this research thread.  
 **Scope:** Combinatorial reconstruction, not a physical model.
 
 Admissible comparison is the chosen primitive data of the framework. EHF studies what can be reconstructed from an admissible-comparison relation. Here the question is whether a sector distinction is recoverable from admissible reversal events and their induced orientation transport, without supplying the sector labels.
@@ -16,7 +16,7 @@ Matteo Cavaleri, Alfredo Donno and Stefano Spessato, [Switching reconstruction o
 1. Specify the two sector definitions, their source and the carrier on which they are observed. Reserve the sector labels for scoring; do not use them to choose signs, moves, loop lengths or filters. Use the smallest documented odd and even instances of the same construction if both exist. If no comparable even instance exists, record that limitation.
 2. Retain reversal events and derive their signs using the existing orientation-lift rule where applicable. Verify reciprocal signs and preserve parallel events. Explicitly state any extra data needed beyond the bare comparison graph. In particular, changing an orientation chart for a **fixed** carrier is not the same as changing the canonical convention used to define Pi; that may change which edges are admitted.
 3. Multiply signs along closed walks. Changing the orientation chart at a state flips the signs at its incident edge ends, so the closed-walk product is unchanged. Check chart changes and consistent relabellings of the carrier, including its marked data. Start with the balanced/unbalanced status of each connected component; a spanning forest and the fundamental cycles of the remaining events suffice to check it. Keep a negative loop as a witness, or retain a vertex-sign potential as a certificate of balance.
-4. Reveal the labels and compare against an unsigned baseline (component sizes and adjacency). Report whether the sign test adds separation, collides across sectors, or is inapplicable. If it adds separation, repeat on the growth-projectable graph wherever a compatible projection is defined. Finite separation is not a general theorem and would not explain the observed 5/7 and 2/7 weights.
+4. Reveal the labels and compare against an unsigned baseline (component sizes and adjacency). Report whether the sign test adds separation, collides across sectors, or is inapplicable. If it adds separation, repeat on the growth-projectable graph wherever a compatible projection is defined. Finite separation is not a general theorem and would not explain the 5/7 and 2/7 decay eigenvalues identified in BIN-09.
 
 ## Separate follow-up — reconstruction from switched views
 
