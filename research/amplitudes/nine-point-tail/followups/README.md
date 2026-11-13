@@ -34,3 +34,5 @@ See [Colour channels in the first finite collinear coefficient](../../collinear-
 | [Rank-14 event-pair predictor](rank14-event-pairs.md) | Exact census across the six rank-14 fibres: 0,4,0,11,18,20 two-word repairs. A reference-fitted ordering template catches all 53 repairs across those fibres but has 67 false positives; a single missing relation dimension does not guarantee a two-word repair. | `python3 rank14_event_pairs.py` |
 
 | [Minimal rank-14 triple repairs](rank14-minimal-triples.md) | Completes minimum repair sizes for all six rank-14 parity fibres: four require two excluded words, but (2,5,7) and (3,5,7) require exactly three. Explicit exact KK certificates, 66 and 322 successful triples, and a relative cancellation-distance formulation. | `python3 rank14_minimal_triples.py` |
+
+| [Canonical LR3 repair threshold](rank14-lr3-threshold.md) | One zero-residue LR3 pair centred on label 9 restores rank 15 precisely in the four rank-14 fibres requiring two added words. The rule κ₁=2 or κ₃=4 follows for all six from two positive certificates, one negative obstruction, and cut-support inclusion. | `python3 rank14_lr3_threshold_probe.py` |
