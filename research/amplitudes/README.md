@@ -6,3 +6,5 @@
 | [Collinear colour channels](collinear-colour/README.md) | The SU(3) planar ratio, its SU(N) extension, the real Lorentzian counterexample and the six-gluon near-planar sign proof. |
 
 The ordering studies ask which identities lift through prescribed cyclic supports. The colour studies ask what the leading and first finite collinear coefficients retain about the gluon pair. The two series share a question about information lost under a reduction. A direct correspondence between the ordering cuts and the colour channels remains open.
+
+[Orientation and ordering bridge](ordering-orientation-bridge-01.md) compares event-labelled Hamiltonian orientation, nine-point tail support-cut ranks, and collinear exchange parity. It proposes an exact signed-residue equivariance test; it does **not** derive the 1:2:3 norm law from holonomy.
