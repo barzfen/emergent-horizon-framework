@@ -66,3 +66,7 @@ For the wider Emergent Horizon Framework and how this series connects to its oth
 ### 10. Can a growth-compatible local orbit split or elongate?
 
 [EHF-GROW-LIFT-02 — local Hamiltonian orbit lifting](growth-lift-10/README.md) gives an all-size MICRO-compatible LR3 marked-triple involution, three OPW23-selected length-4 lifts at n=7, and an exact n=9 obstruction to extending that specific twisted controller. The distinction between local admissible moves, globally selected deterministic controllers and commuting growth projections is explicit. Standard-library code, independent verification and witness results are retained.
+
+### 11. Can longer Hamiltonian orbits survive growth if Pi is relaxed?
+
+[EHF-GROW-LIFT-03 — Pi conservation barrier and MICRO-only macrostep rescue](growth-lift-11/README.md) exhaustively audits the 12 directed exceptional seven-vertex LR2 transitions at nine vertices. Pi-preserving paths match at most 23 of 30 descendants, whereas two MICRO-only microsteps admit a compatible 2,160-state permutation retaining 90 four-step orbits. The selected controller requires global fiber matching; it is not a local autonomous OPW23 rule. Exact code, independent direct-swap verification, and witness data are included.
