@@ -1,0 +1,746 @@
+{
+  "definitions": "MICRO, marked vertices {1,2,3}, odd n=5,7,9; Pi-preserving LR2/LR3 versus MICRO-only LR2/LR3, projected two-insertion fibers.",
+  "state_counts": {
+    "5": 6,
+    "7": 72,
+    "9": 2160
+  },
+  "seven_vertex_controller_orbits": {
+    "2": 30,
+    "4": 3
+  },
+  "nine_vertex_macro_controller_orbits": {
+    "2": 900,
+    "4": 90
+  },
+  "twisted_directed_seven_vertex_arcs": 6,
+  "cross_fiber_audits": [
+    {
+      "from": [
+        0,
+        4,
+        5,
+        1,
+        2,
+        3,
+        6
+      ],
+      "to": [
+        0,
+        4,
+        6,
+        3,
+        2,
+        1,
+        5
+      ],
+      "one_step": 20,
+      "PI_shortest_distances": {
+        "1": 20,
+        "2": 7,
+        "-1": 3
+      },
+      "MICRO_shortest_distances": {
+        "1": 28,
+        "2": 2
+      },
+      "PI_component_matching_upper_bound": 23,
+      "same_Pi_endpoint_matching_upper_bound": 26,
+      "matching": {
+        "PI_1": {
+          "maximum_matched": 20,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "PI_2": {
+          "maximum_matched": 22,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "MICRO_2": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 8
+        },
+        "MICRO_3": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 5
+        },
+        "MICRO_4": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 4
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        4,
+        6,
+        3,
+        2,
+        1,
+        5
+      ],
+      "to": [
+        0,
+        4,
+        5,
+        1,
+        2,
+        3,
+        6
+      ],
+      "one_step": 20,
+      "PI_shortest_distances": {
+        "1": 20,
+        "2": 7,
+        "-1": 3
+      },
+      "MICRO_shortest_distances": {
+        "1": 28,
+        "2": 2
+      },
+      "PI_component_matching_upper_bound": 23,
+      "same_Pi_endpoint_matching_upper_bound": 26,
+      "matching": {
+        "PI_1": {
+          "maximum_matched": 20,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "PI_2": {
+          "maximum_matched": 22,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "MICRO_2": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 8
+        },
+        "MICRO_3": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 5
+        },
+        "MICRO_4": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 4
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        4,
+        5,
+        1,
+        3,
+        2,
+        6
+      ],
+      "to": [
+        0,
+        4,
+        6,
+        2,
+        3,
+        1,
+        5
+      ],
+      "one_step": 20,
+      "PI_shortest_distances": {
+        "1": 20,
+        "2": 7,
+        "-1": 3
+      },
+      "MICRO_shortest_distances": {
+        "1": 28,
+        "2": 2
+      },
+      "PI_component_matching_upper_bound": 23,
+      "same_Pi_endpoint_matching_upper_bound": 26,
+      "matching": {
+        "PI_1": {
+          "maximum_matched": 20,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "PI_2": {
+          "maximum_matched": 22,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "MICRO_2": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 8
+        },
+        "MICRO_3": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 5
+        },
+        "MICRO_4": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 4
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        4,
+        6,
+        2,
+        3,
+        1,
+        5
+      ],
+      "to": [
+        0,
+        4,
+        5,
+        1,
+        3,
+        2,
+        6
+      ],
+      "one_step": 20,
+      "PI_shortest_distances": {
+        "1": 20,
+        "2": 7,
+        "-1": 3
+      },
+      "MICRO_shortest_distances": {
+        "1": 28,
+        "2": 2
+      },
+      "PI_component_matching_upper_bound": 23,
+      "same_Pi_endpoint_matching_upper_bound": 26,
+      "matching": {
+        "PI_1": {
+          "maximum_matched": 20,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "PI_2": {
+          "maximum_matched": 22,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "MICRO_2": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 8
+        },
+        "MICRO_3": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 5
+        },
+        "MICRO_4": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 4
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        4,
+        5,
+        2,
+        1,
+        3,
+        6
+      ],
+      "to": [
+        0,
+        4,
+        6,
+        3,
+        1,
+        2,
+        5
+      ],
+      "one_step": 20,
+      "PI_shortest_distances": {
+        "1": 20,
+        "2": 7,
+        "-1": 3
+      },
+      "MICRO_shortest_distances": {
+        "1": 28,
+        "2": 2
+      },
+      "PI_component_matching_upper_bound": 23,
+      "same_Pi_endpoint_matching_upper_bound": 26,
+      "matching": {
+        "PI_1": {
+          "maximum_matched": 20,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "PI_2": {
+          "maximum_matched": 22,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "MICRO_2": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 8
+        },
+        "MICRO_3": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 5
+        },
+        "MICRO_4": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 4
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        4,
+        6,
+        3,
+        1,
+        2,
+        5
+      ],
+      "to": [
+        0,
+        4,
+        5,
+        2,
+        1,
+        3,
+        6
+      ],
+      "one_step": 20,
+      "PI_shortest_distances": {
+        "1": 20,
+        "2": 7,
+        "-1": 3
+      },
+      "MICRO_shortest_distances": {
+        "1": 28,
+        "2": 2
+      },
+      "PI_component_matching_upper_bound": 23,
+      "same_Pi_endpoint_matching_upper_bound": 26,
+      "matching": {
+        "PI_1": {
+          "maximum_matched": 20,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "PI_2": {
+          "maximum_matched": 22,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "MICRO_2": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 8
+        },
+        "MICRO_3": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 5
+        },
+        "MICRO_4": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 4
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        4,
+        5,
+        2,
+        3,
+        1,
+        6
+      ],
+      "to": [
+        0,
+        4,
+        6,
+        1,
+        3,
+        2,
+        5
+      ],
+      "one_step": 20,
+      "PI_shortest_distances": {
+        "1": 20,
+        "2": 7,
+        "-1": 3
+      },
+      "MICRO_shortest_distances": {
+        "1": 28,
+        "2": 2
+      },
+      "PI_component_matching_upper_bound": 23,
+      "same_Pi_endpoint_matching_upper_bound": 26,
+      "matching": {
+        "PI_1": {
+          "maximum_matched": 20,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "PI_2": {
+          "maximum_matched": 22,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "MICRO_2": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 8
+        },
+        "MICRO_3": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 5
+        },
+        "MICRO_4": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 4
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        4,
+        6,
+        1,
+        3,
+        2,
+        5
+      ],
+      "to": [
+        0,
+        4,
+        5,
+        2,
+        3,
+        1,
+        6
+      ],
+      "one_step": 20,
+      "PI_shortest_distances": {
+        "1": 20,
+        "2": 7,
+        "-1": 3
+      },
+      "MICRO_shortest_distances": {
+        "1": 28,
+        "2": 2
+      },
+      "PI_component_matching_upper_bound": 23,
+      "same_Pi_endpoint_matching_upper_bound": 26,
+      "matching": {
+        "PI_1": {
+          "maximum_matched": 20,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "PI_2": {
+          "maximum_matched": 22,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "MICRO_2": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 8
+        },
+        "MICRO_3": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 5
+        },
+        "MICRO_4": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 4
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        4,
+        5,
+        3,
+        1,
+        2,
+        6
+      ],
+      "to": [
+        0,
+        4,
+        6,
+        2,
+        1,
+        3,
+        5
+      ],
+      "one_step": 20,
+      "PI_shortest_distances": {
+        "1": 20,
+        "2": 7,
+        "-1": 3
+      },
+      "MICRO_shortest_distances": {
+        "1": 28,
+        "2": 2
+      },
+      "PI_component_matching_upper_bound": 23,
+      "same_Pi_endpoint_matching_upper_bound": 26,
+      "matching": {
+        "PI_1": {
+          "maximum_matched": 20,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "PI_2": {
+          "maximum_matched": 22,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "MICRO_2": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 8
+        },
+        "MICRO_3": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 5
+        },
+        "MICRO_4": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 4
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        4,
+        6,
+        2,
+        1,
+        3,
+        5
+      ],
+      "to": [
+        0,
+        4,
+        5,
+        3,
+        1,
+        2,
+        6
+      ],
+      "one_step": 20,
+      "PI_shortest_distances": {
+        "1": 20,
+        "2": 7,
+        "-1": 3
+      },
+      "MICRO_shortest_distances": {
+        "1": 28,
+        "2": 2
+      },
+      "PI_component_matching_upper_bound": 23,
+      "same_Pi_endpoint_matching_upper_bound": 26,
+      "matching": {
+        "PI_1": {
+          "maximum_matched": 20,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "PI_2": {
+          "maximum_matched": 22,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "MICRO_2": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 8
+        },
+        "MICRO_3": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 5
+        },
+        "MICRO_4": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 4
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        4,
+        5,
+        3,
+        2,
+        1,
+        6
+      ],
+      "to": [
+        0,
+        4,
+        6,
+        1,
+        2,
+        3,
+        5
+      ],
+      "one_step": 20,
+      "PI_shortest_distances": {
+        "1": 20,
+        "2": 7,
+        "-1": 3
+      },
+      "MICRO_shortest_distances": {
+        "1": 28,
+        "2": 2
+      },
+      "PI_component_matching_upper_bound": 23,
+      "same_Pi_endpoint_matching_upper_bound": 26,
+      "matching": {
+        "PI_1": {
+          "maximum_matched": 20,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "PI_2": {
+          "maximum_matched": 22,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "MICRO_2": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 8
+        },
+        "MICRO_3": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 5
+        },
+        "MICRO_4": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 4
+        }
+      }
+    },
+    {
+      "from": [
+        0,
+        4,
+        6,
+        1,
+        2,
+        3,
+        5
+      ],
+      "to": [
+        0,
+        4,
+        5,
+        3,
+        2,
+        1,
+        6
+      ],
+      "one_step": 20,
+      "PI_shortest_distances": {
+        "1": 20,
+        "2": 7,
+        "-1": 3
+      },
+      "MICRO_shortest_distances": {
+        "1": 28,
+        "2": 2
+      },
+      "PI_component_matching_upper_bound": 23,
+      "same_Pi_endpoint_matching_upper_bound": 26,
+      "matching": {
+        "PI_1": {
+          "maximum_matched": 20,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "PI_2": {
+          "maximum_matched": 22,
+          "minimum_Pi_endpoint_changes": null
+        },
+        "MICRO_2": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 8
+        },
+        "MICRO_3": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 5
+        },
+        "MICRO_4": {
+          "maximum_matched": 30,
+          "minimum_Pi_endpoint_changes": 4
+        }
+      }
+    }
+  ],
+  "nine_vertex_macro_controller": {
+    "total_states": 2160,
+    "selected_two_step_or_less_MICRO_paths": 2160,
+    "macrosteps_with_end_Pi_change": 48,
+    "commutes_with_twisted_F7": true,
+    "is_bijective": true,
+    "controller_choice": "globally optimized fiber matching; not a local autonomous rule"
+  },
+  "sample_repaired_arc": {
+    "seven_vertex_arc": [
+      [
+        0,
+        4,
+        5,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        4,
+        6,
+        3,
+        2,
+        1,
+        5
+      ]
+    ],
+    "nine_vertex_microstep_path": [
+      [
+        0,
+        6,
+        3,
+        2,
+        1,
+        5,
+        4,
+        7,
+        8
+      ],
+      [
+        0,
+        6,
+        3,
+        2,
+        1,
+        5,
+        7,
+        4,
+        8
+      ],
+      [
+        0,
+        7,
+        5,
+        1,
+        2,
+        3,
+        6,
+        4,
+        8
+      ]
+    ],
+    "Pi_before": [
+      0,
+      1,
+      3,
+      4,
+      8
+    ],
+    "Pi_after": [
+      0,
+      2,
+      5,
+      6,
+      8
+    ]
+  }
+}
