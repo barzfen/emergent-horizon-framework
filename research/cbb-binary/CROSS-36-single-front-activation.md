@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-36 — Single-front activation disproves the two-front collision hypothesis
 
+**Update (2026-11-13).** [CROSS-39](CROSS-39-equal-pair-ancestry.md) proves the matching lower bound for all `t` and corrects the global triple-freeness claim quoted below.
+
 Date: 2026-11-11. Status: exact counterexample to a proposed proof mechanism; explicit construction; general optimality OPEN.
 
 ## Setup
