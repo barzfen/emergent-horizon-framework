@@ -67,6 +67,8 @@ For comparison, the true log growth at doubling is $\log 2\approx0.693$. A silen
 
 The six-reversal oscillator records the phase of successive selected moves. Its tick count acquires information about growth once its event rate is specified relative to the rate per insertion slot. The passive observer acquires the same logarithmic scaling directly from uniform insertion opportunities. These calibrations give a noisy estimate of growth from local data, with the remaining uncertainty set by the amount of local activity that was observed.
 
+[CROSS-61](CROSS-61-clock-bias.md) compares two passive clocks under fixed and switched orientation weights, counting a full tick when the local sign returns.
+
 ## Reproduce
 
 Run `python3 research/cbb-binary/cross60_local_growth_clock.py` from the repository root. The verifier replays the identical clock traces at final sizes 21 and 42, compares the clock count law with 19,800 indexed event histories per rate at weights $r=1,2$, and checks the passive count law against all 3,024 labelled histories through four insertions for each of the one-port and two-port readouts.
