@@ -94,6 +94,8 @@ For the final two rows, $q_*=(\sqrt{33}-5)/2\approx 0.3723$. At each finite star
 
 Thus $m/n$ indexes comparable amounts of growth and gives a size-independent limiting curve for each of the tested preparations and rules. The dimensionless slot-weight ratios enter the curve too. For sign weighting away from the chosen initial composition, the bulk plus fraction can change during the run, and the stationary-fraction formula above does not apply. The logarithm appears here because a fixed number of local slots competes with a total weight proportional to the current size. These calculations use insertion counts and classical probabilities. They supply no calibration of a physical clock.
 
+[CROSS-60](CROSS-60-local-growth-clock.md) tests how much of this logarithmic growth a clock or passive counter can estimate from its own local events.
+
 ## Reproduce
 
 From the repository root, run `python3 research/cbb-binary/cross59_growth_ratios.py`. It uses the standard library. It compares the exact formulas and recurrence against 127,872 complete insertion histories across sizes 6, 7 and 8, both initial boundary signs, and four insertion rules. It checks availability at each step through four insertions and compares the sign-weighted finite recurrence at doubling with the large-cycle limit.
