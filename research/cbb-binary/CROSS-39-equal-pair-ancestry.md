@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-39 — Equal-pair ancestry and exact LR3 escape depth
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross39_equal_pair_ancestry.py)
+
 **Date** 2026-11-13 (Australia/Brisbane)  
 **Status** Proved for the family below. Finite checks independently reconstruct the colour-reversal rules.
 

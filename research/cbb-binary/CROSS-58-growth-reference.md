@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-58 — Growth phases and the stationary reference
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross58_growth_reference.py)
+
 **Date** 2026-11-15 (Australia/Brisbane)  
 **Status** Exact phase equivalence and a one-insertion stationarity obstruction, with finite labelled checks.
 

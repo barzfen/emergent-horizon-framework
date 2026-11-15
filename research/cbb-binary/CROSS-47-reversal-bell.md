@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-47 — Local reversal interventions and a Bell control
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross47_reversal_bell.py)
+
 **Date** 2026-11-13 (Australia/Brisbane)  
 **Status** Exact finite intervention audit and a general locality argument for the tested readout model.
 

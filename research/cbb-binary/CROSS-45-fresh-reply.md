@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-45 — Certifying a fresh reply after a reset
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross45_fresh_reply.py)
+
 **Date** 2026-11-13 (Australia/Brisbane)  
 **Status** Exact finite enumeration with explicit witnesses and receiver-disabled controls.
 

@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-55 — Symmetric reversal hopping and the Bell threshold
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross55_symmetric_hopping.py)
+
 **Date** 2026-11-14 (Australia/Brisbane)  
 **Status** Conditional Hamiltonian model, analytic Bell curve, matched stochastic control.
 

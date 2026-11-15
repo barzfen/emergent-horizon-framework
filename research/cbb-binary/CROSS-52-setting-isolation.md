@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-52 — Growth delays a setting leak to the recombiner
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross52_setting_isolation.py)
+
 **Date** 2026-11-14 (Australia/Brisbane)  
 **Status** Exact finite isolation lengths and explicit leak histories for a specified local intervention model.
 

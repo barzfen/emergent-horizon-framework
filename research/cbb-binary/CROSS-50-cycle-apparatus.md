@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-50 — Classical apparatus memory on a grown cycle
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross50_cycle_apparatus.py)
+
 **Date** 2026-11-13 (Australia/Brisbane)  
 **Status** Explicit classical simulations, an exact distinguishability bound, and a sharp conditional information bound.
 

@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-46 — A local clock with protected growth and a Bell control
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross46_local_clock.py)
+
 **Date** 2026-11-13 (Australia/Brisbane)  
 **Status** Exact local rule, finite growth census, and a classical two-reader benchmark.
 

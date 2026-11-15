@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-42 — A resettable return detector and its growth limit
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross42_resettable_return.py)
+
 **Date** 2026-11-13 (Australia/Brisbane)  
 **Status** Exact finite result for indexed LR3 sign graphs. One explicit failure when growth intervenes during a tick.
 

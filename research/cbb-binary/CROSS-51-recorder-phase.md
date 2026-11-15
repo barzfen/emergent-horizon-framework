@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-51 — Matched reversal loops prepare opposite recorder phases
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross51_recorder_phase.py)
+
 **Date** 2026-11-14 (Australia/Brisbane)  
 **Status** Exact finite construction with supplied coherent dynamics and a sharp classical memory comparison.
 

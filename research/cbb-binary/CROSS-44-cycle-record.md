@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-44 — A reply written into the cycle
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross44_cycle_record.py)
+
 **Date** 2026-11-13 (Australia/Brisbane)  
 **Status** Exact finite enumeration and explicit write, growth and reset witnesses.
 

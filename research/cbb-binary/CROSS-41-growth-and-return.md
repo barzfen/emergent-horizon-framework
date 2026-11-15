@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-41 — Growth can break a local return signal
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross41_growth_and_return.py)
+
 **Date** 2026-11-13 (Australia/Brisbane)  
 **Status** Exact finite enumeration for the 21-vertex seed and two one-vertex refinements.
 

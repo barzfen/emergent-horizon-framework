@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-57 — Stationary reference and one-step growth of reversal pulses
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross57_growth_phase.py)
+
 **Date** 2026-11-15 (Australia/Brisbane)  
 **Status** Analytic selection under an added reference axiom, exact one-step lift and leakage formulas, finite labelled checks.
 

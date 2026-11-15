@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-54 — Preparing and measuring a Bell pair on separated reversal windows
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross54_local_bell.py)
+
 **Date** 2026-11-14 (Australia/Brisbane)  
 **Status** Explicit local circuit on labelled cycles, conditional on a supplied coherent rotation and squared-amplitude readout.
 

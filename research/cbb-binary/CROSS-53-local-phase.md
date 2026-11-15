@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-53 — Local phase readout and joint correlations
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross53_local_phase.py)
+
 **Date** 2026-11-14 (Australia/Brisbane)  
 **Status** Exact reduced-state checks for a specified quantum control, with a classical parity model and a supplied CHSH benchmark.
 

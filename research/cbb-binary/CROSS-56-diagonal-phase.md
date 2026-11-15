@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-56 — Identical reversal probabilities can hide different phases
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross56_diagonal_phase.py)
+
 **Date** 2026-11-14 (Australia/Brisbane)  
 **Status** Analytic phase and Bell curves, checked on 21 indexed labelled carriers.
 

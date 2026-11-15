@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-49 — A route recorder made of reversals
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross49_route_recorder.py)
+
 **Date** 2026-11-13 (Australia/Brisbane)  
 **Status** Exact cycle construction, supplied coherent control, and a sharp classical comparison.
 

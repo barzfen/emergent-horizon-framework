@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-43 — A local history can certify reception during one insertion
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross43_local_history.py)
+
 **Date** 2026-11-13 (Australia/Brisbane)  
 **Status** Exact finite reachability checks and explicit matched histories.
 

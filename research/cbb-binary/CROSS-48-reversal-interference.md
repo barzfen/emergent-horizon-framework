@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-48 — Two reversal paths and an interference control
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross48_reversal_interference.py)
+
 **Date** 2026-11-13 (Australia/Brisbane)  
 **Status** Exact path census, Clifford lift calculation and supplied coherent control.
 

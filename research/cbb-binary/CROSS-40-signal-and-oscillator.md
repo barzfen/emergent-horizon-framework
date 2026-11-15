@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-40 — Propagating markers, a receiver and local oscillators
 
+[Series guide](GROWTH-CLOCKS-AND-BELL.md) · [Verifier](cross40_signal_and_oscillator.py)
+
 **Date** 2026-11-13 (Australia/Brisbane)  
 **Status** Exact constructions and a scheduling obstruction for LR3-only dynamics.
 
