@@ -2,6 +2,8 @@
 
 Status: **research proposal; no equivalence theorem or physical interpretation established** (2026-11-10).
 
+[Three-colour cycle growth, clocks and Bell tests](GROWTH-CLOCKS-AND-BELL.md) follows the later CROSS-39–58 series from the exact reversal bound to clocks and coherent controls. The guide includes a [complete index of the earlier BIN, TRI and CROSS probes](GROWTH-CLOCKS-AND-BELL.md#earlier-probes).
+
 ## Motivation
 Investigate whether binary relational descriptions can encode the original Combinatorial Big Bang (CBB) growth rule rather than merely augmenting it. Original CBB grows labelled, undirected Hamiltonian cycles by inserting the new labelled vertex into **every** edge slot. The aim is to compare symmetry, odd/even order, and local reversal reachability without imposing strict alternating vertex colours (which would exclude odd cycles).
 

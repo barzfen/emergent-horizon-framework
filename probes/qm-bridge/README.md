@@ -13,6 +13,10 @@ These working research notes ask whether a quantum description could emerge from
 Read the reports before reusing the result labels. The seven-vertex parity argument, the original flat six-state carrier and the explicit classical lift are essential controls. There is no priority claim or completed external literature review.
 
 
+## Follow-up on three-colour cycles
+
+[Three-colour cycle growth, clocks and Bell tests](../../research/cbb-binary/GROWTH-CLOCKS-AND-BELL.md) continues the operational comparison on a different carrier. It traces the clock and receiver constructions, the classical apparatus-memory controls, and a Bell circuit with supplied coherent dynamics. Every probe links to its verifier.
+
 ## Reproduce from the repository root
 
 Revisit 01 requires Python 3, NumPy and SciPy; the recorded versions are in its requirements file. Revisits 02–03 and their independent verifiers need only Python's standard library.

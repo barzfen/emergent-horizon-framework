@@ -1,5 +1,7 @@
 # EHF-CBB-CROSS-38 — Cyclic defect dipole conservation and transport lower bounds
 
+**Update (2026-11-13).** [CROSS-39](CROSS-39-equal-pair-ancestry.md) proves the sharp escape-depth bound by equal-pair ancestry. The endpoint matching question below remains distinct.
+
 Date: 2026-11-12. Status: exact general LR3 invariant proved. Sharp escape-depth lower bound remains open.
 
 ## Definitions
