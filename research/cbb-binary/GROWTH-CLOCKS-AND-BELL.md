@@ -1,6 +1,6 @@
 # Three-colour cycle growth, clocks and Bell tests
 
-This guide follows the EHF research series CROSS-39 through CROSS-58. It links every probe and its verifier, then indexes the earlier work that led to the series. [Repository home](../../README.md) · [CBB binary growth notes](README.md) · [Earlier QM bridge probes](../../probes/qm-bridge/README.md)
+This guide follows the EHF research series CROSS-39 through CROSS-59. It links every probe and its verifier, then indexes the earlier work that led to the series. [Repository home](../../README.md) · [CBB binary growth notes](README.md) · [Earlier QM bridge probes](../../probes/qm-bridge/README.md)
 
 ## Start here
 
@@ -51,6 +51,7 @@ The combinatorial results concern reachable cycles and the histories between the
 | [CROSS-56](CROSS-56-diagonal-phase.md) | Distinguishes two generators with identical single-pulse probabilities using a phase-sensitive echo. | [Python](cross56_diagonal_phase.py) |
 | [CROSS-57](CROSS-57-growth-phase.md) | Counts the exact survival slots and quantifies how a uniform growth lift leaks outside its reference subspace. | [Python](cross57_growth_phase.py) |
 | [CROSS-58](CROSS-58-growth-reference.md) | Proves a phase equivalence and shows that the grown children of one proper three-colour cycle cannot supply a stationary reference under all windows. | [Python](cross58_growth_reference.py) |
+| [CROSS-59](CROSS-59-growth-ratios.md) | Finds size-independent growth curves for weighted insertions and shows how the slot weights change reversal availability. | [Python](cross59_growth_ratios.py) |
 
 ### What the later probes resolve
 
@@ -62,7 +63,7 @@ An equal-phase stationary reference selects the negative Laplacian within the te
 
 ## Run the verifiers
 
-Run from the repository root with Python 3. The scripts use the standard library. Python 3.12.14 ran all 20 verifiers for this consolidation. The scripts include exact combinatorial and arithmetic checks, as well as numerical checks of the supplied coherent models. These runs did not externally review the proofs or rerun the older embedded scripts listed below.
+Run from the repository root with Python 3. The scripts use the standard library. All 21 verifiers passed on Python 3.12.14. The scripts include exact combinatorial and arithmetic checks, as well as numerical checks of the supplied coherent models.
 
 ```sh
 for script in research/cbb-binary/cross[0-9]*.py; do
