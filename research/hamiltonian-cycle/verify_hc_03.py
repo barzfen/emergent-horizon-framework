@@ -175,21 +175,26 @@ def verify_lifted_examples():
     print("Verified both lifted examples as full twelve-vertex inputs.")
 
 
-def verify_higher_connectivity():
+def clique_separator_example(connectivity):
     base = graph6("GCOe`W")
     base_edges = [(v, u) for v, row in enumerate(base) for u in row if v < u]
+    outside = len(base) + connectivity - 1
+    order = outside + connectivity
+    hubs = tuple(range(outside, order))
+    edges = base_edges + list(combinations(hubs, 2))
+    edges.extend((v, hub) for v in range(outside) for hub in hubs)
+    return adjacency(order, edges), hubs
+
+
+def verify_higher_connectivity():
     for connectivity in (3, 4):
-        outside = len(base) + connectivity - 1
-        order = outside + connectivity
-        hubs = set(range(outside, order))
+        neighbors, hubs = clique_separator_example(connectivity)
+        order = len(neighbors)
         vertices = set(range(order))
-        terminal = min(hubs)
-        edges = base_edges + list(combinations(sorted(hubs), 2))
-        edges.extend((v, hub) for v in vertices - hubs for hub in hubs)
-        neighbors = adjacency(order, edges)
+        terminal = hubs[0]
         if any(separators(neighbors, vertices, connectivity - 1)):
             raise AssertionError((connectivity, "unexpected smaller cut"))
-        if len(list(components(neighbors, vertices - hubs))) != connectivity:
+        if len(list(components(neighbors, vertices.difference(hubs)))) != connectivity:
             raise AssertionError((connectivity, "unexpected components after deleting the hubs"))
         colours = stable_colours(neighbors, 1 << terminal)
         success, failure = spanning_finish_masks(neighbors)[:2]

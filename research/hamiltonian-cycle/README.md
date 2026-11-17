@@ -4,6 +4,8 @@
 
 [EHF-HC-03 · Vertex connectivity](HC-03.md) gives the first biconnected failure, tests two-vertex separators and one-step lookahead, and constructs failures at arbitrary connectivity.
 
+[EHF-HC-04 · Exact path composition](HC-04.md) joins disjoint local paths across separators and finds the smallest failures of three simpler tests.
+
 ## EHF-HC-01 · Which partial routes can share a search state?
 
 **PROVED.** On a fixed undirected graph, two rooted simple paths with the same unvisited vertices and the same endpoint attachment set have exactly the same legal completion sequences. **NEGATIVE.** A cheaper comparison based on counts of attachment types can give the wrong answer about whether a route can finish. The smallest graph exhibiting that failure has seven vertices. **COMPUTATIONAL.** The [verifier](verify_hc_01.py) checked all 33,864 labelled graphs of orders three through six and explicit witnesses of orders seven through ten.

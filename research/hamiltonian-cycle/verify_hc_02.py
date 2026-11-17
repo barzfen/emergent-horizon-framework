@@ -39,8 +39,8 @@ def stable_colours(neighbors, marked):
         colours = refined
 
 
-def spanning_finish_masks(neighbors):
-    """One subset DP tracking all possible start vertices for each path endpoint."""
+def path_start_masks(neighbors):
+    """For every vertex subset and path end, give the possible path starts."""
     order = len(neighbors)
     starts = [[0] * order for _ in range(1 << order)]
     for v in range(order):
@@ -52,8 +52,13 @@ def spanning_finish_masks(neighbors):
                     bit = 1 << v
                     if not subset & bit:
                         starts[subset | bit][v] |= possible_starts
+    return starts
+
+
+def spanning_finish_masks(neighbors):
+    """For every start vertex, give the possible ends of a spanning path."""
     # Reversing these spanning paths gives the possible finishes from each start.
-    return starts[-1]
+    return path_start_masks(neighbors)[-1]
 
 
 def candidate_marks(finish_masks, unmarked_colours):
