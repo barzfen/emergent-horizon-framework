@@ -32,6 +32,7 @@ The repository is intended to preserve both positive and negative results and to
 - `research/` — topic-oriented research notes.
   - [Three-colour cycle growth, clocks and Bell tests](research/cbb-binary/GROWTH-CLOCKS-AND-BELL.md) — reader’s guide to CROSS-39–58 with every note and verifier.
   - [Collatz working note and Hamiltonian example](research/collatz/README.md)
+  - [Hamiltonian Cycle and admissible comparisons](research/hamiltonian-cycle/README.md) — exact comparisons of partial routes and the smallest failure of the attachment-count rule.
 - `probes/` — individual computational and analytic probes.
 - `code/` — reproducible probe code.
 - `data/` — retained datasets that cannot be cheaply regenerated.
