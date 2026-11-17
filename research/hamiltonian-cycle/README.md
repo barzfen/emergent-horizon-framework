@@ -12,6 +12,8 @@
 
 [EHF-HC-07 · Cut sampling](HC-07.md) benchmarks cheaper cut choices and tests a parity-aware estimate of join work.
 
+[EHF-HC-08 · Exact degree-group joins](HC-08.md) indexes realised child profiles, verifies identical join tables, and benchmarks the saved degree comparisons.
+
 ## EHF-HC-01 · Which partial routes can share a search state?
 
 **PROVED.** On a fixed undirected graph, two rooted simple paths with the same unvisited vertices and the same endpoint attachment set have exactly the same legal completion sequences. **NEGATIVE.** A cheaper comparison based on counts of attachment types can give the wrong answer about whether a route can finish. The smallest graph exhibiting that failure has seven vertices. **COMPUTATIONAL.** The [verifier](verify_hc_01.py) checked all 33,864 labelled graphs of orders three through six and explicit witnesses of orders seven through ten.

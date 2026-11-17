@@ -231,7 +231,7 @@ def benchmark_rows(repeats):
               f"{measured[0]:.3f} | {measured[1]:.3f}", flush=True)
 
 
-def time_solver(case, expected, plan, repeats, mode):
+def time_solver(case, expected, plan, repeats, mode, **options):
     reduce_states = reduce_with_basis if mode == "basis" else representative_states
     times = []
     for _ in range(repeats):
@@ -239,7 +239,7 @@ def time_solver(case, expected, plan, repeats, mode):
         stats = Counter()
         start = process_time()
         actual = has_spanning_path(case.neighbors, case.x, case.y, True, mode != "plain", stats,
-                                   split_edges=plan.__getitem__, reduce_states=reduce_states)
+                                   split_edges=plan.__getitem__, reduce_states=reduce_states, **options)
         times.append(process_time() - start)
         if actual != expected:
             raise AssertionError((case.name, mode, expected, actual))

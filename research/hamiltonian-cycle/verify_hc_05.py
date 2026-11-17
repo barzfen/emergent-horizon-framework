@@ -100,11 +100,33 @@ def piece_boundary(neighbors, endpoints, edges):
     return tuple(sorted(v for v in incidence if v in endpoints or incidence[v] < len(neighbors[v])))
 
 
+def scan_join(endpoints, boundary, left, left_states, right, right_states, stats):
+    active = tuple(sorted(set(left) | set(right)))
+    forgotten = tuple(v for v in active if v not in boundary)
+    right_degrees = [(dict(zip(right, degree)), matching) for degree, matching in right_states]
+    states = set()
+    degree_compatible = 0
+    for degree, first in left_states:
+        left_degree = dict(zip(left, degree))
+        for right_degree, second in right_degrees:
+            joined = {v: left_degree.get(v, 0) + right_degree.get(v, 0) for v in active}
+            if any(joined[v] != 2 for v in forgotten):
+                continue
+            if any(joined[v] > (1 if v in endpoints else 2) for v in boundary):
+                continue
+            degree_compatible += 1
+            matching = join_matchings(first, second)
+            if matching is not None:
+                states.add((tuple(joined[v] for v in boundary), matching))
+    stats["degree checks"] += len(left_states) * len(right_states)
+    stats["degree-compatible pairs"] += degree_compatible
+    return states
+
+
 def piece_states(neighbors, endpoints, edges, balanced, compressed, stats, *,
-                 split_edges=None, reduce_states=representative_states):
+                 split_edges=None, reduce_states=representative_states, join_records=scan_join):
     """Return the boundary and states of a nonempty subset of the graph's edges."""
     boundary = piece_boundary(neighbors, endpoints, edges)
-    boundary_set = set(boundary)
     if len(edges) == 1:
         edge = edges[0]
         # Keep or omit the edge. A nonterminal forgotten here already needs degree two.
@@ -117,29 +139,12 @@ def piece_states(neighbors, endpoints, edges, balanced, compressed, stats, *,
             first_edges, second_edges = edges[:split], edges[split:]
         else:
             first_edges, second_edges = split_edges(edges)
-        options = {"split_edges": split_edges, "reduce_states": reduce_states}
+        options = {"split_edges": split_edges, "reduce_states": reduce_states, "join_records": join_records}
         left, left_states = piece_states(neighbors, endpoints, first_edges, balanced, compressed, stats, **options)
         right, right_states = piece_states(neighbors, endpoints, second_edges, balanced, compressed, stats, **options)
-        active = tuple(sorted(set(left) | set(right)))
-        forgotten = tuple(v for v in active if v not in boundary_set)
-        right_degrees = [(dict(zip(right, degree)), matching) for degree, matching in right_states]
-        states = set()
         stats["join pairs"] += len(left_states) * len(right_states)
-        stats["peak join boundary"] = max(stats["peak join boundary"], len(active))
-        degree_compatible = 0
-        for degree, first in left_states:
-            left_degree = dict(zip(left, degree))
-            for right_degree, second in right_degrees:
-                joined = {v: left_degree.get(v, 0) + right_degree.get(v, 0) for v in active}
-                if any(joined[v] != 2 for v in forgotten):
-                    continue
-                if any(joined[v] > (1 if v in endpoints else 2) for v in boundary):
-                    continue
-                degree_compatible += 1
-                matching = join_matchings(first, second)
-                if matching is not None:
-                    states.add((tuple(joined[v] for v in boundary), matching))
-        stats["degree-compatible pairs"] += degree_compatible
+        stats["peak join boundary"] = max(stats["peak join boundary"], len(set(left) | set(right)))
+        states = join_records(endpoints, boundary, left, left_states, right, right_states, stats)
 
     stats["before reduction"] += len(states)
     stats["peak boundary"] = max(stats["peak boundary"], len(boundary))
