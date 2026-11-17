@@ -126,6 +126,7 @@ def piece_states(neighbors, endpoints, edges, balanced, compressed, stats, *,
         states = set()
         stats["join pairs"] += len(left_states) * len(right_states)
         stats["peak join boundary"] = max(stats["peak join boundary"], len(active))
+        degree_compatible = 0
         for degree, first in left_states:
             left_degree = dict(zip(left, degree))
             for right_degree, second in right_degrees:
@@ -134,9 +135,11 @@ def piece_states(neighbors, endpoints, edges, balanced, compressed, stats, *,
                     continue
                 if any(joined[v] > (1 if v in endpoints else 2) for v in boundary):
                     continue
+                degree_compatible += 1
                 matching = join_matchings(first, second)
                 if matching is not None:
                     states.add((tuple(joined[v] for v in boundary), matching))
+        stats["degree-compatible pairs"] += degree_compatible
 
     stats["before reduction"] += len(states)
     stats["peak boundary"] = max(stats["peak boundary"], len(boundary))

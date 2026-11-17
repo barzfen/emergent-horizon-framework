@@ -119,7 +119,7 @@ def reference_path(case):
     return visit(case.x, ((1 << len(adjacent)) - 1) ^ (1 << case.x))
 
 
-def breadth_first_order(neighbors, edges, source):
+def breadth_first_distances(neighbors, source):
     distance = {source: 0}
     queue = deque([source])
     while queue:
@@ -128,19 +128,36 @@ def breadth_first_order(neighbors, edges, source):
             if u not in distance:
                 distance[u] = distance[v] + 1
                 queue.append(u)
+    return distance
 
+
+def order_by_distance(edges, distance, missing):
     def edge_key(edge):
-        distances = sorted(distance.get(v, len(neighbors)) for v in edge)
+        distances = sorted(distance.get(v, missing) for v in edge)
         return distances[1], distances[0], edge
 
     return tuple(sorted(edges, key=edge_key))
 
 
-def small_boundary_split(neighbors, terminals, edges):
+def breadth_first_order(neighbors, edges, source):
+    return order_by_distance(edges, breadth_first_distances(neighbors, source), len(neighbors))
+
+
+def piece_adjacency(edges):
     local = {v: set() for edge in edges for v in edge}
     for a, b in edges:
         local[a].add(b)
         local[b].add(a)
+    return local
+
+
+def width_score(left_boundary, right_boundary, left_size, right_size):
+    return (max(len(left_boundary), len(right_boundary)), len(left_boundary | right_boundary),
+            len(left_boundary) + len(right_boundary), abs(left_size - right_size))
+
+
+def small_boundary_split(neighbors, terminals, edges):
+    local = piece_adjacency(edges)
     orderings = dict.fromkeys([edges, *(breadth_first_order(local, edges, v) for v in sorted(local))])
     best_score = None
     for order in orderings:
@@ -150,8 +167,7 @@ def small_boundary_split(neighbors, terminals, edges):
             left, right = order[:split], order[split:]
             left_boundary = set(piece_boundary(neighbors, terminals, left))
             right_boundary = set(piece_boundary(neighbors, terminals, right))
-            score = (max(len(left_boundary), len(right_boundary)), len(left_boundary | right_boundary),
-                     len(left_boundary) + len(right_boundary), abs(size - 2 * split))
+            score = width_score(left_boundary, right_boundary, len(left), len(right))
             if best_score is None or score < best_score:
                 best_score = score
                 best = left, right

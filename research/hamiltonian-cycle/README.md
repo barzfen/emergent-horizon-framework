@@ -10,6 +10,8 @@
 
 [EHF-HC-06 · Boundary cut benchmark](HC-06.md) measures planning and join costs and implements the established compact matching columns.
 
+[EHF-HC-07 · Cut sampling](HC-07.md) benchmarks cheaper cut choices and tests a parity-aware estimate of join work.
+
 ## EHF-HC-01 · Which partial routes can share a search state?
 
 **PROVED.** On a fixed undirected graph, two rooted simple paths with the same unvisited vertices and the same endpoint attachment set have exactly the same legal completion sequences. **NEGATIVE.** A cheaper comparison based on counts of attachment types can give the wrong answer about whether a route can finish. The smallest graph exhibiting that failure has seven vertices. **COMPUTATIONAL.** The [verifier](verify_hc_01.py) checked all 33,864 labelled graphs of orders three through six and explicit witnesses of orders seven through ten.
