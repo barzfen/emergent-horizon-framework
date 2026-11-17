@@ -63,7 +63,7 @@ def independent_rows(rows):
             row ^= pivots[pivot]
 
 
-def representative_states(states):
+def representative_states(states, row_function=completion_row):
     by_degree = defaultdict(list)
     for degrees, matching in states:
         by_degree[degrees].append(matching)
@@ -75,7 +75,7 @@ def representative_states(states):
         endpoints = sorted(v for edge in matchings[0] for v in edge)
         number = {v: i for i, v in enumerate(endpoints)}
         rows = (
-            (matching, completion_row(len(endpoints), tuple((number[a], number[b]) for a, b in matching)))
+            (matching, row_function(len(endpoints), tuple((number[a], number[b]) for a, b in matching)))
             for matching in sorted(matchings)
         )
         result.update((degrees, matching) for matching in independent_rows(rows))
@@ -95,10 +95,15 @@ def join_matchings(left, right):
     return tuple(sorted((a, b) for a, b in mates.items() if a < b))
 
 
-def piece_states(neighbors, endpoints, edges, balanced, compressed, stats):
-    """Return the boundary and states of a nonempty subset of the graph's edges."""
+def piece_boundary(neighbors, endpoints, edges):
     incidence = Counter(v for edge in edges for v in edge)
-    boundary = tuple(sorted(v for v in incidence if v in endpoints or incidence[v] < len(neighbors[v])))
+    return tuple(sorted(v for v in incidence if v in endpoints or incidence[v] < len(neighbors[v])))
+
+
+def piece_states(neighbors, endpoints, edges, balanced, compressed, stats, *,
+                 split_edges=None, reduce_states=representative_states):
+    """Return the boundary and states of a nonempty subset of the graph's edges."""
+    boundary = piece_boundary(neighbors, endpoints, edges)
     boundary_set = set(boundary)
     if len(edges) == 1:
         edge = edges[0]
@@ -107,13 +112,20 @@ def piece_states(neighbors, endpoints, edges, balanced, compressed, stats):
         if len(boundary) == 2:
             states.update({((0, 0), ()), ((1, 1), (edge,))})
     else:
-        split = len(edges) // 2 if balanced else len(edges) - 1
-        left, left_states = piece_states(neighbors, endpoints, edges[:split], balanced, compressed, stats)
-        right, right_states = piece_states(neighbors, endpoints, edges[split:], balanced, compressed, stats)
+        if split_edges is None:
+            split = len(edges) // 2 if balanced else len(edges) - 1
+            first_edges, second_edges = edges[:split], edges[split:]
+        else:
+            first_edges, second_edges = split_edges(edges)
+        options = {"split_edges": split_edges, "reduce_states": reduce_states}
+        left, left_states = piece_states(neighbors, endpoints, first_edges, balanced, compressed, stats, **options)
+        right, right_states = piece_states(neighbors, endpoints, second_edges, balanced, compressed, stats, **options)
         active = tuple(sorted(set(left) | set(right)))
         forgotten = tuple(v for v in active if v not in boundary_set)
         right_degrees = [(dict(zip(right, degree)), matching) for degree, matching in right_states]
         states = set()
+        stats["join pairs"] += len(left_states) * len(right_states)
+        stats["peak join boundary"] = max(stats["peak join boundary"], len(active))
         for degree, first in left_states:
             left_degree = dict(zip(left, degree))
             for right_degree, second in right_degrees:
@@ -127,9 +139,11 @@ def piece_states(neighbors, endpoints, edges, balanced, compressed, stats):
                     states.add((tuple(joined[v] for v in boundary), matching))
 
     stats["before reduction"] += len(states)
+    stats["peak boundary"] = max(stats["peak boundary"], len(boundary))
     if compressed:
-        states = representative_states(states)
+        states = reduce_states(states)
     stats["retained"] += len(states)
+    stats["peak states"] = max(stats["peak states"], len(states))
     return boundary, states
 
 
@@ -137,11 +151,11 @@ def edge_list(neighbors):
     return tuple(sorted((a, b) for a, row in enumerate(neighbors) for b in row if a < b))
 
 
-def has_spanning_path(neighbors, x, y, balanced, compressed, stats):
+def has_spanning_path(neighbors, x, y, balanced, compressed, stats, **options):
     endpoints = {x, y}
     if any(len(row) < (1 if v in endpoints else 2) for v, row in enumerate(neighbors)):
         return False
-    boundary, states = piece_states(neighbors, endpoints, edge_list(neighbors), balanced, compressed, stats)
+    boundary, states = piece_states(neighbors, endpoints, edge_list(neighbors), balanced, compressed, stats, **options)
     return ((1, 1), (boundary,)) in states
 
 
