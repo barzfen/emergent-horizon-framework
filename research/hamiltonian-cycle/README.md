@@ -1,5 +1,7 @@
 # Hamiltonian Cycle and admissible comparisons
 
+[EHF-HC-02 · Stable neighbour refinement](HC-02.md) fixes the HC-01 square and finds two minimal eleven-vertex failures, including one with no bridges in the residual graph.
+
 ## EHF-HC-01 · Which partial routes can share a search state?
 
 **PROVED.** On a fixed undirected graph, two rooted simple paths with the same unvisited vertices and the same endpoint attachment set have exactly the same legal completion sequences. **NEGATIVE.** A cheaper comparison based on counts of attachment types can give the wrong answer about whether a route can finish. The smallest graph exhibiting that failure has seven vertices. **COMPUTATIONAL.** The [verifier](verify_hc_01.py) checked all 33,864 labelled graphs of orders three through six and explicit witnesses of orders seven through ten.
@@ -56,6 +58,6 @@ Both the subset/end and exact attachment keys preserved the full suffix sets in 
 
 Hamiltonian Cycle is one of Karp's NP-complete problems. A deterministic polynomial-time decision algorithm for arbitrary input graphs would imply $\mathrm{P}=\mathrm{NP}$. The subset/end baseline is the state representation of the classical Bellman–Held–Karp subset dynamic programme. For more general partial solutions that can contain multiple path fragments, Cygan, Kratsch and Nederlof study exactly which endpoint matchings can be joined to form one cycle. That compatibility test supplies a benchmark for comparisons involving more than one fragment. Consulted Karp's reduction, the Princeton lecture derivation of subset dynamic programming, and the abstract and matching-connectivity statement of Cygan, Kratsch and Nederlof. [Karp (1972)](https://www2.seas.gwu.edu/~simhaweb/champalg/tsp/papers/KarpOriginal.pdf) · [Held and Karp (1962)](https://doi.org/10.1137/0110015) · [Princeton lecture](https://www.cs.princeton.edu/courses/archive/spring13/cos423/lectures/IntractabilityIII.pdf) · [Cygan, Kratsch and Nederlof (2018)](https://doi.org/10.1145/3148227)
 
-The next test is to refine each attachment type by its neighbours' types, keeping membership in $A$ marked throughout. The square example splits after one round. Search for the smallest disagreement in the existence answer after refinement stabilizes. Automorphisms of $G[U]$ that preserve $A$ give a proved control because they carry each legal completion to a legal completion.
+The square example splits after one round when each type is refined by its neighbours' types and membership in $A$ stays marked. [HC-02](HC-02.md) follows that comparison to stability and determines the smallest remaining decision failure. Automorphisms of $G[U]$ that preserve $A$ give a proved control because they carry each legal completion to a legal completion.
 
 The proof, witness and verifier were prepared with AI assistance. Priority for the exact attachment comparison or the obstruction has not been evaluated.
