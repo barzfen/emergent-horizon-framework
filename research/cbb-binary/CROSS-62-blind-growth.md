@@ -80,6 +80,8 @@ $$
 
 This gives $G\approx1.94615$ at $q_0=1/4$ and $G\approx2.10924$ at $q_0=3/4$. The rate rule is identical. The lost information is the actual mixture used to average the two sign-conditioned records. With a representative pooled flip-count law the mean of $2^H$ identifies $G$, so two distinct growth factors cannot have that same law.
 
+[CROSS-63](CROSS-63-ecoli-lineage.md) compares fixed and random daughter-following on recorded *E. coli* lineages. The general forward growth identity also appears in [Genthon and Lacoste, equation 4](https://pmc.ncbi.nlm.nih.gov/articles/PMC7367869/#Sec3).
+
 ## Reproduce
 
 From the repository root run `node research/cbb-binary/cross62_blind_growth.js`. The verifier uses only standard JavaScript. It includes the exact census, seeded blind simulations, and the hidden-composition example.

@@ -1,6 +1,6 @@
 # Three-colour cycle growth, clocks and Bell tests
 
-This guide follows the EHF research series CROSS-39 through CROSS-62. It links every probe and its verifier, then indexes the earlier work that led to the series. [Repository home](../../README.md) · [CBB binary growth notes](README.md) · [Earlier QM bridge probes](../../probes/qm-bridge/README.md)
+This guide follows the EHF research series CROSS-39 through CROSS-63. It links every probe and its verifier, then indexes the earlier work that led to the series. [Repository home](../../README.md) · [CBB binary growth notes](README.md) · [Earlier QM bridge probes](../../probes/qm-bridge/README.md)
 
 ## Start here
 
@@ -55,6 +55,7 @@ The combinatorial results concern reachable cycles and the histories between the
 | [CROSS-60](CROSS-60-local-growth-clock.md) | Gives identical local clock traces at different sizes and derives noisy estimates of growth from local ticks under supplied rates. | [Python](cross60_local_growth_clock.py) |
 | [CROSS-61](CROSS-61-clock-bias.md) | Shows that full local ticks agree in law under a fixed bias and split at every threshold when the bias reverses halfway. | [Python](cross61_clock_bias.py) |
 | [CROSS-62](CROSS-62-blind-growth.md) | Recovers a finite ring's growth factor in expectation from representative local flip records, with a hidden-composition counterexample. | [JavaScript](cross62_blind_growth.js) |
+| [CROSS-63](CROSS-63-ecoli-lineage.md) | Compares fixed pole-following and random choices on six published bacterial lineage recordings. | [JavaScript](cross63_ecoli_lineage.js) |
 
 ### What the later probes resolve
 
@@ -74,7 +75,7 @@ for script in research/cbb-binary/cross[0-9]*.py; do
 done
 ```
 
-For CROSS-62, run `node research/cbb-binary/cross62_blind_growth.js` from the repository root.
+For CROSS-62 and CROSS-63, run `node research/cbb-binary/cross62_blind_growth.js` and `node research/cbb-binary/cross63_ecoli_lineage.js` from the repository root.
 
 Each note includes its own reproduction command and states the relevant bounds, controls and assumptions. Keep the scripts in this directory because several import earlier verifiers. For research provenance and licensing, see [CONTRIBUTING.md](../../CONTRIBUTING.md), [CITATION.cff](../../CITATION.cff) and [LICENSE.md](../../LICENSE.md).
 
