@@ -109,6 +109,8 @@ Each column pair gives two marginal probabilities for ports in the same ring. Th
 
 Under fixed bias, each full tick contains one fast and one slow step, in either order. Under a switch, two ports on the same ring using the same counting rule can accumulate systematically different tick records because the rates change while each port is partway through its own sequence.
 
+[CROSS-62](CROSS-62-blind-growth.md) uses the individual flip counts from a representative pool to estimate growth when the bias schedule is hidden.
+
 ## Reproduce
 
 Run `python3 research/cbb-binary/cross61_clock_bias.py` from the repository root. The verifier checks the finite recurrence on both ports against all 47,952 labelled insertion histories through four insertions across three starting sizes and three protocols. It then compares the finite count distributions at doubling for starting sizes 50, 200 and 800 with the limiting distributions. The first two threshold gaps also agree with the generating-function coefficients.
