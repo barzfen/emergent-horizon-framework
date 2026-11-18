@@ -4,6 +4,8 @@
 **Status** Exact constructions and obstruction, with a finite exhaustive check.  
 **Scope** $SO(3)$, $U(1)$, $U(n)$ and $SU(n)$, followed by a fixed-window cycle experiment. Admissible comparison is the chosen primitive data of EHF.
 
+[Follow-up on visible phase and deterministic growth](visible-phase.md) — overlapping windows and legal insertions give observable periods that double with growth.
+
 ## One operation type, with different placements
 
 A real hyperplane reflection flips the component of a vector perpendicular to the hyperplane and fixes every component in it. Applying the same reflection twice gives the identity. Applying reflections about two different lines in a plane rotates that plane through twice the signed angle between the lines. In three dimensions, take two mirror planes that meet along the desired axis. Their intersection with a perpendicular cross-section gives the two reflection lines. More generally, Cartan–Dieudonné gives a factorization of every real orthogonal map into hyperplane reflections. An orientation-preserving map uses an even number of them. The construction uses a real inner product and allows the reflection direction to vary. [Eckhard Meinrenken, *Clifford Algebras and Lie Groups*, §4, lecture notes](https://www.math.toronto.edu/mein/teaching/LieClifford/cl12.pdf).
