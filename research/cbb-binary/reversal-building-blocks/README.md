@@ -21,6 +21,8 @@ For the last line, determinants of commutators are one. Conversely, any determin
 
 The audit counts one **type** of operation. One fixed reflection has order two. Reflections with varied directions carry placement information, and the unitary construction uses the same $J$ across its planes. The factorization by itself leaves the inner product, the dimension and the choice of compatible $J$ as inputs.
 
+There is an exact obstruction to selecting that $J$ from rotation symmetry alone in real dimension $2n\ge4$. Any canonical choice would commute with every real rotation. For any nonzero vector $v$, all rotations fixing $v$ would then also fix $Jv$. Those rotations have only the line through $v$ as their common fixed space, so $Jv$ would have to be parallel to $v$. That is impossible for a real map squaring to $-I$. A relation that selects a common quarter-turn supplies information beyond the full real rotation symmetry.
+
 ## Fixed-window reversal on a cycle
 
 Take a marked consecutive block of $m\ge3$ individually labelled vertices with a fixed left flank and right flank. Keep the exterior fixed. Reverse the first $m-1$ slots, then reverse all $m$ slots. The composite sends $x_1\ldots x_m$ to $x_mx_1\ldots x_{m-1}$. With distinct labels this gives an action of the cyclic group $C_m$ with exact period $m$. Either reversal alone has order two. The marked window fixes the comparison used to read shifts.
@@ -36,6 +38,8 @@ Use the proper-colouring constraint from the [three-colour growth series](../GRO
 **Proof.** A full orbit puts every block vertex next to each flank. Thus all used block colours must differ from both flank colours. Distinct flank colours would leave one possible colour for the whole block, which violates adjacent inequality. Equal flanks leave two usable colours. Successive shifts expose every cyclic adjacency of the block, including its original last–first pair. Hence the block must alternate cyclically and its length must be even. Conversely, on such a block the first reversal has odd length and preserves its colour word. The second reversal reverses an even alternating word, producing the other alternating colour word. Both steps preserve proper colouring, including the flank edges. Iteration flips the visible colour word each round and shifts the distinct labels by one slot. ∎
 
 For example, take the block `ABAB` between two `C` flanks. After two composites the colours look as they did initially. The labelled block is halfway through its four-shift orbit. An exterior vertex of colour `A` can connect the two `C` flanks to complete the full cycle, so the example embeds in an actual proper cycle. In general, a vertex with a colour different from both flanks suffices to complete each proper local test word without modifying the move region.
+
+There is also a locality obstruction inside each surviving block. In the raw cycle, adjacent swaps can build either reversal. In a surviving alternating block of length at least four, every adjacent swap inside the block creates an equal-colour neighbour pair, since the swapped pair has at least one further block neighbour. Thus an adjacent-swap decomposition preserving the same window and testing proper colouring at every intermediate step cannot even start. This statement allows routes using other windows or other intermediate objects to be studied separately.
 
 ### Verification
 
