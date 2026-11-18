@@ -8,10 +8,11 @@ Admissible comparison is the chosen primitive data of the framework. This resear
 | --- | --- |
 | [Local swaps produce one cycle](#can-a-comparison-network-generate-a-single-cycle) | One swap per tree edge produces a single directed successor cycle. The output and the tree recover the order of intersecting swaps. |
 | [Tree shape and the order of swaps](branch-shape-order.md) | A shape-based convention resolves distinguishable branches. Exact symmetries block a choice on the individual sites, while all tie choices give one output up to tree symmetry under a fixed ranking. |
+| [Growth by one new comparison](leaf-growth.md) | An inherited schedule projects exactly. Re-ranking can force a different cycle arbitrarily far away, with a sharp logarithmic bound on the number of affected sites. |
 
 ## Next questions
 
-1. Test whether changing the comparison network by growth preserves existing local orders, and identify the smallest cases where order changes or new ties appear.
+1. Compare histories that keep established local order with rules that reconstruct it after each growth step. Work out when both descriptions can agree over repeated growth.
 2. Work out what the comparison relation can retain when the network has loops. Test whether a local rule can select merging events without already knowing global components.
 3. Compare candidate rules on inequivalent rankings and on observations that identify different amounts of microscopic information.
 
