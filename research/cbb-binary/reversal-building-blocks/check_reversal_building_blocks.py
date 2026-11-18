@@ -76,10 +76,18 @@ def check_three_colours():
             assert (orbit is not None) == can_repeat, (colours, orbit)
             if orbit is not None:
                 assert orbit == (length, 2), (colours, orbit)
+                for index in range(1, length):
+                    swapped = (
+                        colours[:index]
+                        + colours[index : index + 2][::-1]
+                        + colours[index + 2 :]
+                    )
+                    assert not is_proper(swapped), (colours, index)
                 repeatable += 1
             checked += 1
     print(f"Three colours: {checked:,} proper local words, lengths 3–10.")
     print(f"Repeatable: {repeatable}. Every survivor has label period m and colour period 2.")
+    print("Every adjacent swap inside a surviving block is blocked.")
 
 
 if __name__ == "__main__":
