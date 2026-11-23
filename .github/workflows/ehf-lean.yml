@@ -37,3 +37,5 @@ jobs:
         run: lean formal/lean/CycleGrowth.lean
       - name: Check undirected quotient and deletion
         run: lean formal/lean/UndirectedCycles.lean
+      - name: Audit small undirected cycles and growth coverage
+        run: python3 formal/lean/verify_undirected_growth.py
