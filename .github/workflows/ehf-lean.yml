@@ -1,0 +1,32 @@
+name: EHF Lean proofs
+
+on:
+  pull_request:
+    paths:
+      - 'formal/lean/**'
+      - 'lean-toolchain'
+      - '.github/workflows/ehf-lean.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'formal/lean/**'
+      - 'lean-toolchain'
+      - '.github/workflows/ehf-lean.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-lean:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out EHF
+        uses: actions/checkout@v4
+      - name: Install Lean 4
+        uses: leanprover/lean-action@v1
+        with:
+          auto-config: false
+          use-github-cache: false
+      - name: Check binary edge-split theorem
+        run: ~/.elan/bin/lean formal/lean/EdgeSplit.lean
