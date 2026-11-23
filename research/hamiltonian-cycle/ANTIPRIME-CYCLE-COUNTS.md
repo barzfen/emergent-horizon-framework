@@ -148,14 +148,14 @@ the general result. That is provided by the Bertrand/valuation proof.
 
 ## EHF significance and limits
 
-The antprime run is caused by the **factorial count** of uncoloured
+The antiprime run is caused by the **factorial count** of uncoloured
 complete-graph Hamiltonian cycles under all-slot insertion. This
 number-theoretic property does not imply a new symmetry,
 physical law, or growth invariant for EHF. Different constrained
 growth systems have different counts and require separate checks.
 
-The mathematical argument is human-written/explained with AI
-assistance and has **not been formalised in Lean**. EHF-LEAN-02/03
+The mathematical argument was prepared with AI assistance and has
+**not been formalised in Lean**. EHF-LEAN-02/03
 address related cycle growth but should not be cited as Lean
 verification of this antiprime theorem.
 
