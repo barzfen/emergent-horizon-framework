@@ -195,6 +195,53 @@ theorem unique_undirected_parent {α : Type u} [DecidableEq α]
   simpa [delete_after_insertion xs w i freshX hi,
     delete_after_insertion ys w j freshY hj] using h
 
+/-- Erasing a known entry and inserting its value at the exact
+    position reconstructs the full ordered listing. -/
+theorem reinsert_erased_label {α : Type u}
+    (zs : List α) (w : α) (i : Nat)
+    (h : zs[i]? = some w) :
+    (zs.eraseIdx i).insertIdx i w = zs := by
+  induction zs generalizing i with
+  | nil =>
+      cases i <;> simp at h
+  | cons x xs ih =>
+      cases i with
+      | zero =>
+          have hx : x = w := by simpa using h
+          subst x
+          simp
+      | succ i =>
+          have ht : xs[i]? = some w := by simpa using h
+          simpa using congrArg (List.cons x) (ih i ht)
+
+/-- Each occurrence of a vertex admits a concrete position witness. -/
+theorem exists_label_index {α : Type u}
+    (zs : List α) (w : α) (hw : w ∈ zs) :
+    ∃ i : Nat, zs[i]? = some w := by
+  induction zs with
+  | nil => simp at hw
+  | cons x xs ih =>
+      rcases List.mem_cons.mp hw with hEq | hTail
+      · refine ⟨0, ?_⟩
+        simp [hEq]
+      · obtain ⟨i, hIdx⟩ := ih hTail
+        refine ⟨i + 1, ?_⟩
+        simpa using hIdx
+
+/-- Every (root-fixed, oriented) child listing containing w is the
+    insertion image of some predecessor listing. The same statement
+    therefore holds at the undirected quotient level. This theorem
+    does not *by itself* constrain the predecessor to be valid or fresh;
+    those facts require the Hamiltonian no-duplicate hypotheses. -/
+theorem every_child_is_an_insertion {α : Type u}
+    (zs : List α) (w : α) (hw : w ∈ zs) :
+    ∃ (parent : List α) (i : Nat),
+      classOf zs = classOf (parent.insertIdx i w) := by
+  obtain ⟨i, hIdx⟩ := exists_label_index zs w hw
+  refine ⟨zs.eraseIdx i, i, ?_⟩
+  rw [reinsert_erased_label zs w i hIdx]
+
+#print axioms EHF.Undirected.every_child_is_an_insertion
 #print axioms EHF.Undirected.unique_undirected_parent
 #print axioms EHF.Undirected.delete_after_insertion
 #print axioms EHF.Undirected.classOf_eq_iff
