@@ -53,8 +53,9 @@ theorem sameTail_trans {α : Type u} {xs ys zs : List α}
     conflicts with other list equivalence structures. -/
 def reversalSetoid (α : Type u) : Setoid (List α) where
   r := sameTail
-  iseqv := ⟨sameTail_refl, (fun _ _ => sameTail_symm),
-    (fun _ _ _ => sameTail_trans)⟩
+  iseqv := ⟨(fun x => sameTail_refl x),
+    (fun _ _ h => sameTail_symm h),
+    (fun _ _ _ h₁ h₂ => sameTail_trans h₁ h₂)⟩
 
 /-- An unoriented cyclic listing with a distinguished fixed root, encoded
     by the non-root tail up to its reversal. Valid cycles are those whose
@@ -79,7 +80,8 @@ theorem classOf_eq_iff {α : Type u} (xs ys : List α) :
     classOf xs = classOf ys ↔ sameTail xs ys := by
   constructor
   · exact Quotient.exact
-  · exact Quotient.sound
+  · intro h
+    exact Quotient.sound h
 
 /-- Remove every occurrence of a newly introduced label. In the EHF
     Hamiltonian-cycle use case the label occurs exactly once. -/
