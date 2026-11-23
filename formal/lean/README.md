@@ -1,12 +1,12 @@
 # EHF formal verification — Lean 4
 
-## First candidate: binary edge-splitting invariant
+## EHF-LEAN-01: binary edge-splitting invariant
 
-**Status:** Proof source prepared; the GitHub Actions Lean run is the
-independent compiler check. Do not label it machine-verified until that
-run succeeds.
-
-Source: [`EdgeSplit.lean`](EdgeSplit.lean).
+**Status: MACHINE-VERIFIED.** Lean 4.36.0 accepted the theorem in
+[GitHub Actions run 45176260310](https://github.com/barzfen/emergent-horizon-framework/actions/runs/45176260310)
+on 2026-11-23. The compiler reported that the theorem **does not depend
+on any axioms**. This status applies to the unchanged proof in
+[`EdgeSplit.lean`](EdgeSplit.lean); later changes must be rechecked.
 
 This formalises a local relationship already discussed in
 [EHF-CBB-BIN](../../research/cbb-binary/README.md), not a new physical
@@ -44,8 +44,8 @@ Booleans, which is exhaustive by construction (8 cases).
 - The result is an elementary XOR identity. It validates one formal
   building block of the binary extension; it is not evidence for a
   physical interpretation of EHF.
-- The file deliberately uses Lean's core library only, with no
-  `sorry` placeholders and no added axioms.
+- The proof uses Lean's core library only, with no `sorry` placeholders
+  and no added axioms.
 
 ### Reproduce
 
