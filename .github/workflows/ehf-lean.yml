@@ -35,3 +35,5 @@ jobs:
         run: lean formal/lean/EdgeSplit.lean
       - name: Check full-cycle insertion and deletion
         run: lean formal/lean/CycleGrowth.lean
+      - name: Check undirected quotient and deletion
+        run: lean formal/lean/UndirectedCycles.lean
