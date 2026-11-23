@@ -123,6 +123,76 @@ theorem delete_reversal_invariant {α : Type u} [DecidableEq α]
       deleteClass w (classOf xs.reverse) := by
   rw [← classOf_reverse xs]
 
+/-- Filtering a label absent from a listing does not change it. -/
+private theorem forget_absent {α : Type u} [DecidableEq α]
+    (xs : List α) (w : α) (hf : w ∉ xs) :
+    forget w xs = xs := by
+  induction xs with
+  | nil => simp [forget]
+  | cons x xs ih =>
+      have hx : x ≠ w := by
+        intro h
+        exact hf (by simp [h])
+      have ht : w ∉ xs := by
+        intro h
+        exact hf (List.mem_cons_of_mem _ h)
+      simp [forget, hx, ih ht]
+
+/-- Deleting the newly inserted label restores the complete original
+    listing, for every insertion index including 0 and the end. -/
+theorem forget_insertIdx {α : Type u} [DecidableEq α]
+    (xs : List α) (w : α) (i : Nat)
+    (fresh : w ∉ xs) (hi : i ≤ xs.length) :
+    forget w (xs.insertIdx i w) = xs := by
+  induction xs generalizing i with
+  | nil =>
+      cases i with
+      | zero => simp [forget]
+      | succ i =>
+          simp only [List.length_nil] at hi
+          omega
+  | cons x xs ih =>
+      have hx : x ≠ w := by
+        intro h
+        exact fresh (by simp [h])
+      have ht : w ∉ xs := by
+        intro h
+        exact fresh (List.mem_cons_of_mem _ h)
+      cases i with
+      | zero =>
+          simp [forget, hx, forget_absent xs w ht]
+      | succ i =>
+          have hi' : i ≤ xs.length := by
+            simp only [List.length_cons] at hi
+            omega
+          simpa [forget, hx] using
+            congrArg (List.cons x) (ih i ht hi')
+
+/-- Every insertion has the declared predecessor even after taking
+    the undirected quotient. -/
+theorem delete_after_insertion {α : Type u} [DecidableEq α]
+    (xs : List α) (w : α) (i : Nat)
+    (fresh : w ∉ xs) (hi : i ≤ xs.length) :
+    deleteClass w (classOf (xs.insertIdx i w)) = classOf xs := by
+  rw [deleteClass_classOf, forget_insertIdx xs w i fresh hi]
+
+/-- Core EHF-CBB uniqueness result after quotienting orientation:
+    two insertion histories yielding the same undirected child
+    necessarily have the same undirected parent. Slot indices may be
+    different when one history uses the reversed parent orientation. -/
+theorem unique_undirected_parent {α : Type u} [DecidableEq α]
+    (xs ys : List α) (w : α) (i j : Nat)
+    (freshX : w ∉ xs) (freshY : w ∉ ys)
+    (hi : i ≤ xs.length) (hj : j ≤ ys.length)
+    (hchild : classOf (xs.insertIdx i w) =
+      classOf (ys.insertIdx j w)) :
+    classOf xs = classOf ys := by
+  have h := congrArg (deleteClass w) hchild
+  simpa [delete_after_insertion xs w i freshX hi,
+    delete_after_insertion ys w j freshY hj] using h
+
+#print axioms EHF.Undirected.unique_undirected_parent
+#print axioms EHF.Undirected.delete_after_insertion
 #print axioms EHF.Undirected.classOf_eq_iff
 #print axioms EHF.Undirected.deleteClass_classOf
 #print axioms EHF.Undirected.delete_reversal_invariant
