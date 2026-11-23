@@ -1,5 +1,19 @@
 # EHF formal verification — Lean 4
 
+## EHF-LEAN-03: undirected quotient and predecessor uniqueness
+
+**Status:** Lean 4.36.0 verifies the
+[reversal quotient, orientation-independent deletion, insertion inverse,
+unique undirected parent and child reconstruction](UndirectedCycles.lean).
+A [mathematical proof of the full undirected all-slot bijection](UNDIRECTED-GROWTH.md)
+and an [independent complete small-order enumeration](verify_undirected_growth.py)
+are included.
+
+**Important:** The full edge-marked bijection, dihedral normalization
+equivalence and factorial count have **not** yet been proved in Lean.
+The mathematical argument and finite numerical checks are separate
+from the formal proof status.
+
 ## EHF-LEAN-02: whole-cycle all-slot growth and unique ancestry
 
 **Status: MACHINE-VERIFIED.** Lean 4.36.0 accepted
