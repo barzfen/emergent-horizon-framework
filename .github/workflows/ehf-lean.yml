@@ -33,3 +33,5 @@ jobs:
           echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
       - name: Check binary edge-split theorem
         run: lean formal/lean/EdgeSplit.lean
+      - name: Check full-cycle insertion and deletion
+        run: lean formal/lean/CycleGrowth.lean
