@@ -1,5 +1,7 @@
 # Hamiltonian Cycle and admissible comparisons
 
+[EHF-HC-ANTIPRIME-01 · Last highly composite cycle count](ANTIPRIME-CYCLE-COUNTS.md) proves that the count `(n-1)!/2` is highly composite only at n=3 and 5..9. It gives a smaller divisor-rich witness for every n>=10 using Bertrand's postulate and includes an independent finite audit.
+
 [EHF-HC-02 · Stable neighbour refinement](HC-02.md) fixes the HC-01 square and finds two minimal eleven-vertex failures, including one with no bridges in the residual graph.
 
 [EHF-HC-03 · Vertex connectivity](HC-03.md) gives the first biconnected failure, tests two-vertex separators and one-step lookahead, and constructs failures at arbitrary connectivity.
