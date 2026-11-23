@@ -53,9 +53,11 @@ theorem sameTail_trans {α : Type u} {xs ys zs : List α}
     conflicts with other list equivalence structures. -/
 def reversalSetoid (α : Type u) : Setoid (List α) where
   r := sameTail
-  iseqv := ⟨(fun x => sameTail_refl x),
-    (fun _ _ h => sameTail_symm h),
-    (fun _ _ _ h₁ h₂ => sameTail_trans h₁ h₂)⟩
+  iseqv := {
+    refl := by intro x; exact sameTail_refl x
+    symm := by intro x y h; exact sameTail_symm h
+    trans := by intro x y z h₁ h₂; exact sameTail_trans h₁ h₂
+  }
 
 /-- An unoriented cyclic listing with a distinguished fixed root, encoded
     by the non-root tail up to its reversal. Valid cycles are those whose
