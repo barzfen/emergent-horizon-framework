@@ -136,7 +136,9 @@ private theorem forget_absent {α : Type u} [DecidableEq α]
       have ht : w ∉ xs := by
         intro h
         exact hf (List.mem_cons_of_mem _ h)
-      simp [forget, hx, ih ht]
+      simp [forget, hx]
+      intro a ha heq
+      exact ht (by simpa [heq] using ha)
 
 /-- Deleting the newly inserted label restores the complete original
     listing, for every insertion index including 0 and the end. -/
@@ -160,7 +162,9 @@ theorem forget_insertIdx {α : Type u} [DecidableEq α]
         exact fresh (List.mem_cons_of_mem _ h)
       cases i with
       | zero =>
-          simp [forget, hx, forget_absent xs w ht]
+          simp [forget, hx]
+          intro a ha heq
+          exact ht (by simpa [heq] using ha)
       | succ i =>
           have hi' : i ≤ xs.length := by
             simp only [List.length_cons] at hi
