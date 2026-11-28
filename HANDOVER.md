@@ -14,6 +14,16 @@ Start here when returning to EHF or handing the research to someone else. The [m
 
 **Keep this page current.** When a result changes, update its evidence level, link the proof or reproduction, record the next unresolved check and update the date above. Put individual run logs in the relevant probe.
 
+## Parallel research thread: clocks
+
+Julstce reversals are the next experiment listed above. Keep the clock questions on the handover alongside it.
+
+- [CROSS-46](research/cbb-binary/CROSS-46-local-clock.md) constructs a six-reversal local clock using a supplied update rule and a protected readout window.
+- [CROSS-60](research/cbb-binary/CROSS-60-local-growth-clock.md) gives identical local traces at different final ring sizes. Tick counts can estimate growth statistically under a specified scheduler.
+- [CROSS-61](research/cbb-binary/CROSS-61-clock-bias.md) counts two successive flips of a monitored edge as one full tick. Opposite starting signs give the same full-tick law under fixed growth weights. The large-cycle laws separate when the bias switches halfway.
+
+The pairing rule and Axiom (I) raised in the clock discussion still need a source in the handover. Confirm the exact pairing rule, the wording of Axiom (I), and whether it was adopted or remains a proposal. CROSS-61's two-flip tick convention is documented above. Its relationship to the pairing rule raised in discussion is open.
+
 ## Where the research fits together
 
 | Research threads | What the comparison supports |
