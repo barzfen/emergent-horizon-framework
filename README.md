@@ -6,6 +6,7 @@ EHF is an exploratory mathematical-physics research programme. It starts with co
 
 | If you want to… | Read |
 | --- | --- |
+| Pick up the current research and see what to do next | [Research handover](HANDOVER.md) |
 | Understand what EHF assumes and how the projects fit together | [Foundations](foundation/README.md) and the [connections map](research/foundations/CONNECTIONS-01.md) |
 | See what a concrete result looks like | [Julstce: reading detector order after growth](probes/micro/julstce/README.md). Two reversal orders can produce the same statistics for every sequence of added colours while leaving different traces in the final ring shape. |
 | Find machine-checked mathematics | [Lean 4 verification](formal/lean/README.md), including binary edge splitting and all-slot Hamiltonian-cycle growth with unique ordered ancestry |
@@ -21,7 +22,7 @@ For individual notes and proofs, jump to the [full research index](#full-researc
 | --- | --- |
 | **Hamiltonian growth and its colour extensions** | [Binary relational encoding](research/cbb-binary/README.md) introduces all-slot growth and its binary extension. [BIN, TRI and CROSS reader’s guide](research/cbb-binary/GROWTH-CLOCKS-AND-BELL.md) indexes the binary and three-colour studies of reversal reachability, winding, transport, records, clocks and Bell controls, through CROSS-63. |
 | **Wheeler series: constrained growth and entropy** | [Working paper](research/wheeler/paper-v0.1/README.md) · [Probe series](probes/wheeler/README.md) · [Review](research/wheeler/REVIEW-01.md) · [Reproduction code](code/wheeler/README.md). See [WHEELER-62](probes/wheeler/WHEELER-62.md) for entropy growth from the minimal seed and [WHEELER-61](probes/wheeler/WHEELER-61.md) for an exact entropy decrease from a different seed. [WHEELER-63](probes/wheeler/WHEELER-63.md) extends the bounded checks. The [summary](research/wheeler/SUMMARY-01.md) and [errata](probes/wheeler/ERRATA-01.md) give the scope and corrections. |
-| **MICRO growth and observer comparison** | [Observer compatibility audit](probes/micro/observer-compatibility-01/README.md) tests when projected observations retain a closed growth rule. [Julstce](probes/micro/julstce/README.md) gives an exact lower bound on how well the final shape can reveal detector order after growth. |
+| **MICRO growth and observer comparison** | [Observer compatibility audit](probes/micro/observer-compatibility-01/README.md) tests when projected observations retain a closed growth rule. [Julstce](probes/micro/julstce/README.md) shows how the final shape reveals detector order after growth. The [handover](HANDOVER.md#a-result-linking-wheeler-and-julstce) proves a formula for the limiting accuracy. |
 | **Assumptions behind records and readout** | [Assumption audits 01–05](foundation/README.md) examine when relational roles are forced, how records form and survive, and what probe-gated writing adds. |
 
 ### Graphs, reversals, geometry, and quantum comparisons
@@ -75,7 +76,7 @@ Every Markdown note, retained PDF and Lean proof file on the default branch is i
 ### Project guides and foundations
 
 <details>
-<summary>Show 14 entries</summary>
+<summary>Show 15 entries</summary>
 
 **Repository root**
 
@@ -83,6 +84,7 @@ Every Markdown note, retained PDF and Lean proof file on the default branch is i
 - [Licensing scope](LICENSE.md)
 - [Research roadmap](ROADMAP.md)
 - [Programme status](STATUS.md)
+- [Research handover](HANDOVER.md)
 
 **`foundation/`**
 
