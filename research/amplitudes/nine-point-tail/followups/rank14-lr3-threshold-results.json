@@ -1,0 +1,438 @@
+{
+  "status": "PASS",
+  "scope": "six rank-14 nine-point tail support cuts only",
+  "geometric_threshold": "d_L=2 iff k_1=2 or k_3=4; otherwise d_L=3",
+  "canonical_lr3_event": "reverse (b3,9,b4), the consecutive segment centred on deleted label 9",
+  "rows": [
+    {
+      "A": [
+        2,
+        5,
+        7
+      ],
+      "comparison_counts": [
+        0,
+        2,
+        3
+      ],
+      "canonical_lr3_pair": [
+        "169823745",
+        "189623745"
+      ],
+      "rank_before": 14,
+      "rank_after_pair": 14,
+      "pair_repairs": false,
+      "geometric_rule_predicts": false
+    },
+    {
+      "A": [
+        2,
+        5,
+        8
+      ],
+      "comparison_counts": [
+        0,
+        2,
+        4
+      ],
+      "canonical_lr3_pair": [
+        "169723845",
+        "179623845"
+      ],
+      "rank_before": 14,
+      "rank_after_pair": 15,
+      "pair_repairs": true,
+      "geometric_rule_predicts": true
+    },
+    {
+      "A": [
+        3,
+        5,
+        7
+      ],
+      "comparison_counts": [
+        1,
+        2,
+        3
+      ],
+      "canonical_lr3_pair": [
+        "169832745",
+        "189632745"
+      ],
+      "rank_before": 14,
+      "rank_after_pair": 14,
+      "pair_repairs": false,
+      "geometric_rule_predicts": false
+    },
+    {
+      "A": [
+        3,
+        5,
+        8
+      ],
+      "comparison_counts": [
+        1,
+        2,
+        4
+      ],
+      "canonical_lr3_pair": [
+        "169732845",
+        "179632845"
+      ],
+      "rank_before": 14,
+      "rank_after_pair": 15,
+      "pair_repairs": true,
+      "geometric_rule_predicts": true
+    },
+    {
+      "A": [
+        4,
+        5,
+        7
+      ],
+      "comparison_counts": [
+        2,
+        2,
+        3
+      ],
+      "canonical_lr3_pair": [
+        "169842735",
+        "189642735"
+      ],
+      "rank_before": 14,
+      "rank_after_pair": 15,
+      "pair_repairs": true,
+      "geometric_rule_predicts": true
+    },
+    {
+      "A": [
+        4,
+        5,
+        8
+      ],
+      "comparison_counts": [
+        2,
+        2,
+        4
+      ],
+      "canonical_lr3_pair": [
+        "169742835",
+        "179642835"
+      ],
+      "rank_before": 14,
+      "rank_after_pair": 15,
+      "pair_repairs": true,
+      "geometric_rule_predicts": true
+    }
+  ],
+  "cut_support_inclusions": [
+    [
+      [
+        2,
+        5,
+        7
+      ],
+      [
+        2,
+        5,
+        7
+      ]
+    ],
+    [
+      [
+        2,
+        5,
+        7
+      ],
+      [
+        2,
+        5,
+        8
+      ]
+    ],
+    [
+      [
+        2,
+        5,
+        7
+      ],
+      [
+        3,
+        5,
+        7
+      ]
+    ],
+    [
+      [
+        2,
+        5,
+        7
+      ],
+      [
+        3,
+        5,
+        8
+      ]
+    ],
+    [
+      [
+        2,
+        5,
+        7
+      ],
+      [
+        4,
+        5,
+        7
+      ]
+    ],
+    [
+      [
+        2,
+        5,
+        7
+      ],
+      [
+        4,
+        5,
+        8
+      ]
+    ],
+    [
+      [
+        2,
+        5,
+        8
+      ],
+      [
+        2,
+        5,
+        8
+      ]
+    ],
+    [
+      [
+        2,
+        5,
+        8
+      ],
+      [
+        3,
+        5,
+        8
+      ]
+    ],
+    [
+      [
+        2,
+        5,
+        8
+      ],
+      [
+        4,
+        5,
+        8
+      ]
+    ],
+    [
+      [
+        3,
+        5,
+        7
+      ],
+      [
+        3,
+        5,
+        7
+      ]
+    ],
+    [
+      [
+        3,
+        5,
+        7
+      ],
+      [
+        3,
+        5,
+        8
+      ]
+    ],
+    [
+      [
+        3,
+        5,
+        7
+      ],
+      [
+        4,
+        5,
+        7
+      ]
+    ],
+    [
+      [
+        3,
+        5,
+        7
+      ],
+      [
+        4,
+        5,
+        8
+      ]
+    ],
+    [
+      [
+        3,
+        5,
+        8
+      ],
+      [
+        3,
+        5,
+        8
+      ]
+    ],
+    [
+      [
+        3,
+        5,
+        8
+      ],
+      [
+        4,
+        5,
+        8
+      ]
+    ],
+    [
+      [
+        4,
+        5,
+        7
+      ],
+      [
+        4,
+        5,
+        7
+      ]
+    ],
+    [
+      [
+        4,
+        5,
+        7
+      ],
+      [
+        4,
+        5,
+        8
+      ]
+    ],
+    [
+      [
+        4,
+        5,
+        8
+      ],
+      [
+        4,
+        5,
+        8
+      ]
+    ]
+  ],
+  "positive_seed_certificates": [
+    {
+      "seed": [
+        2,
+        5,
+        8
+      ],
+      "destination": [
+        2,
+        5,
+        8
+      ],
+      "certificate_terms": 138,
+      "nonzero_residue_coordinates": 60
+    },
+    {
+      "seed": [
+        2,
+        5,
+        8
+      ],
+      "destination": [
+        3,
+        5,
+        8
+      ],
+      "certificate_terms": 138,
+      "nonzero_residue_coordinates": 60
+    },
+    {
+      "seed": [
+        2,
+        5,
+        8
+      ],
+      "destination": [
+        4,
+        5,
+        8
+      ],
+      "certificate_terms": 138,
+      "nonzero_residue_coordinates": 60
+    },
+    {
+      "seed": [
+        4,
+        5,
+        7
+      ],
+      "destination": [
+        4,
+        5,
+        7
+      ],
+      "certificate_terms": 42,
+      "nonzero_residue_coordinates": 16
+    },
+    {
+      "seed": [
+        4,
+        5,
+        7
+      ],
+      "destination": [
+        4,
+        5,
+        8
+      ],
+      "certificate_terms": 42,
+      "nonzero_residue_coordinates": 16
+    }
+  ],
+  "negative_seed": [
+    3,
+    5,
+    7
+  ],
+  "negative_seed_exhaustive_pair_repairs": 0,
+  "three_word_negative_witnesses": {
+    "2,5,7": [
+      "162374985",
+      "162894735",
+      "169473285"
+    ],
+    "3,5,7": [
+      "145678923",
+      "163894725",
+      "165894723"
+    ]
+  },
+  "snapshot_note": "This committed summary contains the rank table, support inclusions and certificate metadata. Running rank14_lr3_threshold_probe.py generates the full exact seed relation coefficient lists into the same JSON filename.",
+  "limitations": "finite six-fibre threshold proved using two positive KK seed certificates, one exhaustive negative seed and support inclusion, not a rank-free general theorem."
+}

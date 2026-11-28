@@ -1,0 +1,113 @@
+{
+  "import_date": "2026-11-04",
+  "sources": [
+    {
+      "original_filename": "raf_odd_preserve_world_chamber_and_boundary_dynamics_v6(1).md",
+      "repository_path": "research/source-documents/opw23-v6.md",
+      "description": "OPW23: original LR2/LR3 chamber and boundary dynamics",
+      "bytes": 73136,
+      "sha256": "791f71778e270926502bd3ad9013938decefe74943c9328657c4f067a700bf57",
+      "git_blob_sha": "e4664ba196c58730e47d88abde3a95dc5108e637",
+      "status": "historical source; publication does not certify embedded claims"
+    },
+    {
+      "original_filename": "ehf_opw3_rebuild_working_document_v0_6(1).md",
+      "repository_path": "research/source-documents/opw3-v0.6.md",
+      "description": "OPW3: earlier rebuild snapshot",
+      "bytes": 34101,
+      "sha256": "6fdde97aec9fbb850fc8affff5d8662c3679af871101661b5416926dec9e05d2",
+      "git_blob_sha": "0f800713302b7b01f74bcfaf1da485aca4c2b9dd",
+      "status": "historical source; publication does not certify embedded claims"
+    },
+    {
+      "original_filename": "ehf_opw3_rebuild_working_document_v1_1.md",
+      "repository_path": "research/source-documents/opw3-v1.1.md",
+      "description": "OPW3: later rebuild, including AMP bridge and invariant closures",
+      "bytes": 52891,
+      "sha256": "980e0580b3937ad3771b29304da59d3fb96e7c282e568d6b5a4889f8dc9ec073",
+      "git_blob_sha": "f60dfd798d7971d94d46a07e4ccde7d684550636",
+      "status": "historical source; publication does not certify embedded claims"
+    },
+    {
+      "original_filename": "ehf_hc_raw_working_document_v0_19(1).md",
+      "repository_path": "research/source-documents/hc-raw-v0.19.md",
+      "description": "RAW: Hamiltonian-cycle objects and move-rule foundations",
+      "bytes": 282132,
+      "sha256": "cc1fbf267fadbb65ed42039e32e1b074ac23caaa50412163168dfde9a7a32b98",
+      "git_blob_sha": "2227eb94b65f18c5b44a4e37b5afb989f7965182",
+      "status": "historical source; publication does not certify embedded claims"
+    },
+    {
+      "original_filename": "ehf_hc_grow_working_document_v0_8(1).md",
+      "repository_path": "research/source-documents/hc-grow-v0.8.md",
+      "description": "GROW: cycle growth and branching",
+      "bytes": 128523,
+      "sha256": "b810be8dec842574a72bb474a76c5e8b8bfe11c4227e02e6522d5db33bd4144b",
+      "git_blob_sha": "5334be11ef5a63c9daa5e40baf904e9ae21b0c2c",
+      "status": "historical source; publication does not certify embedded claims"
+    },
+    {
+      "original_filename": "relational_atlas_framework_exact_johnson_transport_core(2).pdf",
+      "repository_path": "research/source-documents/johnson-transport-original.pdf",
+      "description": "Original Johnson transport construction",
+      "bytes": 41521,
+      "sha256": "2a692bd2a66cb4ee8032c85dba0828965917c2a4237cb7d13ebb6d2ce3797c00",
+      "git_blob_sha": "edca33801367e538bc7cfde3b9413757d332a23b",
+      "status": "historical source; publication does not certify embedded claims"
+    },
+    {
+      "original_filename": "constant_ollivier_curvature_even_johnson_shell_chain_v_1(2).md",
+      "repository_path": "research/source-documents/johnson-ollivier-curvature-v1.md",
+      "description": "Johnson shell-chain curvature investigation",
+      "bytes": 15438,
+      "sha256": "fe1f47a74442bf71bb7ae007be714a22f142635c8f0ac1a58e8f6974d562f74a",
+      "git_blob_sha": "c64fd1d8f76e161114ba0ddec3fc37e90c09ff76",
+      "status": "historical source; publication does not certify embedded claims"
+    },
+    {
+      "original_filename": "pancakes.pdf",
+      "repository_path": "research/source-documents/pancakes.pdf",
+      "description": "Reversal and matching-flip observable investigations",
+      "bytes": 72003,
+      "sha256": "95561047383149d3ff5cd87d3c630dfeee2f1a9d9338a9caf37924f891c5e10f",
+      "git_blob_sha": "d849311947602ecf70060aa21665f02d30f68184",
+      "status": "historical source; publication does not certify embedded claims"
+    },
+    {
+      "original_filename": "oldampdoc(2).pdf",
+      "repository_path": "research/source-documents/amp-historical.pdf",
+      "description": "Historical AMP programme through AMP-23",
+      "bytes": 119066,
+      "sha256": "66c6206c8b33458d9fdd78d1804b03609e68e3d201e4f5cd333bd230914b216b",
+      "git_blob_sha": "d5a7596a85498c298f855e9b906c74c3742cbcc3",
+      "status": "historical source; publication does not certify embedded claims"
+    },
+    {
+      "original_filename": "QM_latest.pdf",
+      "repository_path": "research/source-documents/qm-bridge-historical.pdf",
+      "description": "Historical QM bridge, through QM-12",
+      "bytes": 92969,
+      "sha256": "39e689c5daa49de3c98540d77ad5441e11b0c8f3ed010250792be91bcefedc46",
+      "git_blob_sha": "5804464e40a92fa83a311232126b1bb1771393aa",
+      "status": "historical source; publication does not certify embedded claims"
+    },
+    {
+      "original_filename": "ehf_phys_alg_working_document_v0_65_authoritative_full(1).md",
+      "repository_path": "research/source-documents/phys-alg-v0.65.md",
+      "description": "Cumulative physics/algebra document including BERG and XKLT through 07C",
+      "bytes": 575269,
+      "sha256": "e6d96f2afbcc3eeab171c39282a53d21a2b093c372efe4b65002622e957a3d60",
+      "git_blob_sha": "f6b69e81e23124488e1da485639685a23058112e",
+      "status": "historical source; publication does not certify embedded claims"
+    },
+    {
+      "original_filename": "ehf_amp_exact_odd_even_tail_filtration_nine_points_v1_5(4).md",
+      "repository_path": "research/amplitudes/nine-point-tail/theorem-v1.5.md",
+      "description": "Nine-point tail theorem: identical source already retained",
+      "bytes": 50904,
+      "sha256": "bae08d8b6e973ca60ced73117967b7f6736b76587e72aec514e597ce669bcfa8",
+      "git_blob_sha": "a278a15b8bca91e94176c12d41b7453496d3dee1",
+      "status": "historical source; publication does not certify embedded claims"
+    }
+  ]
+}

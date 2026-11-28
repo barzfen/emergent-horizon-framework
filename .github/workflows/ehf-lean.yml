@@ -1,0 +1,41 @@
+name: EHF Lean proofs
+
+on:
+  pull_request:
+    paths:
+      - 'formal/lean/**'
+      - 'lean-toolchain'
+      - '.github/workflows/ehf-lean.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'formal/lean/**'
+      - 'lean-toolchain'
+      - '.github/workflows/ehf-lean.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check-lean:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out EHF
+        uses: actions/checkout@v4
+      - name: Install pinned Lean 4 with elan
+        shell: bash
+        run: |
+          curl --fail --show-error --silent --location \
+            https://raw.githubusercontent.com/leanprover/elan/master/elan-init.sh \
+            --output "$RUNNER_TEMP/elan-init.sh"
+          sh "$RUNNER_TEMP/elan-init.sh" -y --default-toolchain leanprover/lean4:v4.36.0
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
+      - name: Check binary edge-split theorem
+        run: lean formal/lean/EdgeSplit.lean
+      - name: Check full-cycle insertion and deletion
+        run: lean formal/lean/CycleGrowth.lean
+      - name: Check undirected quotient and deletion
+        run: lean formal/lean/UndirectedCycles.lean
+      - name: Audit small undirected cycles and growth coverage
+        run: python3 formal/lean/verify_undirected_growth.py

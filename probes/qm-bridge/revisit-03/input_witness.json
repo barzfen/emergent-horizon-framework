@@ -1,0 +1,172 @@
+{
+  "checks": [
+    {
+      "n": 7,
+      "oriented_states": 144,
+      "oriented_components": 27,
+      "exact_forward_steps_checked": 13,
+      "same_length_opposite_orientation_witness": null,
+      "checks": "PASS"
+    },
+    {
+      "n": 9,
+      "oriented_states": 4320,
+      "oriented_components": 213,
+      "exact_forward_steps_checked": 13,
+      "same_length_opposite_orientation_witness": {
+        "steps": 5,
+        "same_undirected_endpoint": [
+          0,
+          3,
+          2,
+          1,
+          8,
+          6,
+          7,
+          4,
+          5
+        ],
+        "oriented_path_1": [
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4,
+            7,
+            6,
+            8
+          ],
+          [
+            0,
+            3,
+            2,
+            1,
+            5,
+            4,
+            7,
+            6,
+            8
+          ],
+          [
+            0,
+            3,
+            2,
+            1,
+            7,
+            4,
+            5,
+            6,
+            8
+          ],
+          [
+            0,
+            3,
+            2,
+            1,
+            7,
+            6,
+            5,
+            4,
+            8
+          ],
+          [
+            0,
+            3,
+            2,
+            1,
+            7,
+            6,
+            8,
+            4,
+            5
+          ],
+          [
+            0,
+            3,
+            2,
+            1,
+            8,
+            6,
+            7,
+            4,
+            5
+          ]
+        ],
+        "oriented_path_2": [
+          [
+            0,
+            1,
+            2,
+            3,
+            5,
+            4,
+            7,
+            6,
+            8
+          ],
+          [
+            0,
+            8,
+            1,
+            2,
+            3,
+            5,
+            4,
+            7,
+            6
+          ],
+          [
+            0,
+            6,
+            8,
+            1,
+            2,
+            3,
+            5,
+            4,
+            7
+          ],
+          [
+            0,
+            7,
+            6,
+            8,
+            1,
+            2,
+            3,
+            5,
+            4
+          ],
+          [
+            0,
+            4,
+            7,
+            6,
+            8,
+            1,
+            2,
+            3,
+            5
+          ],
+          [
+            0,
+            5,
+            4,
+            7,
+            6,
+            8,
+            1,
+            2,
+            3
+          ]
+        ],
+        "probability_plus": "299/20000",
+        "probability_minus": "1/1200"
+      },
+      "checks": "PASS"
+    }
+  ],
+  "status": "PASS"
+}

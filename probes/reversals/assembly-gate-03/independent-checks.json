@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "expanded_states": 1168,
+  "scan_channels_checked": 496,
+  "cross_component_obstruction_edges": 76,
+  "exact_single_gate_checks": 36,
+  "parameter_checks": [
+    {
+      "abort_rate": "0",
+      "launch_rate": "1/1000",
+      "recurrence_and_stationary_checks": "PASS"
+    },
+    {
+      "abort_rate": "0",
+      "launch_rate": "1/100",
+      "recurrence_and_stationary_checks": "PASS"
+    },
+    {
+      "abort_rate": "0",
+      "launch_rate": "1/10",
+      "recurrence_and_stationary_checks": "PASS"
+    },
+    {
+      "abort_rate": "0",
+      "launch_rate": "1",
+      "recurrence_and_stationary_checks": "PASS"
+    },
+    {
+      "abort_rate": "1",
+      "launch_rate": "1/1000",
+      "recurrence_and_stationary_checks": "PASS"
+    },
+    {
+      "abort_rate": "1",
+      "launch_rate": "1/100",
+      "recurrence_and_stationary_checks": "PASS"
+    },
+    {
+      "abort_rate": "1",
+      "launch_rate": "1/10",
+      "recurrence_and_stationary_checks": "PASS"
+    },
+    {
+      "abort_rate": "1",
+      "launch_rate": "1",
+      "recurrence_and_stationary_checks": "PASS"
+    },
+    {
+      "abort_rate": "9",
+      "launch_rate": "1/1000",
+      "recurrence_and_stationary_checks": "PASS"
+    },
+    {
+      "abort_rate": "9",
+      "launch_rate": "1/100",
+      "recurrence_and_stationary_checks": "PASS"
+    },
+    {
+      "abort_rate": "9",
+      "launch_rate": "1/10",
+      "recurrence_and_stationary_checks": "PASS"
+    },
+    {
+      "abort_rate": "9",
+      "launch_rate": "1",
+      "recurrence_and_stationary_checks": "PASS"
+    }
+  ],
+  "exact_real_time_exit_mean_at_advance_abort_launch_1": "3781703095533/41379342355",
+  "probe_sha256": "5ac66157ee5c723b2de9bacea9a4b5171d0e1ff23be28f891c695c467442a20c",
+  "verify_sha256": "f3f6a449eafd315fe41d897d642ab99a82585c12e0a8707339acd52446536457"
+}

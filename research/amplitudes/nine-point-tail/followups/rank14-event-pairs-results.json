@@ -1,0 +1,628 @@
+{
+  "status": "PASS",
+  "method": "exact rational KK quotient with direct rank validation; template fitted on reference and tested on five transported fibres",
+  "reference_two_word_pairs_total": 10296,
+  "reference_successful_repairs": 20,
+  "reference_same_block_swap_candidates": 432,
+  "reference_same_block_swap_true_positives": 12,
+  "total_direct_positive_checks": 53,
+  "total_direct_negative_checks": 18,
+  "monotonic_repair_sets_verified": true,
+  "fibres": [
+    {
+      "A": [
+        2,
+        5,
+        7
+      ],
+      "cut_size": 324,
+      "excluded_size": 252,
+      "total_excluded_pairs": 31626,
+      "source_KK_rank": 306,
+      "baseline_residue_rank": 14,
+      "one_word_repairs": 0,
+      "two_word_repairs": 0,
+      "quotient_dependent_pairs": 135,
+      "template_predicted_pairs": 20,
+      "template_true_positives": 0,
+      "template_false_positives": 20,
+      "template_false_negatives": 0,
+      "direct_positives_checked": 0,
+      "direct_negatives_checked": 4,
+      "transferred_fixed_certificate_successes": 0
+    },
+    {
+      "A": [
+        2,
+        5,
+        8
+      ],
+      "cut_size": 360,
+      "excluded_size": 216,
+      "total_excluded_pairs": 23220,
+      "source_KK_rank": 323,
+      "baseline_residue_rank": 14,
+      "one_word_repairs": 0,
+      "two_word_repairs": 4,
+      "quotient_dependent_pairs": 76,
+      "template_predicted_pairs": 20,
+      "template_true_positives": 4,
+      "template_false_positives": 16,
+      "template_false_negatives": 0,
+      "direct_positives_checked": 4,
+      "direct_negatives_checked": 4,
+      "transferred_fixed_certificate_successes": 0
+    },
+    {
+      "A": [
+        3,
+        5,
+        7
+      ],
+      "cut_size": 360,
+      "excluded_size": 216,
+      "total_excluded_pairs": 23220,
+      "source_KK_rank": 342,
+      "baseline_residue_rank": 14,
+      "one_word_repairs": 0,
+      "two_word_repairs": 0,
+      "quotient_dependent_pairs": 522,
+      "template_predicted_pairs": 20,
+      "template_true_positives": 0,
+      "template_false_positives": 20,
+      "template_false_negatives": 0,
+      "direct_positives_checked": 0,
+      "direct_negatives_checked": 4,
+      "transferred_fixed_certificate_successes": 0
+    },
+    {
+      "A": [
+        3,
+        5,
+        8
+      ],
+      "cut_size": 396,
+      "excluded_size": 180,
+      "total_excluded_pairs": 16110,
+      "source_KK_rank": 359,
+      "baseline_residue_rank": 14,
+      "one_word_repairs": 0,
+      "two_word_repairs": 11,
+      "quotient_dependent_pairs": 108,
+      "template_predicted_pairs": 20,
+      "template_true_positives": 11,
+      "template_false_positives": 9,
+      "template_false_negatives": 0,
+      "direct_positives_checked": 11,
+      "direct_negatives_checked": 4,
+      "transferred_fixed_certificate_successes": 0
+    },
+    {
+      "A": [
+        4,
+        5,
+        7
+      ],
+      "cut_size": 396,
+      "excluded_size": 180,
+      "total_excluded_pairs": 16110,
+      "source_KK_rank": 359,
+      "baseline_residue_rank": 14,
+      "one_word_repairs": 0,
+      "two_word_repairs": 18,
+      "quotient_dependent_pairs": 108,
+      "template_predicted_pairs": 20,
+      "template_true_positives": 18,
+      "template_false_positives": 2,
+      "template_false_negatives": 0,
+      "direct_positives_checked": 18,
+      "direct_negatives_checked": 2,
+      "transferred_fixed_certificate_successes": 18
+    },
+    {
+      "A": [
+        4,
+        5,
+        8
+      ],
+      "cut_size": 432,
+      "excluded_size": 144,
+      "total_excluded_pairs": 10296,
+      "source_KK_rank": 375,
+      "baseline_residue_rank": 14,
+      "one_word_repairs": 0,
+      "two_word_repairs": 20,
+      "quotient_dependent_pairs": 176,
+      "template_predicted_pairs": 20,
+      "template_true_positives": 20,
+      "template_false_positives": 0,
+      "template_false_negatives": 0,
+      "direct_positives_checked": 20,
+      "direct_negatives_checked": 0,
+      "transferred_fixed_certificate_successes": 20
+    }
+  ],
+  "reference_successful_pairs": [
+    [
+      [
+        1,
+        6,
+        4,
+        7,
+        9,
+        2,
+        8,
+        3,
+        5
+      ],
+      [
+        1,
+        6,
+        5,
+        7,
+        9,
+        2,
+        8,
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        6,
+        4,
+        7,
+        9,
+        3,
+        8,
+        2,
+        5
+      ],
+      [
+        1,
+        6,
+        5,
+        7,
+        9,
+        3,
+        8,
+        2,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        6,
+        9,
+        7,
+        4,
+        2,
+        8,
+        3,
+        5
+      ],
+      [
+        1,
+        6,
+        9,
+        7,
+        5,
+        2,
+        8,
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        6,
+        9,
+        7,
+        4,
+        2,
+        8,
+        3,
+        5
+      ],
+      [
+        1,
+        6,
+        9,
+        7,
+        5,
+        3,
+        8,
+        2,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        6,
+        9,
+        7,
+        4,
+        2,
+        8,
+        3,
+        5
+      ],
+      [
+        1,
+        7,
+        9,
+        6,
+        4,
+        2,
+        8,
+        3,
+        5
+      ]
+    ],
+    [
+      [
+        1,
+        6,
+        9,
+        7,
+        4,
+        2,
+        8,
+        3,
+        5
+      ],
+      [
+        1,
+        7,
+        9,
+        6,
+        4,
+        3,
+        8,
+        2,
+        5
+      ]
+    ],
+    [
+      [
+        1,
+        6,
+        9,
+        7,
+        4,
+        3,
+        8,
+        2,
+        5
+      ],
+      [
+        1,
+        6,
+        9,
+        7,
+        5,
+        2,
+        8,
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        6,
+        9,
+        7,
+        4,
+        3,
+        8,
+        2,
+        5
+      ],
+      [
+        1,
+        6,
+        9,
+        7,
+        5,
+        3,
+        8,
+        2,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        6,
+        9,
+        7,
+        4,
+        3,
+        8,
+        2,
+        5
+      ],
+      [
+        1,
+        7,
+        9,
+        6,
+        4,
+        2,
+        8,
+        3,
+        5
+      ]
+    ],
+    [
+      [
+        1,
+        6,
+        9,
+        7,
+        4,
+        3,
+        8,
+        2,
+        5
+      ],
+      [
+        1,
+        7,
+        9,
+        6,
+        4,
+        3,
+        8,
+        2,
+        5
+      ]
+    ],
+    [
+      [
+        1,
+        6,
+        9,
+        7,
+        5,
+        2,
+        8,
+        3,
+        4
+      ],
+      [
+        1,
+        7,
+        9,
+        6,
+        5,
+        2,
+        8,
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        6,
+        9,
+        7,
+        5,
+        2,
+        8,
+        3,
+        4
+      ],
+      [
+        1,
+        7,
+        9,
+        6,
+        5,
+        3,
+        8,
+        2,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        6,
+        9,
+        7,
+        5,
+        3,
+        8,
+        2,
+        4
+      ],
+      [
+        1,
+        7,
+        9,
+        6,
+        5,
+        2,
+        8,
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        6,
+        9,
+        7,
+        5,
+        3,
+        8,
+        2,
+        4
+      ],
+      [
+        1,
+        7,
+        9,
+        6,
+        5,
+        3,
+        8,
+        2,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        7,
+        4,
+        6,
+        9,
+        2,
+        8,
+        3,
+        5
+      ],
+      [
+        1,
+        7,
+        5,
+        6,
+        9,
+        2,
+        8,
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        7,
+        4,
+        6,
+        9,
+        3,
+        8,
+        2,
+        5
+      ],
+      [
+        1,
+        7,
+        5,
+        6,
+        9,
+        3,
+        8,
+        2,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        7,
+        9,
+        6,
+        4,
+        2,
+        8,
+        3,
+        5
+      ],
+      [
+        1,
+        7,
+        9,
+        6,
+        5,
+        2,
+        8,
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        7,
+        9,
+        6,
+        4,
+        2,
+        8,
+        3,
+        5
+      ],
+      [
+        1,
+        7,
+        9,
+        6,
+        5,
+        3,
+        8,
+        2,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        7,
+        9,
+        6,
+        4,
+        3,
+        8,
+        2,
+        5
+      ],
+      [
+        1,
+        7,
+        9,
+        6,
+        5,
+        2,
+        8,
+        3,
+        4
+      ]
+    ],
+    [
+      [
+        1,
+        7,
+        9,
+        6,
+        4,
+        3,
+        8,
+        2,
+        5
+      ],
+      [
+        1,
+        7,
+        9,
+        6,
+        5,
+        3,
+        8,
+        2,
+        4
+      ]
+    ]
+  ],
+  "interpretation": "Support/order template catches all 53 repairs but has 67 false positives; exact KK cancellation still needed for a complete selector."
+}

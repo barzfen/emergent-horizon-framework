@@ -1,0 +1,198 @@
+{
+  "residue_rows": [
+    {
+      "depth": 1,
+      "first_contracting_prefixes": 1,
+      "uncontracted_residues": 1,
+      "least_start_in_uncontracted_residues": 3
+    },
+    {
+      "depth": 2,
+      "first_contracting_prefixes": 1,
+      "uncontracted_residues": 1,
+      "least_start_in_uncontracted_residues": 3
+    },
+    {
+      "depth": 3,
+      "first_contracting_prefixes": 0,
+      "uncontracted_residues": 2,
+      "least_start_in_uncontracted_residues": 3
+    },
+    {
+      "depth": 4,
+      "first_contracting_prefixes": 1,
+      "uncontracted_residues": 3,
+      "least_start_in_uncontracted_residues": 7
+    },
+    {
+      "depth": 5,
+      "first_contracting_prefixes": 2,
+      "uncontracted_residues": 4,
+      "least_start_in_uncontracted_residues": 7
+    },
+    {
+      "depth": 6,
+      "first_contracting_prefixes": 0,
+      "uncontracted_residues": 8,
+      "least_start_in_uncontracted_residues": 7
+    },
+    {
+      "depth": 7,
+      "first_contracting_prefixes": 3,
+      "uncontracted_residues": 13,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 8,
+      "first_contracting_prefixes": 7,
+      "uncontracted_residues": 19,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 9,
+      "first_contracting_prefixes": 0,
+      "uncontracted_residues": 38,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 10,
+      "first_contracting_prefixes": 12,
+      "uncontracted_residues": 64,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 11,
+      "first_contracting_prefixes": 0,
+      "uncontracted_residues": 128,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 12,
+      "first_contracting_prefixes": 30,
+      "uncontracted_residues": 226,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 13,
+      "first_contracting_prefixes": 85,
+      "uncontracted_residues": 367,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 14,
+      "first_contracting_prefixes": 0,
+      "uncontracted_residues": 734,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 15,
+      "first_contracting_prefixes": 173,
+      "uncontracted_residues": 1295,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 16,
+      "first_contracting_prefixes": 476,
+      "uncontracted_residues": 2114,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 17,
+      "first_contracting_prefixes": 0,
+      "uncontracted_residues": 4228,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 18,
+      "first_contracting_prefixes": 961,
+      "uncontracted_residues": 7495,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 19,
+      "first_contracting_prefixes": 0,
+      "uncontracted_residues": 14990,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 20,
+      "first_contracting_prefixes": 2652,
+      "uncontracted_residues": 27328,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 21,
+      "first_contracting_prefixes": 8045,
+      "uncontracted_residues": 46611,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 22,
+      "first_contracting_prefixes": 0,
+      "uncontracted_residues": 93222,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 23,
+      "first_contracting_prefixes": 17637,
+      "uncontracted_residues": 168807,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 24,
+      "first_contracting_prefixes": 51033,
+      "uncontracted_residues": 286581,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 25,
+      "first_contracting_prefixes": 0,
+      "uncontracted_residues": 573162,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 26,
+      "first_contracting_prefixes": 108950,
+      "uncontracted_residues": 1037374,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 27,
+      "first_contracting_prefixes": 312455,
+      "uncontracted_residues": 1762293,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 28,
+      "first_contracting_prefixes": 0,
+      "uncontracted_residues": 3524586,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 29,
+      "first_contracting_prefixes": 663535,
+      "uncontracted_residues": 6385637,
+      "least_start_in_uncontracted_residues": 27
+    },
+    {
+      "depth": 30,
+      "first_contracting_prefixes": 0,
+      "uncontracted_residues": 12771274,
+      "least_start_in_uncontracted_residues": 27
+    }
+  ],
+  "largest_integer_cutoff_at_first_contraction": 108,
+  "cutoff_witness": {
+    "depth": 27,
+    "residue": 96361467,
+    "least_start": 96361467,
+    "multiplier": 129140163,
+    "offset": 548440271
+  },
+  "exceptions_to_descent_at_first_contraction": {},
+  "direct_check_depth": 18,
+  "coefficient_only_counts_beyond_census": {
+    "50": 3734259929440,
+    "100": 302560669500543257546172187
+  }
+}

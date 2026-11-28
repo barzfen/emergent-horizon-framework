@@ -25,3 +25,31 @@ python3 research/amplitudes/nine-point-tail/reconstruct.py
 The script asserts its exact checks and writes `results.json` and `certificates.json` beside itself. The latter contains the generated source lifts and reference images and is omitted from version control because it is reproducible. `results.json` includes an elapsed-time field that varies between runs.
 
 No third-party Python packages are required. The retained results document the computational check; the theorem's full statement and conventions are in the original draft.
+
+## Follow-up studies
+
+See the [follow-up index](followups/README.md) for the exact audits, explicit lifts, boundary analysis and gluon amplitude benchmark.
+
+The [support-reduction study](followups/support-reduction.md) uses simple relations among shuffle coefficients to shrink the exact rank calculation. Removing any one of the 36 branch-specific symmetry orbits preserved the transmitted subspaces and both exceptional cancellation dimensions in the reference chart.
+
+The [sector-selection study](followups/sector-selection.md) identifies where the two exceptions arise and shows that removing different position families can switch them off separately while preserving the transmitted union subspace.
+
+The [orbit thresholds](followups/sector-threshold.md) and [mixed-family deletions](followups/mixed-orbits.md) measure how robust those exceptions are when the allowed orderings are changed.
+
+The [shared-residue deletion rule](followups/shared-residue-rule.md) explains which combinations of deletions remove the `+−` exception in the reference chart.
+
+The [union-cancellation deletion rule](followups/union-cancellation-rule.md) settles the reference-chart minima among branch-exclusive orbits at two deletions for `+−` and four for `−−`.
+
+The [ordering geometry test](followups/ordering-geometry.md) shows that a local window around label 9 cannot determine whether the two exceptions survive a cut.
+
+The [tail shuffle trace](followups/tail-shuffle-trace.md) identifies the distant ordering change behind the matched counterexamples.
+
+The [support test](followups/support-sector-test.md) shows why generic row matching misses both exceptions and what changes when the signs or magnitudes are simplified.
+
+The [doubled-shuffle study](followups/shuffle-doubles.md) traces the factor of two and tests a selective restoration on 16 new cuts.
+
+The [common-cut test](followups/common-cut-holdout.md) finds two failures of the 28-entry rule and a cut that preserves the cancellation count while losing the original exterior class.
+
+The [replacement trace](followups/replacement-trace.md) shows that the position-7 replacement already lay in the original branch sum and identifies the minimum addbacks that restore its separate decomposition.
+
+The [position-family trace](followups/position-family-trace.md) shows that both additional position-3 cancellations already split across the original branches.

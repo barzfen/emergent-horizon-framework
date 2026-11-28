@@ -57,3 +57,26 @@ EHF claims must carry one of these tags:
 ## Near-term criterion for meaningful progress
 
 The next major milestone is to derive at least one recognizable effective law from microscopic EHF rules without putting that law in by hand. Candidate targets include diffusion, conservation laws, internal-clock dynamics, effective metric structure, or controlled unitary/quantum-walk-like evolution.
+
+## QM bridge update — 2026-11-04
+
+**Status: COMPUTATIONAL + ANALYTIC ARGUMENTS / NEGATIVE CONTROL.**
+
+[Revisit 01](probes/qm-bridge/revisit-01/README.md) rebuilds a locally readable six-state carrier and distinguishes stochastic evolution from an explicitly supplied coherent control. [Revisit 02](probes/qm-bridge/revisit-02/README.md) constructs orientation transport from actual LR2/LR3 histories: 3 of 15 representative n=7 components and 9 of 111 representative n=9 components contain negative closed walks. The original six-state component is flat. A parity argument excludes equal-length opposite-sign paths at n=7; the n=9 seed exhibits them after five moves. A separate oriented-tour verifier reproduces the finite counts and exact rational probabilities.
+
+The signed evolution is exactly the orientation difference of a nonnegative classical lifted process. Its squared norm is not conserved. This supplies reproducible transport structure and controls; physical phase access, coherent recombination, a derived Born rule and physical QM remain unestablished. No general-size classification or external novelty review is claimed.
+
+
+## QM bridge operational-access update — 2026-11-04
+
+**Status: COMPUTATIONAL + ANALYTIC ARGUMENTS / CLASSICAL CONTROL.**
+
+[Revisit 03](probes/qm-bridge/revisit-03/README.md) represents a directional reference by ordered adjacent markers and transports them with actual carrier endpoint swaps. The matched unordered preparations are identical; a role-sensitive port reader distinguishes them. A live first-port reader retains timeouts and reaches exact finite classification success 0.6830468891 at 12 ticks, or 0.7028698275 for the specified marker-position-gated control. All 1,008 n=7 and 38,880 n=9 ordered-marker states receive role-forgetting kernel checks; an independent slot-based implementation reproduces the finite counts and live-reader laws.
+
+This is a conditional classical access result: markers, their co-transport, the named port and detector are supplied. The unmarked carrier has not generated an intrinsic readable phase, and no quantum probability rule or unitary dynamics is derived. Rate sweeps alone would not close that gap.
+
+## Three-colour growth, clocks and Bell tests — 2026-11-15
+
+**Status: PROVED results for specified families, finite computation, and conditional coherent models.**
+
+CROSS-39 proves an exact LR3 escape depth for the frozen three-colour family. Later probes test local clocks under protected growth, construct classical apparatus-memory controls, and reproduce a CHSH score of $2\sqrt{2}$ when coherent operations and squared-amplitude readouts are supplied. The growth-phase probes exhibit inequivalent fixed-reference outcomes and show why a single grown cycle cannot supply a stationary reference for all reversal windows. A physical clock, coherent dynamics, and the measurement rule remain open. [Reader’s guide, complete probe sequence and verifiers](research/cbb-binary/GROWTH-CLOCKS-AND-BELL.md)

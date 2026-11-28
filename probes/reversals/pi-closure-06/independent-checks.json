@@ -1,0 +1,26 @@
+{
+  "tagged": {
+    "surviving_paths": 12,
+    "exact_blocked_lr4": "21407/1211392000"
+  },
+  "soft_endpoint": {
+    "surviving_paths": 12,
+    "exact_blocked_lr4": "4604293277102329/36238309159091539500"
+  },
+  "hard_endpoint": {
+    "surviving_paths": 3,
+    "exact_blocked_lr4": "65/172032"
+  },
+  "hard_endpoint_seam": {
+    "surviving_paths": 0,
+    "exact_blocked_lr4": "0"
+  },
+  "hard_endpoint_seam_order": {
+    "surviving_paths": 2,
+    "exact_blocked_lr4": "317/677376"
+  },
+  "cycle_oracle": {
+    "surviving_paths": 12,
+    "exact_blocked_lr4": "38121803/1962455040000"
+  }
+}

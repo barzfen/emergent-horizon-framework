@@ -1,0 +1,1495 @@
+{
+  "models": [
+    {
+      "n": 7,
+      "ones": [
+        1,
+        2,
+        3
+      ],
+      "states": 72,
+      "events": 168,
+      "components": 15,
+      "flat_components": 12,
+      "nonflat_components": 3,
+      "mixed_orientation_edges": 0,
+      "component_details": [
+        {
+          "states": 6,
+          "edges": 7,
+          "flat": true,
+          "reachable_orientation_states": 6
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 8,
+          "edges": 12,
+          "flat": false,
+          "reachable_orientation_states": 16
+        },
+        {
+          "states": 6,
+          "edges": 7,
+          "flat": true,
+          "reachable_orientation_states": 6
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 8,
+          "edges": 12,
+          "flat": false,
+          "reachable_orientation_states": 16
+        },
+        {
+          "states": 6,
+          "edges": 7,
+          "flat": true,
+          "reachable_orientation_states": 6
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 8,
+          "edges": 12,
+          "flat": false,
+          "reachable_orientation_states": 16
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 2,
+          "edges": 1,
+          "flat": true,
+          "reachable_orientation_states": 2
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 2,
+          "edges": 1,
+          "flat": true,
+          "reachable_orientation_states": 2
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 2,
+          "edges": 1,
+          "flat": true,
+          "reachable_orientation_states": 2
+        }
+      ],
+      "first_negative_closed_walk": [
+        {
+          "walk": [
+            [
+              0,
+              1,
+              2,
+              3,
+              5,
+              4,
+              6
+            ],
+            [
+              0,
+              4,
+              5,
+              3,
+              2,
+              1,
+              6
+            ],
+            [
+              0,
+              4,
+              6,
+              1,
+              2,
+              3,
+              5
+            ],
+            [
+              0,
+              3,
+              2,
+              1,
+              6,
+              4,
+              5
+            ],
+            [
+              0,
+              3,
+              2,
+              1,
+              5,
+              4,
+              6
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              5,
+              4,
+              6
+            ]
+          ],
+          "edge_flip_bits": [
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          "length": 5,
+          "transport_product": -1
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "ones": [
+        1,
+        2,
+        3
+      ],
+      "states": 2160,
+      "events": 8160,
+      "components": 111,
+      "flat_components": 102,
+      "nonflat_components": 9,
+      "mixed_orientation_edges": 0,
+      "component_details": [
+        {
+          "states": 42,
+          "edges": 85,
+          "flat": true,
+          "reachable_orientation_states": 42
+        },
+        {
+          "states": 36,
+          "edges": 70,
+          "flat": true,
+          "reachable_orientation_states": 36
+        },
+        {
+          "states": 56,
+          "edges": 116,
+          "flat": true,
+          "reachable_orientation_states": 56
+        },
+        {
+          "states": 32,
+          "edges": 68,
+          "flat": true,
+          "reachable_orientation_states": 32
+        },
+        {
+          "states": 28,
+          "edges": 56,
+          "flat": true,
+          "reachable_orientation_states": 28
+        },
+        {
+          "states": 24,
+          "edges": 48,
+          "flat": true,
+          "reachable_orientation_states": 24
+        },
+        {
+          "states": 56,
+          "edges": 114,
+          "flat": true,
+          "reachable_orientation_states": 56
+        },
+        {
+          "states": 48,
+          "edges": 96,
+          "flat": true,
+          "reachable_orientation_states": 48
+        },
+        {
+          "states": 64,
+          "edges": 138,
+          "flat": false,
+          "reachable_orientation_states": 128
+        },
+        {
+          "states": 72,
+          "edges": 168,
+          "flat": false,
+          "reachable_orientation_states": 144
+        },
+        {
+          "states": 42,
+          "edges": 85,
+          "flat": true,
+          "reachable_orientation_states": 42
+        },
+        {
+          "states": 36,
+          "edges": 70,
+          "flat": true,
+          "reachable_orientation_states": 36
+        },
+        {
+          "states": 56,
+          "edges": 116,
+          "flat": true,
+          "reachable_orientation_states": 56
+        },
+        {
+          "states": 32,
+          "edges": 68,
+          "flat": true,
+          "reachable_orientation_states": 32
+        },
+        {
+          "states": 28,
+          "edges": 56,
+          "flat": true,
+          "reachable_orientation_states": 28
+        },
+        {
+          "states": 24,
+          "edges": 48,
+          "flat": true,
+          "reachable_orientation_states": 24
+        },
+        {
+          "states": 56,
+          "edges": 114,
+          "flat": true,
+          "reachable_orientation_states": 56
+        },
+        {
+          "states": 48,
+          "edges": 96,
+          "flat": true,
+          "reachable_orientation_states": 48
+        },
+        {
+          "states": 64,
+          "edges": 138,
+          "flat": false,
+          "reachable_orientation_states": 128
+        },
+        {
+          "states": 72,
+          "edges": 168,
+          "flat": false,
+          "reachable_orientation_states": 144
+        },
+        {
+          "states": 42,
+          "edges": 85,
+          "flat": true,
+          "reachable_orientation_states": 42
+        },
+        {
+          "states": 36,
+          "edges": 70,
+          "flat": true,
+          "reachable_orientation_states": 36
+        },
+        {
+          "states": 56,
+          "edges": 116,
+          "flat": true,
+          "reachable_orientation_states": 56
+        },
+        {
+          "states": 32,
+          "edges": 68,
+          "flat": true,
+          "reachable_orientation_states": 32
+        },
+        {
+          "states": 28,
+          "edges": 56,
+          "flat": true,
+          "reachable_orientation_states": 28
+        },
+        {
+          "states": 24,
+          "edges": 48,
+          "flat": true,
+          "reachable_orientation_states": 24
+        },
+        {
+          "states": 56,
+          "edges": 114,
+          "flat": true,
+          "reachable_orientation_states": 56
+        },
+        {
+          "states": 48,
+          "edges": 96,
+          "flat": true,
+          "reachable_orientation_states": 48
+        },
+        {
+          "states": 64,
+          "edges": 138,
+          "flat": false,
+          "reachable_orientation_states": 128
+        },
+        {
+          "states": 72,
+          "edges": 168,
+          "flat": false,
+          "reachable_orientation_states": 144
+        },
+        {
+          "states": 40,
+          "edges": 70,
+          "flat": true,
+          "reachable_orientation_states": 40
+        },
+        {
+          "states": 32,
+          "edges": 52,
+          "flat": true,
+          "reachable_orientation_states": 32
+        },
+        {
+          "states": 48,
+          "edges": 96,
+          "flat": false,
+          "reachable_orientation_states": 96
+        },
+        {
+          "states": 12,
+          "edges": 20,
+          "flat": true,
+          "reachable_orientation_states": 12
+        },
+        {
+          "states": 10,
+          "edges": 15,
+          "flat": true,
+          "reachable_orientation_states": 10
+        },
+        {
+          "states": 8,
+          "edges": 12,
+          "flat": true,
+          "reachable_orientation_states": 8
+        },
+        {
+          "states": 40,
+          "edges": 70,
+          "flat": true,
+          "reachable_orientation_states": 40
+        },
+        {
+          "states": 32,
+          "edges": 52,
+          "flat": true,
+          "reachable_orientation_states": 32
+        },
+        {
+          "states": 48,
+          "edges": 96,
+          "flat": false,
+          "reachable_orientation_states": 96
+        },
+        {
+          "states": 12,
+          "edges": 20,
+          "flat": true,
+          "reachable_orientation_states": 12
+        },
+        {
+          "states": 10,
+          "edges": 15,
+          "flat": true,
+          "reachable_orientation_states": 10
+        },
+        {
+          "states": 8,
+          "edges": 12,
+          "flat": true,
+          "reachable_orientation_states": 8
+        },
+        {
+          "states": 40,
+          "edges": 70,
+          "flat": true,
+          "reachable_orientation_states": 40
+        },
+        {
+          "states": 32,
+          "edges": 52,
+          "flat": true,
+          "reachable_orientation_states": 32
+        },
+        {
+          "states": 48,
+          "edges": 96,
+          "flat": false,
+          "reachable_orientation_states": 96
+        },
+        {
+          "states": 12,
+          "edges": 20,
+          "flat": true,
+          "reachable_orientation_states": 12
+        },
+        {
+          "states": 10,
+          "edges": 15,
+          "flat": true,
+          "reachable_orientation_states": 10
+        },
+        {
+          "states": 8,
+          "edges": 12,
+          "flat": true,
+          "reachable_orientation_states": 8
+        },
+        {
+          "states": 10,
+          "edges": 15,
+          "flat": true,
+          "reachable_orientation_states": 10
+        },
+        {
+          "states": 6,
+          "edges": 7,
+          "flat": true,
+          "reachable_orientation_states": 6
+        },
+        {
+          "states": 10,
+          "edges": 15,
+          "flat": true,
+          "reachable_orientation_states": 10
+        },
+        {
+          "states": 6,
+          "edges": 7,
+          "flat": true,
+          "reachable_orientation_states": 6
+        },
+        {
+          "states": 10,
+          "edges": 15,
+          "flat": true,
+          "reachable_orientation_states": 10
+        },
+        {
+          "states": 6,
+          "edges": 7,
+          "flat": true,
+          "reachable_orientation_states": 6
+        },
+        {
+          "states": 10,
+          "edges": 15,
+          "flat": true,
+          "reachable_orientation_states": 10
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 10,
+          "edges": 15,
+          "flat": true,
+          "reachable_orientation_states": 10
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 10,
+          "edges": 15,
+          "flat": true,
+          "reachable_orientation_states": 10
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 8,
+          "edges": 10,
+          "flat": true,
+          "reachable_orientation_states": 8
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 8,
+          "edges": 10,
+          "flat": true,
+          "reachable_orientation_states": 8
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 8,
+          "edges": 10,
+          "flat": true,
+          "reachable_orientation_states": 8
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 8,
+          "edges": 12,
+          "flat": true,
+          "reachable_orientation_states": 8
+        },
+        {
+          "states": 6,
+          "edges": 7,
+          "flat": true,
+          "reachable_orientation_states": 6
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 8,
+          "edges": 12,
+          "flat": true,
+          "reachable_orientation_states": 8
+        },
+        {
+          "states": 6,
+          "edges": 7,
+          "flat": true,
+          "reachable_orientation_states": 6
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 8,
+          "edges": 12,
+          "flat": true,
+          "reachable_orientation_states": 8
+        },
+        {
+          "states": 6,
+          "edges": 7,
+          "flat": true,
+          "reachable_orientation_states": 6
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 6,
+          "edges": 7,
+          "flat": true,
+          "reachable_orientation_states": 6
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 6,
+          "edges": 7,
+          "flat": true,
+          "reachable_orientation_states": 6
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 6,
+          "edges": 7,
+          "flat": true,
+          "reachable_orientation_states": 6
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 8,
+          "edges": 12,
+          "flat": true,
+          "reachable_orientation_states": 8
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 8,
+          "edges": 12,
+          "flat": true,
+          "reachable_orientation_states": 8
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 8,
+          "edges": 12,
+          "flat": true,
+          "reachable_orientation_states": 8
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 8,
+          "edges": 12,
+          "flat": true,
+          "reachable_orientation_states": 8
+        },
+        {
+          "states": 2,
+          "edges": 1,
+          "flat": true,
+          "reachable_orientation_states": 2
+        },
+        {
+          "states": 8,
+          "edges": 12,
+          "flat": true,
+          "reachable_orientation_states": 8
+        },
+        {
+          "states": 2,
+          "edges": 1,
+          "flat": true,
+          "reachable_orientation_states": 2
+        },
+        {
+          "states": 8,
+          "edges": 12,
+          "flat": true,
+          "reachable_orientation_states": 8
+        },
+        {
+          "states": 2,
+          "edges": 1,
+          "flat": true,
+          "reachable_orientation_states": 2
+        },
+        {
+          "states": 6,
+          "edges": 7,
+          "flat": true,
+          "reachable_orientation_states": 6
+        },
+        {
+          "states": 2,
+          "edges": 1,
+          "flat": true,
+          "reachable_orientation_states": 2
+        },
+        {
+          "states": 6,
+          "edges": 7,
+          "flat": true,
+          "reachable_orientation_states": 6
+        },
+        {
+          "states": 2,
+          "edges": 1,
+          "flat": true,
+          "reachable_orientation_states": 2
+        },
+        {
+          "states": 6,
+          "edges": 7,
+          "flat": true,
+          "reachable_orientation_states": 6
+        },
+        {
+          "states": 2,
+          "edges": 1,
+          "flat": true,
+          "reachable_orientation_states": 2
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 2,
+          "edges": 1,
+          "flat": true,
+          "reachable_orientation_states": 2
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 2,
+          "edges": 1,
+          "flat": true,
+          "reachable_orientation_states": 2
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 2,
+          "edges": 1,
+          "flat": true,
+          "reachable_orientation_states": 2
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 2,
+          "edges": 1,
+          "flat": true,
+          "reachable_orientation_states": 2
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 2,
+          "edges": 1,
+          "flat": true,
+          "reachable_orientation_states": 2
+        },
+        {
+          "states": 4,
+          "edges": 4,
+          "flat": true,
+          "reachable_orientation_states": 4
+        },
+        {
+          "states": 2,
+          "edges": 1,
+          "flat": true,
+          "reachable_orientation_states": 2
+        }
+      ],
+      "first_negative_closed_walk": [
+        {
+          "walk": [
+            [
+              0,
+              1,
+              2,
+              3,
+              5,
+              4,
+              7,
+              6,
+              8
+            ],
+            [
+              0,
+              3,
+              2,
+              1,
+              5,
+              4,
+              7,
+              6,
+              8
+            ],
+            [
+              0,
+              3,
+              2,
+              1,
+              7,
+              4,
+              5,
+              6,
+              8
+            ],
+            [
+              0,
+              3,
+              2,
+              1,
+              7,
+              6,
+              5,
+              4,
+              8
+            ],
+            [
+              0,
+              3,
+              2,
+              1,
+              7,
+              6,
+              8,
+              4,
+              5
+            ],
+            [
+              0,
+              4,
+              8,
+              6,
+              7,
+              1,
+              2,
+              3,
+              5
+            ],
+            [
+              0,
+              4,
+              7,
+              6,
+              8,
+              1,
+              2,
+              3,
+              5
+            ],
+            [
+              0,
+              4,
+              5,
+              3,
+              2,
+              1,
+              8,
+              6,
+              7
+            ],
+            [
+              0,
+              6,
+              8,
+              1,
+              2,
+              3,
+              5,
+              4,
+              7
+            ],
+            [
+              0,
+              6,
+              7,
+              4,
+              5,
+              3,
+              2,
+              1,
+              8
+            ],
+            [
+              0,
+              1,
+              2,
+              3,
+              5,
+              4,
+              7,
+              6,
+              8
+            ]
+          ],
+          "edge_flip_bits": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            1,
+            1,
+            1
+          ],
+          "length": 10,
+          "transport_product": -1
+        }
+      ]
+    }
+  ],
+  "exact_lift_checks": [
+    {
+      "n": 7,
+      "seed": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        6
+      ],
+      "history": [
+        {
+          "steps": 0,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "1"
+        },
+        {
+          "steps": 1,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "1/3"
+        },
+        {
+          "steps": 2,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "19/81"
+        },
+        {
+          "steps": 3,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "47/243"
+        },
+        {
+          "steps": 4,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "1109/6561"
+        },
+        {
+          "steps": 5,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "1007/6561"
+        },
+        {
+          "steps": 6,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "76231/531441"
+        },
+        {
+          "steps": 7,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "24259/177147"
+        },
+        {
+          "steps": 8,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "5713769/43046721"
+        },
+        {
+          "steps": 9,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "16789337/129140163"
+        },
+        {
+          "steps": 10,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "447157819/3486784401"
+        },
+        {
+          "steps": 11,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "1329516871/10460353203"
+        },
+        {
+          "steps": 12,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "35687891261/282429536481"
+        }
+      ]
+    },
+    {
+      "n": 9,
+      "seed": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        4,
+        7,
+        6,
+        8
+      ],
+      "history": [
+        {
+          "steps": 0,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "1"
+        },
+        {
+          "steps": 1,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "1/5"
+        },
+        {
+          "steps": 2,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "61/625"
+        },
+        {
+          "steps": 3,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "6449/93750"
+        },
+        {
+          "steps": 4,
+          "overlap_states": 0,
+          "example": [],
+          "exact_zero_examples": [],
+          "signed_L1": "1",
+          "signed_square_sum": "18438527/337500000"
+        },
+        {
+          "steps": 5,
+          "overlap_states": 4,
+          "example": [
+            {
+              "state": [
+                0,
+                3,
+                2,
+                1,
+                8,
+                6,
+                7,
+                4,
+                5
+              ],
+              "positive": "299/20000",
+              "negative": "1/1200",
+              "signed": "847/60000",
+              "occupancy": "947/60000"
+            }
+          ],
+          "exact_zero_examples": [],
+          "signed_L1": "11057/11250",
+          "signed_square_sum": "57790069583/1215000000000"
+        },
+        {
+          "steps": 6,
+          "overlap_states": 9,
+          "example": [
+            {
+              "state": [
+                0,
+                1,
+                2,
+                3,
+                8,
+                6,
+                7,
+                4,
+                5
+              ],
+              "positive": "21627/1000000",
+              "negative": "43/36000",
+              "signed": "183893/9000000",
+              "occupancy": "205393/9000000"
+            }
+          ],
+          "exact_zero_examples": [],
+          "signed_L1": "873809/900000",
+          "signed_square_sum": "46514168712149/1093500000000000"
+        },
+        {
+          "steps": 7,
+          "overlap_states": 16,
+          "example": [
+            {
+              "state": [
+                0,
+                1,
+                2,
+                3,
+                7,
+                6,
+                8,
+                4,
+                5
+              ],
+              "positive": "1947151/60000000",
+              "negative": "299/240000",
+              "signed": "1872401/60000000",
+              "occupancy": "673967/20000000"
+            }
+          ],
+          "exact_zero_examples": [],
+          "signed_L1": "77371321/81000000",
+          "signed_square_sum": "308012059781880097/7873200000000000000"
+        },
+        {
+          "steps": 8,
+          "overlap_states": 24,
+          "example": [
+            {
+              "state": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                6,
+                8,
+                4,
+                7
+              ],
+              "positive": "3372077/84375000",
+              "negative": "11/180000",
+              "signed": "13467683/337500000",
+              "occupancy": "13508933/337500000"
+            }
+          ],
+          "exact_zero_examples": [],
+          "signed_L1": "913707619/972000000",
+          "signed_square_sum": "1030340490552821022307/28343520000000000000000"
+        },
+        {
+          "steps": 9,
+          "overlap_states": 29,
+          "example": [
+            {
+              "state": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                4,
+                8,
+                6,
+                7
+              ],
+              "positive": "1223883673/30375000000",
+              "negative": "1601/18000000",
+              "signed": "2442363971/60750000000",
+              "occupancy": "2453170721/60750000000"
+            }
+          ],
+          "exact_zero_examples": [],
+          "signed_L1": "269636686261/291600000000",
+          "signed_square_sum": "696956327002799974542683/20407334400000000000000000"
+        },
+        {
+          "steps": 10,
+          "overlap_states": 31,
+          "example": [
+            {
+              "state": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                4,
+                7,
+                6,
+                8
+              ],
+              "positive": "4372377117839/87480000000000",
+              "negative": "931/7500000",
+              "signed": "4361517933839/87480000000000",
+              "occupancy": "4383236301839/87480000000000"
+            }
+          ],
+          "exact_zero_examples": [],
+          "signed_L1": "15911214019511/17496000000000",
+          "signed_square_sum": "11855183791602859049601916087/367332019200000000000000000000"
+        },
+        {
+          "steps": 11,
+          "overlap_states": 32,
+          "example": [
+            {
+              "state": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                4,
+                8,
+                6,
+                7
+              ],
+              "positive": "131359485473/3499200000000",
+              "negative": "19582943/64800000000",
+              "signed": "130302006551/3499200000000",
+              "occupancy": "26483392879/699840000000"
+            }
+          ],
+          "exact_zero_examples": [],
+          "signed_L1": "938919055014613/1049760000000000",
+          "signed_square_sum": "40558394441621996380332016041967/1322395269120000000000000000000000"
+        },
+        {
+          "steps": 12,
+          "overlap_states": 32,
+          "example": [
+            {
+              "state": [
+                0,
+                1,
+                2,
+                3,
+                5,
+                4,
+                7,
+                6,
+                8
+              ],
+              "positive": "14321203722361679/314928000000000000",
+              "negative": "27809431/72000000000",
+              "signed": "14199565271167679/314928000000000000",
+              "occupancy": "14442842173555679/314928000000000000"
+            }
+          ],
+          "exact_zero_examples": [],
+          "signed_L1": "55410938407894151/62985600000000000",
+          "signed_square_sum": "139287615116733891289487713244580343/4760622968832000000000000000000000000"
+        }
+      ]
+    }
+  ],
+  "retained_six_state_history": [
+    {
+      "steps": 0,
+      "overlap_states": 0,
+      "example": [],
+      "exact_zero_examples": [],
+      "signed_L1": "1",
+      "signed_square_sum": "1"
+    },
+    {
+      "steps": 1,
+      "overlap_states": 0,
+      "example": [],
+      "exact_zero_examples": [],
+      "signed_L1": "1",
+      "signed_square_sum": "1/3"
+    },
+    {
+      "steps": 2,
+      "overlap_states": 0,
+      "example": [],
+      "exact_zero_examples": [],
+      "signed_L1": "1",
+      "signed_square_sum": "19/54"
+    },
+    {
+      "steps": 3,
+      "overlap_states": 0,
+      "example": [],
+      "exact_zero_examples": [],
+      "signed_L1": "1",
+      "signed_square_sum": "673/1944"
+    },
+    {
+      "steps": 4,
+      "overlap_states": 0,
+      "example": [],
+      "exact_zero_examples": [],
+      "signed_L1": "1",
+      "signed_square_sum": "24289/69984"
+    },
+    {
+      "steps": 5,
+      "overlap_states": 0,
+      "example": [],
+      "exact_zero_examples": [],
+      "signed_L1": "1",
+      "signed_square_sum": "874033/2519424"
+    },
+    {
+      "steps": 6,
+      "overlap_states": 0,
+      "example": [],
+      "exact_zero_examples": [],
+      "signed_L1": "1",
+      "signed_square_sum": "31467409/90699264"
+    },
+    {
+      "steps": 7,
+      "overlap_states": 0,
+      "example": [],
+      "exact_zero_examples": [],
+      "signed_L1": "1",
+      "signed_square_sum": "1132813393/3265173504"
+    },
+    {
+      "steps": 8,
+      "overlap_states": 0,
+      "example": [],
+      "exact_zero_examples": [],
+      "signed_L1": "1",
+      "signed_square_sum": "40781362129/117546246144"
+    },
+    {
+      "steps": 9,
+      "overlap_states": 0,
+      "example": [],
+      "exact_zero_examples": [],
+      "signed_L1": "1",
+      "signed_square_sum": "1468128556753/4231664861184"
+    },
+    {
+      "steps": 10,
+      "overlap_states": 0,
+      "example": [],
+      "exact_zero_examples": [],
+      "signed_L1": "1",
+      "signed_square_sum": "52852630922449/152339935002624"
+    },
+    {
+      "steps": 11,
+      "overlap_states": 0,
+      "example": [],
+      "exact_zero_examples": [],
+      "signed_L1": "1",
+      "signed_square_sum": "1902694695932113/5484237660094464"
+    },
+    {
+      "steps": 12,
+      "overlap_states": 0,
+      "example": [],
+      "exact_zero_examples": [],
+      "signed_L1": "1",
+      "signed_square_sum": "68497009157212369/197432555763400704"
+    }
+  ],
+  "sampling": "uniform accepted indexed LR2/LR3 event; frozen self-loop",
+  "checks": "PASS",
+  "source_sha256": "47dcb706319304f25d6856a821dc855ecbb527b9b1510e23fbb44f60bf6a48e3"
+}

@@ -1,0 +1,12 @@
+{
+  "pole_squared": "567/4",
+  "finite_squared": "1917",
+  "pole_higher_interference": "135/2",
+  "soft_constant": "3969/2",
+  "hard_pole_squared": "81/8",
+  "hard_constant": "1107/8",
+  "normalized_leading": "14",
+  "normalized_quadratic": "14/3",
+  "finite_check_t": "2000/999999",
+  "finite_check_ratio": "2470711765981062712946190705837877506695054112800823484946190709771765981058947058826/176479176560765110353994766624826240532457885064060742471641823933882443117655647059"
+}

@@ -1,0 +1,178 @@
+[
+  {
+    "chamber_cancellations": 18,
+    "character": "++",
+    "cuts": {
+      "2": {
+        "inactive_rank": 36,
+        "exterior_rank": 35,
+        "folded_rank": 36,
+        "active_rank": 1,
+        "cancellation_rank": 0
+      },
+      "8": {
+        "inactive_rank": 53,
+        "exterior_rank": 49,
+        "folded_rank": 50,
+        "active_rank": 4,
+        "cancellation_rank": 3
+      },
+      "9": {
+        "inactive_rank": 54,
+        "exterior_rank": 49,
+        "folded_rank": 50,
+        "active_rank": 5,
+        "cancellation_rank": 4
+      },
+      "14": {
+        "inactive_rank": 71,
+        "exterior_rank": 63,
+        "folded_rank": 64,
+        "active_rank": 8,
+        "cancellation_rank": 7
+      },
+      "sum": {
+        "inactive_rank": 71,
+        "exterior_rank": 63,
+        "folded_rank": 64,
+        "active_rank": 8,
+        "cancellation_rank": 7
+      }
+    },
+    "separate": 7,
+    "middle": 7,
+    "union": 7
+  },
+  {
+    "chamber_cancellations": 18,
+    "character": "+-",
+    "cuts": {
+      "2": {
+        "inactive_rank": 36,
+        "exterior_rank": 36,
+        "folded_rank": 36,
+        "active_rank": 0,
+        "cancellation_rank": 0
+      },
+      "8": {
+        "inactive_rank": 53,
+        "exterior_rank": 50,
+        "folded_rank": 51,
+        "active_rank": 3,
+        "cancellation_rank": 2
+      },
+      "9": {
+        "inactive_rank": 54,
+        "exterior_rank": 44,
+        "folded_rank": 48,
+        "active_rank": 10,
+        "cancellation_rank": 6
+      },
+      "14": {
+        "inactive_rank": 71,
+        "exterior_rank": 58,
+        "folded_rank": 62,
+        "active_rank": 13,
+        "cancellation_rank": 9
+      },
+      "sum": {
+        "inactive_rank": 71,
+        "exterior_rank": 58,
+        "folded_rank": 62,
+        "active_rank": 13,
+        "cancellation_rank": 9
+      }
+    },
+    "separate": 8,
+    "middle": 9,
+    "union": 9
+  },
+  {
+    "chamber_cancellations": 18,
+    "character": "-+",
+    "cuts": {
+      "2": {
+        "inactive_rank": 36,
+        "exterior_rank": 36,
+        "folded_rank": 36,
+        "active_rank": 0,
+        "cancellation_rank": 0
+      },
+      "8": {
+        "inactive_rank": 50,
+        "exterior_rank": 44,
+        "folded_rank": 47,
+        "active_rank": 6,
+        "cancellation_rank": 3
+      },
+      "9": {
+        "inactive_rank": 54,
+        "exterior_rank": 50,
+        "folded_rank": 51,
+        "active_rank": 4,
+        "cancellation_rank": 3
+      },
+      "14": {
+        "inactive_rank": 68,
+        "exterior_rank": 58,
+        "folded_rank": 62,
+        "active_rank": 10,
+        "cancellation_rank": 6
+      },
+      "sum": {
+        "inactive_rank": 68,
+        "exterior_rank": 58,
+        "folded_rank": 62,
+        "active_rank": 10,
+        "cancellation_rank": 6
+      }
+    },
+    "separate": 6,
+    "middle": 6,
+    "union": 6
+  },
+  {
+    "chamber_cancellations": 18,
+    "character": "--",
+    "cuts": {
+      "2": {
+        "inactive_rank": 36,
+        "exterior_rank": 35,
+        "folded_rank": 36,
+        "active_rank": 1,
+        "cancellation_rank": 0
+      },
+      "8": {
+        "inactive_rank": 50,
+        "exterior_rank": 44,
+        "folded_rank": 47,
+        "active_rank": 6,
+        "cancellation_rank": 3
+      },
+      "9": {
+        "inactive_rank": 54,
+        "exterior_rank": 44,
+        "folded_rank": 47,
+        "active_rank": 10,
+        "cancellation_rank": 7
+      },
+      "14": {
+        "inactive_rank": 68,
+        "exterior_rank": 52,
+        "folded_rank": 57,
+        "active_rank": 16,
+        "cancellation_rank": 11
+      },
+      "sum": {
+        "inactive_rank": 68,
+        "exterior_rank": 52,
+        "folded_rank": 57,
+        "active_rank": 16,
+        "cancellation_rank": 11
+      }
+    },
+    "separate": 10,
+    "middle": 10,
+    "union": 11
+  }
+]

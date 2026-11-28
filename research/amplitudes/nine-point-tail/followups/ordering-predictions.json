@@ -1,0 +1,474 @@
+{
+  "training": {
+    "+-": {
+      "positive_patterns": 4,
+      "false_positives": 14
+    },
+    "--": {
+      "positive_patterns": 2,
+      "false_positives": 44
+    }
+  },
+  "holdouts": {
+    "+-": [
+      {
+        "orbits": [
+          0,
+          2,
+          4,
+          12
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          1,
+          4,
+          9,
+          17
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          2,
+          3,
+          5,
+          17
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          5,
+          10,
+          14,
+          16
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          7,
+          8,
+          9,
+          16
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          7,
+          10,
+          13,
+          15
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          2,
+          3,
+          10,
+          17
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          5,
+          6,
+          12,
+          17
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          1,
+          8,
+          12,
+          15
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          9,
+          10,
+          14,
+          15
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          1,
+          6,
+          12,
+          16
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          0,
+          1,
+          10,
+          11
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          9,
+          11,
+          15,
+          17
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          1,
+          5,
+          12,
+          16
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          3,
+          14,
+          16,
+          17
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          2,
+          3,
+          12,
+          13
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          8,
+          9,
+          10,
+          13
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          5,
+          8,
+          9,
+          11
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          3,
+          6,
+          14,
+          15
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          1,
+          2,
+          11,
+          13
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          5,
+          10,
+          11,
+          12
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          5,
+          7,
+          11,
+          17
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          1,
+          9,
+          11,
+          17
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          1,
+          2,
+          7,
+          13
+        ],
+        "predicted_removed": false
+      }
+    ],
+    "--": [
+      {
+        "orbits": [
+          5,
+          9,
+          12,
+          14,
+          16
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          1,
+          4,
+          9,
+          16,
+          17
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          9,
+          10,
+          13,
+          14,
+          17
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          6,
+          9,
+          12,
+          14,
+          17
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          3,
+          11,
+          13,
+          16,
+          17
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          1,
+          9,
+          10,
+          14,
+          16
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          8,
+          9,
+          13,
+          15,
+          16
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          3,
+          10,
+          13,
+          14,
+          17
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          2,
+          3,
+          7,
+          14,
+          15
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          3,
+          7,
+          9,
+          16,
+          17
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          2,
+          9,
+          13,
+          16,
+          17
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          3,
+          8,
+          12,
+          15,
+          17
+        ],
+        "predicted_removed": true
+      },
+      {
+        "orbits": [
+          1,
+          2,
+          3,
+          9,
+          11
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          0,
+          1,
+          7,
+          9,
+          17
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          2,
+          6,
+          9,
+          12,
+          15
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          0,
+          10,
+          11,
+          13,
+          17
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          0,
+          4,
+          5,
+          9,
+          15
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          6,
+          11,
+          15,
+          16,
+          17
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          2,
+          6,
+          8,
+          10,
+          12
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          0,
+          2,
+          12,
+          14,
+          15
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          0,
+          6,
+          12,
+          14,
+          16
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          2,
+          5,
+          7,
+          14,
+          17
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          1,
+          2,
+          4,
+          5,
+          12
+        ],
+        "predicted_removed": false
+      },
+      {
+        "orbits": [
+          3,
+          4,
+          5,
+          12,
+          16
+        ],
+        "predicted_removed": false
+      }
+    ]
+  }
+}

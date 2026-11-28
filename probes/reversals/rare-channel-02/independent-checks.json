@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "carrier_method": "two-edge reconnection, adjacency traversal and DFS; no probe import",
+  "states": 96,
+  "fast_edges": 160,
+  "slow_edges": 88,
+  "numeric_tolerances": {
+    "evolution": 1e-08,
+    "integrated_time": 1e-06,
+    "mean_exit": 1e-07
+  },
+  "wall_escape_degree_histograms": {
+    "2": {
+      "0": 24,
+      "1": 28
+    },
+    "4": {
+      "0": 28,
+      "1": 4,
+      "2": 12
+    }
+  },
+  "dynamic_checks": [
+    {
+      "epsilon": 1.0,
+      "matrix_exponential_checks": 2,
+      "poisson_check": true
+    },
+    {
+      "epsilon": 0.1,
+      "matrix_exponential_checks": 2,
+      "poisson_check": true
+    },
+    {
+      "epsilon": 0.01,
+      "matrix_exponential_checks": 2,
+      "poisson_check": true
+    },
+    {
+      "epsilon": 0.001,
+      "matrix_exponential_checks": 2,
+      "poisson_check": true
+    },
+    {
+      "epsilon": 0.0001,
+      "matrix_exponential_checks": 2,
+      "poisson_check": true
+    }
+  ],
+  "exact_rational_first_exit_checks": [
+    {
+      "epsilon": "1",
+      "exact_mean_first_exit": "121210187/54086292"
+    },
+    {
+      "epsilon": "1/1000",
+      "exact_mean_first_exit": "1364886093224644588746173305008223000/691433987475691003547811631021029"
+    }
+  ],
+  "probe_sha256": "9f0dfdbefe6916137f1d54b8797bb7860e1b617df3c0988359034c8c95bd1898",
+  "verify_sha256": "0dc4b3ad94144b2d33b54750615a279289cc167ead742f5b6b92334c046104c2"
+}

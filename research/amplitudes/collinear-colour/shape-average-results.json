@@ -1,0 +1,43 @@
+{
+  "patch": [
+    [
+      0.46,
+      0.54
+    ],
+    [
+      0.625,
+      0.7083333333333334
+    ]
+  ],
+  "columns": [
+    "mean_K",
+    "mean_K_cos2phi",
+    "normalized_contrast_K"
+  ],
+  "grids": {
+    "(2, 3, 20)": {
+      "coefficients": [
+        14363.272575244204,
+        3388.7336452463055,
+        50.805761336389274
+      ],
+      "minimum_sampled_separation_degrees": 18.794023500710477
+    },
+    "(3, 4, 28)": {
+      "coefficients": [
+        14387.053816492646,
+        3397.3737903775486,
+        50.87478993156194
+      ],
+      "minimum_sampled_separation_degrees": 18.5590355457506
+    },
+    "(4, 5, 36)": {
+      "coefficients": [
+        14392.73664203829,
+        3399.148552447618,
+        50.89587648791331
+      ],
+      "minimum_sampled_separation_degrees": 18.431198297400282
+    }
+  }
+}

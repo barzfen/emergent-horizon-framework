@@ -1,0 +1,68 @@
+# Colour channels in the first finite collinear coefficient
+
+This series follows what the first finite correction to the leading two-gluon collinear limit retains about the pair's colour. It studies the full-colour tree MHV amplitude along an exchange-symmetric equal-split path. All shares below are squared norms of projections of that amplitude coefficient.
+
+## What we found and why it matters
+
+**The 1:2:3 law is an exact constraint within QCD.** When two gluons are nearly parallel, the leading term describes their splitting from a parent gluon. The first finite term gives us a way to ask what colour structure appears beyond that leading description. On the planar, equal-split MHV path studied here, the singlet, symmetric octet and 27-dimensional channel carry one sixth, one third and one half of that finite term's squared norm. Those shares hold as more gluons are added. [Planar proof](planar-theorem.md)
+
+**For physics, the law fixes how the pair's colour correlation first changes as the gluons separate.** On the planar path, the coefficient of that change follows from the squared norm of the finite term relative to the squared norm of the leading pole. In one six-gluon test, tilting the beam out of the outgoing plane made the singlet lose share and the 27 channel gain share. Both changes strengthened the correction. In a separate radiation test, most of the angular contrast was already present when the hard amplitude was frozen at its leading form and the soft radiation could still resolve the two daughter directions. A matched six-gluon test explains why this angular contrast is a poor direct probe of the pair's colour shift. In the fixed ring, the direct pair contribution enters at fourth order in the opening. When the viewing region shrinks with the pair, it enters at second order and accounts for 7–11% of the angular correction with the main cut in the tested setup. Interference involving the other hard gluons still dominates. [Hard colour test](pair-dipole.md) · [Radiation control](pole-control.md) · [Matched radiation test](matched-radiation.md) · [Shrinking-region test](tracking-radiation.md)
+
+**For calculations, the immediate use is a benchmark with a narrow shortcut.** If the total squared norm of the planar finite term is known, the law gives the three channel norms directly. The planar pair-correlation correction also follows from one norm ratio. A general soft-radiation calculation still needs colour correlations involving the other hard gluons, and an overall speedup has yet to be demonstrated.
+
+## Main results
+
+1. **On the real-spinor locus**, the SU(3) singlet, symmetric octet and 27-dimensional channel have weights **1:2:3** at arbitrary multiplicity. This includes coplanar real Lorentzian hard momenta. The [proof](planar-theorem.md) starts from four-gluon colour Casimirs and uses induction on spectator collisions. The [SU(N) extension](su-n-casimir-law.md) gives weights proportional to the channel dimension times the squared colour-interaction eigenvalue.
+2. **Away from the real locus**, the same fractions can change. A [matched six-gluon example](lorentzian-counterexample.md) varies the beam direction while keeping the outgoing configuration fixed.
+3. **Near the real locus**, the first possible change is quadratic, given by an exact formula involving the imaginary first derivative of the finite tensor. At [six](near-planar-sign.md) and [seven gluons](near-planar-seven.md), every nontrivial imaginary projective tangent increases the 27 share at quadratic order from its planar value of one half.
+
+4. **With an extra soft gluon**, the first angular correction to the eikonal current reproduces the Casimir weights in isolation. Radiation from the finite hard amplitude interferes with it. The [soft-emission calculation](soft-emission.md) includes both the pair-projected result and the colour-summed radiation weight.
+
+## Calculations and reproduction
+
+Run the commands in this directory. Each script prints JSON that can be compared with the linked output. The six-gluon sign certificate and the angular calculations use NumPy. The other scripts use the Python standard library.
+
+| Study | Command | Saved output |
+| --- | --- | --- |
+| [SU(2) colour control](su2-control.md) | `python3 color_probe.py` | [Results](su2-control-results.json) |
+| [SU(2) finite colour ratio](su2-ratio.md) | `python3 su2_ratio.py` | [Results](su2-ratio-results.json) |
+| [SU(2) charged and neutral basis](su2-basis.md) | `python3 su2_basis.py` | [Results](su2-basis-results.json) |
+| [SU(2) pole-free rate combination](su2-rate.md) | `python3 su2_rate.py` | [Results](su2-rate-results.json) |
+| [SU(2) real-momentum rate test](su2-real-rate.md) | `python3 su2_real_rate.py` | [Results](su2-real-rate-results.json) |
+| [Matched massive SU(2) control](su2-mass-control.md) | `python3 su2_mass_control.py` | [Results](su2-mass-results.json) |
+| [Matched electroweak scan with hypercharge](electroweak-rate.md) | `python3 electroweak_rate.py` | [Results](electroweak-rate-results.json) |
+| [Matched electroweak transverse helicity sum](electroweak-helicities.md) | `python3 electroweak_helicities.py 0` | [Planar](ew-helicity-planar.json), [tilted](ew-helicity-tilted.json) |
+| [Electroweak energy scan at fixed pair mass](electroweak-scale.md) | Commands in the note | [Results](electroweak-scale-results.json) |
+| [Electroweak pair-mass scan](electroweak-pair-scale.md) | Commands in the note | [Results](electroweak-pair-scale-results.json) |
+| [Electroweak rates with incoming photons](electroweak-photon-initial.md) | `python3 electroweak_photon_initial.py 0 .48` | [Results](electroweak-photon-initial-results.json) |
+| [Incoming colour direction and alignment](su2-incoming-average.md) | `python3 su2_incoming_average.py` | [Results](su2-incoming-average-results.json) |
+| [Incoming colour rotation and interference](su2-incoming-rotation.md) | `python3 su2_incoming_rotation.py` | [Results](su2-incoming-rotation-results.json) |
+| [Photon initial-state angular patch](electroweak-photon-patch.md) | `python3 electroweak_photon_patch.py 4` | [Results](electroweak-photon-patch-results.json) |
+| [Photon patch with all final polarizations](electroweak-photon-longitudinal.md) | `python3 electroweak_photon_longitudinal.py 2 3 4` | [Results](electroweak-photon-longitudinal-results.json) |
+| [Photon patch with leptonic decay cuts](electroweak-photon-decays.md) | `python3 electroweak_photon_decays.py 3 4` | [Results](electroweak-photon-decays-results.json) |
+| [Photon patch with visible-particle tagging](electroweak-photon-reconstruction.md) | `python3 electroweak_photon_reconstruction.py 3 4` | [Results](electroweak-photon-reconstruction-results.json) |
+| [ATLAS lost-lepton background audit](atlas-lost-lepton-audit.md) | Published-fit audit | [ATLAS paper](https://doi.org/10.1007/JHEP04(2024)026) |
+| [Electroweak limit and finite-mass check](su2-electroweak-limit.md) | Analytic derivation | In the note |
+| [SU(3) projection and five-gluon derivation](su3-channels.md) | `python3 su3_probe.py` | [Results](su3-channels-results.json) |
+| [Colour channels by order at five through seven gluons](channel-orders.md) | `python3 orders.py` | [Results](channel-orders-results.json) |
+| [Matched real Lorentzian counterexample](lorentzian-counterexample.md) | `python3 lorentzian.py` | [Results](lorentzian-counterexample-results.json) |
+| [SU(3) all-multiplicity proof and algebra checks](planar-theorem.md) | `python3 verify.py` | [Results](planar-theorem-results.json) |
+| [SU(N) Casimir law and exact SU(4) checks](su-n-casimir-law.md) | `python3 verify_su4.py` | [Results](su4-results.json) |
+| [Near-planar curvature and nine beam-tilt tests](near-planar-sign.md#six-gluon-calculation) | `python3 tilt.py` | [Results](tilt-results.json) |
+| [Six-gluon sign certificate](near-planar-sign.md#six-gluon-sign-theorem) | `python3 verify_sign.py` | [Polynomial coefficients](sign-results.json) |
+| [Seven-gluon sign certificate](near-planar-seven.md) | `python3 verify_seven_sign.py --samples 10000` | [Results](near-planar-seven-results.json) |
+| [Soft emission and pair-colour interference](soft-emission.md) | `python3 soft_probe.py` | [Results](soft-probe-results.json) |
+| [Colour-summed radiation weight](soft-emission.md#colour-summed-radiation-weight) | `python3 colour_sum.py` | [Results](colour-sum-results.json) |
+| [Five-gluon angular and helicity checks](angular-ensemble.md) | `python3 angular_ensemble.py` | [Results](angular-ensemble-results.json) |
+| [Six-gluon full helicity sum](six-soft.md) | `python3 six_soft.py` | [Results](six-soft-results.json) |
+| [Matrix-element-weighted orientation average](weighted-angles.md) | `python3 weighted_angles.py` | [Results](weighted-angles-results.json) |
+| [Outgoing-shape and beam average](shape-average.md) | `python3 shape_average.py` | [Results](shape-average-results.json) · [Centre control](shape-average-centre.json) |
+| [Opening-plane orientation scan](plane-scan.md) | `python3 plane_scan.py` | [Results](plane-scan-results.json) |
+| [Leading parent-pole control](pole-control.md) | `python3 pole_control.py` | [Results](pole-control-results.json) |
+| [Six-gluon hard-pair colour correlation](pair-dipole.md) | `python3 pair_dipole.py` | [Results](pair-dipole-results.json) |
+| [Matched hard-colour and soft-radiation test](matched-radiation.md) | `python3 matched_radiation.py` | [Results](matched-radiation-results.json) |
+| [Soft radiation in a region that follows the pair](tracking-radiation.md) | `python3 tracking_radiation.py` | [Results](tracking-radiation-results.json) |
+
+## Scope and open questions
+
+Coplanarity is a restriction on the kinematics. These results concern the first finite amplitude coefficient at fixed colour group. The sign at eight or more gluons and the behaviour at finite tilt remain open. The [literature search](literature.md) describes related results and the limits of the novelty check for the planar ratio. The [nine-point ordering studies](../nine-point-tail/followups/README.md) motivated this work. A correspondence between their ordering cuts and the colour channels remains open.

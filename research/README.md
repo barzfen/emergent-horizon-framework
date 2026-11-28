@@ -15,7 +15,24 @@ Topic-oriented working notes belong here. Current/high-value themes include:
 
 Working notes may be speculative, but each document should label its evidence status explicitly.
 
+[Hamiltonian Cycle and admissible comparisons](hamiltonian-cycle/README.md) asks when partial routes can share a search state. The first probe proves an exact attachment rule and gives a minimal seven-vertex counterexample to a degree-based comparison.
+
 [AI-assisted literature follow-up](related-work/README.md) connects external work to explicit EHF definitions, executable probes, retained results and limitations.
+
+[QM bridge revisits 01–03](../probes/qm-bridge/README.md) audit supplied quantum structure, orientation transport from actual moves, and its exact classical control. These are bounded working probes, not a derivation of physical QM.
+
+
+[Wieferich modular cycle lifting, EHF-WIEF-02](wieferich/EHF-WIEF-02/README.md) records exact cycle splitting versus elongation under prime-power refinement, with reproducible Python verification; this is established number theory used as an EHF comparison probe.
+
+[Hamiltonian growth-lift audit, EHF-GROW-LIFT-01](../probes/reversals/growth-lift-09/README.md) checks RAW, MICRO and OPW3/OPW23 reversal graphs across insertions and shows why component splitting is not automatically a compatible cycle lift. It links the Wieferich comparison to an explicit deletion/transition obstruction.
+
+[Compatible local Hamiltonian orbit lifting, EHF-GROW-LIFT-02](../probes/reversals/growth-lift-10/README.md) constructs a MICRO/OPW3 marked-block involution that commutes with two-vertex growth; an OPW23 controller permits three four-step lifted cycles at n=7 but fails to extend locally to n=9. Includes exact enumeration, verification and limitations.
+
+[Pi-barrier and Hamiltonian macrostep audit, EHF-GROW-LIFT-03](../probes/reversals/growth-lift-11/README.md) separates move-by-move Pi conservation, endpoint Pi conservation, and compatibility under growth. A finite OPW23 obstruction remains even for unbounded paths, while a MICRO-only globally matched two-step controller preserves the four-step orbits through nine vertices.
+
+[Memory versus reciprocal Hamiltonian holonomy, EHF-GROW-LIFT-04](../probes/reversals/growth-lift-12/README.md) distinguishes time-directed one-bit skew products from inverse-consistent graph voltages, reproduces finite MICRO/OPW3 growth checks, and records the nine commuting squares at n=7. A phase bit is sufficient for longer augmented periods but does not repair Pi-preserving geometric transport.
+
+[Natural orientation holonomy, EHF-HOL-05](../probes/reversals/orientation-holonomy-13/README.md) distinguishes a canonical orientation-double-cover cocycle from an arbitrary added memory bit. OPW23 has nontrivial finite closed-loop transport at seven and nine vertices, but it does not survive restriction to the currently growth-projectable reversal graph. Exact boundary ranks, witness loops and verification are retained.
 
 ## Recovered Hamilton-cycle branches
 
