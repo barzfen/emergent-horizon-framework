@@ -4,6 +4,8 @@
 
 **Starting convention:** Admissible comparison is the chosen primitive data of the framework. The Hamiltonian-cycle representation is a specific mathematical construction within that programme. It must be distinguished from an established physical substrate.
 
+[Comparison networks and emergent cycles](comparison-to-cycle/README.md) studies how local events can generate a cyclic order and what that order reveals about its history.
+
 ## Organizing structure
 
 ```mermaid

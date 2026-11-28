@@ -1,0 +1,31 @@
+name: EHF antiprime cycle-count audit
+
+on:
+  pull_request:
+    paths:
+      - 'research/hamiltonian-cycle/verify_antiprime_counts.py'
+      - 'research/hamiltonian-cycle/ANTIPRIME-CYCLE-COUNTS.md'
+      - '.github/workflows/ehf-antiprime.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'research/hamiltonian-cycle/verify_antiprime_counts.py'
+      - 'research/hamiltonian-cycle/ANTIPRIME-CYCLE-COUNTS.md'
+      - '.github/workflows/ehf-antiprime.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out EHF
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify finite antiprime cases and constructive witnesses
+        run: python3 research/hamiltonian-cycle/verify_antiprime_counts.py
