@@ -13,6 +13,8 @@ EHF is an exploratory mathematical-physics research programme. It starts with co
 
 ## Research index
 
+For individual notes and proofs, jump to the [full research index](#full-research-index).
+
 ### Growth, entropy, and records
 
 | Topic | Entry points |
@@ -62,3 +64,722 @@ The current priorities are formalising the underlying configurations and moves, 
 ## Licensing, citation, and contributions
 
 Original code is available under MIT. Original research notes, documentation and figures use CC BY 4.0. File-specific and third-party terms take precedence. See the [licensing scope](LICENSE.md), [citation metadata](CITATION.cff) and [contribution and attribution guidance](CONTRIBUTING.md).
+
+## Full research index
+
+Every Markdown note, retained PDF and Lean proof file on the default branch is indexed below. The [code](code/README.md) and [data](data/README.md) guides cover supporting files.
+
+[Project guides and foundations](#project-guides-and-foundations) · [Formal results and Lean proofs](#formal-results-and-lean-proofs) · [Hamiltonian cycles and binary/three-colour growth](#hamiltonian-cycles-and-binarythree-colour-growth) · [Wheeler growth, entropy, and reproduction](#wheeler-growth-entropy-and-reproduction) · [MICRO growth, observers, and Julstce](#micro-growth-observers-and-julstce) · [Reversal rules, winding, and holonomy](#reversal-rules-winding-and-holonomy) · [Dimensions and geometry](#dimensions-and-geometry) · [Quantum comparisons and signed graphs](#quantum-comparisons-and-signed-graphs) · [Amplitudes, ordering, and collinear colour](#amplitudes-ordering-and-collinear-colour) · [Collatz](#collatz) · [Wieferich primes and modular cycles](#wieferich-primes-and-modular-cycles) · [Source documents, related work, and archives](#source-documents-related-work-and-archives)
+
+### Project guides and foundations
+
+<details>
+<summary>Show 11 entries</summary>
+
+**Repository root**
+
+- [Contribution and attribution guide](CONTRIBUTING.md)
+- [Licensing scope](LICENSE.md)
+- [Research roadmap](ROADMAP.md)
+- [Programme status](STATUS.md)
+
+**`foundation/`**
+
+- [Guide](foundation/README.md)
+
+**`foundation/assumption-audit-01/`**
+
+- [Guide](foundation/assumption-audit-01/README.md)
+
+**`foundation/assumption-audit-02/`**
+
+- [Guide](foundation/assumption-audit-02/README.md)
+
+**`foundation/assumption-audit-03/`**
+
+- [Guide](foundation/assumption-audit-03/README.md)
+
+**`foundation/assumption-audit-04/`**
+
+- [Guide](foundation/assumption-audit-04/README.md)
+
+**`foundation/assumption-audit-05/`**
+
+- [Guide](foundation/assumption-audit-05/README.md)
+
+**`research/foundations/`**
+
+- [CONNECTIONS-01](research/foundations/CONNECTIONS-01.md)
+
+</details>
+
+### Formal results and Lean proofs
+
+<details>
+<summary>Show 4 entries</summary>
+
+**`formal/`**
+
+- [Guide](formal/README.md)
+
+**`formal/lean/`**
+
+- [Guide](formal/lean/README.md)
+- [CycleGrowth.lean](formal/lean/CycleGrowth.lean)
+- [EdgeSplit.lean](formal/lean/EdgeSplit.lean)
+
+</details>
+
+### Hamiltonian cycles and binary/three-colour growth
+
+<details>
+<summary>Show 90 entries</summary>
+
+**`research/cbb-binary/`**
+
+- [Guide](research/cbb-binary/README.md)
+- [BIN-01-representation-audit](research/cbb-binary/BIN-01-representation-audit.md)
+- [BIN-02-history-audit](research/cbb-binary/BIN-02-history-audit.md)
+- [BIN-03-lr3-connectivity](research/cbb-binary/BIN-03-lr3-connectivity.md)
+- [BIN-04-even-odd-even-routing](research/cbb-binary/BIN-04-even-odd-even-routing.md)
+- [BIN-05-mixing-control](research/cbb-binary/BIN-05-mixing-control.md)
+- [BIN-06-mutual-information](research/cbb-binary/BIN-06-mutual-information.md)
+- [BIN-07-spectral-audit](research/cbb-binary/BIN-07-spectral-audit.md)
+- [BIN-08-observable-spectral-modes](research/cbb-binary/BIN-08-observable-spectral-modes.md)
+- [BIN-09-analytic-mode-selection](research/cbb-binary/BIN-09-analytic-mode-selection.md)
+- [BIN-10-odd-order-gap-quotients](research/cbb-binary/BIN-10-odd-order-gap-quotients.md)
+- [BIN-11-direct-bracelet-quotient](research/cbb-binary/BIN-11-direct-bracelet-quotient.md)
+- [BIN-12-micro-pi-lumpability](research/cbb-binary/BIN-12-micro-pi-lumpability.md)
+- [BIN-13-pi-equitable-refinement](research/cbb-binary/BIN-13-pi-equitable-refinement.md)
+- [CROSS-01-two-three-colour-comparison](research/cbb-binary/CROSS-01-two-three-colour-comparison.md)
+- [CROSS-02-conditional-move-composition](research/cbb-binary/CROSS-02-conditional-move-composition.md)
+- [CROSS-03-raw-cycle-parity-theorem](research/cbb-binary/CROSS-03-raw-cycle-parity-theorem.md)
+- [CROSS-04-colour-versus-admissibility](research/cbb-binary/CROSS-04-colour-versus-admissibility.md)
+- [CROSS-05-colour-reversal-length-audit](research/cbb-binary/CROSS-05-colour-reversal-length-audit.md)
+- [CROSS-06-complementary-reversal-generators](research/cbb-binary/CROSS-06-complementary-reversal-generators.md)
+- [CROSS-07-nine-vertex-parity-bridge](research/cbb-binary/CROSS-07-nine-vertex-parity-bridge.md)
+- [CROSS-08-lr4-winding-break](research/cbb-binary/CROSS-08-lr4-winding-break.md)
+- [CROSS-09-general-winding-change](research/cbb-binary/CROSS-09-general-winding-change.md)
+- [CROSS-10-winding-parity-n12-n15](research/cbb-binary/CROSS-10-winding-parity-n12-n15.md)
+- [CROSS-11-winding-transition-graph](research/cbb-binary/CROSS-11-winding-transition-graph.md)
+- [CROSS-12-general-lr4-winding-path-theorem](research/cbb-binary/CROSS-12-general-lr4-winding-path-theorem.md)
+- [CROSS-13-full-lr3-lr4-word-connectivity](research/cbb-binary/CROSS-13-full-lr3-lr4-word-connectivity.md)
+- [CROSS-14-shortest-path-normalization](research/cbb-binary/CROSS-14-shortest-path-normalization.md)
+- [CROSS-15-phase-rotation-construction](research/cbb-binary/CROSS-15-phase-rotation-construction.md)
+- [CROSS-16-phase-rotation-distance-bounds](research/cbb-binary/CROSS-16-phase-rotation-distance-bounds.md)
+- [CROSS-17-monotone-winding-obstruction](research/cbb-binary/CROSS-17-monotone-winding-obstruction.md)
+- [CROSS-18-bounded-winding-detours](research/cbb-binary/CROSS-18-bounded-winding-detours.md)
+- [CROSS-19-nine-position-trap-repair](research/cbb-binary/CROSS-19-nine-position-trap-repair.md)
+- [CROSS-20-repair-length-vs-winding-depth](research/cbb-binary/CROSS-20-repair-length-vs-winding-depth.md)
+- [CROSS-21-orientation-sign-rewrite-rules](research/cbb-binary/CROSS-21-orientation-sign-rewrite-rules.md)
+- [CROSS-22-defect-arrangement-traps](research/cbb-binary/CROSS-22-defect-arrangement-traps.md)
+- [CROSS-23-defect-gap-transport](research/cbb-binary/CROSS-23-defect-gap-transport.md)
+- [CROSS-24-LR4-gap-reactions](research/cbb-binary/CROSS-24-LR4-gap-reactions.md)
+- [CROSS-25-bounded-defect-repair-distance](research/cbb-binary/CROSS-25-bounded-defect-repair-distance.md)
+- [CROSS-26-LR4-frozen-configurations](research/cbb-binary/CROSS-26-LR4-frozen-configurations.md)
+- [CROSS-27-frozen-pattern-automaton](research/cbb-binary/CROSS-27-frozen-pattern-automaton.md)
+- [CROSS-28-frozen-automaton-scc-and-LR3-escape](research/cbb-binary/CROSS-28-frozen-automaton-scc-and-LR3-escape.md)
+- [CROSS-29-growing-LR3-escape-depth](research/cbb-binary/CROSS-29-growing-LR3-escape-depth.md)
+- [CROSS-30-linear-frozen-family-escape-depth](research/cbb-binary/CROSS-30-linear-frozen-family-escape-depth.md)
+- [CROSS-31-explicit-LR3-escape-upper-bound](research/cbb-binary/CROSS-31-explicit-LR3-escape-upper-bound.md)
+- [CROSS-32-escape-lower-bound-audit](research/cbb-binary/CROSS-32-escape-lower-bound-audit.md)
+- [CROSS-33-three-LR3-fronts](research/cbb-binary/CROSS-33-three-LR3-fronts.md)
+- [CROSS-34-LR3-causal-ancestry](research/cbb-binary/CROSS-34-LR3-causal-ancestry.md)
+- [CROSS-35-triple-free-LR3-invariant](research/cbb-binary/CROSS-35-triple-free-LR3-invariant.md)
+- [CROSS-36-single-front-activation](research/cbb-binary/CROSS-36-single-front-activation.md)
+- [CROSS-37-pair-gap-potential-counterexample](research/cbb-binary/CROSS-37-pair-gap-potential-counterexample.md)
+- [CROSS-38-cyclic-dipole-and-transport](research/cbb-binary/CROSS-38-cyclic-dipole-and-transport.md)
+- [CROSS-39-equal-pair-ancestry](research/cbb-binary/CROSS-39-equal-pair-ancestry.md)
+- [CROSS-40-signal-and-oscillator](research/cbb-binary/CROSS-40-signal-and-oscillator.md)
+- [CROSS-41-growth-and-return](research/cbb-binary/CROSS-41-growth-and-return.md)
+- [CROSS-42-resettable-return](research/cbb-binary/CROSS-42-resettable-return.md)
+- [CROSS-43-local-history](research/cbb-binary/CROSS-43-local-history.md)
+- [CROSS-44-cycle-record](research/cbb-binary/CROSS-44-cycle-record.md)
+- [CROSS-45-fresh-reply](research/cbb-binary/CROSS-45-fresh-reply.md)
+- [CROSS-46-local-clock](research/cbb-binary/CROSS-46-local-clock.md)
+- [CROSS-47-reversal-bell](research/cbb-binary/CROSS-47-reversal-bell.md)
+- [CROSS-48-reversal-interference](research/cbb-binary/CROSS-48-reversal-interference.md)
+- [CROSS-49-route-recorder](research/cbb-binary/CROSS-49-route-recorder.md)
+- [CROSS-50-cycle-apparatus](research/cbb-binary/CROSS-50-cycle-apparatus.md)
+- [CROSS-51-recorder-phase](research/cbb-binary/CROSS-51-recorder-phase.md)
+- [CROSS-52-setting-isolation](research/cbb-binary/CROSS-52-setting-isolation.md)
+- [CROSS-53-local-phase](research/cbb-binary/CROSS-53-local-phase.md)
+- [CROSS-54-local-bell](research/cbb-binary/CROSS-54-local-bell.md)
+- [CROSS-55-symmetric-hopping](research/cbb-binary/CROSS-55-symmetric-hopping.md)
+- [CROSS-56-diagonal-phase](research/cbb-binary/CROSS-56-diagonal-phase.md)
+- [CROSS-57-growth-phase](research/cbb-binary/CROSS-57-growth-phase.md)
+- [CROSS-58-growth-reference](research/cbb-binary/CROSS-58-growth-reference.md)
+- [GROWTH-CLOCKS-AND-BELL](research/cbb-binary/GROWTH-CLOCKS-AND-BELL.md)
+- [TRI-01-balanced-three-colour](research/cbb-binary/TRI-01-balanced-three-colour.md)
+- [TRI-02-separation-sectors](research/cbb-binary/TRI-02-separation-sectors.md)
+- [TRI-03-winding-conservation](research/cbb-binary/TRI-03-winding-conservation.md)
+- [TRI-04-local-selection-and-arrest](research/cbb-binary/TRI-04-local-selection-and-arrest.md)
+- [TRI-05-fifteen-vertex-sectors](research/cbb-binary/TRI-05-fifteen-vertex-sectors.md)
+- [TRI-06-pair-count-no-go](research/cbb-binary/TRI-06-pair-count-no-go.md)
+- [TRI-07-sign-word-rewrite](research/cbb-binary/TRI-07-sign-word-rewrite.md)
+- [TRI-08-sign-run-audit](research/cbb-binary/TRI-08-sign-run-audit.md)
+- [TRI-09-greedy-normal-form-obstruction](research/cbb-binary/TRI-09-greedy-normal-form-obstruction.md)
+
+**`research/hamiltonian-cycle/`**
+
+- [Guide](research/hamiltonian-cycle/README.md)
+- [HC-02](research/hamiltonian-cycle/HC-02.md)
+- [HC-03](research/hamiltonian-cycle/HC-03.md)
+- [HC-04](research/hamiltonian-cycle/HC-04.md)
+- [HC-05](research/hamiltonian-cycle/HC-05.md)
+- [HC-06](research/hamiltonian-cycle/HC-06.md)
+- [HC-07](research/hamiltonian-cycle/HC-07.md)
+- [HC-08](research/hamiltonian-cycle/HC-08.md)
+
+</details>
+
+### Wheeler growth, entropy, and reproduction
+
+<details>
+<summary>Show 64 entries</summary>
+
+**`code/wheeler/`**
+
+- [Guide](code/wheeler/README.md)
+
+**`probes/wheeler/`**
+
+- [Guide](probes/wheeler/README.md)
+- [ERRATA-01](probes/wheeler/ERRATA-01.md)
+- [WHEELER-09](probes/wheeler/WHEELER-09.md)
+- [WHEELER-10](probes/wheeler/WHEELER-10.md)
+- [WHEELER-11](probes/wheeler/WHEELER-11.md)
+- [WHEELER-12](probes/wheeler/WHEELER-12.md)
+- [WHEELER-13](probes/wheeler/WHEELER-13.md)
+- [WHEELER-14](probes/wheeler/WHEELER-14.md)
+- [WHEELER-15](probes/wheeler/WHEELER-15.md)
+- [WHEELER-16](probes/wheeler/WHEELER-16.md)
+- [WHEELER-17](probes/wheeler/WHEELER-17.md)
+- [WHEELER-18](probes/wheeler/WHEELER-18.md)
+- [WHEELER-19](probes/wheeler/WHEELER-19.md)
+- [WHEELER-20](probes/wheeler/WHEELER-20.md)
+- [WHEELER-21](probes/wheeler/WHEELER-21.md)
+- [WHEELER-22](probes/wheeler/WHEELER-22.md)
+- [WHEELER-23](probes/wheeler/WHEELER-23.md)
+- [WHEELER-24](probes/wheeler/WHEELER-24.md)
+- [WHEELER-25](probes/wheeler/WHEELER-25.md)
+- [WHEELER-26](probes/wheeler/WHEELER-26.md)
+- [WHEELER-27](probes/wheeler/WHEELER-27.md)
+- [WHEELER-28](probes/wheeler/WHEELER-28.md)
+- [WHEELER-29](probes/wheeler/WHEELER-29.md)
+- [WHEELER-30](probes/wheeler/WHEELER-30.md)
+- [WHEELER-31](probes/wheeler/WHEELER-31.md)
+- [WHEELER-32](probes/wheeler/WHEELER-32.md)
+- [WHEELER-33](probes/wheeler/WHEELER-33.md)
+- [WHEELER-34](probes/wheeler/WHEELER-34.md)
+- [WHEELER-35](probes/wheeler/WHEELER-35.md)
+- [WHEELER-36](probes/wheeler/WHEELER-36.md)
+- [WHEELER-37](probes/wheeler/WHEELER-37.md)
+- [WHEELER-38](probes/wheeler/WHEELER-38.md)
+- [WHEELER-39](probes/wheeler/WHEELER-39.md)
+- [WHEELER-40](probes/wheeler/WHEELER-40.md)
+- [WHEELER-41](probes/wheeler/WHEELER-41.md)
+- [WHEELER-42](probes/wheeler/WHEELER-42.md)
+- [WHEELER-43](probes/wheeler/WHEELER-43.md)
+- [WHEELER-44](probes/wheeler/WHEELER-44.md)
+- [WHEELER-45](probes/wheeler/WHEELER-45.md)
+- [WHEELER-46](probes/wheeler/WHEELER-46.md)
+- [WHEELER-47](probes/wheeler/WHEELER-47.md)
+- [WHEELER-48](probes/wheeler/WHEELER-48.md)
+- [WHEELER-49](probes/wheeler/WHEELER-49.md)
+- [WHEELER-50](probes/wheeler/WHEELER-50.md)
+- [WHEELER-51](probes/wheeler/WHEELER-51.md)
+- [WHEELER-52](probes/wheeler/WHEELER-52.md)
+- [WHEELER-53](probes/wheeler/WHEELER-53.md)
+- [WHEELER-54](probes/wheeler/WHEELER-54.md)
+- [WHEELER-55](probes/wheeler/WHEELER-55.md)
+- [WHEELER-56](probes/wheeler/WHEELER-56.md)
+- [WHEELER-57](probes/wheeler/WHEELER-57.md)
+- [WHEELER-58](probes/wheeler/WHEELER-58.md)
+- [WHEELER-59](probes/wheeler/WHEELER-59.md)
+- [WHEELER-60](probes/wheeler/WHEELER-60.md)
+- [WHEELER-61](probes/wheeler/WHEELER-61.md)
+- [WHEELER-62](probes/wheeler/WHEELER-62.md)
+- [WHEELER-63](probes/wheeler/WHEELER-63.md)
+
+**`research/wheeler/`**
+
+- [REVIEW-01](research/wheeler/REVIEW-01.md)
+- [SUMMARY-01](research/wheeler/SUMMARY-01.md)
+
+**`research/wheeler/paper-v0.1/`**
+
+- [Guide](research/wheeler/paper-v0.1/README.md)
+- [entropy-and-symmetry-v0.1.pdf](research/wheeler/paper-v0.1/entropy-and-symmetry-v0.1.pdf)
+- [LITERATURE-COMPARISON](research/wheeler/paper-v0.1/LITERATURE-COMPARISON.md)
+- [manuscript](research/wheeler/paper-v0.1/manuscript.md)
+
+</details>
+
+### MICRO growth, observers, and Julstce
+
+<details>
+<summary>Show 3 entries</summary>
+
+**`probes/micro/julstce/`**
+
+- [Guide](probes/micro/julstce/README.md)
+
+**`probes/micro/observer-compatibility-01/`**
+
+- [Guide](probes/micro/observer-compatibility-01/README.md)
+- [REPORT](probes/micro/observer-compatibility-01/REPORT.md)
+
+</details>
+
+### Reversal rules, winding, and holonomy
+
+<details>
+<summary>Show 19 entries</summary>
+
+**`probes/reversals/`**
+
+- [Guide](probes/reversals/README.md)
+
+**`probes/reversals/all-length-01/`**
+
+- [Guide](probes/reversals/all-length-01/README.md)
+
+**`probes/reversals/assembly-gate-03/`**
+
+- [Guide](probes/reversals/assembly-gate-03/README.md)
+
+**`probes/reversals/carrier-audit-07/`**
+
+- [Guide](probes/reversals/carrier-audit-07/README.md)
+
+**`probes/reversals/ehf-rev-01/`**
+
+- [Guide](probes/reversals/ehf-rev-01/README.md)
+
+**`probes/reversals/ehf-rev-02/`**
+
+- [Guide](probes/reversals/ehf-rev-02/README.md)
+
+**`probes/reversals/ehf-rev-03/`**
+
+- [Guide](probes/reversals/ehf-rev-03/README.md)
+
+**`probes/reversals/ehf-rev-04/`**
+
+- [Guide](probes/reversals/ehf-rev-04/README.md)
+
+**`probes/reversals/event-groupoid-14/`**
+
+- [Guide](probes/reversals/event-groupoid-14/README.md)
+
+**`probes/reversals/exhaustive-returns-08/`**
+
+- [Guide](probes/reversals/exhaustive-returns-08/README.md)
+
+**`probes/reversals/growth-lift-09/`**
+
+- [Guide](probes/reversals/growth-lift-09/README.md)
+
+**`probes/reversals/growth-lift-10/`**
+
+- [Guide](probes/reversals/growth-lift-10/README.md)
+
+**`probes/reversals/growth-lift-11/`**
+
+- [Guide](probes/reversals/growth-lift-11/README.md)
+
+**`probes/reversals/growth-lift-12/`**
+
+- [Guide](probes/reversals/growth-lift-12/README.md)
+
+**`probes/reversals/local-reconnect-04/`**
+
+- [Guide](probes/reversals/local-reconnect-04/README.md)
+
+**`probes/reversals/orientation-holonomy-13/`**
+
+- [Guide](probes/reversals/orientation-holonomy-13/README.md)
+
+**`probes/reversals/pi-closure-06/`**
+
+- [Guide](probes/reversals/pi-closure-06/README.md)
+
+**`probes/reversals/rare-channel-02/`**
+
+- [Guide](probes/reversals/rare-channel-02/README.md)
+
+**`probes/reversals/tagged-controller-05/`**
+
+- [Guide](probes/reversals/tagged-controller-05/README.md)
+
+</details>
+
+### Dimensions and geometry
+
+<details>
+<summary>Show 9 entries</summary>
+
+**`probes/dimensions/ehf-dim-01/`**
+
+- [Guide](probes/dimensions/ehf-dim-01/README.md)
+
+**`probes/dimensions/ehf-dim-02/`**
+
+- [Guide](probes/dimensions/ehf-dim-02/README.md)
+
+**`probes/dimensions/ehf-dim-03/`**
+
+- [Guide](probes/dimensions/ehf-dim-03/README.md)
+
+**`probes/dimensions/ehf-dim-04/`**
+
+- [Guide](probes/dimensions/ehf-dim-04/README.md)
+
+**`probes/dimensions/ehf-dim-05/`**
+
+- [Guide](probes/dimensions/ehf-dim-05/README.md)
+
+**`probes/dimensions/ehf-dim-06/`**
+
+- [Guide](probes/dimensions/ehf-dim-06/README.md)
+
+**`probes/dimensions/ehf-dim-07/`**
+
+- [Guide](probes/dimensions/ehf-dim-07/README.md)
+
+**`probes/dimensions/ehf-dim-08/`**
+
+- [Guide](probes/dimensions/ehf-dim-08/README.md)
+
+**`probes/dimensions/ehf-dim-09/`**
+
+- [Guide](probes/dimensions/ehf-dim-09/README.md)
+
+</details>
+
+### Quantum comparisons and signed graphs
+
+<details>
+<summary>Show 21 entries</summary>
+
+**`probes/qm-bridge/`**
+
+- [Guide](probes/qm-bridge/README.md)
+
+**`probes/qm-bridge/revisit-01/`**
+
+- [Guide](probes/qm-bridge/revisit-01/README.md)
+- [REPORT](probes/qm-bridge/revisit-01/REPORT.md)
+
+**`probes/qm-bridge/revisit-01/sources/`**
+
+- [00_Emergent Horizon Framework (EHF)_ehf_qm_bridge_program_v5_qm09c_qm12_documented](probes/qm-bridge/revisit-01/sources/00_Emergent%20Horizon%20Framework%20%28EHF%29_ehf_qm_bridge_program_v5_qm09c_qm12_documented.md)
+- [01_observer_audit_07_REPORT](probes/qm-bridge/revisit-01/sources/01_observer_audit_07_REPORT.md)
+- [02_observer_audit_08_REPORT](probes/qm-bridge/revisit-01/sources/02_observer_audit_08_REPORT.md)
+- [03_observer_audit_09_REPORT](probes/qm-bridge/revisit-01/sources/03_observer_audit_09_REPORT.md)
+- [04_observer_audit_10_REPORT](probes/qm-bridge/revisit-01/sources/04_observer_audit_10_REPORT.md)
+- [05_probe_access_01_REPORT](probes/qm-bridge/revisit-01/sources/05_probe_access_01_REPORT.md)
+- [06_micro_opw_02_README](probes/qm-bridge/revisit-01/sources/06_micro_opw_02_README.md)
+- [07_micro_opw_01_README](probes/qm-bridge/revisit-01/sources/07_micro_opw_01_README.md)
+- [08_micro_opw_03_README](probes/qm-bridge/revisit-01/sources/08_micro_opw_03_README.md)
+
+**`probes/qm-bridge/revisit-02/`**
+
+- [Guide](probes/qm-bridge/revisit-02/README.md)
+- [REPORT](probes/qm-bridge/revisit-02/REPORT.md)
+
+**`probes/qm-bridge/revisit-03/`**
+
+- [Guide](probes/qm-bridge/revisit-03/README.md)
+- [RANDOM-GRAPHS](probes/qm-bridge/revisit-03/RANDOM-GRAPHS.md)
+- [REPORT](probes/qm-bridge/revisit-03/REPORT.md)
+
+**`research/signed-graph-reconstruction/`**
+
+- [Guide](research/signed-graph-reconstruction/README.md)
+- [SIGN-01](research/signed-graph-reconstruction/SIGN-01.md)
+- [SIGN-02](research/signed-graph-reconstruction/SIGN-02.md)
+- [SIGN-03](research/signed-graph-reconstruction/SIGN-03.md)
+
+</details>
+
+### Amplitudes, ordering, and collinear colour
+
+<details>
+<summary>Show 68 entries</summary>
+
+**`research/amplitudes/`**
+
+- [Guide](research/amplitudes/README.md)
+- [ordering-orientation-bridge-01](research/amplitudes/ordering-orientation-bridge-01.md)
+
+**`research/amplitudes/collinear-colour/`**
+
+- [Guide](research/amplitudes/collinear-colour/README.md)
+- [angular-ensemble](research/amplitudes/collinear-colour/angular-ensemble.md)
+- [atlas-lost-lepton-audit](research/amplitudes/collinear-colour/atlas-lost-lepton-audit.md)
+- [channel-orders](research/amplitudes/collinear-colour/channel-orders.md)
+- [electroweak-helicities](research/amplitudes/collinear-colour/electroweak-helicities.md)
+- [electroweak-pair-scale](research/amplitudes/collinear-colour/electroweak-pair-scale.md)
+- [electroweak-photon-decays](research/amplitudes/collinear-colour/electroweak-photon-decays.md)
+- [electroweak-photon-initial](research/amplitudes/collinear-colour/electroweak-photon-initial.md)
+- [electroweak-photon-longitudinal](research/amplitudes/collinear-colour/electroweak-photon-longitudinal.md)
+- [electroweak-photon-patch](research/amplitudes/collinear-colour/electroweak-photon-patch.md)
+- [electroweak-photon-reconstruction](research/amplitudes/collinear-colour/electroweak-photon-reconstruction.md)
+- [electroweak-rate](research/amplitudes/collinear-colour/electroweak-rate.md)
+- [electroweak-scale](research/amplitudes/collinear-colour/electroweak-scale.md)
+- [literature](research/amplitudes/collinear-colour/literature.md)
+- [lorentzian-counterexample](research/amplitudes/collinear-colour/lorentzian-counterexample.md)
+- [matched-radiation](research/amplitudes/collinear-colour/matched-radiation.md)
+- [near-planar-seven](research/amplitudes/collinear-colour/near-planar-seven.md)
+- [near-planar-sign](research/amplitudes/collinear-colour/near-planar-sign.md)
+- [pair-dipole](research/amplitudes/collinear-colour/pair-dipole.md)
+- [planar-theorem](research/amplitudes/collinear-colour/planar-theorem.md)
+- [plane-scan](research/amplitudes/collinear-colour/plane-scan.md)
+- [pole-control](research/amplitudes/collinear-colour/pole-control.md)
+- [shape-average](research/amplitudes/collinear-colour/shape-average.md)
+- [six-soft](research/amplitudes/collinear-colour/six-soft.md)
+- [soft-emission](research/amplitudes/collinear-colour/soft-emission.md)
+- [su-n-casimir-law](research/amplitudes/collinear-colour/su-n-casimir-law.md)
+- [su2-basis](research/amplitudes/collinear-colour/su2-basis.md)
+- [su2-control](research/amplitudes/collinear-colour/su2-control.md)
+- [su2-electroweak-limit](research/amplitudes/collinear-colour/su2-electroweak-limit.md)
+- [su2-incoming-average](research/amplitudes/collinear-colour/su2-incoming-average.md)
+- [su2-incoming-rotation](research/amplitudes/collinear-colour/su2-incoming-rotation.md)
+- [su2-mass-control](research/amplitudes/collinear-colour/su2-mass-control.md)
+- [su2-rate](research/amplitudes/collinear-colour/su2-rate.md)
+- [su2-ratio](research/amplitudes/collinear-colour/su2-ratio.md)
+- [su2-real-rate](research/amplitudes/collinear-colour/su2-real-rate.md)
+- [su3-channels](research/amplitudes/collinear-colour/su3-channels.md)
+- [tracking-radiation](research/amplitudes/collinear-colour/tracking-radiation.md)
+- [weighted-angles](research/amplitudes/collinear-colour/weighted-angles.md)
+
+**`research/amplitudes/nine-point-tail/`**
+
+- [Guide](research/amplitudes/nine-point-tail/README.md)
+- [theorem-v1.5](research/amplitudes/nine-point-tail/theorem-v1.5.md)
+
+**`research/amplitudes/nine-point-tail/followups/`**
+
+- [Guide](research/amplitudes/nine-point-tail/followups/README.md)
+- [benchmark](research/amplitudes/nine-point-tail/followups/benchmark.md)
+- [boundary](research/amplitudes/nine-point-tail/followups/boundary.md)
+- [branches](research/amplitudes/nine-point-tail/followups/branches.md)
+- [common-cut-holdout](research/amplitudes/nine-point-tail/followups/common-cut-holdout.md)
+- [Lifts](research/amplitudes/nine-point-tail/followups/Lifts.md)
+- [mixed-orbits](research/amplitudes/nine-point-tail/followups/mixed-orbits.md)
+- [ordering-geometry](research/amplitudes/nine-point-tail/followups/ordering-geometry.md)
+- [orientation](research/amplitudes/nine-point-tail/followups/orientation.md)
+- [position-family-trace](research/amplitudes/nine-point-tail/followups/position-family-trace.md)
+- [rank14-event-pairs](research/amplitudes/nine-point-tail/followups/rank14-event-pairs.md)
+- [rank14-lr3-threshold](research/amplitudes/nine-point-tail/followups/rank14-lr3-threshold.md)
+- [rank14-minimal-triples](research/amplitudes/nine-point-tail/followups/rank14-minimal-triples.md)
+- [rank14](research/amplitudes/nine-point-tail/followups/rank14.md)
+- [replacement-trace](research/amplitudes/nine-point-tail/followups/replacement-trace.md)
+- [sector-selection](research/amplitudes/nine-point-tail/followups/sector-selection.md)
+- [sector-threshold](research/amplitudes/nine-point-tail/followups/sector-threshold.md)
+- [shared-lifts](research/amplitudes/nine-point-tail/followups/shared-lifts.md)
+- [shared-residue-rule](research/amplitudes/nine-point-tail/followups/shared-residue-rule.md)
+- [shuffle-doubles](research/amplitudes/nine-point-tail/followups/shuffle-doubles.md)
+- [shuffle-sectors](research/amplitudes/nine-point-tail/followups/shuffle-sectors.md)
+- [signed-orientation-bridge](research/amplitudes/nine-point-tail/followups/signed-orientation-bridge.md)
+- [support-reduction](research/amplitudes/nine-point-tail/followups/support-reduction.md)
+- [support-sector-test](research/amplitudes/nine-point-tail/followups/support-sector-test.md)
+- [tail-shuffle-trace](research/amplitudes/nine-point-tail/followups/tail-shuffle-trace.md)
+- [union-cancellation-rule](research/amplitudes/nine-point-tail/followups/union-cancellation-rule.md)
+
+</details>
+
+### Collatz
+
+<details>
+<summary>Show 28 entries</summary>
+
+**`probes/collatz/adaptive-merge-18/`**
+
+- [Guide](probes/collatz/adaptive-merge-18/README.md)
+
+**`probes/collatz/backward-terminal-14/`**
+
+- [Guide](probes/collatz/backward-terminal-14/README.md)
+
+**`probes/collatz/cofactor-avoidance-24/`**
+
+- [Guide](probes/collatz/cofactor-avoidance-24/README.md)
+
+**`probes/collatz/cofactor-frequency-25/`**
+
+- [Guide](probes/collatz/cofactor-frequency-25/README.md)
+
+**`probes/collatz/cofactor-observer-26/`**
+
+- [Guide](probes/collatz/cofactor-observer-26/README.md)
+
+**`probes/collatz/cofactor-one-classification-28/`**
+
+- [Guide](probes/collatz/cofactor-one-classification-28/README.md)
+
+**`probes/collatz/cofactor-pair-lifts-27/`**
+
+- [Guide](probes/collatz/cofactor-pair-lifts-27/README.md)
+
+**`probes/collatz/cofactor-returns-23/`**
+
+- [Guide](probes/collatz/cofactor-returns-23/README.md)
+
+**`probes/collatz/escape-tail-15/`**
+
+- [Guide](probes/collatz/escape-tail-15/README.md)
+
+**`probes/collatz/expanding-pieces-20/`**
+
+- [Guide](probes/collatz/expanding-pieces-20/README.md)
+
+**`probes/collatz/fast-residues-12/`**
+
+- [Guide](probes/collatz/fast-residues-12/README.md)
+
+**`probes/collatz/joint-window-13/`**
+
+- [Guide](probes/collatz/joint-window-13/README.md)
+
+**`probes/collatz/merge-coverage-19/`**
+
+- [Guide](probes/collatz/merge-coverage-19/README.md)
+
+**`probes/collatz/multiplier-band-05/`**
+
+- [Guide](probes/collatz/multiplier-band-05/README.md)
+
+**`probes/collatz/odd-run-join-22/`**
+
+- [Guide](probes/collatz/odd-run-join-22/README.md)
+
+**`probes/collatz/offset-bound-04/`**
+
+- [Guide](probes/collatz/offset-bound-04/README.md)
+
+**`probes/collatz/orbit-height-10/`**
+
+- [Guide](probes/collatz/orbit-height-10/README.md)
+
+**`probes/collatz/parity-complexity-06/`**
+
+- [Guide](probes/collatz/parity-complexity-06/README.md)
+
+**`probes/collatz/parity-descent-02/`**
+
+- [Guide](probes/collatz/parity-descent-02/README.md)
+
+**`probes/collatz/planted-orbit-21/`**
+
+- [Guide](probes/collatz/planted-orbit-21/README.md)
+
+**`probes/collatz/regular-growth-09/`**
+
+- [Guide](probes/collatz/regular-growth-09/README.md)
+
+**`probes/collatz/repetition-budget-11/`**
+
+- [Guide](probes/collatz/repetition-budget-11/README.md)
+
+**`probes/collatz/residue-size-07/`**
+
+- [Guide](probes/collatz/residue-size-07/README.md)
+
+**`probes/collatz/residue-stabilisation-08/`**
+
+- [Guide](probes/collatz/residue-stabilisation-08/README.md)
+
+**`probes/collatz/smaller-merge-17/`**
+
+- [Guide](probes/collatz/smaller-merge-17/README.md)
+
+**`probes/collatz/survival-count-16/`**
+
+- [Guide](probes/collatz/survival-count-16/README.md)
+
+**`probes/collatz/survivor-branches-03/`**
+
+- [Guide](probes/collatz/survivor-branches-03/README.md)
+
+**`research/collatz/`**
+
+- [Guide](research/collatz/README.md)
+
+</details>
+
+### Wieferich primes and modular cycles
+
+<details>
+<summary>Show 1 entries</summary>
+
+**`research/wieferich/EHF-WIEF-02/`**
+
+- [Guide](research/wieferich/EHF-WIEF-02/README.md)
+
+</details>
+
+### Source documents, related work, and archives
+
+<details>
+<summary>Show 23 entries</summary>
+
+**`archive/`**
+
+- [Archive guide](archive/README.md)
+
+**`code/`**
+
+- [Code directory guide](code/README.md)
+
+**`data/`**
+
+- [Data directory guide](data/README.md)
+
+**`research/`**
+
+- [Research directory guide](research/README.md)
+
+**`research/related-work/`**
+
+- [Guide](research/related-work/README.md)
+
+**`research/related-work/2026-10-30-boundary-reconstruction/`**
+
+- [Guide](research/related-work/2026-10-30-boundary-reconstruction/README.md)
+
+**`research/related-work/2026-10-30-cycle-aware-boundary/`**
+
+- [Guide](research/related-work/2026-10-30-cycle-aware-boundary/README.md)
+
+**`research/related-work/2026-10-30-detection-access/`**
+
+- [Guide](research/related-work/2026-10-30-detection-access/README.md)
+
+**`research/related-work/2026-10-30-history-heralding/`**
+
+- [Guide](research/related-work/2026-10-30-history-heralding/README.md)
+
+**`research/related-work/2026-10-30-kazazi-reconfiguration/`**
+
+- [Guide](research/related-work/2026-10-30-kazazi-reconfiguration/README.md)
+- [RESULTS](research/related-work/2026-10-30-kazazi-reconfiguration/RESULTS.md)
+
+**`research/source-documents/`**
+
+- [Guide](research/source-documents/README.md)
+- [amp-historical.pdf](research/source-documents/amp-historical.pdf)
+- [hc-grow-v0.8](research/source-documents/hc-grow-v0.8.md)
+- [hc-raw-v0.19](research/source-documents/hc-raw-v0.19.md)
+- [johnson-ollivier-curvature-v1](research/source-documents/johnson-ollivier-curvature-v1.md)
+- [johnson-transport-original.pdf](research/source-documents/johnson-transport-original.pdf)
+- [opw3-v0.6](research/source-documents/opw3-v0.6.md)
+- [opw3-v1.1](research/source-documents/opw3-v1.1.md)
+- [opw23-v6](research/source-documents/opw23-v6.md)
+- [pancakes.pdf](research/source-documents/pancakes.pdf)
+- [phys-alg-v0.65](research/source-documents/phys-alg-v0.65.md)
+- [qm-bridge-historical.pdf](research/source-documents/qm-bridge-historical.pdf)
+
+</details>
