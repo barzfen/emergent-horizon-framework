@@ -37,6 +37,10 @@ For a final ring, let a_i be the length plus one of each 1-run, let T be their s
 
 This lies in [0,1]. A zero insertion leaves Q fixed. Conditional on a one insertion, run i grows with probability a_i/T, so the expected numerator is multiplied by (T+2)/T. The denominator changes by the same factor. Thus Q has constant expectation under ordinary growth. Its initial values are 66/156 for A then B and 62/156 for B then A. Their difference is 1/39 at every finite growth horizon. Since the expectation gap of any [0,1]-valued statistic bounds total variation from below, optimal order recovery stays at least **1/2 + 1/78 = 51.28%** for equally likely orders. This bound holds at every horizon. The [Wheeler–Julstce handover](../../../HANDOVER.md#a-result-linking-wheeler-and-julstce) proves a formula for the limit and estimates the full-shape accuracy at **58.3%** as the number of insertions grows.
 
+## When the ring can rearrange
+
+The [four-slot reversal probe](reversals/README.md) shows that the order trace persists indefinitely with one random reversal attempt per insertion under the specified acceptance rule. It gives exact bounds on limiting order recovery and proves that the colour sequence remains blind.
+
 ## Reproduce or demonstrate
 
 Run `python3 probes/micro/julstce/probe.py` from the repository root. It uses only the standard library and prints the exact fractions. Run `python3 probes/micro/julstce/limit_probe.py` with NumPy to estimate the limiting accuracy. For a tabletop version, use two-colour tiles in a ring. Flip a fair coin to pick the order and keep that choice hidden from the reader. For each growth step, list the legal edge-and-colour pairs and sample uniformly from the list. After one insertion, compare how often each order yields six consecutive ones. The exact predictions are 3/11 after A then B and 0 after B then A. The software check covers this case. A physical tile trial remains to be run.

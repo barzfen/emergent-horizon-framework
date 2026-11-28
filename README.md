@@ -341,11 +341,12 @@ Every Markdown note, retained PDF and Lean proof file on the default branch is i
 ### MICRO growth, observers, and Julstce
 
 <details>
-<summary>Show 3 entries</summary>
+<summary>Show 4 entries</summary>
 
 **`probes/micro/julstce/`**
 
 - [Guide](probes/micro/julstce/README.md)
+- [Memory under four-slot reversals](probes/micro/julstce/reversals/README.md)
 
 **`probes/micro/observer-compatibility-01/`**
 
