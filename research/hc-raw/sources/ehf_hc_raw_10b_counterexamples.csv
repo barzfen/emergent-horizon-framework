@@ -1,0 +1,4 @@
+type,k,state_S,state_T,h_S,h_T,q_S,q_T,consequence
+same_linear_h_different_q,3,"(1,2,5)","(1,3,4)",8,8,30,26,"same exact drift, different diffusion; h-shell not state-diffusion closed"
+nonlinear_label_reweighting_changes_order,3,"(1,2,5)","(2,3,4)",,,,,quadratic additive weights preserve universal drift closure but reorder the linear birth-rank shells
+postcomposition_not_additive,3,"(1,2,5)","(1,3,4)",8,8,,,"phi(h)=h^2 does not have drift closure on h alone; universal theorem applies to additive label reweighting, not arbitrary scalar postcomposition"

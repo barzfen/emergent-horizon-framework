@@ -1,0 +1,189 @@
+===== RUN START 2026-07-17 21:07:31 =====
+============================================================================================================================
+EHF-AMP-FOUND-04A: ELEVEN-TO-TEN TAIL-FILTRATION DISCOVERY CENSUS
+============================================================================================================================
+output directory:             /Users/barryfensom/Desktop/EHF/AMP/runs/ehf_amp_found_04a
+reference chart:              anchor 1, delete 11
+source channels:              126
+primary field:                GF(2)
+GF(3) audit policy:           representatives
+claim status:                 modular discovery, not exact QQ theorem
+
+Nine-point engine self-check
+  all 35 known ranks recovered:       True
+
+Reference n=10 target fibre
+  target states:                       1440
+  GF(2) relation dimension:            296
+
+GF(2) eleven-to-ten channel census
+  [001/126] A=2,3,4,5   inv= 0 r=   0 source= 2880   0.01s
+  [002/126] A=2,3,4,6   inv= 1 r=   0 source= 3456   0.06s
+  [003/126] A=2,3,4,7   inv= 2 r=   6 source= 4032   0.11s
+  [004/126] A=2,3,4,8   inv= 3 r=  35 source= 4608   0.16s
+  [005/126] A=2,3,4,9   inv= 4 r= 105 source= 5184   0.22s
+  [006/126] A=2,3,4,10  inv= 5 r= 105 source= 5760   0.30s
+  [007/126] A=2,3,5,6   inv= 2 r=   0 source= 4032   0.10s
+  [008/126] A=2,3,5,7   inv= 3 r=   6 source= 4608   0.16s
+  [009/126] A=2,3,5,8   inv= 4 r=  35 source= 5184   0.22s
+  [010/126] A=2,3,5,9   inv= 5 r= 105 source= 5760   0.30s
+  [011/126] A=2,3,5,10  inv= 6 r= 105 source= 6336   0.38s
+  [012/126] A=2,3,6,7   inv= 4 r=  30 source= 5184   0.24s
+  [013/126] A=2,3,6,8   inv= 5 r=  59 source= 5760   0.32s
+  [014/126] A=2,3,6,9   inv= 6 r= 129 source= 6336   0.41s
+  [015/126] A=2,3,6,10  inv= 7 r= 129 source= 6912   0.49s
+  [016/126] A=2,3,7,8   inv= 6 r= 138 source= 6336   0.43s
+  [017/126] A=2,3,7,9   inv= 7 r= 198 source= 6912   0.52s
+  [018/126] A=2,3,7,10  inv= 8 r= 198 source= 7488   0.65s
+  [019/126] A=2,3,8,9   inv= 8 r= 225 source= 7488   0.69s
+  [020/126] A=2,3,8,10  inv= 9 r= 225 source= 8064   0.89s
+  [021/126] A=2,3,9,10  inv=10 r= 225 source= 8640   1.05s
+  [022/126] A=2,4,5,6   inv= 3 r=   0 source= 4608   0.16s
+  [023/126] A=2,4,5,7   inv= 4 r=   6 source= 5184   0.22s
+  [024/126] A=2,4,5,8   inv= 5 r=  35 source= 5760   0.39s
+  [025/126] A=2,4,5,9   inv= 6 r= 105 source= 6336   0.38s
+  [026/126] A=2,4,5,10  inv= 7 r= 105 source= 6912   0.44s
+  [027/126] A=2,4,6,7   inv= 5 r=  30 source= 5760   0.30s
+  [028/126] A=2,4,6,8   inv= 6 r=  59 source= 6336   0.38s
+  [029/126] A=2,4,6,9   inv= 7 r= 129 source= 6912   0.47s
+  [030/126] A=2,4,6,10  inv= 8 r= 129 source= 7488   0.57s
+  [031/126] A=2,4,7,8   inv= 7 r= 138 source= 6912   0.53s
+  [032/126] A=2,4,7,9   inv= 8 r= 198 source= 7488   0.64s
+  [033/126] A=2,4,7,10  inv= 9 r= 198 source= 8064   0.76s
+  [034/126] A=2,4,8,9   inv= 9 r= 225 source= 8064   0.86s
+  [035/126] A=2,4,8,10  inv=10 r= 225 source= 8640   0.97s
+  [036/126] A=2,4,9,10  inv=11 r= 225 source= 9216   1.32s
+  [037/126] A=2,5,6,7   inv= 6 r=  87 source= 6336   0.42s
+  [038/126] A=2,5,6,8   inv= 7 r= 116 source= 6912   0.52s
+  [039/126] A=2,5,6,9   inv= 8 r= 182 source= 7488   0.64s
+  [040/126] A=2,5,6,10  inv= 9 r= 182 source= 8064   0.74s
+  [041/126] A=2,5,7,8   inv= 8 r= 185 source= 7488   0.75s
+  [042/126] A=2,5,7,9   inv= 9 r= 244 source= 8064   0.87s
+  [043/126] A=2,5,7,10  inv=10 r= 244 source= 8640   0.97s
+  [044/126] A=2,5,8,9   inv=10 r= 269 source= 8640   1.04s
+  [045/126] A=2,5,8,10  inv=11 r= 269 source= 9216   1.21s
+  [046/126] A=2,5,9,10  inv=12 r= 269 source= 9792   1.47s
+  [047/126] A=2,6,7,8   inv= 9 r= 209 source= 8064   0.91s
+  [048/126] A=2,6,7,9   inv=10 r= 266 source= 8640   1.10s
+  [049/126] A=2,6,7,10  inv=11 r= 266 source= 9216   1.23s
+  [050/126] A=2,6,8,9   inv=11 r= 290 source= 9216   1.33s
+  [051/126] A=2,6,8,10  inv=12 r= 290 source= 9792   1.55s
+  [052/126] A=2,6,9,10  inv=13 r= 290 source=10368   1.86s
+  [053/126] A=2,7,8,9   inv=12 r= 296 source= 9792   1.68s
+  [054/126] A=2,7,8,10  inv=13 r= 296 source=10368   2.04s
+  [055/126] A=2,7,9,10  inv=14 r= 296 source=10944   2.47s
+  [056/126] A=2,8,9,10  inv=15 r= 296 source=11520   2.88s
+  [057/126] A=3,4,5,6   inv= 4 r=   0 source= 5184   0.22s
+  [058/126] A=3,4,5,7   inv= 5 r=   6 source= 5760   0.31s
+  [059/126] A=3,4,5,8   inv= 6 r=  35 source= 6336   0.44s
+  [060/126] A=3,4,5,9   inv= 7 r= 105 source= 6912   0.52s
+  [061/126] A=3,4,5,10  inv= 8 r= 105 source= 7488   0.54s
+  [062/126] A=3,4,6,7   inv= 6 r=  30 source= 6336   0.41s
+  [063/126] A=3,4,6,8   inv= 7 r=  59 source= 6912   0.53s
+  [064/126] A=3,4,6,9   inv= 8 r= 129 source= 7488   0.59s
+  [065/126] A=3,4,6,10  inv= 9 r= 129 source= 8064   0.66s
+  [066/126] A=3,4,7,8   inv= 8 r= 138 source= 7488   0.63s
+  [067/126] A=3,4,7,9   inv= 9 r= 198 source= 8064   0.78s
+  [068/126] A=3,4,7,10  inv=10 r= 198 source= 8640   0.85s
+  [069/126] A=3,4,8,9   inv=10 r= 225 source= 8640   0.97s
+  [070/126] A=3,4,8,10  inv=11 r= 225 source= 9216   1.13s
+  [071/126] A=3,4,9,10  inv=12 r= 225 source= 9792   1.53s
+  [072/126] A=3,5,6,7   inv= 7 r=  87 source= 6912   0.54s
+  [073/126] A=3,5,6,8   inv= 8 r= 116 source= 7488   0.63s
+  [074/126] A=3,5,6,9   inv= 9 r= 182 source= 8064   0.78s
+  [075/126] A=3,5,6,10  inv=10 r= 182 source= 8640   0.81s
+  [076/126] A=3,5,7,8   inv= 9 r= 185 source= 8064   0.81s
+  [077/126] A=3,5,7,9   inv=10 r= 244 source= 8640   0.96s
+  [078/126] A=3,5,7,10  inv=11 r= 244 source= 9216   1.12s
+  [079/126] A=3,5,8,9   inv=11 r= 269 source= 9216   1.18s
+  [080/126] A=3,5,8,10  inv=12 r= 269 source= 9792   1.47s
+  [081/126] A=3,5,9,10  inv=13 r= 269 source=10368   1.74s
+  [082/126] A=3,6,7,8   inv=10 r= 209 source= 8640   1.08s
+  [083/126] A=3,6,7,9   inv=11 r= 266 source= 9216   1.31s
+  [084/126] A=3,6,7,10  inv=12 r= 266 source= 9792   1.45s
+  [085/126] A=3,6,8,9   inv=12 r= 290 source= 9792   1.58s
+  [086/126] A=3,6,8,10  inv=13 r= 290 source=10368   1.83s
+  [087/126] A=3,6,9,10  inv=14 r= 290 source=10944   2.38s
+  [088/126] A=3,7,8,9   inv=13 r= 296 source=10368   2.12s
+  [089/126] A=3,7,8,10  inv=14 r= 296 source=10944   2.21s
+  [090/126] A=3,7,9,10  inv=15 r= 296 source=11520   2.73s
+  [091/126] A=3,8,9,10  inv=16 r= 296 source=12096   3.37s
+  [092/126] A=4,5,6,7   inv= 8 r=  87 source= 7488   0.80s
+  [093/126] A=4,5,6,8   inv= 9 r= 116 source= 8064   0.87s
+  [094/126] A=4,5,6,9   inv=10 r= 182 source= 8640   1.01s
+  [095/126] A=4,5,6,10  inv=11 r= 183 source= 9216   1.23s
+  [096/126] A=4,5,7,8   inv=10 r= 185 source= 8640   1.04s
+  [097/126] A=4,5,7,9   inv=11 r= 244 source= 9216   1.20s
+  [098/126] A=4,5,7,10  inv=12 r= 245 source= 9792   1.41s
+  [099/126] A=4,5,8,9   inv=12 r= 269 source= 9792   1.50s
+  [100/126] A=4,5,8,10  inv=13 r= 270 source=10368   1.78s
+  [101/126] A=4,5,9,10  inv=14 r= 270 source=10944   2.07s
+  [102/126] A=4,6,7,8   inv=11 r= 209 source= 9216   1.42s
+  [103/126] A=4,6,7,9   inv=12 r= 266 source= 9792   1.76s
+  [104/126] A=4,6,7,10  inv=13 r= 267 source=10368   1.77s
+  [105/126] A=4,6,8,9   inv=13 r= 290 source=10368   1.96s
+  [106/126] A=4,6,8,10  inv=14 r= 291 source=10944   2.15s
+  [107/126] A=4,6,9,10  inv=15 r= 291 source=11520   2.43s
+  [108/126] A=4,7,8,9   inv=14 r= 296 source=10944   2.30s
+  [109/126] A=4,7,8,10  inv=15 r= 296 source=11520   2.62s
+  [110/126] A=4,7,9,10  inv=16 r= 296 source=12096   2.83s
+  [111/126] A=4,8,9,10  inv=17 r= 296 source=12672   3.63s
+  [112/126] A=5,6,7,8   inv=12 r= 209 source= 9792   1.59s
+  [113/126] A=5,6,7,9   inv=13 r= 266 source=10368   1.90s
+  [114/126] A=5,6,7,10  inv=14 r= 267 source=10944   2.26s
+  [115/126] A=5,6,8,9   inv=14 r= 290 source=10944   2.31s
+  [116/126] A=5,6,8,10  inv=15 r= 291 source=11520   2.65s
+  [117/126] A=5,6,9,10  inv=16 r= 291 source=12096   3.16s
+  [118/126] A=5,7,8,9   inv=15 r= 296 source=11520   2.90s
+  [119/126] A=5,7,8,10  inv=16 r= 296 source=12096   3.26s
+  [120/126] A=5,7,9,10  inv=17 r= 296 source=12672   3.59s
+  [121/126] A=5,8,9,10  inv=18 r= 296 source=13248   4.22s
+  [122/126] A=6,7,8,9   inv=16 r= 296 source=12096   3.43s
+  [123/126] A=6,7,8,10  inv=17 r= 296 source=12672   3.70s
+  [124/126] A=6,7,9,10  inv=18 r= 296 source=13248   4.50s
+  [125/126] A=6,8,9,10  inv=19 r= 296 source=13824   5.20s
+  [126/126] A=7,8,9,10  inv=20 r= 296 source=14400   5.84s
+
+GF(3) representative audit
+  [01/25] A=2,3,4,5   GF2=0 GF3=ok agree=True
+  [02/25] A=2,3,4,7   GF2=6 GF3=6 agree=True
+  [03/25] A=2,3,6,7   GF2=30 GF3=30 agree=True
+  [04/25] A=2,3,4,8   GF2=35 GF3=36 agree=False
+  [05/25] A=2,3,6,8   GF2=59 GF3=60 agree=False
+  [06/25] A=2,5,6,7   GF2=87 GF3=87 agree=True
+  [07/25] A=2,3,4,9   GF2=105 GF3=105 agree=True
+  [08/25] A=2,5,6,8   GF2=116 GF3=116 agree=True
+  [09/25] A=2,3,6,9   GF2=129 GF3=129 agree=True
+  [10/25] A=2,3,7,8   GF2=138 GF3=138 agree=True
+  [11/25] A=2,5,6,9   GF2=182 GF3=182 agree=True
+  [12/25] A=4,5,6,10  GF2=183 GF3=183 agree=True
+  [13/25] A=2,5,7,8   GF2=185 GF3=185 agree=True
+  [14/25] A=2,3,7,9   GF2=198 GF3=198 agree=True
+  [15/25] A=2,6,7,8   GF2=209 GF3=209 agree=True
+  [16/25] A=2,3,8,9   GF2=225 GF3=225 agree=True
+  [17/25] A=2,5,7,9   GF2=244 GF3=244 agree=True
+  [18/25] A=4,5,7,10  GF2=245 GF3=245 agree=True
+  [19/25] A=2,6,7,9   GF2=266 GF3=266 agree=True
+  [20/25] A=4,6,7,10  GF2=267 GF3=267 agree=True
+  [21/25] A=2,5,8,9   GF2=269 GF3=269 agree=True
+  [22/25] A=4,5,8,10  GF2=270 GF3=270 agree=True
+  [23/25] A=2,6,8,9   GF2=290 GF3=290 agree=True
+  [24/25] A=4,6,8,10  GF2=291 GF3=291 agree=True
+  [25/25] A=2,7,8,9   GF2=296 GF3=296 agree=True
+
+============================================================================================================================
+FINAL SUMMARY
+============================================================================================================================
+Nine-point self-check:                True
+Completed n=11 channels:              126 / 126
+All structure checks:                 True
+Reference target relation dim GF(2):  296
+Observed GF(2) rank classes:          25
+Minimal constant tail width:          4
+GF(3) completed/agreed:               25/25; False
+Verdict:                              EHF_AMP_FOUND_04A_ELEVEN_TO_TEN_MODULAR_TAIL_LAW_CANDIDATE_FOUND
+elapsed:                              579.79 seconds
+summary:                              /Users/barryfensom/Desktop/EHF/AMP/runs/ehf_amp_found_04a/summary.json
+strict checks:                        PASS
+============================================================================================================================
+===== RUN END 2026-07-17 21:17:10 =====

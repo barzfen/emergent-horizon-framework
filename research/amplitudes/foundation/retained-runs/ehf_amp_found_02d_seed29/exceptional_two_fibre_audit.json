@@ -1,0 +1,37 @@
+{
+  "performed": true,
+  "exceptional_key": "E=1,4,5,6|O=2,3,7,8",
+  "flip_partner_key": "E=1,2,3,7|O=4,5,6,8",
+  "amp18_arrival_rank": 14,
+  "amp18_relation_dim": 15,
+  "amp18_smallest_nonzero_coordinate_sv": "1.7018641142625432",
+  "amp18_first_discarded_coordinate_sv": "5.227760600857862e-15",
+  "residue_norm": "0.70710678118654768",
+  "residue_to_star_pair_image_residual": "1.3112857256711534e-15",
+  "global_mp_reconstruction_residual": "1.7700979390828081e-15",
+  "pair_only_mp_reconstruction_residual": "1.3112857256711534e-15",
+  "global_vs_pair_only_mp_relative_error": "1.9538067039529322e-15",
+  "global_mp_cosine_with_original": "0.70710678118654757",
+  "global_mp_norm": "0.70710678118654746",
+  "original_norm": "1",
+  "star_only_mp_cosine_with_original": "1",
+  "star_only_mp_relative_error": "9.2503549893571596e-16",
+  "difference_delete_norm": "1.2505899421069521e-15",
+  "support_count": 2,
+  "support": [
+    {
+      "child_key": "E=1,4,5,6|O=2,3,7,8",
+      "squared_weight_fraction": "0.5",
+      "is_star": true,
+      "is_flip_partner": false
+    },
+    {
+      "child_key": "E=1,2,3,7|O=4,5,6,8",
+      "squared_weight_fraction": "0.49999999999999978",
+      "is_star": false,
+      "is_flip_partner": true
+    }
+  ],
+  "is_generic_two_fibre_instance": true,
+  "guardrail": "The 50/50 Moore--Penrose split is canonical only for the chosen Euclidean source metric. The equal-image flip-pair law and pair-channel ranks are metric-independent subspace statements."
+}

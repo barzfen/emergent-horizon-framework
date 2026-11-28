@@ -1,0 +1,5 @@
+r_parity,coefficient_of_p_r,recurrence,L_r,reason_coefficient_nonzero
+odd,-(2k-1),p_r = (k T_r + L_r - D_r)/(2k-1),"sum_{t=1}^{r-1} (-1)^t C(r,t) p_t (T_{r-t}-p_{r-t})","|S|=k, |S^c|=k-1"
+even,-1,p_r = k T_r + L_r - D_r,"sum_{t=1}^{r-1} (-1)^t C(r,t) p_t (T_{r-t}-p_{r-t})","|S|=k, |S^c|=k-1"
+r=1,-(2k-1),p_1 = [k T_1 - D_1]/(2k-1),0,therefore h=p_1 is determined by M alone
+r=2,-1,p_2 = k T_2 - 2 T_1 p_1 + 2 p_1^2 - D_2,-2 p_1(T_1-p_1),same q term that appears in exact Johnson diffusion

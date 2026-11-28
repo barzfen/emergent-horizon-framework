@@ -1,0 +1,7 @@
+odd_n,gcd_2_n,generator_conjugacy_pass,image_generator_count,result
+7,1,True,7,exact conjugacy of LR2 and LR3 Schreier generator sets
+9,1,True,9,exact conjugacy of LR2 and LR3 Schreier generator sets
+11,1,True,11,exact conjugacy of LR2 and LR3 Schreier generator sets
+13,1,True,13,exact conjugacy of LR2 and LR3 Schreier generator sets
+15,1,True,15,exact conjugacy of LR2 and LR3 Schreier generator sets
+17,1,True,17,exact conjugacy of LR2 and LR3 Schreier generator sets

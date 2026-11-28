@@ -1,0 +1,16 @@
+check,pass
+n=4_profile_orbital_bijection,True
+n=4_small_overlap_scheme_pass,True
+n=5_profile_orbital_bijection,True
+n=5_small_overlap_scheme_pass,True
+n=6_profile_orbital_bijection,True
+n=6_overlap_scheme_fails,True
+n=6_transpose_pairs_exist,True
+n=6_transpose_symmetrization_still_fails,True
+n=7_profile_orbital_bijection,True
+n=7_overlap_scheme_fails,True
+n=7_transpose_pairs_exist,True
+n=7_transpose_symmetrization_still_fails,True
+n=8_profile_orbital_bijection,True
+n=8_overlap_scheme_fails,True
+n=8_transpose_pairs_exist,True

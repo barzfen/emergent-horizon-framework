@@ -1,0 +1,6 @@
+n,states,degree_min,degree_max,components,component_size_min,component_size_max,intrinsic_bipartitions,components_equal_bipartitions,connected
+5,12,5,5,1,12,12,,,True
+6,60,3,3,10,6,6,10,True,False
+7,360,7,7,1,360,360,,,True
+8,2520,8,8,35,72,72,35,True,False
+9,20160,9,9,1,20160,20160,,,True

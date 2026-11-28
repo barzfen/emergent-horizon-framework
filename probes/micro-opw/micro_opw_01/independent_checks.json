@@ -1,0 +1,20 @@
+[
+  {
+    "n": 7,
+    "states": 72,
+    "OPW3_components": 27,
+    "OPW23_components": 15,
+    "witness_LR3_component_size": 4,
+    "witness_LR23_component_size": 6,
+    "checks": "PASS"
+  },
+  {
+    "n": 9,
+    "states": 2160,
+    "OPW3_components": 390,
+    "OPW23_components": 111,
+    "witness_LR3_component_size": 24,
+    "witness_LR23_component_size": 42,
+    "checks": "PASS"
+  }
+]

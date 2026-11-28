@@ -1,0 +1,18 @@
+candidate,status,replacement,reason
+Separate axiom |V_n|=n,REDUNDANT,|V_1|=1 plus singleton increments,cardinality follows by induction
+"Literal numeric labels 1,...,n",REDUNDANT/CHART,arbitrary static labels; beta chart only in rank extension,numerals carry no static structural content
+Primitive K_n,NOT NEEDED,cyclic orderings modulo D_n,complete graph is bookkeeping only
+Primitive edge set E(C),REDUNDANT,derive adjacent unordered pairs from cyclic ordering,fully determined by HC state
+Primitive raw overlap or d_E,REDUNDANT,derive from edge-set intersection/symmetric difference,definitionally determined
+Primitive 2-opt,REDUNDANT,nearest nontrivial raw shell d_E=2,RAW-02
+Primitive LR_l labels,REDUNDANT AS DATA,nearest-shell common-path support sizes,RAW-04B intrinsic characterization
+Primitive even sectors,REDUNDANT,derive bipartition from even Hamilton cycle,unique up to swap
+Primitive all-slot growth map,REDUNDANT,delete/insert unique newest atom,canonical from HC state plus singleton tower
+Primitive Johnson vertex set,REDUNDANT,equal bipartitions + newest-site chart,RAW-08B/09A
+Primitive Johnson A1,REDUNDANT,horizontal target LR2 sector relation,RAW-09A
+Primitive beta,REDUNDANT IN RANK EXTENSION,first-appearance stage,derived from V1 singleton filtration
+"Pre-Hamilton V1,V2",OPTIONAL RANK REFINEMENT,HC3-seeded tower for structural core,only needed to eliminate seed ambiguity and recover unique h
+LR3 as preferred move,NOT DERIVED FROM RAW HC ALONE,direct LR3 choice OR explicit preservation/locality principles,RAW-05B no-go
+Uniform A1 probabilities,OPTIONAL,none for structural adjacency,graph does not define stochastic dynamics by itself
+Uniform shell averaging,OPTIONAL,explicit stationary-conditional interpretation,h is not strongly lumpable
+Line metric on h,OPTIONAL,none,needed only for historical Ollivier shell curvature

@@ -1,0 +1,4 @@
+parent_n,target_N,parent_LR2_edges,parent_LR3_edges,target_LR3_edges,enumerated_inherited_LR3,enumerated_generated_from_LR2,expected_inherited,expected_generated,LR3_parent_fibre_values,LR2_to_LR3_fibre_values,enumerated_LR3_to_LR4_leakage,expected_LR3_to_LR4_leakage,LR3_to_LR4_fibre_values,exact_pass
+5,6,30,0,90,0,90,0,90,[],[3],0,0,[],True
+6,7,180,90,1260,720,540,720,540,[8],[3],0,0,[],True
+7,8,1260,1260,10080,6300,3780,6300,3780,[5],[3],5040,5040,[4],True

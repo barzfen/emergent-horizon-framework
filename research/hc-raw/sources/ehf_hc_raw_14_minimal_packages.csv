@@ -1,0 +1,8 @@
+package,primitive_seed,targets,targets_reached,note
+STATIC_STRUCTURAL_CORE,"('A_ATOMS', 'A_HC')","('D_OVERLAP', 'D_2OPT', 'D_LR', 'D_LR3', 'D_BIP', 'D_SECTOR')",True,Static finite atom set plus HC state-space ansatz.
+GRADED_STRUCTURAL_CORE,"('A_HC', 'G_HC3')","('D_GROWTH', 'D_FILTRATION', 'D_A1')",True,HC3-seeded singleton tower already contains the atom sets; no V1/V2 required.
+LR3_DIRECT_MODEL,"('A_HC', 'G_HC3', 'M_LR3')","('D_LR3_SELECTED', 'D_GROWTH', 'D_A1')",True,Adds only the direct choice that LR3 is the selected move.
+LR3_PRINCIPLE_MODEL,"('A_HC', 'G_HC3', 'M_RULES')","('D_LR3_SELECTED', 'D_GROWTH', 'D_A1')",True,"Within the audited nearest-shell reversal-orbital candidate class, adds preservation/locality/minimality principles."
+RANK_REFINED_EXTENSION,"('A_HC', 'G_HC3', 'G_V1')","('D_BETA', 'D_H', 'D_A1')",True,V1/V2 extension exists solely to remove seed ambiguity and recover unique rank h.
+JOHNSON_TRANSPORT,"('A_HC', 'G_HC3', 'G_V1', 'T_A1')","('D_JWALK', 'D_DRIFT')",True,Adds equal A1-neighbour weighting.
+SHELL_CURVATURE,"('A_HC', 'G_HC3', 'G_V1', 'T_A1', 'T_METRIC', 'T_SHELL')","('D_SCURV',)",True,Adds shell averaging and line metric after Johnson transport.

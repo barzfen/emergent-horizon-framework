@@ -1,0 +1,9 @@
+target_N,selected_l,parent_n,target_selected_edges,parent_selected_edges,enumerated_inherited,expected_inherited,enumerated_generated,expected_generated,faithful_parent_fibre_values,lower_source_fibre_values,enumerated_outflow_to_lplus1,expected_outflow,outflow_parent_fibre_values,pass
+4,2,3,3,0,0,0,3,3,[],[3],0,0,[],True
+5,2,4,30,3,18,18,12,12,[6],[4],0,0,[],True
+6,2,5,180,30,120,120,60,60,[4],[5],90,90,[3],True
+6,3,5,90,0,0,0,90,90,[],[3],0,0,[],True
+7,3,6,1260,90,720,720,540,540,[8],[3],0,0,[],True
+8,3,7,10080,1260,6300,6300,3780,3780,[5],[3],5040,5040,[4],True
+8,4,7,5040,0,0,0,5040,5040,[],[4],0,0,[],True
+9,4,8,90720,5040,50400,50400,40320,40320,[10],[4],0,0,[],True

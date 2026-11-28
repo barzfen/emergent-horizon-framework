@@ -1,0 +1,10 @@
+m,n,johnson_distance_r,source_fiber_size,target_sectors_found,target_sectors_expected,pair_weight_min,pair_weight_max,pair_weight_expected,exact_match
+3,6,1,6,6,6,4,4,4,True
+3,6,2,6,3,3,4,4,4,True
+4,8,1,72,12,12,36,36,36,True
+4,8,2,72,18,18,16,16,16,True
+4,8,3,72,4,4,36,36,36,True
+5,10,1,1440,20,20,576,576,576,True
+5,10,2,1440,60,60,144,144,144,True
+5,10,3,1440,40,40,144,144,144,True
+5,10,4,1440,5,5,576,576,576,True

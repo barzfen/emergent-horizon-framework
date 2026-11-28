@@ -46,6 +46,7 @@ For individual notes and proofs, jump to the [full research index](#full-researc
 ### Sources and reproduction
 
 - [Source-document index](research/source-documents/README.md) preserves OPW23, OPW3, RAW, GROW, Johnson transport and curvature, historical AMP and QM notes, and PHYS-ALG materials including the Lam connection. Its checksum manifest identifies the retained snapshots.
+- [Recovered Hamilton-cycle archive](research/consolidation-2026-11-02/README.md) links the RAW, GROW, OPW, AMP and XBR source packages and the [MICRO–OPW probes](probes/micro-opw/README.md). The recovery report identifies which checks ran and which certificates are missing.
 - [Related work](research/related-work/README.md) links external papers to EHF definitions, follow-up probes, and limitations.
 - [Research notes](research/README.md) · [Probe directories](probes) · [Formal results](formal/README.md) · [Code](code/README.md) · [Data](data/README.md) · [Archive](archive/README.md). Many individual probes carry their own verifier and instructions alongside the research note.
 
@@ -69,7 +70,7 @@ Original code is available under MIT. Original research notes, documentation and
 
 Every Markdown note, retained PDF and Lean proof file on the default branch is indexed below. The [code](code/README.md) and [data](data/README.md) guides cover supporting files.
 
-[Project guides and foundations](#project-guides-and-foundations) · [Formal results and Lean proofs](#formal-results-and-lean-proofs) · [Hamiltonian cycles and binary/three-colour growth](#hamiltonian-cycles-and-binarythree-colour-growth) · [Wheeler growth, entropy, and reproduction](#wheeler-growth-entropy-and-reproduction) · [MICRO growth, observers, and Julstce](#micro-growth-observers-and-julstce) · [Reversal rules, winding, and holonomy](#reversal-rules-winding-and-holonomy) · [Dimensions and geometry](#dimensions-and-geometry) · [Quantum comparisons and signed graphs](#quantum-comparisons-and-signed-graphs) · [Amplitudes, ordering, and collinear colour](#amplitudes-ordering-and-collinear-colour) · [Collatz](#collatz) · [Wieferich primes and modular cycles](#wieferich-primes-and-modular-cycles) · [Source documents, related work, and archives](#source-documents-related-work-and-archives)
+[Project guides and foundations](#project-guides-and-foundations) · [Formal results and Lean proofs](#formal-results-and-lean-proofs) · [Hamiltonian cycles and binary/three-colour growth](#hamiltonian-cycles-and-binarythree-colour-growth) · [Wheeler growth, entropy, and reproduction](#wheeler-growth-entropy-and-reproduction) · [MICRO growth, observers, and Julstce](#micro-growth-observers-and-julstce) · [Reversal rules, winding, and holonomy](#reversal-rules-winding-and-holonomy) · [Dimensions and geometry](#dimensions-and-geometry) · [Quantum comparisons and signed graphs](#quantum-comparisons-and-signed-graphs) · [Amplitudes, ordering, and collinear colour](#amplitudes-ordering-and-collinear-colour) · [Collatz](#collatz) · [Wieferich primes and modular cycles](#wieferich-primes-and-modular-cycles) · [Source documents, related work, and archives](#source-documents-related-work-and-archives) · [Recovered sources and MICRO–OPW](#recovered-sources-and-microopw)
 
 ### Project guides and foundations
 
@@ -804,5 +805,206 @@ Every Markdown note, retained PDF and Lean proof file on the default branch is i
 - [pancakes.pdf](research/source-documents/pancakes.pdf)
 - [phys-alg-v0.65](research/source-documents/phys-alg-v0.65.md)
 - [qm-bridge-historical.pdf](research/source-documents/qm-bridge-historical.pdf)
+
+</details>
+
+### Recovered sources and MICRO–OPW
+
+<details>
+<summary>Show 140 entries</summary>
+
+**`probes/micro-opw/micro_opw_01/`**
+
+- [Guide](probes/micro-opw/micro_opw_01/README.md)
+
+**`probes/micro-opw/micro_opw_02/`**
+
+- [Guide](probes/micro-opw/micro_opw_02/README.md)
+
+**`probes/micro-opw/micro_opw_03/`**
+
+- [Guide](probes/micro-opw/micro_opw_03/README.md)
+
+**`probes/micro-opw/`**
+
+- [Guide](probes/micro-opw/README.md)
+
+**`research/amplitudes/foundation/`**
+
+- [Guide](research/amplitudes/foundation/README.md)
+
+**`research/amplitudes/foundation/sources/`**
+
+- [ehf_amp_found_01_anchor_relative_scaffolds_v0_1](research/amplitudes/foundation/sources/ehf_amp_found_01_anchor_relative_scaffolds_v0_1.md)
+- [ehf_amp_found_01_anchor_relative_scaffolds_v0_2](research/amplitudes/foundation/sources/ehf_amp_found_01_anchor_relative_scaffolds_v0_2.md)
+- [ehf_amp_found_01_anchor_relative_scaffolds_v0_3](research/amplitudes/foundation/sources/ehf_amp_found_01_anchor_relative_scaffolds_v0_3.md)
+- [ehf_amp_found_01_anchor_relative_scaffolds_v0_4](research/amplitudes/foundation/sources/ehf_amp_found_01_anchor_relative_scaffolds_v0_4.md)
+- [ehf_amp_found_01_anchor_relative_scaffolds_v0_5](research/amplitudes/foundation/sources/ehf_amp_found_01_anchor_relative_scaffolds_v0_5.md)
+- [ehf_amp_found_01_anchor_relative_scaffolds_v0_6](research/amplitudes/foundation/sources/ehf_amp_found_01_anchor_relative_scaffolds_v0_6.md)
+- [ehf_amp_found_01b_claude_comparison_audit](research/amplitudes/foundation/sources/ehf_amp_found_01b_claude_comparison_audit.md)
+- [ehf_amp_found_01b_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_01b_probe_spec.md)
+- [ehf_amp_found_02a_orientation_and_vacuity_audit](research/amplitudes/foundation/sources/ehf_amp_found_02a_orientation_and_vacuity_audit.md)
+- [ehf_amp_found_02a_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_02a_probe_spec.md)
+- [ehf_amp_found_02a_probe_spec_v0_2](research/amplitudes/foundation/sources/ehf_amp_found_02a_probe_spec_v0_2.md)
+- [ehf_amp_found_02b_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_02b_probe_spec.md)
+- [ehf_amp_found_02c_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_02c_probe_spec.md)
+- [ehf_amp_found_02d_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_02d_probe_spec.md)
+- [ehf_amp_found_02e_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_02e_probe_spec.md)
+- [ehf_amp_found_02f_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_02f_probe_spec.md)
+- [ehf_amp_found_02g_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_02g_probe_spec.md)
+- [ehf_amp_found_02h_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_02h_probe_spec.md)
+- [ehf_amp_found_03a_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_03a_probe_spec.md)
+- [ehf_amp_found_03b_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_03b_probe_spec.md)
+- [ehf_amp_found_03c_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_03c_probe_spec.md)
+- [ehf_amp_found_03d_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_03d_probe_spec.md)
+- [ehf_amp_found_03e_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_03e_probe_spec.md)
+- [ehf_amp_found_03f_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_03f_probe_spec.md)
+- [ehf_amp_found_03g_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_03g_probe_spec.md)
+- [ehf_amp_found_03h_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_03h_probe_spec.md)
+- [ehf_amp_found_03i_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_03i_probe_spec.md)
+- [ehf_amp_found_03j_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_03j_probe_spec.md)
+- [ehf_amp_found_03k_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_03k_probe_spec.md)
+- [ehf_amp_found_03l_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_03l_probe_spec.md)
+- [ehf_amp_found_04a_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_04a_probe_spec.md)
+- [ehf_amp_found_04a_result_audit](research/amplitudes/foundation/sources/ehf_amp_found_04a_result_audit.md)
+- [ehf_amp_found_04b_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_04b_probe_spec.md)
+- [ehf_amp_found_04c_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_04c_probe_spec.md)
+- [ehf_amp_found_04c_t0_probe_spec](research/amplitudes/foundation/sources/ehf_amp_found_04c_t0_probe_spec.md)
+
+**`research/consolidation-2026-11-02/`**
+
+- [Guide](research/consolidation-2026-11-02/README.md)
+
+**`research/hc-grow/audits/`**
+
+- [EHF_GROW02_LR3_ONSET_SUPPORT_LIMIT_AUDIT_v0_2](research/hc-grow/audits/EHF_GROW02_LR3_ONSET_SUPPORT_LIMIT_AUDIT_v0_2.md)
+- [EHF_GROW02_POLYA_SUPPORT_LIMIT_AUDIT_v0_1](research/hc-grow/audits/EHF_GROW02_POLYA_SUPPORT_LIMIT_AUDIT_v0_1.md)
+
+**`research/hc-grow/`**
+
+- [Guide](research/hc-grow/README.md)
+
+**`research/hc-grow/sources/`**
+
+- [ehf_hc_grow_01_reversal_support_propagation_multi_layer](research/hc-grow/sources/ehf_hc_grow_01_reversal_support_propagation_multi_layer.md)
+- [ehf_hc_grow_02_reversal_support_branching_operator](research/hc-grow/sources/ehf_hc_grow_02_reversal_support_branching_operator.md)
+- [ehf_hc_grow_03a_branching_operator_intrinsic_parity_sectors](research/hc-grow/sources/ehf_hc_grow_03a_branching_operator_intrinsic_parity_sectors.md)
+- [ehf_hc_grow_04_selected_lr3_stability_under_growth](research/hc-grow/sources/ehf_hc_grow_04_selected_lr3_stability_under_growth.md)
+- [ehf_hc_grow_05_general_selected_support_renewal](research/hc-grow/sources/ehf_hc_grow_05_general_selected_support_renewal.md)
+- [ehf_hc_grow_06_reversal_support_channel_atlas](research/hc-grow/sources/ehf_hc_grow_06_reversal_support_channel_atlas.md)
+- [ehf_hc_grow_07_internal_channel_geometry](research/hc-grow/sources/ehf_hc_grow_07_internal_channel_geometry.md)
+- [ehf_hc_grow_08_cross_channel_loop_coupling_geometry](research/hc-grow/sources/ehf_hc_grow_08_cross_channel_loop_coupling_geometry.md)
+- [ehf_hc_grow_working_document_v0_1](research/hc-grow/sources/ehf_hc_grow_working_document_v0_1.md)
+- [ehf_hc_grow_working_document_v0_2](research/hc-grow/sources/ehf_hc_grow_working_document_v0_2.md)
+- [ehf_hc_grow_working_document_v0_3](research/hc-grow/sources/ehf_hc_grow_working_document_v0_3.md)
+- [ehf_hc_grow_working_document_v0_4](research/hc-grow/sources/ehf_hc_grow_working_document_v0_4.md)
+- [ehf_hc_grow_working_document_v0_5](research/hc-grow/sources/ehf_hc_grow_working_document_v0_5.md)
+- [ehf_hc_grow_working_document_v0_6](research/hc-grow/sources/ehf_hc_grow_working_document_v0_6.md)
+- [ehf_hc_grow_working_document_v0_7](research/hc-grow/sources/ehf_hc_grow_working_document_v0_7.md)
+- [ehf_hc_grow_working_document_v0_8](research/hc-grow/sources/ehf_hc_grow_working_document_v0_8.md)
+- [ehf_hc_grow_working_document_v0_8__snapshot_b810be8dec](research/hc-grow/sources/ehf_hc_grow_working_document_v0_8__snapshot_b810be8dec.md)
+
+**`research/hc-raw/`**
+
+- [Guide](research/hc-raw/README.md)
+
+**`research/hc-raw/sources/`**
+
+- [ehf_hc_raw_10f_cdf_one_defect_proof_queue_v0_1](research/hc-raw/sources/ehf_hc_raw_10f_cdf_one_defect_proof_queue_v0_1.md)
+- [ehf_hc_raw_12_pre_hamilton_substrate_growth_definition_lock](research/hc-raw/sources/ehf_hc_raw_12_pre_hamilton_substrate_growth_definition_lock.md)
+- [ehf_hc_raw_13_graded_hc_compatibility_naturality](research/hc-raw/sources/ehf_hc_raw_13_graded_hc_compatibility_naturality.md)
+- [ehf_hc_raw_14_primitive_redundancy_dependency_minimality](research/hc-raw/sources/ehf_hc_raw_14_primitive_redundancy_dependency_minimality.md)
+- [ehf_hc_raw_working_document_v0_1](research/hc-raw/sources/ehf_hc_raw_working_document_v0_1.md)
+- [ehf_hc_raw_working_document_v0_10](research/hc-raw/sources/ehf_hc_raw_working_document_v0_10.md)
+- [ehf_hc_raw_working_document_v0_11](research/hc-raw/sources/ehf_hc_raw_working_document_v0_11.md)
+- [ehf_hc_raw_working_document_v0_12](research/hc-raw/sources/ehf_hc_raw_working_document_v0_12.md)
+- [ehf_hc_raw_working_document_v0_13](research/hc-raw/sources/ehf_hc_raw_working_document_v0_13.md)
+- [ehf_hc_raw_working_document_v0_14](research/hc-raw/sources/ehf_hc_raw_working_document_v0_14.md)
+- [ehf_hc_raw_working_document_v0_15](research/hc-raw/sources/ehf_hc_raw_working_document_v0_15.md)
+- [ehf_hc_raw_working_document_v0_16](research/hc-raw/sources/ehf_hc_raw_working_document_v0_16.md)
+- [ehf_hc_raw_working_document_v0_17](research/hc-raw/sources/ehf_hc_raw_working_document_v0_17.md)
+- [ehf_hc_raw_working_document_v0_18](research/hc-raw/sources/ehf_hc_raw_working_document_v0_18.md)
+- [ehf_hc_raw_working_document_v0_19](research/hc-raw/sources/ehf_hc_raw_working_document_v0_19.md)
+- [ehf_hc_raw_working_document_v0_2](research/hc-raw/sources/ehf_hc_raw_working_document_v0_2.md)
+- [ehf_hc_raw_working_document_v0_20](research/hc-raw/sources/ehf_hc_raw_working_document_v0_20.md)
+- [ehf_hc_raw_working_document_v0_3](research/hc-raw/sources/ehf_hc_raw_working_document_v0_3.md)
+- [ehf_hc_raw_working_document_v0_4](research/hc-raw/sources/ehf_hc_raw_working_document_v0_4.md)
+- [ehf_hc_raw_working_document_v0_5](research/hc-raw/sources/ehf_hc_raw_working_document_v0_5.md)
+- [ehf_hc_raw_working_document_v0_6](research/hc-raw/sources/ehf_hc_raw_working_document_v0_6.md)
+- [ehf_hc_raw_working_document_v0_7](research/hc-raw/sources/ehf_hc_raw_working_document_v0_7.md)
+- [ehf_hc_raw_working_document_v0_8](research/hc-raw/sources/ehf_hc_raw_working_document_v0_8.md)
+- [ehf_hc_raw_working_document_v0_9](research/hc-raw/sources/ehf_hc_raw_working_document_v0_9.md)
+
+**`research/opw-amp-bridge/`**
+
+- [Guide](research/opw-amp-bridge/README.md)
+
+**`research/opw-amp-bridge/sources/`**
+
+- [ehf_xbr_01_probe_spec](research/opw-amp-bridge/sources/ehf_xbr_01_probe_spec.md)
+- [ehf_xbr_02_probe_spec](research/opw-amp-bridge/sources/ehf_xbr_02_probe_spec.md)
+- [ehf_xbr_02_result_note](research/opw-amp-bridge/sources/ehf_xbr_02_result_note.md)
+- [ehf_xbr_03_probe_spec](research/opw-amp-bridge/sources/ehf_xbr_03_probe_spec.md)
+- [ehf_xbr_03_result_note](research/opw-amp-bridge/sources/ehf_xbr_03_result_note.md)
+- [ehf_xbr_04_probe_spec](research/opw-amp-bridge/sources/ehf_xbr_04_probe_spec.md)
+- [ehf_xbr_04_result_note](research/opw-amp-bridge/sources/ehf_xbr_04_result_note.md)
+- [ehf_xbr_04b_probe_spec](research/opw-amp-bridge/sources/ehf_xbr_04b_probe_spec.md)
+- [ehf_xbr_04c_probe_spec](research/opw-amp-bridge/sources/ehf_xbr_04c_probe_spec.md)
+- [ehf_xbr_04f4_probe_spec](research/opw-amp-bridge/sources/ehf_xbr_04f4_probe_spec.md)
+- [ehf_xbr_04f7_probe_spec](research/opw-amp-bridge/sources/ehf_xbr_04f7_probe_spec.md)
+- [ehf_xbr_04f8_probe_spec](research/opw-amp-bridge/sources/ehf_xbr_04f8_probe_spec.md)
+- [ehf_xbr_04f8b_probe_spec](research/opw-amp-bridge/sources/ehf_xbr_04f8b_probe_spec.md)
+- [ehf_xbr_04f_probe_spec](research/opw-amp-bridge/sources/ehf_xbr_04f_probe_spec.md)
+- [ehf_xbr_04f_to_04f8_result_note](research/opw-amp-bridge/sources/ehf_xbr_04f_to_04f8_result_note.md)
+- [ehf_xbr_04f_to_04f8b_result_note](research/opw-amp-bridge/sources/ehf_xbr_04f_to_04f8b_result_note.md)
+- [ehf_xbr_05a_05c_null_channel_holonomy_classification_result](research/opw-amp-bridge/sources/ehf_xbr_05a_05c_null_channel_holonomy_classification_result.md)
+- [ehf_xbr_05a_probe_spec](research/opw-amp-bridge/sources/ehf_xbr_05a_probe_spec.md)
+- [ehf_xbr_05b_probe_spec](research/opw-amp-bridge/sources/ehf_xbr_05b_probe_spec.md)
+- [ehf_xbr_05c_probe_spec](research/opw-amp-bridge/sources/ehf_xbr_05c_probe_spec.md)
+
+**`research/opw/qm3/`**
+
+- [Guide](research/opw/qm3/README.md)
+
+**`research/opw/qm3/sources/`**
+
+- [ehf_qm3_01_probe_spec](research/opw/qm3/sources/ehf_qm3_01_probe_spec.md)
+- [ehf_qm3_02_probe_spec](research/opw/qm3/sources/ehf_qm3_02_probe_spec.md)
+- [ehf_qm3_03_probe_spec](research/opw/qm3/sources/ehf_qm3_03_probe_spec.md)
+- [ehf_qm3_04_probe_spec](research/opw/qm3/sources/ehf_qm3_04_probe_spec.md)
+- [ehf_qm3_05_probe_spec](research/opw/qm3/sources/ehf_qm3_05_probe_spec.md)
+
+**`research/opw/`**
+
+- [Guide](research/opw/README.md)
+
+**`research/opw/sources/`**
+
+- [ehf_opw3_audit_01_probe_spec](research/opw/sources/ehf_opw3_audit_01_probe_spec.md)
+- [ehf_opw3_audit_02_probe_spec](research/opw/sources/ehf_opw3_audit_02_probe_spec.md)
+- [ehf_opw3_audit_03_probe_spec](research/opw/sources/ehf_opw3_audit_03_probe_spec.md)
+- [ehf_opw3_audit_04_probe_spec](research/opw/sources/ehf_opw3_audit_04_probe_spec.md)
+- [ehf_opw3_audit_05_probe_spec](research/opw/sources/ehf_opw3_audit_05_probe_spec.md)
+- [ehf_opw3_audit_06_fix_note](research/opw/sources/ehf_opw3_audit_06_fix_note.md)
+- [ehf_opw3_audit_06_probe_spec](research/opw/sources/ehf_opw3_audit_06_probe_spec.md)
+- [ehf_opw3_audit_07_probe_spec](research/opw/sources/ehf_opw3_audit_07_probe_spec.md)
+- [ehf_opw3_audit_08_probe_spec](research/opw/sources/ehf_opw3_audit_08_probe_spec.md)
+- [ehf_opw3_audit_09_probe_spec](research/opw/sources/ehf_opw3_audit_09_probe_spec.md)
+- [ehf_opw3_audit_10_probe_spec](research/opw/sources/ehf_opw3_audit_10_probe_spec.md)
+- [ehf_opw3_rebuild_working_document_v0_1](research/opw/sources/ehf_opw3_rebuild_working_document_v0_1.md)
+- [ehf_opw3_rebuild_working_document_v0_2](research/opw/sources/ehf_opw3_rebuild_working_document_v0_2.md)
+- [ehf_opw3_rebuild_working_document_v0_3](research/opw/sources/ehf_opw3_rebuild_working_document_v0_3.md)
+- [ehf_opw3_rebuild_working_document_v0_4](research/opw/sources/ehf_opw3_rebuild_working_document_v0_4.md)
+- [ehf_opw3_rebuild_working_document_v0_5](research/opw/sources/ehf_opw3_rebuild_working_document_v0_5.md)
+- [ehf_opw3_rebuild_working_document_v0_6](research/opw/sources/ehf_opw3_rebuild_working_document_v0_6.md)
+- [ehf_opw3_rebuild_working_document_v0_7](research/opw/sources/ehf_opw3_rebuild_working_document_v0_7.md)
+- [ehf_opw3_rebuild_working_document_v0_8](research/opw/sources/ehf_opw3_rebuild_working_document_v0_8.md)
+- [ehf_opw3_rebuild_working_document_v0_9](research/opw/sources/ehf_opw3_rebuild_working_document_v0_9.md)
+- [ehf_opw3_rebuild_working_document_v1_1](research/opw/sources/ehf_opw3_rebuild_working_document_v1_1.md)
+- [ehf_opw3_rebuild_working_document_v1_2](research/opw/sources/ehf_opw3_rebuild_working_document_v1_2.md)
+- [ehf_opw3_rebuild_working_document_v1_4](research/opw/sources/ehf_opw3_rebuild_working_document_v1_4.md)
+- [ehf_opw3_rebuild_working_document_v1_5](research/opw/sources/ehf_opw3_rebuild_working_document_v1_5.md)
+- [ehf_opw3_rebuild_working_document_v1_6](research/opw/sources/ehf_opw3_rebuild_working_document_v1_6.md)
+- [raf_odd_preserve_world_chamber_and_boundary_dynamics_v6](research/opw/sources/raf_odd_preserve_world_chamber_and_boundary_dynamics_v6.md)
 
 </details>

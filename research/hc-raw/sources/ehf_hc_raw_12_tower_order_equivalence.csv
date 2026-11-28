@@ -1,0 +1,11 @@
+N,singleton_filtrations,linear_orders,count_match,V1_seeded_tower_automorphism_size
+1,1,1,True,1
+2,2,2,True,1
+3,6,6,True,1
+4,24,24,True,1
+5,120,120,True,1
+6,720,720,True,1
+7,5040,5040,True,1
+8,40320,40320,True,1
+9,362880,362880,True,1
+10,3628800,3628800,True,1

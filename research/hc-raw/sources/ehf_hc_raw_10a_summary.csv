@@ -1,0 +1,7 @@
+k,states,expected_states,degree,shells,h_min,h_max,h_center,mean_h,variance_h,expected_variance_h,state_drift_formula_pass,state_diffusion_formula_pass,label_reflection_pass,refined_count_identity_pass,refined_first_moment_pass,refined_second_moment_pass,averaged_shell_detailed_balance_pass,averaged_shell_rows_pass,nonlumpable_shells,strong_lumpability_all_shells
+2,3,3,2,3,3,5,4,4,2/3,2/3,True,True,True,True,True,True,True,True,0,True
+3,10,10,6,7,6,12,9,9,3,3,True,True,True,True,True,True,True,True,3,False
+4,35,35,12,13,10,22,16,16,8,8,True,True,True,True,True,True,True,True,9,False
+5,126,126,20,21,15,35,25,25,50/3,50/3,True,True,True,True,True,True,True,True,17,False
+6,462,462,30,31,21,51,36,36,30,30,True,True,True,True,True,True,True,True,27,False
+7,1716,1716,42,43,28,70,49,49,49,49,True,True,True,True,True,True,True,True,39,False

@@ -1,0 +1,4 @@
+parent_even_n,target_even_N,parent_support,parent_edges_hit,descendants_per_parent_minmax,observed_distribution,expected_operator_distribution,same_sector_descendant_counts,flipped_sector_descendant_counts,actual_bipartition_tag_check,exact_match
+4,6,2,3,"(42, 42)","((2, Fraction(4, 7)), (3, Fraction(3, 7)))","((2, Fraction(4, 7)), (3, Fraction(3, 7)))",[24],[18],True,True
+6,8,2,180,"(72, 72)","((2, Fraction(5, 12)), (3, Fraction(5, 12)), (4, Fraction(1, 6)))","((2, Fraction(5, 12)), (3, Fraction(5, 12)), (4, Fraction(1, 6)))",[42],[30],True,True
+6,8,3,90,"(72, 72)","((3, Fraction(5, 9)), (4, Fraction(4, 9)))","((3, Fraction(5, 9)), (4, Fraction(4, 9)))",[40],[32],True,True

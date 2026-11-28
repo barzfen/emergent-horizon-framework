@@ -1,0 +1,6 @@
+{
+  "verdict": "EHF_AMP_FOUND_04A_ELEVEN_TO_TEN_MODULAR_TAIL_LAW_CANDIDATE_FOUND",
+  "full_126_channel_census": true,
+  "minimal_constant_tail_width": 4,
+  "claim_status": "finite-field discovery; not an exact QQ theorem"
+}

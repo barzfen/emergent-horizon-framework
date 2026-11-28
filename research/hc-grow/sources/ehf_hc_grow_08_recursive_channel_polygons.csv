@@ -1,0 +1,8 @@
+m,first_effective_layer_n,loop_length,support_color_sequence,start_sequence,raw_positional_identity,simple_HC_quotient_loop,distinct_support_colors,first_three_color_case,relation
+2,6,4,"(2, 2, 2, 3)","(0, 1, 0, 0)",True,True,2,False,"R_(0,2) R_(1,2) ... R_(m-1,2) R_(0,m) R_(0,m+1) = e"
+3,8,5,"(2, 2, 2, 3, 4)","(0, 1, 2, 0, 0)",True,True,3,True,"R_(0,2) R_(1,2) ... R_(m-1,2) R_(0,m) R_(0,m+1) = e"
+4,10,6,"(2, 2, 2, 2, 4, 5)","(0, 1, 2, 3, 0, 0)",True,True,3,False,"R_(0,2) R_(1,2) ... R_(m-1,2) R_(0,m) R_(0,m+1) = e"
+5,12,7,"(2, 2, 2, 2, 2, 5, 6)","(0, 1, 2, 3, 4, 0, 0)",True,True,3,False,"R_(0,2) R_(1,2) ... R_(m-1,2) R_(0,m) R_(0,m+1) = e"
+6,14,8,"(2, 2, 2, 2, 2, 2, 6, 7)","(0, 1, 2, 3, 4, 5, 0, 0)",True,True,3,False,"R_(0,2) R_(1,2) ... R_(m-1,2) R_(0,m) R_(0,m+1) = e"
+7,16,9,"(2, 2, 2, 2, 2, 2, 2, 7, 8)","(0, 1, 2, 3, 4, 5, 6, 0, 0)",True,True,3,False,"R_(0,2) R_(1,2) ... R_(m-1,2) R_(0,m) R_(0,m+1) = e"
+8,18,10,"(2, 2, 2, 2, 2, 2, 2, 2, 8, 9)","(0, 1, 2, 3, 4, 5, 6, 7, 0, 0)",True,True,3,False,"R_(0,2) R_(1,2) ... R_(m-1,2) R_(0,m) R_(0,m+1) = e"

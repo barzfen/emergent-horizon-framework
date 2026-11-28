@@ -1,0 +1,3 @@
+m,target_N,states,LR2_edges_found,LR2_edges_formula,faithful_found,faithful_formula,vertical_found,vertical_formula,new_site_anchor_mismatches,new_site_anchor_classes,old_anchor_classes
+3,6,60,180,180,120,120,60,60,0,"{('faithful', 1): 120, ('vertical', 2): 60}","{('faithful', 1): 72, ('vertical', 2): 12, ('vertical', 1): 48, ('faithful', 2): 48}"
+4,8,2520,10080,10080,7560,7560,2520,2520,0,"{('faithful', 1): 7560, ('vertical', 3): 2520}","{('faithful', 1): 5400, ('faithful', 3): 2160, ('vertical', 1): 2160, ('vertical', 3): 360}"

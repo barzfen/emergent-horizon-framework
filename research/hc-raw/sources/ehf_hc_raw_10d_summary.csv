@@ -1,0 +1,10 @@
+k,N,states,unique_histograms,histogram_injective,power_sum_recovery_exact,newton_recovery_exact,set_reconstruction_exact,h_redundant_first_moment_exact
+2,3,3,3,True,True,True,True,True
+3,5,10,10,True,True,True,True,True
+4,7,35,35,True,True,True,True,True
+5,9,126,126,True,True,True,True,True
+6,11,462,462,True,True,True,True,True
+7,13,1716,1716,True,True,True,True,True
+8,15,6435,6435,True,True,True,True,True
+9,17,24310,24310,True,True,True,True,True
+10,19,92378,92378,True,True,True,True,True

@@ -1,0 +1,28 @@
+{
+  "source_entries": 398,
+  "distinct_preserved_files": 388,
+  "total_preserved_bytes": 10792798,
+  "source_hash_checks": "PASS",
+  "python_files": 98,
+  "syntax_errors": [],
+  "utf8_bom_files_accepted_by_python": [
+    "research/opw-amp-bridge/sources/ehf_xbr_04f2_invisible_kernel_law_census.py",
+    "research/opw-amp-bridge/sources/ehf_xbr_04f4_exact_rule_stability_mechanism_audit.py",
+    "research/opw-amp-bridge/sources/ehf_xbr_04f6_global_zero_mode_krylov_saturation_structure_audit_v4.py",
+    "research/opw-amp-bridge/sources/ehf_xbr_04f6_global_zero_mode_krylov_saturation_structure_audit_v5.py",
+    "research/opw-amp-bridge/sources/ehf_xbr_04f6_global_zero_mode_krylov_saturation_structure_audit_v6.py",
+    "research/opw-amp-bridge/sources/ehf_xbr_04f6_global_zero_mode_krylov_saturation_structure_audit_v7.py",
+    "research/opw-amp-bridge/sources/ehf_xbr_04f_invisible_complement_spectrum_symmetry_audit.py"
+  ],
+  "scripts_without_assertions_loops_or_functions": [
+    "research/hc-grow/sources/ehf_hc_grow_01_reversal_support_propagation_multi_layer.py",
+    "research/hc-grow/sources/ehf_hc_grow_02_reversal_support_branching_operator.py",
+    "research/hc-grow/sources/ehf_hc_grow_03a_branching_parity_intertwining.py",
+    "research/hc-grow/sources/ehf_hc_grow_04_selected_lr3_stability_under_growth.py",
+    "research/hc-raw/sources/ehf_hc_raw_12_pre_hamilton_substrate_growth_definition_lock.py",
+    "research/hc-raw/sources/ehf_hc_raw_13_graded_hc_compatibility_naturality.py",
+    "research/hc-raw/sources/ehf_hc_raw_14_primitive_redundancy_dependency_minimality.py"
+  ],
+  "legacy_scripts_executed": false,
+  "scope": "Byte integrity and Python syntax only. Does not certify mathematical results, historical outputs, dependencies or runtimes."
+}

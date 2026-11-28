@@ -1,0 +1,7 @@
+k,shell_count_coefficients_match,label_refined_coefficients_match,states_from_coefficients,expected_states
+2,True,True,3,3
+3,True,True,10,10
+4,True,True,35,35
+5,True,True,126,126
+6,True,True,462,462
+7,True,True,1716,1716

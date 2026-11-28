@@ -33,3 +33,12 @@ Working notes may be speculative, but each document should label its evidence st
 [Memory versus reciprocal Hamiltonian holonomy, EHF-GROW-LIFT-04](../probes/reversals/growth-lift-12/README.md) distinguishes time-directed one-bit skew products from inverse-consistent graph voltages, reproduces finite MICRO/OPW3 growth checks, and records the nine commuting squares at n=7. A phase bit is sufficient for longer augmented periods but does not repair Pi-preserving geometric transport.
 
 [Natural orientation holonomy, EHF-HOL-05](../probes/reversals/orientation-holonomy-13/README.md) distinguishes a canonical orientation-double-cover cocycle from an arbitrary added memory bit. OPW23 has nontrivial finite closed-loop transport at seven and nine vertices, but it does not survive restriction to the currently growth-projectable reversal graph. Exact boundary ranks, witness loops and verification are retained.
+
+## Recovered Hamilton-cycle branches
+
+- [RAW](hc-raw/README.md) — the raw HC object and comparison geometry.
+- [GROW](hc-grow/README.md) — cross-layer reversal-support propagation and later correction notes.
+- [OPW3 and OPW23](opw/README.md) — move-set comparison and preserved working documents.
+- [AMP foundation sources](amplitudes/foundation/README.md) — original implementations referenced by the existing nine-point note, with partial retained run outputs.
+- [OPW–AMP bridge / XBR](opw-amp-bridge/README.md) — common growth, operator obstructions and representation/holonomy results.
+- [Consolidation provenance and validation](consolidation-2026-11-02/README.md) — byte preservation, available checks and explicit gaps.

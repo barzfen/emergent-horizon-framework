@@ -1,0 +1,12 @@
+n,available_supports,tested_generator_words,simple_mixed_triangles,finite_exact_no_mixed_triangle,simple_threecolor_length4_loops,universal_pentagon_sequence,universal_pentagon_starts,pentagon_raw_identity,pentagon_simple_HC_loop,shortest_threecolor_length_in_audit
+5,"(2,)",0,0,True,,,,,,
+6,"(2, 3)",1296,0,True,,,,,,
+7,"(2, 3)",2058,0,True,,,,,,
+8,"(2, 3, 4)",12288,0,True,,,,,,
+9,"(2, 3, 4)",17496,0,True,,,,,,
+10,"(2, 3, 4, 5)",60000,0,True,,,,,,
+8,"(2,3,4) focused",all 3-color length-4 words,n/a,n/a,0,"(2, 2, 2, 3, 4)","(0, 1, 2, 0, 0)",True,True,5
+9,"(2,3,4) focused",all 3-color length-4 words,n/a,n/a,0,"(2, 2, 2, 3, 4)","(0, 1, 2, 0, 0)",True,True,5
+10,"(2,3,4) focused",all 3-color length-4 words,n/a,n/a,0,"(2, 2, 2, 3, 4)","(0, 1, 2, 0, 0)",True,True,5
+11,"(2,3,4) focused",all 3-color length-4 words,n/a,n/a,0,"(2, 2, 2, 3, 4)","(0, 1, 2, 0, 0)",True,True,5
+12,"(2,3,4) focused",all 3-color length-4 words,n/a,n/a,0,"(2, 2, 2, 3, 4)","(0, 1, 2, 0, 0)",True,True,5

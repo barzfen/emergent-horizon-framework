@@ -10,6 +10,10 @@ The accompanying independent reconstruction uses exact rational arithmetic and s
 
 The original draft contains broader claims. This reconstruction does **not** independently recertify all 72 anchor/deletion charts, minimum-support claims, the seven-seed construction or all 21 templates. The original draft and the scope of this later computational check must be distinguished. Neither establishes new physical dynamics or a demonstrated application to scalar scaffolding.
 
+## Original source recovery, 2 November 2026
+
+The [AMP foundation source archive](../foundation/README.md) now preserves the available original 03A–L scripts and specifications, including the 03K/03L covariance stages referenced in the draft, plus related earlier/later sources and partial retained run outputs. These are distinct from the independent reconstruction below. Recovering their source does not rerun or recertify the broader theorem, and the full original nine-point certificate/run tree remains incomplete.
+
 ## Reproduce
 
 From the repository root, run:

@@ -1,0 +1,12 @@
+item,status,result
+Dihedral HC quotient,NATURAL,relabeling gives bijection of HC states
+Raw edge overlap / common-path pair data,NATURAL,exactly preserved by relabeling
+Reversal-support LR_l classes,NATURAL,support class preserved under relabeling
+LR3,NATURAL,same move relation after tower isomorphism
+All-slot insertion/deletion,NATURAL,growth and relabeling squares commute
+Deletion/support filtration,NATURAL,ancestor pair type commutes with tower isomorphism
+Intrinsic even bipartition,NATURAL,bipartition relabels functorially
+Newest-site Johnson chart,NATURAL RELATIVE TO TOWER,beta coordinates erase target label names and recover same subset chart
+Horizontal LR2 -> Johnson A1,NATURAL RELATIVE TO TOWER,horizontal/vertical classification and Johnson distance preserved
+First-appearance rank beta,TOWER-NATURAL,"covariant under tower isomorphism, not invariant under arbitrary static relabeling with tower held fixed"
+RAW-12 effect on earlier theorems,BOOKKEEPING REFINEMENT ONLY,no contradiction found in certified fixed-layer/growth constructions

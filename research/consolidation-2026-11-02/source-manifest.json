@@ -1,0 +1,3208 @@
+[
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_19.md",
+    "stored_modified_at": "2026-09-29T21:30:50.922104Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_19.md",
+    "sha256": "cc1fbf267fadbb65ed42039e32e1b074ac23caaa50412163168dfde9a7a32b98",
+    "size_bytes": 282132,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_20.md",
+    "stored_modified_at": "2026-08-26T23:37:45.902591Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_20.md",
+    "sha256": "c3ce156516742f976501448dbe391b9836261e9fa9d2e5331dcfd51974e66e70",
+    "size_bytes": 282653,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_14_primitive_redundancy_dependency_minimality.py",
+    "stored_modified_at": "2026-08-26T23:15:19.255932Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_14_primitive_redundancy_dependency_minimality.py",
+    "sha256": "ef20a05d012c705c4b9e502b42c5e76a715dd00cc9a832d5757e8f2e425ea424",
+    "size_bytes": 586,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_14_checks.csv",
+    "stored_modified_at": "2026-08-26T23:15:16.272206Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_14_checks.csv",
+    "sha256": "b0b24662bb2ae521390254651195103d40001505db13c3b5743bb6889c2908d7",
+    "size_bytes": 1496,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_14_redundancy_ledger.csv",
+    "stored_modified_at": "2026-08-26T23:15:13.262690Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_14_redundancy_ledger.csv",
+    "sha256": "40e8d08f4e5b1d2cb9a6960500b863013f4ce7a1f459af232725a199cb2e7e82",
+    "size_bytes": 1875,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_14_primitive_deletion_impacts.csv",
+    "stored_modified_at": "2026-08-26T23:15:10.405301Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_14_primitive_deletion_impacts.csv",
+    "sha256": "431a52013d217ee82769ca800e3ffd9306d80704b67d3ed91a90a3e9f460a10e",
+    "size_bytes": 1102,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_14_package_minimality.csv",
+    "stored_modified_at": "2026-08-26T23:15:07.350417Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_14_package_minimality.csv",
+    "sha256": "741a73b3d8acfa35edb9ac9dcea1e2f6c01d38ddbae93a0781dc67637a1a3af6",
+    "size_bytes": 1159,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_14_minimal_packages.csv",
+    "stored_modified_at": "2026-08-26T23:15:04.665093Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_14_minimal_packages.csv",
+    "sha256": "0e71c63634ebb80c3699f1d5db72df9c59559eb0751ba83f74416b6f0d40004d",
+    "size_bytes": 1199,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_14_dependency_edges.csv",
+    "stored_modified_at": "2026-08-26T23:15:01.530078Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_14_dependency_edges.csv",
+    "sha256": "79c816b9810f1ef05edd38bebf1ba815cda7fa28e65ed19d026813cad176fcbf",
+    "size_bytes": 909,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_14_dependency_nodes.csv",
+    "stored_modified_at": "2026-08-26T23:14:58.886746Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_14_dependency_nodes.csv",
+    "sha256": "9bb42ea7ddd4a7c341b7f070f5b14b9166dbf75098ee2e87766f88abeb6553f3",
+    "size_bytes": 1911,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_14_primitive_redundancy_dependency_minimality.md",
+    "stored_modified_at": "2026-08-26T23:14:56.226440Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_14_primitive_redundancy_dependency_minimality.md",
+    "sha256": "b714eab8c685b556b4b0571ef501e10cf17c8751a7b6e7200b1d1e9ee3b1ba33",
+    "size_bytes": 21975,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_19.md",
+    "stored_modified_at": "2026-08-26T23:14:52.827903Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_19.md",
+    "sha256": "cc1fbf267fadbb65ed42039e32e1b074ac23caaa50412163168dfde9a7a32b98",
+    "size_bytes": 282132,
+    "import_status": "exact duplicate collapsed"
+  },
+  {
+    "source_name": "ehf_hc_raw_13_graded_hc_compatibility_naturality.py",
+    "stored_modified_at": "2026-08-26T21:02:51.959724Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_13_graded_hc_compatibility_naturality.py",
+    "sha256": "799abd55120a2f0b68ecd56281a07b4f7b691535d116875f280372a520e06453",
+    "size_bytes": 1117,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_13_checks.csv",
+    "stored_modified_at": "2026-08-26T21:02:49.294800Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_13_checks.csv",
+    "sha256": "0d6940ab261cd700f6a061fa73e9454341c2d1f24301349cb99c5e6851a82c4d",
+    "size_bytes": 10558,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_13_symmetry_status.csv",
+    "stored_modified_at": "2026-08-26T21:02:46.656328Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_13_symmetry_status.csv",
+    "sha256": "91006d7833a2e5d7ad4c83d74b36dbc9000d2c60baed5d0626017f7883409048",
+    "size_bytes": 692,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_13_sector_johnson_naturality.csv",
+    "stored_modified_at": "2026-08-26T21:02:43.918071Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_13_sector_johnson_naturality.csv",
+    "sha256": "aaad484b81ee2be1f24cf1188bd227a10ad281c5111d69cbe237061488b88ae2",
+    "size_bytes": 718,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_13_growth_commuting_diagrams.csv",
+    "stored_modified_at": "2026-08-26T21:02:40.910367Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_13_growth_commuting_diagrams.csv",
+    "sha256": "cd64a296625f00202322b39ea01f3e56e7b32f2b3eea866aa1588b2343efaa0e",
+    "size_bytes": 1179,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_13_fixed_layer_naturality.csv",
+    "stored_modified_at": "2026-08-26T21:02:38.309915Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_13_fixed_layer_naturality.csv",
+    "sha256": "f3ff036965a08bc7b8093d6b67ea9a01e48c6d5e65f4f148f66dd45834e5bca8",
+    "size_bytes": 1235,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_13_summary.csv",
+    "stored_modified_at": "2026-08-26T21:02:35.143660Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_13_summary.csv",
+    "sha256": "287a8021f753064329020a687562589f078b77aceed4374b86cdddb1dd87b290",
+    "size_bytes": 1069,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_13_graded_hc_compatibility_naturality.md",
+    "stored_modified_at": "2026-08-26T21:02:32.459817Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_13_graded_hc_compatibility_naturality.md",
+    "sha256": "d5d9d72b5d7ab7c74e060308af4865684a23f9a2f82f4d43a84be6a4dd5b7406",
+    "size_bytes": 14070,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_18.md",
+    "stored_modified_at": "2026-08-26T21:02:29.756125Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_18.md",
+    "sha256": "65155eb9524533bb684e29e94794e18e8bbc9904a991cb8fb316f738f8f2efcf",
+    "size_bytes": 260222,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_12_pre_hamilton_substrate_growth_definition_lock.py",
+    "stored_modified_at": "2026-08-26T20:36:23.131958Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_12_pre_hamilton_substrate_growth_definition_lock.py",
+    "sha256": "19727149e3adc1e2e5b71ef339a1cb490c2cd188cbb1c93aff5d256a9e15d37f",
+    "size_bytes": 538,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_12_checks.csv",
+    "stored_modified_at": "2026-08-26T20:36:20.456216Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_12_checks.csv",
+    "sha256": "4f163c110a02d57473d08314f47dd8ca333cc668e253b179560d205c6e1dcab6",
+    "size_bytes": 1675,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_12_birth_rank_johnson_bridge.csv",
+    "stored_modified_at": "2026-08-26T20:36:17.112700Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_12_birth_rank_johnson_bridge.csv",
+    "sha256": "91085612de7a6479152a95484fa57f987c0fc4f0cd459da747aff7d432075d91",
+    "size_bytes": 644,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_12_hc_threshold_growth.csv",
+    "stored_modified_at": "2026-08-26T20:36:14.433539Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_12_hc_threshold_growth.csv",
+    "sha256": "64fdd49ca8a518f77caf24baf463c133e861ad72fd04623306090912f70ab118",
+    "size_bytes": 341,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_12_tower_order_equivalence.csv",
+    "stored_modified_at": "2026-08-26T20:36:11.629174Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_12_tower_order_equivalence.csv",
+    "sha256": "b8ff33e46566ad25aa48ee30c6cd87f4d6135c34f27f4a4e2e186fca97400e4f",
+    "size_bytes": 272,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_12_definition_options.csv",
+    "stored_modified_at": "2026-08-26T20:36:07.940387Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_12_definition_options.csv",
+    "sha256": "44ea23faea3a672d8785ec5ebebf91fc7ee19c282a91b82bec0560bb2be54d5b",
+    "size_bytes": 758,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_12_pre_hamilton_substrate_growth_definition_lock.md",
+    "stored_modified_at": "2026-08-26T20:36:05.132149Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_12_pre_hamilton_substrate_growth_definition_lock.md",
+    "sha256": "4e0312c841c5d79b31f0a2aeeddaf36fb919ec93f5e930f6d5bf4878c2f9fa1d",
+    "size_bytes": 14712,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_17.md",
+    "stored_modified_at": "2026-08-26T20:35:59.210691Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_17.md",
+    "sha256": "e85f2d1cd00aee8e108ab5ac102cd9546a443e2e807828bdc2893008ea40218b",
+    "size_bytes": 246202,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_11_growth_history_observable_reconstruction.py",
+    "stored_modified_at": "2026-08-26T10:46:43.646065Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_11_growth_history_observable_reconstruction.py",
+    "sha256": "65e2235d1c92841c55af3d956c6f7b09ed92c2c79cce0fc023dafe989de87835",
+    "size_bytes": 1857,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10f_cdf_one_defect_proof_queue_v0_1.md",
+    "stored_modified_at": "2026-08-26T10:46:40.544948Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10f_cdf_one_defect_proof_queue_v0_1.md",
+    "sha256": "12e560b89827f288584ed8521acfcc5f495ef3fb9e7b87f7b22b166410b01580",
+    "size_bytes": 1390,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_11_checks.csv",
+    "stored_modified_at": "2026-08-26T10:46:37.757640Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_11_checks.csv",
+    "sha256": "2fae4e8d7a36d9b7e92f0d8800001415f66d849e2e0f68328971768f58a38552",
+    "size_bytes": 2280,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_11_seed_ambiguity_witnesses.csv",
+    "stored_modified_at": "2026-08-26T10:46:35.049791Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_11_seed_ambiguity_witnesses.csv",
+    "sha256": "b43f582ca699bef5a455385be7d0d4db78d61e6c06ad02d8b7315bb2c196fd1d",
+    "size_bytes": 770,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_11_canonical_birth_stage_transport.csv",
+    "stored_modified_at": "2026-08-26T10:46:32.449994Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_11_canonical_birth_stage_transport.csv",
+    "sha256": "2c212ed80f6b82930f6ccfda093e038d5da9fd2090059c1f66c5a0371b3001ba",
+    "size_bytes": 1096,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_11_symmetry_reconstruction.csv",
+    "stored_modified_at": "2026-08-26T10:46:29.599270Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_11_symmetry_reconstruction.csv",
+    "sha256": "ade941af16f73a050eaa7c84f0667da2309ee04ca73346cfe21ea92d3a7f6d3a",
+    "size_bytes": 5473,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_11_summary.csv",
+    "stored_modified_at": "2026-08-26T10:46:26.467932Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_11_summary.csv",
+    "sha256": "fda4993460ed836da80332d66df555262b4df91511daa57f38d713bf261b8af9",
+    "size_bytes": 1398,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_16.md",
+    "stored_modified_at": "2026-08-26T10:46:23.449543Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_16.md",
+    "sha256": "7397079b015e889a10e1b9a1e08349df2f2f1e7935583e083d2f1430f52f10db",
+    "size_bytes": 231543,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10e_johnson_shell_ollivier_curvature_reaudit.py",
+    "stored_modified_at": "2026-08-26T10:18:24.899037Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10e_johnson_shell_ollivier_curvature_reaudit.py",
+    "sha256": "6e5a53419906bd607b91b42105f37e56cb726346b0c89c3fff61d7b0e9762878",
+    "size_bytes": 3309,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10e_checks.csv",
+    "stored_modified_at": "2026-08-26T10:18:21.730136Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10e_checks.csv",
+    "sha256": "555874edba6adb4a3ca2c635aad4e5871a6bb300e743ae268b2e7c977494aef4",
+    "size_bytes": 13535,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10e_constant_curvature_nonuniqueness.csv",
+    "stored_modified_at": "2026-08-26T10:18:18.979707Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10e_constant_curvature_nonuniqueness.csv",
+    "sha256": "28b16861e60213a845e5740dee7eab091ad497fc061e4e4d82dc010c38ef7c4b",
+    "size_bytes": 684,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10e_old_note_reassessment.csv",
+    "stored_modified_at": "2026-08-26T10:18:15.736847Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10e_old_note_reassessment.csv",
+    "sha256": "5ec2d8e06d6fcff893c1a09ac63f471ebb75bb3e5433f298535c0816a51d5b20",
+    "size_bytes": 1724,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10e_observable_stress.csv",
+    "stored_modified_at": "2026-08-26T10:18:11.745776Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10e_observable_stress.csv",
+    "sha256": "d0f44ae7e7e9c152b9eabb3d15b09ed9488828158559c12aa613fa0f4085dafb",
+    "size_bytes": 1609,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10e_micro_johnson_curvature.csv",
+    "stored_modified_at": "2026-08-26T10:18:08.845531Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10e_micro_johnson_curvature.csv",
+    "sha256": "9d147578bca85c45096bde83df4f520df9b88b73387f9fe23c4b1c5e9ceca2d9",
+    "size_bytes": 18689,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10e_idleness_exact.csv",
+    "stored_modified_at": "2026-08-26T10:18:05.699358Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10e_idleness_exact.csv",
+    "sha256": "1315a6ddd8825af2ffad919d48057d71756d23c4627256f5f04bef11784e1b46",
+    "size_bytes": 1806,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10e_shell_curvature_exact.csv",
+    "stored_modified_at": "2026-08-26T10:18:02.860911Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10e_shell_curvature_exact.csv",
+    "sha256": "9f9e40b726057ca1b8c36d750011f5a19b6877e8e620a1334fbe41415b41942f",
+    "size_bytes": 31174,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_15.md",
+    "stored_modified_at": "2026-08-26T10:17:59.482071Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_15.md",
+    "sha256": "5d8a7192a1a18728ab44b83843b7212dad7132495345a724c220bea8f2713b34",
+    "size_bytes": 214360,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10d_directed_displacement_reconstruction_theorem.py",
+    "stored_modified_at": "2026-08-25T23:00:39.898841Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10d_directed_displacement_reconstruction_theorem.py",
+    "sha256": "5cadaa6388cdeacb979d6d2f3bbaffd09ac5c117c4e04dbade004fbd9e52f4d6",
+    "size_bytes": 2526,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10d_checks.csv",
+    "stored_modified_at": "2026-08-25T23:00:37.109124Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10d_checks.csv",
+    "sha256": "a1cb53607f87dc15e301b658868dd7077c7200ab769dd1e99121ff67516e988a",
+    "size_bytes": 1169,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10d_reconstruction_samples.csv",
+    "stored_modified_at": "2026-08-25T23:00:34.145611Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10d_reconstruction_samples.csv",
+    "sha256": "1d4a2e762d037db8ec21393e293324b892a2a09553f54d920392a270105a5b82",
+    "size_bytes": 5002,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10d_recurrence_ledger.csv",
+    "stored_modified_at": "2026-08-25T23:00:31.251787Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10d_recurrence_ledger.csv",
+    "sha256": "f92cfef92c40c707068e163c63acf622c070258232676df8f8f961752c20f390",
+    "size_bytes": 495,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10d_summary.csv",
+    "stored_modified_at": "2026-08-25T23:00:27.798266Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10d_summary.csv",
+    "sha256": "d271b2ed718d44b1baf6db13c32ae3c0e47ab4392d39c4ef273f3ca75faec2b1",
+    "size_bytes": 505,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_14.md",
+    "stored_modified_at": "2026-08-25T23:00:24.498813Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_14.md",
+    "sha256": "7af91329ca3eaaa3c5ec1656666bf45dfd9f7fedb1801209b15dbe4c2418ea86",
+    "size_bytes": 196036,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10c_exact_coarse_closure_minimal_moment.py",
+    "stored_modified_at": "2026-08-25T11:12:39.673744Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10c_exact_coarse_closure_minimal_moment.py",
+    "sha256": "c8912125827a03baf7bc07807fa5a99b4bbcf09f1887f31e8492b2447a129b80",
+    "size_bytes": 2949,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10c_checks.csv",
+    "stored_modified_at": "2026-08-25T11:12:34.333720Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10c_checks.csv",
+    "sha256": "3829aa1aa75fa064b0b90b4c18e73a0b144e249f1ae58490562fbae9d59b6fc6",
+    "size_bytes": 1041,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10c_moment_hierarchy.csv",
+    "stored_modified_at": "2026-08-25T11:12:31.605220Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10c_moment_hierarchy.csv",
+    "sha256": "1fb47764ab72d45e3f7e05bc479d9f71122848038b0b98fede4761e816541891",
+    "size_bytes": 976,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10c_failure_witnesses.csv",
+    "stored_modified_at": "2026-08-25T11:12:28.892779Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10c_failure_witnesses.csv",
+    "sha256": "097f401abca1eaa0f650d98db86f71b5d01568c6688ff705f1667d194dc487c3",
+    "size_bytes": 12198,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10c_equitable_refinement.csv",
+    "stored_modified_at": "2026-08-25T11:12:25.730374Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10c_equitable_refinement.csv",
+    "sha256": "f4e67805d3daf456a065ba219295650f531c5d5c01bd3e4fbc1cf3b416146861",
+    "size_bytes": 519,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10c_moment_closure.csv",
+    "stored_modified_at": "2026-08-25T11:12:23.072782Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10c_moment_closure.csv",
+    "sha256": "d4b72ddf1f2600c11a4b847e241c8d92b3a4f2889192c2f589ae693fd87a0b65",
+    "size_bytes": 1403,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10c_summary.csv",
+    "stored_modified_at": "2026-08-25T11:12:20.091674Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10c_summary.csv",
+    "sha256": "a9da93bfbd2179673553dbf80947dcd014c28862213850297fd6d799b9237283",
+    "size_bytes": 690,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_13.md",
+    "stored_modified_at": "2026-08-25T11:12:17.615187Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_13.md",
+    "sha256": "cdbea69e325040896584710ca96141277a44071f136f676c89ce9d6c162f1555",
+    "size_bytes": 183165,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10b_birth_rank_gauge_observable_robustness.py",
+    "stored_modified_at": "2026-08-25T07:21:02.840862Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10b_birth_rank_gauge_observable_robustness.py",
+    "sha256": "bd2afb49e47fbaf1768d632641a674d64f1ca85eb5bfe663ffd1f7be60bc75e8",
+    "size_bytes": 3680,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10b_checks.csv",
+    "stored_modified_at": "2026-08-25T07:20:59.175888Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10b_checks.csv",
+    "sha256": "19a5d11ee1f58aedce7b261ddf6b3842d1040e30eb25401b083e76308a5e640e",
+    "size_bytes": 11694,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10b_counterexamples.csv",
+    "stored_modified_at": "2026-08-25T07:20:52.929738Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10b_counterexamples.csv",
+    "sha256": "b63c3f0ed78b40d2ff4a0e7671291ad1eafbb01bc03bdc695b2538ab6dc338c6",
+    "size_bytes": 562,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10b_dependency_ledger.csv",
+    "stored_modified_at": "2026-08-25T07:20:49.039156Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10b_dependency_ledger.csv",
+    "sha256": "061479ebbbac826305528efe5a9e0d8a1cadcda8584c8ba49deed4d70529c052",
+    "size_bytes": 1042,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10b_gauge_ledger.csv",
+    "stored_modified_at": "2026-08-25T07:20:45.243667Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10b_gauge_ledger.csv",
+    "sha256": "9dfa92541c78f93e1640e80d03353e039b91056e04e024ff4323ff7afc0de547",
+    "size_bytes": 1035,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10b_universal_identity.csv",
+    "stored_modified_at": "2026-08-25T07:20:41.283377Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10b_universal_identity.csv",
+    "sha256": "c1122c605c34295d7298ad18d647af3e74490da635da0ac48bd7b6703baa6d51",
+    "size_bytes": 1091,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10b_weight_family_census.csv",
+    "stored_modified_at": "2026-08-25T07:20:38.725365Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10b_weight_family_census.csv",
+    "sha256": "5e728cb0b05f37f339bdd3ba1f21da6133f90b8f1b68424412495dc429d8e537",
+    "size_bytes": 6759,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_12.md",
+    "stored_modified_at": "2026-08-25T07:20:34.498209Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_12.md",
+    "sha256": "7c03f0ad86c00ad36ac57f9cc6761011e5405f6d1936a8634823b973324fc746",
+    "size_bytes": 171688,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10a_johnson_transport_recovery_audit.py",
+    "stored_modified_at": "2026-08-25T07:07:01.643767Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10a_johnson_transport_recovery_audit.py",
+    "sha256": "17df365fd82a79274a9f74ed2a352cddd802b6162e35b4af09bb9b8ddfd0e0aa",
+    "size_bytes": 3596,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10a_checks.csv",
+    "stored_modified_at": "2026-08-25T07:06:58.488783Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10a_checks.csv",
+    "sha256": "133276896fb3bd5571ae0f5e2559afa7642da546c0942b30b1c4584ae5ec799e",
+    "size_bytes": 8440,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10a_historical_comparison.csv",
+    "stored_modified_at": "2026-08-25T07:06:54.946362Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10a_historical_comparison.csv",
+    "sha256": "cdd66e9f0ee102d02c4686b986770cffba9341fa1a6093075a79d3aecc886f73",
+    "size_bytes": 1516,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10a_generating_function_certification.csv",
+    "stored_modified_at": "2026-08-25T07:06:51.760915Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10a_generating_function_certification.csv",
+    "sha256": "3e8ba903d5d86d8e8a5878ba1bb4651e78cb0d41eb10625ae25f8a4c22335e18",
+    "size_bytes": 228,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10a_dependency_ledger.csv",
+    "stored_modified_at": "2026-08-25T07:06:49.162841Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10a_dependency_ledger.csv",
+    "sha256": "6ba6411d923759eca1131e0346e7d4aa31392fa1f0a0df488bd2eea39766188e",
+    "size_bytes": 1199,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10a_shell_transport.csv",
+    "stored_modified_at": "2026-08-25T07:06:46.160415Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10a_shell_transport.csv",
+    "sha256": "4869570bc9c4602072920dca32a668bd427f53f18e9f92d7c17ab69a0024d2d2",
+    "size_bytes": 5870,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_10a_summary.csv",
+    "stored_modified_at": "2026-08-25T07:06:42.999241Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_10a_summary.csv",
+    "sha256": "fd1649c881d61626c3de87fc1e1f55c6bfe185ce92fa4ac113d9e8bde891e478",
+    "size_bytes": 852,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_11.md",
+    "stored_modified_at": "2026-08-25T07:06:40.297219Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_11.md",
+    "sha256": "3c7ba2227c9bff358a01c1a6617dd1a9a5e8451537b8ed9d45c3a377118606c9",
+    "size_bytes": 151471,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_09a_johnson_A1_selection_audit.py",
+    "stored_modified_at": "2026-08-25T04:27:40.961628Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_09a_johnson_A1_selection_audit.py",
+    "sha256": "117f1c3143c227868e0e5332c6bd28d945bb88de704960e9f5b973311bde6fa8",
+    "size_bytes": 2195,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_09a_checks.csv",
+    "stored_modified_at": "2026-08-25T04:27:38.341403Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_09a_checks.csv",
+    "sha256": "86f3e916eecfee5de8c553be4b9c86d47b4c2097862f6536de6808c9e12640e1",
+    "size_bytes": 1208,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_09a_exhaustive_certification.csv",
+    "stored_modified_at": "2026-08-25T04:27:35.341691Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_09a_exhaustive_certification.csv",
+    "sha256": "89572e9282b8a7387633aa54f8971e8d78c41a2ed05109eadb8af068f29912ef",
+    "size_bytes": 539,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_09a_growth_selector.csv",
+    "stored_modified_at": "2026-08-25T04:27:32.813104Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_09a_growth_selector.csv",
+    "sha256": "30a2f58fcd2f35a3d2836a5dcbe6309848f04b11248d36b95cd088579f54e5e7",
+    "size_bytes": 1083,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_09a_anchor_covariance.csv",
+    "stored_modified_at": "2026-08-25T04:27:29.612953Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_09a_anchor_covariance.csv",
+    "sha256": "7749866a837d71a0f31808c8ccd738f00bb03fa4e82be12a4c46fc2824b08304",
+    "size_bytes": 236,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_10.md",
+    "stored_modified_at": "2026-08-25T04:27:27.072296Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_10.md",
+    "sha256": "3226feaa8aadd617d10172b436951cf6ee23db4202c6e341609a01b91fd33de9",
+    "size_bytes": 136924,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_08b_intrinsic_bipartition_johnson_quotient.py",
+    "stored_modified_at": "2026-08-24T12:51:53.225726Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_08b_intrinsic_bipartition_johnson_quotient.py",
+    "sha256": "785c789df590b84812e30b90175f6aca18cd0e58fa212863845250a637cb4e7b",
+    "size_bytes": 1811,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_08b_checks.csv",
+    "stored_modified_at": "2026-08-24T12:51:50.118792Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_08b_checks.csv",
+    "sha256": "745414d07a7b2ba64763c416c76f25e64b816514e405d936339e52fa170828e0",
+    "size_bytes": 7377,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_08b_fiber_certification.csv",
+    "stored_modified_at": "2026-08-24T12:51:47.477399Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_08b_fiber_certification.csv",
+    "sha256": "98e1610203ec3ab199682154e978db6d424670843d1202bc4dd1ad0ca4ac5a88",
+    "size_bytes": 430,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_08b_quotient_weights.csv",
+    "stored_modified_at": "2026-08-24T12:51:44.554838Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_08b_quotient_weights.csv",
+    "sha256": "61e86e3ad82a38acb79b3b25675ed001ce0987e518fb662aa9f58a03e50d9769",
+    "size_bytes": 3439,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_08b_reversal_sector_shells.csv",
+    "stored_modified_at": "2026-08-24T12:51:42.029829Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_08b_reversal_sector_shells.csv",
+    "sha256": "958f6a3efac6b1201d7cf57fe52484ae2febefb8a32e25ff09f2f5a7778f290d",
+    "size_bytes": 2330,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_08b_summary.csv",
+    "stored_modified_at": "2026-08-24T12:51:39.412831Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_08b_summary.csv",
+    "sha256": "a64cd424e0edc9b1683a14a9edec70de928a108b143eb13d21bcb2df27d41a8c",
+    "size_bytes": 1225,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_9.md",
+    "stored_modified_at": "2026-08-24T12:51:36.787276Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_9.md",
+    "sha256": "a354df1042d07af24995cf88ae10b256181029db3d7c31903f4010929aa287a6",
+    "size_bytes": 123705,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_07_reversal_support_growth_filtration.py",
+    "stored_modified_at": "2026-08-24T12:06:57.922736Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_07_reversal_support_growth_filtration.py",
+    "sha256": "dd061c55735516a158ee26abbe8f863c4827ed5ad2db6ac030f3b7c650615219",
+    "size_bytes": 7325,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_07_checks.csv",
+    "stored_modified_at": "2026-08-24T12:06:54.895167Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_07_checks.csv",
+    "sha256": "796e4cbc0617f21d92a237cf5fc5b5bb518ce7485265289dcd49576a8a1345fd",
+    "size_bytes": 40056,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_07_exhaustive_certification.csv",
+    "stored_modified_at": "2026-08-24T12:06:51.707519Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_07_exhaustive_certification.csv",
+    "sha256": "0445b16f03bedb4a8b5457198774babf32216d5431aa7dd7cb3cb196af54d95b",
+    "size_bytes": 2011,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_07_repeated_deletion.csv",
+    "stored_modified_at": "2026-08-24T12:06:48.894724Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_07_repeated_deletion.csv",
+    "sha256": "bc4dd048ff150f22563d4c6064c0174efa2cb73ff6d2d62736e4f157fa3c3ad6",
+    "size_bytes": 28153,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_07_one_step_formula.csv",
+    "stored_modified_at": "2026-08-24T12:06:45.942252Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_07_one_step_formula.csv",
+    "sha256": "49ed866d95660053456bc3812c64437ed3a57909aa6d2276dfbb4b34154779d6",
+    "size_bytes": 17313,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_8.md",
+    "stored_modified_at": "2026-08-24T12:06:42.655958Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_8.md",
+    "sha256": "0fc5efba5322ba0d766e4faa087fe1be6b9b3781effb26b762769c2b8e7ebcb7",
+    "size_bytes": 106063,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_06_bipartition_principle_stress_test.py",
+    "stored_modified_at": "2026-08-24T11:47:07.319315Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_06_bipartition_principle_stress_test.py",
+    "sha256": "b4ed796ebb14e283bf682f79f9076d4c72c58b4d779b5852b43584a60604d49b",
+    "size_bytes": 10602,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_06_checks.csv",
+    "stored_modified_at": "2026-08-24T11:47:03.532689Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_06_checks.csv",
+    "sha256": "49789f823d9805079cc5e8fc1ca14ac6f45283866223dd960591c6f56602fd93",
+    "size_bytes": 2741,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_06_lr3_lift_sector_census.csv",
+    "stored_modified_at": "2026-08-24T11:46:59.908281Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_06_lr3_lift_sector_census.csv",
+    "sha256": "abbecbbadb06016597fd9e7ea31762b20a354312a954c9e3753f199f5be2f335",
+    "size_bytes": 200,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_06_cross_projection_types.csv",
+    "stored_modified_at": "2026-08-24T11:46:57.108974Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_06_cross_projection_types.csv",
+    "sha256": "25f55993b0a9c8bc97bf8fc7a22522b88d7f93e89915c885e88c8a98a3bbec62",
+    "size_bytes": 183,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_06_rule_growth_projection.csv",
+    "stored_modified_at": "2026-08-24T11:46:51.485576Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_06_rule_growth_projection.csv",
+    "sha256": "ee302cd412564c2020caab59c571c202248197939425dff64d3322ceb2e519d6",
+    "size_bytes": 1311,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_06_sector_incidence.csv",
+    "stored_modified_at": "2026-08-24T11:46:47.440436Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_06_sector_incidence.csv",
+    "sha256": "bffd043f408aa1048536ff52ae80e1f8d7e2b7d5456b34a6a3830fdf08d5e0d0",
+    "size_bytes": 276,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_06_growth_bijection.csv",
+    "stored_modified_at": "2026-08-24T11:46:42.823646Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_06_growth_bijection.csv",
+    "sha256": "3d148882e8d6e6ec70a2829cba8005137687b0aafaba22d58b62a76c68e7b92f",
+    "size_bytes": 225,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_7.md",
+    "stored_modified_at": "2026-08-24T11:46:39.050218Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_7.md",
+    "sha256": "d3f696cbaffa3dec75dee165b70587e6a2b86a2aa3d7da37b951de31f3e12684",
+    "size_bytes": 92888,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_05b_minimality_uniqueness_stress_test.py",
+    "stored_modified_at": "2026-08-24T11:31:41.719190Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_05b_minimality_uniqueness_stress_test.py",
+    "sha256": "b7a6dab562a1cb82695efeafbf45c47e96baf63a00fa19516dd453df8161e399",
+    "size_bytes": 5993,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_05b_checks.csv",
+    "stored_modified_at": "2026-08-24T11:31:38.773270Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_05b_checks.csv",
+    "sha256": "a40ea5957da349535898bc1e9cf82cac646d2f3be8f181614ca15a8a2732177b",
+    "size_bytes": 1986,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_05b_exhaustive_controls.csv",
+    "stored_modified_at": "2026-08-24T11:31:35.429315Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_05b_exhaustive_controls.csv",
+    "sha256": "c6f368b2908660a564bb017f6e4e9bc13002374aed299690d2615c09579dd00d",
+    "size_bytes": 883,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_05b_candidate_rules.csv",
+    "stored_modified_at": "2026-08-24T11:31:32.449335Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_05b_candidate_rules.csv",
+    "sha256": "ece5e6bfda791d9e0f12d549e4726ee8ef65480e3ea63a0198fe45f93e112946",
+    "size_bytes": 1065,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_05b_union_census.csv",
+    "stored_modified_at": "2026-08-24T11:31:29.382619Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_05b_union_census.csv",
+    "sha256": "6bed774354048711e16c442eb707ce7ce2062978ab19be644caefc67ed1857e2",
+    "size_bytes": 9411,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_05b_summary.csv",
+    "stored_modified_at": "2026-08-24T11:31:26.060752Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_05b_summary.csv",
+    "sha256": "b2736c5aa238df61f93becb3408760cd6956515b7c802e9a944a0b0c0efdb0c5",
+    "size_bytes": 489,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_6.md",
+    "stored_modified_at": "2026-08-24T11:31:21.819296Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_6.md",
+    "sha256": "34fc4160349f7d8f9e7d8aa2ac060ee9d29ebdc54c406c79dcb2d57ea72249b9",
+    "size_bytes": 77565,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_05a_lr3_connectivity_theorem.py",
+    "stored_modified_at": "2026-08-24T11:22:22.884879Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_05a_lr3_connectivity_theorem.py",
+    "sha256": "df924c795d0b03a7fe59e4f9e4c4e3a2639bc6df4d2157e5ada7095339ed2753",
+    "size_bytes": 3235,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_05a_checks.csv",
+    "stored_modified_at": "2026-08-24T11:22:20.097491Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_05a_checks.csv",
+    "sha256": "1b2833e17bb4c1794fc51c2554f98a828a8614d8eab96317bf8778a2cf2b094d",
+    "size_bytes": 2939,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_05a_exhaustive_census.csv",
+    "stored_modified_at": "2026-08-24T11:22:15.454062Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_05a_exhaustive_census.csv",
+    "sha256": "c1c60269da05db7d6cdf1a1eda137b882cfdc5786828d7d75981ec76ebeae190",
+    "size_bytes": 456,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_05a_summary.csv",
+    "stored_modified_at": "2026-08-24T11:22:10.395789Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_05a_summary.csv",
+    "sha256": "afb9cbd1b031a55cfef312649f770109350dd3cd5119dc986dcf589b7769a6f4",
+    "size_bytes": 2283,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_5.md",
+    "stored_modified_at": "2026-08-24T11:22:07.636135Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_5.md",
+    "sha256": "1fb915196ad506b73684868116b3853b301f992aa528f560f514c3b39e6edd80",
+    "size_bytes": 63490,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_04b_lr3_location_raw_pair_geometry.py",
+    "stored_modified_at": "2026-08-24T11:06:28.710539Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_04b_lr3_location_raw_pair_geometry.py",
+    "sha256": "2dae64eebc7252418bc10bf8082749998a1b6729f8612d4a876b9ac5a7db67bf",
+    "size_bytes": 7430,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_04b_checks.csv",
+    "stored_modified_at": "2026-08-24T11:06:26.111819Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_04b_checks.csv",
+    "sha256": "bf381750ce4c285cd64d7119ab31dabece40030d1c940cfe39cc7894cf34ebf2",
+    "size_bytes": 11080,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_04b_components.csv",
+    "stored_modified_at": "2026-08-24T11:06:23.142831Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_04b_components.csv",
+    "sha256": "7741083b2c5ae7faa6749bdf535970df1db0e8b7b35ea93b0a473b4428f95bdf",
+    "size_bytes": 297,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_04b_reversal_classes.csv",
+    "stored_modified_at": "2026-08-24T11:06:20.466709Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_04b_reversal_classes.csv",
+    "sha256": "3ac96184bfe7b1e6401f3a0a53a1dc02c3a25eec931b4d1d11287df4679580a9",
+    "size_bytes": 2660,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_04b_summary.csv",
+    "stored_modified_at": "2026-08-24T11:06:17.718493Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_04b_summary.csv",
+    "sha256": "98c735127fe2fb713e83df20fcd20d5dc744d7fc3b6873acd03bd67798560acf",
+    "size_bytes": 319,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_4.md",
+    "stored_modified_at": "2026-08-24T11:06:14.580752Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_4.md",
+    "sha256": "b2bf09c61f765f9e1251a4398af8ad0711d9cc75d3a99f01ce2bec337e78da33",
+    "size_bytes": 50299,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_03_raw_comparison_scheme_overlap_algebra.py",
+    "stored_modified_at": "2026-08-24T09:52:39.055419Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_03_raw_comparison_scheme_overlap_algebra.py",
+    "sha256": "2155aec5cd5b00affe71d32eba1feae91eb83025cbc69cb8a181969157b2c5fb",
+    "size_bytes": 6451,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_03_checks.csv",
+    "stored_modified_at": "2026-08-24T09:52:35.749409Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_03_checks.csv",
+    "sha256": "334613f427726aa5e19974016542e0e7b129aedcbfc5aff528e6d300b6cbd2b5",
+    "size_bytes": 547,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_03_association_failure_witnesses.csv",
+    "stored_modified_at": "2026-08-24T09:52:32.750710Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_03_association_failure_witnesses.csv",
+    "sha256": "d87c43dccf1f619cd1695b27f88a0b8e8b58308762464e0528a307aaacd3e330",
+    "size_bytes": 269,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_03_overlap_refinement.csv",
+    "stored_modified_at": "2026-08-24T09:52:29.767873Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_03_overlap_refinement.csv",
+    "sha256": "7a595e23fa98a828f9d107e3df2fe70f7a58c47967bd70bf284dac76ec5a1752",
+    "size_bytes": 571,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_03_summary.csv",
+    "stored_modified_at": "2026-08-24T09:52:27.030147Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_03_summary.csv",
+    "sha256": "3a57689c39d57d628ffca390db5cb2b3f91c2221f2fa5f1b6ac5f85e2535ba2f",
+    "size_bytes": 464,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_3.md",
+    "stored_modified_at": "2026-08-24T09:52:24.234364Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_3.md",
+    "sha256": "9c976dc45ced49e1cb0285a437fb3aeb590915083f3ff876d4278523b0dfe19b",
+    "size_bytes": 40573,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_02_exact_overlap_distribution_law.py",
+    "stored_modified_at": "2026-08-24T08:46:57.243955Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_02_exact_overlap_distribution_law.py",
+    "sha256": "6db26ce398a89a7aa462c6886bc8135c137852903366e5de8a542e068548f0ef",
+    "size_bytes": 10003,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_2.md",
+    "stored_modified_at": "2026-08-24T08:46:54.559978Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_2.md",
+    "sha256": "69c588e3d5bf3f0e1872fcd214809c987590b1a9e3795c80a1bf731a2b5c1ac3",
+    "size_bytes": 34704,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_01_definition_lock_incidence_overlap_census.py",
+    "stored_modified_at": "2026-08-24T07:41:38.367143Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_01_definition_lock_incidence_overlap_census.py",
+    "sha256": "039312279468d55fc05aec1484ad7886ade35900a63bf13f8d69100416d09ccd",
+    "size_bytes": 12481,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_raw_working_document_v0_1.md",
+    "stored_modified_at": "2026-08-24T07:41:35.162069Z",
+    "destination": "research/hc-raw/sources/ehf_hc_raw_working_document_v0_1.md",
+    "sha256": "f135bbcc7a0d59ef46a25930a4fbf3d535ff116fdb362a4a6f7fc99be7753b78",
+    "size_bytes": 21183,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_working_document_v0_8.md",
+    "stored_modified_at": "2026-09-29T21:33:53.890228Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_working_document_v0_8.md",
+    "sha256": "e164874effb7c790d7b03f98a834ea746b21b9dc520ba0d7b5f9b37ab6156af0",
+    "size_bytes": 130710,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_08_cross_channel_loop_coupling_geometry.py",
+    "stored_modified_at": "2026-08-30T10:43:26.251259Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_08_cross_channel_loop_coupling_geometry.py",
+    "sha256": "28b1ac9d3a5aafa9a91c9124ca530906b28c3dcd0b3e926157e770dc55c44532",
+    "size_bytes": 8123,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_08_checks.csv",
+    "stored_modified_at": "2026-08-30T10:43:23.088740Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_08_checks.csv",
+    "sha256": "d79e650051cf263d6cd2ed40513172bbf0dba746a453fe09bfd5b88c29202062",
+    "size_bytes": 18160,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_08_unique_mixed_squares.csv",
+    "stored_modified_at": "2026-08-30T10:43:19.760239Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_08_unique_mixed_squares.csv",
+    "sha256": "802a6fbe5250ce8f8e32404083a61def4e0016bc94c6dbca614d482bca3f19b6",
+    "size_bytes": 1649,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_08_square_holonomy_summary.csv",
+    "stored_modified_at": "2026-08-30T10:43:16.935920Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_08_square_holonomy_summary.csv",
+    "sha256": "38319f0522e192eade6f98a728d780e0c687b98629926e29e0ca6c809f5e58bd",
+    "size_bytes": 3468,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_08_triangle_and_threecolor_minimality.csv",
+    "stored_modified_at": "2026-08-30T10:43:13.593334Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_08_triangle_and_threecolor_minimality.csv",
+    "sha256": "d6194ef31c9c3d55219d55bd9f1bde614c8799a944d29056bdc4a525e1756f9a",
+    "size_bytes": 991,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_08_recursive_channel_polygons.csv",
+    "stored_modified_at": "2026-08-30T10:43:10.810545Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_08_recursive_channel_polygons.csv",
+    "sha256": "7b6da242c2fe5c9f1e8e788a7ddc62062761687a03b658e4586ac09c96454602",
+    "size_bytes": 1075,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_08_nested_transport.csv",
+    "stored_modified_at": "2026-08-30T10:43:08.103261Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_08_nested_transport.csv",
+    "sha256": "5f612cf362895974450746e8194cf33f7e88b2dc53624e35eda8c848cb1c93e7",
+    "size_bytes": 3571,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_08_partial_overlap_commutators.csv",
+    "stored_modified_at": "2026-08-30T10:43:05.277859Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_08_partial_overlap_commutators.csv",
+    "sha256": "7a17e275d0893dacb6b04c362da884d929957214d50a3741a421ee27f5b7f42a",
+    "size_bytes": 3584,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_08_pair_overlap_regimes.csv",
+    "stored_modified_at": "2026-08-30T10:43:02.310206Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_08_pair_overlap_regimes.csv",
+    "sha256": "b47ed5590f1c8eaef6cd15e86474d9999846022aaf5834aa45fb736a06c1d0e4",
+    "size_bytes": 60938,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_working_document_v0_8.md",
+    "stored_modified_at": "2026-08-30T10:42:56.152918Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_working_document_v0_8__snapshot_b810be8dec.md",
+    "sha256": "b810be8dec842574a72bb474a76c5e8b8bfe11c4227e02e6522d5db33bd4144b",
+    "size_bytes": 128523,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_08_cross_channel_loop_coupling_geometry.md",
+    "stored_modified_at": "2026-08-30T10:42:53.253665Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_08_cross_channel_loop_coupling_geometry.md",
+    "sha256": "90f9d5e73133e05ea5e3de540054df86bc6638de1691d47d2fe8654593613202",
+    "size_bytes": 14906,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_07_internal_channel_geometry.py",
+    "stored_modified_at": "2026-08-30T08:03:45.887972Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_07_internal_channel_geometry.py",
+    "sha256": "19e584a99cb07e8ec5bfb052e46992c9686b3c4353f42b01465c06177ba1b62d",
+    "size_bytes": 8779,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_07_checks.csv",
+    "stored_modified_at": "2026-08-30T08:03:43.055248Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_07_checks.csv",
+    "sha256": "e207a79819feb7b8c4b801f3daab3785c45ea0b3ab41fa360165394440213a3a",
+    "size_bytes": 4642,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_07_lr2_lr3_odd_isomorphism_checks.csv",
+    "stored_modified_at": "2026-08-30T08:03:39.660504Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_07_lr2_lr3_odd_isomorphism_checks.csv",
+    "sha256": "5d3afd706862aa7786ffcba36ae3fdf0bb0f606b5d9bee8513fdd35aadd71a8e",
+    "size_bytes": 479,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_07_even_preserving_components_n12.csv",
+    "stored_modified_at": "2026-08-30T08:03:36.541945Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_07_even_preserving_components_n12.csv",
+    "sha256": "6ed67a86b7799b532c93278bfb63b7044f93c02c2e5b119ba74c11cc635adf94",
+    "size_bytes": 404,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_07_explicit_channel_geometry_n5_n10.csv",
+    "stored_modified_at": "2026-08-30T08:03:33.251828Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_07_explicit_channel_geometry_n5_n10.csv",
+    "sha256": "39c3850747c5ae55b0d2d625ce5493f0604db7c03e37511a19d127352ca43895",
+    "size_bytes": 2295,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_07_positional_generator_groups.csv",
+    "stored_modified_at": "2026-08-30T08:03:30.038051Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_07_positional_generator_groups.csv",
+    "sha256": "c601103e14a85ce3b841225d0735519df3ce4e6965f1c69f700fef88a537c5f2",
+    "size_bytes": 3792,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_working_document_v0_7.md",
+    "stored_modified_at": "2026-08-30T08:03:27.148531Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_working_document_v0_7.md",
+    "sha256": "e482105835af0151cf405014b4234209745fd907e2d2a29298d7fb5e1e321c57",
+    "size_bytes": 113610,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_07_internal_channel_geometry.md",
+    "stored_modified_at": "2026-08-30T08:03:24.400355Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_07_internal_channel_geometry.md",
+    "sha256": "184643cc7ff90cbabfc1b45c8cfa9e6246ea5724ce013d30b06654c3c31a9880",
+    "size_bytes": 15055,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_06_visual_summary_preview.png",
+    "stored_modified_at": "2026-08-30T07:14:12.963681Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_06_visual_summary_preview.png",
+    "sha256": "965b6220229e20d0435c6fca07bd81c5d36359f1009c563f2bf550184a10dd6f",
+    "size_bytes": 78042,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_working_document_v0_6.md",
+    "stored_modified_at": "2026-08-30T07:14:10.021289Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_working_document_v0_6.md",
+    "sha256": "df084bef43a790e1c850f14321e9731bc65a8c5bbe733b7e5d88657d4160da7c",
+    "size_bytes": 98548,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_06_channel_atlas.csv",
+    "stored_modified_at": "2026-08-30T07:14:06.550054Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_06_channel_atlas.csv",
+    "sha256": "a6c6cb72520cbbce6c98aef8d00706f992b3513ec57b5244171180b058338581",
+    "size_bytes": 1127,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_06_reversal_support_channel_atlas.md",
+    "stored_modified_at": "2026-08-30T07:14:03.768129Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_06_reversal_support_channel_atlas.md",
+    "sha256": "f620a9dd3443793162501f73e4b77f30dddb2d1f9d54e24c8c8c20a7212feba4",
+    "size_bytes": 12374,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_06_reversal_support_channel_atlas.xlsx",
+    "stored_modified_at": "2026-08-30T07:13:59.818680Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_06_reversal_support_channel_atlas.xlsx",
+    "sha256": "f0614b866f4c1691c7046dcbc50f987ee0577b2fd24db3a22b29ec19758f31fd",
+    "size_bytes": 14919,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_05_general_selected_support_renewal.py",
+    "stored_modified_at": "2026-08-30T04:52:53.453259Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_05_general_selected_support_renewal.py",
+    "sha256": "7fbbde7980e1a8657c89243fae7fe9efe7030c099826342f7cd4071ad92065f7",
+    "size_bytes": 3093,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_05_checks.csv",
+    "stored_modified_at": "2026-08-30T04:52:50.311930Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_05_checks.csv",
+    "sha256": "a19f4ce5997478c2a3654a0e8a5a370f6e983e3b75a42c44d566363b60da4d61",
+    "size_bytes": 73118,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_05_hc_enumeration.csv",
+    "stored_modified_at": "2026-08-30T04:52:47.264223Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_05_hc_enumeration.csv",
+    "sha256": "be5fc252648522f09290f0a0433211ae0b651b8f2e38c28e3f29b84cd34470c3",
+    "size_bytes": 688,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_05_channel_hierarchy.csv",
+    "stored_modified_at": "2026-08-30T04:52:44.411374Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_05_channel_hierarchy.csv",
+    "sha256": "d4efeb1f2058476c923384aaaa393958fc34a4dc5814564972c08c4eefcafcc2",
+    "size_bytes": 905,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_05_class_density.csv",
+    "stored_modified_at": "2026-08-30T04:52:41.574955Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_05_class_density.csv",
+    "sha256": "e8154319f91c9cde5867de7de506c1a3f09d1d9cba59a74c26e5ad99c6a645c1",
+    "size_bytes": 19941,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_05_scaling_hierarchy.csv",
+    "stored_modified_at": "2026-08-30T04:52:38.852474Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_05_scaling_hierarchy.csv",
+    "sha256": "a47bbf8fa9e975617ced3c1e166434340140aa4e057d9376eaee8c84d9f89d39",
+    "size_bytes": 25246,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_05_renewal_cohorts.csv",
+    "stored_modified_at": "2026-08-30T04:52:35.882471Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_05_renewal_cohorts.csv",
+    "sha256": "ebcd1204167c9a37daddfbe5c458a88f7a0cac0722ef926c513e9ceca9a990fc",
+    "size_bytes": 62637,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_05_selected_support_balance.csv",
+    "stored_modified_at": "2026-08-30T04:52:33.072677Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_05_selected_support_balance.csv",
+    "sha256": "f6ec51d59adec3523eb64d16743cdb9674bdb678696ba62ebd786a9e0fc6fcc0",
+    "size_bytes": 24388,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_working_document_v0_5.md",
+    "stored_modified_at": "2026-08-30T04:52:30.044091Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_working_document_v0_5.md",
+    "sha256": "66d052f7a23d89034d75da92139d8b7c2be056c5c7148adeec53317e1818739c",
+    "size_bytes": 86167,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_05_general_selected_support_renewal.md",
+    "stored_modified_at": "2026-08-30T04:52:27.267207Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_05_general_selected_support_renewal.md",
+    "sha256": "e8d27f1c3d12a4acbbf25d773060bb05c7661314f9fb16ddc1331115717f9741",
+    "size_bytes": 15167,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_04_selected_lr3_stability_under_growth.py",
+    "stored_modified_at": "2026-08-30T02:48:10.579720Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_04_selected_lr3_stability_under_growth.py",
+    "sha256": "c489f25b4d35fa822c0fc53e6979fa84757309406c440d0d3799f06247e30429",
+    "size_bytes": 3385,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_04_checks.csv",
+    "stored_modified_at": "2026-08-30T02:48:07.544836Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_04_checks.csv",
+    "sha256": "9b6f262d1b19775558cdaae3bd90a4ed68f7cb4d405cf5bff53885ffc82a7ced",
+    "size_bytes": 19208,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_04_hc_enumeration.csv",
+    "stored_modified_at": "2026-08-30T02:48:04.513778Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_04_hc_enumeration.csv",
+    "sha256": "c38f682283c81724144a6047d3b232286e5cbcf97799fa7057da431af14d0f57",
+    "size_bytes": 467,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_04_cumulative_renewal.csv",
+    "stored_modified_at": "2026-08-30T02:48:01.432060Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_04_cumulative_renewal.csv",
+    "sha256": "f56bf350e95afdbf32cdbe928dc88d19d09275db2807bcae051b52aa664b049f",
+    "size_bytes": 45461,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_04_selection_density_turnover.csv",
+    "stored_modified_at": "2026-08-30T02:47:58.577804Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_04_selection_density_turnover.csv",
+    "sha256": "bfe3ea25a68f39c0d3ece9206e2e144e4a6cc6016c6571e12ff199b689527ab5",
+    "size_bytes": 3541,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_04_lineage_vs_population_stability.csv",
+    "stored_modified_at": "2026-08-30T02:47:55.757481Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_04_lineage_vs_population_stability.csv",
+    "sha256": "36df2c43609f4ef336256c0186ff1cc0c2641890a326af6a5319e51e15b7334f",
+    "size_bytes": 14315,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_04_lr3_renewal_cohorts.csv",
+    "stored_modified_at": "2026-08-30T02:47:52.891233Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_04_lr3_renewal_cohorts.csv",
+    "sha256": "347ea6ecbf4e6a5cea35df4e19f3e6a2d57dd5aef302eeda665fd2ffc7eb4a1c",
+    "size_bytes": 6277,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_04_selected_lr3_balance.csv",
+    "stored_modified_at": "2026-08-30T02:47:50.069874Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_04_selected_lr3_balance.csv",
+    "sha256": "abb33f37cdb389ec1e8b4020e89f26f899d451347e49613ee99cd4f5779d89fb",
+    "size_bytes": 4692,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_working_document_v0_4.md",
+    "stored_modified_at": "2026-08-30T02:47:47.169022Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_working_document_v0_4.md",
+    "sha256": "513438ddea4975628d56eccca890b0bddf05e736fa108b8e029a79af3265646d",
+    "size_bytes": 70993,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_04_selected_lr3_stability_under_growth.md",
+    "stored_modified_at": "2026-08-30T02:47:44.399865Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_04_selected_lr3_stability_under_growth.md",
+    "sha256": "b708c6148e065ae52b225e6ac02894faa484d4016dca86161d2ddf3f4e3e44af",
+    "size_bytes": 18989,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_03a_branching_parity_intertwining.py",
+    "stored_modified_at": "2026-08-29T13:55:51.318080Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_03a_branching_parity_intertwining.py",
+    "sha256": "b1acdf63c7e5532ea69a1a65870c116582a46edd7a26b6bac878a755ed21b82d",
+    "size_bytes": 2217,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_03a_checks.csv",
+    "stored_modified_at": "2026-08-29T13:55:48.168132Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_03a_checks.csv",
+    "sha256": "00af399326cd8b09d817c550380987dcbe89b17da2dd887d6b361d9b91983702",
+    "size_bytes": 6814,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_03a_hc_sector_enumeration.csv",
+    "stored_modified_at": "2026-08-29T13:55:45.435202Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_03a_hc_sector_enumeration.csv",
+    "sha256": "61aa8c414638d08f34bbf1a037d63488111e46dda8028619f54a3f279941ae83",
+    "size_bytes": 687,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_03a_lr3_sector_parity.csv",
+    "stored_modified_at": "2026-08-29T13:55:40.019468Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_03a_lr3_sector_parity.csv",
+    "sha256": "253c02cbea422c0e6181608d346a0b148b5897c8986cd5c927abf0a2fcf879ea",
+    "size_bytes": 1474,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_03a_parity_lumpability.csv",
+    "stored_modified_at": "2026-08-29T13:55:37.220843Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_03a_parity_lumpability.csv",
+    "sha256": "3771dffc1d804f41297e51846c4a430efcf7080ac2219a06fed1ae813cb5d3a3",
+    "size_bytes": 2472,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_03a_even_two_step_intertwining.csv",
+    "stored_modified_at": "2026-08-29T13:55:34.238620Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_03a_even_two_step_intertwining.csv",
+    "sha256": "422c8a4f98f64e6d829d08b0005d5c97434d0b0953df40f86ca68bd579b51dc4",
+    "size_bytes": 14387,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_03a_parity_decomposition.csv",
+    "stored_modified_at": "2026-08-29T13:55:30.726384Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_03a_parity_decomposition.csv",
+    "sha256": "57e36d33bb0e5b8a734a906b667ecc0495ff87d882c1a30c39f14baee02abce6",
+    "size_bytes": 10978,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_working_document_v0_3.md",
+    "stored_modified_at": "2026-08-29T13:55:27.403524Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_working_document_v0_3.md",
+    "sha256": "c8126d40762cda0a19f0a97dcb9d35777b7cd3b2e0c9af2e8f69d80adf655a3f",
+    "size_bytes": 51997,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_03a_branching_operator_intrinsic_parity_sectors.md",
+    "stored_modified_at": "2026-08-29T13:55:23.968999Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_03a_branching_operator_intrinsic_parity_sectors.md",
+    "sha256": "82b160be3ef3a7772cb0579d9d57884d1898a67acbe4725b8236d7ab25517dd0",
+    "size_bytes": 16250,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_02_reversal_support_branching_operator.py",
+    "stored_modified_at": "2026-08-29T12:34:29.634860Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_02_reversal_support_branching_operator.py",
+    "sha256": "34493f52361d575333969636f616083ffef0a42b5157715ce7f04197ec216414",
+    "size_bytes": 3149,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_02_checks.csv",
+    "stored_modified_at": "2026-08-29T12:34:26.528234Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_02_checks.csv",
+    "sha256": "ce9f480b2ebad7cf1dc3b5048350330b795b197addca5b84779ae8cc891b0ba1",
+    "size_bytes": 27195,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_02_martingale_spectrum.csv",
+    "stored_modified_at": "2026-08-29T12:34:23.897805Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_02_martingale_spectrum.csv",
+    "sha256": "9ec8ad8b22f0338b46152f3239edc542dd7b85c1b4f2e7aefc88f19521481645",
+    "size_bytes": 44740,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_02_beta_binomial_multistep.csv",
+    "stored_modified_at": "2026-08-29T12:34:21.424054Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_02_beta_binomial_multistep.csv",
+    "sha256": "49eba3256ef3cb8631f6085a2f8e911f1881efcd5577f5d4e21e0a0db036514c",
+    "size_bytes": 26418,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_02_even_step_spectra.csv",
+    "stored_modified_at": "2026-08-29T12:34:18.283567Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_02_even_step_spectra.csv",
+    "sha256": "8291b41a2fcf7e7de3eb4aad8a5a9f3b1b6d45c514b2072030ec3a74f60ebdb0",
+    "size_bytes": 1275,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_02_canonical_branching_matrices.csv",
+    "stored_modified_at": "2026-08-29T12:34:15.704421Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_02_canonical_branching_matrices.csv",
+    "sha256": "7e5eeb1d9ba0b17ae4138c401e29954ee729a597be01bde83a434c4cea89fb7a",
+    "size_bytes": 3748,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_working_document_v0_2.md",
+    "stored_modified_at": "2026-08-29T12:34:13.219644Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_working_document_v0_2.md",
+    "sha256": "cfc4a8aaec0f4786b09acde408d4a8b4390a9082d231bf091db9bd83b19fa85a",
+    "size_bytes": 35740,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_02_reversal_support_branching_operator.md",
+    "stored_modified_at": "2026-08-29T12:34:10.782108Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_02_reversal_support_branching_operator.md",
+    "sha256": "7ad16c9e1eac2f1df1c413c442513fe9d47d27dad23a33770bdc0a5ba26c6612",
+    "size_bytes": 16461,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_01_reversal_support_propagation_multi_layer.py",
+    "stored_modified_at": "2026-08-27T05:08:29.730240Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_01_reversal_support_propagation_multi_layer.py",
+    "sha256": "79f1e9ecee46403ca8bce23d5b18d83696c8bba2c6ad65b4f99c83383dd73e96",
+    "size_bytes": 2594,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_01_checks.csv",
+    "stored_modified_at": "2026-08-27T05:08:26.934504Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_01_checks.csv",
+    "sha256": "9711cbdf4b3e643280c78081d38a8a6f528d0ba5dd2a3a55fcba48cd4889e2f1",
+    "size_bytes": 25366,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_01_finite_enumeration.csv",
+    "stored_modified_at": "2026-08-27T05:08:21.523294Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_01_finite_enumeration.csv",
+    "sha256": "bd387df4ecda07206232a717d9826fe2bd0f8c37a5eb1a91f3b4d11f15b58b7d",
+    "size_bytes": 1541,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_01_forward_multilayer_fidelity.csv",
+    "stored_modified_at": "2026-08-27T05:08:17.064184Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_01_forward_multilayer_fidelity.csv",
+    "sha256": "ca3f3adf6fca96defb27ba3aef16fe7f9443f0b42e9e426b3c0e4a5f6e50f2ae",
+    "size_bytes": 19435,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_01_forward_branching.csv",
+    "stored_modified_at": "2026-08-27T05:08:13.318547Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_01_forward_branching.csv",
+    "sha256": "c8273b6f36a3dad388b9c8fb3c93ec14772a45045a06e68526c33f16e9a44d50",
+    "size_bytes": 3378,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_01_lr3_support_cascade.csv",
+    "stored_modified_at": "2026-08-27T05:08:10.289148Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_01_lr3_support_cascade.csv",
+    "sha256": "e8abfd1eea9121c4bcba343bba72a349d0c164ddd65c65861ccc52de780c8207",
+    "size_bytes": 15504,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_01_multilayer_survival.csv",
+    "stored_modified_at": "2026-08-27T05:08:06.565966Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_01_multilayer_survival.csv",
+    "sha256": "3e4cb3e90010c14627f48fb179c6abd89af2e1c96fb01fcf8d7029fe22f9d1a9",
+    "size_bytes": 25201,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_01_one_step_general_law.csv",
+    "stored_modified_at": "2026-08-27T05:08:03.408329Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_01_one_step_general_law.csv",
+    "sha256": "8e81a00f659596b297768226942164e683e38e7be7fc33e21a469b2bb572fc1d",
+    "size_bytes": 11847,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_01_lr3_propagation_table.csv",
+    "stored_modified_at": "2026-08-27T05:08:00.185025Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_01_lr3_propagation_table.csv",
+    "sha256": "98878c9487786be4d24a1326334c1a04c09bd52a234196aa1d7337bb20e0fbdb",
+    "size_bytes": 2088,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_working_document_v0_1.md",
+    "stored_modified_at": "2026-08-27T05:07:57.007015Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_working_document_v0_1.md",
+    "sha256": "ebadacc6c3c87186bf9773e11f681d1e5a7847c16f396f4f93d39c1e9fe67699",
+    "size_bytes": 19272,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_hc_grow_01_reversal_support_propagation_multi_layer.md",
+    "stored_modified_at": "2026-08-27T05:07:53.605653Z",
+    "destination": "research/hc-grow/sources/ehf_hc_grow_01_reversal_support_propagation_multi_layer.md",
+    "sha256": "53bf490a58542916e69866bfe57a84467f631a1db704694b32ff43820f61b133",
+    "size_bytes": 19235,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_grow02_lr3_onset_support_limit_results.txt",
+    "stored_modified_at": "2026-09-29T21:34:21.062727Z",
+    "destination": "research/hc-grow/audits/ehf_grow02_lr3_onset_support_limit_results.txt",
+    "sha256": "990c756c80fa66a72d77d650e00817a1c155fd0189193a3246649c61084b0c62",
+    "size_bytes": 503,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_grow02_lr3_onset_support_limit.py",
+    "stored_modified_at": "2026-09-29T21:34:17.548171Z",
+    "destination": "research/hc-grow/audits/ehf_grow02_lr3_onset_support_limit.py",
+    "sha256": "fef6ac246df61e8eace67ec6727f6dfeea4d1f15af0a28b9db32f07419ad9df5",
+    "size_bytes": 1732,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "EHF_GROW02_LR3_ONSET_SUPPORT_LIMIT_AUDIT_v0_2.md",
+    "stored_modified_at": "2026-09-29T21:34:14.292800Z",
+    "destination": "research/hc-grow/audits/EHF_GROW02_LR3_ONSET_SUPPORT_LIMIT_AUDIT_v0_2.md",
+    "sha256": "dae73795f4f111d2002a2e7c8b158758144a1a2b01021ac642747708735dcb89",
+    "size_bytes": 2187,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_grow02_polya_support_limit_results.json",
+    "stored_modified_at": "2026-09-29T10:23:14.960992Z",
+    "destination": "research/hc-grow/audits/ehf_grow02_polya_support_limit_results.json",
+    "sha256": "8aa22fd02854cf613c8d965a6793c57c30ce7aba1060cef732ba66da07085210",
+    "size_bytes": 19809,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_grow02_polya_support_limit_audit.py",
+    "stored_modified_at": "2026-09-29T10:23:11.767884Z",
+    "destination": "research/hc-grow/audits/ehf_grow02_polya_support_limit_audit.py",
+    "sha256": "568d0017d8fe78a0ac3fabe5a486f8fd166d5def775d9be25e82e1b5aeef8ba4",
+    "size_bytes": 4955,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "EHF_GROW02_POLYA_SUPPORT_LIMIT_AUDIT_v0_1.md",
+    "stored_modified_at": "2026-09-29T10:23:08.454579Z",
+    "destination": "research/hc-grow/audits/EHF_GROW02_POLYA_SUPPORT_LIMIT_AUDIT_v0_1.md",
+    "sha256": "f665f674d0f37b349372404870c95e31a6f374142b84dec90ca0f56af12f82d1",
+    "size_bytes": 4734,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v1_6(1).md",
+    "stored_modified_at": "2026-09-29T21:42:02.876126Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v1_6.md",
+    "sha256": "98eb00fce76c77476e70f8596ceb4fc8abf18a46f711bd5308f803b3b76c092e",
+    "size_bytes": 83680,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v1_6(1).md",
+    "stored_modified_at": "2026-08-24T07:26:42.465861Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v1_6.md",
+    "sha256": "98eb00fce76c77476e70f8596ceb4fc8abf18a46f711bd5308f803b3b76c092e",
+    "size_bytes": 83680,
+    "import_status": "exact duplicate collapsed"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v1_6.md",
+    "stored_modified_at": "2026-08-18T13:51:37.737513Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v1_6.md",
+    "sha256": "98eb00fce76c77476e70f8596ceb4fc8abf18a46f711bd5308f803b3b76c092e",
+    "size_bytes": 83680,
+    "import_status": "exact duplicate collapsed"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v1_6.md",
+    "stored_modified_at": "2026-08-01T14:51:37.332157Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v1_6.md",
+    "sha256": "98eb00fce76c77476e70f8596ceb4fc8abf18a46f711bd5308f803b3b76c092e",
+    "size_bytes": 83680,
+    "import_status": "exact duplicate collapsed"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v1_5.md",
+    "stored_modified_at": "2026-08-01T01:24:42.631465Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v1_5.md",
+    "sha256": "3579161cf4da920c2d46a9b0c18a067cc0c3024407b29b5a9be98c451becc123",
+    "size_bytes": 77786,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v1_4.md",
+    "stored_modified_at": "2026-07-31T15:01:12.942507Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v1_4.md",
+    "sha256": "99a711958908966abebe55582c46a525253664d1869ed3526b6d46d6762b34ba",
+    "size_bytes": 70823,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "OPW3_v1_3.txt",
+    "stored_modified_at": "2026-07-31T06:28:42.000658Z",
+    "destination": "research/opw/sources/OPW3_v1_3.txt",
+    "sha256": "0884d01804c1f44c2cf2623472e557bb9b35c26edae4d74d1ae721be2e1a1efa",
+    "size_bytes": 63331,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v1_2.md",
+    "stored_modified_at": "2026-07-31T04:16:05.443447Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v1_2.md",
+    "sha256": "718758685e25f7c8dea281eaeab7c8339160c1466a520617f520bd77973eec89",
+    "size_bytes": 61068,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v1_1.md",
+    "stored_modified_at": "2026-07-31T04:01:02.320002Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v1_1.md",
+    "sha256": "980e0580b3937ad3771b29304da59d3fb96e7c282e568d6b5a4889f8dc9ec073",
+    "size_bytes": 52891,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v0_9.md",
+    "stored_modified_at": "2026-07-27T03:13:39.611090Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v0_9.md",
+    "sha256": "6e97c7f8442801b2bddd2d294b8f0010d18a027b99cecb44ddfe30cfbdfaee96",
+    "size_bytes": 42978,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v0_9.md",
+    "stored_modified_at": "2026-07-25T15:30:07.456136Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v0_9.md",
+    "sha256": "6e97c7f8442801b2bddd2d294b8f0010d18a027b99cecb44ddfe30cfbdfaee96",
+    "size_bytes": 42978,
+    "import_status": "exact duplicate collapsed"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v0_8.md",
+    "stored_modified_at": "2026-07-25T14:47:54.676413Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v0_8.md",
+    "sha256": "c8aeeb01217af0bbf9889da85dfc80b03dc6450791ae25465aeea3f9ec64f92d",
+    "size_bytes": 40780,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v0_7.md",
+    "stored_modified_at": "2026-07-25T14:00:09.253603Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v0_7.md",
+    "sha256": "13e3ed3340e821269ae81630a308f75738b4f7f72784d99592c8f0493c2c95c3",
+    "size_bytes": 37292,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_10_growth_chart_groupoid_cocycle.py",
+    "stored_modified_at": "2026-07-25T09:00:37.948791Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_10_growth_chart_groupoid_cocycle.py",
+    "sha256": "b095dfe39a29ea51accdf31b7bbb082d473b0ac7d38ca2b107226ea267644692",
+    "size_bytes": 12448,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_10_probe_spec.md",
+    "stored_modified_at": "2026-07-25T09:00:32.708201Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_10_probe_spec.md",
+    "sha256": "7d57cc15669dc61b610d276c4fe78b9deb5018de485ea396679cfe21e10c8087",
+    "size_bytes": 1857,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v0_6.md",
+    "stored_modified_at": "2026-07-25T07:57:51.160181Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v0_6.md",
+    "sha256": "6fdde97aec9fbb850fc8affff5d8662c3679af871101661b5416926dec9e05d2",
+    "size_bytes": 34101,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v0_5.md",
+    "stored_modified_at": "2026-07-25T07:39:11.048285Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v0_5.md",
+    "sha256": "d0320573d68663a12c264f76e7bf0fdf5328b649d35b3b32d29a7133bbea1eaf",
+    "size_bytes": 31428,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v0_4.md",
+    "stored_modified_at": "2026-07-25T06:42:38.190982Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v0_4.md",
+    "sha256": "52c7c92555baea8685fa9a90135aa07594a6129b4777dfb3674c9eaed788da0c",
+    "size_bytes": 29498,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v0_3.md",
+    "stored_modified_at": "2026-07-25T03:32:52.444002Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v0_3.md",
+    "sha256": "786e9dfdad5f6492b59c8ed51aac14584866551748ef3cc4f9dc6a662f2211ff",
+    "size_bytes": 26929,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v0_2.md",
+    "stored_modified_at": "2026-07-25T00:25:40.749627Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v0_2.md",
+    "sha256": "365f87d60cd9558b850a8ce9aaa14ad69ceb7496ec81353f324a1b7095baf662",
+    "size_bytes": 24106,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_09_growth_descriptor_chart_covariance.py",
+    "stored_modified_at": "2026-07-24T07:01:07.379028Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_09_growth_descriptor_chart_covariance.py",
+    "sha256": "434cba9b59deeb40d96ea61ab5a901333749b5a5bc9605e03bd9d509544928f5",
+    "size_bytes": 36570,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_09_probe_spec.md",
+    "stored_modified_at": "2026-07-24T07:00:55.834145Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_09_probe_spec.md",
+    "sha256": "6a69a2b33514301ceaf4fe6e403827c382cd8aedeef335bdbd7350688cdd2ce0",
+    "size_bytes": 3483,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_rebuild_working_document_v0_1.md",
+    "stored_modified_at": "2026-07-24T06:21:13.605923Z",
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v0_1.md",
+    "sha256": "ee3703ce18060ee5d9e4f56f69499ada513b3304399fbfc2ad1285a1be7a9c7a",
+    "size_bytes": 20347,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_08_residual_completion.py",
+    "stored_modified_at": "2026-07-24T02:48:33.905543Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_08_residual_completion.py",
+    "sha256": "798fb95ef93cd8fff5da22d4e67853c75456cd6c6b4e6d199b92e1eb6ec64026",
+    "size_bytes": 19226,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_08_probe_spec.md",
+    "stored_modified_at": "2026-07-24T02:48:20.309347Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_08_probe_spec.md",
+    "sha256": "9f36f3bc54e9b1f0c54ddc6f443e061dbe796a2e3ac5cd47c8b12c5632c7fa1a",
+    "size_bytes": 1165,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_07_hidden_slow_sector_completion.py",
+    "stored_modified_at": "2026-07-24T02:29:58.098270Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_07_hidden_slow_sector_completion.py",
+    "sha256": "10a583565d1496c9a286792d161f33819c4b7ec51e0f5cdd37fd6faa07c1cf6c",
+    "size_bytes": 26378,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_07_probe_spec.md",
+    "stored_modified_at": "2026-07-24T02:29:46.862436Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_07_probe_spec.md",
+    "sha256": "0c50b4c73ad8c0a078a51eaadb36ebd039b4e3df2111eca708b5d54ea511de58",
+    "size_bytes": 1397,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_06_packet_closure_spectral_action_fixed.py",
+    "stored_modified_at": "2026-07-23T22:54:09.381065Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_06_packet_closure_spectral_action_fixed.py",
+    "sha256": "d198dee4d450e05a9d31e3c32ae035e64f3fad9b8085461d8aa417a17df74c06",
+    "size_bytes": 20387,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_06_fix_note.md",
+    "stored_modified_at": "2026-07-23T22:54:00.482387Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_06_fix_note.md",
+    "sha256": "135e0c1a2cf25a16fd9097f2aa300ff2816f134c6137045aa01c26c4e8f1fcdb",
+    "size_bytes": 1276,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_06_packet_closure_spectral_action.py",
+    "stored_modified_at": "2026-07-22T11:53:25.741199Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_06_packet_closure_spectral_action.py",
+    "sha256": "7cb3f4069c387515393ad1254e7f40195290b5bb3d645ae888e28294088e9209",
+    "size_bytes": 19225,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_06_probe_spec.md",
+    "stored_modified_at": "2026-07-22T11:53:22.516634Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_06_probe_spec.md",
+    "sha256": "6dcc111b97fa973d1f4c521affa07d0d65b06f355f00516295ac957527ca1ff4",
+    "size_bytes": 2018,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_05_equitable_packet_reconstruction.py",
+    "stored_modified_at": "2026-07-22T11:21:36.025758Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_05_equitable_packet_reconstruction.py",
+    "sha256": "104dab1f822aaeeb94b2b89f56fe9b3ea55d11efd7edd16664a60edd0d194cc2",
+    "size_bytes": 20216,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_05_probe_spec.md",
+    "stored_modified_at": "2026-07-22T11:21:28.808624Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_05_probe_spec.md",
+    "sha256": "5d7b0adf27c3175902696c0fbc22274e0b131758886ce646e631a5562135557d",
+    "size_bytes": 1490,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_04_growth_retraction_edge_channels.py",
+    "stored_modified_at": "2026-07-22T10:32:14.487491Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_04_growth_retraction_edge_channels.py",
+    "sha256": "704a363ccd2d7b05c2903dfab4f78bd5be7facecfcea13fbafb5017d0d20d947",
+    "size_bytes": 27122,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_04_probe_spec.md",
+    "stored_modified_at": "2026-07-22T10:32:03.743709Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_04_probe_spec.md",
+    "sha256": "0e037185018a59bff70f18a279477b78143bd569d839d7739d2b9a395d724b38",
+    "size_bytes": 3073,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_03_normalized_laplacian_slow_sector_survival.py",
+    "stored_modified_at": "2026-07-22T02:48:24.379640Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_03_normalized_laplacian_slow_sector_survival.py",
+    "sha256": "1898a9724126c175b742448bbae9bbd37c2b999fee61c3603abb1bfd4f2b7822",
+    "size_bytes": 24906,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_03_probe_spec.md",
+    "stored_modified_at": "2026-07-22T02:48:16.199888Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_03_probe_spec.md",
+    "sha256": "8bc84d730d54f779b8a079ddce36324c1151acda4fb310b097694277d5bb0114",
+    "size_bytes": 2435,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_02_square_complex_packet_projection.py",
+    "stored_modified_at": "2026-07-22T02:34:17.707751Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_02_square_complex_packet_projection.py",
+    "sha256": "a7d714d95411aec1a2b75eeb5c9683f88d19b1e02f245d9b89e38006ee9ef763",
+    "size_bytes": 23048,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_02_probe_spec.md",
+    "stored_modified_at": "2026-07-22T02:34:04.408736Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_02_probe_spec.md",
+    "sha256": "2732436ef240dfcd10fb45adba27b269a2ea44525f60cd44d6c206dee5eb3c1a",
+    "size_bytes": 3767,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_01_definition_lock_structural_census.py",
+    "stored_modified_at": "2026-07-22T02:05:37.940739Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_01_definition_lock_structural_census.py",
+    "sha256": "76356db9fa2e5c6885f38d1e1b11c5a2ceee7a39907690ae45058b23c93b96ed",
+    "size_bytes": 24764,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw3_audit_01_probe_spec.md",
+    "stored_modified_at": "2026-07-22T02:05:29.662789Z",
+    "destination": "research/opw/sources/ehf_opw3_audit_01_probe_spec.md",
+    "sha256": "463640587a3acc41d7aebee23eeda8b6e741fd380d16b9c5ca383a6961fa0b39",
+    "size_bytes": 2750,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "replicate_opw.py",
+    "stored_modified_at": "2026-07-13T05:09:46.610812Z",
+    "destination": "research/opw/sources/replicate_opw.py",
+    "sha256": "3ba108017218826c4c5096b9a056b836746e2142a0175c0dc70cd961828d7f7d",
+    "size_bytes": 1170,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_opw_normalized_laplacian_spectra.py",
+    "stored_modified_at": "2026-07-12T06:13:18.215170Z",
+    "destination": "research/opw/sources/ehf_opw_normalized_laplacian_spectra.py",
+    "sha256": "bf7faaa8422e73d5281be427baedb849b334b40b12475ae6b6e761af8fe0cd72",
+    "size_bytes": 17365,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "opw_normalized_laplacian_spectra_n5_n7_n9.xlsx",
+    "stored_modified_at": "2026-07-12T06:12:57.882035Z",
+    "destination": "research/opw/sources/opw_normalized_laplacian_spectra_n5_n7_n9.xlsx",
+    "sha256": "70deb711f47109cdd91f6d514e844250c8c9fa620e96a1fef8831d007b2b59f6",
+    "size_bytes": 1072024,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "raf_odd_preserve_world_chamber_and_boundary_dynamics_v6.md",
+    "stored_modified_at": "2026-09-29T21:41:21.168776Z",
+    "destination": "research/opw/sources/raf_odd_preserve_world_chamber_and_boundary_dynamics_v6.md",
+    "sha256": "791f71778e270926502bd3ad9013938decefe74943c9328657c4f067a700bf57",
+    "size_bytes": 73136,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "raf_odd_preserve_world_chamber_and_boundary_dynamics_v6.md",
+    "stored_modified_at": "2026-07-13T02:56:47.211653Z",
+    "destination": "research/opw/sources/raf_odd_preserve_world_chamber_and_boundary_dynamics_v6.md",
+    "sha256": "791f71778e270926502bd3ad9013938decefe74943c9328657c4f067a700bf57",
+    "size_bytes": 73136,
+    "import_status": "exact duplicate collapsed"
+  },
+  {
+    "source_name": "ehf_amp_found_04c_t0_odd_prime_exceptional_prime_audit.py",
+    "stored_modified_at": "2026-07-18T04:04:00.578351Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_04c_t0_odd_prime_exceptional_prime_audit.py",
+    "sha256": "46fe04bc269726b9d4ade4fb8526463b80c743cb927b5f31e494b5213e38b298",
+    "size_bytes": 35462,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04c_t0_probe_spec.md",
+    "stored_modified_at": "2026-07-18T04:03:50.089489Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_04c_t0_probe_spec.md",
+    "sha256": "38bae9e366c0be688d9732c2cdc364f0e829e9909d75233a378943615fd6dbc2",
+    "size_bytes": 5129,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04c_exact_rational_rank_certificate_sweep.py",
+    "stored_modified_at": "2026-07-18T00:40:35.804247Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_04c_exact_rational_rank_certificate_sweep.py",
+    "sha256": "b0a6c3bcb69ea68aa559b9761b0e33e62853bb92ff31b295758e495d5e246ba2",
+    "size_bytes": 30869,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04c_probe_spec.md",
+    "stored_modified_at": "2026-07-18T00:40:25.847721Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_04c_probe_spec.md",
+    "sha256": "4c34e80b51297cd0e214c8f29ab236b22abb727635d423bd03462a5a7b057eb1",
+    "size_bytes": 6205,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04b_full_multi_prime_boundary_corrected_tail_audit.py",
+    "stored_modified_at": "2026-07-17T12:04:59.725906Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_04b_full_multi_prime_boundary_corrected_tail_audit.py",
+    "sha256": "cb8595bf9f2385a1a03d41aed174e0639e8d4c169686edd9ce24e89532706e51",
+    "size_bytes": 43574,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04b_probe_spec.md",
+    "stored_modified_at": "2026-07-17T12:04:56.349556Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_04b_probe_spec.md",
+    "sha256": "7bc8350f92a60152fb2a479b3ce902576d3b7e1113432d5989de33d4c47be778",
+    "size_bytes": 7372,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04a_gf3_discrepancy_followup.csv",
+    "stored_modified_at": "2026-07-17T11:26:44.735097Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_04a_gf3_discrepancy_followup.csv",
+    "sha256": "08d612a3636192f92e02308d95012f454303e34abb7022c5d9e340317b54221b",
+    "size_bytes": 132,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04a_result_audit.md",
+    "stored_modified_at": "2026-07-17T11:26:42.841835Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_04a_result_audit.md",
+    "sha256": "002f49e11a03ff177c670928895681250ec6f2ad40f56134fe4ffb47feb4e13c",
+    "size_bytes": 2484,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04a_eleven_to_ten_tail_filtration_discovery_census.py",
+    "stored_modified_at": "2026-07-17T08:04:28.276618Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_04a_eleven_to_ten_tail_filtration_discovery_census.py",
+    "sha256": "e4fa1356fe54f4b75442d9af06ad70f52c3b333967226abb62b4d6672dc682e8",
+    "size_bytes": 42307,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04a_probe_spec.md",
+    "stored_modified_at": "2026-07-17T08:04:25.427468Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_04a_probe_spec.md",
+    "sha256": "a3e5b8b81e695aaa68b375738eaaf999d8c953157ee337d5ec5ddc48073af099",
+    "size_bytes": 5809,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03l_deleted_leg_covariance_full_anchor_deletion_atlas.py",
+    "stored_modified_at": "2026-07-14T23:41:42.737851Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03l_deleted_leg_covariance_full_anchor_deletion_atlas.py",
+    "sha256": "3af697463c6a83e42e307415ae394104fb6f559c5e40397801e80afcaa31769c",
+    "size_bytes": 48236,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03l_probe_spec.md",
+    "stored_modified_at": "2026-07-14T23:41:35.804090Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03l_probe_spec.md",
+    "sha256": "e9d10e3b93ef2942b2743bbb1c7c9751b20d5815931a89ee711e9b3666db9bc4",
+    "size_bytes": 6317,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03k_anchor_change_covariance_full_fibre_atlas.py",
+    "stored_modified_at": "2026-07-14T22:12:31.358173Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03k_anchor_change_covariance_full_fibre_atlas.py",
+    "sha256": "a583d10869aca1426e382fd2f18624175cddb56503bf978b09997aec37987950",
+    "size_bytes": 45237,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03k_probe_spec.md",
+    "stored_modified_at": "2026-07-14T22:12:17.107389Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03k_probe_spec.md",
+    "sha256": "5db40ae04c017f516e5fb34484f28411fdedbd942b40962fecc8a32ac0dc99a2",
+    "size_bytes": 7409,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03j_full_normalizer_endpoint_atlas_cocycle.py",
+    "stored_modified_at": "2026-07-14T21:37:45.726330Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03j_full_normalizer_endpoint_atlas_cocycle.py",
+    "sha256": "5eeaf9c3265af898246976d3c2e16d57bcdfba18d82456c8eafdb4a076ffe7d4",
+    "size_bytes": 45655,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03j_probe_spec.md",
+    "stored_modified_at": "2026-07-14T21:37:39.777197Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03j_probe_spec.md",
+    "sha256": "513de87152166b0a6f7bc42b022368d2b1d41c4d4aa4fdde48b331dbe66f15e5",
+    "size_bytes": 7174,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03i_kk_endpoint_covariance_normalizer_closure.py",
+    "stored_modified_at": "2026-07-14T11:28:59.137573Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03i_kk_endpoint_covariance_normalizer_closure.py",
+    "sha256": "836494c642289bbc7e44221fc700737f222e2696e346a3634262aa49541e6f17",
+    "size_bytes": 35336,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03i_probe_spec.md",
+    "stored_modified_at": "2026-07-14T11:28:46.934264Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03i_probe_spec.md",
+    "sha256": "72dcc4c7d0a33150e79af84e6da8a18431700f4d24612de56359d70ecdcaf27a",
+    "size_bytes": 6543,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03h_group_ring_factor_normalizer_audit.py",
+    "stored_modified_at": "2026-07-14T10:27:03.931708Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03h_group_ring_factor_normalizer_audit.py",
+    "sha256": "17e3da9ab51369e5724f0fa33e79605e4b03b75476a08385d186fb629d118201",
+    "size_bytes": 43609,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03h_probe_spec.md",
+    "stored_modified_at": "2026-07-14T10:26:46.771801Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03h_probe_spec.md",
+    "sha256": "8b3d0bfc9f9c1b4dcb5f1f413a6f9adcdf77b0c73cb14336b81581731ac0b495",
+    "size_bytes": 7291,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03g_parameterised_shuffle_antisymmetriser_templates.py",
+    "stored_modified_at": "2026-07-14T02:06:39.093303Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03g_parameterised_shuffle_antisymmetriser_templates.py",
+    "sha256": "465f42fd630ed25a29a43ea3fe1bef0dd148d17fef9eb1f424bf6a4b407130f5",
+    "size_bytes": 47327,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03g_probe_spec.md",
+    "stored_modified_at": "2026-07-14T02:06:26.403623Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03g_probe_spec.md",
+    "sha256": "b8ce407f1915a384ef8ef07157beb8d50db875b0bb1ec97eff2c4c1257ae78b5",
+    "size_bytes": 7954,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03f_direct_kk_shuffle_signed_orbit_derivation.py",
+    "stored_modified_at": "2026-07-14T01:47:38.611868Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03f_direct_kk_shuffle_signed_orbit_derivation.py",
+    "sha256": "5a811ee238f1fd081e5a871a22596edb543d87636fd97caffcb4eae004b0efb1",
+    "size_bytes": 34462,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03f_probe_spec.md",
+    "stored_modified_at": "2026-07-14T01:47:19.606697Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03f_probe_spec.md",
+    "sha256": "c64e965652705bf4144f1375bdb30145cc62f5de3fe61cee11f5ed04f48dee41",
+    "size_bytes": 6310,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03e_exact_signed_orbit_normal_form.py",
+    "stored_modified_at": "2026-07-13T23:37:02.945020Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03e_exact_signed_orbit_normal_form.py",
+    "sha256": "5eeabf22fffe2a26905618182800eccea8b9db90caae4264d77ee96a74191475",
+    "size_bytes": 40191,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03e_probe_spec.md",
+    "stored_modified_at": "2026-07-13T23:36:54.129868Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03e_probe_spec.md",
+    "sha256": "300a840ff01869bef1ecc420a87aff3c140fdb0b03c3fae88053cdcfa09fd49c",
+    "size_bytes": 6606,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03d_exact_quotient_orbit_generators.py",
+    "stored_modified_at": "2026-07-13T23:20:21.335616Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03d_exact_quotient_orbit_generators.py",
+    "sha256": "17bdd05e01109195ea5bccba760ec0b4fa49fe4475589c5d041c92124f018fbb",
+    "size_bytes": 31961,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03d_probe_spec.md",
+    "stored_modified_at": "2026-07-13T23:20:18.629943Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03d_probe_spec.md",
+    "sha256": "e8628001c2872201d2d07f84f11df042c7d72f2b935d4b6f77c753f1dd3df2b9",
+    "size_bytes": 6030,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03c_exact_tail_filtration_lattice.py",
+    "stored_modified_at": "2026-07-13T21:54:28.247523Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03c_exact_tail_filtration_lattice.py",
+    "sha256": "ac14515643d59c3aa89e1b7233465f0c1328f2c7df90d871a898e3ff109b1988",
+    "size_bytes": 35185,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03c_probe_spec.md",
+    "stored_modified_at": "2026-07-13T21:54:25.309286Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03c_probe_spec.md",
+    "sha256": "3e2a735a7b0e81e1f7580fe87d0fdf5bc7f09bc6d61c041a72aba88ca5f30993",
+    "size_bytes": 7851,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03b_exact_two_rightmost_rank_law.py",
+    "stored_modified_at": "2026-07-13T21:38:42.347678Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03b_exact_two_rightmost_rank_law.py",
+    "sha256": "ec009a3ef251f304033094c70ec1192b47749a5fddafb9d92c2ee4beaa9a858f",
+    "size_bytes": 27219,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03b_probe_spec.md",
+    "stored_modified_at": "2026-07-13T21:38:35.844467Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03b_probe_spec.md",
+    "sha256": "9eafb2f59581811a1dbd056b6aee2cd89615d0ee8f0239778613cdd5de8314a9",
+    "size_bytes": 6214,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03a_odd_even_diagonal_channel_census.py",
+    "stored_modified_at": "2026-07-13T12:51:43.650703Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03a_odd_even_diagonal_channel_census.py",
+    "sha256": "d49045481e5b83b9756e1df41dfcb51239c122dd2d45adfc3fd6060ab71d52d7",
+    "size_bytes": 39636,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_03a_probe_spec.md",
+    "stored_modified_at": "2026-07-13T12:51:40.379022Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_03a_probe_spec.md",
+    "sha256": "92cea792576e8be0879fddc04d0cab9ccb3f070487ea9a51d14560e909830024",
+    "size_bytes": 7159,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02h_exact_global_channel_orthogonality.py",
+    "stored_modified_at": "2026-07-13T12:35:13.733547Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02h_exact_global_channel_orthogonality.py",
+    "sha256": "65ee456e8f4338659f2c86f6de9e1093e2f68f149c2ab9ec909bf6a298fb36c5",
+    "size_bytes": 3663,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02h_sixteen_orbital_hand_proof.py",
+    "stored_modified_at": "2026-07-13T12:00:56.753999Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02h_sixteen_orbital_hand_proof.py",
+    "sha256": "4313999cbab629cf87f8ab05f608954f219b744e6b38b53c23ce5e63ccfaa9a8",
+    "size_bytes": 34106,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_01_anchor_relative_scaffolds_v0_6.md",
+    "stored_modified_at": "2026-07-13T12:00:49.347161Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_01_anchor_relative_scaffolds_v0_6.md",
+    "sha256": "1cbd015e639894e38a31b804e89f254ea6e3a8f01e48f63abd104f3d5d65384d",
+    "size_bytes": 40723,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02h_probe_spec.md",
+    "stored_modified_at": "2026-07-13T12:00:45.726509Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02h_probe_spec.md",
+    "sha256": "cc7b198570b9e1ea9a9c246d20d542cd11f251cc775ab224da718291d84f32fe",
+    "size_bytes": 6530,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02g_direct_exact_kk_channel_derivation.py",
+    "stored_modified_at": "2026-07-13T11:31:14.625334Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02g_direct_exact_kk_channel_derivation.py",
+    "sha256": "92936de932def5619261c491cfb48390c279672709994b967ff6efe06e734cfa",
+    "size_bytes": 42682,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02g_probe_spec.md",
+    "stored_modified_at": "2026-07-13T11:31:10.816554Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02g_probe_spec.md",
+    "sha256": "b91eda11b67f385d59cfd1ef9edbee3475e86390396e4d464e82ae9e01cfdc03",
+    "size_bytes": 7535,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02f_exact_symbolic_channel_operator.py",
+    "stored_modified_at": "2026-07-13T11:12:53.916009Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02f_exact_symbolic_channel_operator.py",
+    "sha256": "2f184690d06f61254afe8f76a18239edfd9436c4ef5693bea7e3d190a227a782",
+    "size_bytes": 41027,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02f_probe_spec.md",
+    "stored_modified_at": "2026-07-13T11:12:49.908535Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02f_probe_spec.md",
+    "sha256": "372223bb2d5b6ee5d64ed8225c3e0cd017759cbc2527f9c3914a2735780199de",
+    "size_bytes": 7231,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02e_complement_pair_symmetry_certificate.py",
+    "stored_modified_at": "2026-07-13T10:36:27.858123Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02e_complement_pair_symmetry_certificate.py",
+    "sha256": "72ac594b05725a5e0a553e20fd39f79e1c3f64b78db4a03f85639562105f1667",
+    "size_bytes": 37226,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02e_probe_spec.md",
+    "stored_modified_at": "2026-07-13T10:36:24.423231Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02e_probe_spec.md",
+    "sha256": "97e8812aaf2ac6e4a2c4d946151dd76d33cf4cfa50354d9260e41dfc0b3ebdde",
+    "size_bytes": 7159,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_01_anchor_relative_scaffolds_v0_5.md",
+    "stored_modified_at": "2026-07-13T10:36:20.366456Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_01_anchor_relative_scaffolds_v0_5.md",
+    "sha256": "b5eb5426acf9a6f7211cda2de1ed02ec09f5aecf129035d0e0ca27b359994274",
+    "size_bytes": 37062,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02d_exact_residue_spectrum_two_fibre_gluing.py",
+    "stored_modified_at": "2026-07-13T09:30:04.876379Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02d_exact_residue_spectrum_two_fibre_gluing.py",
+    "sha256": "c9946439c3a7df9088edc5721abca2508998af117d4dd8a951257ee6cead98cf",
+    "size_bytes": 42243,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02d_probe_spec.md",
+    "stored_modified_at": "2026-07-13T09:30:00.053101Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02d_probe_spec.md",
+    "sha256": "a62d90d3091cdbd5dfa894a39fe79837cf6a620c270396006961556b333ab7e3",
+    "size_bytes": 8796,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02c_branch_reversal_full_image_sections.py",
+    "stored_modified_at": "2026-07-13T08:52:39.852304Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02c_branch_reversal_full_image_sections.py",
+    "sha256": "318faee5dce179232ff8a4bf994999fb434cfef79e94c8bd80a045b88beb73b3",
+    "size_bytes": 37103,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02c_probe_spec.md",
+    "stored_modified_at": "2026-07-13T08:52:35.994991Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02c_probe_spec.md",
+    "sha256": "9d2a15a219262881458951451147b0120792e9783c5016153d1b3caefcb997ba",
+    "size_bytes": 8786,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_01_anchor_relative_scaffolds_v0_4.md",
+    "stored_modified_at": "2026-07-13T08:36:28.361601Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_01_anchor_relative_scaffolds_v0_4.md",
+    "sha256": "d5cfd8bc8920d9e5a1b5709ad2dea70ee352abd9146cd098e316262d07722d30",
+    "size_bytes": 27989,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02b_minimal_nontrivial_growth_sections.py",
+    "stored_modified_at": "2026-07-13T08:06:08.949375Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02b_minimal_nontrivial_growth_sections.py",
+    "sha256": "8de855ccca2bf513950ea0dfdbf3866922ca9764837dd669c3501055ffa5a7c5",
+    "size_bytes": 44592,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02b_probe_spec.md",
+    "stored_modified_at": "2026-07-13T08:06:05.108139Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02b_probe_spec.md",
+    "sha256": "67e3f8d11f21c56767dc3fc8257e325e1bd8ca13c9a0ec86ecf9a6171c21d528",
+    "size_bytes": 8032,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02a_growth_factorisation_compatibility_v0_3.py",
+    "stored_modified_at": "2026-07-13T06:27:42.599984Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02a_growth_factorisation_compatibility_v0_3.py",
+    "sha256": "78355bf6a8f26ca2f863cea5d5810561ab73a16b6459e8e8746c20a786fe11de",
+    "size_bytes": 54535,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02a_orientation_and_vacuity_audit.md",
+    "stored_modified_at": "2026-07-13T06:27:39.091282Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02a_orientation_and_vacuity_audit.md",
+    "sha256": "748db2bed2729b05bdbf18eb61f566e85094770117bad648a0bd52609427b1c8",
+    "size_bytes": 2823,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02a_growth_factorisation_compatibility_fixed.py",
+    "stored_modified_at": "2026-07-13T06:02:22.640238Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02a_growth_factorisation_compatibility_fixed.py",
+    "sha256": "a28cc266087d45d21626f1272cdc2ca0bb4b1dde2f2b7843cb08427e2597ca37",
+    "size_bytes": 51783,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02a_probe_spec_v0_2.md",
+    "stored_modified_at": "2026-07-13T06:02:16.233657Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02a_probe_spec_v0_2.md",
+    "sha256": "fc3464068fabd4a86e64168beb43eeed48638ce1be99e93231e03800a61c4a6d",
+    "size_bytes": 3385,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02a_growth_factorisation_compatibility.py",
+    "stored_modified_at": "2026-07-13T05:44:35.347809Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02a_growth_factorisation_compatibility.py",
+    "sha256": "370773146d373ed6f31d63b32510b438e468cd1e86620411c6e99eaa963dab3d",
+    "size_bytes": 41332,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02a_probe_spec.md",
+    "stored_modified_at": "2026-07-13T05:40:21.902130Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_02a_probe_spec.md",
+    "sha256": "cb8bbdf1e85b11f80528819506adbea1cf5375b064d016e3d3097ecd341ca8d3",
+    "size_bytes": 6037,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_01b_claude_comparison_audit.md",
+    "stored_modified_at": "2026-07-13T05:12:56.547030Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_01b_claude_comparison_audit.md",
+    "sha256": "5bdbc41185ae5aa5c60b145d12ec14ec619051d5ac99139d81be4fe2ca2d33ca",
+    "size_bytes": 3540,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_01b_true_all_anchor_residue_closure_v2.py",
+    "stored_modified_at": "2026-07-13T04:53:20.444377Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_01b_true_all_anchor_residue_closure_v2.py",
+    "sha256": "21fbd94ac93c4f255287ac6304c8294657f828ab9b80c5004ea203aec9c22125",
+    "size_bytes": 41712,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_01b_true_all_anchor_residue_closure.py",
+    "stored_modified_at": "2026-07-13T04:43:02.272712Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_01b_true_all_anchor_residue_closure.py",
+    "sha256": "d7e7f6317087fbfbf68e1f14fe760256bac07d919154cbe2d855cb42a7d7cc10",
+    "size_bytes": 37738,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_01b_probe_spec.md",
+    "stored_modified_at": "2026-07-13T04:42:58.778456Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_01b_probe_spec.md",
+    "sha256": "d1722aefee099c966c2277d3abd126b134984b19a2cf4eade7e89d4ebc677dac",
+    "size_bytes": 7350,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_01_reproduce_amp18_20.py",
+    "stored_modified_at": "2026-07-13T03:48:22.495072Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_01_reproduce_amp18_20.py",
+    "sha256": "fc8fad529e73ce967dbb4b56ded24277b7863420cf80dfd8f6020a3b5ba5cd61",
+    "size_bytes": 38891,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_01_anchor_relative_scaffolds_v0_3.md",
+    "stored_modified_at": "2026-07-13T03:39:37.071782Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_01_anchor_relative_scaffolds_v0_3.md",
+    "sha256": "76d2166729809a047ab3d0b928ee189297cc24dcc1d71dd745b5d53c01891025",
+    "size_bytes": 25182,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_01_anchor_relative_scaffolds_v0_2.md",
+    "stored_modified_at": "2026-07-13T03:23:35.904658Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_01_anchor_relative_scaffolds_v0_2.md",
+    "sha256": "7a5de62cbc2821ddd287ae8048b93d1818f2a3616b3791cf0d652afecb85846d",
+    "size_bytes": 21510,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_01_anchor_relative_scaffolds_v0_1.md",
+    "stored_modified_at": "2026-07-13T03:16:52.551550Z",
+    "destination": "research/amplitudes/foundation/sources/ehf_amp_found_01_anchor_relative_scaffolds_v0_1.md",
+    "sha256": "e913b6b160a1c4ed0f6716930d285a85515a1f69e648188d705c2c8440b1b92a",
+    "size_bytes": 13497,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_05a_05c_null_channel_holonomy_classification_result.md",
+    "stored_modified_at": "2026-07-31T15:01:12.862484Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_05a_05c_null_channel_holonomy_classification_result.md",
+    "sha256": "7a27bba22c4cdf5c0ed452b302ad8e0bc0b29c8fbef0df1cadd41d225fdf84e6",
+    "size_bytes": 11523,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_05c_probe_spec.md",
+    "stored_modified_at": "2026-07-31T09:13:34.292048Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_05c_probe_spec.md",
+    "sha256": "6a83451796a0d03f9df9291c1e02d4732409faa85cb2f2d42e5b01d6dedc8fb6",
+    "size_bytes": 6232,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_05c_exact_primitive_support_graph_longer_loop_census.py",
+    "stored_modified_at": "2026-07-31T09:13:34.287566Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_05c_exact_primitive_support_graph_longer_loop_census.py",
+    "sha256": "9844e09d6997fc7a479a45908f7924a387d44ed779897a7d39dd1c2a22060f05",
+    "size_bytes": 47912,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_05b_probe_spec.md",
+    "stored_modified_at": "2026-07-31T08:36:10.442322Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_05b_probe_spec.md",
+    "sha256": "702aaf8fef8e72d0c828faa9236cd9aba8fc1d023f1c1d8494e14059a765738c",
+    "size_bytes": 6522,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_05b_primitive_null_subbundle_persistence_triangle_admissibility_audit.py",
+    "stored_modified_at": "2026-07-31T08:36:08.712652Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_05b_primitive_null_subbundle_persistence_triangle_admissibility_audit.py",
+    "sha256": "9e8dc33cfc7080ed8115714410ef9d59e16aecc1a835e14bf6f08df27850d8ce",
+    "size_bytes": 52667,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_05a_null_channel_holonomy_definition_lock_minimal_loop_census.py",
+    "stored_modified_at": "2026-07-31T06:53:56.488198Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_05a_null_channel_holonomy_definition_lock_minimal_loop_census.py",
+    "sha256": "dcf04b56f9f226631898fb073f8bf9887e84b2855ca6e987bfaf984bd947cf46",
+    "size_bytes": 19897,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_05a_probe_spec.md",
+    "stored_modified_at": "2026-07-31T06:53:56.405626Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_05a_probe_spec.md",
+    "sha256": "b9080e12909a1ea8e49d7b810cf3b21a58d84014076f50121fa46fd3cd23db32",
+    "size_bytes": 5408,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f_to_04f8b_result_note.md",
+    "stored_modified_at": "2026-07-31T06:25:16.557426Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f_to_04f8b_result_note.md",
+    "sha256": "d8fbfc1b1b879ee6b73c19ad5e1ebfaf4db862d7b061b092b6da2e1803a28087",
+    "size_bytes": 9928,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f8b_residual_commutant_algebra_classification.py",
+    "stored_modified_at": "2026-07-31T04:46:15.588602Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f8b_residual_commutant_algebra_classification.py",
+    "sha256": "f53968665a888c2de8d075dde0d1d8041285540ff159272f5637c34445e2f6f7",
+    "size_bytes": 64894,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f8b_probe_spec.md",
+    "stored_modified_at": "2026-07-31T04:46:15.584759Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f8b_probe_spec.md",
+    "sha256": "55b02217a1272ff8057612705656203c126b30427d53d8e0e05af45d9da0314c",
+    "size_bytes": 7597,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f_to_04f8_result_note.md",
+    "stored_modified_at": "2026-07-31T04:16:05.403139Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f_to_04f8_result_note.md",
+    "sha256": "6e810913583feb176646580be42709be579db1e8cc03f49ec69fd5425a24564f",
+    "size_bytes": 10857,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f8_probe_spec.md",
+    "stored_modified_at": "2026-07-30T07:39:48.763524Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f8_probe_spec.md",
+    "sha256": "043e8736b74ec22caeaec7ee6dd3eedcf53c6a7999b2e41bc13aec6a668723d3",
+    "size_bytes": 9839,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f8_commutant_multiplicity_primitive_module_splitting_audit.py",
+    "stored_modified_at": "2026-07-30T07:39:33.969100Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f8_commutant_multiplicity_primitive_module_splitting_audit.py",
+    "sha256": "2e0303168415c5040c2037bc4ebc43fe794d9ea82ba29250b91692f72fde73a5",
+    "size_bytes": 70808,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f8_commutant_multiplicity_primitive_module_splitting_audit.py",
+    "stored_modified_at": "2026-07-30T06:05:06.841178Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f8_commutant_multiplicity_primitive_module_splitting_audit.py",
+    "sha256": "2e0303168415c5040c2037bc4ebc43fe794d9ea82ba29250b91692f72fde73a5",
+    "size_bytes": 70808,
+    "import_status": "exact duplicate collapsed"
+  },
+  {
+    "source_name": "ehf_xbr_04f8_probe_spec.md",
+    "stored_modified_at": "2026-07-30T06:05:04.779343Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f8_probe_spec.md",
+    "sha256": "043e8736b74ec22caeaec7ee6dd3eedcf53c6a7999b2e41bc13aec6a668723d3",
+    "size_bytes": 9839,
+    "import_status": "exact duplicate collapsed"
+  },
+  {
+    "source_name": "ehf_xbr_04f7_kernel_module_decomposition_support_orbit_audit_v4.py",
+    "stored_modified_at": "2026-07-30T03:44:46.365231Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f7_kernel_module_decomposition_support_orbit_audit_v4.py",
+    "sha256": "1ca8f9e24089cb7efdfd34b7b32b27d5d4200e8fa28edca64c61ef568b86857c",
+    "size_bytes": 69250,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f7_kernel_module_decomposition_support_orbit_audit_v3.py",
+    "stored_modified_at": "2026-07-29T13:04:36.539908Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f7_kernel_module_decomposition_support_orbit_audit_v3.py",
+    "sha256": "b82cb5777cbbf360d4246fa732e07a9035f057e8d5d1f25dac314ad8207f1766",
+    "size_bytes": 58581,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f7_kernel_module_decomposition_support_orbit_audit_v2.py",
+    "stored_modified_at": "2026-07-29T12:09:54.076907Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f7_kernel_module_decomposition_support_orbit_audit_v2.py",
+    "sha256": "120517f2bb9f2cc90598f06edd05a026fcbe421ae998548bc4a6a98ff45b88fd",
+    "size_bytes": 56432,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f7_kernel_module_decomposition_support_orbit_audit.py",
+    "stored_modified_at": "2026-07-29T11:15:57.286296Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f7_kernel_module_decomposition_support_orbit_audit.py",
+    "sha256": "99916e31d4d1cf3162de2075fd81fd41c0479311bc3bc20cf4f29d2df9cba4f9",
+    "size_bytes": 55091,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f7_probe_spec.md",
+    "stored_modified_at": "2026-07-29T11:15:55.211042Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f7_probe_spec.md",
+    "sha256": "f4f9ef8d628cf89e6147d20cd8584eeb734c18626524135da023c79fbe6b5575",
+    "size_bytes": 10360,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f6_global_zero_mode_krylov_saturation_structure_audit_v7.py",
+    "stored_modified_at": "2026-07-29T10:37:23.319196Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f6_global_zero_mode_krylov_saturation_structure_audit_v7.py",
+    "sha256": "0e49cb6408cca9b22eda01c07f779c710e9e1ff7bbe74255c50e24b925694c24",
+    "size_bytes": 70953,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f6_global_zero_mode_krylov_saturation_structure_audit_v6.py",
+    "stored_modified_at": "2026-07-29T10:19:36.394642Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f6_global_zero_mode_krylov_saturation_structure_audit_v6.py",
+    "sha256": "d70fe0e209a4a9fd90a3c8474f5367723af4d809fcc7687988ba8db6c7eb6244",
+    "size_bytes": 69763,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f6_global_zero_mode_krylov_saturation_structure_audit_v5.py",
+    "stored_modified_at": "2026-07-28T09:47:53.554359Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f6_global_zero_mode_krylov_saturation_structure_audit_v5.py",
+    "sha256": "32c17a17c7e48328336365a5253b206e4fa7e025809ffe177c71484f1ae57d87",
+    "size_bytes": 68193,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f6_global_zero_mode_krylov_saturation_structure_audit_v4.py",
+    "stored_modified_at": "2026-07-28T07:12:04.200949Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f6_global_zero_mode_krylov_saturation_structure_audit_v4.py",
+    "sha256": "235cdba9c82c14742213b7be1b74382320974e9df2d1ec1ecfc2801c3d7ca7cc",
+    "size_bytes": 62297,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f4_probe_spec.md",
+    "stored_modified_at": "2026-07-27T13:23:05.686741Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f4_probe_spec.md",
+    "sha256": "66930eb03c15cd3a970ae72867864598e7440b7f52de46a87d8b7649940c1790",
+    "size_bytes": 6427,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f4_exact_rule_stability_mechanism_audit.py",
+    "stored_modified_at": "2026-07-27T13:23:03.652456Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f4_exact_rule_stability_mechanism_audit.py",
+    "sha256": "48dd49c302a89e7457f0a84a0a9a6e78737b00a2dc58be394b63e7821984711a",
+    "size_bytes": 39992,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f2_invisible_kernel_law_census.py",
+    "stored_modified_at": "2026-07-27T12:07:44.201917Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f2_invisible_kernel_law_census.py",
+    "sha256": "f20d4a405f932a178ad204f38044136e5c9bcfef8c03f89e2354d330ffae7264",
+    "size_bytes": 27407,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f_probe_spec.md",
+    "stored_modified_at": "2026-07-27T10:43:22.639930Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f_probe_spec.md",
+    "sha256": "b7604558247c24829a5f895fd9497e8c6750eebefeb29ea693a99791aec92191",
+    "size_bytes": 7220,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04f_invisible_complement_spectrum_symmetry_audit.py",
+    "stored_modified_at": "2026-07-27T10:43:19.676201Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f_invisible_complement_spectrum_symmetry_audit.py",
+    "sha256": "783e8f2307ebb7bdf5d40951f7cb43177ce433feabd1fc7776c39fd60aa6cb69",
+    "size_bytes": 55117,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04c_exact_restricted_action_certificate.py",
+    "stored_modified_at": "2026-07-26T06:14:29.310067Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04c_exact_restricted_action_certificate.py",
+    "sha256": "225475d0cc575845ceed56b7091b9d83df44daf91eb0f8bcb3cbe61c5e687785",
+    "size_bytes": 46918,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04c_probe_spec.md",
+    "stored_modified_at": "2026-07-26T06:14:27.028420Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04c_probe_spec.md",
+    "sha256": "72f2b325ceacc8cb745fa6b778b18791914d66415cc01a56fbf7a2d8881be4a9",
+    "size_bytes": 4901,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04b_cross_prime_rational_certification.py",
+    "stored_modified_at": "2026-07-26T05:21:23.945813Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04b_cross_prime_rational_certification.py",
+    "sha256": "1f981a1cc9708b1ae0af6ca483c83eaa49f557215d5cd0d147bf6be65e7a2e51",
+    "size_bytes": 31238,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04b_probe_spec.md",
+    "stored_modified_at": "2026-07-26T05:21:21.066530Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04b_probe_spec.md",
+    "sha256": "9fd5b1a5f621fad5ad3521c38372b91eb1abf9497c1a0297c6e98eca2b92107e",
+    "size_bytes": 4446,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04_minimal_krylov_closure.py",
+    "stored_modified_at": "2026-07-26T04:53:58.337962Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04_minimal_krylov_closure.py",
+    "sha256": "a66fa9099972f991f7686425f8e38dd7eb55331faba1d1340a69648cda9c7e4f",
+    "size_bytes": 25103,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04_result_note.md",
+    "stored_modified_at": "2026-07-25T15:30:04.606688Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04_result_note.md",
+    "sha256": "1b269a4692489d34538ef8a097721e71188fe8b3f10ca58bbaa6d3961675c098",
+    "size_bytes": 2190,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_04_probe_spec.md",
+    "stored_modified_at": "2026-07-25T15:29:52.756797Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04_probe_spec.md",
+    "sha256": "7e70a426b6451ec6b2755c8fb1afbddb0d8307285fe66b6bff5f47452ecd72e6",
+    "size_bytes": 4334,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_03_canonical_middle_block_bridge.py",
+    "stored_modified_at": "2026-07-25T14:47:57.643614Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_03_canonical_middle_block_bridge.py",
+    "sha256": "0f4cb70745e3d69da9d2491b089ff9193e740b6ecf69f464e83efc6a953aff95",
+    "size_bytes": 28780,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_03_result_note.md",
+    "stored_modified_at": "2026-07-25T14:47:51.663736Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_03_result_note.md",
+    "sha256": "2d7a1160edd0edd31dadb8a4165f013455ceb09f29504f51d03e93c3ece30d16",
+    "size_bytes": 3480,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_03_probe_spec.md",
+    "stored_modified_at": "2026-07-25T14:47:42.055381Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_03_probe_spec.md",
+    "sha256": "0ad6a62063d5c09a4f295d242ddacc9a90e5569e57d69bdc95a2a397ac52aa34",
+    "size_bytes": 3542,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_02_result_note.md",
+    "stored_modified_at": "2026-07-25T14:00:06.370107Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_02_result_note.md",
+    "sha256": "2c15e90d678590ee5f6ac785be51327be7a0cf8dc90468d3f402b6cf0b54286b",
+    "size_bytes": 3183,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_02_common_growth_groupoid_dual_functor.py",
+    "stored_modified_at": "2026-07-25T12:28:29.500435Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_02_common_growth_groupoid_dual_functor.py",
+    "sha256": "adf69b9e8af76e813579244dde0b75a2c78a0a8438f1b2f7110c0be791f01940",
+    "size_bytes": 40327,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_02_probe_spec.md",
+    "stored_modified_at": "2026-07-25T12:28:16.994023Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_02_probe_spec.md",
+    "sha256": "2487be39cdcd116c7e791c5363a8d862e1b97245a7ba33f390e0719cc0cf4e32",
+    "size_bytes": 4967,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_01_opw_amp_middle_block_identification.py",
+    "stored_modified_at": "2026-07-25T07:57:54.613977Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_01_opw_amp_middle_block_identification.py",
+    "sha256": "5baf7f02256784751c515e002dfc270eabc46a64548bea7f9ed467b2d4aada20",
+    "size_bytes": 17527,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_xbr_01_probe_spec.md",
+    "stored_modified_at": "2026-07-25T07:57:42.411123Z",
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_01_probe_spec.md",
+    "sha256": "44053c57bbd33e1cfafd77701bd7e2b4f8cffe580f03a2cd983d7dd902a2893c",
+    "size_bytes": 2207,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_qm3_05_critical_product_permutahedron.py",
+    "stored_modified_at": "2026-07-25T07:39:14.610141Z",
+    "destination": "research/opw/qm3/sources/ehf_qm3_05_critical_product_permutahedron.py",
+    "sha256": "831d0d5f1cd52b585557a130d894d1c261a3ef42fccda85df02545ec869439cd",
+    "size_bytes": 14916,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_qm3_05_probe_spec.md",
+    "stored_modified_at": "2026-07-25T07:39:04.059512Z",
+    "destination": "research/opw/qm3/sources/ehf_qm3_05_probe_spec.md",
+    "sha256": "f832d2418113131049b1be929916e254035f3d56a58d9af2e3a4fcc33eadcc1d",
+    "size_bytes": 2620,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_qm3_04_product_symmetric_representation.py",
+    "stored_modified_at": "2026-07-25T06:42:41.517242Z",
+    "destination": "research/opw/qm3/sources/ehf_qm3_04_product_symmetric_representation.py",
+    "sha256": "751e8d9a2348264f0421adceddc2a3115ab3ce1413e7a48d175822e41f7514d6",
+    "size_bytes": 34486,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_qm3_04_probe_spec.md",
+    "stored_modified_at": "2026-07-25T06:42:34.334672Z",
+    "destination": "research/opw/qm3/sources/ehf_qm3_04_probe_spec.md",
+    "sha256": "e2d43f4e078eea7a66c04e55aaf45fb5572f9a21676c56248e2c0ca6e0b0a003",
+    "size_bytes": 2824,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_qm3_03_chart_average_growth_symmetry.py",
+    "stored_modified_at": "2026-07-25T06:24:27.594596Z",
+    "destination": "research/opw/qm3/sources/ehf_qm3_03_chart_average_growth_symmetry.py",
+    "sha256": "e4b9298bfb459086a2d713a6ee0f44c4fc110ffc5b36be74fb7558ee1fb59e9d",
+    "size_bytes": 30553,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_qm3_03_probe_spec.md",
+    "stored_modified_at": "2026-07-25T06:24:11.745226Z",
+    "destination": "research/opw/qm3/sources/ehf_qm3_03_probe_spec.md",
+    "sha256": "873846b9f05aa8ceb8519a14246ed430c4db0a7c97a881d95a07c038d1c4213c",
+    "size_bytes": 3554,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_qm3_02_degenerate_slow_multiplet_chart_orbit.py",
+    "stored_modified_at": "2026-07-25T03:32:55.520938Z",
+    "destination": "research/opw/qm3/sources/ehf_qm3_02_degenerate_slow_multiplet_chart_orbit.py",
+    "sha256": "de7dc47c7af71b53560378f18cacdbc013c72033054137933cecf77c3ae571e1",
+    "size_bytes": 27806,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_qm3_02_probe_spec.md",
+    "stored_modified_at": "2026-07-25T03:32:41.770750Z",
+    "destination": "research/opw/qm3/sources/ehf_qm3_02_probe_spec.md",
+    "sha256": "f6588d5c949a220656bd9e85a1f7e3d277df32b782a768e325b9ac1b4071e0de",
+    "size_bytes": 2605,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_qm3_01_hilbert_lift_intrinsic_projectors.py",
+    "stored_modified_at": "2026-07-25T00:25:48.171158Z",
+    "destination": "research/opw/qm3/sources/ehf_qm3_01_hilbert_lift_intrinsic_projectors.py",
+    "sha256": "7c371f23ccbea422fd4a0e2d23f766c1b3f04fa6f3da408ea3da0cdb0bd73cc8",
+    "size_bytes": 22225,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_qm3_01_probe_spec.md",
+    "stored_modified_at": "2026-07-25T00:25:44.751089Z",
+    "destination": "research/opw/qm3/sources/ehf_qm3_01_probe_spec.md",
+    "sha256": "d737218fd8a310518e94f88f06ebd56fb8cbdfaad1a44fda2e1872d228d46700",
+    "size_bytes": 3213,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04a.zip :: ehf_amp_found_04a/summary.json",
+    "source_archive_sha256": "13fa29284e4bdf9a5f09873e29a75490e77a0064037abea5727e7364049df0d8",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_04a/summary.json",
+    "sha256": "35f39feda3817e5a9adcf2814b002c6f5f74164d571f4b7333518469ff884cef",
+    "size_bytes": 2023,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04a.zip :: ehf_amp_found_04a/gf3_representative_audit.csv",
+    "source_archive_sha256": "13fa29284e4bdf9a5f09873e29a75490e77a0064037abea5727e7364049df0d8",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_04a/gf3_representative_audit.csv",
+    "sha256": "fdc1bfeb0350c8b8adb7b024722eb5d4b9cc8103ab0991eb61f1478263f750b8",
+    "size_bytes": 982,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04a.zip :: ehf_amp_found_04a/run.log",
+    "source_archive_sha256": "13fa29284e4bdf9a5f09873e29a75490e77a0064037abea5727e7364049df0d8",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_04a/run.log",
+    "sha256": "2f9b78e0f2bebfd1bd844135288795ef5a9bf10baa85f58e2f5ac3ee42e86e29",
+    "size_bytes": 10627,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04a.zip :: ehf_amp_found_04a/channel_census_gf2.csv",
+    "source_archive_sha256": "13fa29284e4bdf9a5f09873e29a75490e77a0064037abea5727e7364049df0d8",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_04a/channel_census_gf2.csv",
+    "sha256": "b04ea3059ca6873d584266e4f6e15e00676a8fb659495fee957adfff6c55ef28",
+    "size_bytes": 19546,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04a.zip :: ehf_amp_found_04a/verdict.json",
+    "source_archive_sha256": "13fa29284e4bdf9a5f09873e29a75490e77a0064037abea5727e7364049df0d8",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_04a/verdict.json",
+    "sha256": "19f38bb2f8d0510b6f928382c0467aa815b4a76c6b6f71cd40382a18a1c2b443",
+    "size_bytes": 223,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04a.zip :: ehf_amp_found_04a/tail_signature_table.csv",
+    "source_archive_sha256": "13fa29284e4bdf9a5f09873e29a75490e77a0064037abea5727e7364049df0d8",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_04a/tail_signature_table.csv",
+    "sha256": "7ea2c80bf58e54fa02e23b561d04ebaf200ce643f8dd87ee1dca448a3308141f",
+    "size_bytes": 10328,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04a.zip :: ehf_amp_found_04a/tail_width_audit.csv",
+    "source_archive_sha256": "13fa29284e4bdf9a5f09873e29a75490e77a0064037abea5727e7364049df0d8",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_04a/tail_width_audit.csv",
+    "sha256": "bfa0d3b3cbc3dd9ac6005eb7fe5a4d348036f10aeeec29fcd2247882e551b034",
+    "size_bytes": 593,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04a.zip :: ehf_amp_found_04a/nine_point_engine_self_check.csv",
+    "source_archive_sha256": "13fa29284e4bdf9a5f09873e29a75490e77a0064037abea5727e7364049df0d8",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_04a/nine_point_engine_self_check.csv",
+    "sha256": "2adc53f490aaad42aed8cfa64ccc99680c068e24f6f51a3d8fd342975fa2009f",
+    "size_bytes": 911,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_04a.zip :: ehf_amp_found_04a/rank_distribution_gf2.csv",
+    "source_archive_sha256": "13fa29284e4bdf9a5f09873e29a75490e77a0064037abea5727e7364049df0d8",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_04a/rank_distribution_gf2.csv",
+    "sha256": "a153a9ad3fad853ca95a3ffd4ed23ab5f17e55baace945d49e79fba5bd8a9780",
+    "size_bytes": 620,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02d_seed29.zip :: ehf_amp_found_02d_seed29/summary.json",
+    "source_archive_sha256": "801a009923572bbafb03b7a857e13bcc99be135bbbb6e5b848ff0ba63e3605b3",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_02d_seed29/summary.json",
+    "sha256": "f00b614a98eccc66f438368fbfa55db217c200d15a5c334557e66718713ee2a5",
+    "size_bytes": 7041,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02d_seed29.zip :: ehf_amp_found_02d_seed29/exact_spectrum_audit.json",
+    "source_archive_sha256": "801a009923572bbafb03b7a857e13bcc99be135bbbb6e5b848ff0ba63e3605b3",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_02d_seed29/exact_spectrum_audit.json",
+    "sha256": "d9d55c7e423d02e8d6eddb780680a96f138169b390e3e1b76dfc55855c410aba",
+    "size_bytes": 851,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02d_seed29.zip :: ehf_amp_found_02d_seed29/flip_pair_overlap_matrix.csv",
+    "source_archive_sha256": "801a009923572bbafb03b7a857e13bcc99be135bbbb6e5b848ff0ba63e3605b3",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_02d_seed29/flip_pair_overlap_matrix.csv",
+    "sha256": "749bd1a9f4e182b164e123a3defe5127c1691c5ce6fedc51178634f25faa42b4",
+    "size_bytes": 12008,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02d_seed29.zip :: ehf_amp_found_02d_seed29/run.log",
+    "source_archive_sha256": "801a009923572bbafb03b7a857e13bcc99be135bbbb6e5b848ff0ba63e3605b3",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_02d_seed29/run.log",
+    "sha256": "a9b27c5572ca62c03104a24face280fa10b6c978094a20b5a3a6083906db26ea",
+    "size_bytes": 4290,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02d_seed29.zip :: ehf_amp_found_02d_seed29/exceptional_two_fibre_audit.json",
+    "source_archive_sha256": "801a009923572bbafb03b7a857e13bcc99be135bbbb6e5b848ff0ba63e3605b3",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_02d_seed29/exceptional_two_fibre_audit.json",
+    "sha256": "0f0b3f08efee46a647d21c05787646f26302521fc72729daf6a201fbc240bdfb",
+    "size_bytes": 1491,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02d_seed29.zip :: ehf_amp_found_02d_seed29/spectral_cluster_summary.csv",
+    "source_archive_sha256": "801a009923572bbafb03b7a857e13bcc99be135bbbb6e5b848ff0ba63e3605b3",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_02d_seed29/spectral_cluster_summary.csv",
+    "sha256": "2465503f4b4e215019f1265df9def35d67da840caf550e601f954b7583f67290",
+    "size_bytes": 210,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02d_seed29.zip :: ehf_amp_found_02d_seed29/flip_pair_audit.json",
+    "source_archive_sha256": "801a009923572bbafb03b7a857e13bcc99be135bbbb6e5b848ff0ba63e3605b3",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_02d_seed29/flip_pair_audit.json",
+    "sha256": "dcf3abb50981117076b80adc734dff8cacf97ad485e68ab812fa26c59411721c",
+    "size_bytes": 2588,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02d_seed29.zip :: ehf_amp_found_02d_seed29/operator_data.npz",
+    "source_archive_sha256": "801a009923572bbafb03b7a857e13bcc99be135bbbb6e5b848ff0ba63e3605b3",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_02d_seed29/operator_data.npz",
+    "sha256": "d7fd025bcb16b2d45ffaeb44e5ace7cce56ffef08294a453d32dbe9606a37a20",
+    "size_bytes": 597164,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02d_seed29.zip :: ehf_amp_found_02d_seed29/trace_moment_audit.csv",
+    "source_archive_sha256": "801a009923572bbafb03b7a857e13bcc99be135bbbb6e5b848ff0ba63e3605b3",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_02d_seed29/trace_moment_audit.csv",
+    "sha256": "5439d879c08cc6cc174c91336130242715967a405f25186b3c3663e8089cc4ee",
+    "size_bytes": 410,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02d_seed29.zip :: ehf_amp_found_02d_seed29/spectral_local_alignment.csv",
+    "source_archive_sha256": "801a009923572bbafb03b7a857e13bcc99be135bbbb6e5b848ff0ba63e3605b3",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_02d_seed29/spectral_local_alignment.csv",
+    "sha256": "b460f3e42433a30d40cd20425f423ca558976c88d2e8892b9e65c24e8fbdd8d3",
+    "size_bytes": 421,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "ehf_amp_found_02d_seed29.zip :: ehf_amp_found_02d_seed29/flip_pair_channel_summary.csv",
+    "source_archive_sha256": "801a009923572bbafb03b7a857e13bcc99be135bbbb6e5b848ff0ba63e3605b3",
+    "stored_modified_at": null,
+    "destination": "research/amplitudes/foundation/retained-runs/ehf_amp_found_02d_seed29/flip_pair_channel_summary.csv",
+    "sha256": "5cd13719ed644fe41ead2b67e527b9710af0d667094fe250cb69a807ae724988",
+    "size_bytes": 3677,
+    "import_status": "preserved"
+  },
+  {
+    "source_name": "EHF_XBR_documentation_2026-07-31.zip :: ehf_opw3_rebuild_working_document_v1_2.md",
+    "source_archive_sha256": "389e422b333f1fac70d954da1e76ec7b0355b62d13db151245d171cfe6a76dbc",
+    "stored_modified_at": null,
+    "destination": "research/opw/sources/ehf_opw3_rebuild_working_document_v1_2.md",
+    "sha256": "718758685e25f7c8dea281eaeab7c8339160c1466a520617f520bd77973eec89",
+    "size_bytes": 61068,
+    "import_status": "exact duplicate collapsed"
+  },
+  {
+    "source_name": "EHF_XBR_documentation_2026-07-31.zip :: ehf_xbr_04f_to_04f8_result_note.md",
+    "source_archive_sha256": "389e422b333f1fac70d954da1e76ec7b0355b62d13db151245d171cfe6a76dbc",
+    "stored_modified_at": null,
+    "destination": "research/opw-amp-bridge/sources/ehf_xbr_04f_to_04f8_result_note.md",
+    "sha256": "6e810913583feb176646580be42709be579db1e8cc03f49ec69fd5425a24564f",
+    "size_bytes": 10857,
+    "import_status": "exact duplicate collapsed"
+  }
+]

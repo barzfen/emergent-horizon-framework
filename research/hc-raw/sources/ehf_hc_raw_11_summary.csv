@@ -1,0 +1,9 @@
+question,answer,reason
+Can final HC_N reconstruct a nonconstant birth rank?,NO,S_N relabelling acts transitively on labels; no label is distinguished.
+Can one incoming growth map reconstruct full history?,NO,It identifies only the newest label; S_(N-1) still permutes all parent labels.
+Can the full one-site filtration reconstruct first-appearance stage?,YES,beta(v)=min{n:v in V_n} is determined by the nested tower.
+"Can an HC tower beginning at HC_3 reconstruct unique ranks 1,2,3,...?",NO,The three seed labels have identical first-appearance stage and residual S_3 symmetry.
+What is the exact invariant replacement for h on an HC_3-seeded tower?,TIED-SEED BIRTH-STAGE SUM,"H_beta(S)=sum beta(v), with all seed atoms assigned the same stage and later atoms their unique appearance stages."
+Does the canonical tied-seed observable retain the exact Johnson restoring drift?,YES,RAW-10B universal additive drift applies to any fixed label weights.
+Does the canonical tied-seed observable automatically retain the old constant Ollivier shell curvature?,NO IN GENERAL,Exact audits show the tied seed changes shell geometry; constant curvature is not guaranteed.
+How can unique linear birth rank become intrinsic?,EXTEND THE ATOM FILTRATION TO A ONE-ATOM SEED (OR ADD A SEED ORDER),For r=1 the filtration automorphism group on atoms is trivial and first-appearance stages are all distinct.
