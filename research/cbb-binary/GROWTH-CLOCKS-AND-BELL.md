@@ -1,6 +1,6 @@
 # Three-colour cycle growth, clocks and Bell tests
 
-This guide follows the EHF research series CROSS-39 through CROSS-58. It links every probe and its verifier, then indexes the earlier work that led to the series. [Repository home](../../README.md) · [CBB binary growth notes](README.md) · [Earlier QM bridge probes](../../probes/qm-bridge/README.md)
+This guide follows the EHF research series CROSS-39 through CROSS-63. It links every probe and its verifier, then indexes the earlier work that led to the series. [Repository home](../../README.md) · [CBB binary growth notes](README.md) · [Earlier QM bridge probes](../../probes/qm-bridge/README.md)
 
 ## Start here
 
@@ -51,6 +51,11 @@ The combinatorial results concern reachable cycles and the histories between the
 | [CROSS-56](CROSS-56-diagonal-phase.md) | Distinguishes two generators with identical single-pulse probabilities using a phase-sensitive echo. | [Python](cross56_diagonal_phase.py) |
 | [CROSS-57](CROSS-57-growth-phase.md) | Counts the exact survival slots and quantifies how a uniform growth lift leaks outside its reference subspace. | [Python](cross57_growth_phase.py) |
 | [CROSS-58](CROSS-58-growth-reference.md) | Proves a phase equivalence and shows that the grown children of one proper three-colour cycle cannot supply a stationary reference under all windows. | [Python](cross58_growth_reference.py) |
+| [CROSS-59](CROSS-59-growth-ratios.md) | Finds size-independent growth curves for weighted insertions and shows how the slot weights change reversal availability. | [Python](cross59_growth_ratios.py) |
+| [CROSS-60](CROSS-60-local-growth-clock.md) | Gives identical local clock traces at different sizes and derives noisy estimates of growth from local ticks under supplied rates. | [Python](cross60_local_growth_clock.py) |
+| [CROSS-61](CROSS-61-clock-bias.md) | Shows that full local ticks agree in law under a fixed bias and split at every threshold when the bias reverses halfway. | [Python](cross61_clock_bias.py) |
+| [CROSS-62](CROSS-62-blind-growth.md) | Recovers a finite ring's growth factor in expectation from representative local flip records, with a hidden-composition counterexample. | [JavaScript](cross62_blind_growth.js) |
+| [CROSS-63](CROSS-63-ecoli-lineage.md) | Compares fixed pole-following and random choices on six published bacterial lineage recordings. | [JavaScript](cross63_ecoli_lineage.js) |
 
 ### What the later probes resolve
 
@@ -62,13 +67,15 @@ An equal-phase stationary reference selects the negative Laplacian within the te
 
 ## Run the verifiers
 
-Run from the repository root with Python 3. The scripts use the standard library. Python 3.12.14 ran all 20 verifiers for this consolidation. The scripts include exact combinatorial and arithmetic checks, as well as numerical checks of the supplied coherent models. These runs did not externally review the proofs or rerun the older embedded scripts listed below.
+Run the Python verifiers from the repository root with Python 3. The scripts use the standard library. The 23 Python verifiers passed on Python 3.12.14. The scripts include exact combinatorial and arithmetic checks, as well as numerical checks of the supplied coherent models.
 
 ```sh
 for script in research/cbb-binary/cross[0-9]*.py; do
     python3 "$script" || exit
 done
 ```
+
+For CROSS-62 and CROSS-63, run `node research/cbb-binary/cross62_blind_growth.js` and `node research/cbb-binary/cross63_ecoli_lineage.js` from the repository root.
 
 Each note includes its own reproduction command and states the relevant bounds, controls and assumptions. Keep the scripts in this directory because several import earlier verifiers. For research provenance and licensing, see [CONTRIBUTING.md](../../CONTRIBUTING.md), [CITATION.cff](../../CITATION.cff) and [LICENSE.md](../../LICENSE.md).
 

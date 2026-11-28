@@ -19,7 +19,7 @@ For individual notes and proofs, jump to the [full research index](#full-researc
 
 | Topic | Entry points |
 | --- | --- |
-| **Hamiltonian growth and its colour extensions** | [Binary relational encoding](research/cbb-binary/README.md) introduces all-slot growth and its binary extension. [BIN, TRI and CROSS reader’s guide](research/cbb-binary/GROWTH-CLOCKS-AND-BELL.md) indexes the binary and three-colour studies of reversal reachability, winding, transport, records, clocks and Bell controls. |
+| **Hamiltonian growth and its colour extensions** | [Binary relational encoding](research/cbb-binary/README.md) introduces all-slot growth and its binary extension. [BIN, TRI and CROSS reader’s guide](research/cbb-binary/GROWTH-CLOCKS-AND-BELL.md) indexes the binary and three-colour studies of reversal reachability, winding, transport, records, clocks and Bell controls, through CROSS-63. |
 | **Wheeler series: constrained growth and entropy** | [Working paper](research/wheeler/paper-v0.1/README.md) · [Probe series](probes/wheeler/README.md) · [Review](research/wheeler/REVIEW-01.md) · [Reproduction code](code/wheeler/README.md). See [WHEELER-62](probes/wheeler/WHEELER-62.md) for entropy growth from the minimal seed and [WHEELER-61](probes/wheeler/WHEELER-61.md) for an exact entropy decrease from a different seed. [WHEELER-63](probes/wheeler/WHEELER-63.md) extends the bounded checks. The [summary](research/wheeler/SUMMARY-01.md) and [errata](probes/wheeler/ERRATA-01.md) give the scope and corrections. |
 | **MICRO growth and observer comparison** | [Observer compatibility audit](probes/micro/observer-compatibility-01/README.md) tests when projected observations retain a closed growth rule. [Julstce](probes/micro/julstce/README.md) gives an exact lower bound on how well the final shape can reveal detector order after growth. |
 | **Assumptions behind records and readout** | [Assumption audits 01–05](foundation/README.md) examine when relational roles are forced, how records form and survive, and what probe-gated writing adds. |
@@ -74,7 +74,7 @@ Every Markdown note, retained PDF and Lean proof file on the default branch is i
 ### Project guides and foundations
 
 <details>
-<summary>Show 11 entries</summary>
+<summary>Show 14 entries</summary>
 
 **Repository root**
 
@@ -111,12 +111,18 @@ Every Markdown note, retained PDF and Lean proof file on the default branch is i
 
 - [CONNECTIONS-01](research/foundations/CONNECTIONS-01.md)
 
+**`research/foundations/comparison-to-cycle/`**
+
+- [Guide](research/foundations/comparison-to-cycle/README.md)
+- [branch-shape-order](research/foundations/comparison-to-cycle/branch-shape-order.md)
+- [leaf-growth](research/foundations/comparison-to-cycle/leaf-growth.md)
+
 </details>
 
 ### Formal results and Lean proofs
 
 <details>
-<summary>Show 4 entries</summary>
+<summary>Show 6 entries</summary>
 
 **`formal/`**
 
@@ -127,13 +133,15 @@ Every Markdown note, retained PDF and Lean proof file on the default branch is i
 - [Guide](formal/lean/README.md)
 - [CycleGrowth.lean](formal/lean/CycleGrowth.lean)
 - [EdgeSplit.lean](formal/lean/EdgeSplit.lean)
+- [UNDIRECTED-GROWTH](formal/lean/UNDIRECTED-GROWTH.md)
+- [UndirectedCycles.lean](formal/lean/UndirectedCycles.lean)
 
 </details>
 
 ### Hamiltonian cycles and binary/three-colour growth
 
 <details>
-<summary>Show 90 entries</summary>
+<summary>Show 98 entries</summary>
 
 **`research/cbb-binary/`**
 
@@ -219,6 +227,11 @@ Every Markdown note, retained PDF and Lean proof file on the default branch is i
 - [TRI-07-sign-word-rewrite](research/cbb-binary/TRI-07-sign-word-rewrite.md)
 - [TRI-08-sign-run-audit](research/cbb-binary/TRI-08-sign-run-audit.md)
 - [TRI-09-greedy-normal-form-obstruction](research/cbb-binary/TRI-09-greedy-normal-form-obstruction.md)
+- [CROSS-59-growth-ratios](research/cbb-binary/CROSS-59-growth-ratios.md)
+- [CROSS-60-local-growth-clock](research/cbb-binary/CROSS-60-local-growth-clock.md)
+- [CROSS-61-clock-bias](research/cbb-binary/CROSS-61-clock-bias.md)
+- [CROSS-62-blind-growth](research/cbb-binary/CROSS-62-blind-growth.md)
+- [CROSS-63-ecoli-lineage](research/cbb-binary/CROSS-63-ecoli-lineage.md)
 
 **`research/hamiltonian-cycle/`**
 
@@ -230,6 +243,12 @@ Every Markdown note, retained PDF and Lean proof file on the default branch is i
 - [HC-06](research/hamiltonian-cycle/HC-06.md)
 - [HC-07](research/hamiltonian-cycle/HC-07.md)
 - [HC-08](research/hamiltonian-cycle/HC-08.md)
+- [ANTIPRIME-CYCLE-COUNTS](research/hamiltonian-cycle/ANTIPRIME-CYCLE-COUNTS.md)
+
+**`research/cbb-binary/reversal-building-blocks/`**
+
+- [Guide](research/cbb-binary/reversal-building-blocks/README.md)
+- [visible-phase](research/cbb-binary/reversal-building-blocks/visible-phase.md)
 
 </details>
 
@@ -461,7 +480,7 @@ Every Markdown note, retained PDF and Lean proof file on the default branch is i
 ### Quantum comparisons and signed graphs
 
 <details>
-<summary>Show 21 entries</summary>
+<summary>Show 22 entries</summary>
 
 **`probes/qm-bridge/`**
 
@@ -501,6 +520,10 @@ Every Markdown note, retained PDF and Lean proof file on the default branch is i
 - [SIGN-01](research/signed-graph-reconstruction/SIGN-01.md)
 - [SIGN-02](research/signed-graph-reconstruction/SIGN-02.md)
 - [SIGN-03](research/signed-graph-reconstruction/SIGN-03.md)
+
+**`probes/qm-bridge/label-parity/`**
+
+- [Guide](probes/qm-bridge/label-parity/README.md)
 
 </details>
 
